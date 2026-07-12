@@ -48,7 +48,13 @@ MAX_FALHAS = 10
 # Camada 2 - "melhor preco hoje": roda 1x/dia, na primeira rodada (6h BRT = 9h UTC),
 # para o canal nao ficar mudo enquanto o historico de 14 dias nao fecha.
 HORA_CAMADA2_UTC = 9
-LIMITE_CAMADA2 = 5
+
+# Fila de publicacao: quem posta de verdade e o publish_next.py, a cada 30 min
+# (07h-23h30 BRT = 34 disparos/dia). Aqui so decidimos o que ENTRA na fila.
+# O dedup por product_id em enfileirar() evita fila crescer sem controle -
+# so entra item novo, entao o limite por chamada e so um teto de seguranca.
+LIMITE_FILA_CAMADA1 = 34
+LIMITE_FILA_CAMADA2 = 34
 
 CAMPOS = ["data", "product_id", "nome", "preco", "n_ofertas", "item_id",
           "seller_id", "frete_gratis", "full", "permalink"]
@@ -451,6 +457,45 @@ def montar_camada2(o: dict, cfg: dict) -> str:
             f"{link(o['permalink'])}")
 
 
+def carregar_fila(d: Path) -> list[dict]:
+    f = d / "fila_publicacao.json"
+    if f.exists():
+        return json.loads(f.read_text(encoding="utf-8"))
+    return []
+
+
+def salvar_fila(d: Path, fila: list[dict]) -> None:
+    f = d / "fila_publicacao.json"
+    f.write_text(json.dumps(fila, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def enfileirar(d: Path, itens: list[dict], tipo: str, limite: int) -> int:
+    """
+    Adiciona itens na fila de publicacao (nao posta na hora - quem posta
+    e o publish_next.py, espacado a cada 30 min). Evita duplicar produto
+    que ja esta esperando vez na fila.
+    """
+    fila = carregar_fila(d)
+    ja_na_fila = {it["product_id"] for it in fila}
+    agora = datetime.now(timezone.utc).isoformat()
+
+    adicionados = 0
+    for o in itens:
+        if adicionados >= limite:
+            break
+        if o["product_id"] in ja_na_fila:
+            continue
+        item = dict(o)
+        item["tipo"] = tipo
+        item["enfileirado_em"] = agora
+        fila.append(item)
+        adicionados += 1
+
+    salvar_fila(d, fila)
+    print(f"[fila] +{adicionados} item(ns) tipo={tipo} | fila total: {len(fila)}")
+    return adicionados
+
+
 def publicar_lote(itens: list[dict], cfg: dict, montar_func, limite: int) -> None:
     chat = os.environ.get(cfg["telegram_chat_env"], "").strip()
     if not (TELEGRAM_TOKEN and chat):
@@ -564,8 +609,8 @@ def main() -> int:
                         encoding="utf-8")
         for o in ofertas[:10]:
             print(f"   R${o['preco']:.2f} (-{o['desconto']:.0f}%) {o['nome'][:50]}")
-        preparar_imagens(tk, ofertas[:5], wl)
-        publicar(ofertas, cfg)
+        preparar_imagens(tk, ofertas[:LIMITE_FILA_CAMADA1], wl)
+        enfileirar(d, ofertas, tipo="camada1", limite=LIMITE_FILA_CAMADA1)
     else:
         print("[ofertas] nenhuma - esperado enquanto o historico e curto")
 
@@ -578,17 +623,12 @@ def main() -> int:
         candidatos_c2 = detectar_camada2(hoje, ja_notificados, estado_c2)
 
         if candidatos_c2:
-            publicados_c2 = candidatos_c2[:LIMITE_CAMADA2]
-            for o in publicados_c2:
+            candidatos_c2 = candidatos_c2[:LIMITE_FILA_CAMADA2]
+            for o in candidatos_c2:
                 print(f"   [camada2] R${o['preco']:.2f} "
                       f"({o['n_ofertas']} vendedores) {o['nome'][:50]}")
-            preparar_imagens(tk, publicados_c2, wl)
-            publicar_lote(publicados_c2, cfg, montar_camada2, LIMITE_CAMADA2)
-
-            for o in publicados_c2:
-                estado_c2[o["product_id"]] = {
-                    "preco": o["preco"], "seller_id": o["seller_id"]}
-            salvar_estado_camada2(d, estado_c2)
+            preparar_imagens(tk, candidatos_c2, wl)
+            enfileirar(d, candidatos_c2, tipo="camada2", limite=LIMITE_FILA_CAMADA2)
         else:
             print("[camada2] nada novo pra postar hoje")
     else:
