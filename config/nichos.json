@@ -3,24 +3,35 @@
     "nome": "Livros",
     "emoji": "📚",
     "telegram_chat_env": "TELEGRAM_CHAT_LIVROS",
-    "domains_permitidos": ["MLB-BOOKS"],
+    "domains_permitidos": [
+      "MLB-BOOKS"
+    ],
     "preco_min": 15.0,
     "preco_max": 400.0,
-
     "exigir_frete_gratis": true,
     "sem_importados": true,
     "somente_novo": true,
-
     "excluir_no_nome": [
-      "en inglés", "en ingles", "in english", "english edition",
-      "edición en inglés", "edicion en ingles",
-      "tapa dura, en inglés", "hardcover", "paperback",
-      "usado", "seminovo", "semi novo", "semi-novo",
-      "importado", "import",
-      "en español", "em espanhol", "edición en español"
+      "en ingles",
+      "en inglés",
+      "in english",
+      "english edition",
+      "edicion en ingles",
+      "edición en inglés",
+      "hardcover",
+      "paperback",
+      "en espanol",
+      "en español",
+      "em espanhol",
+      "edicion en espanol",
+      "usado",
+      "seminovo",
+      "semi novo",
+      "semi-novo",
+      "importado",
+      "imported"
     ],
-    "exigir_no_nome": ["portug"],
-
+    "exigir_no_nome": [],
     "queries": [
       "harlan coben livro",
       "freida mcfadden livro",
@@ -50,7 +61,6 @@
       "livro classico literatura brasileira"
     ]
   },
-
   "bebes": {
     "nome": "Bebês e Maternidade",
     "emoji": "👶",
@@ -63,17 +73,20 @@
     ],
     "preco_min": 20.0,
     "preco_max": 3000.0,
-
     "exigir_frete_gratis": true,
     "sem_importados": true,
     "somente_novo": true,
-
     "excluir_no_nome": [
-      "usado", "seminovo", "semi novo", "semi-novo",
-      "importado", "import", "in english", "en inglés"
+      "usado",
+      "seminovo",
+      "semi novo",
+      "semi-novo",
+      "importado",
+      "import",
+      "in english",
+      "en inglés"
     ],
     "exigir_no_nome": [],
-
     "queries": [
       "fralda descartavel pacote",
       "lenco umedecido bebe",
