@@ -110,6 +110,31 @@ def nome_reprovado(nome: str, cfg: dict) -> str | None:
     return None
 
 
+def frete_zero(it: dict) -> bool:
+    """
+    O campo 'free_shipping' MENTE: vimos anuncio com free_shipping=false
+    e shipping.cost=0 (porque e Mercado Envios Full).
+    A verdade esta em shipping.cost.
+    """
+    sh = it.get("shipping") or {}
+    custo = sh.get("cost")
+    if custo is not None and float(custo) == 0:
+        return True
+    if sh.get("free_shipping"):
+        return True
+    if sh.get("logistic_type") == "fulfillment":
+        return True
+    if "fulfillment" in (sh.get("tags") or []):
+        return True
+    return False
+
+
+def eh_full(it: dict) -> bool:
+    sh = it.get("shipping") or {}
+    return (sh.get("logistic_type") == "fulfillment"
+            or "fulfillment" in (sh.get("tags") or []))
+
+
 def anuncio_reprovado(it: dict, cfg: dict) -> str | None:
     """Aplica os filtros de qualidade sobre UM anuncio."""
     if cfg.get("somente_novo", True) and it.get("condition") != "new":
@@ -123,14 +148,8 @@ def anuncio_reprovado(it: dict, cfg: dict) -> str | None:
             return "importado"
 
     if cfg.get("exigir_frete_gratis", False):
-        sh = it.get("shipping") or {}
-        gratis = bool(sh.get("free_shipping"))
-        full = (sh.get("logistic_type") == "fulfillment")
-        tags = sh.get("tags") or []
-        if "fulfillment" in tags:
-            full = True
-        if not (gratis or full):
-            return "sem frete gratis / full"
+        if not frete_zero(it):
+            return "frete pago"
 
     preco = it.get("price")
     if not preco:
@@ -222,14 +241,12 @@ def melhor_oferta(tk: str, pid: str, cfg: dict) -> dict | None:
     for it in results:
         if anuncio_reprovado(it, cfg):
             continue
-        sh = it.get("shipping") or {}
-        tags = sh.get("tags") or []
         aprovados.append({
             "preco": float(it["price"]),
             "item_id": it.get("item_id", ""),
             "seller_id": it.get("seller_id", ""),
-            "frete_gratis": bool(sh.get("free_shipping")),
-            "full": sh.get("logistic_type") == "fulfillment" or "fulfillment" in tags,
+            "frete_gratis": frete_zero(it),
+            "full": eh_full(it),
         })
 
     if not aprovados:
