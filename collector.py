@@ -2,14 +2,19 @@
 Coletor de ofertas - Mercado Livre (multi-nicho)
 
 Rastreia PRODUTOS do catalogo (id estavel), nunca anuncios.
-A cada rodada consulta TODOS os vendedores de cada produto e fica com o
-menor preco novo. Anuncio novo entra sozinho; anuncio morto sai sozinho.
+A cada rodada consulta TODOS os vendedores e escolhe a melhor oferta
+que passe nos filtros de qualidade.
+
+FILTROS DE QUALIDADE (definidos em config/nichos.json):
+  - somente produto NOVO
+  - somente moeda BRL, sem importados
+  - somente frete gratis ou Mercado Envios Full
+  - livros: somente edicao em portugues
+  - exclui nome com "usado", "in english", "importado", etc.
 
 Oferta REAL = preco de hoje muito abaixo da MEDIANA do proprio historico.
-Ignora o "de/por" inflado das lojas.
 
-Uso:  python collector.py <nicho>
-      python collector.py livros
+Uso:  python collector.py livros
       python collector.py bebes
 """
 
@@ -19,6 +24,7 @@ import csv
 import json
 import time
 import statistics
+import unicodedata
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
@@ -33,50 +39,105 @@ APP_SECRET = os.environ.get("ML_APP_SECRET", "").strip()
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "").strip()
 AFFILIATE_TAG = os.environ.get("ML_AFFILIATE_TAG", "").strip()
 
-MAX_WATCHLIST = 1200       # por nicho
-MIN_DIAS_HIST = 14         # historico minimo antes de afirmar "oferta"
-LIMIAR_QUEDA = 0.85        # preco <= 85% da mediana historica
-WORKERS = 8                # requisicoes em paralelo
-MAX_FALHAS = 10            # apos N rodadas sem oferta, some da watchlist
+MAX_WATCHLIST = 1200
+MIN_DIAS_HIST = 14
+LIMIAR_QUEDA = 0.85
+WORKERS = 8
+MAX_FALHAS = 10
 
-CAMPOS = ["data", "product_id", "nome", "preco", "n_ofertas",
-          "item_id", "seller_id", "frete_gratis", "permalink"]
+CAMPOS = ["data", "product_id", "nome", "preco", "n_ofertas", "item_id",
+          "seller_id", "frete_gratis", "full", "permalink"]
+
+sess = requests.Session()
+_dump_feito = False       # imprime o schema real de 1 anuncio, uma vez
 
 
 # ----------------------------------------------------------------------
 # HTTP
 # ----------------------------------------------------------------------
 
-sess = requests.Session()
-
-
 def get_token() -> str:
-    r = sess.post(
-        f"{API}/oauth/token",
-        headers={"Accept": "application/json",
-                 "Content-Type": "application/x-www-form-urlencoded"},
-        data={"grant_type": "client_credentials",
-              "client_id": APP_ID, "client_secret": APP_SECRET},
-        timeout=30,
-    )
+    r = sess.post(f"{API}/oauth/token",
+                  headers={"Accept": "application/json",
+                           "Content-Type": "application/x-www-form-urlencoded"},
+                  data={"grant_type": "client_credentials",
+                        "client_id": APP_ID, "client_secret": APP_SECRET},
+                  timeout=30)
     r.raise_for_status()
     print("[auth] token OK")
     return r.json()["access_token"]
 
 
 def GET(url: str, tk: str, params: dict | None = None):
-    for tentativa in range(3):
+    for t in range(3):
         try:
             r = sess.get(url, headers={"Authorization": f"Bearer {tk}"},
                          params=params, timeout=30)
             if r.status_code == 200:
                 return r.json()
-            if r.status_code == 429:            # rate limit -> respira
-                time.sleep(2 * (tentativa + 1))
+            if r.status_code == 429:
+                time.sleep(2 * (t + 1))
                 continue
             return None
         except Exception:
             time.sleep(1)
+    return None
+
+
+# ----------------------------------------------------------------------
+# FILTROS
+# ----------------------------------------------------------------------
+
+def normalizar(txt: str) -> str:
+    """minusculas e sem acento, para comparar de forma robusta"""
+    txt = (txt or "").lower()
+    return "".join(c for c in unicodedata.normalize("NFD", txt)
+                   if unicodedata.category(c) != "Mn")
+
+
+def nome_reprovado(nome: str, cfg: dict) -> str | None:
+    """Devolve o motivo da reprovacao, ou None se aprovado."""
+    n = normalizar(nome)
+
+    for termo in cfg.get("excluir_no_nome", []):
+        if normalizar(termo) in n:
+            return f"nome contem '{termo}'"
+
+    exigir = cfg.get("exigir_no_nome", [])
+    if exigir and not any(normalizar(t) in n for t in exigir):
+        return "nao confirma idioma portugues"
+
+    return None
+
+
+def anuncio_reprovado(it: dict, cfg: dict) -> str | None:
+    """Aplica os filtros de qualidade sobre UM anuncio."""
+    if cfg.get("somente_novo", True) and it.get("condition") != "new":
+        return "usado"
+
+    if cfg.get("sem_importados", True):
+        if it.get("currency_id") not in (None, "BRL"):
+            return "moeda estrangeira"
+        idm = it.get("international_delivery_mode")
+        if idm not in (None, "none", ""):
+            return "importado"
+
+    if cfg.get("exigir_frete_gratis", False):
+        sh = it.get("shipping") or {}
+        gratis = bool(sh.get("free_shipping"))
+        full = (sh.get("logistic_type") == "fulfillment")
+        tags = sh.get("tags") or []
+        if "fulfillment" in tags:
+            full = True
+        if not (gratis or full):
+            return "sem frete gratis / full"
+
+    preco = it.get("price")
+    if not preco:
+        return "sem preco"
+    if not (cfg.get("preco_min", 0) <= float(preco) <= cfg.get("preco_max", 1e9)):
+        return "fora da faixa de preco"
+
     return None
 
 
@@ -88,13 +149,14 @@ def descobrir(tk: str, cfg: dict, wl: dict) -> dict:
     permitidos = set(cfg.get("domains_permitidos") or [])
     bloqueados = set(cfg.get("domains_bloqueados") or [])
     novos = 0
+    recusas: dict[str, int] = {}
+
+    tarefas = [(q, off) for q in cfg["queries"] for off in (0, 10, 20, 30)]
 
     def busca(args):
         q, off = args
         return GET(f"{API}/products/search", tk,
                    {"site_id": SITE, "q": q, "offset": off})
-
-    tarefas = [(q, off) for q in cfg["queries"] for off in (0, 10, 20, 30)]
 
     with ThreadPoolExecutor(max_workers=WORKERS) as ex:
         for (q, _), data in zip(tarefas, ex.map(busca, tarefas)):
@@ -105,14 +167,22 @@ def descobrir(tk: str, cfg: dict, wl: dict) -> dict:
                     break
                 pid = p.get("id")
                 dom = p.get("domain_id") or ""
+                nome = p.get("name") or ""
+
                 if not pid or pid in wl:
                     continue
                 if permitidos and dom not in permitidos:
                     continue
                 if dom in bloqueados:
                     continue
+
+                motivo = nome_reprovado(nome, cfg)
+                if motivo:
+                    recusas[motivo] = recusas.get(motivo, 0) + 1
+                    continue
+
                 wl[pid] = {
-                    "nome": (p.get("name") or "")[:180],
+                    "nome": nome[:180],
                     "permalink": p.get("permalink")
                                  or f"https://www.mercadolivre.com.br/p/{pid}",
                     "dominio": dom,
@@ -122,6 +192,9 @@ def descobrir(tk: str, cfg: dict, wl: dict) -> dict:
                 novos += 1
 
     print(f"[descoberta] +{novos} novos | watchlist: {len(wl)}")
+    if recusas:
+        print("[descoberta] recusados:", dict(sorted(
+            recusas.items(), key=lambda x: -x[1])[:6]))
     return wl
 
 
@@ -129,32 +202,42 @@ def descobrir(tk: str, cfg: dict, wl: dict) -> dict:
 # COLETA
 # ----------------------------------------------------------------------
 
-def melhor_preco(tk: str, pid: str, cfg: dict) -> dict | None:
+def melhor_oferta(tk: str, pid: str, cfg: dict) -> dict | None:
+    global _dump_feito
+
     data = GET(f"{API}/products/{pid}/items", tk)
     if not data:
         return None
 
-    pmin = cfg.get("preco_min", 0)
-    pmax = cfg.get("preco_max", 10**9)
+    results = data.get("results", [])
 
-    ofertas = []
-    for it in data.get("results", []):
-        if it.get("condition") != "new":          # so produto novo
+    # imprime o schema real de um anuncio, uma unica vez, para conferencia
+    if results and not _dump_feito:
+        _dump_feito = True
+        print("\n[schema] estrutura real de um anuncio:")
+        print(json.dumps(results[0], ensure_ascii=False, indent=2)[:1800])
+        print("[schema] fim\n")
+
+    aprovados = []
+    for it in results:
+        if anuncio_reprovado(it, cfg):
             continue
-        preco = it.get("price")
-        if not preco or not (pmin <= float(preco) <= pmax):
-            continue
-        ofertas.append({
-            "preco": float(preco),
+        sh = it.get("shipping") or {}
+        tags = sh.get("tags") or []
+        aprovados.append({
+            "preco": float(it["price"]),
             "item_id": it.get("item_id", ""),
             "seller_id": it.get("seller_id", ""),
-            "frete_gratis": bool((it.get("shipping") or {}).get("free_shipping")),
+            "frete_gratis": bool(sh.get("free_shipping")),
+            "full": sh.get("logistic_type") == "fulfillment" or "fulfillment" in tags,
         })
 
-    if not ofertas:
+    if not aprovados:
         return None
-    melhor = min(ofertas, key=lambda x: x["preco"])
-    melhor["n_ofertas"] = len(ofertas)
+
+    # entre os aprovados, o mais barato. Empate -> prefere Full (entrega rapida)
+    melhor = min(aprovados, key=lambda x: (x["preco"], not x["full"]))
+    melhor["n_ofertas"] = len(aprovados)
     return melhor
 
 
@@ -163,10 +246,10 @@ def coletar(tk: str, cfg: dict, wl: dict) -> tuple[list[dict], dict]:
     pids = list(wl.keys())
 
     with ThreadPoolExecutor(max_workers=WORKERS) as ex:
-        resultados = list(ex.map(lambda p: melhor_preco(tk, p, cfg), pids))
+        res = list(ex.map(lambda p: melhor_oferta(tk, p, cfg), pids))
 
     linhas, mortos = [], []
-    for pid, m in zip(pids, resultados):
+    for pid, m in zip(pids, res):
         meta = wl[pid]
         if not m:
             meta["falhas"] = meta.get("falhas", 0) + 1
@@ -183,15 +266,16 @@ def coletar(tk: str, cfg: dict, wl: dict) -> tuple[list[dict], dict]:
             "item_id": m["item_id"],
             "seller_id": m["seller_id"],
             "frete_gratis": m["frete_gratis"],
+            "full": m["full"],
             "permalink": meta["permalink"],
         })
 
     for pid in mortos:
         wl.pop(pid, None)
     if mortos:
-        print(f"[limpeza] {len(mortos)} produtos mortos removidos")
+        print(f"[limpeza] {len(mortos)} produtos sem oferta valida removidos")
 
-    print(f"[coleta] {len(linhas)}/{len(pids)} produtos com preco")
+    print(f"[coleta] {len(linhas)}/{len(pids)} produtos com oferta aprovada")
     return linhas, wl
 
 
@@ -245,16 +329,15 @@ def link(url: str) -> str:
 
 def montar(o: dict, cfg: dict) -> str:
     selo = "MENOR PRECO JA REGISTRADO" if o["recorde"] else "QUEDA REAL DE PRECO"
-    frete = "\nFrete gratis" if o["frete_gratis"] else ""
-    return (
-        f"{cfg['emoji']} {selo}\n\n"
-        f"{o['nome']}\n\n"
-        f"Por R$ {o['preco']:.2f}\n"
-        f"Preco habitual: R$ {o['mediana']:.2f}\n"
-        f"{o['desconto']:.0f}% abaixo do normal"
-        f"{frete}\n\n"
-        f"{link(o['permalink'])}"
-    )
+    entrega = "\nEntrega Full" if o.get("full") else (
+        "\nFrete gratis" if o.get("frete_gratis") else "")
+    return (f"{cfg['emoji']} {selo}\n\n"
+            f"{o['nome']}\n\n"
+            f"Por R$ {o['preco']:.2f}\n"
+            f"Preco habitual: R$ {o['mediana']:.2f}\n"
+            f"{o['desconto']:.0f}% abaixo do normal"
+            f"{entrega}\n\n"
+            f"{link(o['permalink'])}")
 
 
 def publicar(ofertas: list[dict], cfg: dict, limite: int = 5) -> None:
@@ -283,11 +366,11 @@ def main() -> int:
         return 1
     nicho = sys.argv[1]
 
-    cfg_all = json.loads(Path("config/nichos.json").read_text(encoding="utf-8"))
-    if nicho not in cfg_all:
-        print(f"[!] nicho '{nicho}' nao existe. Disponiveis: {list(cfg_all)}")
+    todos = json.loads(Path("config/nichos.json").read_text(encoding="utf-8"))
+    if nicho not in todos:
+        print(f"[!] nicho '{nicho}' nao existe. Disponiveis: {list(todos)}")
         return 1
-    cfg = cfg_all[nicho]
+    cfg = todos[nicho]
 
     print("=" * 64)
     print(f"{cfg['emoji']} {cfg['nome']} - {datetime.now(timezone.utc):%Y-%m-%d %H:%M} UTC")
@@ -301,7 +384,7 @@ def main() -> int:
     d.mkdir(parents=True, exist_ok=True)
     f_wl, f_hist, f_of = d / "watchlist.json", d / "historico.csv", d / "ofertas.json"
 
-    # migra historico antigo (que ficava solto em data/) para data/livros/
+    # migra o historico antigo (data/*.csv) para data/livros/
     if nicho == "livros":
         for antigo, novo in ((Path("data/watchlist.json"), f_wl),
                              (Path("data/historico.csv"), f_hist)):
@@ -312,6 +395,14 @@ def main() -> int:
     tk = get_token()
 
     wl = json.loads(f_wl.read_text(encoding="utf-8")) if f_wl.exists() else {}
+
+    # remove da watchlist o que nao passa mais nos filtros novos
+    antes = len(wl)
+    wl = {pid: m for pid, m in wl.items()
+          if not nome_reprovado(m.get("nome", ""), cfg)}
+    if antes != len(wl):
+        print(f"[filtro] {antes - len(wl)} produtos removidos por filtro de nome")
+
     wl = descobrir(tk, cfg, wl)
 
     hist: dict[str, list[dict]] = {}
