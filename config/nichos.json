@@ -6,6 +6,21 @@
     "domains_permitidos": ["MLB-BOOKS"],
     "preco_min": 15.0,
     "preco_max": 400.0,
+
+    "exigir_frete_gratis": true,
+    "sem_importados": true,
+    "somente_novo": true,
+
+    "excluir_no_nome": [
+      "en inglés", "en ingles", "in english", "english edition",
+      "edición en inglés", "edicion en ingles",
+      "tapa dura, en inglés", "hardcover", "paperback",
+      "usado", "seminovo", "semi novo", "semi-novo",
+      "importado", "import",
+      "en español", "em espanhol", "edición en español"
+    ],
+    "exigir_no_nome": ["portug"],
+
     "queries": [
       "harlan coben livro",
       "freida mcfadden livro",
@@ -48,6 +63,17 @@
     ],
     "preco_min": 20.0,
     "preco_max": 3000.0,
+
+    "exigir_frete_gratis": true,
+    "sem_importados": true,
+    "somente_novo": true,
+
+    "excluir_no_nome": [
+      "usado", "seminovo", "semi novo", "semi-novo",
+      "importado", "import", "in english", "en inglés"
+    ],
+    "exigir_no_nome": [],
+
     "queries": [
       "fralda descartavel pacote",
       "lenco umedecido bebe",
@@ -86,7 +112,6 @@
       "almofada amamentacao",
       "cinta pos parto",
       "brinquedo montessori bebe",
-      "livro banho bebe",
       "andador bebe",
       "balanco cadeira descanso bebe"
     ]
