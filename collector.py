@@ -226,6 +226,32 @@ def descobrir(tk: str, cfg: dict, wl: dict) -> dict:
 # COLETA
 # ----------------------------------------------------------------------
 
+def obter_imagem_produto(tk: str, pid: str) -> str | None:
+    """
+    Busca a foto oficial do PRODUTO no catalogo (nao do anuncio de um
+    vendedor especifico). E estavel - a mesma foto vale pra qualquer
+    vendedor daquele produto. So chamamos isso pros poucos itens que
+    realmente vao virar post, nunca pra watchlist inteira.
+    """
+    data = GET(f"{API}/products/{pid}", tk)
+    if not data:
+        return None
+    pics = data.get("pictures") or []
+    if not pics:
+        return None
+    return pics[0].get("url") or pics[0].get("secure_url")
+
+
+def preparar_imagens(tk: str, itens: list[dict], wl: dict) -> None:
+    """Preenche o campo 'imagem' de cada item, usando cache em wl quando existe."""
+    for o in itens:
+        pid = o["product_id"]
+        meta = wl.setdefault(pid, {})
+        if "imagem" not in meta:
+            meta["imagem"] = obter_imagem_produto(tk, pid) or ""
+        o["imagem"] = meta["imagem"] or None
+
+
 def melhor_oferta(tk: str, pid: str, cfg: dict) -> dict | None:
     global _dump_feito
 
@@ -431,10 +457,24 @@ def publicar_lote(itens: list[dict], cfg: dict, montar_func, limite: int) -> Non
         print(f"[telegram] {cfg['telegram_chat_env']} nao configurado")
         return
     for o in itens[:limite]:
+        texto = montar_func(o, cfg)
+        imagem = o.get("imagem")
         try:
-            r = sess.post(
-                f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
-                json={"chat_id": chat, "text": montar_func(o, cfg)}, timeout=20)
+            if imagem:
+                r = sess.post(
+                    f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPhoto",
+                    json={"chat_id": chat, "photo": imagem,
+                          "caption": texto[:1024]}, timeout=20)
+                if r.status_code != 200:
+                    print(f"[telegram] sendPhoto falhou ({r.status_code}), "
+                          f"tentando sem imagem")
+                    r = sess.post(
+                        f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
+                        json={"chat_id": chat, "text": texto}, timeout=20)
+            else:
+                r = sess.post(
+                    f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
+                    json={"chat_id": chat, "text": texto}, timeout=20)
             print(f"[telegram] {r.status_code} - {o['nome'][:45]}")
             time.sleep(1)
         except Exception as e:
@@ -524,6 +564,7 @@ def main() -> int:
                         encoding="utf-8")
         for o in ofertas[:10]:
             print(f"   R${o['preco']:.2f} (-{o['desconto']:.0f}%) {o['nome'][:50]}")
+        preparar_imagens(tk, ofertas[:5], wl)
         publicar(ofertas, cfg)
     else:
         print("[ofertas] nenhuma - esperado enquanto o historico e curto")
@@ -541,6 +582,7 @@ def main() -> int:
             for o in publicados_c2:
                 print(f"   [camada2] R${o['preco']:.2f} "
                       f"({o['n_ofertas']} vendedores) {o['nome'][:50]}")
+            preparar_imagens(tk, publicados_c2, wl)
             publicar_lote(publicados_c2, cfg, montar_camada2, LIMITE_CAMADA2)
 
             for o in publicados_c2:
@@ -552,6 +594,9 @@ def main() -> int:
     else:
         print(f"[camada2] pulado (roda so as {HORA_CAMADA2_UTC}h UTC "
               f"/ 6h BRT; agora sao {hora_atual}h UTC)")
+
+    # imagens buscadas acima ficam em cache no wl - persiste de novo
+    f_wl.write_text(json.dumps(wl, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print("OK")
     return 0
