@@ -45,6 +45,11 @@ LIMIAR_QUEDA = 0.85
 WORKERS = 8
 MAX_FALHAS = 10
 
+# Camada 2 - "melhor preco hoje": roda 1x/dia, na primeira rodada (6h BRT = 9h UTC),
+# para o canal nao ficar mudo enquanto o historico de 14 dias nao fecha.
+HORA_CAMADA2_UTC = 9
+LIMITE_CAMADA2 = 5
+
 CAMPOS = ["data", "product_id", "nome", "preco", "n_ofertas", "item_id",
           "seller_id", "frete_gratis", "full", "permalink"]
 
@@ -335,6 +340,53 @@ def detectar(hoje: list[dict], hist: dict[str, list[dict]]) -> list[dict]:
 
 
 # ----------------------------------------------------------------------
+# CAMADA 2 - MELHOR PRECO HOJE (canal nao fica mudo nos 14 dias de historico)
+# ----------------------------------------------------------------------
+
+def carregar_estado_camada2(d: Path) -> dict:
+    f = d / "camada2_state.json"
+    if f.exists():
+        return json.loads(f.read_text(encoding="utf-8"))
+    return {}
+
+
+def salvar_estado_camada2(d: Path, estado: dict) -> None:
+    f = d / "camada2_state.json"
+    f.write_text(json.dumps(estado, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def detectar_camada2(hoje: list[dict], ja_notificados: set[str],
+                      estado: dict) -> list[dict]:
+    """
+    Melhor preco entre os vendedores, HOJE - nao afirma queda nenhuma,
+    so informa o menor preco atual. NUNCA usa a palavra 'oferta' ou 'desconto'.
+
+    Pula produto que:
+      - ja disparou Camada 1 hoje (evita duplicar mensagem do mesmo produto)
+      - nao mudou de preco/vendedor desde o ultimo post desta camada
+        (evita o canal repetir o mesmo post todo dia sem nada de novo)
+    """
+    candidatos = []
+    for item in hoje:
+        pid = item["product_id"]
+        if pid in ja_notificados:
+            continue
+
+        anterior = estado.get(pid)
+        if (anterior
+                and anterior.get("preco") == item["preco"]
+                and anterior.get("seller_id") == item["seller_id"]):
+            continue
+
+        candidatos.append(item)
+
+    # prioriza produtos com mais vendedores concorrendo (comparacao mais forte)
+    candidatos.sort(key=lambda x: x["n_ofertas"], reverse=True)
+    print(f"[camada2] {len(candidatos)} produtos com preco novo/mudado")
+    return candidatos
+
+
+# ----------------------------------------------------------------------
 # PUBLICACAO
 # ----------------------------------------------------------------------
 
@@ -357,20 +409,40 @@ def montar(o: dict, cfg: dict) -> str:
             f"{link(o['permalink'])}")
 
 
-def publicar(ofertas: list[dict], cfg: dict, limite: int = 5) -> None:
+def montar_camada2(o: dict, cfg: dict) -> str:
+    """
+    Camada 2: NUNCA afirma queda de preco (nao ha historico suficiente
+    ainda para saber se caiu). So informa o melhor preco entre os
+    vendedores hoje - e o unico selo honesto possivel neste estagio.
+    """
+    entrega = "\nEntrega Full" if o.get("full") else (
+        "\nFrete gratis" if o.get("frete_gratis") else "")
+    return (f"{cfg['emoji']} MELHOR PRECO ENTRE OS VENDEDORES HOJE\n\n"
+            f"{o['nome']}\n\n"
+            f"R$ {o['preco']:.2f}\n"
+            f"(comparado entre {o['n_ofertas']} vendedores)"
+            f"{entrega}\n\n"
+            f"{link(o['permalink'])}")
+
+
+def publicar_lote(itens: list[dict], cfg: dict, montar_func, limite: int) -> None:
     chat = os.environ.get(cfg["telegram_chat_env"], "").strip()
     if not (TELEGRAM_TOKEN and chat):
         print(f"[telegram] {cfg['telegram_chat_env']} nao configurado")
         return
-    for o in ofertas[:limite]:
+    for o in itens[:limite]:
         try:
             r = sess.post(
                 f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
-                json={"chat_id": chat, "text": montar(o, cfg)}, timeout=20)
+                json={"chat_id": chat, "text": montar_func(o, cfg)}, timeout=20)
             print(f"[telegram] {r.status_code} - {o['nome'][:45]}")
             time.sleep(1)
         except Exception as e:
             print(f"[telegram] erro: {e}")
+
+
+def publicar(ofertas: list[dict], cfg: dict, limite: int = 5) -> None:
+    publicar_lote(ofertas, cfg, montar, limite)
 
 
 # ----------------------------------------------------------------------
@@ -455,6 +527,31 @@ def main() -> int:
         publicar(ofertas, cfg)
     else:
         print("[ofertas] nenhuma - esperado enquanto o historico e curto")
+
+    # Camada 2 - so na primeira rodada do dia, pra nao repetir 4x
+    hora_atual = datetime.now(timezone.utc).hour
+    forcar_c2 = os.environ.get("FORCAR_CAMADA2", "").strip() == "1"
+    if hora_atual == HORA_CAMADA2_UTC or forcar_c2:
+        ja_notificados = {o["product_id"] for o in ofertas}
+        estado_c2 = carregar_estado_camada2(d)
+        candidatos_c2 = detectar_camada2(hoje, ja_notificados, estado_c2)
+
+        if candidatos_c2:
+            publicados_c2 = candidatos_c2[:LIMITE_CAMADA2]
+            for o in publicados_c2:
+                print(f"   [camada2] R${o['preco']:.2f} "
+                      f"({o['n_ofertas']} vendedores) {o['nome'][:50]}")
+            publicar_lote(publicados_c2, cfg, montar_camada2, LIMITE_CAMADA2)
+
+            for o in publicados_c2:
+                estado_c2[o["product_id"]] = {
+                    "preco": o["preco"], "seller_id": o["seller_id"]}
+            salvar_estado_camada2(d, estado_c2)
+        else:
+            print("[camada2] nada novo pra postar hoje")
+    else:
+        print(f"[camada2] pulado (roda so as {HORA_CAMADA2_UTC}h UTC "
+              f"/ 6h BRT; agora sao {hora_atual}h UTC)")
 
     print("OK")
     return 0
