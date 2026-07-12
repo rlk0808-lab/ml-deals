@@ -2,7 +2,7 @@ name: Coletor de ofertas ML
 
 on:
   schedule:
-    # 4 rodadas/dia (UTC): 09h, 13h, 17h, 22h  ->  06h, 10h, 14h, 19h Brasilia
+    # 4 rodadas/dia (UTC) -> 06h, 10h, 14h, 19h Brasilia
     - cron: "0 9,13,17,22 * * *"
   workflow_dispatch:
 
@@ -13,9 +13,8 @@ jobs:
   coletar:
     runs-on: ubuntu-latest
 
-    # roda os nichos em sequencia para evitar conflito no git push
     strategy:
-      max-parallel: 1
+      max-parallel: 1        # em sequencia, para nao conflitar no push
       matrix:
         nicho: [livros, bebes]
 
@@ -42,11 +41,8 @@ jobs:
         run: |
           git config user.name  "coletor-bot"
           git config user.email "coletor-bot@users.noreply.github.com"
-          git pull --rebase origin main || true
           git add data/
-          if git diff --staged --quiet; then
-            echo "Nada novo"
-          else
-            git commit -m "${{ matrix.nicho }}: $(date -u +%Y-%m-%d\ %H:%M)"
-            git push
-          fi
+          # commita ANTES do pull (senao o rebase falha com mudancas soltas)
+          git commit -m "${{ matrix.nicho }}: $(date -u +%Y-%m-%d\ %H:%M)" || echo "nada novo"
+          git pull --rebase origin main
+          git push
