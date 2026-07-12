@@ -1,47 +1,52 @@
-name: Coletor de precos ML
+name: Coletor de ofertas ML
 
 on:
   schedule:
-    # 09:00 e 21:00 UTC = 06:00 e 18:00 em Brasilia
-    - cron: "0 9,21 * * *"
-  workflow_dispatch:        # permite rodar manualmente pelo botao
+    # 4 rodadas/dia (UTC): 09h, 13h, 17h, 22h  ->  06h, 10h, 14h, 19h Brasilia
+    - cron: "0 9,13,17,22 * * *"
+  workflow_dispatch:
 
 permissions:
-  contents: write           # necessario para commitar o historico
+  contents: write
 
 jobs:
   coletar:
     runs-on: ubuntu-latest
 
-    steps:
-      - name: Baixar repositorio
-        uses: actions/checkout@v4
+    # roda os nichos em sequencia para evitar conflito no git push
+    strategy:
+      max-parallel: 1
+      matrix:
+        nicho: [livros, bebes]
 
-      - name: Instalar Python
-        uses: actions/setup-python@v5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Instalar dependencias
-        run: pip install -r requirements.txt
+      - run: pip install -r requirements.txt
 
-      - name: Rodar coletor
+      - name: Coletar ${{ matrix.nicho }}
         env:
-          ML_APP_ID: ${{ secrets.ML_APP_ID }}
-          ML_APP_SECRET: ${{ secrets.ML_APP_SECRET }}
-          ML_AFFILIATE_TAG: ${{ secrets.ML_AFFILIATE_TAG }}
-          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python collector.py
+          ML_APP_ID:            ${{ secrets.ML_APP_ID }}
+          ML_APP_SECRET:        ${{ secrets.ML_APP_SECRET }}
+          ML_AFFILIATE_TAG:     ${{ secrets.ML_AFFILIATE_TAG }}
+          TELEGRAM_TOKEN:       ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_LIVROS: ${{ secrets.TELEGRAM_CHAT_LIVROS }}
+          TELEGRAM_CHAT_BEBES:  ${{ secrets.TELEGRAM_CHAT_BEBES }}
+        run: python collector.py ${{ matrix.nicho }}
 
-      - name: Salvar historico no repositorio
+      - name: Salvar historico
         run: |
           git config user.name  "coletor-bot"
           git config user.email "coletor-bot@users.noreply.github.com"
+          git pull --rebase origin main || true
           git add data/
           if git diff --staged --quiet; then
-            echo "Nada novo para commitar"
+            echo "Nada novo"
           else
-            git commit -m "precos: $(date -u +%Y-%m-%d)"
+            git commit -m "${{ matrix.nicho }}: $(date -u +%Y-%m-%d\ %H:%M)"
             git push
           fi
