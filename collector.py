@@ -457,6 +457,41 @@ def montar_camada2(o: dict, cfg: dict) -> str:
             f"{link(o['permalink'])}")
 
 
+def refrescar_camada2_na_fila(d: Path, hoje: list[dict]) -> int:
+    """
+    Atualiza os itens de Camada 2 que ainda estao esperando vez na fila
+    com o preco coletado AGORA. Roda em toda execucao do coletor (nao so
+    na hora da deteccao), entao a fila nunca fica mais desatualizada que
+    o intervalo entre rodadas (~4-5h) - a validade de seguranca so entra
+    em acao se o produto sumir da coleta (ex: ficou sem estoque).
+    """
+    fila = carregar_fila(d)
+    recentes = {item["product_id"]: item for item in hoje}
+    agora = datetime.now(timezone.utc).isoformat()
+
+    atualizados = 0
+    for it in fila:
+        if it.get("tipo") != "camada2":
+            continue
+        atual = recentes.get(it["product_id"])
+        if not atual:
+            continue
+        it["preco"] = atual["preco"]
+        it["n_ofertas"] = atual["n_ofertas"]
+        it["seller_id"] = atual["seller_id"]
+        it["permalink"] = atual["permalink"]
+        it["full"] = atual["full"]
+        it["frete_gratis"] = atual["frete_gratis"]
+        it["enfileirado_em"] = agora
+        atualizados += 1
+
+    if atualizados:
+        salvar_fila(d, fila)
+        print(f"[fila] {atualizados} item(ns) de camada2 na fila atualizados "
+              f"com preco recente")
+    return atualizados
+
+
 def carregar_fila(d: Path) -> list[dict]:
     f = d / "fila_publicacao.json"
     if f.exists():
@@ -602,6 +637,8 @@ def main() -> int:
 
     dias = len({r["data"] for rs in hist.values() for r in rs})
     print(f"[hist] {dias} dia(s) acumulados (precisa de {MIN_DIAS_HIST})")
+
+    refrescar_camada2_na_fila(d, hoje)
 
     ofertas = detectar(hoje, hist)
     if ofertas:
