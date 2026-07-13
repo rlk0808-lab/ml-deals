@@ -55,6 +55,7 @@ HORA_CAMADA2_UTC = 9
 # so entra item novo, entao o limite por chamada e so um teto de seguranca.
 LIMITE_FILA_CAMADA1 = 34
 LIMITE_FILA_CAMADA2 = 34
+LIMITE_FILA_FALSO_DESCONTO = 3  # esporadico de proposito - e conteudo de "flagrante", nao de rotina
 
 CAMPOS = ["data", "product_id", "nome", "preco", "n_ofertas", "item_id",
           "seller_id", "frete_gratis", "full", "permalink"]
@@ -278,8 +279,10 @@ def melhor_oferta(tk: str, pid: str, cfg: dict) -> dict | None:
     for it in results:
         if anuncio_reprovado(it, cfg):
             continue
+        op = it.get("original_price")
         aprovados.append({
             "preco": float(it["price"]),
+            "preco_original": float(op) if op else None,  # o "de" que a loja anuncia
             "item_id": it.get("item_id", ""),
             "seller_id": it.get("seller_id", ""),
             "frete_gratis": frete_zero(it),
@@ -316,6 +319,7 @@ def coletar(tk: str, cfg: dict, wl: dict) -> tuple[list[dict], dict]:
             "product_id": pid,
             "nome": meta["nome"].replace(";", ",").replace("\n", " "),
             "preco": round(m["preco"], 2),
+            "preco_original": round(m["preco_original"], 2) if m.get("preco_original") else None,
             "n_ofertas": m["n_ofertas"],
             "item_id": m["item_id"],
             "seller_id": m["seller_id"],
@@ -337,6 +341,25 @@ def coletar(tk: str, cfg: dict, wl: dict) -> tuple[list[dict], dict]:
 # DETECCAO
 # ----------------------------------------------------------------------
 
+def preco_por_dia(regs: list[dict]) -> dict[str, float]:
+    """1 preco representativo por dia (o menor do dia). Se usassemos todas
+    as linhas cruas, um dia com mais rodadas de coleta pesaria mais que um
+    dia com menos rodadas na mediana - e a frequencia de coleta muda ao
+    longo do tempo (comecou 4x/dia, pode subir depois). Assim a mediana
+    representa "preco normal por dia", nao "por coleta". Usada tanto pela
+    deteccao de oferta real quanto pela de falso desconto."""
+    por_dia: dict[str, float] = {}
+    for r in regs:
+        try:
+            p = float(r["preco"])
+        except (ValueError, TypeError):
+            continue
+        data = r["data"]
+        if data not in por_dia or p < por_dia[data]:
+            por_dia[data] = p
+    return por_dia
+
+
 def detectar(hoje: list[dict], hist: dict[str, list[dict]]) -> list[dict]:
     ofertas = []
     for item in hoje:
@@ -344,22 +367,7 @@ def detectar(hoje: list[dict], hist: dict[str, list[dict]]) -> list[dict]:
         if len({r["data"] for r in regs}) < MIN_DIAS_HIST:
             continue
 
-        # 1 preco representativo por dia (o menor do dia). Se usassemos
-        # todas as linhas cruas, um dia com mais rodadas de coleta pesaria
-        # mais que um dia com menos rodadas na mediana - e a frequencia de
-        # coleta muda ao longo do tempo (comecou 4x/dia, pode subir depois).
-        # Assim a mediana representa "preco normal por dia", nao "por coleta".
-        por_dia: dict[str, float] = {}
-        for r in regs:
-            try:
-                p = float(r["preco"])
-            except (ValueError, TypeError):
-                continue
-            data = r["data"]
-            if data not in por_dia or p < por_dia[data]:
-                por_dia[data] = p
-
-        precos = list(por_dia.values())
+        precos = list(preco_por_dia(regs).values())
         if len(precos) < MIN_DIAS_HIST:
             continue
 
@@ -382,8 +390,80 @@ def detectar(hoje: list[dict], hist: dict[str, list[dict]]) -> list[dict]:
 
 
 # ----------------------------------------------------------------------
+# FALSO DESCONTO - a loja anuncia queda que nosso historico desmente
+# ----------------------------------------------------------------------
+
+MIN_DIAS_FALSO_DESCONTO = 5   # minimo de historico pra poder desmentir com confianca
+DESCONTO_ANUNCIADO_MIN = 20.0  # loja precisa anunciar pelo menos isso pra virar "caca"
+DESCONTO_REAL_MAX = 8.0        # e o preco de hoje precisa estar perto do normal mesmo
+
+def detectar_falso_desconto(hoje: list[dict], hist: dict[str, list[dict]]) -> list[dict]:
+    """
+    Acha produtos onde a loja anuncia um 'de/por' vistoso, mas o NOSSO
+    historico real mostra que o preco de hoje esta perto do normal - ou
+    seja, o desconto anunciado nao existe de verdade. Diferente de
+    detectar(): aqui nao exigimos os 14 dias completos (MIN_DIAS_HIST),
+    porque a alegacao que estamos checando e da PROPRIA LOJA, nao nossa -
+    ja com poucos dias de historico da pra desmentir um "de/por" fixo que
+    nao mudou. Precisamos so de confianca minima (MIN_DIAS_FALSO_DESCONTO).
+    """
+    achados = []
+    for item in hoje:
+        preco_original = item.get("preco_original")
+        atual = item["preco"]
+        if not preco_original or preco_original <= atual:
+            continue  # loja nao anuncia desconto nenhum, nada a checar
+
+        desconto_anunciado = (1 - atual / preco_original) * 100
+        if desconto_anunciado < DESCONTO_ANUNCIADO_MIN:
+            continue  # desconto pequeno demais pra valer a pena expor
+
+        regs = hist.get(item["product_id"], [])
+        precos = list(preco_por_dia(regs).values())
+        if len(precos) < MIN_DIAS_FALSO_DESCONTO:
+            continue
+
+        mediana = statistics.median(precos)
+        if mediana <= 0:
+            continue
+        desconto_real = (1 - atual / mediana) * 100
+
+        if desconto_real > DESCONTO_REAL_MAX:
+            continue  # esse ate que caiu de verdade - nao e "falso desconto"
+
+        o = dict(item)
+        o["preco_original"] = round(preco_original, 2)
+        o["mediana"] = round(mediana, 2)
+        o["desconto_anunciado"] = round(desconto_anunciado, 1)
+        o["desconto_real"] = round(desconto_real, 1)
+        o["dias_historico"] = len(precos)
+        achados.append(o)
+
+    achados.sort(key=lambda x: x["desconto_anunciado"], reverse=True)
+    print(f"[falso-desconto] {len(achados)} produto(s) com 'de/por' desmentido pelo histórico")
+    return achados
+
+
+# ----------------------------------------------------------------------
 # CAMADA 2 - MELHOR PRECO HOJE (canal nao fica mudo nos 14 dias de historico)
 # ----------------------------------------------------------------------
+
+def carregar_contagem_falso_desconto(d: Path) -> dict:
+    """Contador que reseta sozinho a cada novo dia UTC - garante que o
+    limite diario vale pro DIA, nao so pra uma rodada do coletor."""
+    f = d / "falso_desconto_contagem.json"
+    hoje = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    if f.exists():
+        dados = json.loads(f.read_text(encoding="utf-8"))
+        if dados.get("data") == hoje:
+            return dados
+    return {"data": hoje, "contagem": 0}
+
+
+def salvar_contagem_falso_desconto(d: Path, dados: dict) -> None:
+    (d / "falso_desconto_contagem.json").write_text(
+        json.dumps(dados, ensure_ascii=False), encoding="utf-8")
+
 
 def carregar_estado_camada2(d: Path) -> dict:
     f = d / "camada2_state.json"
@@ -639,7 +719,7 @@ def main() -> int:
 
     novo = not f_hist.exists()
     with f_hist.open("a", newline="", encoding="utf-8") as fh:
-        w = csv.DictWriter(fh, fieldnames=CAMPOS)
+        w = csv.DictWriter(fh, fieldnames=CAMPOS, extrasaction="ignore")
         if novo:
             w.writeheader()
         w.writerows(hoje)
@@ -681,6 +761,26 @@ def main() -> int:
     else:
         print(f"[camada2] pulado (roda so as {HORA_CAMADA2_UTC}h UTC "
               f"/ 6h BRT; agora sao {hora_atual}h UTC)")
+
+    # Falso desconto - roda toda rodada (a alegacao pode aparecer a qualquer
+    # hora), mas respeita um limite DIARIO baixo de proposito (e conteudo
+    # de flagrante, nao de rotina - postar demais banaliza).
+    contagem_fd = carregar_contagem_falso_desconto(d)
+    restante_fd = max(0, LIMITE_FILA_FALSO_DESCONTO - contagem_fd["contagem"])
+    if restante_fd > 0:
+        achados_fd = detectar_falso_desconto(hoje, hist)[:restante_fd]
+        if achados_fd:
+            for o in achados_fd:
+                print(f"   [falso-desconto] loja anuncia -{o['desconto_anunciado']:.0f}% "
+                      f"mas historico mostra {o['desconto_real']:+.1f}% | {o['nome'][:50]}")
+            preparar_imagens(tk, achados_fd, wl)
+            adicionados = enfileirar(d, achados_fd, tipo="falso_desconto", limite=restante_fd)
+            contagem_fd["contagem"] += adicionados
+            salvar_contagem_falso_desconto(d, contagem_fd)
+        else:
+            print("[falso-desconto] nada encontrado nesta rodada")
+    else:
+        print(f"[falso-desconto] limite diário ({LIMITE_FILA_FALSO_DESCONTO}) já atingido")
 
     # imagens buscadas acima ficam em cache no wl - persiste de novo
     f_wl.write_text(json.dumps(wl, ensure_ascii=False, indent=2), encoding="utf-8")
