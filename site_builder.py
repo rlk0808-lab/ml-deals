@@ -259,6 +259,8 @@ nav.migalha a{color:var(--tinta-fraca)}
 .campo-busca:focus{outline:2px solid var(--verificado); outline-offset:1px}
 .campo-ordenar{padding:12px 16px; border-radius:999px; border:1px solid var(--linha);
   background:var(--bg-alto); color:var(--tinta); font-family:'IBM Plex Sans',sans-serif; font-size:14.5px}
+.toggle-selo{display:flex; align-items:center; gap:8px; padding:0 16px; font-size:14px; color:var(--tinta-fraca)}
+.toggle-selo input{accent-color:var(--verificado); width:16px; height:16px}
 .sem-resultado{color:var(--tinta-fraca); font-size:14px; margin:22px 0}
 
 .grade-produtos{display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:16px; margin:24px 0 56px}.card-produto{background:var(--bg-alto); border:1px solid var(--linha); border-radius:var(--raio);
@@ -392,7 +394,8 @@ def pagina_nicho(cfg: dict, produtos: list[dict], raiz_url: str) -> str:
         nome_busca = html.escape(normalizar_busca(p["nome"]))
         cards.append(f'''
     <a class="card-produto" href="{p['arquivo']}"
-       data-nome="{nome_busca}" data-preco="{p['preco']:.2f}" data-desconto="{desconto}">
+       data-nome="{nome_busca}" data-preco="{p['preco']:.2f}" data-desconto="{desconto}"
+       data-verificado="{'1' if p['verificado'] else '0'}">
       {img}
       <div class="nome">{html.escape(p['nome'])}</div>
       <div class="preco mono">{fmt_brl(p['preco'])}</div>
@@ -414,6 +417,10 @@ def pagina_nicho(cfg: dict, produtos: list[dict], raiz_url: str) -> str:
       <option value="maior-preco">Maior preço</option>
       <option value="maior-desconto">Maior desconto</option>
     </select>
+    <label class="toggle-selo">
+      <input type="checkbox" id="so-selo">
+      Só com selo hoje ({sum(1 for p in produtos if p["verificado"])})
+    </label>
   </div>
   <p id="contagem-vazia" class="sem-resultado" hidden>Nenhum produto encontrado com esse nome.</p>
 
@@ -423,6 +430,7 @@ def pagina_nicho(cfg: dict, produtos: list[dict], raiz_url: str) -> str:
 (function(){{
   var campoBusca = document.getElementById('busca');
   var campoOrdenar = document.getElementById('ordenar');
+  var soSelo = document.getElementById('so-selo');
   var grade = document.getElementById('grade');
   var vazio = document.getElementById('contagem-vazia');
   var cards = Array.prototype.slice.call(grade.children);
@@ -435,10 +443,13 @@ def pagina_nicho(cfg: dict, produtos: list[dict], raiz_url: str) -> str:
   function aplicar(){{
     var termo = normalizar(campoBusca.value.trim());
     var ordem = campoOrdenar.value;
+    var apenasSelo = soSelo.checked;
 
     var visiveis = 0;
     cards.forEach(function(c){{
-      var bate = !termo || c.dataset.nome.indexOf(termo) !== -1;
+      var bateNome = !termo || c.dataset.nome.indexOf(termo) !== -1;
+      var bateSelo = !apenasSelo || c.dataset.verificado === '1';
+      var bate = bateNome && bateSelo;
       c.style.display = bate ? '' : 'none';
       if (bate) visiveis++;
     }});
@@ -457,6 +468,7 @@ def pagina_nicho(cfg: dict, produtos: list[dict], raiz_url: str) -> str:
 
   campoBusca.addEventListener('input', aplicar);
   campoOrdenar.addEventListener('change', aplicar);
+  soSelo.addEventListener('change', aplicar);
 }})();
 </script>'''
     return base_page(f"{cfg['nome']} — Caiu de Verdade",
