@@ -14,6 +14,7 @@ import json
 import os
 import sys
 import time
+import traceback
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -111,6 +112,8 @@ def esta_vencido(item: dict) -> bool:
 def enviar(item: dict, cfg: dict, chat: str, affiliate_tag: str) -> bool:
     texto = montar_mensagem(item, cfg, affiliate_tag)
     imagem = item.get("imagem")
+    print(f"[telegram] preparando envio - tipo={item.get('tipo')} "
+          f"nome={item['nome'][:40]!r}", flush=True)
 
     try:
         if item.get("tipo") == "falso_desconto":
@@ -119,18 +122,21 @@ def enviar(item: dict, cfg: dict, chat: str, affiliate_tag: str) -> bool:
             try:
                 import image_card
                 png_bytes = image_card.gerar_cartao_falso_desconto(item, cfg)
+                print(f"[cartao] imagem gerada: {len(png_bytes)} bytes", flush=True)
                 r = requests.post(
                     f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPhoto",
                     data={"chat_id": chat, "caption": texto[:1024]},
                     files={"photo": ("cartao.png", png_bytes, "image/png")},
                     timeout=30)
                 if r.status_code != 200:
-                    print(f"[telegram] cartao falhou ({r.status_code}), tentando sem imagem")
+                    print(f"[telegram] cartao falhou ({r.status_code}): {r.text[:300]}")
+                    print("[telegram] tentando sem imagem...")
                     r = requests.post(
                         f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
                         json={"chat_id": chat, "text": texto}, timeout=20)
-            except Exception as e:
-                print(f"[cartao] erro ao gerar/enviar imagem: {e} - caindo pra texto")
+            except Exception:
+                print("[cartao] erro ao gerar/enviar imagem - caindo pra texto:", flush=True)
+                traceback.print_exc()
                 r = requests.post(
                     f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
                     json={"chat_id": chat, "text": texto}, timeout=20)
@@ -140,8 +146,8 @@ def enviar(item: dict, cfg: dict, chat: str, affiliate_tag: str) -> bool:
                 json={"chat_id": chat, "photo": imagem, "caption": texto[:1024]},
                 timeout=20)
             if r.status_code != 200:
-                print(f"[telegram] sendPhoto falhou ({r.status_code}), "
-                      f"tentando sem imagem")
+                print(f"[telegram] sendPhoto falhou ({r.status_code}): {r.text[:300]}")
+                print("[telegram] tentando sem imagem...")
                 r = requests.post(
                     f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
                     json={"chat_id": chat, "text": texto}, timeout=20)
@@ -149,10 +155,13 @@ def enviar(item: dict, cfg: dict, chat: str, affiliate_tag: str) -> bool:
             r = requests.post(
                 f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
                 json={"chat_id": chat, "text": texto}, timeout=20)
-        print(f"[telegram] {r.status_code} - {item['nome'][:45]}")
+        print(f"[telegram] {r.status_code} - {item['nome'][:45]}", flush=True)
+        if r.status_code != 200:
+            print(f"[telegram] corpo da resposta: {r.text[:300]}", flush=True)
         return r.status_code == 200
-    except Exception as e:
-        print(f"[telegram] erro: {e}")
+    except Exception:
+        print("[telegram] erro nao tratado ao enviar:", flush=True)
+        traceback.print_exc()
         return False
 
 
