@@ -41,7 +41,7 @@ jobs:
           TELEGRAM_TOKEN:       ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_LIVROS: ${{ secrets.TELEGRAM_CHAT_LIVROS }}
           TELEGRAM_CHAT_BEBES:  ${{ secrets.TELEGRAM_CHAT_BEBES }}
-        run: python publish_next.py ${{ matrix.nicho }}
+        run: python -u publish_next.py ${{ matrix.nicho }}
 
       - name: Testar cartao de falso desconto - ${{ matrix.nicho }}
         if: ${{ github.event.inputs.testar_cartao_falso_desconto == 'true' }}
@@ -50,7 +50,7 @@ jobs:
           TELEGRAM_TOKEN:       ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_LIVROS: ${{ secrets.TELEGRAM_CHAT_LIVROS }}
           TELEGRAM_CHAT_BEBES:  ${{ secrets.TELEGRAM_CHAT_BEBES }}
-        run: python testar_cartao.py ${{ matrix.nicho }}
+        run: python -u testar_cartao.py ${{ matrix.nicho }}
 
       - name: Salvar estado da fila
         run: |
