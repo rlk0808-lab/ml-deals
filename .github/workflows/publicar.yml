@@ -2,10 +2,13 @@ name: Publicador (fila espacada)
 
 on:
   schedule:
-    # 07h00 - 23h30 BRT = 10h00-23h30 UTC + 00h00-02h30 UTC (dia seguinte)
+    # 07h07 - 23h37 BRT = 10h07-23h37 UTC + 00h07-02h37 UTC (dia seguinte)
     # 34 disparos/dia. Nada roda 00h-07h BRT (madrugada).
-    - cron: "0,30 10-23 * * *"
-    - cron: "0,30 0-2 * * *"
+    # minuto 7/37 (nao 0/30) de proposito - o GitHub documenta que ":00" e
+    # ":30" sao os minutos mais congestionados nos runners compartilhados,
+    # e atrasam/pulam mais. Deslocar pra um minuto "torto" evita isso.
+    - cron: "7,37 10-23 * * *"
+    - cron: "7,37 0-2 * * *"
   workflow_dispatch:
     inputs:
       testar_cartao_falso_desconto:
