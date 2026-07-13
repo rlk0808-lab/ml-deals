@@ -1,14 +1,12 @@
 name: Publicador (fila espacada)
 
 on:
-  schedule:
-    # 07h07 - 23h37 BRT = 10h07-23h37 UTC + 00h07-02h37 UTC (dia seguinte)
-    # 34 disparos/dia. Nada roda 00h-07h BRT (madrugada).
-    # minuto 7/37 (nao 0/30) de proposito - o GitHub documenta que ":00" e
-    # ":30" sao os minutos mais congestionados nos runners compartilhados,
-    # e atrasam/pulam mais. Deslocar pra um minuto "torto" evita isso.
-    - cron: "7,37 10-23 * * *"
-    - cron: "7,37 0-2 * * *"
+  # O agendamento nao e mais feito pelo "schedule:" nativo do GitHub -
+  # ele se mostrou pouco confiavel nesse repositorio (a maioria das 34
+  # rodadas do dia simplesmente nao disparava). Um cron externo
+  # (cron-job.org) chama a API de workflow_dispatch no horario certo,
+  # 07h07-23h37 BRT a cada 30 min. Isso aqui so precisa aceitar o
+  # disparo manual/externo.
   workflow_dispatch:
     inputs:
       testar_cartao_falso_desconto:
@@ -24,6 +22,7 @@ jobs:
     runs-on: ubuntu-latest
 
     strategy:
+      fail-fast: false     # falha num nicho nao pode cancelar os outros
       max-parallel: 1        # em sequencia, para nao conflitar no push
       matrix:
         nicho: [livros, bebes, casa, moda]
@@ -46,7 +45,35 @@ jobs:
           TELEGRAM_CHAT_BEBES:  ${{ secrets.TELEGRAM_CHAT_BEBES }}
           TELEGRAM_CHAT_CASA:   ${{ secrets.TELEGRAM_CHAT_CASA }}
           TELEGRAM_CHAT_MODA:   ${{ secrets.TELEGRAM_CHAT_MODA }}
-        run: python -u publish_next.py ${{ matrix.nicho }}
+        run: |
+          git config user.name  "publicador-bot"
+          git config user.email "publicador-bot@users.noreply.github.com"
+
+          # o coletor (a cada 3h) e o publicador (a cada 30min) agora rodam
+          # de verdade e podem mexer no mesmo arquivo de fila quase ao mesmo
+          # tempo. Se der conflito ao salvar, aborta o rebase e roda tudo de
+          # novo do zero (publish_next.py e idempotente - sempre opera em
+          # cima do que estiver na fila NA HORA, entao repetir e seguro).
+          tentativas=3
+          for i in $(seq 1 $tentativas); do
+            echo "=== tentativa $i/$tentativas ==="
+            python -u publish_next.py ${{ matrix.nicho }}
+
+            git add data/
+            git commit -m "publicar ${{ matrix.nicho }}: $(date -u +%Y-%m-%d\ %H:%M)" || echo "nada novo"
+
+            if git pull --rebase origin main && git push; then
+              echo "=== publicado e salvo com sucesso ==="
+              exit 0
+            fi
+
+            echo "=== conflito ou falha no push, abortando rebase e tentando de novo ==="
+            git rebase --abort || true
+            sleep $((i * 5))
+          done
+
+          echo "::error::Nao foi possivel salvar apos $tentativas tentativas"
+          exit 1
 
       - name: Testar cartao de falso desconto - ${{ matrix.nicho }}
         if: ${{ github.event.inputs.testar_cartao_falso_desconto == 'true' }}
@@ -58,12 +85,3 @@ jobs:
           TELEGRAM_CHAT_CASA:   ${{ secrets.TELEGRAM_CHAT_CASA }}
           TELEGRAM_CHAT_MODA:   ${{ secrets.TELEGRAM_CHAT_MODA }}
         run: python -u testar_cartao.py ${{ matrix.nicho }}
-
-      - name: Salvar estado da fila
-        run: |
-          git config user.name  "publicador-bot"
-          git config user.email "publicador-bot@users.noreply.github.com"
-          git add data/
-          git commit -m "publicar ${{ matrix.nicho }}: $(date -u +%Y-%m-%d\ %H:%M)" || echo "nada novo"
-          git pull --rebase origin main
-          git push
