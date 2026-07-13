@@ -26,7 +26,7 @@ jobs:
     strategy:
       max-parallel: 1        # em sequencia, para nao conflitar no push
       matrix:
-        nicho: [livros, bebes]
+        nicho: [livros, bebes, casa, moda]
 
     steps:
       - uses: actions/checkout@v4
@@ -44,6 +44,8 @@ jobs:
           TELEGRAM_TOKEN:       ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_LIVROS: ${{ secrets.TELEGRAM_CHAT_LIVROS }}
           TELEGRAM_CHAT_BEBES:  ${{ secrets.TELEGRAM_CHAT_BEBES }}
+          TELEGRAM_CHAT_CASA:   ${{ secrets.TELEGRAM_CHAT_CASA }}
+          TELEGRAM_CHAT_MODA:   ${{ secrets.TELEGRAM_CHAT_MODA }}
         run: python -u publish_next.py ${{ matrix.nicho }}
 
       - name: Testar cartao de falso desconto - ${{ matrix.nicho }}
@@ -53,6 +55,8 @@ jobs:
           TELEGRAM_TOKEN:       ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_LIVROS: ${{ secrets.TELEGRAM_CHAT_LIVROS }}
           TELEGRAM_CHAT_BEBES:  ${{ secrets.TELEGRAM_CHAT_BEBES }}
+          TELEGRAM_CHAT_CASA:   ${{ secrets.TELEGRAM_CHAT_CASA }}
+          TELEGRAM_CHAT_MODA:   ${{ secrets.TELEGRAM_CHAT_MODA }}
         run: python -u testar_cartao.py ${{ matrix.nicho }}
 
       - name: Salvar estado da fila
