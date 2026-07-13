@@ -477,6 +477,21 @@ def salvar_estado_camada2(d: Path, estado: dict) -> None:
     f.write_text(json.dumps(estado, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def _assinatura_produto(nome: str) -> str:
+    """
+    Primeira palavra significativa do nome - usada so pra AGRUPAR
+    produtos parecidos (ex: varios "jogo de talheres" diferentes),
+    nao pra filtrar nada. Ignora palavras genericas tipo kit/jogo/conjunto
+    que nao dizem nada sobre o tipo de produto.
+    """
+    ignorar = {"kit", "jogo", "de", "para", "com", "conjunto", "o", "a",
+               "os", "as", "novo", "nova"}
+    for p in normalizar(nome).split():
+        if p not in ignorar and len(p) > 2:
+            return p
+    return normalizar(nome)
+
+
 def detectar_camada2(hoje: list[dict], ja_notificados: set[str],
                       estado: dict) -> list[dict]:
     """
@@ -504,8 +519,29 @@ def detectar_camada2(hoje: list[dict], ja_notificados: set[str],
 
     # prioriza produtos com mais vendedores concorrendo (comparacao mais forte)
     candidatos.sort(key=lambda x: x["n_ofertas"], reverse=True)
-    print(f"[camada2] {len(candidatos)} produtos com preco novo/mudado")
-    return candidatos
+
+    # diversifica por tipo de produto - sem isso, 2 "jogos de talheres"
+    # diferentes podiam ocupar 2 das poucas vagas do dia, tirando espaco
+    # de variedade. Pega o melhor de CADA tipo antes de repetir um tipo.
+    grupos: dict[str, list[dict]] = {}
+    for item in candidatos:
+        grupos.setdefault(_assinatura_produto(item["nome"]), []).append(item)
+
+    diversificados = []
+    indice = 0
+    while len(diversificados) < len(candidatos):
+        adicionou = False
+        for grupo in grupos.values():
+            if indice < len(grupo):
+                diversificados.append(grupo[indice])
+                adicionou = True
+        if not adicionou:
+            break
+        indice += 1
+
+    print(f"[camada2] {len(diversificados)} produtos com preco novo/mudado "
+          f"({len(grupos)} tipos diferentes)")
+    return diversificados
 
 
 # ----------------------------------------------------------------------
