@@ -7,6 +7,11 @@ on:
     - cron: "0,30 10-23 * * *"
     - cron: "0,30 0-2 * * *"
   workflow_dispatch:
+    inputs:
+      testar_cartao_falso_desconto:
+        description: "Enviar cartao de TESTE (dados ficticios) em vez de publicar da fila real"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -30,12 +35,22 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Publicar proximo item - ${{ matrix.nicho }}
+        if: ${{ github.event.inputs.testar_cartao_falso_desconto != 'true' }}
         env:
           ML_AFFILIATE_TAG:     ${{ secrets.ML_AFFILIATE_TAG }}
           TELEGRAM_TOKEN:       ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_LIVROS: ${{ secrets.TELEGRAM_CHAT_LIVROS }}
           TELEGRAM_CHAT_BEBES:  ${{ secrets.TELEGRAM_CHAT_BEBES }}
         run: python publish_next.py ${{ matrix.nicho }}
+
+      - name: Testar cartao de falso desconto - ${{ matrix.nicho }}
+        if: ${{ github.event.inputs.testar_cartao_falso_desconto == 'true' }}
+        env:
+          ML_AFFILIATE_TAG:     ${{ secrets.ML_AFFILIATE_TAG }}
+          TELEGRAM_TOKEN:       ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_LIVROS: ${{ secrets.TELEGRAM_CHAT_LIVROS }}
+          TELEGRAM_CHAT_BEBES:  ${{ secrets.TELEGRAM_CHAT_BEBES }}
+        run: python testar_cartao.py ${{ matrix.nicho }}
 
       - name: Salvar estado da fila
         run: |
