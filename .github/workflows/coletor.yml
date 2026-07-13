@@ -24,7 +24,7 @@ jobs:
     strategy:
       max-parallel: 1        # em sequencia, para nao conflitar no push
       matrix:
-        nicho: [livros, bebes]
+        nicho: [livros, bebes, casa, moda]
 
     steps:
       - uses: actions/checkout@v4
@@ -43,6 +43,8 @@ jobs:
           TELEGRAM_TOKEN:       ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_LIVROS: ${{ secrets.TELEGRAM_CHAT_LIVROS }}
           TELEGRAM_CHAT_BEBES:  ${{ secrets.TELEGRAM_CHAT_BEBES }}
+          TELEGRAM_CHAT_CASA:   ${{ secrets.TELEGRAM_CHAT_CASA }}
+          TELEGRAM_CHAT_MODA:   ${{ secrets.TELEGRAM_CHAT_MODA }}
           FORCAR_CAMADA2:       ${{ (github.event_name == 'workflow_dispatch' && inputs.forcar_camada2) && '1' || '' }}
         run: python collector.py ${{ matrix.nicho }}
 
