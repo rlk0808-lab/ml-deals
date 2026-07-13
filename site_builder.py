@@ -2,9 +2,10 @@
 Gerador do site estatico (GitHub Pages) - "Caiu de Verdade".
 
 Le os dados que o coletor ja produziu (historico.csv, watchlist.json,
-ofertas.json) e gera paginas HTML puras, sem JS, uma por produto, com
-grafico real de preco ao longo do tempo. Zero dependencia de API - so
-usa o que ja esta commitado em data/.
+ofertas.json) e gera paginas HTML, uma por produto, com grafico real de
+preco ao longo do tempo. Zero dependencia de API - so usa o que ja esta
+commitado em data/. As paginas de listagem tem um JS leve (sem build,
+sem dependencia externa) so pra busca/ordenacao no navegador.
 
 Cada produto so pode reivindicar "selo verificado" se estiver em
 ofertas.json de hoje (a MESMA deteccao que gera os posts do Telegram -
@@ -18,6 +19,7 @@ Gera tudo dentro de docs/ (fonte do GitHub Pages).
 import csv
 import html
 import json
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -62,6 +64,14 @@ def link_afiliado(url: str, affiliate_tag: str) -> str:
 def fmt_brl(v: float) -> str:
     s = f"{v:,.2f}"
     return "R$ " + s.replace(",", "X").replace(".", ",").replace("X", ".")
+
+
+def normalizar_busca(txt: str) -> str:
+    """minusculas e sem acento - mesma normalizacao que o JS de busca
+    faz com o termo digitado, pra bater um com o outro."""
+    txt = (txt or "").lower()
+    return "".join(c for c in unicodedata.normalize("NFD", txt)
+                   if unicodedata.category(c) != "Mn")
 
 
 def fmt_data_br(iso: str) -> str:
@@ -243,8 +253,15 @@ nav.migalha a{color:var(--tinta-fraca)}
 .como-funciona ol{padding-left:20px}
 .como-funciona li{margin:8px 0}
 
-.grade-produtos{display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:16px; margin:24px 0 56px}
-.card-produto{background:var(--bg-alto); border:1px solid var(--linha); border-radius:var(--raio);
+.barra-filtro{display:flex; gap:10px; flex-wrap:wrap; margin:22px 0 4px}
+.campo-busca{flex:1; min-width:200px; padding:12px 16px; border-radius:999px; border:1px solid var(--linha);
+  background:var(--bg-alto); color:var(--tinta); font-family:'IBM Plex Sans',sans-serif; font-size:14.5px}
+.campo-busca:focus{outline:2px solid var(--verificado); outline-offset:1px}
+.campo-ordenar{padding:12px 16px; border-radius:999px; border:1px solid var(--linha);
+  background:var(--bg-alto); color:var(--tinta); font-family:'IBM Plex Sans',sans-serif; font-size:14.5px}
+.sem-resultado{color:var(--tinta-fraca); font-size:14px; margin:22px 0}
+
+.grade-produtos{display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:16px; margin:24px 0 56px}.card-produto{background:var(--bg-alto); border:1px solid var(--linha); border-radius:var(--raio);
   padding:18px; text-decoration:none; color:var(--tinta); display:flex; flex-direction:column; gap:9px;
   box-shadow:var(--sombra); transition:transform .16s ease, box-shadow .16s ease}
 .card-produto:hover{transform:translateY(-3px); box-shadow:var(--sombra-hover)}
@@ -371,8 +388,11 @@ def pagina_nicho(cfg: dict, produtos: list[dict], raiz_url: str) -> str:
         status = (f'<span class="tag-status verificado">selo hoje</span>' if p["verificado"]
                   else f'<span class="tag-status pendente">{p["status_txt"]}</span>')
         img = f'<img src="{p["imagem"]}" alt="" loading="lazy">' if p.get("imagem") else ""
+        desconto = p.get("desconto", 0) if p["verificado"] else 0
+        nome_busca = html.escape(normalizar_busca(p["nome"]))
         cards.append(f'''
-    <a class="card-produto" href="{p['arquivo']}">
+    <a class="card-produto" href="{p['arquivo']}"
+       data-nome="{nome_busca}" data-preco="{p['preco']:.2f}" data-desconto="{desconto}">
       {img}
       <div class="nome">{html.escape(p['nome'])}</div>
       <div class="preco mono">{fmt_brl(p['preco'])}</div>
@@ -385,8 +405,60 @@ def pagina_nicho(cfg: dict, produtos: list[dict], raiz_url: str) -> str:
     <h1>{cfg['emoji']} {html.escape(cfg['nome'])}</h1>
     <p class="tag">{len(produtos)} produtos com histórico de preço monitorado.</p>
   </section>
-  <div class="grade-produtos">{''.join(cards)}</div>
-</div>'''
+
+  <div class="barra-filtro">
+    <input type="search" id="busca" class="campo-busca" placeholder="Buscar por nome…" aria-label="Buscar produto">
+    <select id="ordenar" class="campo-ordenar" aria-label="Ordenar por">
+      <option value="relevancia">Relevância</option>
+      <option value="menor-preco">Menor preço</option>
+      <option value="maior-preco">Maior preço</option>
+      <option value="maior-desconto">Maior desconto</option>
+    </select>
+  </div>
+  <p id="contagem-vazia" class="sem-resultado" hidden>Nenhum produto encontrado com esse nome.</p>
+
+  <div class="grade-produtos" id="grade">{''.join(cards)}</div>
+</div>
+<script>
+(function(){{
+  var campoBusca = document.getElementById('busca');
+  var campoOrdenar = document.getElementById('ordenar');
+  var grade = document.getElementById('grade');
+  var vazio = document.getElementById('contagem-vazia');
+  var cards = Array.prototype.slice.call(grade.children);
+  var ordemOriginal = cards.slice();
+
+  function normalizar(s){{
+    return (s || '').toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g, '');
+  }}
+
+  function aplicar(){{
+    var termo = normalizar(campoBusca.value.trim());
+    var ordem = campoOrdenar.value;
+
+    var visiveis = 0;
+    cards.forEach(function(c){{
+      var bate = !termo || c.dataset.nome.indexOf(termo) !== -1;
+      c.style.display = bate ? '' : 'none';
+      if (bate) visiveis++;
+    }});
+    vazio.hidden = visiveis !== 0;
+
+    var ordenados = ordemOriginal.slice();
+    if (ordem === 'menor-preco') {{
+      ordenados.sort(function(a,b){{ return parseFloat(a.dataset.preco) - parseFloat(b.dataset.preco); }});
+    }} else if (ordem === 'maior-preco') {{
+      ordenados.sort(function(a,b){{ return parseFloat(b.dataset.preco) - parseFloat(a.dataset.preco); }});
+    }} else if (ordem === 'maior-desconto') {{
+      ordenados.sort(function(a,b){{ return parseFloat(b.dataset.desconto) - parseFloat(a.dataset.desconto); }});
+    }}
+    ordenados.forEach(function(c){{ grade.appendChild(c); }});
+  }}
+
+  campoBusca.addEventListener('input', aplicar);
+  campoOrdenar.addEventListener('change', aplicar);
+}})();
+</script>'''
     return base_page(f"{cfg['nome']} — Caiu de Verdade",
                      f"Histórico real de preço de produtos de {cfg['nome'].lower()} no Mercado Livre.",
                      corpo, "..", raiz_url)
