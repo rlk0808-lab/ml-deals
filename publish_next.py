@@ -30,6 +30,9 @@ VALIDADE_CAMADA2_HORAS = 10
 # Camada 1 e mais estavel (selo de historico, nao muda a cada hora), mas
 # tambem tem teto de seguranca pra fila nao acumular lixo antigo.
 VALIDADE_CAMADA1_HORAS = 30
+# Falso desconto: o "de/por" da loja costuma ficar fixo por dias, entao
+# nao e tao sensivel a hora quanto a Camada 2 - mas ainda assim tem teto.
+VALIDADE_FALSO_DESCONTO_HORAS = 24
 
 
 def link(url: str, affiliate_tag: str) -> str:
@@ -62,21 +65,51 @@ def montar_camada2(o: dict, cfg: dict, affiliate_tag: str) -> str:
             f"{link(o['permalink'], affiliate_tag)}")
 
 
+def montar_falso_desconto(o: dict, cfg: dict, affiliate_tag: str) -> str:
+    """
+    Tom factual, nunca acusatorio - mostra o que a loja anuncia e o que o
+    NOSSO historico real mostra, e deixa os numeros falarem. Nao xinga o
+    vendedor nem usa hiperbole; a comparacao lado a lado ja e o argumento.
+    """
+    if o["desconto_real"] >= 0:
+        comparacao = (f"hoje está {o['desconto_real']:.1f}% abaixo do normal "
+                      f"(não os {o['desconto_anunciado']:.0f}% anunciados)")
+    else:
+        comparacao = f"hoje está {abs(o['desconto_real']):.1f}% ACIMA do preço normal"
+    return (f"🔍 {cfg['emoji']} DE OLHO NO \"DESCONTO\"\n\n"
+            f"{o['nome']}\n\n"
+            f"A loja anuncia: de R$ {o['preco_original']:.2f} por R$ {o['preco']:.2f} "
+            f"(-{o['desconto_anunciado']:.0f}%)\n\n"
+            f"Nosso histórico real ({o['dias_historico']} dias de coleta): "
+            f"preço normal é R$ {o['mediana']:.2f} — {comparacao}.\n\n"
+            f"{link(o['permalink'], affiliate_tag)}")
+
+
+def montar_mensagem(item: dict, cfg: dict, affiliate_tag: str) -> str:
+    if item.get("tipo") == "camada2":
+        return montar_camada2(item, cfg, affiliate_tag)
+    if item.get("tipo") == "falso_desconto":
+        return montar_falso_desconto(item, cfg, affiliate_tag)
+    return montar_camada1(item, cfg, affiliate_tag)
+
+
 def esta_vencido(item: dict) -> bool:
     try:
         enfileirado = datetime.fromisoformat(item["enfileirado_em"])
     except (KeyError, ValueError):
         return True  # sem timestamp -> nao confiamos, descarta
 
-    limite = (VALIDADE_CAMADA2_HORAS if item.get("tipo") == "camada2"
-              else VALIDADE_CAMADA1_HORAS)
+    limites = {
+        "camada2": VALIDADE_CAMADA2_HORAS,
+        "falso_desconto": VALIDADE_FALSO_DESCONTO_HORAS,
+    }
+    limite = limites.get(item.get("tipo"), VALIDADE_CAMADA1_HORAS)
     idade = datetime.now(timezone.utc) - enfileirado
     return idade > timedelta(hours=limite)
 
 
 def enviar(item: dict, cfg: dict, chat: str, affiliate_tag: str) -> bool:
-    montar_func = montar_camada2 if item.get("tipo") == "camada2" else montar_camada1
-    texto = montar_func(item, cfg, affiliate_tag)
+    texto = montar_mensagem(item, cfg, affiliate_tag)
     imagem = item.get("imagem")
 
     try:
