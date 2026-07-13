@@ -344,12 +344,22 @@ def detectar(hoje: list[dict], hist: dict[str, list[dict]]) -> list[dict]:
         if len({r["data"] for r in regs}) < MIN_DIAS_HIST:
             continue
 
-        precos = []
+        # 1 preco representativo por dia (o menor do dia). Se usassemos
+        # todas as linhas cruas, um dia com mais rodadas de coleta pesaria
+        # mais que um dia com menos rodadas na mediana - e a frequencia de
+        # coleta muda ao longo do tempo (comecou 4x/dia, pode subir depois).
+        # Assim a mediana representa "preco normal por dia", nao "por coleta".
+        por_dia: dict[str, float] = {}
         for r in regs:
             try:
-                precos.append(float(r["preco"]))
+                p = float(r["preco"])
             except (ValueError, TypeError):
-                pass
+                continue
+            data = r["data"]
+            if data not in por_dia or p < por_dia[data]:
+                por_dia[data] = p
+
+        precos = list(por_dia.values())
         if len(precos) < MIN_DIAS_HIST:
             continue
 
