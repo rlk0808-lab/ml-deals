@@ -1,0 +1,37 @@
+name: Gerar site (GitHub Pages)
+
+on:
+  workflow_run:
+    workflows: ["Coletor de ofertas ML"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  gerar-site:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Gerar páginas do site
+        env:
+          ML_AFFILIATE_TAG: ${{ secrets.ML_AFFILIATE_TAG }}
+          SITE_URL: "https://rlk0808-lab.github.io/ml-deals"
+        run: python site_builder.py
+
+      - name: Publicar docs/
+        run: |
+          git config user.name  "site-bot"
+          git config user.email "site-bot@users.noreply.github.com"
+          git add docs/
+          git commit -m "site: atualizar paginas $(date -u +%Y-%m-%d\ %H:%M)" || echo "nada novo"
+          git pull --rebase origin main
+          git push
