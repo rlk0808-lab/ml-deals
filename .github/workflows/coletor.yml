@@ -3,7 +3,10 @@ name: Coletor de ofertas ML
 on:
   schedule:
     # 8 rodadas/dia (UTC), a cada 3h -> 00h,03h,06h,09h,12h,15h,18h,21h Brasilia
-    - cron: "0 0,3,6,9,12,15,18,21 * * *"
+    # minuto 7 (nao 0) de proposito - o GitHub documenta que ":00" e ":30"
+    # sao os minutos mais congestionados nos runners compartilhados, e
+    # atrasam/pulam mais. Deslocar pra um minuto "torto" evita isso.
+    - cron: "7 0,3,6,9,12,15,18,21 * * *"
   workflow_dispatch:
     inputs:
       forcar_camada2:
