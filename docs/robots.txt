@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rlk0808-lab.github.io/ml-deals/sitemap.xml
