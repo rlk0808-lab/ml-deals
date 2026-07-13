@@ -113,7 +113,28 @@ def enviar(item: dict, cfg: dict, chat: str, affiliate_tag: str) -> bool:
     imagem = item.get("imagem")
 
     try:
-        if imagem:
+        if item.get("tipo") == "falso_desconto":
+            # cartao gerado na hora (Pillow) - se falhar por qualquer
+            # motivo, cai pra mensagem de texto puro, nunca perde o post
+            try:
+                import image_card
+                png_bytes = image_card.gerar_cartao_falso_desconto(item, cfg)
+                r = requests.post(
+                    f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPhoto",
+                    data={"chat_id": chat, "caption": texto[:1024]},
+                    files={"photo": ("cartao.png", png_bytes, "image/png")},
+                    timeout=30)
+                if r.status_code != 200:
+                    print(f"[telegram] cartao falhou ({r.status_code}), tentando sem imagem")
+                    r = requests.post(
+                        f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
+                        json={"chat_id": chat, "text": texto}, timeout=20)
+            except Exception as e:
+                print(f"[cartao] erro ao gerar/enviar imagem: {e} - caindo pra texto")
+                r = requests.post(
+                    f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
+                    json={"chat_id": chat, "text": texto}, timeout=20)
+        elif imagem:
             r = requests.post(
                 f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPhoto",
                 json={"chat_id": chat, "photo": imagem, "caption": texto[:1024]},
