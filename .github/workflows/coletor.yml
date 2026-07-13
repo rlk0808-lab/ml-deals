@@ -1,12 +1,11 @@
 name: Coletor de ofertas ML
 
 on:
-  schedule:
-    # 8 rodadas/dia (UTC), a cada 3h -> 00h,03h,06h,09h,12h,15h,18h,21h Brasilia
-    # minuto 7 (nao 0) de proposito - o GitHub documenta que ":00" e ":30"
-    # sao os minutos mais congestionados nos runners compartilhados, e
-    # atrasam/pulam mais. Deslocar pra um minuto "torto" evita isso.
-    - cron: "7 0,3,6,9,12,15,18,21 * * *"
+  # O agendamento nao e mais feito pelo "schedule:" nativo do GitHub -
+  # ele se mostrou pouco confiavel nesse repositorio (rodadas pulando/
+  # atrasando com frequencia, mesmo fora do horario cheio). Um cron
+  # externo (cron-job.org) chama a API de workflow_dispatch no horario
+  # certo. Isso aqui so precisa aceitar o disparo manual/externo.
   workflow_dispatch:
     inputs:
       forcar_camada2:
@@ -22,6 +21,7 @@ jobs:
     runs-on: ubuntu-latest
 
     strategy:
+      fail-fast: false     # falha num nicho nao pode cancelar os outros
       max-parallel: 1        # em sequencia, para nao conflitar no push
       matrix:
         nicho: [livros, bebes, casa, moda]
@@ -46,14 +46,31 @@ jobs:
           TELEGRAM_CHAT_CASA:   ${{ secrets.TELEGRAM_CHAT_CASA }}
           TELEGRAM_CHAT_MODA:   ${{ secrets.TELEGRAM_CHAT_MODA }}
           FORCAR_CAMADA2:       ${{ (github.event_name == 'workflow_dispatch' && inputs.forcar_camada2) && '1' || '' }}
-        run: python collector.py ${{ matrix.nicho }}
-
-      - name: Salvar historico
         run: |
           git config user.name  "coletor-bot"
           git config user.email "coletor-bot@users.noreply.github.com"
-          git add data/
-          # commita ANTES do pull (senao o rebase falha com mudancas soltas)
-          git commit -m "${{ matrix.nicho }}: $(date -u +%Y-%m-%d\ %H:%M)" || echo "nada novo"
-          git pull --rebase origin main
-          git push
+
+          # o coletor e o publicador agora rodam pontualmente e podem
+          # mexer no mesmo arquivo de fila quase ao mesmo tempo. Se der
+          # conflito ao salvar, aborta o rebase e roda tudo de novo -
+          # collector.py e seguro de repetir (dedup por product_id).
+          tentativas=3
+          for i in $(seq 1 $tentativas); do
+            echo "=== tentativa $i/$tentativas ==="
+            python collector.py ${{ matrix.nicho }}
+
+            git add data/
+            git commit -m "${{ matrix.nicho }}: $(date -u +%Y-%m-%d\ %H:%M)" || echo "nada novo"
+
+            if git pull --rebase origin main && git push; then
+              echo "=== coletado e salvo com sucesso ==="
+              exit 0
+            fi
+
+            echo "=== conflito ou falha no push, abortando rebase e tentando de novo ==="
+            git rebase --abort || true
+            sleep $((i * 5))
+          done
+
+          echo "::error::Nao foi possivel salvar apos $tentativas tentativas"
+          exit 1
