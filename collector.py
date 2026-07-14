@@ -22,6 +22,7 @@ import os
 import sys
 import csv
 import json
+import re
 import time
 import statistics
 import unicodedata
@@ -480,16 +481,34 @@ def salvar_estado_camada2(d: Path, estado: dict) -> None:
 def _assinatura_produto(nome: str) -> str:
     """
     Primeira palavra significativa do nome - usada so pra AGRUPAR
-    produtos parecidos (ex: varios "jogo de talheres" diferentes),
-    nao pra filtrar nada. Ignora palavras genericas tipo kit/jogo/conjunto
-    que nao dizem nada sobre o tipo de produto.
+    produtos parecidos (ex: varios "jogo de talheres" diferentes,
+    ou o mesmo hidratante em embalagens de tamanhos diferentes),
+    nao pra filtrar nada.
+
+    Ignora: palavras genericas (kit/jogo/conjunto), numeros soltos e
+    combinacoes numero+unidade (2un, 200ml, 10cm, 5kg...) - sem isso,
+    "2un Locao X" e "10un Locao X" viravam "produtos diferentes" so
+    por causa do numero na frente, e o mesmo item inundava a fila.
     """
     ignorar = {"kit", "jogo", "de", "para", "com", "conjunto", "o", "a",
-               "os", "as", "novo", "nova"}
+               "os", "as", "novo", "nova", "un", "und", "unid", "unidades",
+               "pc", "pcs", "peca", "pecas"}
+
     for p in normalizar(nome).split():
-        if p not in ignorar and len(p) > 2:
-            return p
+        if re.fullmatch(r"\d+([a-z]{1,4})?", p):
+            continue  # numero solto ou numero+unidade (2un, 200ml, 10cm...)
+        if p in ignorar or len(p) <= 2:
+            continue
+        # normalizacao simples de plural (potes->pote, copos->copo) -
+        # imperfeita pra plurais irregulares, mas ajuda na maioria dos casos
+        return p[:-1] if p.endswith("s") and len(p) > 4 else p
     return normalizar(nome)
+
+
+# quantos itens de um mesmo "tipo" (mesma assinatura) podem entrar na
+# fila do dia - sem isso, um tipo com muitas variantes (cor/tamanho/
+# fragrancia) podia sozinho ocupar boa parte das vagas do dia
+MAX_MESMO_TIPO_POR_DIA = 2
 
 
 def detectar_camada2(hoje: list[dict], ja_notificados: set[str],
@@ -502,6 +521,11 @@ def detectar_camada2(hoje: list[dict], ja_notificados: set[str],
       - ja disparou Camada 1 hoje (evita duplicar mensagem do mesmo produto)
       - nao mudou de preco/vendedor desde o ultimo post desta camada
         (evita o canal repetir o mesmo post todo dia sem nada de novo)
+
+    Limita a MAX_MESMO_TIPO_POR_DIA itens do mesmo "tipo" de produto -
+    melhor publicar menos e variado do que encher a fila com 7 variantes
+    do mesmo item (fragrancias/tamanhos diferentes de um mesmo hidratante,
+    por exemplo).
     """
     candidatos = []
     for item in hoje:
@@ -520,27 +544,17 @@ def detectar_camada2(hoje: list[dict], ja_notificados: set[str],
     # prioriza produtos com mais vendedores concorrendo (comparacao mais forte)
     candidatos.sort(key=lambda x: x["n_ofertas"], reverse=True)
 
-    # diversifica por tipo de produto - sem isso, 2 "jogos de talheres"
-    # diferentes podiam ocupar 2 das poucas vagas do dia, tirando espaco
-    # de variedade. Pega o melhor de CADA tipo antes de repetir um tipo.
-    grupos: dict[str, list[dict]] = {}
-    for item in candidatos:
-        grupos.setdefault(_assinatura_produto(item["nome"]), []).append(item)
-
+    contagem_tipo: dict[str, int] = {}
     diversificados = []
-    indice = 0
-    while len(diversificados) < len(candidatos):
-        adicionou = False
-        for grupo in grupos.values():
-            if indice < len(grupo):
-                diversificados.append(grupo[indice])
-                adicionou = True
-        if not adicionou:
-            break
-        indice += 1
+    for item in candidatos:
+        assinatura = _assinatura_produto(item["nome"])
+        if contagem_tipo.get(assinatura, 0) >= MAX_MESMO_TIPO_POR_DIA:
+            continue
+        contagem_tipo[assinatura] = contagem_tipo.get(assinatura, 0) + 1
+        diversificados.append(item)
 
     print(f"[camada2] {len(diversificados)} produtos com preco novo/mudado "
-          f"({len(grupos)} tipos diferentes)")
+          f"({len(contagem_tipo)} tipos diferentes, max {MAX_MESMO_TIPO_POR_DIA}/tipo)")
     return diversificados
 
 
