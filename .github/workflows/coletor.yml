@@ -51,24 +51,30 @@ jobs:
           git config user.email "coletor-bot@users.noreply.github.com"
 
           # o coletor e o publicador agora rodam pontualmente e podem
-          # mexer no mesmo arquivo de fila quase ao mesmo tempo. Se der
-          # conflito ao salvar, aborta o rebase e roda tudo de novo -
-          # collector.py e seguro de repetir (dedup por product_id).
+          # mexer no mesmo arquivo de fila quase ao mesmo tempo. Se o
+          # push falhar, descarta o commit local (reset --hard na origem)
+          # e roda TUDO de novo com dados frescos - collector.py e seguro
+          # de repetir (dedup por product_id). Isso e diferente de so
+          # abortar o rebase: abortar nao apaga o commit anterior, entao
+          # cada tentativa ficava empilhando em cima da que falhou antes
+          # e nunca resolvia o conflito de verdade.
           tentativas=3
           for i in $(seq 1 $tentativas); do
             echo "=== tentativa $i/$tentativas ==="
+            git fetch origin main
+            git reset --hard origin/main
+
             python collector.py ${{ matrix.nicho }}
 
             git add data/
             git commit -m "${{ matrix.nicho }}: $(date -u +%Y-%m-%d\ %H:%M)" || echo "nada novo"
 
-            if git pull --rebase origin main && git push; then
+            if git push origin main; then
               echo "=== coletado e salvo com sucesso ==="
               exit 0
             fi
 
-            echo "=== conflito ou falha no push, abortando rebase e tentando de novo ==="
-            git rebase --abort || true
+            echo "=== push rejeitado (alguem chegou primeiro), tentando de novo com dados frescos ==="
             sleep $((i * 5))
           done
 
