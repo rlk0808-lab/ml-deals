@@ -529,7 +529,11 @@ def detectar_camada2(hoje: list[dict], ja_notificados: set[str],
     Limita a MAX_MESMO_TIPO_POR_DIA itens do mesmo "tipo" de produto -
     melhor publicar menos e variado do que encher a fila com 7 variantes
     do mesmo item (fragrancias/tamanhos diferentes de um mesmo hidratante,
-    por exemplo).
+    por exemplo). E, alem de limitar a quantidade, tambem ESPALHA as
+    instancias do mesmo tipo ao longo da fila (round-robin) - sem isso,
+    2 variantes do mesmo produto podiam ter ranking parecido e acabar
+    uma logo depois da outra na publicacao (ex: 2 moveis de berco
+    seguidos), mesmo respeitando o teto de 2/dia.
     """
     candidatos = []
     for item in hoje:
@@ -548,17 +552,28 @@ def detectar_camada2(hoje: list[dict], ja_notificados: set[str],
     # prioriza produtos com mais vendedores concorrendo (comparacao mais forte)
     candidatos.sort(key=lambda x: x["n_ofertas"], reverse=True)
 
-    contagem_tipo: dict[str, int] = {}
-    diversificados = []
+    # agrupa por tipo, respeitando o teto por grupo
+    grupos: dict[str, list[dict]] = {}
     for item in candidatos:
         assinatura = _assinatura_produto(item["nome"])
-        if contagem_tipo.get(assinatura, 0) >= MAX_MESMO_TIPO_POR_DIA:
-            continue
-        contagem_tipo[assinatura] = contagem_tipo.get(assinatura, 0) + 1
-        diversificados.append(item)
+        grupo = grupos.setdefault(assinatura, [])
+        if len(grupo) < MAX_MESMO_TIPO_POR_DIA:
+            grupo.append(item)
+
+    # espalha: pega o 1o melhor de CADA tipo antes de pegar o 2o de
+    # qualquer tipo - assim duas instancias do mesmo tipo so ficam
+    # proximas se quase todos os outros tipos ja tiverem se esgotado
+    diversificados = []
+    indice = 0
+    total = sum(len(g) for g in grupos.values())
+    while len(diversificados) < total:
+        for grupo in grupos.values():
+            if indice < len(grupo):
+                diversificados.append(grupo[indice])
+        indice += 1
 
     print(f"[camada2] {len(diversificados)} produtos com preco novo/mudado "
-          f"({len(contagem_tipo)} tipos diferentes, max {MAX_MESMO_TIPO_POR_DIA}/tipo)")
+          f"({len(grupos)} tipos diferentes, max {MAX_MESMO_TIPO_POR_DIA}/tipo)")
     return diversificados
 
 
