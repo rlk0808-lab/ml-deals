@@ -183,7 +183,11 @@ def descobrir(tk: str, cfg: dict, wl: dict) -> dict:
     novos = 0
     recusas: dict[str, int] = {}
 
-    tarefas = [(q, off) for q in cfg["queries"] for off in (0, 10, 20, 30)]
+    # Aprofunda a busca de 4 pra 10 paginas por termo (ate offset 90).
+    # Isso sozinho aumenta bastante o volume de produtos encontrados por
+    # busca, sem precisar adicionar buscas novas - so vai mais fundo nas
+    # que ja existem.
+    tarefas = [(q, off) for q in cfg["queries"] for off in range(0, 100, 10)]
 
     def busca(args):
         q, off = args
