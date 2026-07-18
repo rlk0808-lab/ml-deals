@@ -13,7 +13,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB71721097",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_643329-MLA111593777100_062026-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-17T21:09:54.917395+00:00"
+    "enfileirado_em": "2026-07-18T00:09:58.191885+00:00"
   },
   {
     "data": "2026-07-17",
@@ -29,7 +29,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB71510826",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_605865-MLA111558087176_062026-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-17T21:09:54.917395+00:00"
+    "enfileirado_em": "2026-07-18T00:09:58.191885+00:00"
   },
   {
     "data": "2026-07-17",
@@ -45,7 +45,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB23129449",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_806861-MLA81852499694_012025-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-17T21:09:54.917395+00:00"
+    "enfileirado_em": "2026-07-18T00:09:58.191885+00:00"
   },
   {
     "data": "2026-07-17",
@@ -61,7 +61,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB19243997",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_768130-MLU50455402353_062022-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-17T21:09:54.917395+00:00"
+    "enfileirado_em": "2026-07-18T00:09:58.191885+00:00"
   },
   {
     "data": "2026-07-17",
@@ -77,7 +77,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB68121802",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_735301-MLA110519550449_042026-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-17T21:09:54.917395+00:00"
+    "enfileirado_em": "2026-07-18T00:09:58.191885+00:00"
   },
   {
     "data": "2026-07-17",
@@ -93,6 +93,66 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB70923694",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_889648-MLA112597150929_062026-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-17T21:09:54.917395+00:00"
+    "enfileirado_em": "2026-07-18T00:09:58.191885+00:00"
+  },
+  {
+    "data": "2026-07-18",
+    "product_id": "MLB35660740",
+    "nome": "Livro Box Emily Henry",
+    "preco": 94.35,
+    "preco_original": 199.9,
+    "n_ofertas": 99,
+    "item_id": "MLB3783924501",
+    "seller_id": 480263032,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB35660740",
+    "mediana": 94.34,
+    "desconto_anunciado": 52.8,
+    "desconto_real": -0.0,
+    "dias_historico": 6,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_712644-MLU75556956438_042024-F.jpg",
+    "tipo": "falso_desconto",
+    "enfileirado_em": "2026-07-18T00:09:58.195054+00:00"
+  },
+  {
+    "data": "2026-07-18",
+    "product_id": "MLB19459679",
+    "nome": "Livro O Caminho Dos Reis De Brandon Sanderson Edição 1 2022 Português Editora Trama",
+    "preco": 103.79,
+    "preco_original": 199.89,
+    "n_ofertas": 98,
+    "item_id": "MLB4423957539",
+    "seller_id": 629557067,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19459679",
+    "mediana": 103.0,
+    "desconto_anunciado": 48.1,
+    "desconto_real": -0.8,
+    "dias_historico": 6,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_738281-MLA112164702040_062026-F.jpg",
+    "tipo": "falso_desconto",
+    "enfileirado_em": "2026-07-18T00:09:58.195054+00:00"
+  },
+  {
+    "data": "2026-07-18",
+    "product_id": "MLB30898776",
+    "nome": "Loucos por livros: Não Aplica, de Emily Henry. Série Não aplica, vol. Não Aplica. Editora Verus, capa mole, edição não aplica em português, 2023",
+    "preco": 35.0,
+    "preco_original": 64.9,
+    "n_ofertas": 75,
+    "item_id": "MLB3783972915",
+    "seller_id": 480263032,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB30898776",
+    "mediana": 35.0,
+    "desconto_anunciado": 46.1,
+    "desconto_real": 0.0,
+    "dias_historico": 6,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_764027-MLU77230420434_072024-F.jpg",
+    "tipo": "falso_desconto",
+    "enfileirado_em": "2026-07-18T00:09:58.195054+00:00"
   }
 ]
