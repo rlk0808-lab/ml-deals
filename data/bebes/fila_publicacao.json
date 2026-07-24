@@ -13,7 +13,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB72808575",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_743743-MLA112880279415_062026-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-23T21:12:42.930833+00:00"
+    "enfileirado_em": "2026-07-24T00:13:17.203011+00:00"
   },
   {
     "data": "2026-07-23",
@@ -45,7 +45,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB32153961",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_816429-MLU78168700926_082024-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-23T21:12:42.930833+00:00"
+    "enfileirado_em": "2026-07-24T00:13:17.203011+00:00"
   },
   {
     "data": "2026-07-23",
@@ -61,7 +61,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB19771454",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_987483-MLU74224832833_012024-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-23T21:12:42.930833+00:00"
+    "enfileirado_em": "2026-07-24T00:13:17.203011+00:00"
   },
   {
     "data": "2026-07-23",
@@ -77,7 +77,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB45837774",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_665970-MLA110555023225_042026-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-23T21:12:42.930833+00:00"
+    "enfileirado_em": "2026-07-24T00:13:17.203011+00:00"
   },
   {
     "data": "2026-07-23",
@@ -93,7 +93,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB47625908",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_940814-MLA99359010660_112025-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-23T21:12:42.930833+00:00"
+    "enfileirado_em": "2026-07-24T00:13:17.203011+00:00"
   },
   {
     "data": "2026-07-23",
@@ -109,7 +109,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB43869393",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_866443-MLA80956575477_112024-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-23T21:12:42.930833+00:00"
+    "enfileirado_em": "2026-07-24T00:13:17.203011+00:00"
   },
   {
     "data": "2026-07-23",
@@ -125,6 +125,66 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB63394973",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_863861-MLA102075362789_122025-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-23T21:12:42.930833+00:00"
+    "enfileirado_em": "2026-07-24T00:13:17.203011+00:00"
+  },
+  {
+    "data": "2026-07-24",
+    "product_id": "MLB64588100",
+    "nome": "Kit Higiene Bebê 13 Pcs Macarons Higiene Estojo Portátil Menino Cor Azul",
+    "preco": 33.1,
+    "preco_original": 78.99,
+    "n_ofertas": 2,
+    "item_id": "MLB6809680644",
+    "seller_id": 2043904299,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB64588100",
+    "mediana": 33.1,
+    "desconto_anunciado": 58.1,
+    "desconto_real": 0.0,
+    "dias_historico": 9,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_706806-MLA104787608326_012026-F.jpg",
+    "tipo": "falso_desconto",
+    "enfileirado_em": "2026-07-24T00:13:17.208437+00:00"
+  },
+  {
+    "data": "2026-07-24",
+    "product_id": "MLB62842938",
+    "nome": "Canguru Sling De Bebe Carregar Recem Nascido Dry Fit Furadinho Premium - DE CORAZÓN",
+    "preco": 44.9,
+    "preco_original": 100.0,
+    "n_ofertas": 1,
+    "item_id": "MLB7134975322",
+    "seller_id": 3481913829,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB62842938",
+    "mediana": 39.99,
+    "desconto_anunciado": 55.1,
+    "desconto_real": -12.3,
+    "dias_historico": 12,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_793123-MLA110412132490_052026-F.jpg",
+    "tipo": "falso_desconto",
+    "enfileirado_em": "2026-07-24T00:13:17.208437+00:00"
+  },
+  {
+    "data": "2026-07-24",
+    "product_id": "MLB70151591",
+    "nome": "Cadeira De Alimentação Bebe Portatil 6 Em 1 Cinto Segurança Cadeira Alimentacao Bebe Rosa",
+    "preco": 330.05,
+    "preco_original": 699.0,
+    "n_ofertas": 2,
+    "item_id": "MLB4729552603",
+    "seller_id": 3014859656,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB70151591",
+    "mediana": 330.85,
+    "desconto_anunciado": 52.8,
+    "desconto_real": 0.2,
+    "dias_historico": 12,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_714117-MLA111858012818_062026-F.jpg",
+    "tipo": "falso_desconto",
+    "enfileirado_em": "2026-07-24T00:13:17.208437+00:00"
   }
 ]
