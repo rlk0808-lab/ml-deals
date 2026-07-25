@@ -20,6 +20,8 @@ from pathlib import Path
 
 import requests
 
+import links_afiliado
+
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "").strip()
 
 # item de Camada 2 ("melhor preco HOJE") perde validade depois disso.
@@ -36,10 +38,16 @@ VALIDADE_CAMADA1_HORAS = 30
 VALIDADE_FALSO_DESCONTO_HORAS = 24
 
 
-def link(url: str, affiliate_tag: str) -> str:
-    if affiliate_tag and url:
-        return f"{url}{'&' if '?' in url else '?'}{affiliate_tag}"
-    return url
+def link(o: dict, affiliate_tag: str = "") -> str:
+    """
+    Link do produto para o post.
+
+    Usa o link rastreado da tabela (gerado na mao) quando existe - e o
+    unico formato que o ML contabiliza. Sem link cadastrado, cai no link
+    normal do produto: o post sai igual, so nao rastreia.
+    """
+    return links_afiliado.resolver(o.get("product_id", ""),
+                                   o.get("permalink", ""))
 
 
 def montar_camada1(o: dict, cfg: dict, affiliate_tag: str) -> str:
@@ -52,7 +60,7 @@ def montar_camada1(o: dict, cfg: dict, affiliate_tag: str) -> str:
             f"Preco habitual: R$ {o['mediana']:.2f}\n"
             f"{o['desconto']:.0f}% abaixo do normal"
             f"{entrega}\n\n"
-            f"{link(o['permalink'], affiliate_tag)}")
+            f"{link(o)}")
 
 
 def montar_camada2(o: dict, cfg: dict, affiliate_tag: str) -> str:
@@ -63,7 +71,7 @@ def montar_camada2(o: dict, cfg: dict, affiliate_tag: str) -> str:
             f"R$ {o['preco']:.2f}\n"
             f"(comparado entre {o['n_ofertas']} vendedores)"
             f"{entrega}\n\n"
-            f"{link(o['permalink'], affiliate_tag)}")
+            f"{link(o)}")
 
 
 def montar_falso_desconto(o: dict, cfg: dict, affiliate_tag: str) -> str:
@@ -83,7 +91,7 @@ def montar_falso_desconto(o: dict, cfg: dict, affiliate_tag: str) -> str:
             f"(-{o['desconto_anunciado']:.0f}%)\n\n"
             f"Nosso histórico real ({o['dias_historico']} dias de coleta): "
             f"preço normal é R$ {o['mediana']:.2f} — {comparacao}.\n\n"
-            f"{link(o['permalink'], affiliate_tag)}")
+            f"{link(o)}")
 
 
 def montar_mensagem(item: dict, cfg: dict, affiliate_tag: str) -> str:
