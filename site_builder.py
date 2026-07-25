@@ -23,6 +23,8 @@ import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 
+import links_afiliado
+
 SAIDA = Path("docs")
 MIN_DIAS_HIST = 14  # espelha collector.py - so pra mensagem de status
 TELEGRAM_LINK = "https://t.me/addlist/2TD1Un1OO5Y3MGI5"  # entra em todos os canais de 1 vez
@@ -55,10 +57,15 @@ def preco_por_dia(historico_rows: list[dict]) -> list[tuple[str, float]]:
     return sorted(por_dia.items())
 
 
-def link_afiliado(url: str, affiliate_tag: str) -> str:
-    if affiliate_tag and url:
-        return f"{url}{'&' if '?' in url else '?'}{affiliate_tag}"
-    return url
+def link_afiliado(product_id: str, url: str, affiliate_tag: str = "") -> str:
+    """
+    Link do produto na pagina do site.
+
+    Mesma regra do Telegram: usa o link rastreado da tabela quando existe.
+    O site e trafego permanente (SEO) - sem isso, cada visita vira um
+    buscador de preco de graca, sem retorno nenhum.
+    """
+    return links_afiliado.resolver(product_id, url)
 
 
 def fmt_brl(v: float) -> str:
@@ -498,7 +505,7 @@ def pagina_produto(p: dict, cfg: dict, pontos: list[tuple[str, float]],
         <div class="rotulo">dias monitorados</div></div>
     </div>'''
 
-    link_ml = link_afiliado(p["permalink"], p.get("affiliate_tag", ""))
+    link_ml = link_afiliado(p.get("product_id", ""), p["permalink"])
     agora = datetime.now(timezone.utc).strftime("%d/%m/%Y às %H:%M UTC")
 
     json_ld = f'''<script type="application/ld+json">
