@@ -6,10 +6,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 (gerado em 2026-07-25)
 
-MLB32488071  Jogo Talheres Infantil Tramontina Baby Aço Inox 4 Pçs 66970
-    https://www.mercadolivre.com.br/p/MLB32488071
-MLB30159553  Jogo Copos Shot 50mL Vidro Bilhar Red Star 10 Peças
-    https://www.mercadolivre.com.br/p/MLB30159553
 MLB67372881  Jogo Taças De Vinho De Cristal Mendoza 480ml 2 Peças Seu Lar
     https://www.mercadolivre.com.br/p/MLB67372881
 MLB60333649  Jogo Taças Vidro Transparente Bico de Abacaxi 230ml Wellmix
@@ -40,8 +36,6 @@ MLB31785467  Jogo Cama Stripe 300 F Casal Azul
     https://www.mercadolivre.com.br/p/MLB31785467
 MLB68751380  Kit Organizador de Gaveta Logic para Talheres e Utensílios C
     https://www.mercadolivre.com.br/p/MLB68751380
-MLB66092630  Armário Caixa De Lenha Porta Trecos Infantil Assento Encosto
-    https://www.mercadolivre.com.br/p/MLB66092630
 MLB50755773  Sanduicheira Grill Sanduicheira Elétrica Antiaderente 110v C
     https://www.mercadolivre.com.br/p/MLB50755773
 MLB38773142  Descanso de Panela Ferro Preto Bras Art 5 Unidades Design Fl
@@ -52,8 +46,6 @@ MLB65348184  Jogo Talheres Faqueiro Dourado Aço Inox 24 Peças Com Maleta
     https://www.mercadolivre.com.br/p/MLB65348184
 MLB75022975  Jogo Copos Linea Parede Dupla Vidro Café 90ml 6 Peças Lehaví
     https://www.mercadolivre.com.br/p/MLB75022975
-MLB24624927  Jogo Copos Vidro Nadir Figueredo Opera 360ml 6 Unidades
-    https://www.mercadolivre.com.br/p/MLB24624927
 MLB74691825  Jogo Copos Porto Fino Long 420ml Vidro Kit C/ 6 Full Transpa
     https://www.mercadolivre.com.br/p/MLB74691825
 MLB32946854  Jogo Taças Vinho Tinto Cristalino 320ml Nadir Figueiredo 6 U
@@ -72,8 +64,6 @@ MLB36227077  Jogo Talheres Tramontina Torta Inox Utensilio Cozinha 13 Pçs
     https://www.mercadolivre.com.br/p/MLB36227077
 MLB25597222  Jogo Copos Long Drink Vidro 255ml Ruvolo Kit 12 Pcs Multiuso
     https://www.mercadolivre.com.br/p/MLB25597222
-MLB72726468  Jogo Talheres Faqueiro Aço Inox 24 Peças Cozinha Sem Suporte
-    https://www.mercadolivre.com.br/p/MLB72726468
 MLB72221082  Jogo Talheres Faqueiro Aço Inox 24 Peças Cozinha Sem Suporte
     https://www.mercadolivre.com.br/p/MLB72221082
 MLB22488150  CONJ. 6 POTES HERMETICOS BLOCK_Ou
@@ -126,3 +116,13 @@ MLB24140057  Prateleira Parede Arnad Decoração 100x20 Dourado/jade
     https://www.mercadolivre.com.br/p/MLB24140057
 MLB34806262  Jogo Tapetes Banheiro Antiderrapante Vida Pratika Azul Liso 
     https://www.mercadolivre.com.br/p/MLB34806262
+MLB28464226  Porta Trecos Organizador Mesa Aramado Lápis Canetas Clips
+    https://www.mercadolivre.com.br/p/MLB28464226
+MLB29369207  Kit Potes Mantimentos Hermético Quadrado Cozinha 12 Peças Co
+    https://www.mercadolivre.com.br/p/MLB29369207
+MLB23843905  Kit Potes Plástico Porta Mantimentos Herméticos com Tampa Pr
+    https://www.mercadolivre.com.br/p/MLB23843905
+MLB50659968  Sanduicheira Grill Sanduicheira Elétrica Antiaderente 110v C
+    https://www.mercadolivre.com.br/p/MLB50659968
+MLB38836522  Jogo Panelas Aluminio Remaza Antiaderente 7 Peças Preto
+    https://www.mercadolivre.com.br/p/MLB38836522
