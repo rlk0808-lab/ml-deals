@@ -28,6 +28,7 @@ import statistics
 import unicodedata
 
 import links_afiliado
+import cupons
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
@@ -234,6 +235,77 @@ def descobrir(tk: str, cfg: dict, wl: dict) -> dict:
         print("[descoberta] recusados:", dict(sorted(
             recusas.items(), key=lambda x: -x[1])[:6]))
     return wl
+
+
+def descobrir_de_campanha(tk: str, cfg: dict, wl: dict,
+                          ids_candidatos: list[str]) -> int:
+    """
+    Mesma logica de filtro da descoberta normal (descobrir()), mas
+    partindo de uma lista de IDs ja conhecida (vinda de um link de
+    campanha/cupom), em vez de busca por palavra-chave.
+
+    Cada ID pode ser tanto um PRODUTO de catalogo quanto um ANUNCIO
+    especifico (paginas de listagem linkam pro anuncio, nao sempre pro
+    produto) - por isso tenta direto como produto e, se nao for, resolve
+    via /items/{id} -> catalog_product_id antes de descartar.
+    """
+    if not ids_candidatos:
+        return 0
+
+    permitidos = set(cfg.get("domains_permitidos") or [])
+    bloqueados = set(cfg.get("domains_bloqueados") or [])
+    novos = 0
+    recusas: dict[str, int] = {}
+
+    for candidato in ids_candidatos:
+        if len(wl) >= MAX_WATCHLIST:
+            break
+        if candidato in wl:
+            continue
+
+        pid = candidato
+        data = GET(f"{API}/products/{pid}", tk)
+
+        if not data or not data.get("name"):
+            # nao era produto de catalogo - tenta como id de anuncio e
+            # resolve pro produto pai, se existir
+            item = GET(f"{API}/items/{pid}", tk)
+            catalog_pid = (item or {}).get("catalog_product_id")
+            if not catalog_pid or catalog_pid in wl:
+                continue
+            pid = catalog_pid
+            data = GET(f"{API}/products/{pid}", tk)
+            if not data:
+                continue
+
+        nome = data.get("name") or ""
+        dom = data.get("domain_id") or ""
+
+        if permitidos and dom not in permitidos:
+            continue
+        if dom in bloqueados:
+            continue
+
+        motivo = nome_reprovado(nome, cfg)
+        if motivo:
+            recusas[motivo] = recusas.get(motivo, 0) + 1
+            continue
+
+        wl[pid] = {
+            "nome": nome[:180],
+            "permalink": data.get("permalink")
+                        or f"https://www.mercadolivre.com.br/p/{pid}",
+            "dominio": dom,
+            "query": "campanha_cupom",
+            "falhas": 0,
+        }
+        novos += 1
+
+    print(f"[campanha] +{novos} novo(s) via link de cupom | watchlist: {len(wl)}")
+    if recusas:
+        print("[campanha] recusados:", dict(sorted(
+            recusas.items(), key=lambda x: -x[1])[:6]))
+    return novos
 
 
 # ----------------------------------------------------------------------
@@ -813,6 +885,16 @@ def main() -> int:
         print(f"[filtro] {antes - len(wl)} produtos removidos por filtro de nome")
 
     wl = descobrir(tk, cfg, wl)
+
+    # cupons colados a mao em data/cupons_novos.txt - so processa os que
+    # sao deste nicho, o resto fica esperando a vez do proprio nicho.
+    # Se o cupom trouxer um link de "produtos selecionados", usa ele
+    # tambem como fonte extra de descoberta.
+    n_cupons, ids_campanha = cupons.importar_novos(nicho, cfg)
+    if n_cupons:
+        print(f"[cupons] {n_cupons} cupom(ns) publicado(s) na frente da fila")
+    if ids_campanha:
+        descobrir_de_campanha(tk, cfg, wl, ids_campanha)
 
     hist: dict[str, list[dict]] = {}
     if f_hist.exists():
