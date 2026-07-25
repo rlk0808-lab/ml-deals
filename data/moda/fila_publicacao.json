@@ -1,15 +1,6 @@
 [
   {
     "data": "2026-07-25",
-    "product_id": "cupom-MODAML",
-    "nome": "Cupom MODAML",
-    "tipo": "cupom",
-    "codigo": "MODAML",
-    "texto_cupom": "20% OFF, mínimo R$19, válido até 26/07/26 (ou enquanto durarem os estoques) em produtos selecionados",
-    "enfileirado_em": "2026-07-25T22:52:40.245357+00:00"
-  },
-  {
-    "data": "2026-07-25",
     "product_id": "cupom-MODACOMVC",
     "nome": "Cupom MODACOMVC",
     "tipo": "cupom",
