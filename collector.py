@@ -29,6 +29,7 @@ import unicodedata
 
 import links_afiliado
 import cupons
+import produtos_manuais
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
@@ -895,6 +896,13 @@ def main() -> int:
         print(f"[cupons] {n_cupons} cupom(ns) publicado(s) na frente da fila")
     if ids_campanha:
         descobrir_de_campanha(tk, cfg, wl, ids_campanha)
+
+    # produtos que o Robson achou navegando e apontou a mao em
+    # data/produtos_novos.txt - mesma logica de filtro de sempre
+    ids_manuais = produtos_manuais.importar_novos(nicho)
+    if ids_manuais:
+        print(f"[produtos] {len(ids_manuais)} produto(s) apontado(s) a mao")
+        descobrir_de_campanha(tk, cfg, wl, ids_manuais)
 
     hist: dict[str, list[dict]] = {}
     if f_hist.exists():
