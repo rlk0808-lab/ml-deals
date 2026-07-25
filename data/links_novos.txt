@@ -1,0 +1,3 @@
+# Cole aqui uma linha por produto (ID + link do Compartilhar).
+# Exemplo: MLB54234927 https://meli.la/2b2M6Yn
+# O coletor importa sozinho na proxima rodada e limpa o arquivo.
