@@ -6,6 +6,3 @@
 # Exemplo:
 #   casa | CASA15OFF | 15% off em Casa e Decoracao, minimo R$150, ate 01/08
 # O coletor importa sozinho na proxima rodada e limpa o arquivo.
-moda | MODACOMVC | 18% OFF, mínimo R$19, válido até 26/07/26 (ou enquanto durarem os estoques) em produtos selecionados | https://bit.ly/4gRkCIU
-moda | MODAML | 20% OFF, mínimo R$19, válido até 26/07/26 (ou enquanto durarem os estoques) em produtos selecionados
-moda | FASHION | 20% OFF, mínimo R$19, válido até 26/07/26 (ou enquanto durarem os estoques) em produtos selecionados
