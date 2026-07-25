@@ -59,7 +59,8 @@
       "livro negocios empreendedorismo",
       "machado de assis livro",
       "livro classico literatura brasileira"
-    ]
+    ],
+    "min_ofertas": 2
   },
   "bebes": {
     "nome": "Bebês e Maternidade",
@@ -132,7 +133,8 @@
       "balanco cadeira descanso bebe",
       "naninha bebe",
       "chocalho bebe recem nascido"
-    ]
+    ],
+    "min_ofertas": 2
   },
   "casa": {
     "nome": "Casa e Cozinha",
@@ -189,7 +191,8 @@
       "porta trecos organizador banheiro",
       "kit potes mantimentos cozinha",
       "sanduicheira grill eletrica"
-    ]
+    ],
+    "min_ofertas": 2
   },
   "moda": {
     "nome": "Moda e Vestuário",
@@ -274,7 +277,10 @@
       "malha premium",
       "por metro",
       "tecido para costura",
-      "malha para costura"
+      "malha para costura",
+      "molde",
+      "chaveiro",
+      "tecido"
     ],
     "exigir_no_nome": [],
     "queries": [
@@ -308,6 +314,7 @@
       "bone aba reta",
       "touca gorro",
       "cinto masculino couro"
-    ]
+    ],
+    "min_ofertas": 2
   }
 }
