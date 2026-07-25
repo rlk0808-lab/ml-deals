@@ -558,42 +558,49 @@ def detectar_camada2(hoje: list[dict], ja_notificados: set[str],
 
         candidatos.append(item)
 
-    # Ordem de prioridade:
-    #   1. ja tem link de afiliado rastreado (post que pode gerar comissao
-    #      vale mais que post que so gera trafego de graca)
-    #   2. mais vendedores concorrendo (comparacao mais forte)
-    #
-    # Isso faz o esforco manual de gerar links se pagar sozinho: quanto
-    # mais links cadastrados, maior a fatia dos posts que sai rastreada,
-    # sem precisar gerar link novo a cada publicacao.
+    # Prioridade real: TODOS os que tem link rastreado devem sair antes
+    # de QUALQUER um sem link - nao adianta so ordenar e depois espalhar
+    # por tipo, porque o espalhamento por tipo pegava 1 de cada tipo na
+    # 1a rodada mesmo que esse tipo so tivesse candidato sem link, e isso
+    # colocava post sem link na frente de post com link. Por isso aqui a
+    # diversificacao por tipo roda SEPARADA dentro de cada grupo (com
+    # link / sem link), e so depois os dois blocos sao concatenados.
     tabela_links = links_afiliado.carregar()
-    candidatos.sort(
-        key=lambda x: (links_afiliado.tem_link(x["product_id"], tabela_links),
-                       x["n_ofertas"]),
-        reverse=True)
+    com_link = [c for c in candidatos
+               if links_afiliado.tem_link(c["product_id"], tabela_links)]
+    sem_link = [c for c in candidatos
+               if not links_afiliado.tem_link(c["product_id"], tabela_links)]
 
-    # agrupa por tipo, respeitando o teto por grupo
-    grupos: dict[str, list[dict]] = {}
-    for item in candidatos:
-        assinatura = _assinatura_produto(item["nome"])
-        grupo = grupos.setdefault(assinatura, [])
-        if len(grupo) < MAX_MESMO_TIPO_POR_DIA:
-            grupo.append(item)
+    def _diversificar_por_tipo(lista: list[dict]) -> list[dict]:
+        lista = sorted(lista, key=lambda x: x["n_ofertas"], reverse=True)
+        grupos: dict[str, list[dict]] = {}
+        for item in lista:
+            assinatura = _assinatura_produto(item["nome"])
+            grupo = grupos.setdefault(assinatura, [])
+            if len(grupo) < MAX_MESMO_TIPO_POR_DIA:
+                grupo.append(item)
 
-    # espalha: pega o 1o melhor de CADA tipo antes de pegar o 2o de
-    # qualquer tipo - assim duas instancias do mesmo tipo so ficam
-    # proximas se quase todos os outros tipos ja tiverem se esgotado
-    diversificados = []
-    indice = 0
-    total = sum(len(g) for g in grupos.values())
-    while len(diversificados) < total:
-        for grupo in grupos.values():
-            if indice < len(grupo):
-                diversificados.append(grupo[indice])
-        indice += 1
+        # espalha: pega o 1o melhor de CADA tipo antes de pegar o 2o de
+        # qualquer tipo - assim duas instancias do mesmo tipo so ficam
+        # proximas se quase todos os outros tipos ja tiverem se esgotado
+        diversificados = []
+        indice = 0
+        total = sum(len(g) for g in grupos.values())
+        while len(diversificados) < total:
+            for grupo in grupos.values():
+                if indice < len(grupo):
+                    diversificados.append(grupo[indice])
+            indice += 1
+        return diversificados, len(grupos)
+
+    diversificados_com, tipos_com = _diversificar_por_tipo(com_link)
+    diversificados_sem, tipos_sem = _diversificar_por_tipo(sem_link)
+    diversificados = diversificados_com + diversificados_sem
 
     print(f"[camada2] {len(diversificados)} produtos com preco novo/mudado "
-          f"({len(grupos)} tipos diferentes, max {MAX_MESMO_TIPO_POR_DIA}/tipo)")
+          f"({len(diversificados_com)} com link rastreado em {tipos_com} "
+          f"tipo(s), {len(diversificados_sem)} sem link em {tipos_sem} "
+          f"tipo(s), max {MAX_MESMO_TIPO_POR_DIA}/tipo)")
     return diversificados
 
 
