@@ -299,6 +299,13 @@ def melhor_oferta(tk: str, pid: str, cfg: dict) -> dict | None:
     if not aprovados:
         return None
 
+    # catalogo com poucos vendedores nao e uma comparacao de verdade -
+    # e so um produto caro e sozinho fingindo ser "melhor preco entre
+    # os vendedores". Sem concorrencia, sem selo.
+    minimo = cfg.get("min_ofertas", 2)
+    if len(aprovados) < minimo:
+        return None
+
     # entre os aprovados, o mais barato. Empate -> prefere Full (entrega rapida)
     melhor = min(aprovados, key=lambda x: (x["preco"], not x["full"]))
     melhor["n_ofertas"] = len(aprovados)
