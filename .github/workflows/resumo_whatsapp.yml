@@ -1,0 +1,25 @@
+name: Resumo WhatsApp
+
+on:
+  # Sem "schedule:" nativo de proposito, mesmo motivo dos outros - quem
+  # dispara e o cron-job.org, 4x por dia (manha, almoco, 2x a noite).
+  workflow_dispatch:
+
+jobs:
+  resumo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r requirements.txt
+
+      - name: Gerar e mandar resumo pro Telegram privado
+        env:
+          TELEGRAM_TOKEN:      ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ADMIN: ${{ secrets.TELEGRAM_CHAT_ADMIN }}
+        run: python -u resumo_whatsapp.py
