@@ -13,7 +13,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB21500171",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_784436-MLB44267110241_122020-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-25T00:13:15.377095+00:00"
+    "enfileirado_em": "2026-07-25T03:12:46.042675+00:00"
   },
   {
     "data": "2026-07-24",
@@ -29,7 +29,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB26312795",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_668876-MLA96089609825_102025-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-25T00:13:15.377095+00:00"
+    "enfileirado_em": "2026-07-25T03:12:46.042675+00:00"
   },
   {
     "data": "2026-07-24",
@@ -45,7 +45,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB65454735",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_951207-MLA106923928077_022026-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-25T00:13:15.377095+00:00"
+    "enfileirado_em": "2026-07-25T03:12:46.042675+00:00"
   },
   {
     "data": "2026-07-24",
@@ -61,7 +61,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB75176163",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_898774-MLA114277829771_072026-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-25T00:13:15.377095+00:00"
+    "enfileirado_em": "2026-07-25T03:12:46.042675+00:00"
   },
   {
     "data": "2026-07-25",
@@ -122,5 +122,85 @@
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_714117-MLA111858012818_062026-F.jpg",
     "tipo": "falso_desconto",
     "enfileirado_em": "2026-07-25T00:13:15.387697+00:00"
+  },
+  {
+    "data": "2026-07-25",
+    "product_id": "MLB34966407",
+    "nome": "Capa A Prova D'agua P/colchão Berço 24h",
+    "preco": 33.11,
+    "preco_original": null,
+    "n_ofertas": 2,
+    "item_id": "MLB4773848274",
+    "seller_id": 27197548,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB34966407",
+    "mediana": 56.99,
+    "minimo_hist": 33.11,
+    "desconto": 41.9,
+    "recorde": true,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_873396-MLA100047256301_122025-F.jpg",
+    "tipo": "camada1",
+    "enfileirado_em": "2026-07-25T03:12:46.054839+00:00"
+  },
+  {
+    "data": "2026-07-25",
+    "product_id": "MLB27115138",
+    "nome": "Telefone Infantil Girafa Brinquedo Educativo Musical",
+    "preco": 33.9,
+    "preco_original": null,
+    "n_ofertas": 3,
+    "item_id": "MLB4552938934",
+    "seller_id": 1701377842,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB27115138",
+    "mediana": 51.8,
+    "minimo_hist": 33.9,
+    "desconto": 34.6,
+    "recorde": true,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_947307-MLA99505265242_112025-F.jpg",
+    "tipo": "camada1",
+    "enfileirado_em": "2026-07-25T03:12:46.054839+00:00"
+  },
+  {
+    "data": "2026-07-25",
+    "product_id": "MLB74956944",
+    "nome": "Cadeirinha para Carro Bebe Conforto Burigotto Cadeira Materna Mon Amour Bebê Conforto para Bebê Passeio Cadeirinha para Carro Bebê Conforto",
+    "preco": 419.0,
+    "preco_original": 560.0,
+    "n_ofertas": 1,
+    "item_id": "MLB7095990740",
+    "seller_id": 207589950,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB74956944",
+    "mediana": 560.0,
+    "minimo_hist": 419.0,
+    "desconto": 25.2,
+    "recorde": true,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_738764-MLA114118958313_072026-F.jpg",
+    "tipo": "camada1",
+    "enfileirado_em": "2026-07-25T03:12:46.054839+00:00"
+  },
+  {
+    "data": "2026-07-25",
+    "product_id": "MLB20538788",
+    "nome": "Lansinoh Ultimate Protection absorvente seios descartáveis absorvente de amamentação 24 Un",
+    "preco": 35.99,
+    "preco_original": null,
+    "n_ofertas": 3,
+    "item_id": "MLB5769967746",
+    "seller_id": 1142362911,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB20538788",
+    "mediana": 42.9,
+    "minimo_hist": 35.99,
+    "desconto": 16.1,
+    "recorde": true,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_969546-MLA99821744785_112025-F.jpg",
+    "tipo": "camada1",
+    "enfileirado_em": "2026-07-25T03:12:46.054839+00:00"
   }
 ]
