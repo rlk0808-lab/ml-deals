@@ -1,0 +1,8 @@
+# Cole aqui 1 cupom por linha, formato:
+#   nicho | codigo | texto livre descrevendo o cupom | link opcional
+# nicho e um de: livros, bebes, casa, moda
+# o link (4o campo) e opcional - so inclui se o cupom tiver link de
+# "produtos selecionados" (o coletor busca produto novo nele tambem)
+# Exemplo:
+#   casa | CASA15OFF | 15% off em Casa e Decoracao, minimo R$150, ate 01/08
+# O coletor importa sozinho na proxima rodada e limpa o arquivo.
