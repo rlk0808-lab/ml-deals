@@ -863,7 +863,7 @@ def main() -> int:
             print("[camada2] nada novo pra postar hoje")
 
         # fila de trabalho manual: quais produtos ainda faltam link
-        links_afiliado.gerar_pendentes(hoje)
+        links_afiliado.gerar_pendentes(nicho, hoje)
     else:
         print(f"[camada2] pulado (roda so as {HORA_CAMADA2_UTC}h UTC "
               f"/ 6h BRT; agora sao {hora_atual}h UTC)")
