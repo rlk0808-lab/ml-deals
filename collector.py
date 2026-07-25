@@ -26,6 +26,8 @@ import re
 import time
 import statistics
 import unicodedata
+
+import links_afiliado
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
@@ -549,8 +551,19 @@ def detectar_camada2(hoje: list[dict], ja_notificados: set[str],
 
         candidatos.append(item)
 
-    # prioriza produtos com mais vendedores concorrendo (comparacao mais forte)
-    candidatos.sort(key=lambda x: x["n_ofertas"], reverse=True)
+    # Ordem de prioridade:
+    #   1. ja tem link de afiliado rastreado (post que pode gerar comissao
+    #      vale mais que post que so gera trafego de graca)
+    #   2. mais vendedores concorrendo (comparacao mais forte)
+    #
+    # Isso faz o esforco manual de gerar links se pagar sozinho: quanto
+    # mais links cadastrados, maior a fatia dos posts que sai rastreada,
+    # sem precisar gerar link novo a cada publicacao.
+    tabela_links = links_afiliado.carregar()
+    candidatos.sort(
+        key=lambda x: (links_afiliado.tem_link(x["product_id"], tabela_links),
+                       x["n_ofertas"]),
+        reverse=True)
 
     # agrupa por tipo, respeitando o teto por grupo
     grupos: dict[str, list[dict]] = {}
@@ -581,10 +594,20 @@ def detectar_camada2(hoje: list[dict], ja_notificados: set[str],
 # PUBLICACAO
 # ----------------------------------------------------------------------
 
-def link(url: str) -> str:
-    if AFFILIATE_TAG and url:
-        return f"{url}{'&' if '?' in url else '?'}{AFFILIATE_TAG}"
-    return url
+def link(o: dict) -> str:
+    """
+    Link do produto para o post.
+
+    Prioridade:
+      1. link rastreado da tabela (gerado na mao pelo Robson) - e o unico
+         formato que o ML realmente contabiliza
+      2. link normal do produto (sem rastreio, mas o post nao quebra)
+
+    O ML_AFFILIATE_TAG antigo (matt_word/matt_tool colado na URL) foi
+    testado e NAO rastreia - por isso nao e mais usado aqui.
+    """
+    return links_afiliado.resolver(o.get("product_id", ""),
+                                   o.get("permalink", ""))
 
 
 def montar(o: dict, cfg: dict) -> str:
@@ -597,7 +620,7 @@ def montar(o: dict, cfg: dict) -> str:
             f"Preco habitual: R$ {o['mediana']:.2f}\n"
             f"{o['desconto']:.0f}% abaixo do normal"
             f"{entrega}\n\n"
-            f"{link(o['permalink'])}")
+            f"{link(o)}")
 
 
 def montar_camada2(o: dict, cfg: dict) -> str:
@@ -613,7 +636,7 @@ def montar_camada2(o: dict, cfg: dict) -> str:
             f"R$ {o['preco']:.2f}\n"
             f"(comparado entre {o['n_ofertas']} vendedores)"
             f"{entrega}\n\n"
-            f"{link(o['permalink'])}")
+            f"{link(o)}")
 
 
 def refrescar_camada2_na_fila(d: Path, hoje: list[dict]) -> int:
@@ -748,6 +771,10 @@ def main() -> int:
         print("[!] faltam ML_APP_ID / ML_APP_SECRET")
         return 1
 
+    # links de afiliado colados a mao em data/links_novos.txt entram aqui
+    links_afiliado.importar_novos()
+    print(f"[links] {links_afiliado.resumo()}")
+
     d = Path("data") / nicho
     d.mkdir(parents=True, exist_ok=True)
     f_wl, f_hist, f_of = d / "watchlist.json", d / "historico.csv", d / "ofertas.json"
@@ -827,6 +854,9 @@ def main() -> int:
             enfileirar(d, candidatos_c2, tipo="camada2", limite=LIMITE_FILA_CAMADA2)
         else:
             print("[camada2] nada novo pra postar hoje")
+
+        # fila de trabalho manual: quais produtos ainda faltam link
+        links_afiliado.gerar_pendentes(hoje)
     else:
         print(f"[camada2] pulado (roda so as {HORA_CAMADA2_UTC}h UTC "
               f"/ 6h BRT; agora sao {hora_atual}h UTC)")
