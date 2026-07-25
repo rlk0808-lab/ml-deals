@@ -79,11 +79,11 @@ def montar_cupom(codigo: str, texto: str, cfg: dict) -> str:
     return (f"🎟️ {cfg['emoji']} CUPOM MERCADO LIVRE\n\n"
             f"{codigo}\n"
             f"{texto}\n\n"
-            f"Vimos esse cupom circulando e resolvemos repassar. Ele e da "
-            f"propria plataforma - nao confirmamos se aplica em cada "
+            f"Vimos esse cupom circulando e resolvemos repassar. Ele é da "
+            f"própria plataforma - não confirmamos se aplica em cada "
             f"produto, cada carrinho pode variar.\n\n"
-            f"Antes de usar, vale conferir se o preco de hoje realmente "
-            f"compensa - e pra isso que a gente rastreia o historico "
+            f"Antes de usar, vale conferir se o preço de hoje realmente "
+            f"compensa - é pra isso que a gente rastreia o histórico "
             f"aqui no canal.")
 
 
@@ -153,6 +153,7 @@ def importar_novos(nicho_atual: str, cfg: dict) -> tuple[int, list[str]]:
     restantes = []
     processados = 0
     ids_campanha: list[str] = []
+    novos_desta_rodada: list[dict] = []  # em ordem - insere tudo de uma vez no final
     agora = datetime.now(timezone.utc).isoformat()
 
     for linha_bruta in bruto.splitlines():
@@ -178,19 +179,25 @@ def importar_novos(nicho_atual: str, cfg: dict) -> tuple[int, list[str]]:
             "texto_cupom": texto,
             "enfileirado_em": agora,
         }
-        fila_path = Path("data") / nicho / "fila_publicacao.json"
+        novos_desta_rodada.append(item)
+        processados += 1
+
+        if link_campanha:
+            ids_campanha += resolver_produtos_da_campanha(link_campanha)
+
+    if novos_desta_rodada:
+        fila_path = Path("data") / nicho_atual / "fila_publicacao.json"
         try:
             fila = json.loads(fila_path.read_text(encoding="utf-8"))
         except FileNotFoundError:
             fila = []
-        fila.insert(0, item)  # na frente - cupom e urgente, nao espera fila normal
+        # bloco inteiro na frente, na MESMA ordem em que apareceram no
+        # arquivo (o primeiro cupom colado e o primeiro a ser publicado)
+        fila = novos_desta_rodada + fila
         fila_path.write_text(json.dumps(fila, ensure_ascii=False, indent=2),
                              encoding="utf-8")
-        processados += 1
-        print(f"[cupons] {codigo} ({nicho}) inserido na frente da fila")
-
-        if link_campanha:
-            ids_campanha += resolver_produtos_da_campanha(link_campanha)
+        for item in novos_desta_rodada:
+            print(f"[cupons] {item['codigo']} ({nicho_atual}) inserido na frente da fila")
 
     novo_conteudo = _CABECALHO + "\n".join(restantes)
     if restantes:
