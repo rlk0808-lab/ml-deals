@@ -1,0 +1,7 @@
+# Cole aqui 1 produto por linha, formato:
+#   nicho | link ou ID do produto
+# nicho e um de: livros, bebes, casa, moda
+# Pode colar o link completo (o sistema acha o ID sozinho) ou so o ID.
+# Exemplo:
+#   moda | https://www.mercadolivre.com.br/camiseta-x/p/MLB12345678
+# O coletor importa sozinho na proxima rodada e limpa o arquivo.
