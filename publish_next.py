@@ -36,6 +36,9 @@ VALIDADE_CAMADA1_HORAS = 30
 # Falso desconto: o "de/por" da loja costuma ficar fixo por dias, entao
 # nao e tao sensivel a hora quanto a Camada 2 - mas ainda assim tem teto.
 VALIDADE_FALSO_DESCONTO_HORAS = 24
+# Cupom entra na FRENTE da fila (e urgente) - se em 6h ainda nao saiu,
+# algo travou e o cupom provavelmente ja nao vale mais a pena repassar.
+VALIDADE_CUPOM_HORAS = 6
 
 
 def link(o: dict, affiliate_tag: str = "") -> str:
@@ -94,11 +97,18 @@ def montar_falso_desconto(o: dict, cfg: dict, affiliate_tag: str) -> str:
             f"{link(o)}")
 
 
+def montar_cupom(o: dict, cfg: dict, affiliate_tag: str) -> str:
+    import cupons
+    return cupons.montar_cupom(o.get("codigo", ""), o.get("texto_cupom", ""), cfg)
+
+
 def montar_mensagem(item: dict, cfg: dict, affiliate_tag: str) -> str:
     if item.get("tipo") == "camada2":
         return montar_camada2(item, cfg, affiliate_tag)
     if item.get("tipo") == "falso_desconto":
         return montar_falso_desconto(item, cfg, affiliate_tag)
+    if item.get("tipo") == "cupom":
+        return montar_cupom(item, cfg, affiliate_tag)
     return montar_camada1(item, cfg, affiliate_tag)
 
 
@@ -111,6 +121,7 @@ def esta_vencido(item: dict) -> bool:
     limites = {
         "camada2": VALIDADE_CAMADA2_HORAS,
         "falso_desconto": VALIDADE_FALSO_DESCONTO_HORAS,
+        "cupom": VALIDADE_CUPOM_HORAS,
     }
     limite = limites.get(item.get("tipo"), VALIDADE_CAMADA1_HORAS)
     idade = datetime.now(timezone.utc) - enfileirado
