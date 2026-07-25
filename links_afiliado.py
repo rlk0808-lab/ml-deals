@@ -165,6 +165,24 @@ def importar_novos() -> int:
     return novos
 
 
+def marcar_sem_programa(product_id: str, nome: str = "") -> None:
+    """
+    Alguns produtos nao mostram o botao Compartilhar na barra de afiliados
+    (fora de estoque, pausado, ou o vendedor nao participa do programa).
+    Sem isso, esses produtos ficariam aparecendo pra sempre em
+    links_pendentes.txt, pedindo um link que nunca vai existir.
+    """
+    tabela = carregar()
+    anterior = tabela.get(product_id, {})
+    tabela[product_id] = {
+        **anterior,
+        "link": "",
+        "nome": anterior.get("nome") or nome,
+        "status": "sem_programa",
+    }
+    salvar(tabela)
+
+
 def gerar_pendentes(nicho: str, candidatos: list[dict], limite: int = 60) -> None:
     """
     Escreve data/{nicho}/links_pendentes.txt com os produtos que MAIS
@@ -174,9 +192,14 @@ def gerar_pendentes(nicho: str, candidatos: list[dict], limite: int = 60) -> Non
     Um arquivo por nicho (nao compartilhado) - senao a rodada de um
     nicho apaga a lista que a rodada anterior de outro nicho tinha
     acabado de gerar.
+
+    Produtos marcados como "sem_programa" (sem botao Compartilhar) nao
+    aparecem mais aqui - ja foi confirmado que nao tem link pra gerar.
     """
     tabela = carregar()
-    faltando = [c for c in candidatos if not tem_link(c["product_id"], tabela)]
+    faltando = [c for c in candidatos
+               if not tem_link(c["product_id"], tabela)
+               and tabela.get(c["product_id"], {}).get("status") != "sem_programa"]
     faltando.sort(key=lambda x: x.get("n_ofertas", 0), reverse=True)
 
     linhas = [
