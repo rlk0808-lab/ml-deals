@@ -91,7 +91,8 @@
       "robotico",
       "robótico",
       "braco robotico",
-      "braço robótico"
+      "braço robótico",
+      "boneca"
     ],
     "exigir_no_nome": [],
     "queries": [
@@ -158,7 +159,8 @@
       "reforma",
       "apoio para panela",
       "suporte para panela",
-      "trempe"
+      "trempe",
+      "infantil"
     ],
     "exigir_no_nome": [],
     "queries": [
@@ -280,7 +282,16 @@
       "malha para costura",
       "molde",
       "chaveiro",
-      "tecido"
+      "tecido",
+      "esquadria",
+      "serrote",
+      "serra ingco",
+      "perfume de cueca",
+      "perfume de calcinha",
+      "sabonete intimo",
+      "bandeja",
+      "elastico para cos",
+      "infantil"
     ],
     "exigir_no_nome": [],
     "queries": [
