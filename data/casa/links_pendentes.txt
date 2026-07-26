@@ -4,8 +4,10 @@ Como usar: abra o link, clique em Compartilhar na barra preta de
 afiliados, copie o link gerado (meli.la/...) e cole em
 data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
-(gerado em 2026-07-25)
+(gerado em 2026-07-26)
 
+MLB65348184  Jogo Talheres Faqueiro Dourado Aço Inox 24 Peças Com Maleta
+    https://www.mercadolivre.com.br/p/MLB65348184
 MLB67372881  Jogo Taças De Vinho De Cristal Mendoza 480ml 2 Peças Seu Lar
     https://www.mercadolivre.com.br/p/MLB67372881
 MLB60333649  Jogo Taças Vidro Transparente Bico de Abacaxi 230ml Wellmix
@@ -42,8 +44,6 @@ MLB38773142  Descanso de Panela Ferro Preto Bras Art 5 Unidades Design Fl
     https://www.mercadolivre.com.br/p/MLB38773142
 MLB67926426  Jogo Talheres 16 Pecas Inox Cabo Pp Cinza Resistente Cinza
     https://www.mercadolivre.com.br/p/MLB67926426
-MLB65348184  Jogo Talheres Faqueiro Dourado Aço Inox 24 Peças Com Maleta
-    https://www.mercadolivre.com.br/p/MLB65348184
 MLB75022975  Jogo Copos Linea Parede Dupla Vidro Café 90ml 6 Peças Lehaví
     https://www.mercadolivre.com.br/p/MLB75022975
 MLB74691825  Jogo Copos Porto Fino Long 420ml Vidro Kit C/ 6 Full Transpa
@@ -64,8 +64,6 @@ MLB36227077  Jogo Talheres Tramontina Torta Inox Utensilio Cozinha 13 Pçs
     https://www.mercadolivre.com.br/p/MLB36227077
 MLB25597222  Jogo Copos Long Drink Vidro 255ml Ruvolo Kit 12 Pcs Multiuso
     https://www.mercadolivre.com.br/p/MLB25597222
-MLB72221082  Jogo Talheres Faqueiro Aço Inox 24 Peças Cozinha Sem Suporte
-    https://www.mercadolivre.com.br/p/MLB72221082
 MLB22488150  CONJ. 6 POTES HERMETICOS BLOCK_Ou
     https://www.mercadolivre.com.br/p/MLB22488150
 MLB72722941  Jogo Talheres Faqueiro Aço Inox 24 Peças Cozinha Sem Suporte
@@ -126,3 +124,5 @@ MLB50659968  Sanduicheira Grill Sanduicheira Elétrica Antiaderente 110v C
     https://www.mercadolivre.com.br/p/MLB50659968
 MLB38836522  Jogo Panelas Aluminio Remaza Antiaderente 7 Peças Preto
     https://www.mercadolivre.com.br/p/MLB38836522
+MLB35164745  Jogo Panela Ferro Alça De Madeira Tampa E Frigideira Nº11
+    https://www.mercadolivre.com.br/p/MLB35164745
