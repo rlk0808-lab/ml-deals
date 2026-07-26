@@ -4,10 +4,12 @@ Como usar: abra o link, clique em Compartilhar na barra preta de
 afiliados, copie o link gerado (meli.la/...) e cole em
 data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
-(gerado em 2026-07-25)
+(gerado em 2026-07-26)
 
 MLB19931597  Bioré Lenço Umedecido Demaquilante 44 Unidades Refil
     https://www.mercadolivre.com.br/p/MLB19931597
+MLB23036772  Carrinho Bebê Romano + Bebê Conforto Preto/cobre Galzerano
+    https://www.mercadolivre.com.br/p/MLB23036772
 MLB68578906  Bepantol Baby Pomada Assadura Bebe Hipoalergênica, 200g
     https://www.mercadolivre.com.br/p/MLB68578906
 MLB66679971  Toalha Umedecida Hidratante Bebê Infantil Macia 1120 Un
@@ -24,6 +26,8 @@ MLB53265338  Naninha Paninho Prendedor De Chupeta Bebê Pimpolho Princesa
     https://www.mercadolivre.com.br/p/MLB53265338
 MLB23938011  Bomba Tira Leite Step Up Manual - Chicco
     https://www.mercadolivre.com.br/p/MLB23938011
+MLB39338659  Cachaça Seio Da Canastra 750ml 24k Flocos De Ouro
+    https://www.mercadolivre.com.br/p/MLB39338659
 MLB19110119  Fralda Descartável Infantil Pampers Supersec G Pacote 26 Uni
     https://www.mercadolivre.com.br/p/MLB19110119
 MLB37195687  20 Ímã Neodímio P/ Chupeta Bebe Reborn 12,5x2mm Potente
@@ -90,6 +94,8 @@ MLB32691882  Shampoo/Condicionador Wella Fusión reparação
     https://www.mercadolivre.com.br/p/MLB32691882
 MLB18392562  Fralda Descartável Infantil Ultra Seca Mili M Pacote 22 Unid
     https://www.mercadolivre.com.br/p/MLB18392562
+MLB24459116  Absorvente Seios Amamentação Bellacotton 30 Unidades Confort
+    https://www.mercadolivre.com.br/p/MLB24459116
 MLB19485174  Pomada Assadura Bebê Creme Lukinha Zona Fralda 90g
     https://www.mercadolivre.com.br/p/MLB19485174
 MLB35491026  Pomada Assadura Bebê Needs 120g Hidratação Pró-Vitamina B5 e
@@ -120,9 +126,3 @@ MLB44783312  Absorvente Para Seio Dermatologicamente Testado Cor Branco
     https://www.mercadolivre.com.br/p/MLB44783312
 MLB61689560  Kit 2 Protetores de Seio Amamentação Pituca Silicone 9cm
     https://www.mercadolivre.com.br/p/MLB61689560
-MLB70007436  Cadeira De Alimentação Portátil Infantil Bebê Refeição 3em1 
-    https://www.mercadolivre.com.br/p/MLB70007436
-MLB70293554  Cadeira De Alimentação Portátil Infantil Bebê Refeição 3em1 
-    https://www.mercadolivre.com.br/p/MLB70293554
-MLB69613472  Cadeira De Alimentação Portátil Infantil Bebê Refeição 3em1 
-    https://www.mercadolivre.com.br/p/MLB69613472
