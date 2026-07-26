@@ -33,7 +33,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB70624241",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_882513-MLA112536662423_052026-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-26T18:15:33.070127+00:00"
+    "enfileirado_em": "2026-07-26T19:58:40.632175+00:00"
   },
   {
     "data": "2026-07-26",
@@ -49,7 +49,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB33314746",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_659067-MLA99523310600_122025-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-26T18:15:33.070127+00:00"
+    "enfileirado_em": "2026-07-26T19:58:40.632175+00:00"
   },
   {
     "data": "2026-07-26",
@@ -65,7 +65,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB33974588",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_875540-MLA99463399150_112025-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-26T18:15:33.070127+00:00"
+    "enfileirado_em": "2026-07-26T19:58:40.632175+00:00"
   },
   {
     "data": "2026-07-26",
@@ -97,7 +97,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB22830986",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_931750-MLA95525391815_102025-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-26T18:15:33.070127+00:00"
+    "enfileirado_em": "2026-07-26T19:58:40.632175+00:00"
   },
   {
     "data": "2026-07-26",
@@ -113,7 +113,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB39216863",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_952579-MLA96665130003_102025-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-26T18:15:33.070127+00:00"
+    "enfileirado_em": "2026-07-26T19:58:40.632175+00:00"
   },
   {
     "data": "2026-07-26",
@@ -134,5 +134,141 @@
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_951804-MLA93096067676_092025-F.jpg",
     "tipo": "camada1",
     "enfileirado_em": "2026-07-26T18:15:33.075514+00:00"
+  },
+  {
+    "data": "2026-07-26",
+    "product_id": "MLB66285238",
+    "nome": "Kit 6 Potes Herméticos Organizador Block 1l - Ou",
+    "preco": 119.3,
+    "preco_original": 149.99,
+    "n_ofertas": 2,
+    "item_id": "MLB4715480611",
+    "seller_id": 2306039693,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB66285238",
+    "mediana": 190.06,
+    "minimo_hist": 119.3,
+    "desconto": 37.2,
+    "recorde": true,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_801096-MLA107533503816_032026-F.jpg",
+    "tipo": "camada1",
+    "enfileirado_em": "2026-07-26T19:58:40.638078+00:00"
+  },
+  {
+    "data": "2026-07-26",
+    "product_id": "MLB69984483",
+    "nome": "Sanduicheira Elétrica Startools Sanduicheira Grill Elétrica Preto",
+    "preco": 52.99,
+    "preco_original": null,
+    "n_ofertas": 75,
+    "item_id": "MLB7193059676",
+    "seller_id": 3538058881,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB69984483",
+    "mediana": 67.5,
+    "minimo_hist": 52.99,
+    "desconto": 21.5,
+    "recorde": true,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_915817-MLA111897800941_052026-F.jpg",
+    "tipo": "camada1",
+    "enfileirado_em": "2026-07-26T19:58:40.638078+00:00"
+  },
+  {
+    "data": "2026-07-26",
+    "product_id": "MLB33325410",
+    "nome": "Jogo Panelas 7 Peças Turim Tramontina Antiaderente Alumínio Cor Preto",
+    "preco": 233.0,
+    "preco_original": null,
+    "n_ofertas": 33,
+    "item_id": "MLB4908629431",
+    "seller_id": 298982950,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB33325410",
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_831722-MLA95710741670_102025-F.jpg",
+    "tipo": "camada2",
+    "enfileirado_em": "2026-07-26T19:58:40.883346+00:00"
+  },
+  {
+    "data": "2026-07-26",
+    "product_id": "MLB41306127",
+    "nome": "Jogo Talheres Faqueiro Tramontina Aço Inox 24 Peças Buzios I",
+    "preco": 69.99,
+    "preco_original": 78.9,
+    "n_ofertas": 11,
+    "item_id": "MLB6477815488",
+    "seller_id": 1211289038,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB41306127",
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_615259-MLA99533170204_122025-F.jpg",
+    "tipo": "camada2",
+    "enfileirado_em": "2026-07-26T19:58:40.883346+00:00"
+  },
+  {
+    "data": "2026-07-26",
+    "product_id": "MLB22488150",
+    "nome": "CONJ. 6 POTES HERMETICOS BLOCK_Ou",
+    "preco": 156.31,
+    "preco_original": null,
+    "n_ofertas": 3,
+    "item_id": "MLB5351222174",
+    "seller_id": 1187926368,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB22488150",
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_756232-MLA100093952739_122025-F.jpg",
+    "tipo": "camada2",
+    "enfileirado_em": "2026-07-26T19:58:40.883346+00:00"
+  },
+  {
+    "data": "2026-07-26",
+    "product_id": "MLB74927262",
+    "nome": "Dispenser Sabonete Liquido Porta Sabonete Liquido Banherio Branco",
+    "preco": 22.04,
+    "preco_original": 25.24,
+    "n_ofertas": 3,
+    "item_id": "MLB7093311436",
+    "seller_id": 15529829,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB74927262",
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_618828-MLA114062408749_072026-F.jpg",
+    "tipo": "camada2",
+    "enfileirado_em": "2026-07-26T19:58:40.883346+00:00"
+  },
+  {
+    "data": "2026-07-26",
+    "product_id": "MLB75087991",
+    "nome": "Jogo Talheres 12 Peças Inox Fratelli Elegante Moderno Rosa Cor Preto",
+    "preco": 56.5,
+    "preco_original": null,
+    "n_ofertas": 2,
+    "item_id": "MLB7219589052",
+    "seller_id": 345689052,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB75087991",
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_934273-MLA114253746653_072026-F.jpg",
+    "tipo": "camada2",
+    "enfileirado_em": "2026-07-26T19:58:40.883346+00:00"
+  },
+  {
+    "data": "2026-07-26",
+    "product_id": "MLB57061176",
+    "nome": "Jogo Copos Água Vidro Betelud Bodas Ouro 300mL 2 Peças",
+    "preco": 39.9,
+    "preco_original": null,
+    "n_ofertas": 2,
+    "item_id": "MLB6759046414",
+    "seller_id": 1699060871,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB57061176",
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_913404-MLA99523309872_122025-F.jpg",
+    "tipo": "camada2",
+    "enfileirado_em": "2026-07-26T19:58:40.883346+00:00"
   }
 ]
