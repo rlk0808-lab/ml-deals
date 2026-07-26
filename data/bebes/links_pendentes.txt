@@ -6,20 +6,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 (gerado em 2026-07-26)
 
-MLB19931597  Bioré Lenço Umedecido Demaquilante 44 Unidades Refil
-    https://www.mercadolivre.com.br/p/MLB19931597
-MLB39338659  Cachaça Seio Da Canastra 750ml 24k Flocos De Ouro
-    https://www.mercadolivre.com.br/p/MLB39338659
-MLB37195687  20 Ímã Neodímio P/ Chupeta Bebe Reborn 12,5x2mm Potente
-    https://www.mercadolivre.com.br/p/MLB37195687
-MLB56458652  Molde Forma Silicone Sabonete Biscuit Chupeta Bebe G
-    https://www.mercadolivre.com.br/p/MLB56458652
-MLB35476801  Imã Neodímio 10x3mm Disco Cs Brinquedos Para Chupeta Bebê Re
-    https://www.mercadolivre.com.br/p/MLB35476801
-MLB51041526  Adesivo De Seio Push Up De Silicone Fita Up Tamanho Caramelo
-    https://www.mercadolivre.com.br/p/MLB51041526
-MLB32691882  Shampoo/Condicionador Wella Fusión reparação
-    https://www.mercadolivre.com.br/p/MLB32691882
 MLB70007436  Cadeira De Alimentação Portátil Infantil Bebê Refeição 3em1 
     https://www.mercadolivre.com.br/p/MLB70007436
 MLB70293554  Cadeira De Alimentação Portátil Infantil Bebê Refeição 3em1 
@@ -70,8 +56,6 @@ MLB28482962  Esterilizador De Mamadeira Avent A Vapor - Pronta
     https://www.mercadolivre.com.br/p/MLB28482962
 MLB25482059  Esterilizador Elétrico De Mamadeira Chupeta Avent
     https://www.mercadolivre.com.br/p/MLB25482059
-MLB18392524  Fralda Descartável Infantil Pampers Supersec G Pacote 40 Uni
-    https://www.mercadolivre.com.br/p/MLB18392524
 MLB24311696  Lenço Umedecido IsaBaby 2000 Unidades Bebê Balde
     https://www.mercadolivre.com.br/p/MLB24311696
 MLB37228412  Pomada Nebacetin Baby Hypera Farma Regeneração Assadura 30g
@@ -124,3 +108,5 @@ MLB26457127  Kit Escovas De Lavar Mamadeira Bebê Bicos E Canudo Buba Cor
     https://www.mercadolivre.com.br/p/MLB26457127
 MLB44232385  Protetor Absorvente Seios Lavável 6 Unidades Amamentação
     https://www.mercadolivre.com.br/p/MLB44232385
+MLB32300839  Berloque Carrinho Bebê Azul Prata 925 com Caixa
+    https://www.mercadolivre.com.br/p/MLB32300839
