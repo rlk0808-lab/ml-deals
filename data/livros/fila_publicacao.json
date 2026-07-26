@@ -13,7 +13,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB19209247",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_681282-MLU50407889900_062022-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-26T19:53:16.798060+00:00"
+    "enfileirado_em": "2026-07-26T21:09:59.450452+00:00"
   },
   {
     "data": "2026-07-26",
@@ -29,7 +29,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB30033114",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_627198-MLU77232758156_072024-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-26T19:53:16.798060+00:00"
+    "enfileirado_em": "2026-07-26T21:09:59.450452+00:00"
   },
   {
     "data": "2026-07-26",
@@ -45,6 +45,26 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB22822878",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_806350-MLU73794905138_012024-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-26T19:53:16.798060+00:00"
+    "enfileirado_em": "2026-07-26T21:09:59.450452+00:00"
+  },
+  {
+    "data": "2026-07-26",
+    "product_id": "MLB68499477",
+    "nome": "Livro Desenvolvimento Local Sustentável, De Kronemberg, Deni",
+    "preco": 42.9,
+    "preco_original": null,
+    "n_ofertas": 15,
+    "item_id": "MLB4430819499",
+    "seller_id": 492433622,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB68499477",
+    "mediana": 97.5,
+    "minimo_hist": 42.9,
+    "desconto": 56.0,
+    "recorde": true,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_864793-MLA110802823579_042026-F.jpg",
+    "tipo": "camada1",
+    "enfileirado_em": "2026-07-26T21:09:59.461047+00:00"
   }
 ]
