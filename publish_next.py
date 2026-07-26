@@ -30,6 +30,16 @@ TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "").strip()
 # Isso aqui e so a rede de seguranca pro caso raro do produto sumir da
 # coleta (ex: ficou sem estoque) e nunca mais ser atualizado.
 VALIDADE_CAMADA2_HORAS = 10
+
+SITE_URL = "https://rlk0808-lab.github.io/ml-deals"
+
+
+def link_site(o: dict, cfg: dict) -> str:
+    """Link direto pra pagina desse produto no site - mostra o grafico
+    completo do historico, reforca credibilidade antes da pessoa clicar
+    pra comprar, e funciona como porta de entrada pra busca no site."""
+    pid = o.get("product_id", "")
+    return f"{SITE_URL}/{cfg['slug']}/{pid}.html"
 # Camada 1 e mais estavel (selo de historico, nao muda a cada hora), mas
 # tambem tem teto de seguranca pra fila nao acumular lixo antigo.
 VALIDADE_CAMADA1_HORAS = 30
@@ -63,7 +73,8 @@ def montar_camada1(o: dict, cfg: dict, affiliate_tag: str) -> str:
             f"Preco habitual: R$ {o['mediana']:.2f}\n"
             f"{o['desconto']:.0f}% abaixo do normal"
             f"{entrega}\n\n"
-            f"{link(o)}")
+            f"{link(o)}\n\n"
+            f"📊 Veja o histórico completo: {link_site(o, cfg)}")
 
 
 def montar_camada2(o: dict, cfg: dict, affiliate_tag: str) -> str:
@@ -74,7 +85,8 @@ def montar_camada2(o: dict, cfg: dict, affiliate_tag: str) -> str:
             f"R$ {o['preco']:.2f}\n"
             f"(comparado entre {o['n_ofertas']} vendedores)"
             f"{entrega}\n\n"
-            f"{link(o)}")
+            f"{link(o)}\n\n"
+            f"📊 Veja o histórico completo: {link_site(o, cfg)}")
 
 
 def montar_falso_desconto(o: dict, cfg: dict, affiliate_tag: str) -> str:
@@ -94,7 +106,8 @@ def montar_falso_desconto(o: dict, cfg: dict, affiliate_tag: str) -> str:
             f"(-{o['desconto_anunciado']:.0f}%)\n\n"
             f"Nosso histórico real ({o['dias_historico']} dias de coleta): "
             f"preço normal é R$ {o['mediana']:.2f} — {comparacao}.\n\n"
-            f"{link(o)}")
+            f"{link(o)}\n\n"
+            f"📊 Veja o histórico completo: {link_site(o, cfg)}")
 
 
 def montar_cupom(o: dict, cfg: dict, affiliate_tag: str) -> str:
