@@ -13,7 +13,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB22101664",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_796347-MLB53965052075_022023-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-26T18:10:01.564730+00:00"
+    "enfileirado_em": "2026-07-26T19:53:16.471758+00:00"
   },
   {
     "data": "2026-07-26",
@@ -29,6 +29,74 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB71604003",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_848298-MLA112641869007_062026-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-26T18:10:01.564730+00:00"
+    "enfileirado_em": "2026-07-26T19:53:16.471758+00:00"
+  },
+  {
+    "data": "2026-07-26",
+    "product_id": "MLB68499477",
+    "nome": "Livro Desenvolvimento Local Sustentável, De Kronemberg, Deni",
+    "preco": 42.9,
+    "preco_original": null,
+    "n_ofertas": 15,
+    "item_id": "MLB4430819499",
+    "seller_id": 492433622,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB68499477",
+    "mediana": 97.5,
+    "minimo_hist": 42.9,
+    "desconto": 56.0,
+    "recorde": true,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_864793-MLA110802823579_042026-F.jpg",
+    "tipo": "camada1",
+    "enfileirado_em": "2026-07-26T19:53:16.484234+00:00"
+  },
+  {
+    "data": "2026-07-26",
+    "product_id": "MLB19209247",
+    "nome": "Livro A sala das borboletas, de Riley, Lucinda. Editora Arqueiro Ltda., capa mole (2019)",
+    "preco": 43.45,
+    "preco_original": null,
+    "n_ofertas": 88,
+    "item_id": "MLB3444667421",
+    "seller_id": 717817419,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19209247",
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_681282-MLU50407889900_062022-F.jpg",
+    "tipo": "camada2",
+    "enfileirado_em": "2026-07-26T19:53:16.798060+00:00"
+  },
+  {
+    "data": "2026-07-26",
+    "product_id": "MLB30033114",
+    "nome": "Identidades Cruzadas, De Harlan Coben. Editora Arqueiro Em Português",
+    "preco": 48.19,
+    "preco_original": 69.9,
+    "n_ofertas": 58,
+    "item_id": "MLB4904549046",
+    "seller_id": 480263032,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB30033114",
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_627198-MLU77232758156_072024-F.jpg",
+    "tipo": "camada2",
+    "enfileirado_em": "2026-07-26T19:53:16.798060+00:00"
+  },
+  {
+    "data": "2026-07-26",
+    "product_id": "MLB22822878",
+    "nome": "Livro É Assim Que Acaba- Edição de colecionador - Capa dura -Colleen Hoover- Ed. Galera",
+    "preco": 63.49,
+    "preco_original": 109.9,
+    "n_ofertas": 88,
+    "item_id": "MLB3784030847",
+    "seller_id": 480263032,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB22822878",
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_806350-MLU73794905138_012024-F.jpg",
+    "tipo": "camada2",
+    "enfileirado_em": "2026-07-26T19:53:16.798060+00:00"
   }
 ]
