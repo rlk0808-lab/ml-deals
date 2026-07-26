@@ -60,7 +60,8 @@
       "machado de assis livro",
       "livro classico literatura brasileira"
     ],
-    "min_ofertas": 2
+    "min_ofertas": 2,
+    "slug": "livros"
   },
   "bebes": {
     "nome": "Bebês e Maternidade",
@@ -142,7 +143,8 @@
       "naninha bebe",
       "chocalho bebe recem nascido"
     ],
-    "min_ofertas": 2
+    "min_ofertas": 2,
+    "slug": "bebes"
   },
   "casa": {
     "nome": "Casa e Cozinha",
@@ -201,7 +203,8 @@
       "kit potes mantimentos cozinha",
       "sanduicheira grill eletrica"
     ],
-    "min_ofertas": 2
+    "min_ofertas": 2,
+    "slug": "casa"
   },
   "moda": {
     "nome": "Moda e Vestuário",
@@ -337,6 +340,7 @@
       "touca gorro",
       "cinto masculino couro"
     ],
-    "min_ofertas": 2
+    "min_ofertas": 2,
+    "slug": "moda"
   }
 }
