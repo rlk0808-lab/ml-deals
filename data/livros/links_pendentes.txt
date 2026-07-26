@@ -4,8 +4,12 @@ Como usar: abra o link, clique em Compartilhar na barra preta de
 afiliados, copie o link gerado (meli.la/...) e cole em
 data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
-(gerado em 2026-07-25)
+(gerado em 2026-07-26)
 
+MLB23760008  Livro Trono de vidro: Rainha das sombras (Vol. 4), de Maas, 
+    https://www.mercadolivre.com.br/p/MLB23760008
+MLB19220767  Livro Trono de vidro (Vol. 1), de Maas, Sarah J., vol. 1. Ed
+    https://www.mercadolivre.com.br/p/MLB19220767
 MLB30898776  Loucos por livros: Não Aplica, de Emily Henry. Série Não apl
     https://www.mercadolivre.com.br/p/MLB30898776
 MLB19220729  Livro A lâmina da assassina, de Maas, Sarah J.. Editora Gale
@@ -16,32 +20,32 @@ MLB50142205  Livro Talvez Agora Colleen Hoover Edição 1 Português 2025 Ed
     https://www.mercadolivre.com.br/p/MLB50142205
 MLB29915187  O mar de monstros: (Série Percy Jackson e os Olimpianos), de
     https://www.mercadolivre.com.br/p/MLB29915187
+MLB51508196  Kit Emily Henry
+    https://www.mercadolivre.com.br/p/MLB51508196
 MLB40646392  A Cirurgiã - Um Thriller Psicológico Eletrizante, Repleto De
     https://www.mercadolivre.com.br/p/MLB40646392
 MLB57813856  Kit Thrillers Colleen Hoover: Verity + Layla
     https://www.mercadolivre.com.br/p/MLB57813856
-MLB51508196  Kit Emily Henry
-    https://www.mercadolivre.com.br/p/MLB51508196
 MLB22571032  Livro É Assim Que Começa ( Vol. 2 - É Assim Que Acaba ) - Co
     https://www.mercadolivre.com.br/p/MLB22571032
 MLB39606339  Livro O Massacre Da Família Hope De Riley Sager Edição 1 Em 
     https://www.mercadolivre.com.br/p/MLB39606339
-MLB19238937  Coleção Agatha Christie box 8 de Christie Agatha editorial H
-    https://www.mercadolivre.com.br/p/MLB19238937
 MLB19243663  Livro O menino do bosque, de Coben, Harlan. Editorial Editor
     https://www.mercadolivre.com.br/p/MLB19243663
+MLB19238937  Coleção Agatha Christie box 8 de Christie Agatha editorial H
+    https://www.mercadolivre.com.br/p/MLB19238937
+MLB19273263  Livro Doutor sono de Stephen King capa mole 2014 em portuguê
+    https://www.mercadolivre.com.br/p/MLB19273263
 MLB51140116  Pactos Mortais Um Thriller Psicológico Instigante De Vinganç
     https://www.mercadolivre.com.br/p/MLB51140116
 MLB63500710  Lendas Perdidas: As Aventuras De Flynn Rider
     https://www.mercadolivre.com.br/p/MLB63500710
-MLB19273263  Livro Doutor sono de Stephen King capa mole 2014 em portuguê
-    https://www.mercadolivre.com.br/p/MLB19273263
-MLB19301641  Livro Contos de suspense e terror, de Poe, Edgar Allan. Edit
-    https://www.mercadolivre.com.br/p/MLB19301641
-MLB19256126  Livro A árvore dos anjos, de Riley, Lucinda. Editora Arqueir
-    https://www.mercadolivre.com.br/p/MLB19256126
 MLB19244020  Livro Não conte a ninguém, de Coben, Harlan. Editorial Edito
     https://www.mercadolivre.com.br/p/MLB19244020
+MLB19256126  Livro A árvore dos anjos, de Riley, Lucinda. Editora Arqueir
+    https://www.mercadolivre.com.br/p/MLB19256126
+MLB19301641  Livro Contos de suspense e terror, de Poe, Edgar Allan. Edit
+    https://www.mercadolivre.com.br/p/MLB19301641
 MLB23968924  O Amor Que Partiu O Mundo, De Emily Henry. Editora Harpercol
     https://www.mercadolivre.com.br/p/MLB23968924
 MLB19243684  Libro Detalhe final (Myron Bolitar – Livro 6), de Coben, Har
@@ -54,6 +58,8 @@ MLB19273147  Livro Tripulação De Esqueletos De Stephen King Edição 1 Em P
     https://www.mercadolivre.com.br/p/MLB19273147
 MLB44914745  Box Livros E Quebra-cabeça Mickey E Seus Amigos
     https://www.mercadolivre.com.br/p/MLB44914745
+MLB30033114  Identidades Cruzadas, De Harlan Coben. Editora Arqueiro Em P
+    https://www.mercadolivre.com.br/p/MLB30033114
 MLB20748158  Livro - Negócios E Ócios
     https://www.mercadolivre.com.br/p/MLB20748158
 MLB66962411  Espectros De Um Crime O Livro De Suspense Vencedor Do Concur
@@ -66,14 +72,12 @@ MLB25309044  Identidades Cruzadas: Voce Acha Que Sabe A Verdade, A Verdad
     https://www.mercadolivre.com.br/p/MLB25309044
 MLB19243685  Livro Silêncio na floresta, de Coben, Harlan. Editorial Edit
     https://www.mercadolivre.com.br/p/MLB19243685
-MLB19243681  Livro A grande ilusão, de Coben, Harlan. Editorial Editora A
-    https://www.mercadolivre.com.br/p/MLB19243681
 MLB19218126  Livro Quatro Estações Stephen King Edição 1 Português 2013 E
     https://www.mercadolivre.com.br/p/MLB19218126
-MLB30033114  Identidades Cruzadas, De Harlan Coben. Editora Arqueiro Em P
-    https://www.mercadolivre.com.br/p/MLB30033114
 MLB19243678  A promessa (Myron Bolitar – Livro 8), de Coben, Harlan. Edit
     https://www.mercadolivre.com.br/p/MLB19243678
+MLB19243681  Livro A grande ilusão, de Coben, Harlan. Editorial Editora A
+    https://www.mercadolivre.com.br/p/MLB19243681
 MLB19243809  Livro Não Há Segunda Chance De Harlan Coben Da Editora Arque
     https://www.mercadolivre.com.br/p/MLB19243809
 MLB19187918  O Pequeno Príncipe Antoine Saint Exupéry Livro Clássico
@@ -106,23 +110,19 @@ MLB19238271  Livro Sherlock Holmes Sir Arthur Conan Doyle Edição 1 Portug
     https://www.mercadolivre.com.br/p/MLB19238271
 MLB68697067  Livro Os Arquivos De Sherlock Holmes, De Doyle, Arthur Conan
     https://www.mercadolivre.com.br/p/MLB68697067
-MLB65754557  Livro Trono De Vidro Box 8 Livros Série Completa De Sarah J.
-    https://www.mercadolivre.com.br/p/MLB65754557
 MLB19445047  O livro dos coelhos suicidas, de Riley, Andy. Editora Todavi
     https://www.mercadolivre.com.br/p/MLB19445047
+MLB65754557  Livro Trono De Vidro Box 8 Livros Série Completa De Sarah J.
+    https://www.mercadolivre.com.br/p/MLB65754557
 MLB19365449  Livro Mistério-bufo, de Maiakovski, Vladimir. Editorial Edit
     https://www.mercadolivre.com.br/p/MLB19365449
 MLB19910452  Livro P. S. Eu Te Amo - Cecilia Ahern- Romance Best Seller
     https://www.mercadolivre.com.br/p/MLB19910452
 MLB68121802  Box Sherlock Holmes - 4 Livros, De Doyle, Arthur Conan. Novo
     https://www.mercadolivre.com.br/p/MLB68121802
-MLB19193899  Livro Morrendo de vergonha, de Flynn, Teresa. Editora Summus
-    https://www.mercadolivre.com.br/p/MLB19193899
 MLB68544098  Livro Memórias De Sherlock Holmes, De Doyle, Arthur Conan, V
     https://www.mercadolivre.com.br/p/MLB68544098
+MLB19193899  Livro Morrendo de vergonha, de Flynn, Teresa. Editora Summus
+    https://www.mercadolivre.com.br/p/MLB19193899
 MLB19399802  Livro Arteterapia para famílias, de Riley, Shirley, tapa mol
     https://www.mercadolivre.com.br/p/MLB19399802
-MLB25801919  Kit Colleen Hoover: Novembro 9, Layla, Sem Esperança, De Col
-    https://www.mercadolivre.com.br/p/MLB25801919
-MLB26353001  De Ferias Com Voce - 1ªed.(2022), De Emily Henry. Editora Ve
-    https://www.mercadolivre.com.br/p/MLB26353001
