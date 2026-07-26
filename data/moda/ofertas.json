@@ -14,10 +14,7 @@
     "mediana": 160.33,
     "minimo_hist": 54.9,
     "desconto": 65.8,
-    "recorde": true,
-    "imagem": "https://http2.mlstatic.com/D_NQ_NP_824382-MLA111645284993_052026-F.jpg",
-    "tipo": "camada1",
-    "enfileirado_em": "2026-07-26T03:17:32.227660+00:00"
+    "recorde": true
   },
   {
     "data": "2026-07-26",
@@ -34,9 +31,6 @@
     "mediana": 120.93,
     "minimo_hist": 78.9,
     "desconto": 34.8,
-    "recorde": true,
-    "imagem": "https://http2.mlstatic.com/D_NQ_NP_718335-MLA110401793602_052026-F.jpg",
-    "tipo": "camada1",
-    "enfileirado_em": "2026-07-26T03:17:32.227660+00:00"
+    "recorde": true
   }
 ]
