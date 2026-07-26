@@ -90,8 +90,15 @@ nav.migalha a{color:var(--tinta-fraca)}
 .grafico-eixo{stroke:var(--linha); stroke-width:1}
 .grafico-area{fill:var(--verificado-fundo); stroke:none}
 .grafico-linha{fill:none; stroke:var(--verificado); stroke-width:2.5; stroke-linecap:round}
-.grafico-ponto{fill:var(--bg); stroke:var(--verificado); stroke-width:2; transition:r .12s ease}
-.grafico-ponto:hover{r:5}
+.grafico-ponto{fill:var(--bg); stroke:var(--verificado); stroke-width:2; transition:r .12s ease; cursor:pointer}
+.grafico-ponto:hover, .grafico-ponto:focus{r:5}
+.grafico-tooltip{position:absolute; display:none; pointer-events:none; z-index:5;
+  background:var(--tinta); color:var(--bg); font-family:'JetBrains Mono',monospace;
+  font-size:12px; padding:6px 10px; border-radius:6px; white-space:nowrap;
+  transform:translate(-50%,-100%); margin-top:-8px}
+.grafico-tooltip.aberto{display:block}
+.grafico-wrap{position:relative}
+.grafico-dica{margin-top:8px; font-size:12px; color:var(--tinta-fraca); text-align:center}
 .grafico-rotulo-min{font-family:'JetBrains Mono',monospace; font-size:11px; fill:var(--tinta-fraca)}
 .grafico-eixo-texto{font-family:'JetBrains Mono',monospace; font-size:11px; fill:var(--tinta-fraca)}
 .sem-dados{color:var(--tinta-fraca); font-size:13px}

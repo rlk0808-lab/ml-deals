@@ -13,6 +13,31 @@
 <script type="application/ld+json">
 {"@context": "https://schema.org/", "@type": "Product", "name": "Jogo Talheres Faqueiro Búzios Aço Inox 24 Peças Tramontina", "image": "https://http2.mlstatic.com/D_NQ_NP_885228-MLA105354697197_012026-F.jpg", "offers": {"@type": "Offer", "priceCurrency": "BRL", "price": "55.93", "url": "https://meli.la/1W5n5xi", "availability": "https://schema.org/InStock"}}
 </script>
+
+<script>
+(function(){
+  var tip = document.getElementById('grafico-tooltip');
+  var svg = document.querySelector('.grafico');
+  if (!tip || !svg) return;
+
+  function mostrar(ponto){
+    var r = ponto.getBoundingClientRect();
+    var wrapR = svg.closest('.grafico-wrap').getBoundingClientRect();
+    tip.textContent = ponto.dataset.data + ': ' + ponto.dataset.preco;
+    tip.style.left = (r.left - wrapR.left + r.width / 2) + 'px';
+    tip.style.top = (r.top - wrapR.top) + 'px';
+    tip.classList.add('aberto');
+  }
+
+  svg.querySelectorAll('.grafico-ponto').forEach(function(ponto){
+    ponto.addEventListener('mouseenter', function(){ mostrar(ponto); });
+    ponto.addEventListener('focus', function(){ mostrar(ponto); });
+    ponto.addEventListener('click', function(e){ e.stopPropagation(); mostrar(ponto); });
+  });
+
+  document.addEventListener('click', function(){ tip.classList.remove('aberto'); });
+})();
+</script>
 </head>
 <body>
 <header class="topo"><div class="wrap">
@@ -28,16 +53,22 @@
       <div class="status-pendente">Coletando histórico (9/14 dias)</div>
     </div>
   </div>
-  <div class="grafico-bloco"><svg class="grafico" viewBox="0 0 680 220" xmlns="http://www.w3.org/2000/svg" role="img"
+  <div class="grafico-bloco">
+    <div class="grafico-wrap">
+      <svg class="grafico" viewBox="0 0 680 220" xmlns="http://www.w3.org/2000/svg" role="img"
      aria-label="Histórico de preço de 18/07 a 26/07">
   <line x1="40" y1="192" x2="640" y2="192" class="grafico-eixo"/>
   <path d="M 40.0,28.0 C 52.5,28.0 90.0,3.2 115.0,28.0 C 140.0,52.8 165.0,152.0 190.0,176.7 C 215.0,201.5 240.0,176.7 265.0,176.7 C 290.0,176.7 315.0,176.7 340.0,176.7 C 365.0,176.7 390.0,174.2 415.0,176.7 C 440.0,179.3 465.0,194.6 490.0,192.0 C 515.0,189.4 540.0,166.1 565.0,160.9 C 590.0,155.8 627.5,160.9 640.0,160.9  L 640.0,192.0 L 40.0,192.0 Z" class="grafico-area"/>
   <path d="M 40.0,28.0 C 52.5,28.0 90.0,3.2 115.0,28.0 C 140.0,52.8 165.0,152.0 190.0,176.7 C 215.0,201.5 240.0,176.7 265.0,176.7 C 290.0,176.7 315.0,176.7 340.0,176.7 C 365.0,176.7 390.0,174.2 415.0,176.7 C 440.0,179.3 465.0,194.6 490.0,192.0 C 515.0,189.4 540.0,166.1 565.0,160.9 C 590.0,155.8 627.5,160.9 640.0,160.9 " class="grafico-linha"/>
-  <circle cx="40.0" cy="28.0" r="2.5" class="grafico-ponto"/><circle cx="115.0" cy="28.0" r="2.5" class="grafico-ponto"/><circle cx="190.0" cy="176.7" r="2.5" class="grafico-ponto"/><circle cx="265.0" cy="176.7" r="2.5" class="grafico-ponto"/><circle cx="340.0" cy="176.7" r="2.5" class="grafico-ponto"/><circle cx="415.0" cy="176.7" r="2.5" class="grafico-ponto"/><circle cx="490.0" cy="192.0" r="2.5" class="grafico-ponto"/><circle cx="565.0" cy="160.9" r="2.5" class="grafico-ponto"/><circle cx="640.0" cy="160.9" r="2.5" class="grafico-ponto"/>
+  <circle cx="40.0" cy="28.0" r="2.5" class="grafico-ponto" tabindex="0" data-data="18/07" data-preco="R$ 63,25"><title>18/07: R$ 63,25</title></circle><circle cx="115.0" cy="28.0" r="2.5" class="grafico-ponto" tabindex="0" data-data="19/07" data-preco="R$ 63,25"><title>19/07: R$ 63,25</title></circle><circle cx="190.0" cy="176.7" r="2.5" class="grafico-ponto" tabindex="0" data-data="20/07" data-preco="R$ 55,06"><title>20/07: R$ 55,06</title></circle><circle cx="265.0" cy="176.7" r="2.5" class="grafico-ponto" tabindex="0" data-data="21/07" data-preco="R$ 55,06"><title>21/07: R$ 55,06</title></circle><circle cx="340.0" cy="176.7" r="2.5" class="grafico-ponto" tabindex="0" data-data="22/07" data-preco="R$ 55,06"><title>22/07: R$ 55,06</title></circle><circle cx="415.0" cy="176.7" r="2.5" class="grafico-ponto" tabindex="0" data-data="23/07" data-preco="R$ 55,06"><title>23/07: R$ 55,06</title></circle><circle cx="490.0" cy="192.0" r="2.5" class="grafico-ponto" tabindex="0" data-data="24/07" data-preco="R$ 54,22"><title>24/07: R$ 54,22</title></circle><circle cx="565.0" cy="160.9" r="2.5" class="grafico-ponto" tabindex="0" data-data="25/07" data-preco="R$ 55,93"><title>25/07: R$ 55,93</title></circle><circle cx="640.0" cy="160.9" r="2.5" class="grafico-ponto" tabindex="0" data-data="26/07" data-preco="R$ 55,93"><title>26/07: R$ 55,93</title></circle>
   <text x="490.0" y="182.0" text-anchor="middle" class="grafico-rotulo-min">R$ 54,22</text>
   <text x="40" y="214" class="grafico-eixo-texto">18/07</text>
   <text x="640" y="214" text-anchor="end" class="grafico-eixo-texto">26/07</text>
-</svg></div>
+</svg>
+      <div class="grafico-tooltip" id="grafico-tooltip"></div>
+    </div>
+    <p class="grafico-dica">Toque ou passe o mouse em qualquer ponto pra ver a data e o preço daquele dia.</p>
+  </div>
   <div class="estatisticas">
       <div class="estatistica"><div class="valor mono">R$ 54,22</div>
         <div class="rotulo">menor preço já registrado (24/07)</div></div>
@@ -45,7 +76,7 @@
         <div class="rotulo">dias monitorados</div></div>
     </div>
   <a class="cta" href="https://meli.la/1W5n5xi" rel="nofollow sponsored" target="_blank">Ver no Mercado Livre →</a>
-  <p class="rodape-nota">Preço coletado automaticamente em 26/07/2026 às 18:18 UTC, comparado com o histórico
+  <p class="rodape-nota">Preço coletado automaticamente em 26/07/2026 às 20:02 UTC, comparado com o histórico
   real do produto (não com o preço "de" anunciado pela loja).</p>
 </div>
 <footer class="rodape"><div class="wrap">

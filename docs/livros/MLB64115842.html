@@ -13,6 +13,31 @@
 <script type="application/ld+json">
 {"@context": "https://schema.org/", "@type": "Product", "name": "Kit A Empregada + O Segredo Da Empregada + A Empregada Está De Olho, De Freida Mcfadden, Vol. 1. Editora Arqueiro, Capa Mole (2024)", "image": "https://http2.mlstatic.com/D_NQ_NP_705429-MLA104285817215_012026-F.jpg", "offers": {"@type": "Offer", "priceCurrency": "BRL", "price": "178.49", "url": "https://www.mercadolivre.com.br/p/MLB64115842", "availability": "https://schema.org/InStock"}}
 </script>
+
+<script>
+(function(){
+  var tip = document.getElementById('grafico-tooltip');
+  var svg = document.querySelector('.grafico');
+  if (!tip || !svg) return;
+
+  function mostrar(ponto){
+    var r = ponto.getBoundingClientRect();
+    var wrapR = svg.closest('.grafico-wrap').getBoundingClientRect();
+    tip.textContent = ponto.dataset.data + ': ' + ponto.dataset.preco;
+    tip.style.left = (r.left - wrapR.left + r.width / 2) + 'px';
+    tip.style.top = (r.top - wrapR.top) + 'px';
+    tip.classList.add('aberto');
+  }
+
+  svg.querySelectorAll('.grafico-ponto').forEach(function(ponto){
+    ponto.addEventListener('mouseenter', function(){ mostrar(ponto); });
+    ponto.addEventListener('focus', function(){ mostrar(ponto); });
+    ponto.addEventListener('click', function(e){ e.stopPropagation(); mostrar(ponto); });
+  });
+
+  document.addEventListener('click', function(){ tip.classList.remove('aberto'); });
+})();
+</script>
 </head>
 <body>
 <header class="topo"><div class="wrap">
@@ -28,16 +53,22 @@
       <div class="status-pendente">Coletando histórico (13/14 dias)</div>
     </div>
   </div>
-  <div class="grafico-bloco"><svg class="grafico" viewBox="0 0 680 220" xmlns="http://www.w3.org/2000/svg" role="img"
+  <div class="grafico-bloco">
+    <div class="grafico-wrap">
+      <svg class="grafico" viewBox="0 0 680 220" xmlns="http://www.w3.org/2000/svg" role="img"
      aria-label="Histórico de preço de 14/07 a 26/07">
   <line x1="40" y1="192" x2="640" y2="192" class="grafico-eixo"/>
   <path d="M 40.0,158.6 C 48.3,158.6 73.3,158.6 90.0,158.6 C 106.7,158.6 123.3,158.6 140.0,158.6 C 156.7,158.6 173.3,158.6 190.0,158.6 C 206.7,158.6 223.3,158.6 240.0,158.6 C 256.7,158.6 273.3,158.6 290.0,158.6 C 306.7,158.6 323.3,180.4 340.0,158.6 C 356.7,136.8 373.3,49.8 390.0,28.0 C 406.7,6.2 423.3,28.0 440.0,28.0 C 456.7,28.0 473.3,28.0 490.0,28.0 C 506.7,28.0 523.3,0.7 540.0,28.0 C 556.7,55.3 573.3,164.7 590.0,192.0 C 606.7,219.3 631.7,192.0 640.0,192.0  L 640.0,192.0 L 40.0,192.0 Z" class="grafico-area"/>
   <path d="M 40.0,158.6 C 48.3,158.6 73.3,158.6 90.0,158.6 C 106.7,158.6 123.3,158.6 140.0,158.6 C 156.7,158.6 173.3,158.6 190.0,158.6 C 206.7,158.6 223.3,158.6 240.0,158.6 C 256.7,158.6 273.3,158.6 290.0,158.6 C 306.7,158.6 323.3,180.4 340.0,158.6 C 356.7,136.8 373.3,49.8 390.0,28.0 C 406.7,6.2 423.3,28.0 440.0,28.0 C 456.7,28.0 473.3,28.0 490.0,28.0 C 506.7,28.0 523.3,0.7 540.0,28.0 C 556.7,55.3 573.3,164.7 590.0,192.0 C 606.7,219.3 631.7,192.0 640.0,192.0 " class="grafico-linha"/>
-  <circle cx="40.0" cy="158.6" r="2.5" class="grafico-ponto"/><circle cx="90.0" cy="158.6" r="2.5" class="grafico-ponto"/><circle cx="140.0" cy="158.6" r="2.5" class="grafico-ponto"/><circle cx="190.0" cy="158.6" r="2.5" class="grafico-ponto"/><circle cx="240.0" cy="158.6" r="2.5" class="grafico-ponto"/><circle cx="290.0" cy="158.6" r="2.5" class="grafico-ponto"/><circle cx="340.0" cy="158.6" r="2.5" class="grafico-ponto"/><circle cx="390.0" cy="28.0" r="2.5" class="grafico-ponto"/><circle cx="440.0" cy="28.0" r="2.5" class="grafico-ponto"/><circle cx="490.0" cy="28.0" r="2.5" class="grafico-ponto"/><circle cx="540.0" cy="28.0" r="2.5" class="grafico-ponto"/><circle cx="590.0" cy="192.0" r="2.5" class="grafico-ponto"/><circle cx="640.0" cy="192.0" r="2.5" class="grafico-ponto"/>
+  <circle cx="40.0" cy="158.6" r="2.5" class="grafico-ponto" tabindex="0" data-data="14/07" data-preco="R$ 182,46"><title>14/07: R$ 182,46</title></circle><circle cx="90.0" cy="158.6" r="2.5" class="grafico-ponto" tabindex="0" data-data="15/07" data-preco="R$ 182,46"><title>15/07: R$ 182,46</title></circle><circle cx="140.0" cy="158.6" r="2.5" class="grafico-ponto" tabindex="0" data-data="16/07" data-preco="R$ 182,46"><title>16/07: R$ 182,46</title></circle><circle cx="190.0" cy="158.6" r="2.5" class="grafico-ponto" tabindex="0" data-data="17/07" data-preco="R$ 182,46"><title>17/07: R$ 182,46</title></circle><circle cx="240.0" cy="158.6" r="2.5" class="grafico-ponto" tabindex="0" data-data="18/07" data-preco="R$ 182,46"><title>18/07: R$ 182,46</title></circle><circle cx="290.0" cy="158.6" r="2.5" class="grafico-ponto" tabindex="0" data-data="19/07" data-preco="R$ 182,46"><title>19/07: R$ 182,46</title></circle><circle cx="340.0" cy="158.6" r="2.5" class="grafico-ponto" tabindex="0" data-data="20/07" data-preco="R$ 182,46"><title>20/07: R$ 182,46</title></circle><circle cx="390.0" cy="28.0" r="2.5" class="grafico-ponto" tabindex="0" data-data="21/07" data-preco="R$ 197,99"><title>21/07: R$ 197,99</title></circle><circle cx="440.0" cy="28.0" r="2.5" class="grafico-ponto" tabindex="0" data-data="22/07" data-preco="R$ 197,99"><title>22/07: R$ 197,99</title></circle><circle cx="490.0" cy="28.0" r="2.5" class="grafico-ponto" tabindex="0" data-data="23/07" data-preco="R$ 197,99"><title>23/07: R$ 197,99</title></circle><circle cx="540.0" cy="28.0" r="2.5" class="grafico-ponto" tabindex="0" data-data="24/07" data-preco="R$ 197,99"><title>24/07: R$ 197,99</title></circle><circle cx="590.0" cy="192.0" r="2.5" class="grafico-ponto" tabindex="0" data-data="25/07" data-preco="R$ 178,49"><title>25/07: R$ 178,49</title></circle><circle cx="640.0" cy="192.0" r="2.5" class="grafico-ponto" tabindex="0" data-data="26/07" data-preco="R$ 178,49"><title>26/07: R$ 178,49</title></circle>
   <text x="590.0" y="182.0" text-anchor="middle" class="grafico-rotulo-min">R$ 178,49</text>
   <text x="40" y="214" class="grafico-eixo-texto">14/07</text>
   <text x="640" y="214" text-anchor="end" class="grafico-eixo-texto">26/07</text>
-</svg></div>
+</svg>
+      <div class="grafico-tooltip" id="grafico-tooltip"></div>
+    </div>
+    <p class="grafico-dica">Toque ou passe o mouse em qualquer ponto pra ver a data e o preço daquele dia.</p>
+  </div>
   <div class="estatisticas">
       <div class="estatistica"><div class="valor mono">R$ 178,49</div>
         <div class="rotulo">menor preço já registrado (25/07)</div></div>
@@ -45,7 +76,7 @@
         <div class="rotulo">dias monitorados</div></div>
     </div>
   <a class="cta" href="https://www.mercadolivre.com.br/p/MLB64115842" rel="nofollow sponsored" target="_blank">Ver no Mercado Livre →</a>
-  <p class="rodape-nota">Preço coletado automaticamente em 26/07/2026 às 18:18 UTC, comparado com o histórico
+  <p class="rodape-nota">Preço coletado automaticamente em 26/07/2026 às 20:02 UTC, comparado com o histórico
   real do produto (não com o preço "de" anunciado pela loja).</p>
 </div>
 <footer class="rodape"><div class="wrap">

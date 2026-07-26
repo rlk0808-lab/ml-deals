@@ -13,6 +13,31 @@
 <script type="application/ld+json">
 {"@context": "https://schema.org/", "@type": "Product", "name": "Jogo Panelas Rochedo Antiaderente Expert 5 Peças Resistente Cor Chocolate", "image": "https://http2.mlstatic.com/D_NQ_NP_785523-MLA100587301472_122025-F.jpg", "offers": {"@type": "Offer", "priceCurrency": "BRL", "price": "338.00", "url": "https://meli.la/17Xm47Q", "availability": "https://schema.org/InStock"}}
 </script>
+
+<script>
+(function(){
+  var tip = document.getElementById('grafico-tooltip');
+  var svg = document.querySelector('.grafico');
+  if (!tip || !svg) return;
+
+  function mostrar(ponto){
+    var r = ponto.getBoundingClientRect();
+    var wrapR = svg.closest('.grafico-wrap').getBoundingClientRect();
+    tip.textContent = ponto.dataset.data + ': ' + ponto.dataset.preco;
+    tip.style.left = (r.left - wrapR.left + r.width / 2) + 'px';
+    tip.style.top = (r.top - wrapR.top) + 'px';
+    tip.classList.add('aberto');
+  }
+
+  svg.querySelectorAll('.grafico-ponto').forEach(function(ponto){
+    ponto.addEventListener('mouseenter', function(){ mostrar(ponto); });
+    ponto.addEventListener('focus', function(){ mostrar(ponto); });
+    ponto.addEventListener('click', function(e){ e.stopPropagation(); mostrar(ponto); });
+  });
+
+  document.addEventListener('click', function(){ tip.classList.remove('aberto'); });
+})();
+</script>
 </head>
 <body>
 <header class="topo"><div class="wrap">
@@ -28,16 +53,22 @@
       <div class="status-pendente">Coletando histórico (12/14 dias)</div>
     </div>
   </div>
-  <div class="grafico-bloco"><svg class="grafico" viewBox="0 0 680 220" xmlns="http://www.w3.org/2000/svg" role="img"
+  <div class="grafico-bloco">
+    <div class="grafico-wrap">
+      <svg class="grafico" viewBox="0 0 680 220" xmlns="http://www.w3.org/2000/svg" role="img"
      aria-label="Histórico de preço de 15/07 a 26/07">
   <line x1="40" y1="192" x2="640" y2="192" class="grafico-eixo"/>
   <path d="M 40.0,28.0 C 49.1,29.2 76.4,34.2 94.5,35.4 C 112.7,36.7 130.9,28.1 149.1,35.4 C 167.3,42.8 185.5,72.2 203.6,79.5 C 221.8,86.9 240.0,79.5 258.2,79.5 C 276.4,79.5 294.5,79.5 312.7,79.5 C 330.9,79.5 349.1,79.5 367.3,79.5 C 385.5,79.5 403.6,79.5 421.8,79.5 C 440.0,79.5 458.2,60.8 476.4,79.5 C 494.5,98.3 512.7,192.0 530.9,192.0 C 549.1,192.0 567.3,94.2 585.5,79.5 C 603.6,64.8 630.9,99.8 640.0,103.8  L 640.0,192.0 L 40.0,192.0 Z" class="grafico-area"/>
   <path d="M 40.0,28.0 C 49.1,29.2 76.4,34.2 94.5,35.4 C 112.7,36.7 130.9,28.1 149.1,35.4 C 167.3,42.8 185.5,72.2 203.6,79.5 C 221.8,86.9 240.0,79.5 258.2,79.5 C 276.4,79.5 294.5,79.5 312.7,79.5 C 330.9,79.5 349.1,79.5 367.3,79.5 C 385.5,79.5 403.6,79.5 421.8,79.5 C 440.0,79.5 458.2,60.8 476.4,79.5 C 494.5,98.3 512.7,192.0 530.9,192.0 C 549.1,192.0 567.3,94.2 585.5,79.5 C 603.6,64.8 630.9,99.8 640.0,103.8 " class="grafico-linha"/>
-  <circle cx="40.0" cy="28.0" r="2.5" class="grafico-ponto"/><circle cx="94.5" cy="35.4" r="2.5" class="grafico-ponto"/><circle cx="149.1" cy="35.4" r="2.5" class="grafico-ponto"/><circle cx="203.6" cy="79.5" r="2.5" class="grafico-ponto"/><circle cx="258.2" cy="79.5" r="2.5" class="grafico-ponto"/><circle cx="312.7" cy="79.5" r="2.5" class="grafico-ponto"/><circle cx="367.3" cy="79.5" r="2.5" class="grafico-ponto"/><circle cx="421.8" cy="79.5" r="2.5" class="grafico-ponto"/><circle cx="476.4" cy="79.5" r="2.5" class="grafico-ponto"/><circle cx="530.9" cy="192.0" r="2.5" class="grafico-ponto"/><circle cx="585.5" cy="79.5" r="2.5" class="grafico-ponto"/><circle cx="640.0" cy="103.8" r="2.5" class="grafico-ponto"/>
+  <circle cx="40.0" cy="28.0" r="2.5" class="grafico-ponto" tabindex="0" data-data="15/07" data-preco="R$ 387,90"><title>15/07: R$ 387,90</title></circle><circle cx="94.5" cy="35.4" r="2.5" class="grafico-ponto" tabindex="0" data-data="16/07" data-preco="R$ 383,00"><title>16/07: R$ 383,00</title></circle><circle cx="149.1" cy="35.4" r="2.5" class="grafico-ponto" tabindex="0" data-data="17/07" data-preco="R$ 383,00"><title>17/07: R$ 383,00</title></circle><circle cx="203.6" cy="79.5" r="2.5" class="grafico-ponto" tabindex="0" data-data="18/07" data-preco="R$ 354,00"><title>18/07: R$ 354,00</title></circle><circle cx="258.2" cy="79.5" r="2.5" class="grafico-ponto" tabindex="0" data-data="19/07" data-preco="R$ 354,00"><title>19/07: R$ 354,00</title></circle><circle cx="312.7" cy="79.5" r="2.5" class="grafico-ponto" tabindex="0" data-data="20/07" data-preco="R$ 354,00"><title>20/07: R$ 354,00</title></circle><circle cx="367.3" cy="79.5" r="2.5" class="grafico-ponto" tabindex="0" data-data="21/07" data-preco="R$ 354,00"><title>21/07: R$ 354,00</title></circle><circle cx="421.8" cy="79.5" r="2.5" class="grafico-ponto" tabindex="0" data-data="22/07" data-preco="R$ 354,00"><title>22/07: R$ 354,00</title></circle><circle cx="476.4" cy="79.5" r="2.5" class="grafico-ponto" tabindex="0" data-data="23/07" data-preco="R$ 354,00"><title>23/07: R$ 354,00</title></circle><circle cx="530.9" cy="192.0" r="2.5" class="grafico-ponto" tabindex="0" data-data="24/07" data-preco="R$ 280,00"><title>24/07: R$ 280,00</title></circle><circle cx="585.5" cy="79.5" r="2.5" class="grafico-ponto" tabindex="0" data-data="25/07" data-preco="R$ 354,00"><title>25/07: R$ 354,00</title></circle><circle cx="640.0" cy="103.8" r="2.5" class="grafico-ponto" tabindex="0" data-data="26/07" data-preco="R$ 338,00"><title>26/07: R$ 338,00</title></circle>
   <text x="530.9" y="182.0" text-anchor="middle" class="grafico-rotulo-min">R$ 280,00</text>
   <text x="40" y="214" class="grafico-eixo-texto">15/07</text>
   <text x="640" y="214" text-anchor="end" class="grafico-eixo-texto">26/07</text>
-</svg></div>
+</svg>
+      <div class="grafico-tooltip" id="grafico-tooltip"></div>
+    </div>
+    <p class="grafico-dica">Toque ou passe o mouse em qualquer ponto pra ver a data e o preço daquele dia.</p>
+  </div>
   <div class="estatisticas">
       <div class="estatistica"><div class="valor mono">R$ 280,00</div>
         <div class="rotulo">menor preço já registrado (24/07)</div></div>
@@ -45,7 +76,7 @@
         <div class="rotulo">dias monitorados</div></div>
     </div>
   <a class="cta" href="https://meli.la/17Xm47Q" rel="nofollow sponsored" target="_blank">Ver no Mercado Livre →</a>
-  <p class="rodape-nota">Preço coletado automaticamente em 26/07/2026 às 18:18 UTC, comparado com o histórico
+  <p class="rodape-nota">Preço coletado automaticamente em 26/07/2026 às 20:02 UTC, comparado com o histórico
   real do produto (não com o preço "de" anunciado pela loja).</p>
 </div>
 <footer class="rodape"><div class="wrap">
