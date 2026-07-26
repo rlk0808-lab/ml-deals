@@ -177,8 +177,10 @@ def svg_grafico(pontos: list[tuple[str, float]], largura=680, altura=220) -> str
     area = curva + f" L {x(n - 1):.1f},{altura - pad_y:.1f} L {x(0):.1f},{altura - pad_y:.1f} Z"
 
     dots = "".join(
-        f'<circle cx="{x(i):.1f}" cy="{y(p):.1f}" r="2.5" class="grafico-ponto"/>'
-        for i, (_, p) in enumerate(pontos)
+        f'<circle cx="{x(i):.1f}" cy="{y(p):.1f}" r="2.5" class="grafico-ponto" '
+        f'tabindex="0" data-data="{fmt_data_br(d)}" data-preco="{fmt_brl(p)}">'
+        f'<title>{fmt_data_br(d)}: {fmt_brl(p)}</title></circle>'
+        for i, (d, p) in enumerate(pontos)
     )
 
     # marca so o ponto de minimo historico, pra nao poluir com rotulo em cada dia
@@ -297,8 +299,15 @@ nav.migalha a{color:var(--tinta-fraca)}
 .grafico-eixo{stroke:var(--linha); stroke-width:1}
 .grafico-area{fill:var(--verificado-fundo); stroke:none}
 .grafico-linha{fill:none; stroke:var(--verificado); stroke-width:2.5; stroke-linecap:round}
-.grafico-ponto{fill:var(--bg); stroke:var(--verificado); stroke-width:2; transition:r .12s ease}
-.grafico-ponto:hover{r:5}
+.grafico-ponto{fill:var(--bg); stroke:var(--verificado); stroke-width:2; transition:r .12s ease; cursor:pointer}
+.grafico-ponto:hover, .grafico-ponto:focus{r:5}
+.grafico-tooltip{position:absolute; display:none; pointer-events:none; z-index:5;
+  background:var(--tinta); color:var(--bg); font-family:'JetBrains Mono',monospace;
+  font-size:12px; padding:6px 10px; border-radius:6px; white-space:nowrap;
+  transform:translate(-50%,-100%); margin-top:-8px}
+.grafico-tooltip.aberto{display:block}
+.grafico-wrap{position:relative}
+.grafico-dica{margin-top:8px; font-size:12px; color:var(--tinta-fraca); text-align:center}
 .grafico-rotulo-min{font-family:'JetBrains Mono',monospace; font-size:11px; fill:var(--tinta-fraca)}
 .grafico-eixo-texto{font-family:'JetBrains Mono',monospace; font-size:11px; fill:var(--tinta-fraca)}
 .sem-dados{color:var(--tinta-fraca); font-size:13px}
@@ -522,6 +531,31 @@ def pagina_produto(p: dict, cfg: dict, pontos: list[tuple[str, float]],
             "availability": "https://schema.org/InStock",
         },
     }, ensure_ascii=False)}
+</script>
+
+<script>
+(function(){{
+  var tip = document.getElementById('grafico-tooltip');
+  var svg = document.querySelector('.grafico');
+  if (!tip || !svg) return;
+
+  function mostrar(ponto){{
+    var r = ponto.getBoundingClientRect();
+    var wrapR = svg.closest('.grafico-wrap').getBoundingClientRect();
+    tip.textContent = ponto.dataset.data + ': ' + ponto.dataset.preco;
+    tip.style.left = (r.left - wrapR.left + r.width / 2) + 'px';
+    tip.style.top = (r.top - wrapR.top) + 'px';
+    tip.classList.add('aberto');
+  }}
+
+  svg.querySelectorAll('.grafico-ponto').forEach(function(ponto){{
+    ponto.addEventListener('mouseenter', function(){{ mostrar(ponto); }});
+    ponto.addEventListener('focus', function(){{ mostrar(ponto); }});
+    ponto.addEventListener('click', function(e){{ e.stopPropagation(); mostrar(ponto); }});
+  }});
+
+  document.addEventListener('click', function(){{ tip.classList.remove('aberto'); }});
+}})();
 </script>'''
 
     corpo = f'''<div class="wrap">
@@ -534,7 +568,13 @@ def pagina_produto(p: dict, cfg: dict, pontos: list[tuple[str, float]],
       {status_html}
     </div>
   </div>
-  <div class="grafico-bloco">{grafico_html}</div>
+  <div class="grafico-bloco">
+    <div class="grafico-wrap">
+      {grafico_html}
+      <div class="grafico-tooltip" id="grafico-tooltip"></div>
+    </div>
+    <p class="grafico-dica">Toque ou passe o mouse em qualquer ponto pra ver a data e o preço daquele dia.</p>
+  </div>
   {estatisticas}
   <a class="cta" href="{link_ml}" rel="nofollow sponsored" target="_blank">Ver no Mercado Livre →</a>
   <p class="rodape-nota">Preço coletado automaticamente em {agora}, comparado com o histórico
