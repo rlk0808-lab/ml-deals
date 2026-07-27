@@ -13,7 +13,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB32300839",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_773707-MLA95654482125_102025-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-27T00:12:46.891926+00:00"
+    "enfileirado_em": "2026-07-27T03:12:28.259223+00:00"
   },
   {
     "data": "2026-07-26",
@@ -29,7 +29,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB18392685",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_913108-MLU47592838611_092021-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-27T00:12:46.891926+00:00"
+    "enfileirado_em": "2026-07-27T03:12:28.259223+00:00"
   },
   {
     "data": "2026-07-27",
@@ -110,5 +110,45 @@
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_956048-MLA109704911156_042026-F.jpg",
     "tipo": "falso_desconto",
     "enfileirado_em": "2026-07-27T00:12:46.900849+00:00"
+  },
+  {
+    "data": "2026-07-27",
+    "product_id": "MLB65189752",
+    "nome": "Colchão Berço Americano Prorelax Bela Impermeável 10cm Branco",
+    "preco": 153.9,
+    "preco_original": 269.64,
+    "n_ofertas": 2,
+    "item_id": "MLB4941844883",
+    "seller_id": 784220504,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB65189752",
+    "mediana": 289.0,
+    "minimo_hist": 254.48,
+    "desconto": 46.7,
+    "recorde": true,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_675541-MLA106359672035_022026-F.jpg",
+    "tipo": "camada1",
+    "enfileirado_em": "2026-07-27T03:12:28.267625+00:00"
+  },
+  {
+    "data": "2026-07-27",
+    "product_id": "MLB34966407",
+    "nome": "Capa A Prova D'agua P/colchão Berço 24h",
+    "preco": 33.11,
+    "preco_original": null,
+    "n_ofertas": 2,
+    "item_id": "MLB4773848274",
+    "seller_id": 27197548,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB34966407",
+    "mediana": 56.99,
+    "minimo_hist": 33.11,
+    "desconto": 41.9,
+    "recorde": true,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_873396-MLA100047256301_122025-F.jpg",
+    "tipo": "camada1",
+    "enfileirado_em": "2026-07-27T03:12:28.267625+00:00"
   }
 ]
