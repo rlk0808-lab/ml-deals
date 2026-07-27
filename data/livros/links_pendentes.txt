@@ -4,7 +4,7 @@ Como usar: abra o link, clique em Compartilhar na barra preta de
 afiliados, copie o link gerado (meli.la/...) e cole em
 data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
-(gerado em 2026-07-26)
+(gerado em 2026-07-27)
 
 MLB25801919  Kit Colleen Hoover: Novembro 9, Layla, Sem Esperança, De Col
     https://www.mercadolivre.com.br/p/MLB25801919
@@ -74,8 +74,6 @@ MLB31262713  Homem Por Tras De O Codigo Da Vinci, O Uma Biografia Nao Aut
     https://www.mercadolivre.com.br/p/MLB31262713
 MLB34280643  Livro Kit É Assim Que Começa + O Lado Feio Do Amor - Colleen
     https://www.mercadolivre.com.br/p/MLB34280643
-MLB24715644  Box Livros De Rita Lee (brinde Exclusivo Baralho Ritarô): Bo
-    https://www.mercadolivre.com.br/p/MLB24715644
 MLB34253346  Kit Loucos Por Livros + Leitura De Verão: Não Aplica, De : E
     https://www.mercadolivre.com.br/p/MLB34253346
 MLB72492482  Kit Segredos Na Escola A Professora Nunca Minta Freida Mcfad
@@ -84,6 +82,8 @@ MLB20806009  Livro Inferno De Dan Brown Autor De O Código Da Vinci
     https://www.mercadolivre.com.br/p/MLB20806009
 MLB46121765  Iron Flame, De Rebecca Yarros. Editorial Piatkus, Capa Mole 
     https://www.mercadolivre.com.br/p/MLB46121765
+MLB72003076  Livro Magnético - Festa A Fantasia - Janod
+    https://www.mercadolivre.com.br/p/MLB72003076
 MLB22490546  Livro Desenvolvimento De Produto E Sustentabilidade
     https://www.mercadolivre.com.br/p/MLB22490546
 MLB44907630  A Empregada + O Segredo Da Empregada, De Freida Mcfadden. Ed
@@ -102,6 +102,8 @@ MLB29917257  Kit Stephen King Vol. 1, de Stephen King. Editora Suma, capa
     https://www.mercadolivre.com.br/p/MLB29917257
 MLB30178527  Livro - Sherlock Holmes Vol.3 - Arthur Conan - Capa Dura: Nã
     https://www.mercadolivre.com.br/p/MLB30178527
+MLB24715644  Box Livros De Rita Lee (brinde Exclusivo Baralho Ritarô): Bo
+    https://www.mercadolivre.com.br/p/MLB24715644
 MLB22823110  Coleção Agatha Christie - Box 3
     https://www.mercadolivre.com.br/p/MLB22823110
 MLB72083205  Kit Thrillers Colleen Hoover: Verity + Layla - Inglês
@@ -110,8 +112,6 @@ MLB72057413  Livro Percy Jackson And The Olympians: The Chalice - Inglês
     https://www.mercadolivre.com.br/p/MLB72057413
 MLB21165642  Percy Jackson E Os Olimpianos - Maldiçao Do Tita, A - Graph
     https://www.mercadolivre.com.br/p/MLB21165642
-MLB72003076  Livro Magnético - Festa A Fantasia - Janod
-    https://www.mercadolivre.com.br/p/MLB72003076
 MLB20738113  Box Livros - Para Amar Clarice + Para Amar Graciliano *
     https://www.mercadolivre.com.br/p/MLB20738113
 MLB68535345  Livro Desenvolvimento Sustentável - Princípio Da Eficiência
