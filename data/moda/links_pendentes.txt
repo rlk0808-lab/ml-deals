@@ -4,7 +4,7 @@ Como usar: abra o link, clique em Compartilhar na barra preta de
 afiliados, copie o link gerado (meli.la/...) e cole em
 data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
-(gerado em 2026-07-26)
+(gerado em 2026-07-27)
 
 MLB69958458  Conjunto Calça Térmica Flanelada E Blusa Térmica Feminina Pr
     https://www.mercadolivre.com.br/p/MLB69958458
