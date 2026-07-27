@@ -13,7 +13,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB36776116",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_868892-MLA109764858122_042026-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-26T21:13:03.705926+00:00"
+    "enfileirado_em": "2026-07-27T00:12:46.891926+00:00"
   },
   {
     "data": "2026-07-26",
@@ -45,7 +45,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB52955192",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_953765-MLA99451932250_112025-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-26T21:13:03.705926+00:00"
+    "enfileirado_em": "2026-07-27T00:12:46.891926+00:00"
   },
   {
     "data": "2026-07-26",
@@ -81,7 +81,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB28015866",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_659611-MLA95847685225_102025-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-26T21:13:03.705926+00:00"
+    "enfileirado_em": "2026-07-27T00:12:46.891926+00:00"
   },
   {
     "data": "2026-07-26",
@@ -97,7 +97,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB30961882",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_949785-MLA99857274765_112025-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-26T21:13:03.705926+00:00"
+    "enfileirado_em": "2026-07-27T00:12:46.891926+00:00"
   },
   {
     "data": "2026-07-26",
@@ -113,7 +113,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB32300839",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_773707-MLA95654482125_102025-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-26T21:13:03.705926+00:00"
+    "enfileirado_em": "2026-07-27T00:12:46.891926+00:00"
   },
   {
     "data": "2026-07-26",
@@ -129,6 +129,86 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB18392685",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_913108-MLU47592838611_092021-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-26T21:13:03.705926+00:00"
+    "enfileirado_em": "2026-07-27T00:12:46.891926+00:00"
+  },
+  {
+    "data": "2026-07-27",
+    "product_id": "MLB27115138",
+    "nome": "Telefone Infantil Girafa Brinquedo Educativo Musical",
+    "preco": 33.9,
+    "preco_original": null,
+    "n_ofertas": 3,
+    "item_id": "MLB4552938934",
+    "seller_id": 1701377842,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB27115138",
+    "mediana": 51.8,
+    "minimo_hist": 33.9,
+    "desconto": 34.6,
+    "recorde": true,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_947307-MLA99505265242_112025-F.jpg",
+    "tipo": "camada1",
+    "enfileirado_em": "2026-07-27T00:12:46.898428+00:00"
+  },
+  {
+    "data": "2026-07-27",
+    "product_id": "MLB64588100",
+    "nome": "Kit Higiene Bebê 13 Pcs Macarons Higiene Estojo Portátil Menino Cor Azul",
+    "preco": 33.1,
+    "preco_original": 78.99,
+    "n_ofertas": 2,
+    "item_id": "MLB6809680644",
+    "seller_id": 2043904299,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB64588100",
+    "mediana": 33.1,
+    "desconto_anunciado": 58.1,
+    "desconto_real": 0.0,
+    "dias_historico": 12,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_706806-MLA104787608326_012026-F.jpg",
+    "tipo": "falso_desconto",
+    "enfileirado_em": "2026-07-27T00:12:46.900849+00:00"
+  },
+  {
+    "data": "2026-07-27",
+    "product_id": "MLB70151591",
+    "nome": "Cadeira De Alimentação Bebe Portatil 6 Em 1 Cinto Segurança Cadeira Alimentacao Bebe Rosa",
+    "preco": 330.05,
+    "preco_original": 699.0,
+    "n_ofertas": 2,
+    "item_id": "MLB4729552603",
+    "seller_id": 3014859656,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB70151591",
+    "mediana": 330.05,
+    "desconto_anunciado": 52.8,
+    "desconto_real": 0.0,
+    "dias_historico": 15,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_714117-MLA111858012818_062026-F.jpg",
+    "tipo": "falso_desconto",
+    "enfileirado_em": "2026-07-27T00:12:46.900849+00:00"
+  },
+  {
+    "data": "2026-07-27",
+    "product_id": "MLB68287675",
+    "nome": "Cercadinho Bebê Rister Baby Portátil Grande + Tapete Amarelo",
+    "preco": 96.9,
+    "preco_original": 196.2,
+    "n_ofertas": 4,
+    "item_id": "MLB6639234242",
+    "seller_id": 229161739,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB68287675",
+    "mediana": 94.0,
+    "desconto_anunciado": 50.6,
+    "desconto_real": -3.1,
+    "dias_historico": 15,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_956048-MLA109704911156_042026-F.jpg",
+    "tipo": "falso_desconto",
+    "enfileirado_em": "2026-07-27T00:12:46.900849+00:00"
   }
 ]
