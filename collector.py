@@ -44,7 +44,7 @@ APP_SECRET = os.environ.get("ML_APP_SECRET", "").strip()
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "").strip()
 AFFILIATE_TAG = os.environ.get("ML_AFFILIATE_TAG", "").strip()
 
-MAX_WATCHLIST = 1200
+MAX_WATCHLIST = 3000
 MIN_DIAS_HIST = 14
 LIMIAR_QUEDA = 0.85
 WORKERS = 8
