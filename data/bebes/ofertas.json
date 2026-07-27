@@ -1,23 +1,6 @@
 [
   {
     "data": "2026-07-27",
-    "product_id": "MLB65189752",
-    "nome": "Colchão Berço Americano Prorelax Bela Impermeável 10cm Branco",
-    "preco": 153.9,
-    "preco_original": 269.64,
-    "n_ofertas": 2,
-    "item_id": "MLB4941844883",
-    "seller_id": 784220504,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB65189752",
-    "mediana": 289.0,
-    "minimo_hist": 153.9,
-    "desconto": 46.7,
-    "recorde": true
-  },
-  {
-    "data": "2026-07-27",
     "product_id": "MLB34966407",
     "nome": "Capa A Prova D'agua P/colchão Berço 24h",
     "preco": 33.11,
@@ -48,6 +31,40 @@
     "mediana": 51.8,
     "minimo_hist": 33.9,
     "desconto": 34.6,
+    "recorde": true
+  },
+  {
+    "data": "2026-07-27",
+    "product_id": "MLB27766889",
+    "nome": "Protetor De Colchão Berço Altenburg Sono E Saúde Impermeável",
+    "preco": 132.04,
+    "preco_original": 169.9,
+    "n_ofertas": 3,
+    "item_id": "MLB4558900401",
+    "seller_id": 577682595,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB27766889",
+    "mediana": 174.68,
+    "minimo_hist": 149.0,
+    "desconto": 24.4,
+    "recorde": true
+  },
+  {
+    "data": "2026-07-27",
+    "product_id": "MLB20631092",
+    "nome": "Toalha Fralda Luxo Branca Cremer",
+    "preco": 40.52,
+    "preco_original": 49.85,
+    "n_ofertas": 7,
+    "item_id": "MLB3876228796",
+    "seller_id": 11640859,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB20631092",
+    "mediana": 48.54,
+    "minimo_hist": 48.29,
+    "desconto": 16.5,
     "recorde": true
   }
 ]
