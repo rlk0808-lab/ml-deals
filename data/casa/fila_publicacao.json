@@ -13,7 +13,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB74691825",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_971090-MLA113970727785_062026-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-27T12:15:16.037889+00:00"
+    "enfileirado_em": "2026-07-27T15:16:05.229684+00:00"
   },
   {
     "data": "2026-07-27",
@@ -29,13 +29,13 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB22488150",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_756232-MLA100093952739_122025-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-27T12:15:16.037889+00:00"
+    "enfileirado_em": "2026-07-27T15:16:05.229684+00:00"
   },
   {
     "data": "2026-07-27",
     "product_id": "MLB70624241",
     "nome": "Conjunto Jogo Panelas Cerâmica Indução Antiaderente 5 Peças Bege",
-    "preco": 270.0,
+    "preco": 277.0,
     "preco_original": null,
     "n_ofertas": 6,
     "item_id": "MLB7117170400",
@@ -45,7 +45,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB70624241",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_882513-MLA112536662423_052026-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-27T12:15:16.037889+00:00"
+    "enfileirado_em": "2026-07-27T15:16:05.229684+00:00"
   },
   {
     "data": "2026-07-27",
@@ -61,7 +61,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB33580289",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_715970-MLA100048713533_122025-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-27T12:15:16.037889+00:00"
+    "enfileirado_em": "2026-07-27T15:16:05.229684+00:00"
   },
   {
     "data": "2026-07-27",
@@ -77,7 +77,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB29285369",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_640429-MLA96422884298_102025-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-27T12:15:16.037889+00:00"
+    "enfileirado_em": "2026-07-27T15:16:05.229684+00:00"
   },
   {
     "data": "2026-07-27",
@@ -138,5 +138,25 @@
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_607826-MLA107450776841_022026-F.jpg",
     "tipo": "camada1",
     "enfileirado_em": "2026-07-27T12:15:16.046385+00:00"
+  },
+  {
+    "data": "2026-07-27",
+    "product_id": "MLB69984483",
+    "nome": "Sanduicheira Elétrica Startools Sanduicheira Grill Elétrica Preto",
+    "preco": 52.99,
+    "preco_original": null,
+    "n_ofertas": 80,
+    "item_id": "MLB7193059676",
+    "seller_id": 3538058881,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB69984483",
+    "mediana": 67.0,
+    "minimo_hist": 52.99,
+    "desconto": 20.9,
+    "recorde": true,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_915817-MLA111897800941_052026-F.jpg",
+    "tipo": "camada1",
+    "enfileirado_em": "2026-07-27T15:16:05.237875+00:00"
   }
 ]
