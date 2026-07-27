@@ -13,7 +13,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB75087991",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_934273-MLA114253746653_072026-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-27T00:14:52.731164+00:00"
+    "enfileirado_em": "2026-07-27T03:14:25.995196+00:00"
   },
   {
     "data": "2026-07-26",
@@ -29,7 +29,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB57061176",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_913404-MLA99523309872_122025-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-27T00:14:52.731164+00:00"
+    "enfileirado_em": "2026-07-27T03:14:25.995196+00:00"
   },
   {
     "data": "2026-07-26",
@@ -150,5 +150,25 @@
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_891575-MLA95510112515_102025-F.jpg",
     "tipo": "falso_desconto",
     "enfileirado_em": "2026-07-27T00:14:52.737425+00:00"
+  },
+  {
+    "data": "2026-07-27",
+    "product_id": "MLB69984483",
+    "nome": "Sanduicheira Elétrica Startools Sanduicheira Grill Elétrica Preto",
+    "preco": 52.99,
+    "preco_original": null,
+    "n_ofertas": 79,
+    "item_id": "MLB7193059676",
+    "seller_id": 3538058881,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB69984483",
+    "mediana": 67.0,
+    "minimo_hist": 52.99,
+    "desconto": 20.9,
+    "recorde": true,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_915817-MLA111897800941_052026-F.jpg",
+    "tipo": "camada1",
+    "enfileirado_em": "2026-07-27T03:14:26.003383+00:00"
   }
 ]
