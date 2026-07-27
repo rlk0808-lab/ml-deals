@@ -4,7 +4,7 @@ Como usar: abra o link, clique em Compartilhar na barra preta de
 afiliados, copie o link gerado (meli.la/...) e cole em
 data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
-(gerado em 2026-07-26)
+(gerado em 2026-07-27)
 
 MLB70007436  Cadeira De Alimentação Portátil Infantil Bebê Refeição 3em1 
     https://www.mercadolivre.com.br/p/MLB70007436
@@ -78,8 +78,6 @@ MLB38704535  Porta Mamadeira Bebê Menino Térmica Premium Lilica Puff
     https://www.mercadolivre.com.br/p/MLB38704535
 MLB70628689  Kit Limpeza Mamadeira Bebê Portátil Escovas Suporte Secador 
     https://www.mercadolivre.com.br/p/MLB70628689
-MLB46262353  Naninha Paninho Prendedor De Chupeta Bebê Pimpolho Bichinhos
-    https://www.mercadolivre.com.br/p/MLB46262353
 MLB73668889  Kit 3 Prendedor De Chupeta Bebê Menino Marinheiro Angu Bebê
     https://www.mercadolivre.com.br/p/MLB73668889
 MLB22774967  Bomba Tira Leite Materno Extrator Manual Portátil

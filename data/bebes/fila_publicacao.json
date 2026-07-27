@@ -13,7 +13,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB32300839",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_773707-MLA95654482125_102025-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-27T06:12:35.903252+00:00"
+    "enfileirado_em": "2026-07-27T09:12:37.777520+00:00"
   },
   {
     "data": "2026-07-26",
@@ -29,7 +29,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB18392685",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_913108-MLU47592838611_092021-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-27T06:12:35.903252+00:00"
+    "enfileirado_em": "2026-07-27T09:12:37.777520+00:00"
   },
   {
     "data": "2026-07-27",
@@ -150,5 +150,53 @@
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_873396-MLA100047256301_122025-F.jpg",
     "tipo": "camada1",
     "enfileirado_em": "2026-07-27T03:12:28.267625+00:00"
+  },
+  {
+    "data": "2026-07-27",
+    "product_id": "MLB64222810",
+    "nome": "Bico De Silicone Para Amamentar Buba Protetor De Seio Mamilo Unico",
+    "preco": 26.05,
+    "preco_original": null,
+    "n_ofertas": 7,
+    "item_id": "MLB4435315761",
+    "seller_id": 42110034,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB64222810",
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_842968-MLA104122107618_012026-F.jpg",
+    "tipo": "camada2",
+    "enfileirado_em": "2026-07-27T09:12:37.786636+00:00"
+  },
+  {
+    "data": "2026-07-27",
+    "product_id": "MLB30939968",
+    "nome": "6un Loção Hidratante Bebe Vida Leite De Arroz 200ml Davene",
+    "preco": 174.24,
+    "preco_original": null,
+    "n_ofertas": 6,
+    "item_id": "MLB5829638606",
+    "seller_id": 136926885,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB30939968",
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_780812-MLA99359434036_112025-F.jpg",
+    "tipo": "camada2",
+    "enfileirado_em": "2026-07-27T09:12:37.786636+00:00"
+  },
+  {
+    "data": "2026-07-27",
+    "product_id": "MLB20538788",
+    "nome": "Lansinoh Ultimate Protection absorvente seios descartáveis absorvente de amamentação 24 Un",
+    "preco": 42.9,
+    "preco_original": null,
+    "n_ofertas": 2,
+    "item_id": "MLB3068493045",
+    "seller_id": 751449807,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB20538788",
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_969546-MLA99821744785_112025-F.jpg",
+    "tipo": "camada2",
+    "enfileirado_em": "2026-07-27T09:12:37.786636+00:00"
   }
 ]
