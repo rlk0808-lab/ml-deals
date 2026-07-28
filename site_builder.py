@@ -33,7 +33,7 @@ WHATSAPP_LINK = "https://chat.whatsapp.com/JGvCrkWCfBmKS9KW4m1HD2"  # Comunidade
 # chave publica do Web3Forms (nao e segredo - e so o identificador de
 # pra onde o formulario entrega, o mesmo esquema de uma action de form
 # HTML comum). Gerada em web3forms.com com o e-mail caiudeverdade@gmail.com.
-WEB3FORMS_ACCESS_KEY = "COLOQUE_AQUI_A_CHAVE_DO_WEB3FORMS"
+WEB3FORMS_ACCESS_KEY = "d4a6b0d4-9951-4b69-9f8a-aa1e8bfc1fa5"
 
 
 # ----------------------------------------------------------------------
