@@ -570,31 +570,6 @@ def pagina_produto(p: dict, cfg: dict, pontos: list[tuple[str, float]],
             "availability": "https://schema.org/InStock",
         },
     }, ensure_ascii=False)}
-</script>
-
-<script>
-(function(){{
-  var tip = document.getElementById('grafico-tooltip');
-  var svg = document.querySelector('.grafico');
-  if (!tip || !svg) return;
-
-  function mostrar(ponto){{
-    var r = ponto.getBoundingClientRect();
-    var wrapR = svg.closest('.grafico-wrap').getBoundingClientRect();
-    tip.textContent = ponto.dataset.data + ': ' + ponto.dataset.preco;
-    tip.style.left = (r.left - wrapR.left + r.width / 2) + 'px';
-    tip.style.top = (r.top - wrapR.top) + 'px';
-    tip.classList.add('aberto');
-  }}
-
-  svg.querySelectorAll('.grafico-ponto').forEach(function(ponto){{
-    ponto.addEventListener('mouseenter', function(){{ mostrar(ponto); }});
-    ponto.addEventListener('focus', function(){{ mostrar(ponto); }});
-    ponto.addEventListener('click', function(e){{ e.stopPropagation(); mostrar(ponto); }});
-  }});
-
-  document.addEventListener('click', function(){{ tip.classList.remove('aberto'); }});
-}})();
 </script>'''
 
     corpo = f'''<div class="wrap">
@@ -618,7 +593,35 @@ def pagina_produto(p: dict, cfg: dict, pontos: list[tuple[str, float]],
   <a class="cta" href="{link_ml}" rel="nofollow sponsored" target="_blank">Ver no Mercado Livre →</a>
   <p class="rodape-nota">Preço coletado automaticamente em {agora}, comparado com o histórico
   real do produto (não com o preço "de" anunciado pela loja).</p>
-</div>'''
+</div>
+<script>
+(function(){{
+  // este script fica no BODY, depois do grafico/tooltip existirem no DOM -
+  // ficava dentro do <head> (via json_ld) antes, e rodava antes desses
+  // elementos existirem: document.getElementById voltava null, a funcao
+  // saia cedo (if (!tip || !svg) return;), e o tooltip nunca funcionava
+  var tip = document.getElementById('grafico-tooltip');
+  var svg = document.querySelector('.grafico');
+  if (!tip || !svg) return;
+
+  function mostrar(ponto){{
+    var r = ponto.getBoundingClientRect();
+    var wrapR = svg.closest('.grafico-wrap').getBoundingClientRect();
+    tip.textContent = ponto.dataset.data + ': ' + ponto.dataset.preco;
+    tip.style.left = (r.left - wrapR.left + r.width / 2) + 'px';
+    tip.style.top = (r.top - wrapR.top) + 'px';
+    tip.classList.add('aberto');
+  }}
+
+  svg.querySelectorAll('.grafico-ponto').forEach(function(ponto){{
+    ponto.addEventListener('mouseenter', function(){{ mostrar(ponto); }});
+    ponto.addEventListener('focus', function(){{ mostrar(ponto); }});
+    ponto.addEventListener('click', function(e){{ e.stopPropagation(); mostrar(ponto); }});
+  }});
+
+  document.addEventListener('click', function(){{ tip.classList.remove('aberto'); }});
+}})();
+</script>'''
     return base_page(f"{p['nome']} — Caiu de Verdade",
                      f"Histórico de preço de {p['nome']} no Mercado Livre: {fmt_brl(p['preco'])} hoje.",
                      corpo, "..", raiz_url, json_ld, imagem=p.get("imagem") or "")
