@@ -53,6 +53,19 @@ nav.migalha a{color:var(--tinta-fraca)}
 .como-funciona ol{padding-left:20px}
 .como-funciona li{margin:8px 0}
 
+.cta-sugerir{display:flex; align-items:center; justify-content:space-between; gap:24px;
+  flex-wrap:wrap; background:var(--pendente-fundo); border-radius:var(--raio);
+  padding:30px 34px; margin:8px 0 44px}
+.cta-sugerir h3{margin:0 0 8px; font-size:21px}
+.cta-sugerir p{margin:0; color:var(--tinta-fraca); font-size:14.5px; max-width:52ch}
+.cta-sugerir .cta{margin:0; white-space:nowrap; background:var(--pendente)}
+.cta-sugerir .cta:hover{box-shadow:0 12px 26px rgba(184,121,10,.3)}
+
+.cta-sugerir-mini{display:flex; align-items:center; justify-content:space-between; gap:16px;
+  flex-wrap:wrap; border:1px dashed var(--linha); border-radius:var(--raio);
+  padding:22px 26px; margin:0 0 56px; color:var(--tinta-fraca); font-size:14.5px}
+.cta-sugerir-mini a{font-weight:600; white-space:nowrap}
+
 .barra-filtro{display:flex; gap:10px; flex-wrap:wrap; margin:22px 0 4px}
 .campo-busca{flex:1; min-width:200px; padding:12px 16px; border-radius:999px; border:1px solid var(--linha);
   background:var(--bg-alto); color:var(--tinta); font-family:'IBM Plex Sans',sans-serif; font-size:14.5px}

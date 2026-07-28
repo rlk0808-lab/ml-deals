@@ -11,32 +11,7 @@
 <meta property="og:description" content="Histórico de preço de Kit Higiene Para Bebê Azul no Mercado Livre: R$ 40,65 hoje.">
 <meta property="og:type" content="website">
 <script type="application/ld+json">
-{"@context": "https://schema.org/", "@type": "Product", "name": "Kit Higiene Para Bebê Azul", "image": "https://http2.mlstatic.com/D_NQ_NP_811899-MLU70898123577_082023-F.jpg", "offers": {"@type": "Offer", "priceCurrency": "BRL", "price": "40.65", "url": "https://meli.la/1v3LXeQ", "availability": "https://schema.org/InStock"}}
-</script>
-
-<script>
-(function(){
-  var tip = document.getElementById('grafico-tooltip');
-  var svg = document.querySelector('.grafico');
-  if (!tip || !svg) return;
-
-  function mostrar(ponto){
-    var r = ponto.getBoundingClientRect();
-    var wrapR = svg.closest('.grafico-wrap').getBoundingClientRect();
-    tip.textContent = ponto.dataset.data + ': ' + ponto.dataset.preco;
-    tip.style.left = (r.left - wrapR.left + r.width / 2) + 'px';
-    tip.style.top = (r.top - wrapR.top) + 'px';
-    tip.classList.add('aberto');
-  }
-
-  svg.querySelectorAll('.grafico-ponto').forEach(function(ponto){
-    ponto.addEventListener('mouseenter', function(){ mostrar(ponto); });
-    ponto.addEventListener('focus', function(){ mostrar(ponto); });
-    ponto.addEventListener('click', function(e){ e.stopPropagation(); mostrar(ponto); });
-  });
-
-  document.addEventListener('click', function(){ tip.classList.remove('aberto'); });
-})();
+{"@context": "https://schema.org/", "@type": "Product", "name": "Kit Higiene Para Bebê Azul", "image": "", "offers": {"@type": "Offer", "priceCurrency": "BRL", "price": "40.65", "url": "https://meli.la/1v3LXeQ", "availability": "https://schema.org/InStock"}}
 </script>
 </head>
 <body>
@@ -76,13 +51,45 @@
         <div class="rotulo">dias monitorados</div></div>
     </div>
   <a class="cta" href="https://meli.la/1v3LXeQ" rel="nofollow sponsored" target="_blank">Ver no Mercado Livre →</a>
-  <p class="rodape-nota">Preço coletado automaticamente em 28/07/2026 às 18:20 UTC, comparado com o histórico
+  <p class="rodape-nota">Preço coletado automaticamente em 28/07/2026 às 23:46 UTC, comparado com o histórico
   real do produto (não com o preço "de" anunciado pela loja).</p>
 </div>
+<script>
+(function(){
+  // este script fica no BODY, depois do grafico/tooltip existirem no DOM -
+  // ficava dentro do <head> (via json_ld) antes, e rodava antes desses
+  // elementos existirem: document.getElementById voltava null, a funcao
+  // saia cedo (if (!tip || !svg) return;), e o tooltip nunca funcionava
+  var tip = document.getElementById('grafico-tooltip');
+  var svg = document.querySelector('.grafico');
+  if (!tip || !svg) return;
+
+  function mostrar(ponto){
+    var r = ponto.getBoundingClientRect();
+    var wrapR = svg.closest('.grafico-wrap').getBoundingClientRect();
+    tip.textContent = ponto.dataset.data + ': ' + ponto.dataset.preco;
+    tip.style.left = (r.left - wrapR.left + r.width / 2) + 'px';
+    tip.style.top = (r.top - wrapR.top) + 'px';
+    tip.classList.add('aberto');
+  }
+
+  svg.querySelectorAll('.grafico-ponto').forEach(function(ponto){
+    ponto.addEventListener('mouseenter', function(){ mostrar(ponto); });
+    ponto.addEventListener('focus', function(){ mostrar(ponto); });
+    ponto.addEventListener('click', function(e){ e.stopPropagation(); mostrar(ponto); });
+  });
+
+  document.addEventListener('click', function(){ tip.classList.remove('aberto'); });
+})();
+</script>
 <footer class="rodape"><div class="wrap">
   <a class="cta-telegram" href="https://t.me/addlist/2TD1Un1OO5Y3MGI5" target="_blank" rel="noopener">📬 Seguir todos os canais no Telegram</a>
+  <a class="cta-whatsapp" href="https://chat.whatsapp.com/JGvCrkWCfBmKS9KW4m1HD2" target="_blank" rel="noopener">📲 Entrar na Comunidade do WhatsApp</a>
   <p>Todo preço aqui vem de coleta automática comparada com o histórico real do produto.
-  Nunca com o "de/por" da loja. <a href="../index.html">Como funciona</a>.</p>
+  Nunca com o "de/por" da loja. <a href="../index.html">Como funciona</a>.
+  Não achou o que procura? <a class="link-sugerir" href="../sugerir.html">Peça pra gente
+  rastrear o produto - a gente avisa por e-mail quando ele cair de verdade</a>.</p>
+  <p>Contato: <a href="mailto:caiudeverdade@gmail.com">caiudeverdade@gmail.com</a></p>
 </div></footer>
 </body>
 </html>
