@@ -46,6 +46,13 @@ MAX_WATCHLIST = 3000
 MIN_DIAS_HIST = 14
 LIMIAR_QUEDA = 0.85
 WORKERS = 8
+
+# Temporario, enquanto nem todo produto tem link de afiliado gerado a mao:
+# so entra na fila (camada1/camada2/falso_desconto) quem ja tem link
+# rastreado. Sem isso a gente publica produto sem comissao nenhuma. NAO
+# afeta cupom (nao usa esse sistema de link - ver cupons.py). Voltar pra
+# False quando a cobertura de links estiver alta o suficiente.
+SOMENTE_COM_LINK_AFILIADO = True
 MAX_FALHAS = 10
 
 # Camada 2 - "melhor preco hoje": roda 1x/dia, na primeira rodada (6h BRT = 9h UTC),
@@ -752,12 +759,17 @@ def enfileirar(d: Path, itens: list[dict], tipo: str, limite: int) -> int:
     fila = carregar_fila(d)
     ja_na_fila = {it["product_id"] for it in fila}
     agora = datetime.now(timezone.utc).isoformat()
+    tabela_links = links_afiliado.carregar() if SOMENTE_COM_LINK_AFILIADO else None
 
     adicionados = 0
+    sem_link = 0
     for o in itens:
         if adicionados >= limite:
             break
         if o["product_id"] in ja_na_fila:
+            continue
+        if SOMENTE_COM_LINK_AFILIADO and not links_afiliado.tem_link(o["product_id"], tabela_links):
+            sem_link += 1
             continue
         item = dict(o)
         item["tipo"] = tipo
@@ -766,7 +778,8 @@ def enfileirar(d: Path, itens: list[dict], tipo: str, limite: int) -> int:
         adicionados += 1
 
     salvar_fila(d, fila)
-    print(f"[fila] +{adicionados} item(ns) tipo={tipo} | fila total: {len(fila)}")
+    aviso_sem_link = f" | {sem_link} pulado(s) por falta de link" if sem_link else ""
+    print(f"[fila] +{adicionados} item(ns) tipo={tipo} | fila total: {len(fila)}{aviso_sem_link}")
     return adicionados
 
 
