@@ -5,4 +5,3 @@
 # Exemplo:
 #   fulano@gmail.com | casa | https://www.mercadolivre.com.br/p/MLB12345678
 # O coletor importa sozinho na proxima rodada e limpa o arquivo.
-rlk0808@gmail.com | livros | MLB68499477
