@@ -32,6 +32,7 @@ TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "").strip()
 VALIDADE_CAMADA2_HORAS = 10
 
 SITE_URL = "https://rlk0808-lab.github.io/ml-deals"
+WHATSAPP_LINK = "https://chat.whatsapp.com/JGvCrkWCfBmKS9KW4m1HD2"
 
 
 def link_site(o: dict, cfg: dict) -> str:
@@ -142,7 +143,12 @@ def esta_vencido(item: dict) -> bool:
 
 
 def enviar(item: dict, cfg: dict, chat: str) -> bool:
-    texto = montar_mensagem(item, cfg)
+    # o rodape do WhatsApp entra so aqui (nao dentro de montar_mensagem),
+    # porque montar_mensagem tambem e usada pelo resumo_whatsapp.py - um
+    # texto que ja vai PRO WhatsApp nao devia convidar pro WhatsApp
+    texto = montar_mensagem(item, cfg) + (
+        f"\n\n📲 Também estamos no WhatsApp! Entra na Comunidade e "
+        f"escolhe os grupos que quiser: {WHATSAPP_LINK}")
     imagem = item.get("imagem")
     print(f"[telegram] preparando envio - tipo={item.get('tipo')} "
           f"nome={item['nome'][:40]!r}", flush=True)

@@ -33,6 +33,9 @@ TELEGRAM_CHAT_ADMIN = os.environ.get("TELEGRAM_CHAT_ADMIN", "").strip()
 
 QUANTIDADE_POR_RESUMO = 3
 
+# entra em todos os canais de 1 vez - mesmo link usado no rodape do site
+TELEGRAM_ADDLIST = "https://t.me/addlist/2TD1Un1OO5Y3MGI5"
+
 
 def gerar_resumo(nicho: str, cfg: dict) -> str | None:
     fila_path = Path("data") / nicho / "fila_publicacao.json"
@@ -49,7 +52,9 @@ def gerar_resumo(nicho: str, cfg: dict) -> str | None:
 
     cabecalho = f"📋 RESUMO {cfg['emoji']} {cfg['nome'].upper()} - cole no grupo do WhatsApp\n"
     separador = "\n\n➖➖➖➖➖\n\n"
-    return cabecalho + "\n\n" + separador.join(blocos)
+    rodape = (f"\n\n➖➖➖➖➖\n\n📬 Segue a gente no Telegram pra ver as ofertas "
+             f"assim que saem, não só no resumo: {TELEGRAM_ADDLIST}")
+    return cabecalho + "\n\n" + separador.join(blocos) + rodape
 
 
 def enviar_para_robson(texto: str) -> bool:

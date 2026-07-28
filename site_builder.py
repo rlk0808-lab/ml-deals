@@ -28,6 +28,7 @@ import links_afiliado
 SAIDA = Path("docs")
 MIN_DIAS_HIST = 14  # espelha collector.py - so pra mensagem de status
 TELEGRAM_LINK = "https://t.me/addlist/2TD1Un1OO5Y3MGI5"  # entra em todos os canais de 1 vez
+WHATSAPP_LINK = "https://chat.whatsapp.com/JGvCrkWCfBmKS9KW4m1HD2"  # Comunidade - da acesso aos 4 grupos
 
 
 # ----------------------------------------------------------------------
@@ -328,8 +329,12 @@ nav.migalha a{color:var(--tinta-fraca)}
 footer.rodape{border-top:1px solid var(--linha); padding:34px 0 56px; color:var(--tinta-fraca); font-size:13px}
 footer.rodape p{margin:14px 0 0; max-width:60ch}
 .cta-telegram{display:inline-block; background:var(--verificado-fundo); color:var(--verificado);
-  font-weight:600; text-decoration:none; padding:11px 20px; border-radius:999px; font-size:14px}
+  font-weight:600; text-decoration:none; padding:11px 20px; border-radius:999px; font-size:14px;
+  margin-right:10px}
 .cta-telegram:hover{background:var(--verificado); color:#fff}
+.cta-whatsapp{display:inline-block; background:#E7F8EE; color:#1FA855;
+  font-weight:600; text-decoration:none; padding:11px 20px; border-radius:999px; font-size:14px}
+.cta-whatsapp:hover{background:#25D366; color:#fff}
 """
 
 
@@ -372,6 +377,7 @@ def base_page(titulo: str, descricao: str, corpo: str, raiz: str,
 {corpo}
 <footer class="rodape"><div class="wrap">
   <a class="cta-telegram" href="{TELEGRAM_LINK}" target="_blank" rel="noopener">📬 Seguir todos os canais no Telegram</a>
+  <a class="cta-whatsapp" href="{WHATSAPP_LINK}" target="_blank" rel="noopener">📲 Entrar na Comunidade do WhatsApp</a>
   <p>Todo preço aqui vem de coleta automática comparada com o histórico real do produto.
   Nunca com o "de/por" da loja. <a href="{raiz}/index.html">Como funciona</a>.</p>
 </div></footer>
