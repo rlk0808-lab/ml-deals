@@ -209,33 +209,33 @@ def svg_grafico(pontos: list[tuple[str, float]], largura=680, altura=220) -> str
 # ----------------------------------------------------------------------
 
 CSS = """
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap');
 
 :root{
   --bg:#FDFCFA; --bg-alto:#F3F5F0; --tinta:#181B16; --tinta-fraca:#6B7069;
   --verificado:#0E9B57; --verificado-fundo:#E4F6EC;
   --acao:#FF5A36; --acao-fundo:#FFEAE3;
   --pendente:#B8790A; --pendente-fundo:#FBF0DA;
-  --linha:#E7E4DC; --raio:22px;
-  --sombra:0 1px 2px rgba(24,27,22,.04), 0 10px 24px rgba(24,27,22,.05);
-  --sombra-hover:0 4px 10px rgba(24,27,22,.06), 0 18px 34px rgba(24,27,22,.09);
+  --linha:#E7E4DC; --raio:28px;
+  --sombra:0 1px 2px rgba(60,40,20,.04), 0 10px 26px rgba(60,40,20,.06);
+  --sombra-hover:0 6px 14px rgba(60,40,20,.07), 0 20px 38px rgba(60,40,20,.10);
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{
   margin:0; background:var(--bg); color:var(--tinta);
-  font-family:'IBM Plex Sans',system-ui,sans-serif; line-height:1.55;
+  font-family:'IBM Plex Sans',system-ui,sans-serif; line-height:1.6;
 }
-.mono{font-family:'JetBrains Mono',ui-monospace,monospace}
+.mono{font-family:'Plus Jakarta Sans',ui-sans-serif,sans-serif; font-variant-numeric:tabular-nums}
 h1,h2,h3,.display{font-family:'Fraunces',Georgia,serif; font-weight:600; letter-spacing:-.01em}
 a{color:var(--verificado)}
 a.silencioso{color:inherit; text-decoration:none}
 .wrap{max-width:1000px; margin:0 auto; padding:0 24px}
 
 header.topo{padding:26px 0}
-.wordmark{font-family:'JetBrains Mono',monospace; font-size:14px; letter-spacing:.14em;
-  text-transform:uppercase; color:var(--tinta); text-decoration:none}
-.wordmark b{color:var(--acao)}
+.wordmark{font-family:'Fraunces',Georgia,serif; font-size:23px; font-weight:600;
+  letter-spacing:-.01em; color:var(--tinta); text-decoration:none}
+.wordmark b{font-style:italic; font-weight:600; color:var(--acao)}
 nav.migalha{font-size:13px; color:var(--tinta-fraca); margin:26px 0 8px}
 nav.migalha a{color:var(--tinta-fraca)}
 
@@ -277,22 +277,24 @@ nav.migalha a{color:var(--tinta-fraca)}
   padding:18px; text-decoration:none; color:var(--tinta); display:flex; flex-direction:column; gap:9px;
   box-shadow:var(--sombra); transition:transform .16s ease, box-shadow .16s ease}
 .card-produto:hover{transform:translateY(-3px); box-shadow:var(--sombra-hover)}
-.card-produto img{width:100%; height:130px; object-fit:contain; background:#FFFFFF; border-radius:14px}
+.card-produto img{width:100%; height:130px; object-fit:contain; background:#FFFFFF; border-radius:20px}
 .card-produto .nome{font-size:14px; line-height:1.35; flex:1}
-.card-produto .preco{font-family:'JetBrains Mono',monospace; font-size:18px; color:var(--acao); font-weight:500}
+.card-produto .preco{font-family:'Plus Jakarta Sans',sans-serif; font-variant-numeric:tabular-nums;
+  font-size:19px; color:var(--acao); font-weight:700}
 .tag-status{display:inline-block; font-size:11.5px; padding:4px 10px; border-radius:999px; width:fit-content; font-weight:500}
 .tag-status.verificado{background:var(--verificado-fundo); color:var(--verificado)}
 .tag-status.pendente{background:var(--pendente-fundo); color:var(--pendente)}
 
 .produto-topo{display:flex; gap:32px; align-items:flex-start; padding:26px 0 10px; flex-wrap:wrap}
 .selo{width:112px; flex:none}
-.selo-texto{font-family:'JetBrains Mono',monospace; font-size:12px; fill:var(--verificado); font-weight:500}
-.selo-sub{font-family:'JetBrains Mono',monospace; font-size:7px; fill:var(--verificado); letter-spacing:.06em}
+.selo-texto{font-family:'Plus Jakarta Sans',sans-serif; font-size:12px; fill:var(--verificado); font-weight:600}
+.selo-sub{font-family:'Plus Jakarta Sans',sans-serif; font-size:7px; fill:var(--verificado); letter-spacing:.06em; font-weight:600}
 .produto-info h1{font-size:clamp(24px,4vw,34px); margin:0 0 12px; max-width:36ch}
-.preco-atual{font-family:'JetBrains Mono',monospace; font-size:38px; color:var(--acao); font-weight:500}
+.preco-atual{font-family:'Plus Jakarta Sans',sans-serif; font-variant-numeric:tabular-nums;
+  font-size:40px; color:var(--acao); font-weight:800}
 .preco-comparacao{color:var(--verificado); font-size:15px; margin-top:6px; font-weight:500}
-.status-pendente{background:var(--pendente-fundo); color:var(--pendente); padding:11px 16px;
-  border-radius:14px; font-size:14px; display:inline-block; margin-top:8px}
+.status-pendente{background:var(--pendente-fundo); color:var(--pendente); padding:11px 18px;
+  border-radius:18px; font-size:14px; display:inline-block; margin-top:8px}
 
 .grafico-bloco{margin:34px 0; background:var(--bg-alto); border:1px solid var(--linha);
   border-radius:var(--raio); padding:20px; box-shadow:var(--sombra)}
@@ -303,20 +305,22 @@ nav.migalha a{color:var(--tinta-fraca)}
 .grafico-ponto{fill:var(--bg); stroke:var(--verificado); stroke-width:2; transition:r .12s ease; cursor:pointer}
 .grafico-ponto:hover, .grafico-ponto:focus{r:5}
 .grafico-tooltip{position:absolute; display:none; pointer-events:none; z-index:5;
-  background:var(--tinta); color:var(--bg); font-family:'JetBrains Mono',monospace;
-  font-size:12px; padding:6px 10px; border-radius:6px; white-space:nowrap;
+  background:var(--tinta); color:var(--bg); font-family:'Plus Jakarta Sans',sans-serif;
+  font-weight:600; font-variant-numeric:tabular-nums;
+  font-size:12.5px; padding:7px 12px; border-radius:10px; white-space:nowrap;
+  box-shadow:0 6px 16px rgba(24,20,10,.22);
   transform:translate(-50%,-100%); margin-top:-8px}
 .grafico-tooltip.aberto{display:block}
 .grafico-wrap{position:relative}
 .grafico-dica{margin-top:8px; font-size:12px; color:var(--tinta-fraca); text-align:center}
-.grafico-rotulo-min{font-family:'JetBrains Mono',monospace; font-size:11px; fill:var(--tinta-fraca)}
-.grafico-eixo-texto{font-family:'JetBrains Mono',monospace; font-size:11px; fill:var(--tinta-fraca)}
+.grafico-rotulo-min{font-family:'Plus Jakarta Sans',sans-serif; font-weight:600; font-size:11px; fill:var(--tinta-fraca)}
+.grafico-eixo-texto{font-family:'Plus Jakarta Sans',sans-serif; font-weight:500; font-size:11px; fill:var(--tinta-fraca)}
 .sem-dados{color:var(--tinta-fraca); font-size:13px}
 .grafico-vazio{background:var(--bg-alto); border:1px solid var(--linha); border-radius:var(--raio); padding:20px}
 
 .estatisticas{display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:16px; margin:26px 0 32px}
 .estatistica{border-top:2px solid var(--verificado); padding-top:10px}
-.estatistica .valor{font-family:'JetBrains Mono',monospace; font-size:22px}
+.estatistica .valor{font-family:'Plus Jakarta Sans',sans-serif; font-variant-numeric:tabular-nums; font-weight:700; font-size:22px}
 .estatistica .rotulo{color:var(--tinta-fraca); font-size:12.5px}
 
 .cta{display:inline-block; background:var(--acao); color:#FFFFFF; font-weight:600;
