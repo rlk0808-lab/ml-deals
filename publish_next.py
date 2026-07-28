@@ -160,7 +160,7 @@ def enviar(item: dict, cfg: dict, chat: str) -> bool:
             # motivo, cai pra mensagem de texto puro, nunca perde o post
             try:
                 import image_card
-                png_bytes = image_card.gerar_cartao_falso_desconto(item, cfg)
+                png_bytes = image_card.gerar_cartao_falso_desconto(item)
                 print(f"[cartao] imagem gerada: {len(png_bytes)} bytes", flush=True)
                 r = requests.post(
                     f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPhoto",
