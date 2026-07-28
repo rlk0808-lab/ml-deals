@@ -11,7 +11,13 @@ permissions:
 
 jobs:
   gerar-site:
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    # coletor.yml roda os 4 nichos como matriz com fail-fast:false - se UM
+    # nicho falhar, os outros 3 ainda sobem dados novos, mas a conclusao
+    # GERAL do workflow vira "failure". Sem o segundo || abaixo, o site
+    # parava de atualizar toda vez que um nicho falhasse, mesmo com dado
+    # novo real dos outros 3 ja commitado. So pulamos mesmo em 'cancelled'
+    # (nada rodou de verdade).
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' || github.event.workflow_run.conclusion == 'failure' }}
     runs-on: ubuntu-latest
 
     steps:
@@ -23,7 +29,6 @@ jobs:
 
       - name: Gerar páginas do site
         env:
-          ML_AFFILIATE_TAG: ${{ secrets.ML_AFFILIATE_TAG }}
           SITE_URL: "https://rlk0808-lab.github.io/ml-deals"
         run: python site_builder.py
 

@@ -57,7 +57,7 @@ def preco_por_dia(historico_rows: list[dict]) -> list[tuple[str, float]]:
     return sorted(por_dia.items())
 
 
-def link_afiliado(product_id: str, url: str, affiliate_tag: str = "") -> str:
+def link_afiliado(product_id: str, url: str) -> str:
     """
     Link do produto na pagina do site.
 
@@ -338,8 +338,19 @@ footer.rodape p{margin:14px 0 0; max-width:60ch}
 # ----------------------------------------------------------------------
 
 def base_page(titulo: str, descricao: str, corpo: str, raiz: str,
-              canonical: str, json_ld: str = "") -> str:
-    """raiz = caminho relativo ate a raiz do site ('.' ou '..')"""
+              canonical: str, json_ld: str = "", imagem: str = "") -> str:
+    """raiz = caminho relativo ate a raiz do site ('.' ou '..')
+
+    imagem (opcional) = URL absoluta da foto do produto, pra og:image/
+    twitter:image - sem ela, o link nao mostra nenhuma miniatura quando
+    compartilhado no WhatsApp/Telegram, o que pesa MUITO pra um site que
+    vive de ser compartilhado. So preenchemos quando existe foto real
+    (nao inventamos uma generica)."""
+    meta_imagem = ""
+    if imagem:
+        meta_imagem = (f'<meta property="og:image" content="{html.escape(imagem)}">\n'
+                       f'<meta name="twitter:card" content="summary_large_image">\n'
+                       f'<meta name="twitter:image" content="{html.escape(imagem)}">\n')
     return f"""<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -352,7 +363,7 @@ def base_page(titulo: str, descricao: str, corpo: str, raiz: str,
 <meta property="og:title" content="{html.escape(titulo)}">
 <meta property="og:description" content="{html.escape(descricao)}">
 <meta property="og:type" content="website">
-{json_ld}
+{meta_imagem}{json_ld}
 </head>
 <body>
 <header class="topo"><div class="wrap">
@@ -368,13 +379,33 @@ def base_page(titulo: str, descricao: str, corpo: str, raiz: str,
 </html>"""
 
 
-def pagina_home(nichos_resumo: list[dict], raiz_url: str) -> str:
+def pagina_home(nichos_resumo: list[dict], raiz_url: str,
+                destaques: list[dict]) -> str:
     cards = "".join(f'''
     <a class="card-nicho" href="{n['slug']}/index.html">
       <div class="emoji">{n['emoji']}</div>
       <h2>{html.escape(n['nome'])}</h2>
       <div class="conta">{n['total']} produtos rastreados · <b>{n['verificados']}</b> com selo hoje</div>
     </a>''' for n in nichos_resumo)
+
+    vitrine_html = ""
+    if destaques:
+        cards_destaque = []
+        for p in destaques:
+            img = (f'<img src="{p["imagem"]}" alt="{html.escape(p["nome"])}" loading="lazy">'
+                  if p.get("imagem") else "")
+            cards_destaque.append(f'''
+    <a class="card-produto" href="{p['slug']}/{p['arquivo']}">
+      {img}
+      <div class="nome">{html.escape(p['nome'])}</div>
+      <div class="preco mono">{fmt_brl(p['preco'])}</div>
+      <span class="tag-status verificado">-{p['desconto']:.0f}% · selo hoje</span>
+    </a>''')
+        vitrine_html = f'''
+  <section>
+    <h3 style="color:var(--tinta)">Ofertas com selo verificado agora</h3>
+    <div class="grade-produtos">{"".join(cards_destaque)}</div>
+  </section>'''
 
     corpo = f'''<div class="wrap">
   <section class="hero">
@@ -385,6 +416,7 @@ def pagina_home(nichos_resumo: list[dict], raiz_url: str) -> str:
     não porque a loja disse que é.</p>
   </section>
   <div class="grade-nichos">{cards}</div>
+  {vitrine_html}
   <section class="como-funciona">
     <h3 style="color:var(--tinta)">Como funciona</h3>
     <ol>
@@ -405,7 +437,8 @@ def pagina_nicho(cfg: dict, produtos: list[dict], raiz_url: str) -> str:
     for p in produtos:
         status = (f'<span class="tag-status verificado">selo hoje</span>' if p["verificado"]
                   else f'<span class="tag-status pendente">{p["status_txt"]}</span>')
-        img = f'<img src="{p["imagem"]}" alt="" loading="lazy">' if p.get("imagem") else ""
+        img = (f'<img src="{p["imagem"]}" alt="{html.escape(p["nome"])}" loading="lazy">'
+              if p.get("imagem") else "")
         desconto = p.get("desconto", 0) if p["verificado"] else 0
         nome_busca = html.escape(normalizar_busca(p["nome"]))
         cards.append(f'''
@@ -582,7 +615,7 @@ def pagina_produto(p: dict, cfg: dict, pontos: list[tuple[str, float]],
 </div>'''
     return base_page(f"{p['nome']} — Caiu de Verdade",
                      f"Histórico de preço de {p['nome']} no Mercado Livre: {fmt_brl(p['preco'])} hoje.",
-                     corpo, "..", raiz_url, json_ld)
+                     corpo, "..", raiz_url, json_ld, imagem=p.get("imagem") or "")
 
 
 # ----------------------------------------------------------------------
@@ -590,13 +623,13 @@ def pagina_produto(p: dict, cfg: dict, pontos: list[tuple[str, float]],
 # ----------------------------------------------------------------------
 
 def montar_produto(pid: str, nome: str, permalink: str, imagem: str | None,
-                   preco_hoje: float, ofertas_hoje: dict, affiliate_tag: str,
+                   preco_hoje: float, ofertas_hoje: dict,
                    dias_historico: int) -> dict:
     oferta = ofertas_hoje.get(pid)
     if oferta:
         return {
             "product_id": pid, "nome": nome, "permalink": permalink,
-            "imagem": imagem, "preco": preco_hoje, "affiliate_tag": affiliate_tag,
+            "imagem": imagem, "preco": preco_hoje,
             "verificado": True, "recorde": oferta["recorde"],
             "mediana": oferta["mediana"], "desconto": oferta["desconto"],
         }
@@ -605,14 +638,13 @@ def montar_produto(pid: str, nome: str, permalink: str, imagem: str | None,
                   else "Hoje não é o menor preço do histórico")
     return {
         "product_id": pid, "nome": nome, "permalink": permalink,
-        "imagem": imagem, "preco": preco_hoje, "affiliate_tag": affiliate_tag,
+        "imagem": imagem, "preco": preco_hoje,
         "verificado": False, "status_txt": status_txt,
     }
 
 
 def main() -> int:
     import os
-    affiliate_tag = os.environ.get("ML_AFFILIATE_TAG", "").strip()
     raiz_url = os.environ.get("SITE_URL", "").strip().rstrip("/") or "."
 
     nichos_cfg = carregar_json(Path("config/nichos.json"), {})
@@ -621,6 +653,7 @@ def main() -> int:
 
     resumo_nichos = []
     todas_urls = []
+    destaques_home = []  # top ofertas verificadas de cada nicho, pra vitrine da home
 
     for slug, cfg in nichos_cfg.items():
         d = Path("data") / slug
@@ -653,7 +686,7 @@ def main() -> int:
 
             p = montar_produto(pid, meta["nome"], meta["permalink"],
                                meta.get("imagem") or None, preco_hoje,
-                               ofertas_hoje, affiliate_tag, dias)
+                               ofertas_hoje, dias)
             p["arquivo"] = f"{pid}.html"
             produtos_pagina.append(p)
 
@@ -667,7 +700,13 @@ def main() -> int:
         (pasta_nicho / "index.html").write_text(html_nicho, encoding="utf-8")
         todas_urls.append(f"{raiz_url}/{slug}/index.html")
 
-        verificados = sum(1 for p in produtos_pagina if p["verificado"])
+        verificados_lista = sorted(
+            (p for p in produtos_pagina if p["verificado"]),
+            key=lambda x: x["desconto"], reverse=True)
+        for p in verificados_lista[:2]:  # so os melhores, pra nao lotar a home de 1 nicho so
+            destaques_home.append({**p, "slug": slug})
+
+        verificados = len(verificados_lista)
         resumo_nichos.append({
             "slug": slug, "nome": cfg["nome"], "emoji": cfg["emoji"],
             "total": len(produtos_pagina), "verificados": verificados,
@@ -675,8 +714,10 @@ def main() -> int:
         print(f"[site] {slug}: {len(produtos_pagina)} páginas de produto "
               f"({verificados} com selo hoje)")
 
-    (SAIDA / "index.html").write_text(pagina_home(resumo_nichos, raiz_url),
-                                       encoding="utf-8")
+    destaques_home.sort(key=lambda x: x["desconto"], reverse=True)
+    (SAIDA / "index.html").write_text(
+        pagina_home(resumo_nichos, raiz_url, destaques_home[:8]),
+        encoding="utf-8")
     todas_urls.append(f"{raiz_url}/index.html")
 
     sitemap = ('<?xml version="1.0" encoding="UTF-8"?>\n'
