@@ -30,6 +30,11 @@ MIN_DIAS_HIST = 14  # espelha collector.py - so pra mensagem de status
 TELEGRAM_LINK = "https://t.me/addlist/2TD1Un1OO5Y3MGI5"  # entra em todos os canais de 1 vez
 WHATSAPP_LINK = "https://chat.whatsapp.com/JGvCrkWCfBmKS9KW4m1HD2"  # Comunidade - da acesso aos 4 grupos
 
+# chave publica do Web3Forms (nao e segredo - e so o identificador de
+# pra onde o formulario entrega, o mesmo esquema de uma action de form
+# HTML comum). Gerada em web3forms.com com o e-mail caiudeverdade@gmail.com.
+WEB3FORMS_ACCESS_KEY = "COLOQUE_AQUI_A_CHAVE_DO_WEB3FORMS"
+
 
 # ----------------------------------------------------------------------
 # DADOS
@@ -339,6 +344,17 @@ footer.rodape p{margin:14px 0 0; max-width:60ch}
 .cta-whatsapp{display:inline-block; background:#E7F8EE; color:#1FA855;
   font-weight:600; text-decoration:none; padding:11px 20px; border-radius:999px; font-size:14px}
 .cta-whatsapp:hover{background:#25D366; color:#fff}
+.link-sugerir{font-weight:600}
+
+.form-sugestao{display:flex; flex-direction:column; gap:18px; max-width:520px; margin:28px 0}
+.form-sugestao label{display:flex; flex-direction:column; gap:7px; font-size:14px; font-weight:600}
+.form-sugestao input, .form-sugestao select{padding:13px 16px; border-radius:16px; border:1px solid var(--linha);
+  background:var(--bg-alto); color:var(--tinta); font-family:'IBM Plex Sans',sans-serif; font-size:15px}
+.form-sugestao input:focus, .form-sugestao select:focus{outline:2px solid var(--verificado); outline-offset:1px}
+.form-sugestao button{align-self:flex-start; border:none; cursor:pointer; font-family:inherit}
+.nota-lgpd{background:var(--bg-alto); border:1px solid var(--linha); border-radius:var(--raio);
+  padding:20px 24px; font-size:13px; color:var(--tinta-fraca); max-width:560px; margin:8px 0 30px}
+.nota-lgpd strong{color:var(--tinta)}
 """
 
 
@@ -383,10 +399,63 @@ def base_page(titulo: str, descricao: str, corpo: str, raiz: str,
   <a class="cta-telegram" href="{TELEGRAM_LINK}" target="_blank" rel="noopener">📬 Seguir todos os canais no Telegram</a>
   <a class="cta-whatsapp" href="{WHATSAPP_LINK}" target="_blank" rel="noopener">📲 Entrar na Comunidade do WhatsApp</a>
   <p>Todo preço aqui vem de coleta automática comparada com o histórico real do produto.
-  Nunca com o "de/por" da loja. <a href="{raiz}/index.html">Como funciona</a>.</p>
+  Nunca com o "de/por" da loja. <a href="{raiz}/index.html">Como funciona</a>.
+  Não achou o que procura? <a class="link-sugerir" href="{raiz}/sugerir.html">Sugira um produto</a>.</p>
 </div></footer>
 </body>
 </html>"""
+
+
+def pagina_sugerir(raiz_url: str) -> str:
+    """
+    Formulario "sugira um produto" - entra direto no e-mail
+    caiudeverdade@gmail.com via Web3Forms (sem servidor nenhum do nosso
+    lado). O Robson cola os pedidos em data/pedidos_novos.txt e o
+    coletor cuida do resto (ver notificacoes.py).
+    """
+    corpo = f'''<div class="wrap">
+  <nav class="migalha"><a href="index.html">Início</a> / Sugerir produto</nav>
+  <section class="hero" style="padding-top:14px">
+    <h1>Não achou o produto que procura?</h1>
+    <p class="tag">Sugere aqui. A gente passa a rastrear o histórico de preço dele - e,
+    se você deixar seu e-mail, avisamos assim que ele cair de verdade (queda real
+    comparada ao próprio histórico, não "de/por" de loja).</p>
+  </section>
+
+  <form class="form-sugestao" action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="{WEB3FORMS_ACCESS_KEY}">
+    <input type="hidden" name="subject" value="Nova sugestão de produto - Caiu de Verdade">
+    <input type="hidden" name="from_name" value="Formulário do site">
+    <label>Link ou nome do produto
+      <input type="text" name="produto" required
+             placeholder="Cole o link do Mercado Livre ou descreva o produto">
+    </label>
+    <label>Categoria
+      <select name="nicho" required>
+        <option value="livros">📚 Livros</option>
+        <option value="bebes">👶 Bebês e Maternidade</option>
+        <option value="casa">🏠 Casa e Cozinha</option>
+        <option value="moda">👕 Moda e Vestuário</option>
+      </select>
+    </label>
+    <label>Seu e-mail (opcional - só se quiser ser avisado quando cair)
+      <input type="email" name="email" placeholder="seu@email.com">
+    </label>
+    <button type="submit" class="cta">Enviar sugestão</button>
+  </form>
+
+  <div class="nota-lgpd">
+    <strong>Sobre seus dados:</strong> se você deixar seu e-mail, ele é usado só pra te
+    avisar sobre ESTE produto específico, uma única vez - depois do aviso, o pedido é
+    apagado do nosso registro automaticamente. Não vendemos, não repassamos pra
+    terceiros e não vira lista de newsletter escondida. Se quiser que a gente apague
+    seu pedido antes disso, é só mandar um e-mail pra caiudeverdade@gmail.com.
+  </div>
+</div>'''
+    return base_page("Sugerir produto — Caiu de Verdade",
+                     "Peça pra gente rastrear o histórico de preço de um produto e seja "
+                     "avisado quando ele cair de verdade.",
+                     corpo, ".", raiz_url)
 
 
 def pagina_home(nichos_resumo: list[dict], raiz_url: str,
@@ -732,6 +801,9 @@ def main() -> int:
         pagina_home(resumo_nichos, raiz_url, destaques_home[:8]),
         encoding="utf-8")
     todas_urls.append(f"{raiz_url}/index.html")
+
+    (SAIDA / "sugerir.html").write_text(pagina_sugerir(raiz_url), encoding="utf-8")
+    todas_urls.append(f"{raiz_url}/sugerir.html")
 
     sitemap = ('<?xml version="1.0" encoding="UTF-8"?>\n'
                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +

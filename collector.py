@@ -30,6 +30,7 @@ import unicodedata
 import links_afiliado
 import cupons
 import produtos_manuais
+import notificacoes
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
@@ -853,6 +854,13 @@ def main() -> int:
         print(f"[produtos] {len(ids_manuais)} produto(s) apontado(s) a mao")
         descobrir_de_campanha(tk, cfg, wl, ids_manuais)
 
+    # pedidos de acompanhamento (formulario do site) - garante que o
+    # produto pedido passa a ser rastreado, se ainda nao for
+    ids_pedidos = notificacoes.importar_novos(nicho)
+    if ids_pedidos:
+        print(f"[pedidos] {len(ids_pedidos)} produto(s) pedido(s) por visitante")
+        descobrir_de_campanha(tk, cfg, wl, ids_pedidos)
+
     hist: dict[str, list[dict]] = {}
     if f_hist.exists():
         with f_hist.open(encoding="utf-8") as fh:
@@ -886,6 +894,11 @@ def main() -> int:
                         encoding="utf-8")
         for o in ofertas[:10]:
             print(f"   R${o['preco']:.2f} (-{o['desconto']:.0f}%) {o['nome'][:50]}")
+
+        avisados = notificacoes.enviar_notificacoes(ofertas, cfg)
+        if avisados:
+            print(f"[pedidos] {avisados} e-mail(s) de aviso enviado(s)")
+
         preparar_imagens(tk, ofertas[:LIMITE_FILA_CAMADA1], wl)
         enfileirar(d, ofertas, tipo="camada1", limite=LIMITE_FILA_CAMADA1)
     else:

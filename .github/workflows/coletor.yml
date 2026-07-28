@@ -37,9 +37,10 @@ jobs:
 
       - name: Coletar ${{ matrix.nicho }}
         env:
-          ML_APP_ID:      ${{ secrets.ML_APP_ID }}
-          ML_APP_SECRET:  ${{ secrets.ML_APP_SECRET }}
-          FORCAR_CAMADA2: ${{ (github.event_name == 'workflow_dispatch' && inputs.forcar_camada2) && '1' || '' }}
+          ML_APP_ID:         ${{ secrets.ML_APP_ID }}
+          ML_APP_SECRET:     ${{ secrets.ML_APP_SECRET }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          FORCAR_CAMADA2:    ${{ (github.event_name == 'workflow_dispatch' && inputs.forcar_camada2) && '1' || '' }}
         run: |
           git config user.name  "coletor-bot"
           git config user.email "coletor-bot@users.noreply.github.com"
