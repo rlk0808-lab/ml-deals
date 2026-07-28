@@ -129,3 +129,14 @@ footer.rodape p{margin:14px 0 0; max-width:60ch}
 .cta-whatsapp{display:inline-block; background:#E7F8EE; color:#1FA855;
   font-weight:600; text-decoration:none; padding:11px 20px; border-radius:999px; font-size:14px}
 .cta-whatsapp:hover{background:#25D366; color:#fff}
+.link-sugerir{font-weight:600}
+
+.form-sugestao{display:flex; flex-direction:column; gap:18px; max-width:520px; margin:28px 0}
+.form-sugestao label{display:flex; flex-direction:column; gap:7px; font-size:14px; font-weight:600}
+.form-sugestao input, .form-sugestao select{padding:13px 16px; border-radius:16px; border:1px solid var(--linha);
+  background:var(--bg-alto); color:var(--tinta); font-family:'IBM Plex Sans',sans-serif; font-size:15px}
+.form-sugestao input:focus, .form-sugestao select:focus{outline:2px solid var(--verificado); outline-offset:1px}
+.form-sugestao button{align-self:flex-start; border:none; cursor:pointer; font-family:inherit}
+.nota-lgpd{background:var(--bg-alto); border:1px solid var(--linha); border-radius:var(--raio);
+  padding:20px 24px; font-size:13px; color:var(--tinta-fraca); max-width:560px; margin:8px 0 30px}
+.nota-lgpd strong{color:var(--tinta)}

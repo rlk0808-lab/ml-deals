@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sugerir produto — Caiu de Verdade</title>
+<meta name="description" content="Peça pra gente rastrear o histórico de preço de um produto e seja avisado quando ele cair de verdade.">
+<link rel="canonical" href="https://rlk0808-lab.github.io/ml-deals">
+<link rel="stylesheet" href="./estilo.css">
+<meta property="og:title" content="Sugerir produto — Caiu de Verdade">
+<meta property="og:description" content="Peça pra gente rastrear o histórico de preço de um produto e seja avisado quando ele cair de verdade.">
+<meta property="og:type" content="website">
+
+</head>
+<body>
+<header class="topo"><div class="wrap">
+  <a class="wordmark" href="./index.html">CAIU DE <b>VERDADE</b></a>
+</div></header>
+<div class="wrap">
+  <nav class="migalha"><a href="index.html">Início</a> / Sugerir produto</nav>
+  <section class="hero" style="padding-top:14px">
+    <h1>Não achou o produto que procura?</h1>
+    <p class="tag">Sugere aqui. A gente passa a rastrear o histórico de preço dele - e,
+    se você deixar seu e-mail, avisamos assim que ele cair de verdade (queda real
+    comparada ao próprio histórico, não "de/por" de loja).</p>
+  </section>
+
+  <form class="form-sugestao" action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="d4a6b0d4-9951-4b69-9f8a-aa1e8bfc1fa5">
+    <input type="hidden" name="subject" value="Nova sugestão de produto - Caiu de Verdade">
+    <input type="hidden" name="from_name" value="Formulário do site">
+    <label>Link ou nome do produto
+      <input type="text" name="produto" required
+             placeholder="Cole o link do Mercado Livre ou descreva o produto">
+    </label>
+    <label>Categoria
+      <select name="nicho" required>
+        <option value="livros">📚 Livros</option>
+        <option value="bebes">👶 Bebês e Maternidade</option>
+        <option value="casa">🏠 Casa e Cozinha</option>
+        <option value="moda">👕 Moda e Vestuário</option>
+      </select>
+    </label>
+    <label>Seu e-mail (opcional - só se quiser ser avisado quando cair)
+      <input type="email" name="email" placeholder="seu@email.com">
+    </label>
+    <button type="submit" class="cta">Enviar sugestão</button>
+  </form>
+
+  <div class="nota-lgpd">
+    <strong>Sobre seus dados:</strong> se você deixar seu e-mail, ele é usado só pra te
+    avisar sobre ESTE produto específico, uma única vez - depois do aviso, o pedido é
+    apagado do nosso registro automaticamente. Não vendemos, não repassamos pra
+    terceiros e não vira lista de newsletter escondida. Se quiser que a gente apague
+    seu pedido antes disso, é só mandar um e-mail pra caiudeverdade@gmail.com.
+  </div>
+</div>
+<footer class="rodape"><div class="wrap">
+  <a class="cta-telegram" href="https://t.me/addlist/2TD1Un1OO5Y3MGI5" target="_blank" rel="noopener">📬 Seguir todos os canais no Telegram</a>
+  <a class="cta-whatsapp" href="https://chat.whatsapp.com/JGvCrkWCfBmKS9KW4m1HD2" target="_blank" rel="noopener">📲 Entrar na Comunidade do WhatsApp</a>
+  <p>Todo preço aqui vem de coleta automática comparada com o histórico real do produto.
+  Nunca com o "de/por" da loja. <a href="./index.html">Como funciona</a>.
+  Não achou o que procura? <a class="link-sugerir" href="./sugerir.html">Sugira um produto</a>.</p>
+</div></footer>
+</body>
+</html>
