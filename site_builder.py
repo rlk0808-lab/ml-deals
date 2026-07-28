@@ -268,6 +268,19 @@ nav.migalha a{color:var(--tinta-fraca)}
 .como-funciona ol{padding-left:20px}
 .como-funciona li{margin:8px 0}
 
+.cta-sugerir{display:flex; align-items:center; justify-content:space-between; gap:24px;
+  flex-wrap:wrap; background:var(--pendente-fundo); border-radius:var(--raio);
+  padding:30px 34px; margin:8px 0 44px}
+.cta-sugerir h3{margin:0 0 8px; font-size:21px}
+.cta-sugerir p{margin:0; color:var(--tinta-fraca); font-size:14.5px; max-width:52ch}
+.cta-sugerir .cta{margin:0; white-space:nowrap; background:var(--pendente)}
+.cta-sugerir .cta:hover{box-shadow:0 12px 26px rgba(184,121,10,.3)}
+
+.cta-sugerir-mini{display:flex; align-items:center; justify-content:space-between; gap:16px;
+  flex-wrap:wrap; border:1px dashed var(--linha); border-radius:var(--raio);
+  padding:22px 26px; margin:0 0 56px; color:var(--tinta-fraca); font-size:14.5px}
+.cta-sugerir-mini a{font-weight:600; white-space:nowrap}
+
 .barra-filtro{display:flex; gap:10px; flex-wrap:wrap; margin:22px 0 4px}
 .campo-busca{flex:1; min-width:200px; padding:12px 16px; border-radius:999px; border:1px solid var(--linha);
   background:var(--bg-alto); color:var(--tinta); font-family:'IBM Plex Sans',sans-serif; font-size:14.5px}
@@ -400,7 +413,9 @@ def base_page(titulo: str, descricao: str, corpo: str, raiz: str,
   <a class="cta-whatsapp" href="{WHATSAPP_LINK}" target="_blank" rel="noopener">📲 Entrar na Comunidade do WhatsApp</a>
   <p>Todo preço aqui vem de coleta automática comparada com o histórico real do produto.
   Nunca com o "de/por" da loja. <a href="{raiz}/index.html">Como funciona</a>.
-  Não achou o que procura? <a class="link-sugerir" href="{raiz}/sugerir.html">Sugira um produto</a>.</p>
+  Não achou o que procura? <a class="link-sugerir" href="{raiz}/sugerir.html">Peça pra gente
+  rastrear o produto - a gente avisa por e-mail quando ele cair de verdade</a>.</p>
+  <p>Contato: <a href="mailto:caiudeverdade@gmail.com">caiudeverdade@gmail.com</a></p>
 </div></footer>
 </body>
 </html>"""
@@ -495,6 +510,17 @@ def pagina_home(nichos_resumo: list[dict], raiz_url: str,
     não porque a loja disse que é.</p>
   </section>
   <div class="grade-nichos">{cards}</div>
+
+  <section class="cta-sugerir">
+    <div>
+      <h3>Não achou o produto que procurava?</h3>
+      <p>Peça pra gente ficar de olho num produto específico. Deixe seu e-mail e a gente
+      te avisa assim que o preço cair de verdade - comparado ao histórico real, não ao
+      "de/por" que a loja anuncia.</p>
+    </div>
+    <a class="cta" href="sugerir.html">Sugerir produto →</a>
+  </section>
+
   {vitrine_html}
   <section class="como-funciona">
     <h3 style="color:var(--tinta)">Como funciona</h3>
@@ -553,6 +579,11 @@ def pagina_nicho(cfg: dict, produtos: list[dict], raiz_url: str) -> str:
   <p id="contagem-vazia" class="sem-resultado" hidden>Nenhum produto encontrado com esse nome.</p>
 
   <div class="grade-produtos" id="grade">{''.join(cards)}</div>
+
+  <div class="cta-sugerir-mini">
+    <span>Não achou o que procurava em {html.escape(cfg['nome'].lower())}?</span>
+    <a href="../sugerir.html">Sugira um produto e a gente te avisa quando cair →</a>
+  </div>
 </div>
 <script>
 (function(){{
