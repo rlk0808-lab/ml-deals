@@ -45,7 +45,7 @@ def gerar_resumo(nicho: str, cfg: dict) -> str | None:
     if not itens:
         return None
 
-    blocos = [pub.montar_mensagem(item, cfg, "") for item in itens]
+    blocos = [pub.montar_mensagem(item, cfg) for item in itens]
 
     cabecalho = f"📋 RESUMO {cfg['emoji']} {cfg['nome'].upper()} - cole no grupo do WhatsApp\n"
     separador = "\n\n➖➖➖➖➖\n\n"
