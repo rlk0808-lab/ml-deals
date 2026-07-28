@@ -41,8 +41,6 @@ SITE = "MLB"
 
 APP_ID = os.environ.get("ML_APP_ID", "").strip()
 APP_SECRET = os.environ.get("ML_APP_SECRET", "").strip()
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "").strip()
-AFFILIATE_TAG = os.environ.get("ML_AFFILIATE_TAG", "").strip()
 
 MAX_WATCHLIST = 3000
 MIN_DIAS_HIST = 14
@@ -62,8 +60,8 @@ LIMITE_FILA_CAMADA1 = 34
 LIMITE_FILA_CAMADA2 = 34
 LIMITE_FILA_FALSO_DESCONTO = 3  # esporadico de proposito - e conteudo de "flagrante", nao de rotina
 
-CAMPOS = ["data", "product_id", "nome", "preco", "n_ofertas", "item_id",
-          "seller_id", "frete_gratis", "full", "permalink"]
+CAMPOS = ["data", "product_id", "nome", "preco", "preco_original", "n_ofertas",
+          "item_id", "seller_id", "frete_gratis", "full", "permalink"]
 
 sess = requests.Session()
 _dump_feito = False       # imprime o schema real de 1 anuncio, uma vez
@@ -564,6 +562,20 @@ def salvar_estado_camada2(d: Path, estado: dict) -> None:
     f.write_text(json.dumps(estado, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def podar_estado_camada2(d: Path, wl: dict) -> int:
+    """Remove do estado de Camada 2 produtos que ja sairam da watchlist -
+    sem isso o arquivo so cresce, nunca encolhe."""
+    estado = carregar_estado_camada2(d)
+    antes = len(estado)
+    estado = {pid: v for pid, v in estado.items() if pid in wl}
+    removidos = antes - len(estado)
+    if removidos:
+        salvar_estado_camada2(d, estado)
+        print(f"[camada2] {removidos} produto(s) removido(s) do estado "
+              f"(saiu da watchlist)")
+    return removidos
+
+
 def _assinatura_produto(nome: str) -> str:
     """
     Primeira palavra significativa do nome - usada so pra AGRUPAR
@@ -679,52 +691,10 @@ def detectar_camada2(hoje: list[dict], ja_notificados: set[str],
 
 # ----------------------------------------------------------------------
 # PUBLICACAO
+#
+# Quem publica de verdade e o publish_next.py (roda separado, a cada
+# 30min). Aqui so entra o que decide o que fica na FILA.
 # ----------------------------------------------------------------------
-
-def link(o: dict) -> str:
-    """
-    Link do produto para o post.
-
-    Prioridade:
-      1. link rastreado da tabela (gerado na mao pelo Robson) - e o unico
-         formato que o ML realmente contabiliza
-      2. link normal do produto (sem rastreio, mas o post nao quebra)
-
-    O ML_AFFILIATE_TAG antigo (matt_word/matt_tool colado na URL) foi
-    testado e NAO rastreia - por isso nao e mais usado aqui.
-    """
-    return links_afiliado.resolver(o.get("product_id", ""),
-                                   o.get("permalink", ""))
-
-
-def montar(o: dict, cfg: dict) -> str:
-    selo = "MENOR PRECO JA REGISTRADO" if o["recorde"] else "QUEDA REAL DE PRECO"
-    entrega = "\nEntrega Full" if o.get("full") else (
-        "\nFrete gratis" if o.get("frete_gratis") else "")
-    return (f"{cfg['emoji']} {selo}\n\n"
-            f"{o['nome']}\n\n"
-            f"Por R$ {o['preco']:.2f}\n"
-            f"Preco habitual: R$ {o['mediana']:.2f}\n"
-            f"{o['desconto']:.0f}% abaixo do normal"
-            f"{entrega}\n\n"
-            f"{link(o)}")
-
-
-def montar_camada2(o: dict, cfg: dict) -> str:
-    """
-    Camada 2: NUNCA afirma queda de preco (nao ha historico suficiente
-    ainda para saber se caiu). So informa o melhor preco entre os
-    vendedores hoje - e o unico selo honesto possivel neste estagio.
-    """
-    entrega = "\nEntrega Full" if o.get("full") else (
-        "\nFrete gratis" if o.get("frete_gratis") else "")
-    return (f"{cfg['emoji']} MELHOR PRECO ENTRE OS VENDEDORES HOJE\n\n"
-            f"{o['nome']}\n\n"
-            f"R$ {o['preco']:.2f}\n"
-            f"(comparado entre {o['n_ofertas']} vendedores)"
-            f"{entrega}\n\n"
-            f"{link(o)}")
-
 
 def refrescar_camada2_na_fila(d: Path, hoje: list[dict]) -> int:
     """
@@ -798,40 +768,6 @@ def enfileirar(d: Path, itens: list[dict], tipo: str, limite: int) -> int:
     salvar_fila(d, fila)
     print(f"[fila] +{adicionados} item(ns) tipo={tipo} | fila total: {len(fila)}")
     return adicionados
-
-
-def publicar_lote(itens: list[dict], cfg: dict, montar_func, limite: int) -> None:
-    chat = os.environ.get(cfg["telegram_chat_env"], "").strip()
-    if not (TELEGRAM_TOKEN and chat):
-        print(f"[telegram] {cfg['telegram_chat_env']} nao configurado")
-        return
-    for o in itens[:limite]:
-        texto = montar_func(o, cfg)
-        imagem = o.get("imagem")
-        try:
-            if imagem:
-                r = sess.post(
-                    f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPhoto",
-                    json={"chat_id": chat, "photo": imagem,
-                          "caption": texto[:1024]}, timeout=20)
-                if r.status_code != 200:
-                    print(f"[telegram] sendPhoto falhou ({r.status_code}), "
-                          f"tentando sem imagem")
-                    r = sess.post(
-                        f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
-                        json={"chat_id": chat, "text": texto}, timeout=20)
-            else:
-                r = sess.post(
-                    f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
-                    json={"chat_id": chat, "text": texto}, timeout=20)
-            print(f"[telegram] {r.status_code} - {o['nome'][:45]}")
-            time.sleep(1)
-        except Exception as e:
-            print(f"[telegram] erro: {e}")
-
-
-def publicar(ofertas: list[dict], cfg: dict, limite: int = 5) -> None:
-    publicar_lote(ofertas, cfg, montar, limite)
 
 
 # ----------------------------------------------------------------------
@@ -912,6 +848,7 @@ def main() -> int:
 
     hoje, wl = coletar(tk, cfg, wl)
     f_wl.write_text(json.dumps(wl, ensure_ascii=False, indent=2), encoding="utf-8")
+    podar_estado_camada2(d, wl)
 
     if not hoje:
         print("[!] nada coletado")

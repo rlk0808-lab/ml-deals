@@ -39,7 +39,6 @@ jobs:
       - name: Publicar proximo item - ${{ matrix.nicho }}
         if: ${{ github.event.inputs.testar_cartao_falso_desconto != 'true' }}
         env:
-          ML_AFFILIATE_TAG:     ${{ secrets.ML_AFFILIATE_TAG }}
           TELEGRAM_TOKEN:       ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_LIVROS: ${{ secrets.TELEGRAM_CHAT_LIVROS }}
           TELEGRAM_CHAT_BEBES:  ${{ secrets.TELEGRAM_CHAT_BEBES }}
@@ -84,7 +83,6 @@ jobs:
       - name: Testar cartao de falso desconto - ${{ matrix.nicho }}
         if: ${{ github.event.inputs.testar_cartao_falso_desconto == 'true' }}
         env:
-          ML_AFFILIATE_TAG:     ${{ secrets.ML_AFFILIATE_TAG }}
           TELEGRAM_TOKEN:       ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_LIVROS: ${{ secrets.TELEGRAM_CHAT_LIVROS }}
           TELEGRAM_CHAT_BEBES:  ${{ secrets.TELEGRAM_CHAT_BEBES }}

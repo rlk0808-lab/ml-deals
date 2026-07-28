@@ -51,7 +51,7 @@ VALIDADE_FALSO_DESCONTO_HORAS = 24
 VALIDADE_CUPOM_HORAS = 6
 
 
-def link(o: dict, affiliate_tag: str = "") -> str:
+def link(o: dict) -> str:
     """
     Link do produto para o post.
 
@@ -63,7 +63,7 @@ def link(o: dict, affiliate_tag: str = "") -> str:
                                    o.get("permalink", ""))
 
 
-def montar_camada1(o: dict, cfg: dict, affiliate_tag: str) -> str:
+def montar_camada1(o: dict, cfg: dict) -> str:
     selo = "MENOR PRECO JA REGISTRADO" if o["recorde"] else "QUEDA REAL DE PRECO"
     entrega = "\nEntrega Full" if o.get("full") else (
         "\nFrete gratis" if o.get("frete_gratis") else "")
@@ -77,7 +77,7 @@ def montar_camada1(o: dict, cfg: dict, affiliate_tag: str) -> str:
             f"📊 Veja o histórico completo: {link_site(o, cfg)}")
 
 
-def montar_camada2(o: dict, cfg: dict, affiliate_tag: str) -> str:
+def montar_camada2(o: dict, cfg: dict) -> str:
     entrega = "\nEntrega Full" if o.get("full") else (
         "\nFrete gratis" if o.get("frete_gratis") else "")
     return (f"{cfg['emoji']} MELHOR PRECO ENTRE OS VENDEDORES HOJE\n\n"
@@ -89,7 +89,7 @@ def montar_camada2(o: dict, cfg: dict, affiliate_tag: str) -> str:
             f"📊 Veja o histórico completo: {link_site(o, cfg)}")
 
 
-def montar_falso_desconto(o: dict, cfg: dict, affiliate_tag: str) -> str:
+def montar_falso_desconto(o: dict, cfg: dict) -> str:
     """
     Tom factual, nunca acusatorio - mostra o que a loja anuncia e o que o
     NOSSO historico real mostra, e deixa os numeros falarem. Nao xinga o
@@ -110,19 +110,19 @@ def montar_falso_desconto(o: dict, cfg: dict, affiliate_tag: str) -> str:
             f"📊 Veja o histórico completo: {link_site(o, cfg)}")
 
 
-def montar_cupom(o: dict, cfg: dict, affiliate_tag: str) -> str:
+def montar_cupom(o: dict, cfg: dict) -> str:
     import cupons
     return cupons.montar_cupom(o.get("codigo", ""), o.get("texto_cupom", ""), cfg)
 
 
-def montar_mensagem(item: dict, cfg: dict, affiliate_tag: str) -> str:
+def montar_mensagem(item: dict, cfg: dict) -> str:
     if item.get("tipo") == "camada2":
-        return montar_camada2(item, cfg, affiliate_tag)
+        return montar_camada2(item, cfg)
     if item.get("tipo") == "falso_desconto":
-        return montar_falso_desconto(item, cfg, affiliate_tag)
+        return montar_falso_desconto(item, cfg)
     if item.get("tipo") == "cupom":
-        return montar_cupom(item, cfg, affiliate_tag)
-    return montar_camada1(item, cfg, affiliate_tag)
+        return montar_cupom(item, cfg)
+    return montar_camada1(item, cfg)
 
 
 def esta_vencido(item: dict) -> bool:
@@ -141,8 +141,8 @@ def esta_vencido(item: dict) -> bool:
     return idade > timedelta(hours=limite)
 
 
-def enviar(item: dict, cfg: dict, chat: str, affiliate_tag: str) -> bool:
-    texto = montar_mensagem(item, cfg, affiliate_tag)
+def enviar(item: dict, cfg: dict, chat: str) -> bool:
+    texto = montar_mensagem(item, cfg)
     imagem = item.get("imagem")
     print(f"[telegram] preparando envio - tipo={item.get('tipo')} "
           f"nome={item['nome'][:40]!r}", flush=True)
@@ -210,7 +210,6 @@ def main() -> int:
     cfg = todos[nicho]
 
     chat = os.environ.get(cfg["telegram_chat_env"], "").strip()
-    affiliate_tag = os.environ.get("ML_AFFILIATE_TAG", "").strip()
     if not (TELEGRAM_TOKEN and chat):
         print(f"[!] {cfg['telegram_chat_env']} ou TELEGRAM_TOKEN nao configurado")
         return 1
@@ -238,7 +237,7 @@ def main() -> int:
         return 0
 
     item = fila.pop(0)  # FIFO - o mais antigo primeiro
-    ok = enviar(item, cfg, chat, affiliate_tag)
+    ok = enviar(item, cfg, chat)
 
     if ok and item.get("tipo") == "camada2":
         estado = json.loads(f_estado_c2.read_text(encoding="utf-8")) \

@@ -35,7 +35,6 @@ def main() -> int:
     cfg = todos[nicho]
 
     chat = os.environ.get(cfg["telegram_chat_env"], "").strip()
-    affiliate_tag = os.environ.get("ML_AFFILIATE_TAG", "").strip()
     print(f"[teste] token presente: {bool(pub.TELEGRAM_TOKEN)} | "
           f"chat presente: {bool(chat)}", flush=True)
     if not (pub.TELEGRAM_TOKEN and chat):
@@ -57,7 +56,7 @@ def main() -> int:
     }
 
     print(f"[teste] enviando cartao de teste pra {cfg['telegram_chat_env']}...", flush=True)
-    ok = pub.enviar(item_teste, cfg, chat, affiliate_tag)
+    ok = pub.enviar(item_teste, cfg, chat)
     print("[teste] enviado com sucesso!" if ok else "[teste] FALHOU - ver log acima", flush=True)
     return 0 if ok else 1
 
