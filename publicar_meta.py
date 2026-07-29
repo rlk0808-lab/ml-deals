@@ -36,6 +36,7 @@ PAGE_ACCESS_TOKEN = os.environ.get("META_PAGE_ACCESS_TOKEN", "").strip()
 IG_USER_ID = os.environ.get("META_IG_USER_ID", "").strip()
 
 _ARQUIVO_CONTAGEM_FD = Path("data") / "facebook_falso_desconto_hoje.json"
+_ARQUIVO_CONTAGEM_FEED_C1 = Path("data") / "feed_camada1_hoje.json"
 _PASTA_IMAGENS_TEMP = Path("social_img")
 _REPO_RAW_BASE = "https://raw.githubusercontent.com/rlk0808-lab/ml-deals/main"
 
@@ -99,6 +100,24 @@ def marcar_falso_desconto_postado_hoje() -> None:
     hoje = datetime.now(timezone.utc).date().isoformat()
     _ARQUIVO_CONTAGEM_FD.parent.mkdir(parents=True, exist_ok=True)
     _ARQUIVO_CONTAGEM_FD.write_text(json.dumps({"data": hoje}), encoding="utf-8")
+
+
+def ja_postou_feed_camada1_hoje() -> bool:
+    """Mesma logica do gate de falso desconto: 1 Pagina so pros 4 nichos,
+    o feed (nao a story) fica pausado em 1 post/dia no TOTAL pra manter
+    uma cara de catalogo, nao de spam."""
+    hoje = datetime.now(timezone.utc).date().isoformat()
+    try:
+        d = json.loads(_ARQUIVO_CONTAGEM_FEED_C1.read_text(encoding="utf-8"))
+        return d.get("data") == hoje
+    except (FileNotFoundError, json.JSONDecodeError):
+        return False
+
+
+def marcar_feed_camada1_postado_hoje() -> None:
+    hoje = datetime.now(timezone.utc).date().isoformat()
+    _ARQUIVO_CONTAGEM_FEED_C1.parent.mkdir(parents=True, exist_ok=True)
+    _ARQUIVO_CONTAGEM_FEED_C1.write_text(json.dumps({"data": hoje}), encoding="utf-8")
 
 
 def publicar_facebook(texto: str, imagem_bytes: bytes | None = None,

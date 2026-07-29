@@ -218,9 +218,28 @@ def enviar(item: dict, cfg: dict, chat: str) -> bool:
         # poluido, entao camada1 continua tendo valor la. Stories e um
         # canal a MAIS, nao substituto - tolera mais volume por ser
         # conteudo passageiro (24h), entao acompanha 1 pra 1.
+        #
+        # O feed (diferente da story) fica travado em 1 post/dia no
+        # TOTAL - varias fotos cruas de produto por dia deixavam o
+        # feed com cara de bot. Usa o cartao quadrado (catalogo),
+        # nao a foto crua do Mercado Livre.
         if item.get("tipo") == "camada1" and imagem:
-            publicar_meta.publicar_facebook(texto, imagem_url=imagem)
-            publicar_meta.publicar_instagram(texto, imagem_url=imagem)
+            if not publicar_meta.ja_postou_feed_camada1_hoje():
+                try:
+                    import image_card
+                    card_bytes = image_card.gerar_card_feed_oferta_real(item)
+                    ok_fb_feed = publicar_meta.publicar_facebook(
+                        texto, imagem_bytes=card_bytes)
+                    url_feed = publicar_meta.hospedar_imagem(
+                        card_bytes, f"{item['product_id']}_feed.png")
+                    ok_ig_feed = url_feed and publicar_meta.publicar_instagram(
+                        texto, url_feed)
+                    if ok_fb_feed or ok_ig_feed:
+                        publicar_meta.marcar_feed_camada1_postado_hoje()
+                except Exception:
+                    print("[meta] erro ao gerar/publicar cartao de feed - pulando",
+                          flush=True)
+                    traceback.print_exc()
             try:
                 # Stories nao aceitam legenda/link via API (confirmado
                 # com teste real) - sem isso a story sairia so com a
