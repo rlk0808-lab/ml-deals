@@ -25,6 +25,7 @@ SAIDA = Path(__file__).parent / "assets" / "logo"
 BG = (253, 252, 250)
 INK = (24, 27, 22)
 ACAO = (255, 90, 54)
+VERIFICADO = (14, 155, 87)
 CREME = (253, 252, 250)
 
 
@@ -49,43 +50,49 @@ def _quebrar_texto(texto: str, fonte, largura_max: int, draw: ImageDraw.ImageDra
     return linhas
 
 
-def _marca_check(tamanho: int) -> Image.Image:
+def _marca_grafico(tamanho: int, cor) -> Image.Image:
     """
-    O simbolo da marca: um "check" grosso, ligeiramente imperfeito (o
-    mesmo espirito do selo organico do site - carimbo de verdade, nao
-    geometria perfeita de vetor). Devolve uma camada RGBA transparente,
-    pronta pra colar em cima de qualquer fundo.
+    O simbolo da marca: o proprio grafico de historico de preco - a
+    mesma linguagem visual que aparece em CADA pagina de produto do
+    site (queda real, com ruido de verdade, nao uma seta reta de
+    marketing) - terminando num ponto solido, igual ao ponto de "hoje"
+    do grafico real. Mais ligado ao produto do que um simbolo generico
+    de "confianca". Devolve uma camada RGBA transparente.
     """
     camada = Image.new("RGBA", (tamanho, tamanho), (0, 0, 0, 0))
     d = ImageDraw.Draw(camada)
 
-    # pontos do check (fracao do canvas), com uma leve quebra extra no
-    # meio de cada trecho pra nao ficar reta demais / mecanica
+    # trajetoria com ruido de verdade (sobe um pouco, desce mais) -
+    # igual um historico de preco real, nao uma seta reta artificial
     pontos = [
-        (0.27, 0.50),
-        (0.35, 0.58),
-        (0.44, 0.68),
-        (0.56, 0.54),
-        (0.74, 0.29),
+        (0.16, 0.26),
+        (0.30, 0.20),
+        (0.46, 0.47),
+        (0.60, 0.38),
+        (0.82, 0.76),
     ]
     xy = [(x * tamanho, y * tamanho) for x, y in pontos]
 
-    largura_traco = int(tamanho * 0.075)
-    d.line(xy, fill=CREME, width=largura_traco, joint="curve")
-    # tampas arredondadas nas pontas (Pillow nao arredonda extremidade,
-    # so os cotovelos do meio com joint="curve")
+    largura_traco = int(tamanho * 0.062)
+    d.line(xy, fill=cor, width=largura_traco, joint="curve")
     raio = largura_traco / 2
-    for px, py in (xy[0], xy[-1]):
-        d.ellipse([px - raio, py - raio, px + raio, py + raio], fill=CREME)
+    for px, py in xy:
+        d.ellipse([px - raio, py - raio, px + raio, py + raio], fill=cor)
 
-    return camada.rotate(-5, resample=Image.BICUBIC, center=(tamanho / 2, tamanho / 2))
+    # ponto final maior - o "hoje" do grafico, mesmo destaque que o
+    # site da ao ultimo ponto
+    px, py = xy[-1]
+    raio_final = tamanho * 0.075
+    d.ellipse([px - raio_final, py - raio_final, px + raio_final, py + raio_final], fill=cor)
+
+    return camada.rotate(-4, resample=Image.BICUBIC, center=(tamanho / 2, tamanho / 2))
 
 
-def gerar_icone(tamanho: int = 1024) -> Image.Image:
+def gerar_icone(tamanho: int = 1024, cor_fundo=ACAO, cor_marca=CREME) -> Image.Image:
     """Avatar quadrado - fundo vai ate a borda de proposito, pra nao
     sobrar friso estranho quando a rede social cortar em circulo."""
-    img = Image.new("RGB", (tamanho, tamanho), ACAO)
-    marca = _marca_check(tamanho)
+    img = Image.new("RGB", (tamanho, tamanho), cor_fundo)
+    marca = _marca_grafico(tamanho, cor_marca)
     img.paste(marca, (0, 0), marca)
     return img
 
@@ -99,7 +106,7 @@ def gerar_banner(largura: int = 1500, altura: int = 500) -> Image.Image:
     # icone com cantos arredondados normais)
     lado_icone = int(altura * 0.62)
     icone = Image.new("RGB", (lado_icone, lado_icone), ACAO)
-    marca = _marca_check(lado_icone)
+    marca = _marca_grafico(lado_icone, CREME)
     icone.paste(marca, (0, 0), marca)
 
     mascara = Image.new("L", (lado_icone, lado_icone), 0)
@@ -134,9 +141,9 @@ def gerar_banner(largura: int = 1500, altura: int = 500) -> Image.Image:
 
 def main() -> None:
     SAIDA.mkdir(parents=True, exist_ok=True)
-    gerar_icone().save(SAIDA / "icone.png")
+    gerar_icone(cor_fundo=ACAO, cor_marca=CREME).save(SAIDA / "icone.png")
     gerar_banner().save(SAIDA / "banner.png")
-    print(f"[logo] gerado em {SAIDA}/icone.png e {SAIDA}/banner.png")
+    print(f"[logo] gerado em {SAIDA}/")
 
 
 if __name__ == "__main__":

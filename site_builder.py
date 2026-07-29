@@ -23,9 +23,12 @@ import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 
+from PIL import Image
+
 import links_afiliado
 
 SAIDA = Path("docs")
+LOGO = Path("assets") / "logo" / "icone.png"
 MIN_DIAS_HIST = 14  # espelha collector.py - so pra mensagem de status
 TELEGRAM_LINK = "https://t.me/addlist/2TD1Un1OO5Y3MGI5"  # entra em todos os canais de 1 vez
 WHATSAPP_LINK = "https://chat.whatsapp.com/JGvCrkWCfBmKS9KW4m1HD2"  # Comunidade - da acesso aos 4 grupos
@@ -238,8 +241,9 @@ a.silencioso{color:inherit; text-decoration:none}
 .wrap{max-width:1000px; margin:0 auto; padding:0 24px}
 
 header.topo{padding:26px 0}
-.wordmark{font-family:'Fraunces',Georgia,serif; font-size:23px; font-weight:600;
-  letter-spacing:-.01em; color:var(--tinta); text-decoration:none}
+.wordmark{display:inline-flex; align-items:center; gap:10px; font-family:'Fraunces',Georgia,serif;
+  font-size:23px; font-weight:600; letter-spacing:-.01em; color:var(--tinta); text-decoration:none}
+.wordmark img{border-radius:9px; display:block}
 .wordmark b{font-style:italic; font-weight:600; color:var(--acao)}
 nav.migalha{font-size:13px; color:var(--tinta-fraca); margin:26px 0 8px}
 nav.migalha a{color:var(--tinta-fraca)}
@@ -398,6 +402,8 @@ def base_page(titulo: str, descricao: str, corpo: str, raiz: str,
 <meta name="description" content="{html.escape(descricao)}">
 <link rel="canonical" href="{canonical}">
 <link rel="stylesheet" href="{raiz}/estilo.css">
+<link rel="icon" type="image/png" sizes="32x32" href="{raiz}/favicon-32.png">
+<link rel="apple-touch-icon" href="{raiz}/apple-touch-icon.png">
 <meta property="og:title" content="{html.escape(titulo)}">
 <meta property="og:description" content="{html.escape(descricao)}">
 <meta property="og:type" content="website">
@@ -405,7 +411,10 @@ def base_page(titulo: str, descricao: str, corpo: str, raiz: str,
 </head>
 <body>
 <header class="topo"><div class="wrap">
-  <a class="wordmark" href="{raiz}/index.html">CAIU DE <b>VERDADE</b></a>
+  <a class="wordmark" href="{raiz}/index.html">
+    <img src="{raiz}/icone-header.png" alt="" width="36" height="36">
+    CAIU DE <b>VERDADE</b>
+  </a>
 </div></header>
 {corpo}
 <footer class="rodape"><div class="wrap">
@@ -763,6 +772,12 @@ def main() -> int:
     nichos_cfg = carregar_json(Path("config/nichos.json"), {})
     SAIDA.mkdir(parents=True, exist_ok=True)
     (SAIDA / "estilo.css").write_text(CSS, encoding="utf-8")
+
+    if LOGO.exists():
+        logo = Image.open(LOGO).convert("RGB")
+        logo.resize((32, 32), Image.LANCZOS).save(SAIDA / "favicon-32.png")
+        logo.resize((180, 180), Image.LANCZOS).save(SAIDA / "apple-touch-icon.png")
+        logo.resize((72, 72), Image.LANCZOS).save(SAIDA / "icone-header.png")
 
     resumo_nichos = []
     todas_urls = []
