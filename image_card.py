@@ -243,9 +243,18 @@ def gerar_story_oferta_real(item: dict) -> bytes:
     d.text((pad, y), f"{item['desconto']:.0f}% abaixo do normal",
            font=f_desconto, fill=VERIFICADO)
 
-    footer_y = ALTURA_STORY - pad - 30
-    d.text((pad, footer_y), "caiudeverdade.github.io — link na bio",
-           font=f_footer, fill=INK_FRACA)
+    # Story nao aceita link/legenda via API (confirmado com teste real) -
+    # esse convite pros grupos so existe se estiver queimado na propria
+    # imagem, por isso o CTA em destaque (nao so texto pequeno) aqui
+    # embaixo, igual ao cartao institucional.
+    cta_texto = "GRUPOS NO WHATS E TELEGRAM — LINK NA BIO"
+    cta_h = 64
+    bbox = d.textbbox((0, 0), cta_texto, font=f_footer)
+    cta_w = (bbox[2] - bbox[0]) + 44
+    cta_y = ALTURA_STORY - pad - cta_h
+    d.rounded_rectangle([pad, cta_y, pad + cta_w, cta_y + cta_h],
+                        radius=cta_h // 2, fill=ACAO)
+    d.text((pad + 22, cta_y + 18), cta_texto, font=f_footer, fill=BRANCO)
 
     buf = io.BytesIO()
     img.save(buf, format="PNG")
