@@ -27,6 +27,8 @@ jobs:
         with:
           python-version: "3.11"
 
+      - run: pip install -r requirements.txt
+
       - name: Gerar páginas do site
         env:
           SITE_URL: "https://rlk0808-lab.github.io/ml-deals"
