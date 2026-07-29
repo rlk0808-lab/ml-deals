@@ -4,7 +4,7 @@ Como usar: abra o link, clique em Compartilhar na barra preta de
 afiliados, copie o link gerado (meli.la/...) e cole em
 data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
-(gerado em 2026-07-28)
+(gerado em 2026-07-29)
 
 MLB33124579  Banheira Bebê Acqua Trio Branca Galzerano Cor Branco
     https://www.mercadolivre.com.br/p/MLB33124579
@@ -28,18 +28,16 @@ MLB36128161  Mordedor Bebe Mãozinha Anti Stress Gengiva Cor Azul
     https://www.mercadolivre.com.br/p/MLB36128161
 MLB25083233  Bola Chocalho Mordedor Bebe Unissex Pimpolho Cor Laranja
     https://www.mercadolivre.com.br/p/MLB25083233
-MLB20692201  Álcool Swab 70% Saches Lenço Umedecido 500un - Uniqmed
-    https://www.mercadolivre.com.br/p/MLB20692201
 MLB23815642  Móbile Berço Bebê Musical E Giratório Ursinho Marinheiro
     https://www.mercadolivre.com.br/p/MLB23815642
+MLB20692201  Álcool Swab 70% Saches Lenço Umedecido 500un - Uniqmed
+    https://www.mercadolivre.com.br/p/MLB20692201
 MLB29157731  Espelho Retrovisor Carro Ver Cadeirinha Bebê Conforto- Buba
     https://www.mercadolivre.com.br/p/MLB29157731
 MLB42621641  Cadeira Alimentação Bebê Ajustável Portátil Pimpolho Cor Cin
     https://www.mercadolivre.com.br/p/MLB42621641
 MLB66583684  Colchão Berço Impermeável Espuma D20 70x130x10cm Bela Branco
     https://www.mercadolivre.com.br/p/MLB66583684
-MLB32380733  Capa Antiácaro Para Colchão Berço Alergoshop Slim Tex 70x152
-    https://www.mercadolivre.com.br/p/MLB32380733
 MLB29195932  Mochila Bolsa Lequeen Maternidade Executiva Multifuncional C
     https://www.mercadolivre.com.br/p/MLB29195932
 MLB23059798  Cadeira Alimentação Bebe Cadeirão Galzerano Alta Nick Zoo
@@ -50,8 +48,12 @@ MLB26826980  Cadeira Alimentação Descanso Infantil Som Vibra Rosa Inmetro
     https://www.mercadolivre.com.br/p/MLB26826980
 MLB26974616  Cobertor Jolitex Berço Bebê Disney Minnie Brincando Vermelho
     https://www.mercadolivre.com.br/p/MLB26974616
+MLB22848080  Capa De Colchão Berço Ibitex Em Malha Gel Lisa Com Ziper
+    https://www.mercadolivre.com.br/p/MLB22848080
 MLB72254053  Cercadinho Bebê Rister Baby Portátil Grande + Tapete Azul
     https://www.mercadolivre.com.br/p/MLB72254053
+MLB40215751  Banheira Bebê Dobrável Infantil Portátil Buba Cor Cinza Banh
+    https://www.mercadolivre.com.br/p/MLB40215751
 MLB29439967  Mochila Bolsa Maternidade Jeans Cinza Lovely Baby Unik
     https://www.mercadolivre.com.br/p/MLB29439967
 MLB32330033  Chocalho Mordedor Bebê Corinthians Kids Gol Silicone
@@ -64,18 +66,14 @@ MLB24670405  Alicate Pregar Aplicar Botão Metal 35 Body Roupa Bebê Tictac
     https://www.mercadolivre.com.br/p/MLB24670405
 MLB25687571  Babá Eletrônica Monitor De Vídeo Vb601 2
     https://www.mercadolivre.com.br/p/MLB25687571
-MLB62020142  Canguru Sling De Bebe Carregar Recem Nascido Sem Amarração G
-    https://www.mercadolivre.com.br/p/MLB62020142
 MLB54201729  Bebê Conforto Cadeirinha Carro Infantil 0 A 13kg Ello Rosa C
     https://www.mercadolivre.com.br/p/MLB54201729
 MLB49767281  Colchão Berço Arkell Espuma D20 70x130 cm Branco Antialérgic
     https://www.mercadolivre.com.br/p/MLB49767281
 MLB50093886  Colchão Berço Americano Ortobom Baby Light D18 70x130cm Anti
     https://www.mercadolivre.com.br/p/MLB50093886
-MLB22848080  Capa De Colchão Berço Ibitex Em Malha Gel Lisa Com Ziper
-    https://www.mercadolivre.com.br/p/MLB22848080
-MLB40215751  Banheira Bebê Dobrável Infantil Portátil Buba Cor Cinza Banh
-    https://www.mercadolivre.com.br/p/MLB40215751
+MLB32380733  Capa Antiácaro Para Colchão Berço Alergoshop Slim Tex 70x152
+    https://www.mercadolivre.com.br/p/MLB32380733
 MLB66383481  Banheira Bebê Galzerano Acqua Premium Perolado Dourado Liso
     https://www.mercadolivre.com.br/p/MLB66383481
 MLB61688382  Canguru Sling Bolsa Bebe Carregador Mochila Cor Rosa Confort
@@ -112,17 +110,19 @@ MLB74470621  Cercadinho Bebê Rister Baby Portátil Grande + Tapete Rosa
     https://www.mercadolivre.com.br/p/MLB74470621
 MLB74300089  Cercadinho Bebê Rister Baby Portátil Grande + Tapete Rosa
     https://www.mercadolivre.com.br/p/MLB74300089
-MLB74508023  Canguru Sling Bebê Ergonômico Ajustável Conforto Total Leve 
-    https://www.mercadolivre.com.br/p/MLB74508023
 MLB62020141  Canguru Sling De Bebe Carregar Sem Amarração Cinza P - Marca
     https://www.mercadolivre.com.br/p/MLB62020141
+MLB62020142  Canguru Sling De Bebe Carregar Recem Nascido Sem Amarração G
+    https://www.mercadolivre.com.br/p/MLB62020142
 MLB74367465  Kit Luva, Touca E Sapatinho Bege Bamboo - Laço Bebê Bege 0-1
     https://www.mercadolivre.com.br/p/MLB74367465
 MLB75160326  Babá Eletrônica Monitor Câmera Visão Noturna Sem Fio Vb603 B
     https://www.mercadolivre.com.br/p/MLB75160326
-MLB52901578  Termômetro Digital Basal Famivita
-    https://www.mercadolivre.com.br/p/MLB52901578
 MLB43838477  Prendedor de Chupeta Bebê Silicone Transparente-Rosa 2 Unida
     https://www.mercadolivre.com.br/p/MLB43838477
 MLB54834909  Naninha Paninho Prendedor De Chupeta Bebê Pimpolho Lobo Cinz
     https://www.mercadolivre.com.br/p/MLB54834909
+MLB65189752  Colchão Berço Americano Prorelax Bela Impermeável 10cm Branc
+    https://www.mercadolivre.com.br/p/MLB65189752
+MLB44882650  Esterilizador De Mamadeira Para Microondas Kuka
+    https://www.mercadolivre.com.br/p/MLB44882650
