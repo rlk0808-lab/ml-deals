@@ -58,6 +58,17 @@ def main() -> int:
     print(f"[teste] enviando cartao de teste pra {cfg['telegram_chat_env']}...", flush=True)
     ok = pub.enviar(item_teste, cfg, chat)
     print("[teste] enviado com sucesso!" if ok else "[teste] FALHOU - ver log acima", flush=True)
+
+    # so testa a story 1x (nao 1x por nicho - e a mesma Pagina do Facebook
+    # pros 4 nichos, rodar em todos postaria 4 stories de teste iguais)
+    if nicho == "livros":
+        import publicar_meta
+        print("[teste] testando story do Facebook...", flush=True)
+        ok_story = publicar_meta.publicar_facebook_story(
+            imagem_url="https://http2.mlstatic.com/D_NQ_NP_864793-MLA110802823579_042026-F.jpg")
+        print("[teste] story publicada!" if ok_story else "[teste] story FALHOU - ver log acima",
+              flush=True)
+
     return 0 if ok else 1
 
 

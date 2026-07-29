@@ -90,4 +90,9 @@ jobs:
           TELEGRAM_CHAT_BEBES:  ${{ secrets.TELEGRAM_CHAT_BEBES }}
           TELEGRAM_CHAT_CASA:   ${{ secrets.TELEGRAM_CHAT_CASA }}
           TELEGRAM_CHAT_MODA:   ${{ secrets.TELEGRAM_CHAT_MODA }}
+          # so pro teste da STORY (sem limite diario, diferente do feed) -
+          # o cartao de falso desconto em si continua indo so pro Telegram
+          # nesse passo de teste, nao consome a cota de 1x/dia do feed
+          META_PAGE_ID:         ${{ secrets.META_PAGE_ID }}
+          META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
         run: python -u testar_cartao.py ${{ matrix.nicho }}
