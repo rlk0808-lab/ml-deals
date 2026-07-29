@@ -1,10 +1,16 @@
 name: Listar posts (Facebook/Instagram)
 
 on:
-  # Ferramenta manual de auditoria - so leitura, nao publica nada.
-  # Util pra revisar visualmente o que ja foi postado antes de decidir
-  # apagar posts antigos que fogem do padrao visual atual.
+  # Ferramenta manual de auditoria - por padrao so leitura, nao publica
+  # nada. Apagar so acontece se "ids_para_apagar" for preenchido - a
+  # decisao de quais IDs apagar e sempre humana (revisar a listagem
+  # antes), nunca automatica.
   workflow_dispatch:
+    inputs:
+      ids_para_apagar:
+        description: "IDs pra apagar (separados por virgula) - deixe vazio so pra listar"
+        type: string
+        default: ""
 
 permissions:
   contents: read
@@ -22,8 +28,15 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Listar posts recentes
+        if: ${{ github.event.inputs.ids_para_apagar == '' }}
         env:
           META_PAGE_ID:           ${{ secrets.META_PAGE_ID }}
           META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
           META_IG_USER_ID:        ${{ secrets.META_IG_USER_ID }}
         run: python -u listar_posts.py
+
+      - name: Apagar posts especificos
+        if: ${{ github.event.inputs.ids_para_apagar != '' }}
+        env:
+          META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
+        run: python -u apagar_posts.py "${{ github.event.inputs.ids_para_apagar }}"
