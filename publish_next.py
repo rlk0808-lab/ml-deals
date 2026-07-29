@@ -22,6 +22,7 @@ import requests
 
 import links_afiliado
 import publicar_meta
+import publicar_threads
 
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "").strip()
 
@@ -178,19 +179,33 @@ def enviar(item: dict, cfg: dict, chat: str) -> bool:
                 png_bytes = image_card.gerar_cartao_falso_desconto(item)
                 print(f"[cartao] imagem gerada: {len(png_bytes)} bytes", flush=True)
 
+                texto_social = _texto_para_feed_social(texto)
+
                 # cross-post pro Facebook e Instagram, no maximo 1x por
                 # dia no TOTAL (1 gate compartilhado pelos 2 - nao 1x
                 # cada, senao vira 2 "flagrante" por dia, nao 1) - e
                 # conteudo de "flagrante", nao precisa de mais que isso
+                url_hospedada_fd = None
                 if not publicar_meta.ja_postou_falso_desconto_hoje():
-                    texto_social = _texto_para_feed_social(texto)
                     ok_fb = publicar_meta.publicar_facebook(
                         texto_social, imagem_bytes=png_bytes)
-                    url_ig = publicar_meta.hospedar_imagem(
+                    url_hospedada_fd = publicar_meta.hospedar_imagem(
                         png_bytes, f"{item['product_id']}_fd.png")
-                    ok_ig = url_ig and publicar_meta.publicar_instagram(texto_social, url_ig)
+                    ok_ig = url_hospedada_fd and publicar_meta.publicar_instagram(
+                        texto_social, url_hospedada_fd)
                     if ok_fb or ok_ig:
                         publicar_meta.marcar_falso_desconto_postado_hoje()
+
+                # Threads e volume alto, sem gate - todo falso desconto
+                # vira post, nao so 1x/dia como no Facebook/Instagram
+                try:
+                    url_threads = url_hospedada_fd or publicar_meta.hospedar_imagem(
+                        png_bytes, f"{item['product_id']}_fd_threads.png")
+                    if url_threads:
+                        publicar_threads.publicar_imagem(texto_social, url_threads)
+                except Exception:
+                    print("[threads] erro ao publicar falso desconto - pulando", flush=True)
+                    traceback.print_exc()
 
                 r = requests.post(
                     f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPhoto",
@@ -240,11 +255,12 @@ def enviar(item: dict, cfg: dict, chat: str) -> bool:
         # feed com cara de bot. Usa o cartao quadrado (catalogo),
         # nao a foto crua do Mercado Livre.
         if item.get("tipo") == "camada1" and imagem:
+            texto_social = _texto_para_feed_social(texto)
+
             if not publicar_meta.ja_postou_feed_camada1_hoje():
                 try:
                     import image_card
                     card_bytes = image_card.gerar_card_feed_oferta_real(item)
-                    texto_social = _texto_para_feed_social(texto)
                     ok_fb_feed = publicar_meta.publicar_facebook(
                         texto_social, imagem_bytes=card_bytes)
                     url_feed = publicar_meta.hospedar_imagem(
@@ -257,6 +273,16 @@ def enviar(item: dict, cfg: dict, chat: str) -> bool:
                     print("[meta] erro ao gerar/publicar cartao de feed - pulando",
                           flush=True)
                     traceback.print_exc()
+
+            # Threads e volume alto, sem gate - toda Camada 1 vira post,
+            # direto com a foto do Mercado Livre (sem gerar cartao
+            # proprio - aqui e volume/alcance, nao "cara de catalogo")
+            try:
+                publicar_threads.publicar_imagem(texto_social, imagem)
+            except Exception:
+                print("[threads] erro ao publicar camada1 - pulando", flush=True)
+                traceback.print_exc()
+
             try:
                 # Stories nao aceitam legenda/link via API (confirmado
                 # com teste real) - sem isso a story sairia so com a

@@ -47,6 +47,8 @@ jobs:
           META_PAGE_ID:         ${{ secrets.META_PAGE_ID }}
           META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
           META_IG_USER_ID:      ${{ secrets.META_IG_USER_ID }}
+          THREADS_USER_ID:      ${{ secrets.THREADS_USER_ID }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
         run: |
           git config user.name  "publicador-bot"
           git config user.email "publicador-bot@users.noreply.github.com"
@@ -97,4 +99,6 @@ jobs:
           META_PAGE_ID:         ${{ secrets.META_PAGE_ID }}
           META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
           META_IG_USER_ID:      ${{ secrets.META_IG_USER_ID }}
+          THREADS_USER_ID:      ${{ secrets.THREADS_USER_ID }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
         run: python -u testar_cartao.py ${{ matrix.nicho }}
