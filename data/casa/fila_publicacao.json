@@ -13,7 +13,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB26615065",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_889737-MLA99854429603_112025-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-29T06:15:41.612983+00:00"
+    "enfileirado_em": "2026-07-29T09:15:54.768081+00:00"
   },
   {
     "data": "2026-07-28",
@@ -29,7 +29,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB25836001",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_634526-MLA94299465979_102025-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-29T06:15:41.612983+00:00"
+    "enfileirado_em": "2026-07-29T09:15:54.768081+00:00"
   },
   {
     "data": "2026-07-28",
@@ -45,7 +45,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB61964304",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_703548-MLA97277353018_112025-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-29T06:15:41.612983+00:00"
+    "enfileirado_em": "2026-07-29T09:15:54.768081+00:00"
   },
   {
     "data": "2026-07-28",
@@ -61,7 +61,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB48881813",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_756551-MLA95555002663_102025-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-29T06:15:41.612983+00:00"
+    "enfileirado_em": "2026-07-29T09:15:54.768081+00:00"
   },
   {
     "data": "2026-07-28",
@@ -77,7 +77,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB66432197",
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_856125-MLA108508850205_032026-F.jpg",
     "tipo": "camada2",
-    "enfileirado_em": "2026-07-29T06:15:41.612983+00:00"
+    "enfileirado_em": "2026-07-29T09:15:54.768081+00:00"
   },
   {
     "data": "2026-07-28",
@@ -198,5 +198,165 @@
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_839104-MLA104019347294_012026-F.jpg",
     "tipo": "falso_desconto",
     "enfileirado_em": "2026-07-29T00:15:47.690803+00:00"
+  },
+  {
+    "data": "2026-07-29",
+    "product_id": "MLB65344843",
+    "nome": "Jogo Panelas 9 Peças Revestimento Cerâmico Antiaderente Azul",
+    "preco": 379.05,
+    "preco_original": 399.0,
+    "n_ofertas": 100,
+    "item_id": "MLB4465917911",
+    "seller_id": 674964390,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB65344843",
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_916945-MLA111353940058_052026-F.jpg",
+    "tipo": "camada2",
+    "enfileirado_em": "2026-07-29T09:15:56.326502+00:00"
+  },
+  {
+    "data": "2026-07-29",
+    "product_id": "MLB33580289",
+    "nome": "Jogo Talheres Pizza Tramontina Aço Inox E Madeira Tramontina",
+    "preco": 169.9,
+    "preco_original": 199.9,
+    "n_ofertas": 10,
+    "item_id": "MLB7127398042",
+    "seller_id": 3200856012,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB33580289",
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_715970-MLA100048713533_122025-F.jpg",
+    "tipo": "camada2",
+    "enfileirado_em": "2026-07-29T09:15:56.326502+00:00"
+  },
+  {
+    "data": "2026-07-29",
+    "product_id": "MLB28549298",
+    "nome": "Conjunto De 6 Potes Herméticos Organizador 2,3 Litros - Ou",
+    "preco": 263.83,
+    "preco_original": 283.49,
+    "n_ofertas": 6,
+    "item_id": "MLB3591189717",
+    "seller_id": 425685764,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB28549298",
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_611233-MLA99931798311_112025-F.jpg",
+    "tipo": "camada2",
+    "enfileirado_em": "2026-07-29T09:15:56.326502+00:00"
+  },
+  {
+    "data": "2026-07-29",
+    "product_id": "MLB32486505",
+    "nome": "Faqueiro Jogo Talheres Black Aço Inox 24 Peças Sunshine Cor Preto",
+    "preco": 72.1,
+    "preco_original": 75.9,
+    "n_ofertas": 6,
+    "item_id": "MLB4561989913",
+    "seller_id": 3202344219,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB32486505",
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_877186-MLA110583874646_052026-F.jpg",
+    "tipo": "camada2",
+    "enfileirado_em": "2026-07-29T09:15:56.326502+00:00"
+  },
+  {
+    "data": "2026-07-29",
+    "product_id": "MLB74177746",
+    "nome": "Cesto Roupa Suja Organizador Lavanderia Banheiro Desmontável Sortido",
+    "preco": 79.33,
+    "preco_original": null,
+    "n_ofertas": 5,
+    "item_id": "MLB7275482568",
+    "seller_id": 325846924,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB74177746",
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_990358-MLA112368487938_062026-F.jpg",
+    "tipo": "camada2",
+    "enfileirado_em": "2026-07-29T09:15:56.326502+00:00"
+  },
+  {
+    "data": "2026-07-29",
+    "product_id": "MLB43982835",
+    "nome": "Jogo Copos Vidro Caipirinha Ilhabela Nadir 350ml 24 Uni Cor Transparente",
+    "preco": 245.0,
+    "preco_original": 281.9,
+    "n_ofertas": 5,
+    "item_id": "MLB5271905926",
+    "seller_id": 320784599,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB43982835",
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_871349-MLA96144657101_102025-F.jpg",
+    "tipo": "camada2",
+    "enfileirado_em": "2026-07-29T09:15:56.326502+00:00"
+  },
+  {
+    "data": "2026-07-29",
+    "product_id": "MLB44635645",
+    "nome": "Nicho Prateleira Parede Arnad Decoração 100x20 Preto",
+    "preco": 280.9,
+    "preco_original": null,
+    "n_ofertas": 4,
+    "item_id": "MLB6695252766",
+    "seller_id": 3223899072,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB44635645",
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_818792-MLA95398392270_102025-F.jpg",
+    "tipo": "camada2",
+    "enfileirado_em": "2026-07-29T09:15:56.326502+00:00"
+  },
+  {
+    "data": "2026-07-29",
+    "product_id": "MLB34282631",
+    "nome": "Eps-158 Kit Faqueiro Dourado Luxo Jogo Talheres Inox 24pçs + Maleta",
+    "preco": 72.99,
+    "preco_original": 159.99,
+    "n_ofertas": 4,
+    "item_id": "MLB4111527495",
+    "seller_id": 1602037720,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB34282631",
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_742980-MLA96155494345_102025-F.jpg",
+    "tipo": "camada2",
+    "enfileirado_em": "2026-07-29T09:15:56.326502+00:00"
+  },
+  {
+    "data": "2026-07-29",
+    "product_id": "MLB33325410",
+    "nome": "Jogo Panelas 7 Peças Turim Tramontina Antiaderente Alumínio Cor Preto",
+    "preco": 284.0,
+    "preco_original": 419.99,
+    "n_ofertas": 25,
+    "item_id": "MLB4052553941",
+    "seller_id": 815790315,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB33325410",
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_831722-MLA95710741670_102025-F.jpg",
+    "tipo": "camada2",
+    "enfileirado_em": "2026-07-29T09:15:56.326502+00:00"
+  },
+  {
+    "data": "2026-07-29",
+    "product_id": "MLB75022975",
+    "nome": "Jogo Copos Linea Parede Dupla Vidro Café 90ml 6 Peças Lehaví",
+    "preco": 57.6,
+    "preco_original": 74.9,
+    "n_ofertas": 3,
+    "item_id": "MLB7229238412",
+    "seller_id": 736818027,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB75022975",
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_865464-MLA113004513160_072026-F.jpg",
+    "tipo": "camada2",
+    "enfileirado_em": "2026-07-29T09:15:56.326502+00:00"
   }
 ]
