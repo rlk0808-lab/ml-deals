@@ -74,8 +74,19 @@ def main() -> int:
         print(f"[teste] cartao gerado: {len(story_bytes)} bytes", flush=True)
         print("[teste] testando story do Facebook...", flush=True)
         ok_story = publicar_meta.publicar_facebook_story(imagem_bytes=story_bytes)
-        print("[teste] story publicada!" if ok_story else "[teste] story FALHOU - ver log acima",
-              flush=True)
+        print("[teste] story do Facebook publicada!" if ok_story
+              else "[teste] story do Facebook FALHOU - ver log acima", flush=True)
+
+        print("[teste] hospedando cartao pro Instagram...", flush=True)
+        url_story = publicar_meta.hospedar_imagem(story_bytes, "teste_story_instagram.png")
+        if url_story:
+            print(f"[teste] hospedado em {url_story}", flush=True)
+            print("[teste] testando story do Instagram...", flush=True)
+            ok_ig_story = publicar_meta.publicar_instagram_story(url_story)
+            print("[teste] story do Instagram publicada!" if ok_ig_story
+                  else "[teste] story do Instagram FALHOU - ver log acima", flush=True)
+        else:
+            print("[teste] hospedagem FALHOU - pulando teste da story do Instagram", flush=True)
 
     return 0 if ok else 1
 
