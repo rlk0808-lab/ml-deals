@@ -47,8 +47,9 @@ def hospedar_imagem(imagem_bytes: bytes, nome_arquivo: str) -> str | None:
     disso porque a API de Content Publishing (Instagram/Threads) exige
     uma URL publica de verdade - nao aceita o arquivo em bytes direto.
 
-    Assume que git ja esta configurado (user.name/email) no ambiente
-    que chama isso - o workflow ja faz isso antes de rodar o script.
+    Configura a identidade do git sozinho (idempotente, barato) em vez
+    de assumir que quem chamou ja fez isso - o passo de teste do
+    workflow, por exemplo, nao roda o git config que o passo real roda.
     Se o push falhar (ex: outro processo empurrou primeiro), so devolve
     None - quem chama trata como "sem imagem disponivel" e segue sem
     quebrar o resto da publicacao.
@@ -58,17 +59,25 @@ def hospedar_imagem(imagem_bytes: bytes, nome_arquivo: str) -> str | None:
     caminho.write_bytes(imagem_bytes)
 
     try:
+        subprocess.run(["git", "config", "user.name", "publicador-bot"],
+                       check=True, timeout=10, capture_output=True)
+        subprocess.run(["git", "config", "user.email",
+                        "publicador-bot@users.noreply.github.com"],
+                       check=True, timeout=10, capture_output=True)
         subprocess.run(["git", "add", str(caminho)], check=True, timeout=15,
                        capture_output=True)
         commit = subprocess.run(["git", "commit", "-m", f"social: {nome_arquivo}"],
                                 capture_output=True, timeout=15)
-        if commit.returncode != 0 and b"nothing to commit" not in commit.stdout:
-            print(f"[meta] git commit da imagem falhou: {commit.stdout.decode(errors='replace')[:200]}")
+        saida_commit = commit.stdout + commit.stderr
+        if commit.returncode != 0 and b"nothing to commit" not in saida_commit:
+            print(f"[meta] git commit da imagem falhou: {saida_commit.decode(errors='replace')[:300]}")
             return None
         subprocess.run(["git", "push", "origin", "main"], check=True, timeout=30,
                        capture_output=True)
     except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as e:
-        print(f"[meta] falha ao hospedar imagem no GitHub: {e}")
+        detalhe = getattr(e, "stderr", b"") or b""
+        print(f"[meta] falha ao hospedar imagem no GitHub: {e} "
+              f"{detalhe.decode(errors='replace')[:300]}")
         return None
 
     print(f"[meta] imagem hospedada: {caminho}")
