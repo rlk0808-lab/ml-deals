@@ -333,3 +333,74 @@ def gerar_card_feed_oferta_real(item: dict) -> bytes:
     buf = io.BytesIO()
     img.save(buf, format="PNG")
     return buf.getvalue()
+
+
+LARGURA_APRESENTACAO = 1080
+ALTURA_APRESENTACAO = 1350
+
+
+def gerar_card_apresentacao() -> bytes:
+    """
+    Cartao institucional (nao depende de um item/produto) - explica o
+    conceito da pagina pra quem chega pela primeira vez. Pensado pra
+    ser fixado no topo do feed do Facebook/Instagram.
+    """
+    pad = 64
+    f_wordmark = _fonte("Fraunces-BlackItalic.ttf", 26)
+    f_titulo1 = _fonte("Fraunces-SemiBold.ttf", 54)
+    f_titulo2 = _fonte("Fraunces-BlackItalic.ttf", 54)
+    f_item_titulo = _fonte("PlusJakartaSans-ExtraBold.ttf", 30)
+    f_item_corpo = _fonte("PlusJakartaSans-Bold.ttf", 26)
+    f_cta = _fonte("PlusJakartaSans-ExtraBold.ttf", 28)
+
+    img = Image.new("RGB", (LARGURA_APRESENTACAO, ALTURA_APRESENTACAO), BG)
+    d = ImageDraw.Draw(img)
+    y = pad
+
+    d.text((pad, y), "CAIU DE ", font=f_wordmark, fill=INK)
+    largura_prefixo = d.textlength("CAIU DE ", font=f_wordmark)
+    d.text((pad + largura_prefixo, y), "VERDADE", font=f_wordmark, fill=ACAO)
+    y += 76
+
+    d.text((pad, y), "Preço que caiu", font=f_titulo1, fill=INK)
+    y += 62
+    d.text((pad, y), "DE VERDADE", font=f_titulo2, fill=ACAO)
+    y += 90
+
+    itens = [
+        ("Comparamos com o histórico",
+         "Não com o \"de/por\" inventado pela loja."),
+        ("Só avisamos quando cai de verdade",
+         "Preço tem que bater recorde real pra virar post."),
+        ("4 nichos, todo santo dia",
+         "Livros, bebês, casa e moda, rastreados sem parar."),
+        ("Comunidade grátis",
+         "Grupos no WhatsApp e Telegram, sem custo nenhum."),
+    ]
+    for titulo, corpo in itens:
+        raio = 8
+        cy = y + 14
+        d.ellipse([pad, cy - raio, pad + raio * 2, cy + raio], fill=VERIFICADO)
+        x_texto = pad + raio * 2 + 20
+        d.text((x_texto, y), titulo, font=f_item_titulo, fill=INK)
+        y += 40
+        for linha in _quebrar_texto(corpo, f_item_corpo,
+                                     LARGURA_APRESENTACAO - x_texto - pad, d):
+            d.text((x_texto, y), linha, font=f_item_corpo, fill=INK_FRACA)
+            y += 36
+        y += 26
+
+    y += 10
+    cta_texto = "GRUPOS GRÁTIS NO LINK DA BIO"
+    bbox = d.textbbox((0, 0), cta_texto, font=f_cta)
+    cta_w = (bbox[2] - bbox[0]) + 48
+    cta_h = 68
+    d.rounded_rectangle([pad, y, pad + cta_w, y + cta_h], radius=cta_h // 2, fill=ACAO)
+    d.text((pad + 24, y + 19), cta_texto, font=f_cta, fill=BRANCO)
+    y += cta_h + pad
+
+    img = img.crop((0, 0, LARGURA_APRESENTACAO, y))
+
+    buf = io.BytesIO()
+    img.save(buf, format="PNG")
+    return buf.getvalue()
