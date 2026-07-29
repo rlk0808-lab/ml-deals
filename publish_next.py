@@ -215,6 +215,7 @@ def enviar(item: dict, cfg: dict, chat: str) -> bool:
         # conteudo passageiro (24h), entao acompanha 1 pra 1.
         if item.get("tipo") == "camada1" and imagem:
             publicar_meta.publicar_facebook(texto, imagem_url=imagem)
+            publicar_meta.publicar_instagram(texto, imagem_url=imagem)
             try:
                 # Stories nao aceitam legenda/link via API (confirmado
                 # com teste real) - sem isso a story sairia so com a

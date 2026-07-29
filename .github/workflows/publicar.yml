@@ -46,6 +46,7 @@ jobs:
           TELEGRAM_CHAT_MODA:   ${{ secrets.TELEGRAM_CHAT_MODA }}
           META_PAGE_ID:         ${{ secrets.META_PAGE_ID }}
           META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
+          META_IG_USER_ID:      ${{ secrets.META_IG_USER_ID }}
         run: |
           git config user.name  "publicador-bot"
           git config user.email "publicador-bot@users.noreply.github.com"
@@ -95,4 +96,5 @@ jobs:
           # nesse passo de teste, nao consome a cota de 1x/dia do feed
           META_PAGE_ID:         ${{ secrets.META_PAGE_ID }}
           META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
+          META_IG_USER_ID:      ${{ secrets.META_IG_USER_ID }}
         run: python -u testar_cartao.py ${{ matrix.nicho }}

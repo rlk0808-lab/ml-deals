@@ -29,6 +29,7 @@ GRAPH_API = "https://graph.facebook.com/v21.0"
 
 PAGE_ID = os.environ.get("META_PAGE_ID", "").strip()
 PAGE_ACCESS_TOKEN = os.environ.get("META_PAGE_ACCESS_TOKEN", "").strip()
+IG_USER_ID = os.environ.get("META_IG_USER_ID", "").strip()
 
 _ARQUIVO_CONTAGEM_FD = Path("data") / "facebook_falso_desconto_hoje.json"
 
@@ -84,6 +85,42 @@ def publicar_facebook(texto: str, imagem_bytes: bytes | None = None,
         return False
     except requests.RequestException as e:
         print(f"[meta] erro ao publicar no Facebook: {e}")
+        return False
+
+
+def publicar_instagram(texto: str, imagem_url: str) -> bool:
+    """
+    Publica no feed do Instagram via Graph API. So aceita image_url
+    PUBLICA - diferente do Facebook, essa API nunca aceita upload direto
+    de bytes. Por isso so serve, por enquanto, pra Camada 1 (foto de
+    produto do Mercado Livre, que ja tem URL propria); conteudo gerado
+    na hora (cartao de story, falso desconto) precisa de um lugar pra
+    hospedar a imagem primeiro - ainda nao resolvido.
+    """
+    if not (IG_USER_ID and PAGE_ACCESS_TOKEN):
+        print("[meta] META_IG_USER_ID/META_PAGE_ACCESS_TOKEN nao configurado - pulado")
+        return False
+
+    try:
+        r1 = requests.post(f"{GRAPH_API}/{IG_USER_ID}/media",
+                           data={"image_url": imagem_url, "caption": texto,
+                                 "access_token": PAGE_ACCESS_TOKEN},
+                           timeout=30)
+        if r1.status_code != 200:
+            print(f"[meta] falha ao criar midia do Instagram ({r1.status_code}): {r1.text[:300]}")
+            return False
+        creation_id = r1.json().get("id")
+
+        r2 = requests.post(f"{GRAPH_API}/{IG_USER_ID}/media_publish",
+                           data={"creation_id": creation_id, "access_token": PAGE_ACCESS_TOKEN},
+                           timeout=30)
+        if r2.status_code == 200:
+            print(f"[meta] publicado no Instagram - id={r2.json().get('id', '?')}")
+            return True
+        print(f"[meta] falha ao publicar no Instagram ({r2.status_code}): {r2.text[:300]}")
+        return False
+    except requests.RequestException as e:
+        print(f"[meta] erro ao publicar no Instagram: {e}")
         return False
 
 
