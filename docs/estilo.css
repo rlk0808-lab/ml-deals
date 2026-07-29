@@ -23,8 +23,9 @@ a.silencioso{color:inherit; text-decoration:none}
 .wrap{max-width:1000px; margin:0 auto; padding:0 24px}
 
 header.topo{padding:26px 0}
-.wordmark{font-family:'Fraunces',Georgia,serif; font-size:23px; font-weight:600;
-  letter-spacing:-.01em; color:var(--tinta); text-decoration:none}
+.wordmark{display:inline-flex; align-items:center; gap:10px; font-family:'Fraunces',Georgia,serif;
+  font-size:23px; font-weight:600; letter-spacing:-.01em; color:var(--tinta); text-decoration:none}
+.wordmark img{border-radius:9px; display:block}
 .wordmark b{font-style:italic; font-weight:600; color:var(--acao)}
 nav.migalha{font-size:13px; color:var(--tinta-fraca); margin:26px 0 8px}
 nav.migalha a{color:var(--tinta-fraca)}
