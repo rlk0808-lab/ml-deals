@@ -41,23 +41,41 @@ def main() -> int:
         print(f"[!] {cfg['telegram_chat_env']} ou TELEGRAM_TOKEN nao configurado", flush=True)
         return 1
 
-    item_teste = {
-        "tipo": "falso_desconto",
-        "nome": "[TESTE - pode ignorar] Produto Fictício de Verificação",
-        "preco": 99.90,
-        "preco_original": 189.90,
-        "desconto_anunciado": 47.4,
-        "desconto_real": 0.1,
-        "mediana": 100.0,
-        "dias_historico": 10,
-        "permalink": "https://www.mercadolivre.com.br/",
-        "seller_id": "teste",
-        "imagem": None,
-    }
-
-    print(f"[teste] enviando cartao de teste pra {cfg['telegram_chat_env']}...", flush=True)
-    ok = pub.enviar(item_teste, cfg, chat)
-    print("[teste] enviado com sucesso!" if ok else "[teste] FALHOU - ver log acima", flush=True)
+    # o cartao de falso desconto completo (com cross-post pro
+    # Facebook/Instagram/Threads) so roda pro nicho livros - e a mesma
+    # Pagina/conta pros 4 nichos, e o Threads nao tem gate de 1x/dia
+    # (proposital, e conteudo de alto volume), entao rodar em todos os
+    # nichos spamaria 4 posts de teste identicos la. Os outros 3 nichos
+    # so confirmam que o token/chat_id do canal deles funciona.
+    if nicho == "livros":
+        item_teste = {
+            "tipo": "falso_desconto",
+            "product_id": "TESTE_FD",
+            "nome": "[TESTE - pode ignorar] Produto Fictício de Verificação",
+            "preco": 99.90,
+            "preco_original": 189.90,
+            "desconto_anunciado": 47.4,
+            "desconto_real": 0.1,
+            "mediana": 100.0,
+            "dias_historico": 10,
+            "permalink": "https://www.mercadolivre.com.br/",
+            "seller_id": "teste",
+            "imagem": None,
+        }
+        print(f"[teste] enviando cartao de teste pra {cfg['telegram_chat_env']}...", flush=True)
+        ok = pub.enviar(item_teste, cfg, chat)
+        print("[teste] enviado com sucesso!" if ok else "[teste] FALHOU - ver log acima", flush=True)
+    else:
+        import requests
+        print(f"[teste] enviando mensagem simples pra {cfg['telegram_chat_env']}...", flush=True)
+        r = requests.post(
+            f"https://api.telegram.org/bot{pub.TELEGRAM_TOKEN}/sendMessage",
+            json={"chat_id": chat,
+                  "text": "[TESTE - pode ignorar] Verificação de conectividade do canal."},
+            timeout=20)
+        ok = r.status_code == 200
+        print("[teste] enviado com sucesso!" if ok
+              else f"[teste] FALHOU ({r.status_code}) - ver log acima", flush=True)
 
     # so testa a story 1x (nao 1x por nicho - e a mesma Pagina do Facebook
     # pros 4 nichos, rodar em todos postaria 4 stories de teste iguais)
