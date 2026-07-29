@@ -87,6 +87,54 @@ def publicar_facebook(texto: str, imagem_bytes: bytes | None = None,
         return False
 
 
+def publicar_facebook_story(imagem_bytes: bytes | None = None,
+                            imagem_url: str | None = None) -> bool:
+    """
+    Publica uma foto nos Stories da Pagina (nao no feed) - processo de
+    2 passos da Graph API: sobe a foto sem publicar (published=false),
+    depois referencia o ID dela em /photo_stories.
+
+    Aviso: Stories via API normalmente NAO aceitam legenda nem link
+    clicavel, so a imagem pura - diferente do post de feed. Se isso se
+    confirmar aqui, a Story funciona mais como "chamou atencao, sem
+    detalhe" do que "aqui o preco e o link", vale considerar na hora
+    de decidir se compensa.
+    """
+    if not (PAGE_ID and PAGE_ACCESS_TOKEN):
+        print("[meta] META_PAGE_ID/META_PAGE_ACCESS_TOKEN nao configurado - story pulada")
+        return False
+    if not imagem_bytes and not imagem_url:
+        print("[meta] nem imagem_bytes nem imagem_url foram passados")
+        return False
+
+    dados = {"published": "false", "access_token": PAGE_ACCESS_TOKEN}
+    try:
+        if imagem_bytes:
+            r = requests.post(f"{GRAPH_API}/{PAGE_ID}/photos", data=dados,
+                              files={"source": ("imagem.png", imagem_bytes, "image/png")},
+                              timeout=30)
+        else:
+            dados["url"] = imagem_url
+            r = requests.post(f"{GRAPH_API}/{PAGE_ID}/photos", data=dados, timeout=30)
+
+        if r.status_code != 200:
+            print(f"[meta] falha ao subir foto pra story ({r.status_code}): {r.text[:300]}")
+            return False
+        photo_id = r.json().get("id")
+
+        r2 = requests.post(f"{GRAPH_API}/{PAGE_ID}/photo_stories",
+                           data={"photo_id": photo_id, "access_token": PAGE_ACCESS_TOKEN},
+                           timeout=30)
+        if r2.status_code == 200:
+            print(f"[meta] story publicada no Facebook - photo_id={photo_id}")
+            return True
+        print(f"[meta] falha ao publicar story ({r2.status_code}): {r2.text[:300]}")
+        return False
+    except requests.RequestException as e:
+        print(f"[meta] erro ao publicar story: {e}")
+        return False
+
+
 def main() -> int:
     """Teste manual: publica 1 mensagem de teste na Pagina, sem tocar na fila real."""
     if len(sys.argv) < 2:

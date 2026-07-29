@@ -207,11 +207,15 @@ def enviar(item: dict, cfg: dict, chat: str) -> bool:
         if r.status_code != 200:
             print(f"[telegram] corpo da resposta: {r.text[:300]}", flush=True)
 
-        # Facebook recebe so Camada 1 (oferta real, ja deduplicada em
-        # collector.py) - nada de Camada 2 nem cupom la, pra nao virar
-        # tanta postagem quanto o Telegram
+        # Camada 1 vai pro feed E pros Stories do Facebook - a
+        # deduplicacao de collector.py (nao repete produto que ficou
+        # parado no mesmo preco) e o que garante que o feed nao fica
+        # poluido, entao camada1 continua tendo valor la. Stories e um
+        # canal a MAIS, nao substituto - tolera mais volume por ser
+        # conteudo passageiro (24h), entao acompanha 1 pra 1.
         if item.get("tipo") == "camada1" and imagem:
             publicar_meta.publicar_facebook(texto, imagem_url=imagem)
+            publicar_meta.publicar_facebook_story(imagem_url=imagem)
 
         return r.status_code == 200
     except Exception:
