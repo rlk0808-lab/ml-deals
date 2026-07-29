@@ -6,12 +6,14 @@ publicacao automatizada em Pagina Business - nao ha risco de banimento
 por automatizar, e o processo de configuracao (App de desenvolvedor +
 token de Pagina) e o caminho pretendido, nao um contorno.
 
-O Instagram entra depois - a API dele (Content Publishing) so aceita
-image_url publica, nunca upload direto de bytes. Pra fotos de produto
-(camada1/camada2) isso e facil, ja temos a URL do Mercado Livre. Pro
-cartao gerado de falso desconto (sem URL propria) vai precisar hospedar
-a imagem em algum lugar publico primeiro (provavel: docs/ do proprio
-site) antes de conseguir postar no Instagram - ainda nao resolvido.
+O Instagram (e o Threads, mesma familia de API) so aceita image_url
+PUBLICA no Content Publishing, nunca upload direto de bytes. Pra foto
+de produto do Mercado Livre isso e facil, ja tem URL propria. Pro
+cartao gerado na hora (story, falso desconto) - sem URL propria - a
+imagem e hospedada no proprio repositorio do GitHub (hospedar_imagem)
+e servida via raw.githubusercontent.com. Evita depender de servico de
+terceiro: ja tentamos um (imgbb) que virou pago sem aviso - o GitHub e
+infraestrutura que o projeto inteiro ja usa e confia.
 
 Uso: chamado por publish_next.py depois de postar no Telegram, ou
 standalone: python publicar_meta.py <nicho>
@@ -19,6 +21,7 @@ standalone: python publicar_meta.py <nicho>
 
 import json
 import os
+import subprocess
 import sys
 import time
 from datetime import datetime, timezone
@@ -33,6 +36,43 @@ PAGE_ACCESS_TOKEN = os.environ.get("META_PAGE_ACCESS_TOKEN", "").strip()
 IG_USER_ID = os.environ.get("META_IG_USER_ID", "").strip()
 
 _ARQUIVO_CONTAGEM_FD = Path("data") / "facebook_falso_desconto_hoje.json"
+_PASTA_IMAGENS_TEMP = Path("social_img")
+_REPO_RAW_BASE = "https://raw.githubusercontent.com/rlk0808-lab/ml-deals/main"
+
+
+def hospedar_imagem(imagem_bytes: bytes, nome_arquivo: str) -> str | None:
+    """
+    Sobe uma imagem gerada na hora (story, cartao de falso desconto) pro
+    proprio repositorio do GitHub e devolve a URL publica. So precisa
+    disso porque a API de Content Publishing (Instagram/Threads) exige
+    uma URL publica de verdade - nao aceita o arquivo em bytes direto.
+
+    Assume que git ja esta configurado (user.name/email) no ambiente
+    que chama isso - o workflow ja faz isso antes de rodar o script.
+    Se o push falhar (ex: outro processo empurrou primeiro), so devolve
+    None - quem chama trata como "sem imagem disponivel" e segue sem
+    quebrar o resto da publicacao.
+    """
+    _PASTA_IMAGENS_TEMP.mkdir(parents=True, exist_ok=True)
+    caminho = _PASTA_IMAGENS_TEMP / nome_arquivo
+    caminho.write_bytes(imagem_bytes)
+
+    try:
+        subprocess.run(["git", "add", str(caminho)], check=True, timeout=15,
+                       capture_output=True)
+        commit = subprocess.run(["git", "commit", "-m", f"social: {nome_arquivo}"],
+                                capture_output=True, timeout=15)
+        if commit.returncode != 0 and b"nothing to commit" not in commit.stdout:
+            print(f"[meta] git commit da imagem falhou: {commit.stdout.decode(errors='replace')[:200]}")
+            return None
+        subprocess.run(["git", "push", "origin", "main"], check=True, timeout=30,
+                       capture_output=True)
+    except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as e:
+        print(f"[meta] falha ao hospedar imagem no GitHub: {e}")
+        return None
+
+    print(f"[meta] imagem hospedada: {caminho}")
+    return f"{_REPO_RAW_BASE}/{caminho.as_posix()}"
 
 
 def ja_postou_falso_desconto_hoje() -> bool:
@@ -89,26 +129,22 @@ def publicar_facebook(texto: str, imagem_bytes: bytes | None = None,
         return False
 
 
-def publicar_instagram(texto: str, imagem_url: str) -> bool:
+def _publicar_midia_instagram(dados_media: dict, rotulo: str) -> bool:
     """
-    Publica no feed do Instagram via Graph API. So aceita image_url
-    PUBLICA - diferente do Facebook, essa API nunca aceita upload direto
-    de bytes. Por isso so serve, por enquanto, pra Camada 1 (foto de
-    produto do Mercado Livre, que ja tem URL propria); conteudo gerado
-    na hora (cartao de story, falso desconto) precisa de um lugar pra
-    hospedar a imagem primeiro - ainda nao resolvido.
+    Passos comuns do Content Publishing API do Instagram (feed OU story,
+    so muda o payload que chega aqui): cria o container de midia, espera
+    processar, publica. So aceita image_url PUBLICA - diferente do
+    Facebook, essa API nunca aceita upload direto de bytes.
     """
     if not (IG_USER_ID and PAGE_ACCESS_TOKEN):
-        print("[meta] META_IG_USER_ID/META_PAGE_ACCESS_TOKEN nao configurado - pulado")
+        print(f"[meta] META_IG_USER_ID/META_PAGE_ACCESS_TOKEN nao configurado - {rotulo} pulado")
         return False
 
     try:
-        r1 = requests.post(f"{GRAPH_API}/{IG_USER_ID}/media",
-                           data={"image_url": imagem_url, "caption": texto,
-                                 "access_token": PAGE_ACCESS_TOKEN},
-                           timeout=30)
+        dados_media["access_token"] = PAGE_ACCESS_TOKEN
+        r1 = requests.post(f"{GRAPH_API}/{IG_USER_ID}/media", data=dados_media, timeout=30)
         if r1.status_code != 200:
-            print(f"[meta] falha ao criar midia do Instagram ({r1.status_code}): {r1.text[:300]}")
+            print(f"[meta] falha ao criar midia ({rotulo}) ({r1.status_code}): {r1.text[:300]}")
             return False
         creation_id = r1.json().get("id")
 
@@ -125,24 +161,40 @@ def publicar_instagram(texto: str, imagem_url: str) -> bool:
             if status == "FINISHED":
                 break
             if status == "ERROR":
-                print(f"[meta] Instagram nao conseguiu processar a midia: {rs.text[:300]}")
+                print(f"[meta] Instagram nao conseguiu processar a midia ({rotulo}): {rs.text[:300]}")
                 return False
             time.sleep(2)
         else:
-            print("[meta] midia do Instagram nao ficou pronta a tempo - desistindo")
+            print(f"[meta] midia ({rotulo}) nao ficou pronta a tempo - desistindo")
             return False
 
         r2 = requests.post(f"{GRAPH_API}/{IG_USER_ID}/media_publish",
                            data={"creation_id": creation_id, "access_token": PAGE_ACCESS_TOKEN},
                            timeout=30)
         if r2.status_code == 200:
-            print(f"[meta] publicado no Instagram - id={r2.json().get('id', '?')}")
+            print(f"[meta] {rotulo} publicado(a) no Instagram - id={r2.json().get('id', '?')}")
             return True
-        print(f"[meta] falha ao publicar no Instagram ({r2.status_code}): {r2.text[:300]}")
+        print(f"[meta] falha ao publicar {rotulo} no Instagram ({r2.status_code}): {r2.text[:300]}")
         return False
     except requests.RequestException as e:
-        print(f"[meta] erro ao publicar no Instagram: {e}")
+        print(f"[meta] erro ao publicar {rotulo} no Instagram: {e}")
         return False
+
+
+def publicar_instagram(texto: str, imagem_url: str) -> bool:
+    """Publica no FEED do Instagram - foto de produto do Mercado Livre
+    (Camada 1) ou uma imagem gerada e hospedada via hospedar_imagem()
+    (falso desconto)."""
+    return _publicar_midia_instagram(
+        {"image_url": imagem_url, "caption": texto}, "feed")
+
+
+def publicar_instagram_story(imagem_url: str) -> bool:
+    """Publica nos STORIES do Instagram - sem legenda (mesma limitacao
+    do Facebook), por isso so faz sentido com uma imagem que ja tem o
+    texto queimado nela (gerar_story_oferta_real)."""
+    return _publicar_midia_instagram(
+        {"image_url": imagem_url, "media_type": "STORIES"}, "story")
 
 
 def publicar_facebook_story(imagem_bytes: bytes | None = None,

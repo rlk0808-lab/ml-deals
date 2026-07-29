@@ -164,11 +164,16 @@ def enviar(item: dict, cfg: dict, chat: str) -> bool:
                 png_bytes = image_card.gerar_cartao_falso_desconto(item)
                 print(f"[cartao] imagem gerada: {len(png_bytes)} bytes", flush=True)
 
-                # cross-post pro Facebook, no maximo 1x por dia no total
-                # (1 Pagina so, pros 4 nichos - nao 1x por nicho) - e
+                # cross-post pro Facebook e Instagram, no maximo 1x por
+                # dia no TOTAL (1 gate compartilhado pelos 2 - nao 1x
+                # cada, senao vira 2 "flagrante" por dia, nao 1) - e
                 # conteudo de "flagrante", nao precisa de mais que isso
                 if not publicar_meta.ja_postou_falso_desconto_hoje():
-                    if publicar_meta.publicar_facebook(texto, imagem_bytes=png_bytes):
+                    ok_fb = publicar_meta.publicar_facebook(texto, imagem_bytes=png_bytes)
+                    url_ig = publicar_meta.hospedar_imagem(
+                        png_bytes, f"{item['product_id']}_fd.png")
+                    ok_ig = url_ig and publicar_meta.publicar_instagram(texto, url_ig)
+                    if ok_fb or ok_ig:
                         publicar_meta.marcar_falso_desconto_postado_hoje()
 
                 r = requests.post(
@@ -224,6 +229,14 @@ def enviar(item: dict, cfg: dict, chat: str) -> bool:
                 import image_card
                 story_bytes = image_card.gerar_story_oferta_real(item)
                 publicar_meta.publicar_facebook_story(imagem_bytes=story_bytes)
+
+                # Instagram Stories tambem so aceita image_url publica -
+                # hospeda a MESMA imagem que ja foi gerada acima, sem
+                # gerar de novo
+                url_story = publicar_meta.hospedar_imagem(
+                    story_bytes, f"{item['product_id']}_story.png")
+                if url_story:
+                    publicar_meta.publicar_instagram_story(url_story)
             except Exception:
                 print("[meta] erro ao gerar/publicar story - pulando", flush=True)
                 traceback.print_exc()
