@@ -20,6 +20,7 @@ standalone: python publicar_meta.py <nicho>
 import json
 import os
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -110,6 +111,26 @@ def publicar_instagram(texto: str, imagem_url: str) -> bool:
             print(f"[meta] falha ao criar midia do Instagram ({r1.status_code}): {r1.text[:300]}")
             return False
         creation_id = r1.json().get("id")
+
+        # a midia precisa de alguns segundos pra o Instagram baixar e
+        # processar a imagem antes de aceitar publicar - sem esperar, da
+        # erro "Media ID is not available" (confirmado com teste real:
+        # funcionou por sorte de timing em 2 de 3 tentativas, falhou na 3a)
+        for _tentativa in range(10):
+            rs = requests.get(f"{GRAPH_API}/{creation_id}",
+                              params={"fields": "status_code",
+                                     "access_token": PAGE_ACCESS_TOKEN},
+                              timeout=15)
+            status = rs.json().get("status_code")
+            if status == "FINISHED":
+                break
+            if status == "ERROR":
+                print(f"[meta] Instagram nao conseguiu processar a midia: {rs.text[:300]}")
+                return False
+            time.sleep(2)
+        else:
+            print("[meta] midia do Instagram nao ficou pronta a tempo - desistindo")
+            return False
 
         r2 = requests.post(f"{GRAPH_API}/{IG_USER_ID}/media_publish",
                            data={"creation_id": creation_id, "access_token": PAGE_ACCESS_TOKEN},
