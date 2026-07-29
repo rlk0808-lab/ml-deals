@@ -16,6 +16,7 @@ nunca deixar o post inteiro falhar por causa da imagem.
 import io
 from pathlib import Path
 
+import requests
 from PIL import Image, ImageDraw, ImageFont
 
 FONTE_DIR = Path(__file__).parent / "assets" / "fonts"
@@ -154,6 +155,96 @@ def gerar_cartao_falso_desconto(item: dict) -> bytes:
     y += box_h + 40
 
     d.text((pad, y), "caiudeverdade.github.io — dado real, não marketing",
+           font=f_footer, fill=INK_FRACA)
+
+    buf = io.BytesIO()
+    img.save(buf, format="PNG")
+    return buf.getvalue()
+
+
+# ----------------------------------------------------------------------
+# STORY DE OFERTA REAL (Camada 1) - formato vertical (Stories)
+#
+# A API de Stories do Facebook/Instagram nao aceita legenda nem link -
+# so a imagem pura. Sem isso, a story sairia so com a foto do produto,
+# sem preco nem desconto nenhum (testado e confirmado). Entao aqui o
+# texto vai DENTRO da imagem, igual o cartao de falso desconto.
+# ----------------------------------------------------------------------
+
+LARGURA_STORY = 1080
+ALTURA_STORY = 1920
+
+
+def gerar_story_oferta_real(item: dict) -> bytes:
+    """Recebe o mesmo dict que ja circula na fila (nome, preco, mediana,
+    desconto, recorde, imagem) e devolve os bytes de um PNG vertical
+    pronto pra Story."""
+    pad = 64
+
+    f_wordmark = _fonte("Fraunces-BlackItalic.ttf", 30)
+    f_selo = _fonte("PlusJakartaSans-ExtraBold.ttf", 24)
+    f_nome = _fonte("PlusJakartaSans-Bold.ttf", 40)
+    f_preco = _fonte("PlusJakartaSans-ExtraBold.ttf", 88)
+    f_preco_antigo = _fonte("PlusJakartaSans-Bold.ttf", 34)
+    f_desconto = _fonte("PlusJakartaSans-ExtraBold.ttf", 34)
+    f_footer = _fonte("PlusJakartaSans-Bold.ttf", 26)
+
+    img = Image.new("RGB", (LARGURA_STORY, ALTURA_STORY), BG)
+    d = ImageDraw.Draw(img)
+    y = pad
+
+    d.text((pad, y), "CAIU DE ", font=f_wordmark, fill=INK)
+    largura_prefixo = d.textlength("CAIU DE ", font=f_wordmark)
+    d.text((pad + largura_prefixo, y), "VERDADE", font=f_wordmark, fill=ACAO)
+    y += 74
+
+    selo_texto = ("MENOR PREÇO JÁ REGISTRADO" if item.get("recorde")
+                  else "QUEDA REAL DE PREÇO")
+    bbox = d.textbbox((0, 0), selo_texto, font=f_selo)
+    selo_w = (bbox[2] - bbox[0]) + 40
+    d.rounded_rectangle([pad, y, pad + selo_w, y + 52], radius=26, fill=VERIFICADO)
+    d.text((pad + 20, y + 13), selo_texto, font=f_selo, fill=BRANCO)
+    y += 90
+
+    # foto do produto - baixa da URL do Mercado Livre; se falhar por
+    # qualquer motivo, so deixa o quadro branco vazio, nunca quebra a story.
+    # Caixa RETANGULAR (nao quadrada) - foto de produto costuma ser
+    # vertical (capa de livro, embalagem) e sobrava muito branco vazio
+    # numa caixa quadrada grande
+    box_largura = LARGURA_STORY - 2 * pad
+    box_altura = 680
+    foto_y = y
+    d.rounded_rectangle([pad, foto_y, pad + box_largura, foto_y + box_altura],
+                        radius=32, fill=BRANCO)
+    try:
+        resp = requests.get(item["imagem"], timeout=15)
+        foto = Image.open(io.BytesIO(resp.content)).convert("RGB")
+        foto.thumbnail((box_largura - 60, box_altura - 60), Image.LANCZOS)
+        fx = pad + (box_largura - foto.width) // 2
+        fy = foto_y + (box_altura - foto.height) // 2
+        img.paste(foto, (fx, fy))
+    except Exception:
+        pass
+    y = foto_y + box_altura + 50
+
+    linhas_nome = _quebrar_texto(item["nome"], f_nome, LARGURA_STORY - 2 * pad, d)[:2]
+    for linha in linhas_nome:
+        d.text((pad, y), linha, font=f_nome, fill=INK)
+        y += 50
+    y += 20
+
+    d.text((pad, y), f"R$ {item['preco']:.2f}", font=f_preco, fill=ACAO)
+    y += 110
+
+    d.text((pad, y), f"Preço habitual: R$ {item['mediana']:.2f}",
+           font=f_preco_antigo, fill=INK_FRACA)
+    y += 50
+
+    d.text((pad, y), f"{item['desconto']:.0f}% abaixo do normal",
+           font=f_desconto, fill=VERIFICADO)
+
+    footer_y = ALTURA_STORY - pad - 30
+    d.text((pad, footer_y), "caiudeverdade.github.io — link na bio",
            font=f_footer, fill=INK_FRACA)
 
     buf = io.BytesIO()

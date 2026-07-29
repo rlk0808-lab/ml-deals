@@ -62,10 +62,18 @@ def main() -> int:
     # so testa a story 1x (nao 1x por nicho - e a mesma Pagina do Facebook
     # pros 4 nichos, rodar em todos postaria 4 stories de teste iguais)
     if nicho == "livros":
+        import image_card
         import publicar_meta
+        item_c1_teste = {
+            "nome": "[TESTE - pode ignorar] Produto Fictício de Verificação",
+            "preco": 42.90, "mediana": 97.50, "desconto": 56.0, "recorde": True,
+            "imagem": "https://http2.mlstatic.com/D_NQ_NP_864793-MLA110802823579_042026-F.jpg",
+        }
+        print("[teste] gerando cartao de story...", flush=True)
+        story_bytes = image_card.gerar_story_oferta_real(item_c1_teste)
+        print(f"[teste] cartao gerado: {len(story_bytes)} bytes", flush=True)
         print("[teste] testando story do Facebook...", flush=True)
-        ok_story = publicar_meta.publicar_facebook_story(
-            imagem_url="https://http2.mlstatic.com/D_NQ_NP_864793-MLA110802823579_042026-F.jpg")
+        ok_story = publicar_meta.publicar_facebook_story(imagem_bytes=story_bytes)
         print("[teste] story publicada!" if ok_story else "[teste] story FALHOU - ver log acima",
               flush=True)
 

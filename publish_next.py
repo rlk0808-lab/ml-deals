@@ -215,7 +215,17 @@ def enviar(item: dict, cfg: dict, chat: str) -> bool:
         # conteudo passageiro (24h), entao acompanha 1 pra 1.
         if item.get("tipo") == "camada1" and imagem:
             publicar_meta.publicar_facebook(texto, imagem_url=imagem)
-            publicar_meta.publicar_facebook_story(imagem_url=imagem)
+            try:
+                # Stories nao aceitam legenda/link via API (confirmado
+                # com teste real) - sem isso a story sairia so com a
+                # foto pura, sem preco nem desconto. Por isso um cartao
+                # proprio, com o texto queimado na imagem.
+                import image_card
+                story_bytes = image_card.gerar_story_oferta_real(item)
+                publicar_meta.publicar_facebook_story(imagem_bytes=story_bytes)
+            except Exception:
+                print("[meta] erro ao gerar/publicar story - pulando", flush=True)
+                traceback.print_exc()
 
         return r.status_code == 200
     except Exception:
