@@ -1,0 +1,29 @@
+name: Listar posts (Facebook/Instagram)
+
+on:
+  # Ferramenta manual de auditoria - so leitura, nao publica nada.
+  # Util pra revisar visualmente o que ja foi postado antes de decidir
+  # apagar posts antigos que fogem do padrao visual atual.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  listar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r requirements.txt
+
+      - name: Listar posts recentes
+        env:
+          META_PAGE_ID:           ${{ secrets.META_PAGE_ID }}
+          META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
+          META_IG_USER_ID:        ${{ secrets.META_IG_USER_ID }}
+        run: python -u listar_posts.py
