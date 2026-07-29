@@ -250,3 +250,86 @@ def gerar_story_oferta_real(item: dict) -> bytes:
     buf = io.BytesIO()
     img.save(buf, format="PNG")
     return buf.getvalue()
+
+
+# ----------------------------------------------------------------------
+# CARTAO DE FEED (Camada 1) - formato quadrado (1080x1080)
+#
+# Diferente da foto crua do produto, esse cartao da uma cara consistente
+# pro feed do Facebook/Instagram ao longo do tempo - vira "catalogo",
+# nao uma colagem de fotos de produto com estilo/fundo diferente cada
+# uma. So 1x/dia (controlado em publicar_meta.py), diferente da Story
+# (que usa a mesma logica visual mas em volume alto).
+# ----------------------------------------------------------------------
+
+LARGURA_FEED = 1080
+ALTURA_FEED = 1080
+
+
+def gerar_card_feed_oferta_real(item: dict) -> bytes:
+    """Recebe o mesmo dict de sempre (nome, preco, mediana, desconto,
+    recorde, imagem) e devolve os bytes de um PNG quadrado pro feed."""
+    pad = 56
+
+    f_wordmark = _fonte("Fraunces-BlackItalic.ttf", 24)
+    f_selo = _fonte("PlusJakartaSans-ExtraBold.ttf", 20)
+    f_nome = _fonte("PlusJakartaSans-Bold.ttf", 32)
+    f_preco = _fonte("PlusJakartaSans-ExtraBold.ttf", 60)
+    f_preco_antigo = _fonte("PlusJakartaSans-Bold.ttf", 26)
+    f_desconto = _fonte("PlusJakartaSans-ExtraBold.ttf", 26)
+
+    img = Image.new("RGB", (LARGURA_FEED, ALTURA_FEED), BG)
+    d = ImageDraw.Draw(img)
+    y = pad
+
+    d.text((pad, y), "CAIU DE ", font=f_wordmark, fill=INK)
+    largura_prefixo = d.textlength("CAIU DE ", font=f_wordmark)
+    d.text((pad + largura_prefixo, y), "VERDADE", font=f_wordmark, fill=ACAO)
+    y += 56
+
+    selo_texto = ("MENOR PREÇO JÁ REGISTRADO" if item.get("recorde")
+                  else "QUEDA REAL DE PREÇO")
+    bbox = d.textbbox((0, 0), selo_texto, font=f_selo)
+    selo_w = (bbox[2] - bbox[0]) + 34
+    d.rounded_rectangle([pad, y, pad + selo_w, y + 44], radius=22, fill=VERIFICADO)
+    d.text((pad + 17, y + 10), selo_texto, font=f_selo, fill=BRANCO)
+    y += 74
+
+    # foto do produto - caixa retangular, nao quadrada (mesma logica da
+    # story: produto vertical nao deixa sobrar espaco em branco demais)
+    box_largura = LARGURA_FEED - 2 * pad
+    box_altura = 560
+    foto_y = y
+    d.rounded_rectangle([pad, foto_y, pad + box_largura, foto_y + box_altura],
+                        radius=28, fill=BRANCO)
+    try:
+        resp = requests.get(item["imagem"], timeout=15)
+        foto = Image.open(io.BytesIO(resp.content)).convert("RGB")
+        foto.thumbnail((box_largura - 50, box_altura - 50), Image.LANCZOS)
+        fx = pad + (box_largura - foto.width) // 2
+        fy = foto_y + (box_altura - foto.height) // 2
+        img.paste(foto, (fx, fy))
+    except Exception:
+        pass
+    y = foto_y + box_altura + 34
+
+    linhas_nome = _quebrar_texto(item["nome"], f_nome, LARGURA_FEED - 2 * pad, d)[:2]
+    for linha in linhas_nome:
+        d.text((pad, y), linha, font=f_nome, fill=INK)
+        y += 42
+    y += 12
+
+    d.text((pad, y), f"R$ {item['preco']:.2f}", font=f_preco, fill=ACAO)
+    largura_preco = d.textlength(f"R$ {item['preco']:.2f}", font=f_preco)
+
+    # preco antigo + desconto empilhados a direita do preco grande, pra
+    # caber tudo numa linha so e nao esticar a altura do cartao
+    x_direita = pad + largura_preco + 24
+    d.text((x_direita, y + 4), f"de R$ {item['mediana']:.2f}",
+           font=f_preco_antigo, fill=INK_FRACA)
+    d.text((x_direita, y + 34), f"-{item['desconto']:.0f}%",
+           font=f_desconto, fill=VERIFICADO)
+
+    buf = io.BytesIO()
+    img.save(buf, format="PNG")
+    return buf.getvalue()
