@@ -9,8 +9,10 @@ Gera 2 arquivos em assets/logo/:
                 organico - pensado pra avatar circular (Instagram,
                 Facebook, X, Threads, TikTok cortam em circulo, entao o
                 fundo vai ate a borda do quadrado de proposito)
-  banner.png  - 1500x500, lockup horizontal (icone + wordmark + tagline)
-                pra capa/banner (X, Facebook)
+  banner.png  - 1640x624 (razao 2.63:1, igual ao crop de desktop do
+                Facebook), lockup horizontal (icone + wordmark +
+                tagline) centralizado numa faixa segura contra corte
+                lateral no mobile - pra capa/banner (X, Facebook)
 
 Uso: python gerar_logo.py
 """
@@ -97,14 +99,23 @@ def gerar_icone(tamanho: int = 1024, cor_fundo=ACAO, cor_marca=CREME) -> Image.I
     return img
 
 
-def gerar_banner(largura: int = 1500, altura: int = 500) -> Image.Image:
+def gerar_banner(largura: int = 1640, altura: int = 624) -> Image.Image:
+    """
+    1640x624 (razao 2.63:1) bate exatamente com o crop de desktop do
+    Facebook (820x312) - zero corte lateral la. O corte agressivo
+    acontece no mobile, que usa 16:9 (mais "quadrado"): pra um canvas
+    2.63:1, isso corta ~16% de cada lado. Por isso todo o lockup fica
+    centralizado dentro de uma faixa seguranca ainda menor que essa
+    janela 16:9, com folga - assim sobrevive ao corte em qualquer
+    proporcao de tela (Facebook, X, etc), em vez de ficar colado na
+    borda esquerda como antes.
+    """
     img = Image.new("RGB", (largura, altura), BG)
     d = ImageDraw.Draw(img)
 
-    # icone pequeno a esquerda, com o mesmo fundo solido (nao circular
-    # aqui - o banner nao vai ser cortado em circulo, entao mostra o
-    # icone com cantos arredondados normais)
-    lado_icone = int(altura * 0.62)
+    largura_segura = int(altura * 16 / 9 * 0.82)  # folga sobre o crop mobile (16:9)
+
+    lado_icone = int(altura * 0.42)
     icone = Image.new("RGB", (lado_icone, lado_icone), ACAO)
     marca = _marca_grafico(lado_icone, CREME)
     icone.paste(marca, (0, 0), marca)
@@ -113,28 +124,51 @@ def gerar_banner(largura: int = 1500, altura: int = 500) -> Image.Image:
     ImageDraw.Draw(mascara).rounded_rectangle(
         [0, 0, lado_icone - 1, lado_icone - 1], radius=int(lado_icone * 0.26), fill=255)
 
-    pad = int(altura * 0.19)
-    img.paste(icone, (pad, pad), mascara)
+    # wordmark: "CAIU DE" reto + "VERDADE" italico laranja, igual ao site.
+    # O tamanho da fonte e calculado pra caber no espaco que sobra da
+    # zona segura (nao um valor fixo) - senao o texto fica largo demais
+    # e o icone acaba empurrado pra fora da area visivel no mobile.
+    gap_icone_texto = int(altura * 0.09)
+    largura_disponivel_texto = largura_segura - lado_icone - gap_icone_texto
 
-    # wordmark: "CAIU DE" reto + "VERDADE" italico laranja, igual ao site
-    x_texto = pad * 2 + lado_icone
-    f_wordmark1 = _fonte("Fraunces-SemiBold.ttf", int(altura * 0.20))
-    f_wordmark2 = _fonte("Fraunces-BlackItalic.ttf", int(altura * 0.20))
-    f_tagline = _fonte("PlusJakartaSans-Bold.ttf", int(altura * 0.072))
+    tamanho_wordmark_ref = int(altura * 0.155)
+    f_wordmark1_ref = _fonte("Fraunces-SemiBold.ttf", tamanho_wordmark_ref)
+    f_wordmark2_ref = _fonte("Fraunces-BlackItalic.ttf", tamanho_wordmark_ref)
+    largura_ref = (d.textlength("CAIU DE ", font=f_wordmark1_ref)
+                   + d.textlength("VERDADE", font=f_wordmark2_ref))
+    escala = min(1.0, largura_disponivel_texto / largura_ref)
+    tamanho_wordmark = max(int(tamanho_wordmark_ref * escala), int(altura * 0.08))
 
-    y_wordmark = int(altura * 0.28)
+    f_wordmark1 = _fonte("Fraunces-SemiBold.ttf", tamanho_wordmark)
+    f_wordmark2 = _fonte("Fraunces-BlackItalic.ttf", tamanho_wordmark)
+    f_tagline = _fonte("PlusJakartaSans-Bold.ttf", int(tamanho_wordmark * 0.34))
+
+    largura_wordmark = (d.textlength("CAIU DE ", font=f_wordmark1)
+                         + d.textlength("VERDADE", font=f_wordmark2))
+    largura_bloco_texto = int(max(largura_wordmark, largura_disponivel_texto))
+    linhas_tagline = _quebrar_texto(
+        'Preço real, comparado com o histórico — não com o "de/por" da loja',
+        f_tagline, largura_bloco_texto, d)
+
+    espacamento_linha = int(tamanho_wordmark * 0.58)
+    altura_texto = tamanho_wordmark + 12 + len(linhas_tagline) * espacamento_linha
+    altura_bloco = max(lado_icone, altura_texto)
+
+    x0 = (largura - (lado_icone + gap_icone_texto + largura_bloco_texto)) // 2
+    y0 = (altura - altura_bloco) // 2
+
+    img.paste(icone, (x0, y0 + (altura_bloco - lado_icone) // 2), mascara)
+
+    x_texto = x0 + lado_icone + gap_icone_texto
+    y_wordmark = y0 + (altura_bloco - altura_texto) // 2
     d.text((x_texto, y_wordmark), "CAIU DE ", font=f_wordmark1, fill=INK)
     largura_prefixo = d.textlength("CAIU DE ", font=f_wordmark1)
     d.text((x_texto + largura_prefixo, y_wordmark), "VERDADE", font=f_wordmark2, fill=ACAO)
 
-    largura_disponivel = largura - x_texto - pad
-    linhas_tagline = _quebrar_texto(
-        'Preço real, comparado com o histórico — não com o "de/por" da loja',
-        f_tagline, largura_disponivel, d)
-    y_tagline = int(altura * 0.60)
+    y_tagline = y_wordmark + tamanho_wordmark + 12
     for linha in linhas_tagline:
         d.text((x_texto, y_tagline), linha, font=f_tagline, fill=INK)
-        y_tagline += int(altura * 0.11)
+        y_tagline += espacamento_linha
 
     return img
 
