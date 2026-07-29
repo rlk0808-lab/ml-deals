@@ -372,8 +372,8 @@ def gerar_card_apresentacao() -> bytes:
          "Não com o \"de/por\" inventado pela loja."),
         ("Só avisamos quando cai de verdade",
          "Preço tem que bater recorde real pra virar post."),
-        ("4 nichos, todo santo dia",
-         "Livros, bebês, casa e moda, rastreados sem parar."),
+        ("Rastreamento todo santo dia",
+         "Sem pausa, sem feriado — preço observado dia após dia."),
         ("Comunidade grátis",
          "Grupos no WhatsApp e Telegram, sem custo nenhum."),
     ]
