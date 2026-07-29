@@ -1,6 +1,23 @@
 [
   {
     "data": "2026-07-29",
+    "product_id": "MLB50585712",
+    "nome": "Livro Pai Rico Pai Pobre + Hábitos Atômicos: Kit Evolução Pessoal, De Kit Evolução Pessoal. Editorial Sextante/altabooks, Capa Mole Em Português",
+    "preco": 92.86,
+    "preco_original": null,
+    "n_ofertas": 2,
+    "item_id": "MLB5407566240",
+    "seller_id": 360130448,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB50585712",
+    "mediana": 297.15,
+    "minimo_hist": 297.15,
+    "desconto": 68.7,
+    "recorde": true
+  },
+  {
+    "data": "2026-07-29",
     "product_id": "MLB53039196",
     "nome": "Kit Livros A Única Coisa + Hábitos Atômicos: Kit Foco E Hábi",
     "preco": 97.95,
@@ -12,7 +29,7 @@
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB53039196",
     "mediana": 309.88,
-    "minimo_hist": 309.88,
+    "minimo_hist": 97.95,
     "desconto": 68.4,
     "recorde": true
   },
@@ -29,7 +46,7 @@
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB50583499",
     "mediana": 314.88,
-    "minimo_hist": 314.88,
+    "minimo_hist": 99.95,
     "desconto": 68.3,
     "recorde": true
   },
