@@ -34,6 +34,20 @@ VALIDADE_CAMADA2_HORAS = 10
 
 SITE_URL = "https://rlk0808-lab.github.io/ml-deals"
 
+# So pro Facebook/Instagram - o Telegram ja tem os proprios grupos
+# fixados no topo do canal, um convite pro WhatsApp/Telegram DENTRO do
+# proprio Telegram fica sem sentido (mesma razao pela qual removemos
+# isso do texto do Telegram antes). Facebook/Instagram sao o publico
+# que ainda nao esta em nenhum grupo, faz sentido puxar pra la.
+WHATSAPP_LINK = "https://chat.whatsapp.com/JGvCrkWCfBmKS9KW4m1HD2"
+TELEGRAM_LINK = "https://t.me/addlist/2TD1Un1OO5Y3MGI5"
+
+
+def _texto_para_feed_social(texto: str) -> str:
+    return (f"{texto}\n\n"
+            f"💬 WhatsApp: {WHATSAPP_LINK}\n"
+            f"📢 Telegram: {TELEGRAM_LINK}")
+
 
 def link_site(o: dict, cfg: dict) -> str:
     """Link direto pra pagina desse produto no site - mostra o grafico
@@ -169,10 +183,12 @@ def enviar(item: dict, cfg: dict, chat: str) -> bool:
                 # cada, senao vira 2 "flagrante" por dia, nao 1) - e
                 # conteudo de "flagrante", nao precisa de mais que isso
                 if not publicar_meta.ja_postou_falso_desconto_hoje():
-                    ok_fb = publicar_meta.publicar_facebook(texto, imagem_bytes=png_bytes)
+                    texto_social = _texto_para_feed_social(texto)
+                    ok_fb = publicar_meta.publicar_facebook(
+                        texto_social, imagem_bytes=png_bytes)
                     url_ig = publicar_meta.hospedar_imagem(
                         png_bytes, f"{item['product_id']}_fd.png")
-                    ok_ig = url_ig and publicar_meta.publicar_instagram(texto, url_ig)
+                    ok_ig = url_ig and publicar_meta.publicar_instagram(texto_social, url_ig)
                     if ok_fb or ok_ig:
                         publicar_meta.marcar_falso_desconto_postado_hoje()
 
@@ -228,12 +244,13 @@ def enviar(item: dict, cfg: dict, chat: str) -> bool:
                 try:
                     import image_card
                     card_bytes = image_card.gerar_card_feed_oferta_real(item)
+                    texto_social = _texto_para_feed_social(texto)
                     ok_fb_feed = publicar_meta.publicar_facebook(
-                        texto, imagem_bytes=card_bytes)
+                        texto_social, imagem_bytes=card_bytes)
                     url_feed = publicar_meta.hospedar_imagem(
                         card_bytes, f"{item['product_id']}_feed.png")
                     ok_ig_feed = url_feed and publicar_meta.publicar_instagram(
-                        texto, url_feed)
+                        texto_social, url_feed)
                     if ok_fb_feed or ok_ig_feed:
                         publicar_meta.marcar_feed_camada1_postado_hoje()
                 except Exception:
