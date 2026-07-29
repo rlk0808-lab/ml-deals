@@ -1,6 +1,40 @@
 [
   {
     "data": "2026-07-29",
+    "product_id": "MLB53039196",
+    "nome": "Kit Livros A Única Coisa + Hábitos Atômicos: Kit Foco E Hábi",
+    "preco": 97.95,
+    "preco_original": null,
+    "n_ofertas": 3,
+    "item_id": "MLB5511571590",
+    "seller_id": 360130448,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB53039196",
+    "mediana": 309.88,
+    "minimo_hist": 309.88,
+    "desconto": 68.4,
+    "recorde": true
+  },
+  {
+    "data": "2026-07-29",
+    "product_id": "MLB50583499",
+    "nome": "Kit Livro Comece Pelo Porquê + Hábitos Atômicos: Kit Liderança E Disciplina, De Kit Liderança E Disciplina. Editorial Sextante/altabooks, Capa Mole Em Português",
+    "preco": 99.95,
+    "preco_original": null,
+    "n_ofertas": 12,
+    "item_id": "MLB5407550256",
+    "seller_id": 360130448,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB50583499",
+    "mediana": 314.88,
+    "minimo_hist": 314.88,
+    "desconto": 68.3,
+    "recorde": true
+  },
+  {
+    "data": "2026-07-29",
     "product_id": "MLB19243665",
     "nome": "Livro O Código Da Vinci de Dan Brown E Robert Langdon Livro 2 Capa mole em português 2021 Editora Arqueiro",
     "preco": 62.25,
@@ -83,22 +117,5 @@
     "minimo_hist": 38.45,
     "desconto": 21.4,
     "recorde": true
-  },
-  {
-    "data": "2026-07-29",
-    "product_id": "MLB54222344",
-    "nome": "Profundezas, De Rebecca Yarros. Editorial Verus, Capa Mole, Edição 1 Em Português, 2025",
-    "preco": 40.9,
-    "preco_original": null,
-    "n_ofertas": 74,
-    "item_id": "MLB5691419456",
-    "seller_id": 755728420,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB54222344",
-    "mediana": 49.78,
-    "minimo_hist": 30.0,
-    "desconto": 17.8,
-    "recorde": false
   }
 ]
