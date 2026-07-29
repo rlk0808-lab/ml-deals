@@ -88,6 +88,14 @@ def main() -> int:
         else:
             print("[teste] hospedagem FALHOU - pulando teste da story do Instagram", flush=True)
 
+        import publicar_threads
+        print("[teste] testando post de imagem no Threads...", flush=True)
+        ok_threads = publicar_threads.publicar_imagem(
+            "[TESTE - pode ignorar] Post de verificação da integração com o Threads.",
+            item_c1_teste["imagem"])
+        print("[teste] Threads publicado!" if ok_threads
+              else "[teste] Threads FALHOU - ver log acima", flush=True)
+
     return 0 if ok else 1
 
 
