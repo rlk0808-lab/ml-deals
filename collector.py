@@ -584,6 +584,30 @@ def podar_estado_camada2(d: Path, wl: dict) -> int:
     return removidos
 
 
+def carregar_estado_camada1(d: Path) -> dict:
+    f = d / "camada1_state.json"
+    if f.exists():
+        return json.loads(f.read_text(encoding="utf-8"))
+    return {}
+
+
+def salvar_estado_camada1(d: Path, estado: dict) -> None:
+    f = d / "camada1_state.json"
+    f.write_text(json.dumps(estado, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def podar_estado_camada1(d: Path, wl: dict) -> int:
+    estado = carregar_estado_camada1(d)
+    antes = len(estado)
+    estado = {pid: v for pid, v in estado.items() if pid in wl}
+    removidos = antes - len(estado)
+    if removidos:
+        salvar_estado_camada1(d, estado)
+        print(f"[camada1] {removidos} produto(s) removido(s) do estado "
+              f"(saiu da watchlist)")
+    return removidos
+
+
 def _assinatura_produto(nome: str) -> str:
     """
     Primeira palavra significativa do nome - usada so pra AGRUPAR
@@ -751,21 +775,24 @@ def salvar_fila(d: Path, fila: list[dict]) -> None:
     f.write_text(json.dumps(fila, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def enfileirar(d: Path, itens: list[dict], tipo: str, limite: int) -> int:
+def enfileirar(d: Path, itens: list[dict], tipo: str, limite: int) -> list[dict]:
     """
     Adiciona itens na fila de publicacao (nao posta na hora - quem posta
     e o publish_next.py, espacado a cada 30 min). Evita duplicar produto
-    que ja esta esperando vez na fila.
+    que ja esta esperando vez na fila. Devolve os itens que REALMENTE
+    entraram (nao so uma contagem) - quem chama precisa saber quais sao,
+    pra atualizar estado (ex: camada1_state) so pros que de fato foram
+    enfileirados, nao pros que ficaram de fora por falta de link ou limite.
     """
     fila = carregar_fila(d)
     ja_na_fila = {it["product_id"] for it in fila}
     agora = datetime.now(timezone.utc).isoformat()
     tabela_links = links_afiliado.carregar() if SOMENTE_COM_LINK_AFILIADO else None
 
-    adicionados = 0
+    adicionados: list[dict] = []
     sem_link = 0
     for o in itens:
-        if adicionados >= limite:
+        if len(adicionados) >= limite:
             break
         if o["product_id"] in ja_na_fila:
             continue
@@ -776,11 +803,11 @@ def enfileirar(d: Path, itens: list[dict], tipo: str, limite: int) -> int:
         item["tipo"] = tipo
         item["enfileirado_em"] = agora
         fila.append(item)
-        adicionados += 1
+        adicionados.append(item)
 
     salvar_fila(d, fila)
     aviso_sem_link = f" | {sem_link} pulado(s) por falta de link" if sem_link else ""
-    print(f"[fila] +{adicionados} item(ns) tipo={tipo} | fila total: {len(fila)}{aviso_sem_link}")
+    print(f"[fila] +{len(adicionados)} item(ns) tipo={tipo} | fila total: {len(fila)}{aviso_sem_link}")
     return adicionados
 
 
@@ -870,6 +897,7 @@ def main() -> int:
     hoje, wl = coletar(tk, cfg, wl)
     f_wl.write_text(json.dumps(wl, ensure_ascii=False, indent=2), encoding="utf-8")
     podar_estado_camada2(d, wl)
+    podar_estado_camada1(d, wl)
 
     if not hoje:
         print("[!] nada coletado")
@@ -899,8 +927,28 @@ def main() -> int:
         if avisados:
             print(f"[pedidos] {avisados} e-mail(s) de aviso enviado(s)")
 
-        preparar_imagens(tk, ofertas[:LIMITE_FILA_CAMADA1], wl)
-        enfileirar(d, ofertas, tipo="camada1", limite=LIMITE_FILA_CAMADA1)
+        # so publica quem realmente MUDOU de preco desde o ultimo aviso -
+        # sem isso, um produto que caiu e ESTACIONOU no preco baixo
+        # continua contando como "oferta real" todo dia (a mediana demora
+        # a se ajustar pro novo normal) e ficaria repetindo o mesmo post
+        # sem nada de novo. ofertas.json (acima) e o registro completo
+        # pro selo do site - o site mostra "verificado" enquanto for
+        # verdade, mesmo sem ser novidade. So a FILA de publicacao que
+        # precisa ser so do que e novo.
+        estado_c1 = carregar_estado_camada1(d)
+        ofertas_novas = [o for o in ofertas
+                         if estado_c1.get(o["product_id"], {}).get("preco") != o["preco"]]
+        repetidas = len(ofertas) - len(ofertas_novas)
+        if repetidas:
+            print(f"[ofertas] {repetidas} no mesmo preco de um aviso anterior - nao repete")
+
+        if ofertas_novas:
+            preparar_imagens(tk, ofertas_novas[:LIMITE_FILA_CAMADA1], wl)
+            adicionados_c1 = enfileirar(d, ofertas_novas, tipo="camada1",
+                                        limite=LIMITE_FILA_CAMADA1)
+            for item in adicionados_c1:
+                estado_c1[item["product_id"]] = {"preco": item["preco"]}
+            salvar_estado_camada1(d, estado_c1)
     else:
         print("[ofertas] nenhuma - esperado enquanto o historico e curto")
 
@@ -941,7 +989,7 @@ def main() -> int:
                       f"mas historico mostra {o['desconto_real']:+.1f}% | {o['nome'][:50]}")
             preparar_imagens(tk, achados_fd, wl)
             adicionados = enfileirar(d, achados_fd, tipo="falso_desconto", limite=restante_fd)
-            contagem_fd["contagem"] += adicionados
+            contagem_fd["contagem"] += len(adicionados)
             salvar_contagem_falso_desconto(d, contagem_fd)
         else:
             print("[falso-desconto] nada encontrado nesta rodada")

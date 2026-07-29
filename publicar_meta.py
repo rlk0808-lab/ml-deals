@@ -17,8 +17,11 @@ Uso: chamado por publish_next.py depois de postar no Telegram, ou
 standalone: python publicar_meta.py <nicho>
 """
 
+import json
 import os
 import sys
+from datetime import datetime, timezone
+from pathlib import Path
 
 import requests
 
@@ -26,6 +29,25 @@ GRAPH_API = "https://graph.facebook.com/v21.0"
 
 PAGE_ID = os.environ.get("META_PAGE_ID", "").strip()
 PAGE_ACCESS_TOKEN = os.environ.get("META_PAGE_ACCESS_TOKEN", "").strip()
+
+_ARQUIVO_CONTAGEM_FD = Path("data") / "facebook_falso_desconto_hoje.json"
+
+
+def ja_postou_falso_desconto_hoje() -> bool:
+    """1 Pagina so pros 4 nichos - o limite e por dia no TOTAL, nao por
+    nicho (diferente do limite do Telegram, que e por canal)."""
+    hoje = datetime.now(timezone.utc).date().isoformat()
+    try:
+        d = json.loads(_ARQUIVO_CONTAGEM_FD.read_text(encoding="utf-8"))
+        return d.get("data") == hoje
+    except (FileNotFoundError, json.JSONDecodeError):
+        return False
+
+
+def marcar_falso_desconto_postado_hoje() -> None:
+    hoje = datetime.now(timezone.utc).date().isoformat()
+    _ARQUIVO_CONTAGEM_FD.parent.mkdir(parents=True, exist_ok=True)
+    _ARQUIVO_CONTAGEM_FD.write_text(json.dumps({"data": hoje}), encoding="utf-8")
 
 
 def publicar_facebook(texto: str, imagem_bytes: bytes | None = None,

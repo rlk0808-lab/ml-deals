@@ -21,6 +21,7 @@ from pathlib import Path
 import requests
 
 import links_afiliado
+import publicar_meta
 
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "").strip()
 
@@ -162,6 +163,14 @@ def enviar(item: dict, cfg: dict, chat: str) -> bool:
                 import image_card
                 png_bytes = image_card.gerar_cartao_falso_desconto(item)
                 print(f"[cartao] imagem gerada: {len(png_bytes)} bytes", flush=True)
+
+                # cross-post pro Facebook, no maximo 1x por dia no total
+                # (1 Pagina so, pros 4 nichos - nao 1x por nicho) - e
+                # conteudo de "flagrante", nao precisa de mais que isso
+                if not publicar_meta.ja_postou_falso_desconto_hoje():
+                    if publicar_meta.publicar_facebook(texto, imagem_bytes=png_bytes):
+                        publicar_meta.marcar_falso_desconto_postado_hoje()
+
                 r = requests.post(
                     f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPhoto",
                     data={"chat_id": chat, "caption": texto[:1024]},
@@ -197,6 +206,13 @@ def enviar(item: dict, cfg: dict, chat: str) -> bool:
         print(f"[telegram] {r.status_code} - {item['nome'][:45]}", flush=True)
         if r.status_code != 200:
             print(f"[telegram] corpo da resposta: {r.text[:300]}", flush=True)
+
+        # Facebook recebe so Camada 1 (oferta real, ja deduplicada em
+        # collector.py) - nada de Camada 2 nem cupom la, pra nao virar
+        # tanta postagem quanto o Telegram
+        if item.get("tipo") == "camada1" and imagem:
+            publicar_meta.publicar_facebook(texto, imagem_url=imagem)
+
         return r.status_code == 200
     except Exception:
         print("[telegram] erro nao tratado ao enviar:", flush=True)
