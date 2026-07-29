@@ -1,6 +1,23 @@
 [
   {
     "data": "2026-07-29",
+    "product_id": "MLB19243665",
+    "nome": "Livro O Código Da Vinci de Dan Brown E Robert Langdon Livro 2 Capa mole em português 2021 Editora Arqueiro",
+    "preco": 62.25,
+    "preco_original": null,
+    "n_ofertas": 2,
+    "item_id": "MLB3402414163",
+    "seller_id": 1134662049,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19243665",
+    "mediana": 104.9,
+    "minimo_hist": 62.25,
+    "desconto": 40.7,
+    "recorde": true
+  },
+  {
+    "data": "2026-07-29",
     "product_id": "MLB68499477",
     "nome": "Livro Desenvolvimento Local Sustentável, De Kronemberg, Deni",
     "preco": 42.9,
@@ -11,9 +28,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB68499477",
-    "mediana": 97.5,
+    "mediana": 70.2,
     "minimo_hist": 42.9,
-    "desconto": 56.0,
+    "desconto": 38.9,
     "recorde": true
   },
   {
@@ -35,19 +52,19 @@
   },
   {
     "data": "2026-07-29",
-    "product_id": "MLB19243672",
-    "nome": "Livro Fique comigo de Harlan Coben Editora Arqueiro Capa mole em português 2021",
-    "preco": 49.92,
-    "preco_original": null,
-    "n_ofertas": 9,
-    "item_id": "MLB2771591481",
-    "seller_id": 783089333,
+    "product_id": "MLB19314437",
+    "nome": "Livro Mistério Sob O Gelo: Uma Aventura Na Antártica De Alexander Kellner Da Editora Rocco",
+    "preco": 22.17,
+    "preco_original": 39.9,
+    "n_ofertas": 14,
+    "item_id": "MLB3888018327",
+    "seller_id": 480263032,
     "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB19243672",
-    "mediana": 59.92,
-    "minimo_hist": 45.0,
-    "desconto": 16.7,
-    "recorde": false
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19314437",
+    "mediana": 31.92,
+    "minimo_hist": 22.17,
+    "desconto": 30.5,
+    "recorde": true
   }
 ]
