@@ -44,6 +44,8 @@ jobs:
           TELEGRAM_CHAT_BEBES:  ${{ secrets.TELEGRAM_CHAT_BEBES }}
           TELEGRAM_CHAT_CASA:   ${{ secrets.TELEGRAM_CHAT_CASA }}
           TELEGRAM_CHAT_MODA:   ${{ secrets.TELEGRAM_CHAT_MODA }}
+          META_PAGE_ID:         ${{ secrets.META_PAGE_ID }}
+          META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
         run: |
           git config user.name  "publicador-bot"
           git config user.email "publicador-bot@users.noreply.github.com"
