@@ -335,6 +335,50 @@ def obter_imagem_produto(tk: str, pid: str) -> str | None:
     return pics[0].get("url") or pics[0].get("secure_url")
 
 
+def obter_avaliacao_produto(tk: str, pid: str) -> tuple[float, int]:
+    """Nota media e total de avaliacoes do produto (API de reviews do
+    ML). Em caso de erro devolve (0.0, 0) - trata como "sem avaliacao
+    suficiente", nunca deixa passar por falha silenciosa."""
+    data = GET(f"{API}/reviews/item/{pid}", tk, params={"locale": "pt_BR"})
+    if not data:
+        return (0.0, 0)
+    return (data.get("rating_average") or 0.0, data.get("paging", {}).get("total") or 0)
+
+
+def filtrar_por_avaliacao(tk: str, itens: list[dict], cfg: dict, wl: dict) -> list[dict]:
+    """
+    Alguns nichos (ex: maquiagem, por causa de falsificacao) exigem uma
+    nota minima de avaliacao real do produto, nao so os filtros de
+    preco/nome de sempre. So chama a API de reviews pros itens que
+    ja passaram em tudo mais e sao dos dominios configurados - poucos
+    itens, nao a watchlist inteira.
+    """
+    regra = cfg.get("exigir_avaliacao_minima")
+    if not regra:
+        return itens
+
+    dominios_alvo = set(regra.get("dominios", []))
+    nota_minima = regra.get("nota_minima", 0)
+    avaliacoes_minimas = regra.get("avaliacoes_minimas", 0)
+
+    resultado = []
+    removidos = 0
+    for o in itens:
+        dominio = wl.get(o["product_id"], {}).get("dominio")
+        if dominios_alvo and dominio not in dominios_alvo:
+            resultado.append(o)
+            continue
+        nota, total = obter_avaliacao_produto(tk, o["product_id"])
+        if nota >= nota_minima and total >= avaliacoes_minimas:
+            resultado.append(o)
+        else:
+            removidos += 1
+    if removidos:
+        print(f"[avaliacao] {removidos} item(ns) removido(s) por avaliacao insuficiente "
+              f"(minimo {nota_minima} estrelas, {avaliacoes_minimas} avaliacoes)")
+    return resultado
+
+
 def preparar_imagens(tk: str, itens: list[dict], wl: dict) -> None:
     """Preenche o campo 'imagem' de cada item, usando cache em wl quando existe."""
     for o in itens:
@@ -941,6 +985,8 @@ def main() -> int:
         repetidas = len(ofertas) - len(ofertas_novas)
         if repetidas:
             print(f"[ofertas] {repetidas} no mesmo preco de um aviso anterior - nao repete")
+
+        ofertas_novas = filtrar_por_avaliacao(tk, ofertas_novas, cfg, wl)
 
         if ofertas_novas:
             preparar_imagens(tk, ofertas_novas[:LIMITE_FILA_CAMADA1], wl)

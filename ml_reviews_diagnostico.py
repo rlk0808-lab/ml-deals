@@ -1,8 +1,8 @@
 """
-Diagnostico manual - testa a API de avaliacoes (reviews) do Mercado
-Livre com um token de verdade, pra confirmar o formato real da
-resposta antes de usar isso pra filtrar produtos de maquiagem (nicho
-beleza). Nao mexe em nada, so imprime.
+Diagnostico manual - descobre os domain_id reais de categorias de
+maquiagem no Mercado Livre (pra configurar o filtro de avaliacao
+minima do nicho beleza) e confirma o formato da API de reviews.
+Nao mexe em nada, so imprime.
 
 Uso: python ml_reviews_diagnostico.py
 """
@@ -16,8 +16,11 @@ API = "https://api.mercadolibre.com"
 APP_ID = os.environ.get("ML_APP_ID", "").strip()
 APP_SECRET = os.environ.get("ML_APP_SECRET", "").strip()
 
-# alguns item_id reais de maquiagem/batom pra testar o formato da resposta
-ITENS_TESTE = ["MLB5407566240", "MLB50585712"]
+QUERIES_MAQUIAGEM = [
+    "batom", "base facial", "sombra maquiagem", "mascara de cilios",
+    "delineador", "po compacto", "blush", "corretivo facial",
+    "esmalte", "lapis de sobrancelha", "kit maquiagem", "gloss labial",
+]
 
 
 def get_token() -> str:
@@ -39,24 +42,28 @@ def main() -> int:
     tk = get_token()
     print("[auth] token OK\n")
 
-    for item_id in ITENS_TESTE:
-        print(f"=== GET /reviews/item/{item_id} ===")
-        r = requests.get(f"{API}/reviews/item/{item_id}",
-                          headers={"Authorization": f"Bearer {tk}"},
-                          params={"locale": "pt_BR"}, timeout=20)
-        print(f"status: {r.status_code}")
-        try:
-            print(json.dumps(r.json(), ensure_ascii=False, indent=2)[:1500])
-        except Exception:
-            print(r.text[:500])
-        print()
+    dominios_vistos: dict[str, str] = {}
+    for q in QUERIES_MAQUIAGEM:
+        r = requests.get(f"{API}/products/search", headers={"Authorization": f"Bearer {tk}"},
+                          params={"q": q, "site_id": "MLB", "limit": 5}, timeout=20)
+        if r.status_code != 200:
+            print(f"[!] busca '{q}' falhou: {r.status_code}")
+            continue
+        for p in r.json().get("results", []):
+            dom = p.get("domain_id")
+            if dom and dom not in dominios_vistos:
+                dominios_vistos[dom] = p.get("name", "")[:60]
 
-        # tambem testa buscando por produto de maquiagem de verdade via search
-    print("=== busca de teste: 'batom' (pra achar item_id real de maquiagem) ===")
-    r = requests.get(f"{API}/products/search", headers={"Authorization": f"Bearer {tk}"},
-                      params={"q": "batom", "site_id": "MLB", "limit": 3}, timeout=20)
+    print("=== domain_id encontrados pras buscas de maquiagem ===")
+    for dom, exemplo in sorted(dominios_vistos.items()):
+        print(f"{dom}  (ex: {exemplo})")
+
+    print("\n=== confirmando formato da API de reviews (item conhecido) ===")
+    r = requests.get(f"{API}/reviews/item/MLB69908674",
+                      headers={"Authorization": f"Bearer {tk}"},
+                      params={"locale": "pt_BR"}, timeout=20)
     print(f"status: {r.status_code}")
-    print(json.dumps(r.json(), ensure_ascii=False, indent=2)[:2000])
+    print(json.dumps(r.json(), ensure_ascii=False, indent=2)[:800])
 
     return 0
 
