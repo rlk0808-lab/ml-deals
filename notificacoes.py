@@ -36,7 +36,8 @@ from pathlib import Path
 NOVOS = Path("data") / "pedidos_novos.txt"
 REGISTRO = Path("data") / "pedidos_notificacao.json"
 
-NICHOS_VALIDOS = {"livros", "bebes", "casa", "moda"}
+NICHOS_VALIDOS = set(
+    json.loads(Path("config/nichos.json").read_text(encoding="utf-8")))
 
 GMAIL_USER = "caiudeverdade@gmail.com"
 GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "").strip()
@@ -49,7 +50,7 @@ _RE_EMAIL = re.compile(r"[^\s|]+@[^\s|]+\.[^\s|]+")
 _CABECALHO = (
     "# Cole aqui 1 pedido por linha, formato:\n"
     "#   email | nicho | link ou ID do produto\n"
-    "# nicho e um de: livros, bebes, casa, moda\n"
+    f"# nicho e um de: {', '.join(sorted(NICHOS_VALIDOS))}\n"
     "# Pode colar o link completo (o sistema acha o ID sozinho) ou so o ID.\n"
     "# Exemplo:\n"
     "#   fulano@gmail.com | casa | https://www.mercadolivre.com.br/p/MLB12345678\n"

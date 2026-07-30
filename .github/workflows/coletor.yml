@@ -24,7 +24,7 @@ jobs:
       fail-fast: false     # falha num nicho nao pode cancelar os outros
       max-parallel: 1        # em sequencia, para nao conflitar no push
       matrix:
-        nicho: [livros, bebes, casa, moda]
+        nicho: [livros, bebes, casa, moda, beleza]
 
     steps:
       - uses: actions/checkout@v4

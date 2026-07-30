@@ -25,7 +25,7 @@ jobs:
       fail-fast: false     # falha num nicho nao pode cancelar os outros
       max-parallel: 1        # em sequencia, para nao conflitar no push
       matrix:
-        nicho: [livros, bebes, casa, moda]
+        nicho: [livros, bebes, casa, moda, beleza]
 
     steps:
       - uses: actions/checkout@v4
@@ -44,6 +44,7 @@ jobs:
           TELEGRAM_CHAT_BEBES:  ${{ secrets.TELEGRAM_CHAT_BEBES }}
           TELEGRAM_CHAT_CASA:   ${{ secrets.TELEGRAM_CHAT_CASA }}
           TELEGRAM_CHAT_MODA:   ${{ secrets.TELEGRAM_CHAT_MODA }}
+          TELEGRAM_CHAT_BELEZA: ${{ secrets.TELEGRAM_CHAT_BELEZA }}
           META_PAGE_ID:         ${{ secrets.META_PAGE_ID }}
           META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
           META_IG_USER_ID:      ${{ secrets.META_IG_USER_ID }}
@@ -93,6 +94,7 @@ jobs:
           TELEGRAM_CHAT_BEBES:  ${{ secrets.TELEGRAM_CHAT_BEBES }}
           TELEGRAM_CHAT_CASA:   ${{ secrets.TELEGRAM_CHAT_CASA }}
           TELEGRAM_CHAT_MODA:   ${{ secrets.TELEGRAM_CHAT_MODA }}
+          TELEGRAM_CHAT_BELEZA: ${{ secrets.TELEGRAM_CHAT_BELEZA }}
           # so pro teste da STORY (sem limite diario, diferente do feed) -
           # o cartao de falso desconto em si continua indo so pro Telegram
           # nesse passo de teste, nao consome a cota de 1x/dia do feed

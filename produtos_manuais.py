@@ -25,23 +25,25 @@ Exemplo:
     moda | https://www.mercadolivre.com.br/camiseta-x/p/MLB12345678
     casa | MLB98765432
 
-nicho precisa ser um dos 4 existentes (livros/bebes/casa/moda). Pode
+nicho precisa ser um dos existentes em config/nichos.json. Pode
 colar o link completo (o sistema extrai o ID sozinho) ou so o ID.
 """
 
+import json
 import re
 from pathlib import Path
 
 NOVOS = Path("data") / "produtos_novos.txt"
 
-NICHOS_VALIDOS = {"livros", "bebes", "casa", "moda"}
+NICHOS_VALIDOS = set(
+    json.loads(Path("config/nichos.json").read_text(encoding="utf-8")))
 
 _RE_MLB = re.compile(r"MLB-?(\d{8,})")
 
 _CABECALHO = (
     "# Cole aqui 1 produto por linha, formato:\n"
     "#   nicho | link ou ID do produto\n"
-    "# nicho e um de: livros, bebes, casa, moda\n"
+    f"# nicho e um de: {', '.join(sorted(NICHOS_VALIDOS))}\n"
     "# Pode colar o link completo (o sistema acha o ID sozinho) ou so o ID.\n"
     "# Exemplo:\n"
     "#   moda | https://www.mercadolivre.com.br/camiseta-x/p/MLB12345678\n"

@@ -33,7 +33,7 @@ Exemplo:
     casa | CASA15OFF | 15% off em Casa e Decoracao, minimo R$150, ate 01/08
     moda | ROUPA20 | 20% off em roupa feminina, sem minimo, valido hoje | https://bit.ly/xxxxx
 
-nicho precisa ser um dos 4 existentes (livros/bebes/casa/moda). O link
+nicho precisa ser um dos existentes em config/nichos.json. O link
 (4o campo) e opcional - so inclui se o cupom vier com um link de
 "produtos selecionados". Nenhum campo pode conter o caractere "|".
 """
@@ -47,7 +47,8 @@ import requests
 
 NOVOS = Path("data") / "cupons_novos.txt"
 
-NICHOS_VALIDOS = {"livros", "bebes", "casa", "moda"}
+NICHOS_VALIDOS = set(
+    json.loads(Path("config/nichos.json").read_text(encoding="utf-8")))
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
@@ -59,7 +60,7 @@ _RE_MLB = re.compile(r"MLB-?(\d{8,})")
 _CABECALHO = (
     "# Cole aqui 1 cupom por linha, formato:\n"
     "#   nicho | codigo | texto livre descrevendo o cupom | link opcional\n"
-    "# nicho e um de: livros, bebes, casa, moda\n"
+    f"# nicho e um de: {', '.join(sorted(NICHOS_VALIDOS))}\n"
     "# o link (4o campo) e opcional - so inclui se o cupom tiver link de\n"
     "# \"produtos selecionados\" (o coletor busca produto novo nele tambem)\n"
     "# Exemplo:\n"
