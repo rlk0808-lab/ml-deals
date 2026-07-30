@@ -430,7 +430,7 @@ def base_page(titulo: str, descricao: str, corpo: str, raiz: str,
 </html>"""
 
 
-def pagina_sugerir(raiz_url: str) -> str:
+def pagina_sugerir(raiz_url: str, nichos_cfg: dict) -> str:
     """
     Formulario "sugira um produto" - entra direto no e-mail
     caiudeverdade@gmail.com via Web3Forms (sem servidor nenhum do nosso
@@ -456,10 +456,8 @@ def pagina_sugerir(raiz_url: str) -> str:
     </label>
     <label>Categoria
       <select name="nicho" required>
-        <option value="livros">📚 Livros</option>
-        <option value="bebes">👶 Bebês e Maternidade</option>
-        <option value="casa">🏠 Casa e Cozinha</option>
-        <option value="moda">👕 Moda e Vestuário</option>
+        {"".join(f'<option value="{slug}">{cfg["emoji"]} {cfg["nome"]}</option>'
+                 for slug, cfg in nichos_cfg.items())}
       </select>
     </label>
     <label>Seu e-mail (opcional - só se quiser ser avisado quando cair)
@@ -848,7 +846,8 @@ def main() -> int:
         encoding="utf-8")
     todas_urls.append(f"{raiz_url}/index.html")
 
-    (SAIDA / "sugerir.html").write_text(pagina_sugerir(raiz_url), encoding="utf-8")
+    (SAIDA / "sugerir.html").write_text(
+        pagina_sugerir(raiz_url, nichos_cfg), encoding="utf-8")
     todas_urls.append(f"{raiz_url}/sugerir.html")
 
     sitemap = ('<?xml version="1.0" encoding="UTF-8"?>\n'
