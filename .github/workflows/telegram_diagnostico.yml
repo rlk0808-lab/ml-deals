@@ -1,0 +1,26 @@
+name: Diagnostico Telegram
+
+on:
+  # Ferramenta manual de leitura - mostra o @usuario do bot e as
+  # conversas/mensagens recentes recebidas por ele. Nao publica nada.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diagnostico:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r requirements.txt
+
+      - name: Diagnostico
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+        run: python -u telegram_diagnostico.py
