@@ -39,6 +39,36 @@ _ARQUIVO_CONTAGEM_FD = Path("data") / "facebook_falso_desconto_hoje.json"
 _ARQUIVO_CONTAGEM_FEED_C1 = Path("data") / "feed_camada1_hoje.json"
 _PASTA_IMAGENS_TEMP = Path("social_img")
 _REPO_RAW_BASE = "https://raw.githubusercontent.com/rlk0808-lab/ml-deals/main"
+_DIAS_RETENCAO_IMAGENS = 3
+
+
+def _podar_imagens_antigas(dias: int = _DIAS_RETENCAO_IMAGENS) -> list[Path]:
+    """
+    Apaga imagens de social_img/ mais velhas que `dias`. Usa a data do
+    ULTIMO COMMIT de cada arquivo (git log), nao o mtime do arquivo no
+    disco - o checkout do GitHub Actions reescreve o mtime de tudo pra
+    "agora" toda vez, entao mtime nunca refletiria a idade de verdade.
+    """
+    if not _PASTA_IMAGENS_TEMP.exists():
+        return []
+
+    agora = datetime.now(timezone.utc).timestamp()
+    limite_segundos = dias * 86400
+    apagados = []
+    for arq in _PASTA_IMAGENS_TEMP.glob("*.png"):
+        r = subprocess.run(
+            ["git", "log", "-1", "--format=%at", "--", str(arq)],
+            capture_output=True, text=True, timeout=15)
+        ts = r.stdout.strip()
+        if not ts or (agora - int(ts)) <= limite_segundos:
+            continue
+        arq.unlink()
+        apagados.append(arq)
+
+    if apagados:
+        print(f"[meta] podadas {len(apagados)} imagem(ns) com mais de {dias} dias "
+              f"de social_img/")
+    return apagados
 
 
 def hospedar_imagem(imagem_bytes: bytes, nome_arquivo: str) -> str | None:
@@ -65,6 +95,15 @@ def hospedar_imagem(imagem_bytes: bytes, nome_arquivo: str) -> str | None:
         subprocess.run(["git", "config", "user.email",
                         "publicador-bot@users.noreply.github.com"],
                        check=True, timeout=10, capture_output=True)
+
+        # a pasta so precisa hospedar a imagem tempo suficiente pra API
+        # da Meta/Threads buscar (segundos) - sem podar, cresce pra
+        # sempre. Apaga na mesma leva pra nao precisar de um commit
+        # separado so pra isso.
+        apagados = _podar_imagens_antigas()
+        for antigo in apagados:
+            subprocess.run(["git", "add", str(antigo)], timeout=15, capture_output=True)
+
         subprocess.run(["git", "add", str(caminho)], check=True, timeout=15,
                        capture_output=True)
         commit = subprocess.run(["git", "commit", "-m", f"social: {nome_arquivo}"],
