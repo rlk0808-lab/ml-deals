@@ -97,7 +97,7 @@
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB35759519",
     "mediana": 75.94,
-    "minimo_hist": 75.94,
+    "minimo_hist": 57.05,
     "desconto": 24.9,
     "recorde": true
   },
@@ -107,7 +107,7 @@
     "nome": "Livro Não Há Segunda Chance De Harlan Coben Da Editora Arqueiro",
     "preco": 38.45,
     "preco_original": null,
-    "n_ofertas": 36,
+    "n_ofertas": 37,
     "item_id": "MLB3897635332",
     "seller_id": 644005785,
     "frete_gratis": true,
@@ -116,23 +116,6 @@
     "mediana": 48.94,
     "minimo_hist": 38.45,
     "desconto": 21.4,
-    "recorde": true
-  },
-  {
-    "data": "2026-07-30",
-    "product_id": "MLB40442415",
-    "nome": "Box A Empregada Edição 1 Ano 2024 Freida Mcfadden Editora Arqueiro",
-    "preco": 78.0,
-    "preco_original": null,
-    "n_ofertas": 98,
-    "item_id": "MLB7295344450",
-    "seller_id": 1339754317,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB40442415",
-    "mediana": 98.32,
-    "minimo_hist": 98.32,
-    "desconto": 20.7,
     "recorde": true
   },
   {
@@ -151,6 +134,23 @@
     "minimo_hist": 38.45,
     "desconto": 19.1,
     "recorde": false
+  },
+  {
+    "data": "2026-07-30",
+    "product_id": "MLB44914745",
+    "nome": "Box Livros E Quebra-cabeça Mickey E Seus Amigos",
+    "preco": 47.29,
+    "preco_original": null,
+    "n_ofertas": 55,
+    "item_id": "MLB3946468765",
+    "seller_id": 299478192,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB44914745",
+    "mediana": 58.34,
+    "minimo_hist": 57.42,
+    "desconto": 18.9,
+    "recorde": true
   },
   {
     "data": "2026-07-30",
