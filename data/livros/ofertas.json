@@ -73,7 +73,7 @@
     "nome": "Livro From The World Of Percy Jackson: The Sun And - Inglês",
     "preco": 141.4,
     "preco_original": null,
-    "n_ofertas": 3,
+    "n_ofertas": 2,
     "item_id": "MLB7281979272",
     "seller_id": 3277837440,
     "frete_gratis": true,
@@ -90,7 +90,7 @@
     "nome": "Livro Não Há Segunda Chance De Harlan Coben Da Editora Arqueiro",
     "preco": 38.45,
     "preco_original": null,
-    "n_ofertas": 35,
+    "n_ofertas": 37,
     "item_id": "MLB3897635332",
     "seller_id": 644005785,
     "frete_gratis": true,
@@ -99,6 +99,23 @@
     "mediana": 48.94,
     "minimo_hist": 38.45,
     "desconto": 21.4,
+    "recorde": true
+  },
+  {
+    "data": "2026-07-30",
+    "product_id": "MLB19244025",
+    "nome": "Alta tensão (Myron Bolitar – Livro 10), de Coben, Harlan. Editora Arqueiro Ltda., capa mole (2019)",
+    "preco": 38.45,
+    "preco_original": null,
+    "n_ofertas": 46,
+    "item_id": "MLB4505866826",
+    "seller_id": 320430773,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19244025",
+    "mediana": 46.9,
+    "minimo_hist": 38.45,
+    "desconto": 18.0,
     "recorde": true
   }
 ]
