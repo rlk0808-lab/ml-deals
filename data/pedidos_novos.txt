@@ -1,6 +1,6 @@
 # Cole aqui 1 pedido por linha, formato:
 #   email | nicho | link ou ID do produto
-# nicho e um de: livros, bebes, casa, moda
+# nicho e um de: bebes, beleza, casa, livros, moda
 # Pode colar o link completo (o sistema acha o ID sozinho) ou so o ID.
 # Exemplo:
 #   fulano@gmail.com | casa | https://www.mercadolivre.com.br/p/MLB12345678
