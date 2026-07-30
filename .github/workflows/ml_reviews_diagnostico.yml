@@ -1,0 +1,27 @@
+name: Diagnostico API de avaliacoes ML
+
+on:
+  # Ferramenta manual - so leitura, confirma o formato da API de
+  # reviews do Mercado Livre antes de usar isso pra filtrar produtos.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diagnostico:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r requirements.txt
+
+      - name: Diagnostico
+        env:
+          ML_APP_ID:     ${{ secrets.ML_APP_ID }}
+          ML_APP_SECRET: ${{ secrets.ML_APP_SECRET }}
+        run: python -u ml_reviews_diagnostico.py
