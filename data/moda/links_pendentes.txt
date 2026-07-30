@@ -4,7 +4,7 @@ Como usar: abra o link, clique em Compartilhar na barra preta de
 afiliados, copie o link gerado (meli.la/...) e cole em
 data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
-(gerado em 2026-07-29)
+(gerado em 2026-07-30)
 
 MLB45476185  Chinelo Masculino 921 Olympikus -chocolate Castor Liso
     https://www.mercadolivre.com.br/p/MLB45476185
@@ -106,5 +106,11 @@ MLB58240342  Colete Masculino Para Ginecomastia Macom Cor Marrom Amarelad
     https://www.mercadolivre.com.br/p/MLB58240342
 MLB59084234  Colete Masculino Para Ginecomastia Macom Cor Marrom Amarelad
     https://www.mercadolivre.com.br/p/MLB59084234
+MLB45475692  Chinelo Masculino 921 Olympikus
+    https://www.mercadolivre.com.br/p/MLB45475692
 MLB57436601  Boné Aba Reta Apocalypt
     https://www.mercadolivre.com.br/p/MLB57436601
+MLB65529087  Touca Gorro Beanie + Luva Térmica Lã Preta
+    https://www.mercadolivre.com.br/p/MLB65529087
+MLB20674693  Limpa Tênis Sapato Bolsa Instantâneo Magic Wipes Prático pro
+    https://www.mercadolivre.com.br/p/MLB20674693
