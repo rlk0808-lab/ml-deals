@@ -64,9 +64,17 @@ def main() -> int:
         arq = Path("data") / nicho / "ofertas.json"
         if not arq.exists():
             continue
+        # ofertas.json nao tem o campo "imagem" (so e buscado na API do
+        # ML pros itens que realmente viram post) - o watchlist.json
+        # cacheia isso por product_id, reaproveita daqui
+        arq_watchlist = Path("data") / nicho / "watchlist.json"
+        watchlist = (json.loads(arq_watchlist.read_text(encoding="utf-8"))
+                     if arq_watchlist.exists() else {})
         for o in json.loads(arq.read_text(encoding="utf-8")):
-            if links_afiliado.tem_link(o["product_id"], tabela_links):
-                candidatos.append((nicho, cfg, o))
+            if not links_afiliado.tem_link(o["product_id"], tabela_links):
+                continue
+            o["imagem"] = watchlist.get(o["product_id"], {}).get("imagem")
+            candidatos.append((nicho, cfg, o))
 
     candidatos.sort(key=lambda t: (not t[2].get("recorde", False), -t[2].get("desconto", 0)))
     escolhidos = candidatos[:QUANTIDADE]
