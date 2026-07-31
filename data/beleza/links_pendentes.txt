@@ -1,0 +1,128 @@
+PRODUTOS SEM LINK DE AFILIADO - beleza - por ordem de prioridade
+
+Como usar: abra o link, clique em Compartilhar na barra preta de
+afiliados, copie o link gerado (meli.la/...) e cole em
+data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
+
+(gerado em 2026-07-31)
+
+MLB22562802  Eudora Siàge Cauterização Dos Lisos Leave-in Capilar 100ml
+    https://www.mercadolivre.com.br/p/MLB22562802
+MLB19515339  Eudora Siage Cica Therapy Leave In Capilar 100ml
+    https://www.mercadolivre.com.br/p/MLB19515339
+MLB69563200  Gel Limpeza Medicube Pdrn 200ml Skincare Coreano Hidratante
+    https://www.mercadolivre.com.br/p/MLB69563200
+MLB24577156  Kit Rímel Tango 4D Preto Máscara Cílios Prova D'água 17g
+    https://www.mercadolivre.com.br/p/MLB24577156
+MLB10452505  Máscara Cílios Mary Kay Lash Intensity Volumizador Preto 9g
+    https://www.mercadolivre.com.br/p/MLB10452505
+MLB24206229  Base de maquiagem em pó compacto Dailus Pó compacto ultrafin
+    https://www.mercadolivre.com.br/p/MLB24206229
+MLB24206231  Base de maquiagem em pó compacto Dailus Pó compacto ultrafin
+    https://www.mercadolivre.com.br/p/MLB24206231
+MLB20668053  Forever Liss Xô Frizz Ampola Capilar 15ml
+    https://www.mercadolivre.com.br/p/MLB20668053
+MLB38135618  Máscara Capilar Recarga De Hidratação 500g
+    https://www.mercadolivre.com.br/p/MLB38135618
+MLB24206226  Base de maquiagem em pó compacto Dailus Pó compacto ultrafin
+    https://www.mercadolivre.com.br/p/MLB24206226
+MLB20567139  Gel Limpeza Facial Micelar Mandélico + Salicílico Botik 150g
+    https://www.mercadolivre.com.br/p/MLB20567139
+MLB62880371  Oleo Capilar Coco Pepilon 120ml
+    https://www.mercadolivre.com.br/p/MLB62880371
+MLB29260874  Leave-in Capilar Multifuncional - 120ml - Wepink
+    https://www.mercadolivre.com.br/p/MLB29260874
+MLB20614777  Inoar Argan Oil - Ampola Capilar 45ml
+    https://www.mercadolivre.com.br/p/MLB20614777
+MLB21634810  Pincel Para Sombra Maquiagem Marco Boni
+    https://www.mercadolivre.com.br/p/MLB21634810
+MLB46550471  Iluminador Facial Compacto Celestial Shine Ruby Rose Hbm701
+    https://www.mercadolivre.com.br/p/MLB46550471
+MLB61272803  Máscara Capilar Hidratação Intensiva Arvensis 300g
+    https://www.mercadolivre.com.br/p/MLB61272803
+MLB19769901  Loção Capilar Progressiva Pindorama 120ml
+    https://www.mercadolivre.com.br/p/MLB19769901
+MLB45700521  Gel Limpeza Facial Dove Regenerative Oleosa 150ml - Unilever
+    https://www.mercadolivre.com.br/p/MLB45700521
+MLB45224574  Máscara Cílios Alongadora Color Trend Super Looong Preto 7ml
+    https://www.mercadolivre.com.br/p/MLB45224574
+MLB28723288  Eudora Leave-in Capilar Selante Finalizador Siàge Liso Inten
+    https://www.mercadolivre.com.br/p/MLB28723288
+MLB19638952  Leave In Capilar Siàge Nutri Rose Termoprotetor 100ml Eudora
+    https://www.mercadolivre.com.br/p/MLB19638952
+MLB34852358  Máscara Cílios Volumizador Preto À Prova D'Água Febella MA30
+    https://www.mercadolivre.com.br/p/MLB34852358
+MLB29607113  Condicionador Hidratação Equilibrante Patauá300ml Loccitane
+    https://www.mercadolivre.com.br/p/MLB29607113
+MLB37700182  Óleo Capilar Alecrim Keratex 60ml
+    https://www.mercadolivre.com.br/p/MLB37700182
+MLB20622818  Dr.botica Creme Para Pentear 150g
+    https://www.mercadolivre.com.br/p/MLB20622818
+MLB62279922  Leave In Capilar Repair Line Hobety 150ml
+    https://www.mercadolivre.com.br/p/MLB62279922
+MLB19918521  Leave-in Capilar Amend Luxe Creations Reparação Intensa180ml
+    https://www.mercadolivre.com.br/p/MLB19918521
+MLB59309563  Jogo Conjunto Kit De Pincel Sombra Maquiagem 13 Peças Macio 
+    https://www.mercadolivre.com.br/p/MLB59309563
+MLB10481237  Máscara Cílios Sensacionais Lavável Preto Maybelline NY 9,5m
+    https://www.mercadolivre.com.br/p/MLB10481237
+MLB20259017  Condicionador Hidratação Intensiva - Arvensis - 300ml
+    https://www.mercadolivre.com.br/p/MLB20259017
+MLB22373275  TRESemmé Condicionador Hidratação Profunda 400ml
+    https://www.mercadolivre.com.br/p/MLB22373275
+MLB27678584  TRESemmé Condicionador Hidratação Profunda 650ml
+    https://www.mercadolivre.com.br/p/MLB27678584
+MLB39006259  Máscara Capilar Siàge Hidratação Micelar 250g
+    https://www.mercadolivre.com.br/p/MLB39006259
+MLB19759798  Creme Para Pentear 500ml Betobita
+    https://www.mercadolivre.com.br/p/MLB19759798
+MLB19559047  Leave-in Capilar Uniq One Green 150ml Revlon Professional
+    https://www.mercadolivre.com.br/p/MLB19559047
+MLB47592231  Avon Renew Ultimate Noite Creme Anti-idade 15g
+    https://www.mercadolivre.com.br/p/MLB47592231
+MLB46112585  Máscara Cílios Vivai Glam Preto Volume Alongamento
+    https://www.mercadolivre.com.br/p/MLB46112585
+MLB39978353  Primer Facial Natural Primer 4you Océane 30g Tom Do Primer S
+    https://www.mercadolivre.com.br/p/MLB39978353
+MLB20817880  Baby Dove Condicionador Hidratação Enriquecida 200ml
+    https://www.mercadolivre.com.br/p/MLB20817880
+MLB20785262  Loção Capilar Progressiva Camelia Formula Original
+    https://www.mercadolivre.com.br/p/MLB20785262
+MLB53230065  Kit Cronograma Capilar Pós Progressiva - Aneethun
+    https://www.mercadolivre.com.br/p/MLB53230065
+MLB59867950  Borabella Brush Fluído Escova 9x1 Leave In Capilar Spray
+    https://www.mercadolivre.com.br/p/MLB59867950
+MLB29603504  Leave-in Capilar Térmico Spray Vegano 5 Em 1 Blu Magic 60ml
+    https://www.mercadolivre.com.br/p/MLB29603504
+MLB49962048  Ampola Capilar Profios Power Hidratação 15ml
+    https://www.mercadolivre.com.br/p/MLB49962048
+MLB53469027  Kit Maquiagem Portátil Díario Rosa Minnie Mousedisney Fenzza
+    https://www.mercadolivre.com.br/p/MLB53469027
+MLB20335700  Condicionador Hidratação Profunda Vitallederm 300ml
+    https://www.mercadolivre.com.br/p/MLB20335700
+MLB25713591  Óleo capilr negra rosa/ óleo capilar rosa mosqueta/ blend de
+    https://www.mercadolivre.com.br/p/MLB25713591
+MLB53458449  Ampola Capilar Profios Power Reconstrução 15ml
+    https://www.mercadolivre.com.br/p/MLB53458449
+MLB44072241  Truss Shock Repair - Ampola Capilar 4x17ml
+    https://www.mercadolivre.com.br/p/MLB44072241
+MLB70222514  Kit 3x500ml Gel Limpeza Facial Vitalizy Pele Oleosa Acneica
+    https://www.mercadolivre.com.br/p/MLB70222514
+MLB59312933  Jogo Conjunto Kit De Pincel Sombra Maquiagem 13 Peças Macio 
+    https://www.mercadolivre.com.br/p/MLB59312933
+MLB22950786  Máscara Cílios Safira Incolor Modeladora Efeito Boneca 7ml
+    https://www.mercadolivre.com.br/p/MLB22950786
+MLB44149361  pó compacto Ruby Rose Glass Pó Compacto
+    https://www.mercadolivre.com.br/p/MLB44149361
+MLB25741623  Palito Plana Silicone Belliz Company Remoção Excesso Esmalte
+    https://www.mercadolivre.com.br/p/MLB25741623
+MLB57619995  Lápis Sobrancelha com Gel Fixador Melu By Ruby Rose
+    https://www.mercadolivre.com.br/p/MLB57619995
+MLB29771250  Avon Color Trend - Iluminador Facial Holográfico - Digital
+    https://www.mercadolivre.com.br/p/MLB29771250
+MLB42455806  Shampoo Profissional Babosa 1,9l - Kelma
+    https://www.mercadolivre.com.br/p/MLB42455806
+MLB19769465  Máscara Capilar Hidratação Betobita 300g
+    https://www.mercadolivre.com.br/p/MLB19769465
+MLB66383651  Escova Progressiva Capilar Vegana Burix 1l Prohall +
+    https://www.mercadolivre.com.br/p/MLB66383651
