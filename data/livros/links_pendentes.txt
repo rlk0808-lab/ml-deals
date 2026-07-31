@@ -4,54 +4,54 @@ Como usar: abra o link, clique em Compartilhar na barra preta de
 afiliados, copie o link gerado (meli.la/...) e cole em
 data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
-(gerado em 2026-07-30)
+(gerado em 2026-07-31)
 
 MLB57915746  Box Raphael Montes
     https://www.mercadolivre.com.br/p/MLB57915746
 MLB44758242  Warbreaker: O Sopro Dos Deuses, De Brandon Sanderson. Editor
     https://www.mercadolivre.com.br/p/MLB44758242
-MLB30861126  Box Percy Jackson e os olimpianos Nova edição de Rick Riorda
-    https://www.mercadolivre.com.br/p/MLB30861126
 MLB52971441  Mistborn: História Secreta, De Brandon Sanderson. Editorial 
     https://www.mercadolivre.com.br/p/MLB52971441
-MLB23813363  Tress, A Garota Do Mar Esmeralda, De Brandon Sanderson (), P
-    https://www.mercadolivre.com.br/p/MLB23813363
+MLB30861126  Box Percy Jackson e os olimpianos Nova edição de Rick Riorda
+    https://www.mercadolivre.com.br/p/MLB30861126
 MLB19369307  Livro Melhores contos Machado de Assis, de Joaquim Machado d
     https://www.mercadolivre.com.br/p/MLB19369307
+MLB23813363  Tress, A Garota Do Mar Esmeralda, De Brandon Sanderson (), P
+    https://www.mercadolivre.com.br/p/MLB23813363
 MLB19399736  Livro Bons hábitos, maus hábitos (Edição atualizada), de Woo
     https://www.mercadolivre.com.br/p/MLB19399736
 MLB21167026  Box Série Elementos
     https://www.mercadolivre.com.br/p/MLB21167026
-MLB37310228  O Manual Do Mago Frugal Para Sobrevivência Na Inglaterra Med
-    https://www.mercadolivre.com.br/p/MLB37310228
 MLB34135589  Livro A Batalha Do Labirinto - Série Percy Jackson E Os Olim
     https://www.mercadolivre.com.br/p/MLB34135589
+MLB37310228  O Manual Do Mago Frugal Para Sobrevivência Na Inglaterra Med
+    https://www.mercadolivre.com.br/p/MLB37310228
 MLB19441784  Livro Calamidade, de Sanderson, Brandon, vol. 3. Editorial E
     https://www.mercadolivre.com.br/p/MLB19441784
-MLB21414876  Livro Starsight, de Sanderson, Brandon, vol. 2. Editorial Pl
-    https://www.mercadolivre.com.br/p/MLB21414876
-MLB22026277  Box Império Galáctico
-    https://www.mercadolivre.com.br/p/MLB22026277
 MLB39773511  Livro A Fúria Da Deusa Tríplice, De Rick Riordan. Série Perc
     https://www.mercadolivre.com.br/p/MLB39773511
+MLB21414876  Livro Starsight, de Sanderson, Brandon, vol. 2. Editorial Pl
+    https://www.mercadolivre.com.br/p/MLB21414876
 MLB19417207  Livro Negócios: Um assunto de mulheres, de Fontes, Ana, tapa
     https://www.mercadolivre.com.br/p/MLB19417207
-MLB21194682  Crie Bons Hábitos: Livre - Se Dos Maus Hábitos
-    https://www.mercadolivre.com.br/p/MLB21194682
+MLB22026277  Box Império Galáctico
+    https://www.mercadolivre.com.br/p/MLB22026277
 MLB54103019  Box Relacionamentos Saudáveis
     https://www.mercadolivre.com.br/p/MLB54103019
+MLB21194682  Crie Bons Hábitos: Livre - Se Dos Maus Hábitos
+    https://www.mercadolivre.com.br/p/MLB21194682
 MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
     https://www.mercadolivre.com.br/p/MLB36202363
-MLB35365698  Livro Um caso improvável, de Yarros, Rebecca. Editorial Veru
-    https://www.mercadolivre.com.br/p/MLB35365698
 MLB26355500  Lugar Feliz: Lugar Feliz, De Henry, Emily. Editora Verus, Ca
     https://www.mercadolivre.com.br/p/MLB26355500
 MLB19771891  Box Essencial Conquistadores (3 Livros) *
     https://www.mercadolivre.com.br/p/MLB19771891
-MLB30188985  Dark One, de Sanderson, Brandon. Editora Poseidon, capa dura
-    https://www.mercadolivre.com.br/p/MLB30188985
+MLB35365698  Livro Um caso improvável, de Yarros, Rebecca. Editorial Veru
+    https://www.mercadolivre.com.br/p/MLB35365698
 MLB19430983  Livro-streampunks- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB19430983
+MLB30188985  Dark One, de Sanderson, Brandon. Editora Poseidon, capa dura
+    https://www.mercadolivre.com.br/p/MLB30188985
 MLB21687753  Livro Negócios Recodificados, de Fisk, Peter. Editorial DVS 
     https://www.mercadolivre.com.br/p/MLB21687753
 MLB53759056  Box Sandel
@@ -60,62 +60,64 @@ MLB25775586  Livro-recarregue-se!- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB25775586
 MLB19295746  Livro Tormenta de Fogo, de Sanderson, Brandon, vol. 2. Edito
     https://www.mercadolivre.com.br/p/MLB19295746
-MLB19301929  Livro Coração de Aço, de Sanderson, Brandon, vol. 1. Editori
-    https://www.mercadolivre.com.br/p/MLB19301929
-MLB23661891  Livro-verdade?- Editora Best Seller
-    https://www.mercadolivre.com.br/p/MLB23661891
 MLB19820634  Livro O Morro Dos Ventos Uivantes - Emily Brontë
     https://www.mercadolivre.com.br/p/MLB19820634
-MLB54102040  Box Stanislavski
-    https://www.mercadolivre.com.br/p/MLB54102040
+MLB23661891  Livro-verdade?- Editora Best Seller
+    https://www.mercadolivre.com.br/p/MLB23661891
+MLB19301929  Livro Coração de Aço, de Sanderson, Brandon, vol. 1. Editori
+    https://www.mercadolivre.com.br/p/MLB19301929
 MLB19744860  Box Coleção Patrícia
     https://www.mercadolivre.com.br/p/MLB19744860
-MLB20810939  Livro Romance Espírita Preto Como Leite E Branco Como O Café
-    https://www.mercadolivre.com.br/p/MLB20810939
 MLB40957770  A Ciência De Ficar Rico: O Livro Clássico Do Sucesso Finance
     https://www.mercadolivre.com.br/p/MLB40957770
+MLB54102040  Box Stanislavski
+    https://www.mercadolivre.com.br/p/MLB54102040
+MLB20810939  Livro Romance Espírita Preto Como Leite E Branco Como O Café
+    https://www.mercadolivre.com.br/p/MLB20810939
 MLB40283388  Box Alice - Box Com 2 Livros - Edição De Luxo Almofadada
     https://www.mercadolivre.com.br/p/MLB40283388
+MLB37149234  Biblioteca Nietzsche - Box Com 4 Livros
+    https://www.mercadolivre.com.br/p/MLB37149234
 MLB21691796  Livro Negócios Eco-lógicos na Era do Greenwashing, de Humair
     https://www.mercadolivre.com.br/p/MLB21691796
 MLB68707420  Livro Desenvolvimento Matemático Na Criança, De Brizuela, Bá
     https://www.mercadolivre.com.br/p/MLB68707420
 MLB22154240  Livro O Livro Dos 5 Anéis: O Clássico Guia De Estratégia
     https://www.mercadolivre.com.br/p/MLB22154240
-MLB37149234  Biblioteca Nietzsche - Box Com 4 Livros
-    https://www.mercadolivre.com.br/p/MLB37149234
 MLB22820495  Livro Quincas Borba - Machado De Assis
     https://www.mercadolivre.com.br/p/MLB22820495
 MLB20760429  Box Lu & Bilu
     https://www.mercadolivre.com.br/p/MLB20760429
-MLB21580803  Livro: Pai Contra Mãe - Machado De Assis
-    https://www.mercadolivre.com.br/p/MLB21580803
 MLB57098569  Livro Percy Jackson e os Olimpianos Crie seu destino De Disn
     https://www.mercadolivre.com.br/p/MLB57098569
-MLB22381340  Livro Dom Casmurro - Machado De Assis
-    https://www.mercadolivre.com.br/p/MLB22381340
+MLB21580803  Livro: Pai Contra Mãe - Machado De Assis
+    https://www.mercadolivre.com.br/p/MLB21580803
 MLB66305472  Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, 
     https://www.mercadolivre.com.br/p/MLB66305472
-MLB22154835  Box Essencial Quantico
-    https://www.mercadolivre.com.br/p/MLB22154835
+MLB22381340  Livro Dom Casmurro - Machado De Assis
+    https://www.mercadolivre.com.br/p/MLB22381340
 MLB19379986  Livro Contos de Machado de Assis, de Assis, Machado de. Edit
     https://www.mercadolivre.com.br/p/MLB19379986
+MLB22154835  Box Essencial Quantico
+    https://www.mercadolivre.com.br/p/MLB22154835
 MLB70945977  Livro Hábitos Das Pessoas Eficientes E Felizes
     https://www.mercadolivre.com.br/p/MLB70945977
-MLB21397020  Hábitos Escravizadores - Livro Edward T. Welch
-    https://www.mercadolivre.com.br/p/MLB21397020
 MLB22156338  Maldições Não Quebradas Livro Rebecca Brown, de Rebecca Brow
     https://www.mercadolivre.com.br/p/MLB22156338
+MLB21397020  Hábitos Escravizadores - Livro Edward T. Welch
+    https://www.mercadolivre.com.br/p/MLB21397020
 MLB71715115  Livro A Poesia Da Literatura Brasileira: Do Barroco Ao Moder
     https://www.mercadolivre.com.br/p/MLB71715115
 MLB60720366  Livro Wuthering Heights - Emily Brontë, De Emily Brontë, Vol
     https://www.mercadolivre.com.br/p/MLB60720366
-MLB26473013  Livro NEGÓCIOS DE HONRA, de BOB HASSON. Editorial EDICOES E 
-    https://www.mercadolivre.com.br/p/MLB26473013
 MLB47099395  Box Desperte
     https://www.mercadolivre.com.br/p/MLB47099395
 MLB19189031  Livro Negócios de família, de Ginsberg, Allen. Editorial Edi
     https://www.mercadolivre.com.br/p/MLB19189031
+MLB26473013  Livro NEGÓCIOS DE HONRA, de BOB HASSON. Editorial EDICOES E 
+    https://www.mercadolivre.com.br/p/MLB26473013
+MLB21396402  Box Livros Arséne Lupin - Clássicos - 3 Volumes
+    https://www.mercadolivre.com.br/p/MLB21396402
 MLB25801919  Kit Colleen Hoover: Novembro 9, Layla, Sem Esperança, De Col
     https://www.mercadolivre.com.br/p/MLB25801919
 MLB39933910  Biblioteca Nórdica - Box Com 3 Livros
@@ -124,5 +126,3 @@ MLB26353001  De Ferias Com Voce - 1ªed.(2022), De Emily Henry. Editora Ve
     https://www.mercadolivre.com.br/p/MLB26353001
 MLB71604003  Livro Desencantos: Fantasia Dramática
     https://www.mercadolivre.com.br/p/MLB71604003
-MLB21396402  Box Livros Arséne Lupin - Clássicos - 3 Volumes
-    https://www.mercadolivre.com.br/p/MLB21396402
