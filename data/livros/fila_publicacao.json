@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "data": "2026-07-31",
+    "product_id": "MLB19397700",
+    "nome": "Livro Mr Mercedes Stephen King Edição 1 Português 2016 Editora Suma",
+    "preco": 49.99,
+    "preco_original": null,
+    "n_ofertas": 82,
+    "item_id": "MLB4976506657",
+    "seller_id": 1979594567,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19397700",
+    "mediana": 64.3,
+    "minimo_hist": 61.65,
+    "desconto": 22.3,
+    "recorde": true,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_914579-MLA113308527973_062026-F.jpg",
+    "tipo": "camada1",
+    "enfileirado_em": "2026-07-31T21:09:38.732211+00:00"
+  }
+]
