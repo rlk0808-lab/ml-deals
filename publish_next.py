@@ -131,14 +131,26 @@ def montar_cupom(o: dict, cfg: dict) -> str:
     return cupons.montar_cupom(o.get("codigo", ""), o.get("texto_cupom", ""), cfg)
 
 
+def _footer_cupom_ativo(cfg: dict) -> str:
+    """Cupom colado ha menos de 24h pro nicho (ver cupons.py) - anexado
+    nas mensagens normais, alem do post dedicado que ja sai na hora."""
+    import cupons
+    ativo = cupons.obter_cupom_ativo(cfg["slug"])
+    if not ativo:
+        return ""
+    return f"\n\n🎟️ Cupom ativo hoje: {ativo['codigo']} - {ativo['texto']}"
+
+
 def montar_mensagem(item: dict, cfg: dict) -> str:
-    if item.get("tipo") == "camada2":
-        return montar_camada2(item, cfg)
-    if item.get("tipo") == "falso_desconto":
-        return montar_falso_desconto(item, cfg)
     if item.get("tipo") == "cupom":
         return montar_cupom(item, cfg)
-    return montar_camada1(item, cfg)
+    if item.get("tipo") == "camada2":
+        texto = montar_camada2(item, cfg)
+    elif item.get("tipo") == "falso_desconto":
+        texto = montar_falso_desconto(item, cfg)
+    else:
+        texto = montar_camada1(item, cfg)
+    return texto + _footer_cupom_ativo(cfg)
 
 
 def esta_vencido(item: dict) -> bool:

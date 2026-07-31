@@ -40,12 +40,17 @@ nicho precisa ser um dos existentes em config/nichos.json. O link
 
 import json
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
 
 NOVOS = Path("data") / "cupons_novos.txt"
+
+# cupom de plataforma costuma durar so 1 dia - depois disso, mencionar
+# ele dentro das mensagens normais (camada1/camada2/falso desconto)
+# vira informacao velha/errada, entao some sozinho
+DURACAO_CUPOM_ATIVO_HORAS = 24
 
 NICHOS_VALIDOS = set(
     json.loads(Path("config/nichos.json").read_text(encoding="utf-8")))
@@ -67,6 +72,33 @@ _CABECALHO = (
     "#   casa | CASA15OFF | 15% off em Casa e Decoracao, minimo R$150, ate 01/08\n"
     "# O coletor importa sozinho na proxima rodada e limpa o arquivo.\n"
 )
+
+
+def _arquivo_cupom_ativo(nicho: str) -> Path:
+    return Path("data") / nicho / "cupom_ativo.json"
+
+
+def salvar_cupom_ativo(nicho: str, codigo: str, texto: str) -> None:
+    expira_em = datetime.now(timezone.utc) + timedelta(hours=DURACAO_CUPOM_ATIVO_HORAS)
+    _arquivo_cupom_ativo(nicho).write_text(
+        json.dumps({"codigo": codigo, "texto": texto,
+                    "expira_em": expira_em.isoformat()}, ensure_ascii=False),
+        encoding="utf-8")
+
+
+def obter_cupom_ativo(nicho: str) -> dict | None:
+    """Devolve {codigo, texto} se ainda tem cupom valido (< 24h desde
+    que foi colado) pra esse nicho, senao None. Usado pra anexar uma
+    linha de cupom nas mensagens normais - nao so no post dedicado."""
+    arq = _arquivo_cupom_ativo(nicho)
+    try:
+        dados = json.loads(arq.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return None
+    expira_em = datetime.fromisoformat(dados["expira_em"])
+    if datetime.now(timezone.utc) >= expira_em:
+        return None
+    return {"codigo": dados["codigo"], "texto": dados["texto"]}
 
 
 def montar_cupom(codigo: str, texto: str, cfg: dict) -> str:
@@ -199,6 +231,12 @@ def importar_novos(nicho_atual: str, cfg: dict) -> tuple[int, list[str]]:
                              encoding="utf-8")
         for item in novos_desta_rodada:
             print(f"[cupons] {item['codigo']} ({nicho_atual}) inserido na frente da fila")
+
+        # o ultimo cupom colado nessa rodada vira o "cupom ativo" do
+        # nicho (24h) - anexado nas mensagens normais, nao so no post
+        # dedicado
+        ultimo = novos_desta_rodada[-1]
+        salvar_cupom_ativo(nicho_atual, ultimo["codigo"], ultimo["texto_cupom"])
 
     novo_conteudo = _CABECALHO + "\n".join(restantes)
     if restantes:
