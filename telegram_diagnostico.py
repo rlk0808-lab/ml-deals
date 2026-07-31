@@ -26,11 +26,13 @@ def main() -> int:
     dados = r2.json()
     print(f"\n{len(dados.get('result', []))} atualizacao(oes) recente(s):")
     for u in dados.get("result", []):
-        msg = u.get("message", {})
-        chat = msg.get("chat", {})
+        # mensagem de texto normal (privado) OU bot sendo adicionado a um
+        # grupo/canal (my_chat_member) - o segundo nao tem "message"
+        origem = u.get("message") or u.get("my_chat_member") or u.get("channel_post") or {}
+        chat = origem.get("chat", {})
         print(f"- chat_id={chat.get('id')} | tipo={chat.get('type')} | "
-              f"nome={chat.get('first_name', chat.get('title', '?'))} | "
-              f"texto={msg.get('text', '')!r}")
+              f"nome={chat.get('title', chat.get('first_name', '?'))} | "
+              f"texto={origem.get('text', '')!r} | evento={list(u.keys())[1:]}")
 
     return 0
 
