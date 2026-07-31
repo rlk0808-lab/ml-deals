@@ -32,6 +32,10 @@ LOGO = Path("assets") / "logo" / "icone.png"
 MIN_DIAS_HIST = 14  # espelha collector.py - so pra mensagem de status
 TELEGRAM_LINK = "https://t.me/addlist/2TD1Un1OO5Y3MGI5"  # entra em todos os canais de 1 vez
 WHATSAPP_LINK = "https://chat.whatsapp.com/JGvCrkWCfBmKS9KW4m1HD2"  # Comunidade - da acesso aos 4 grupos
+FACEBOOK_LINK = "https://www.facebook.com/profile.php?id=61592739895725"
+INSTAGRAM_LINK = "https://www.instagram.com/caiudeverdade/"
+THREADS_LINK = "https://www.threads.com/@caiudeverdade"
+X_LINK = "https://x.com/CaiudeVerdade"
 
 # chave publica do Web3Forms (nao e segredo - e so o identificador de
 # pra onde o formulario entrega, o mesmo esquema de uma action de form
@@ -363,6 +367,13 @@ footer.rodape p{margin:14px 0 0; max-width:60ch}
 .cta-whatsapp:hover{background:#25D366; color:#fff}
 .link-sugerir{font-weight:600}
 
+.redes-sociais{margin-top:18px; display:flex; align-items:center; gap:14px; flex-wrap:wrap}
+.redes-sociais span{font-size:13px}
+.redes-sociais a{display:inline-flex; align-items:center; justify-content:center; width:34px; height:34px;
+  border-radius:50%; background:var(--bg-alto); border:1px solid var(--linha); color:var(--tinta);
+  text-decoration:none; font-size:15px}
+.redes-sociais a:hover{background:var(--acao); border-color:var(--acao); color:#fff}
+
 .form-sugestao{display:flex; flex-direction:column; gap:18px; max-width:520px; margin:28px 0}
 .form-sugestao label{display:flex; flex-direction:column; gap:7px; font-size:14px; font-weight:600}
 .form-sugestao input, .form-sugestao select{padding:13px 16px; border-radius:16px; border:1px solid var(--linha);
@@ -420,6 +431,13 @@ def base_page(titulo: str, descricao: str, corpo: str, raiz: str,
 <footer class="rodape"><div class="wrap">
   <a class="cta-telegram" href="{TELEGRAM_LINK}" target="_blank" rel="noopener">📬 Seguir todos os canais no Telegram</a>
   <a class="cta-whatsapp" href="{WHATSAPP_LINK}" target="_blank" rel="noopener">📲 Entrar na Comunidade do WhatsApp</a>
+  <div class="redes-sociais">
+    <span>Siga a gente:</span>
+    <a href="{FACEBOOK_LINK}" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook">f</a>
+    <a href="{INSTAGRAM_LINK}" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">ig</a>
+    <a href="{THREADS_LINK}" target="_blank" rel="noopener" aria-label="Threads" title="Threads">@</a>
+    <a href="{X_LINK}" target="_blank" rel="noopener" aria-label="X" title="X">x</a>
+  </div>
   <p>Todo preço aqui vem de coleta automática comparada com o histórico real do produto.
   Nunca com o "de/por" da loja. <a href="{raiz}/index.html">Como funciona</a>.
   Não achou o que procura? <a class="link-sugerir" href="{raiz}/sugerir.html">Peça pra gente
