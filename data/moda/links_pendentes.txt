@@ -4,7 +4,7 @@ Como usar: abra o link, clique em Compartilhar na barra preta de
 afiliados, copie o link gerado (meli.la/...) e cole em
 data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
-(gerado em 2026-07-30)
+(gerado em 2026-07-31)
 
 MLB45476185  Chinelo Masculino 921 Olympikus -chocolate Castor Liso
     https://www.mercadolivre.com.br/p/MLB45476185
@@ -20,8 +20,6 @@ MLB32067720  Limpa Couro 240ml Kourex Razux Para Moto Calça Jaqueta Bota
     https://www.mercadolivre.com.br/p/MLB32067720
 MLB36951560  Elástico Listrado P/ Cós Cueca Box Calcinha Top N40 - 20 Mts
     https://www.mercadolivre.com.br/p/MLB36951560
-MLB75166507  Mochila Masculina Executiva Notebook Com Usb Couro Sintetico
-    https://www.mercadolivre.com.br/p/MLB75166507
 MLB45422540  Chinelo Masculino Drifter Foam Fila Liso
     https://www.mercadolivre.com.br/p/MLB45422540
 MLB38199118  200 Pino Rebite P/ Fixar Botão De Calça Saia Bermuda Jeans
@@ -42,10 +40,16 @@ MLB27599981  Cinto Prende Camisa Social Alinhada Elástico Preto Adulto
     https://www.mercadolivre.com.br/p/MLB27599981
 MLB38884034  2 Abotoador Abotoar Botões Camisa Social Costura Confecção C
     https://www.mercadolivre.com.br/p/MLB38884034
+MLB75166507  Mochila Masculina Executiva Notebook Com Usb Couro Sintetico
+    https://www.mercadolivre.com.br/p/MLB75166507
 MLB69958458  Conjunto Calça Térmica Flanelada E Blusa Térmica Feminina Pr
     https://www.mercadolivre.com.br/p/MLB69958458
 MLB62841399  Tênis Feminino Casual Moleca
     https://www.mercadolivre.com.br/p/MLB62841399
+MLB46238444  Chinelo Masculino Folie Pegada Liso
+    https://www.mercadolivre.com.br/p/MLB46238444
+MLB46238396  Chinelo Masculino Folie Pegada Liso
+    https://www.mercadolivre.com.br/p/MLB46238396
 MLB45422545  Chinelo Masculino Drifter Foam Fila Liso
     https://www.mercadolivre.com.br/p/MLB45422545
 MLB70518077  Meia Cano Alto Seleção Neymar Copa Brasil Divertida Premium 
@@ -72,10 +76,6 @@ MLB62841397  Tênis Feminino Casual Moleca
     https://www.mercadolivre.com.br/p/MLB62841397
 MLB47536439  Chinelo Masculino Drifter Basic Fila Liso
     https://www.mercadolivre.com.br/p/MLB47536439
-MLB46238444  Chinelo Masculino Folie Pegada Liso
-    https://www.mercadolivre.com.br/p/MLB46238444
-MLB46238396  Chinelo Masculino Folie Pegada Liso
-    https://www.mercadolivre.com.br/p/MLB46238396
 MLB46408293  Chinelo Masculino Sleek Slide Fila Liso
     https://www.mercadolivre.com.br/p/MLB46408293
 MLB69401178  Boné Aba Reta Snapback Still Ajustável Anth Co Mescla Cinza/
@@ -110,7 +110,7 @@ MLB45475692  Chinelo Masculino 921 Olympikus
     https://www.mercadolivre.com.br/p/MLB45475692
 MLB57436601  Boné Aba Reta Apocalypt
     https://www.mercadolivre.com.br/p/MLB57436601
-MLB65529087  Touca Gorro Beanie + Luva Térmica Lã Preta
-    https://www.mercadolivre.com.br/p/MLB65529087
 MLB20674693  Limpa Tênis Sapato Bolsa Instantâneo Magic Wipes Prático pro
     https://www.mercadolivre.com.br/p/MLB20674693
+MLB75195451  Cueca Algodão 2 Boxer Uso Prolongado Incontinência Urinária 
+    https://www.mercadolivre.com.br/p/MLB75195451
