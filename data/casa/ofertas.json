@@ -32,5 +32,22 @@
     "minimo_hist": 119.0,
     "desconto": 24.8,
     "recorde": true
+  },
+  {
+    "data": "2026-07-31",
+    "product_id": "MLB25148726",
+    "nome": "Potes Hermeticos Helsim Cor Preto",
+    "preco": 29.9,
+    "preco_original": null,
+    "n_ofertas": 5,
+    "item_id": "MLB4923464053",
+    "seller_id": 159175432,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB25148726",
+    "mediana": 37.32,
+    "minimo_hist": 37.32,
+    "desconto": 19.9,
+    "recorde": true
   }
 ]
