@@ -1,0 +1,31 @@
+name: Apagar mensagens do Telegram
+
+on:
+  # Ferramenta de emergencia - apaga mensagens especificas (chat_id +
+  # message_id) quando algo errado foi publicado.
+  workflow_dispatch:
+    inputs:
+      pares:
+        description: "chat_id:message_id separados por virgula"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  apagar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r requirements.txt
+
+      - name: Apagar
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+        run: python -u apagar_mensagens_telegram.py "${{ github.event.inputs.pares }}"

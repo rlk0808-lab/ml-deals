@@ -62,7 +62,12 @@ def main() -> int:
             timeout=20)
         ok = r.status_code == 200
         ok_geral = ok_geral and ok
-        print(f"[cupons-dia] {nicho}: {'enviado' if ok else 'FALHOU'} ({r.status_code})")
+        # guarda chat_id + message_id no log - sem isso, nao da pra
+        # apagar a mensagem depois se algo sair errado (API do Telegram
+        # nao lista mensagens antigas do bot, so o que foi anotado na hora)
+        msg_id = r.json().get("result", {}).get("message_id") if ok else None
+        print(f"[cupons-dia] {nicho}: {'enviado' if ok else 'FALHOU'} ({r.status_code}) "
+              f"chat_id={chat} message_id={msg_id}")
 
     return 0 if ok_geral else 1
 
