@@ -4,6 +4,14 @@ on:
   workflow_run:
     workflows: ["Coletor de ofertas ML"]
     types: [completed]
+  # dispara na hora quando o CODIGO do site muda (design, texto, links) -
+  # sem isso, uma mudanca so aparecia no proximo workflow_run do coletor
+  # (ate 3h de atraso), mesmo sem nenhum dado novo pra justificar a espera
+  push:
+    branches: [main]
+    paths:
+      - "site_builder.py"
+      - "config/nichos.json"
   workflow_dispatch:
 
 permissions:
@@ -17,7 +25,7 @@ jobs:
     # parava de atualizar toda vez que um nicho falhasse, mesmo com dado
     # novo real dos outros 3 ja commitado. So pulamos mesmo em 'cancelled'
     # (nada rodou de verdade).
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' || github.event.workflow_run.conclusion == 'failure' }}
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.workflow_run.conclusion == 'success' || github.event.workflow_run.conclusion == 'failure' }}
     runs-on: ubuntu-latest
 
     steps:
