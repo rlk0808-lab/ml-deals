@@ -3549,9 +3549,11 @@
     "status": "sem_programa"
   },
   "MLB19918521": {
-    "link": "",
+    "link": "https://meli.la/1zKPd79",
     "nome": "",
-    "status": "sem_programa"
+    "status": "ok",
+    "adicionado_em": "2026-08-01",
+    "inconclusivos_seguidos": 0
   },
   "MLB49962048": {
     "link": "https://meli.la/2XhQVqR",
@@ -3679,6 +3681,41 @@
   },
   "MLB67831479": {
     "link": "https://meli.la/1GQRCoP",
+    "nome": "",
+    "adicionado_em": "2026-08-01",
+    "status": "ok",
+    "inconclusivos_seguidos": 0
+  },
+  "MLB64486325": {
+    "link": "https://meli.la/29kca6A",
+    "nome": "",
+    "adicionado_em": "2026-08-01",
+    "status": "ok",
+    "inconclusivos_seguidos": 0
+  },
+  "MLB45422545": {
+    "link": "https://meli.la/2gYWyFX",
+    "nome": "",
+    "adicionado_em": "2026-08-01",
+    "status": "ok",
+    "inconclusivos_seguidos": 0
+  },
+  "MLB69958458": {
+    "link": "https://meli.la/2uRdjhd",
+    "nome": "",
+    "adicionado_em": "2026-08-01",
+    "status": "ok",
+    "inconclusivos_seguidos": 0
+  },
+  "MLB70169772": {
+    "link": "https://meli.la/2KXRd12",
+    "nome": "",
+    "adicionado_em": "2026-08-01",
+    "status": "ok",
+    "inconclusivos_seguidos": 0
+  },
+  "MLB70518077": {
+    "link": "https://meli.la/2JRU26N",
     "nome": "",
     "adicionado_em": "2026-08-01",
     "status": "ok",
