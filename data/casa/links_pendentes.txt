@@ -28,6 +28,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB25836001
 ⭐ MLB29043753  Jogo Copos De Vidro Diamond Fio De Ouro 270ml 12 Peças Lyor
     https://www.mercadolivre.com.br/p/MLB29043753
+⭐ MLB45302528  Porta Condimentos Temperos Especiarias Gin Organizador Cozin
+    https://www.mercadolivre.com.br/p/MLB45302528
+⭐ MLB22609351  Nicho Prateleira Parede Arnad 100x20 Cm Branco/branco Cor Br
+    https://www.mercadolivre.com.br/p/MLB22609351
+⭐ MLB44771733  Descansos de Panela Ferro Arabesco Preto Kit 2 Peças 14cm
+    https://www.mercadolivre.com.br/p/MLB44771733
 MLB74694174  Kit Potes Porta Mantimento Hermético Quadrado Cozinha 6 Pçs
     https://www.mercadolivre.com.br/p/MLB74694174
 MLB56347591  Sanduicheira Grill Elétrica 750w Be Smart Cozinha Fácil Pret
@@ -62,12 +68,6 @@ MLB70022349  Kit 7 Potes Hermeticos Acrilico Para Cozinha Organizador Bra
     https://www.mercadolivre.com.br/p/MLB70022349
 MLB61203755  Sanduicheira Grill Elétrica 750w Dupla Antiaderente Sa Black
     https://www.mercadolivre.com.br/p/MLB61203755
-MLB45302528  Porta Condimentos Temperos Especiarias Gin Organizador Cozin
-    https://www.mercadolivre.com.br/p/MLB45302528
-MLB22609351  Nicho Prateleira Parede Arnad 100x20 Cm Branco/branco Cor Br
-    https://www.mercadolivre.com.br/p/MLB22609351
-MLB44771733  Descansos de Panela Ferro Arabesco Preto Kit 2 Peças 14cm
-    https://www.mercadolivre.com.br/p/MLB44771733
 MLB47450869  Caçarola Panela Ferro Fundido Com Tampa De Vidro 2 Alças N22
     https://www.mercadolivre.com.br/p/MLB47450869
 MLB50616946  Frigideira Antiaderente Panelas: Frigideira Antiaderente De
