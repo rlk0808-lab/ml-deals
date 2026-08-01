@@ -1,15 +1,6 @@
 [
   {
     "data": "2026-08-01",
-    "product_id": "cupom-CASAPROMO",
-    "nome": "Cupom CASAPROMO",
-    "tipo": "cupom",
-    "codigo": "CASAPROMO",
-    "texto_cupom": "25% off em Casa e Decoracao, minimo R$19, desconto maximo R$150, valido ate 04/08",
-    "enfileirado_em": "2026-08-01T22:19:36.183994+00:00"
-  },
-  {
-    "data": "2026-08-01",
     "product_id": "MLB53667854",
     "nome": "Sanduicheira Grill Elétrica Inox 1000W Antiaderente",
     "preco": 119.99,
