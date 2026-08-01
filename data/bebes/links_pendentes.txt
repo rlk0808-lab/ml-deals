@@ -6,14 +6,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 (gerado em 2026-08-01)
 
+⭐ MLB23582969  Mochila bolsa maternidade bebê mescla azul Hug
+    https://www.mercadolivre.com.br/p/MLB23582969
 ⭐ MLB42621641  Cadeira Alimentação Bebê Ajustável Portátil Pimpolho Cor Cin
     https://www.mercadolivre.com.br/p/MLB42621641
 ⭐ MLB22560306  Móbile Berço Bebê Musical E Giratório Ovelinha Bege
     https://www.mercadolivre.com.br/p/MLB22560306
 ⭐ MLB66583684  Colchão Berço Impermeável Espuma D20 70x130x10cm Bela Branco
     https://www.mercadolivre.com.br/p/MLB66583684
-⭐ MLB29195932  Mochila Bolsa Lequeen Maternidade Executiva Multifuncional C
-    https://www.mercadolivre.com.br/p/MLB29195932
 ⭐ MLB24670405  Alicate Pregar Aplicar Botão Metal 35 Body Roupa Bebê Tictac
     https://www.mercadolivre.com.br/p/MLB24670405
 ⭐ MLB29157731  Espelho Retrovisor Carro Ver Cadeirinha Bebê Conforto- Buba
@@ -42,10 +42,18 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB54201729
 ⭐ MLB27331727  Trocador Porta Fraldas Portátil Papi Friends Panda
     https://www.mercadolivre.com.br/p/MLB27331727
+⭐ MLB61688382  Canguru Sling Bolsa Bebe Carregador Mochila Cor Rosa Confort
+    https://www.mercadolivre.com.br/p/MLB61688382
+⭐ MLB32385853  Mordedor Bebe Bananinha - Massageador Escovinha Cor Amarelo
+    https://www.mercadolivre.com.br/p/MLB32385853
+⭐ MLB25687571  Babá Eletrônica Monitor De Vídeo Vb601 2
+    https://www.mercadolivre.com.br/p/MLB25687571
 ⭐ MLB72078806  Cercadinho Bebê Chiquerinho Leão Portátil Maho Dreams - 180x
     https://www.mercadolivre.com.br/p/MLB72078806
 ⭐ MLB62842938  Canguru Sling De Bebe Carregar Recem Nascido Dry Fit Furadin
     https://www.mercadolivre.com.br/p/MLB62842938
+MLB29195932  Mochila Bolsa Lequeen Maternidade Executiva Multifuncional C
+    https://www.mercadolivre.com.br/p/MLB29195932
 MLB23059798  Cadeira Alimentação Bebe Cadeirão Galzerano Alta Nick Zoo
     https://www.mercadolivre.com.br/p/MLB23059798
 MLB26826980  Cadeira Alimentação Descanso Infantil Som Vibra Rosa Inmetro
@@ -68,10 +76,6 @@ MLB50093886  Colchão Berço Americano Ortobom Baby Light D18 70x130cm Anti
     https://www.mercadolivre.com.br/p/MLB50093886
 MLB66383481  Banheira Bebê Galzerano Acqua Premium Perolado Dourado Liso
     https://www.mercadolivre.com.br/p/MLB66383481
-MLB61688382  Canguru Sling Bolsa Bebe Carregador Mochila Cor Rosa Confort
-    https://www.mercadolivre.com.br/p/MLB61688382
-MLB32385853  Mordedor Bebe Bananinha - Massageador Escovinha Cor Amarelo
-    https://www.mercadolivre.com.br/p/MLB32385853
 MLB42814766  Chocalho Mordedor Bebê Flexível Rosa Looney Tunes BabyGo 3m+
     https://www.mercadolivre.com.br/p/MLB42814766
 MLB27831940  Esterilizador De Mamadeira A Vapor Para Microondas Buba
@@ -122,7 +126,3 @@ MLB43838477  Prendedor de Chupeta Bebê Silicone Transparente-Rosa 2 Unida
     https://www.mercadolivre.com.br/p/MLB43838477
 MLB65189752  Colchão Berço Americano Prorelax Bela Impermeável 10cm Branc
     https://www.mercadolivre.com.br/p/MLB65189752
-MLB44882650  Esterilizador De Mamadeira Para Microondas Kuka
-    https://www.mercadolivre.com.br/p/MLB44882650
-MLB25482059  Esterilizador Elétrico De Mamadeira Chupeta Avent
-    https://www.mercadolivre.com.br/p/MLB25482059
