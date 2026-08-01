@@ -56,10 +56,6 @@ WORKERS = 8
 SOMENTE_COM_LINK_AFILIADO = True
 MAX_FALHAS = 10
 
-# Camada 2 - "melhor preco hoje": roda 1x/dia, na primeira rodada (6h BRT = 9h UTC),
-# para o canal nao ficar mudo enquanto o historico de 14 dias nao fecha.
-HORA_CAMADA2_UTC = 9
-
 # Fila de publicacao: quem posta de verdade e o publish_next.py, a cada 30 min
 # (07h-23h30 BRT = 34 disparos/dia). Aqui so decidimos o que ENTRA na fila.
 # O dedup por product_id em enfileirar() evita fila crescer sem controle -
@@ -1008,27 +1004,27 @@ def main() -> int:
     else:
         print("[ofertas] nenhuma - esperado enquanto o historico e curto")
 
-    # Camada 2 - so na primeira rodada do dia, pra nao repetir 4x
-    hora_atual = datetime.now(timezone.utc).hour
-    forcar_c2 = os.environ.get("FORCAR_CAMADA2", "").strip() == "1"
-    if hora_atual == HORA_CAMADA2_UTC or forcar_c2:
-        ja_notificados = {o["product_id"] for o in ofertas}
-        estado_c2 = carregar_estado_camada2(d)
-        candidatos_c2 = detectar_camada2(hoje, ja_notificados, estado_c2)
+    # Camada 2 - roda toda rodada (igual falso desconto) - a propria
+    # detectar_camada2 ja pula produto que nao mudou de preco/vendedor
+    # desde o ultimo post, entao rodar mais vezes nao repete conteudo,
+    # so pega mais rapido quem mudou. Antes ficava limitada a 1x/dia
+    # (9h UTC) por seguranca extra, mas isso deixava o canal sem volume
+    # de Camada 2 o resto do dia - a deduplicacao de conteudo ja e
+    # suficiente sozinha.
+    ja_notificados = {o["product_id"] for o in ofertas}
+    estado_c2 = carregar_estado_camada2(d)
+    candidatos_c2 = detectar_camada2(hoje, ja_notificados, estado_c2)
 
-        if candidatos_c2:
-            candidatos_c2 = candidatos_c2[:LIMITE_FILA_CAMADA2]
-            prioritarios_link |= {o["product_id"] for o in candidatos_c2}
-            for o in candidatos_c2:
-                print(f"   [camada2] R${o['preco']:.2f} "
-                      f"({o['n_ofertas']} vendedores) {o['nome'][:50]}")
-            preparar_imagens(tk, candidatos_c2, wl)
-            enfileirar(d, candidatos_c2, tipo="camada2", limite=LIMITE_FILA_CAMADA2)
-        else:
-            print("[camada2] nada novo pra postar hoje")
+    if candidatos_c2:
+        candidatos_c2 = candidatos_c2[:LIMITE_FILA_CAMADA2]
+        prioritarios_link |= {o["product_id"] for o in candidatos_c2}
+        for o in candidatos_c2:
+            print(f"   [camada2] R${o['preco']:.2f} "
+                  f"({o['n_ofertas']} vendedores) {o['nome'][:50]}")
+        preparar_imagens(tk, candidatos_c2, wl)
+        enfileirar(d, candidatos_c2, tipo="camada2", limite=LIMITE_FILA_CAMADA2)
     else:
-        print(f"[camada2] pulado (roda so as {HORA_CAMADA2_UTC}h UTC "
-              f"/ 6h BRT; agora sao {hora_atual}h UTC)")
+        print("[camada2] nada novo pra postar nesta rodada")
 
     # Falso desconto - roda toda rodada (a alegacao pode aparecer a qualquer
     # hora), mas respeita um limite DIARIO baixo de proposito (e conteudo
