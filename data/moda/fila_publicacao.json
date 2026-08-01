@@ -1,15 +1,6 @@
 [
   {
     "data": "2026-08-01",
-    "product_id": "cupom-FASHIONML",
-    "nome": "Cupom FASHIONML",
-    "tipo": "cupom",
-    "codigo": "FASHIONML",
-    "texto_cupom": "18% off em Moda, minimo R$19, desconto maximo R$60, valido ate 04/08",
-    "enfileirado_em": "2026-08-01T22:10:08.900714+00:00"
-  },
-  {
-    "data": "2026-08-01",
     "product_id": "MLB67918187",
     "nome": "Necessaire Masculina Couro Sintético Viagem Academia Preto",
     "preco": 34.0,
