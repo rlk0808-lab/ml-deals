@@ -1,19 +1,19 @@
 [
   {
     "data": "2026-08-01",
-    "product_id": "MLB38059954",
-    "nome": "Kit Higiene Bebê Safari 6 Peças",
-    "preco": 193.9,
-    "preco_original": 287.94,
+    "product_id": "MLB49475250",
+    "nome": "Bomba Tira Leite Elétrica Caily Kikkaboo",
+    "preco": 169.0,
+    "preco_original": 499.0,
     "n_ofertas": 2,
-    "item_id": "MLB3771818147",
-    "seller_id": 93632902,
+    "item_id": "MLB4284839201",
+    "seller_id": 709578849,
     "frete_gratis": true,
     "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB38059954",
-    "mediana": 286.42,
-    "minimo_hist": 193.9,
-    "desconto": 32.3,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB49475250",
+    "mediana": 499.0,
+    "minimo_hist": 169.66,
+    "desconto": 66.1,
     "recorde": true
   },
   {
@@ -31,23 +31,6 @@
     "mediana": 174.68,
     "minimo_hist": 132.04,
     "desconto": 24.4,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-01",
-    "product_id": "MLB27115138",
-    "nome": "Telefone Infantil Girafa Brinquedo Educativo Musical",
-    "preco": 33.9,
-    "preco_original": null,
-    "n_ofertas": 3,
-    "item_id": "MLB4552938934",
-    "seller_id": 1701377842,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB27115138",
-    "mediana": 42.85,
-    "minimo_hist": 33.9,
-    "desconto": 20.9,
     "recorde": true
   },
   {
