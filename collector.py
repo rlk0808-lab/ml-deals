@@ -689,8 +689,10 @@ def detectar_camada2(hoje: list[dict], ja_notificados: set[str],
 
     Pula produto que:
       - ja disparou Camada 1 hoje (evita duplicar mensagem do mesmo produto)
-      - nao mudou de preco/vendedor desde o ultimo post desta camada
-        (evita o canal repetir o mesmo post todo dia sem nada de novo)
+      - ja foi avisado HOJE por esta camada (mesma regra da Camada 1: nao
+        repete no mesmo dia, mas o dia seguinte libera de novo mesmo sem
+        o preco/vendedor terem mudado - senao um produto estavel podia
+        ficar dias sem aparecer so por nao ter novidade nenhuma)
 
     Limita a MAX_MESMO_TIPO_POR_DIA itens do mesmo "tipo" de produto -
     melhor publicar menos e variado do que encher a fila com 7 variantes
@@ -708,9 +710,7 @@ def detectar_camada2(hoje: list[dict], ja_notificados: set[str],
             continue
 
         anterior = estado.get(pid)
-        if (anterior
-                and anterior.get("preco") == item["preco"]
-                and anterior.get("seller_id") == item["seller_id"]):
+        if anterior and anterior.get("data") == item["data"]:
             continue
 
         candidatos.append(item)
@@ -1004,13 +1004,11 @@ def main() -> int:
     else:
         print("[ofertas] nenhuma - esperado enquanto o historico e curto")
 
-    # Camada 2 - roda toda rodada (igual falso desconto) - a propria
-    # detectar_camada2 ja pula produto que nao mudou de preco/vendedor
-    # desde o ultimo post, entao rodar mais vezes nao repete conteudo,
-    # so pega mais rapido quem mudou. Antes ficava limitada a 1x/dia
-    # (9h UTC) por seguranca extra, mas isso deixava o canal sem volume
-    # de Camada 2 o resto do dia - a deduplicacao de conteudo ja e
-    # suficiente sozinha.
+    # Camada 2 - roda toda rodada (igual falso desconto). Mesma regra da
+    # Camada 1: nao repete o mesmo produto no mesmo dia, mas o dia
+    # seguinte libera de novo mesmo sem preco/vendedor terem mudado -
+    # sem isso o canal podia ficar dias sem Camada 2 nenhuma so por
+    # falta de novidade.
     ja_notificados = {o["product_id"] for o in ofertas}
     estado_c2 = carregar_estado_camada2(d)
     candidatos_c2 = detectar_camada2(hoje, ja_notificados, estado_c2)
@@ -1022,7 +1020,12 @@ def main() -> int:
             print(f"   [camada2] R${o['preco']:.2f} "
                   f"({o['n_ofertas']} vendedores) {o['nome'][:50]}")
         preparar_imagens(tk, candidatos_c2, wl)
-        enfileirar(d, candidatos_c2, tipo="camada2", limite=LIMITE_FILA_CAMADA2)
+        adicionados_c2 = enfileirar(d, candidatos_c2, tipo="camada2", limite=LIMITE_FILA_CAMADA2)
+        for item in adicionados_c2:
+            estado_c2[item["product_id"]] = {
+                "preco": item["preco"], "seller_id": item["seller_id"], "data": item["data"],
+            }
+        salvar_estado_camada2(d, estado_c2)
     else:
         print("[camada2] nada novo pra postar nesta rodada")
 
