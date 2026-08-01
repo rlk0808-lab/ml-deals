@@ -4,7 +4,7 @@ Como usar: abra o link, clique em Compartilhar na barra preta de
 afiliados, copie o link gerado (meli.la/...) e cole em
 data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
-(gerado em 2026-07-31)
+(gerado em 2026-08-01)
 
 MLB45476185  Chinelo Masculino 921 Olympikus -chocolate Castor Liso
     https://www.mercadolivre.com.br/p/MLB45476185
@@ -24,20 +24,24 @@ MLB45422540  Chinelo Masculino Drifter Foam Fila Liso
     https://www.mercadolivre.com.br/p/MLB45422540
 MLB38199118  200 Pino Rebite P/ Fixar Botão De Calça Saia Bermuda Jeans
     https://www.mercadolivre.com.br/p/MLB38199118
-MLB29410142  Escova Para Limpar Couro Banco Bota Jaqueta Detailer
-    https://www.mercadolivre.com.br/p/MLB29410142
 MLB67918187  Necessaire Masculina Couro Sintético Viagem Academia Preto
     https://www.mercadolivre.com.br/p/MLB67918187
 MLB46408299  Chinelo Masculino Sleek Slide Fila Liso
     https://www.mercadolivre.com.br/p/MLB46408299
+MLB29410142  Escova Para Limpar Couro Banco Bota Jaqueta Detailer
+    https://www.mercadolivre.com.br/p/MLB29410142
 MLB68406613  Conjunto Segunda Pele Térmica Masculino Flanelada Blusa Calç
     https://www.mercadolivre.com.br/p/MLB68406613
 MLB45475691  Chinelo Masculino 921 Olympikus
     https://www.mercadolivre.com.br/p/MLB45475691
 MLB38885711  Aparelho Elástico Cós Cintura Cueca Box Calcinha Short Saia
     https://www.mercadolivre.com.br/p/MLB38885711
-MLB27599981  Cinto Prende Camisa Social Alinhada Elástico Preto Adulto
-    https://www.mercadolivre.com.br/p/MLB27599981
+MLB70518077  Meia Cano Alto Seleção Neymar Copa Brasil Divertida Premium 
+    https://www.mercadolivre.com.br/p/MLB70518077
+MLB70169772  Meia Cano Alto Seleção Neymar Copa Brasil Divertida Premium 
+    https://www.mercadolivre.com.br/p/MLB70169772
+MLB72754252  Meia Cano Alto Seleção Neymar Copa Brasil Divertida Premium 
+    https://www.mercadolivre.com.br/p/MLB72754252
 MLB38884034  2 Abotoador Abotoar Botões Camisa Social Costura Confecção C
     https://www.mercadolivre.com.br/p/MLB38884034
 MLB75166507  Mochila Masculina Executiva Notebook Com Usb Couro Sintetico
@@ -52,12 +56,12 @@ MLB46238396  Chinelo Masculino Folie Pegada Liso
     https://www.mercadolivre.com.br/p/MLB46238396
 MLB45422545  Chinelo Masculino Drifter Foam Fila Liso
     https://www.mercadolivre.com.br/p/MLB45422545
-MLB70518077  Meia Cano Alto Seleção Neymar Copa Brasil Divertida Premium 
-    https://www.mercadolivre.com.br/p/MLB70518077
-MLB70169772  Meia Cano Alto Seleção Neymar Copa Brasil Divertida Premium 
-    https://www.mercadolivre.com.br/p/MLB70169772
-MLB72754252  Meia Cano Alto Seleção Neymar Copa Brasil Divertida Premium 
-    https://www.mercadolivre.com.br/p/MLB72754252
+MLB56121586  Meia de Futebol Poker Cano Alto Preta para Treino (Tamanho 3
+    https://www.mercadolivre.com.br/p/MLB56121586
+MLB36612264  Esticador de Camisa CW Preto Elástico Ajustável Para Camisa 
+    https://www.mercadolivre.com.br/p/MLB36612264
+MLB27599981  Cinto Prende Camisa Social Alinhada Elástico Preto Adulto
+    https://www.mercadolivre.com.br/p/MLB27599981
 MLB64486325  Conjunto Menino Blusa Calça Moletom Marinho Colorittá Tamanh
     https://www.mercadolivre.com.br/p/MLB64486325
 MLB73961818  Tinta Couro 37ml Preta 520 Sapato Bolsa Jaqueta Acrilex
@@ -70,6 +74,8 @@ MLB62841398  Tênis Feminino Casual Moleca
     https://www.mercadolivre.com.br/p/MLB62841398
 MLB39314154  Touca Gorro elástico C/ 100 Un Protdesc Cor Lilás
     https://www.mercadolivre.com.br/p/MLB39314154
+MLB68744485  Short Modelador Feminino Selene Sem Costura Compressão Leve 
+    https://www.mercadolivre.com.br/p/MLB68744485
 MLB58174814  Calça Legging Redutora Miracle Belt Cor Preto Tamanho Pp
     https://www.mercadolivre.com.br/p/MLB58174814
 MLB62841397  Tênis Feminino Casual Moleca
@@ -84,10 +90,6 @@ MLB73441877  Meia Umbro Esportiva Clubes 3/4 Cano Alto Bordo-branco 39-44
     https://www.mercadolivre.com.br/p/MLB73441877
 MLB49798341  Meia Motoqueiro X11 Preta Cano Alto Segunda Pele Conforto Té
     https://www.mercadolivre.com.br/p/MLB49798341
-MLB56121586  Meia de Futebol Poker Cano Alto Preta para Treino (Tamanho 3
-    https://www.mercadolivre.com.br/p/MLB56121586
-MLB36612264  Esticador de Camisa CW Preto Elástico Ajustável Para Camisa 
-    https://www.mercadolivre.com.br/p/MLB36612264
 MLB74761896  Conjunto Feminino Bermuda Com Elástico E Blusa Jeans Liocel 
     https://www.mercadolivre.com.br/p/MLB74761896
 MLB68670569  Conjunto Feminino Real Confecções G1/g2 Short Saia + Cropped
@@ -114,3 +116,13 @@ MLB20674693  Limpa Tênis Sapato Bolsa Instantâneo Magic Wipes Prático pro
     https://www.mercadolivre.com.br/p/MLB20674693
 MLB75195451  Cueca Algodão 2 Boxer Uso Prolongado Incontinência Urinária 
     https://www.mercadolivre.com.br/p/MLB75195451
+MLB68859694  Kit 2 Varais Retrátil Roupa Multiuso Calcinha Cueca Meias Co
+    https://www.mercadolivre.com.br/p/MLB68859694
+MLB56056247  Kit Meia Esportiva Penalty Cano Invisível para Mulheres, 3 P
+    https://www.mercadolivre.com.br/p/MLB56056247
+MLB66026846  Kit Uniforme Time Brasil Camisa E Bermuda Com Nome E Numero 
+    https://www.mercadolivre.com.br/p/MLB66026846
+MLB65864411  Kit Uniforme Time Brasil Camisa E Bermuda Com Nome E Numero 
+    https://www.mercadolivre.com.br/p/MLB65864411
+MLB52255081  1 Colmeia Organizadora P2 (40x15x10) - Bebê, Cueca Box Cor T
+    https://www.mercadolivre.com.br/p/MLB52255081
