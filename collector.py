@@ -971,20 +971,23 @@ def main() -> int:
         if avisados:
             print(f"[pedidos] {avisados} e-mail(s) de aviso enviado(s)")
 
-        # so publica quem realmente MUDOU de preco desde o ultimo aviso -
-        # sem isso, um produto que caiu e ESTACIONOU no preco baixo
-        # continua contando como "oferta real" todo dia (a mediana demora
-        # a se ajustar pro novo normal) e ficaria repetindo o mesmo post
-        # sem nada de novo. ofertas.json (acima) e o registro completo
-        # pro selo do site - o site mostra "verificado" enquanto for
-        # verdade, mesmo sem ser novidade. So a FILA de publicacao que
-        # precisa ser so do que e novo.
+        # nao repete o MESMO produto no MESMO DIA - sem isso, um produto
+        # que caiu e ESTACIONOU no preco baixo vira post toda rodada
+        # (a cada 3h) e enche o canal de repeticao. Mas depois que o dia
+        # vira, libera de novo mesmo sem mudar de preco - um nicho como
+        # moda, com poucos candidatos novos, nao pode ficar mudo por
+        # dias so porque o unico achado bom nao mudou de preco.
+        # ofertas.json (acima) e o registro completo pro selo do site -
+        # o site mostra "verificado" enquanto for verdade, mesmo sem ser
+        # novidade. So a FILA de publicacao que precisa evitar repetir
+        # DENTRO do mesmo dia.
         estado_c1 = carregar_estado_camada1(d)
         ofertas_novas = [o for o in ofertas
-                         if estado_c1.get(o["product_id"], {}).get("preco") != o["preco"]]
+                         if not (estado_c1.get(o["product_id"], {}).get("preco") == o["preco"]
+                                 and estado_c1.get(o["product_id"], {}).get("data") == o["data"])]
         repetidas = len(ofertas) - len(ofertas_novas)
         if repetidas:
-            print(f"[ofertas] {repetidas} no mesmo preco de um aviso anterior - nao repete")
+            print(f"[ofertas] {repetidas} ja avisado(s) hoje no mesmo preco - nao repete")
 
         ofertas_novas = filtrar_por_avaliacao(tk, ofertas_novas, cfg, wl)
 
@@ -993,7 +996,7 @@ def main() -> int:
             adicionados_c1 = enfileirar(d, ofertas_novas, tipo="camada1",
                                         limite=LIMITE_FILA_CAMADA1)
             for item in adicionados_c1:
-                estado_c1[item["product_id"]] = {"preco": item["preco"]}
+                estado_c1[item["product_id"]] = {"preco": item["preco"], "data": item["data"]}
             salvar_estado_camada1(d, estado_c1)
     else:
         print("[ofertas] nenhuma - esperado enquanto o historico e curto")
