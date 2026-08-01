@@ -1,0 +1,32 @@
+name: Postar cupons do dia (broadcast)
+
+on:
+  # Disparo manual - manda o post de cupons gerais pra todos os canais
+  # do Telegram de uma vez. O texto fica hardcoded em
+  # postar_cupons_dia.py, editado a cada novo lote de cupons.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  postar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r requirements.txt
+
+      - name: Postar cupons
+        env:
+          TELEGRAM_TOKEN:        ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_LIVROS:  ${{ secrets.TELEGRAM_CHAT_LIVROS }}
+          TELEGRAM_CHAT_BEBES:   ${{ secrets.TELEGRAM_CHAT_BEBES }}
+          TELEGRAM_CHAT_CASA:    ${{ secrets.TELEGRAM_CHAT_CASA }}
+          TELEGRAM_CHAT_MODA:    ${{ secrets.TELEGRAM_CHAT_MODA }}
+          TELEGRAM_CHAT_BELEZA:  ${{ secrets.TELEGRAM_CHAT_BELEZA }}
+        run: python -u postar_cupons_dia.py
