@@ -19,7 +19,7 @@ import time
 import webbrowser
 from pathlib import Path
 
-_RE_PID = re.compile(r"^(MLB\d+)\s")
+_RE_PID = re.compile(r"^(?:⭐ )?(MLB\d+)\s")
 
 PAUSA_ENTRE_ABAS = 0.4  # evita sobrecarregar o navegador abrindo tudo de uma vez
 

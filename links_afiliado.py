@@ -183,11 +183,18 @@ def marcar_sem_programa(product_id: str, nome: str = "") -> None:
     salvar(tabela)
 
 
-def gerar_pendentes(nicho: str, candidatos: list[dict], limite: int = 60) -> None:
+def gerar_pendentes(nicho: str, candidatos: list[dict], limite: int = 60,
+                    prioritarios: set[str] | None = None) -> None:
     """
-    Escreve data/{nicho}/links_pendentes.txt com os produtos que MAIS
-    aparecem e ainda nao tem link rastreado - a fila de trabalho manual,
-    ja na ordem em que da mais retorno gerar.
+    Escreve data/{nicho}/links_pendentes.txt com os produtos que ainda
+    nao tem link rastreado - a fila de trabalho manual.
+
+    `prioritarios` (opcional) sao product_id que JA SAO oferta real/
+    falso desconto/camada2 de HOJE e so nao publicaram por falta de
+    link - esses vem sempre primeiro, na frente de qualquer ordenacao
+    por numero de vendedores. Sem isso, o Robson podia gerar link pra
+    produtos genericamente populares enquanto o que realmente estava
+    travando a fila do dia continuava sem link nenhum.
 
     Um arquivo por nicho (nao compartilhado) - senao a rodada de um
     nicho apaga a lista que a rodada anterior de outro nicho tinha
@@ -197,10 +204,12 @@ def gerar_pendentes(nicho: str, candidatos: list[dict], limite: int = 60) -> Non
     aparecem mais aqui - ja foi confirmado que nao tem link pra gerar.
     """
     tabela = carregar()
+    prioritarios = prioritarios or set()
     faltando = [c for c in candidatos
                if not tem_link(c["product_id"], tabela)
                and tabela.get(c["product_id"], {}).get("status") != "sem_programa"]
-    faltando.sort(key=lambda x: x.get("n_ofertas", 0), reverse=True)
+    faltando.sort(key=lambda x: (x["product_id"] not in prioritarios,
+                                  -x.get("n_ofertas", 0)))
 
     linhas = [
         f"PRODUTOS SEM LINK DE AFILIADO - {nicho} - por ordem de prioridade",
@@ -213,7 +222,8 @@ def gerar_pendentes(nicho: str, candidatos: list[dict], limite: int = 60) -> Non
         "",
     ]
     for c in faltando[:limite]:
-        linhas.append(f"{c['product_id']}  {c.get('nome','')[:60]}")
+        marca = "⭐ " if c["product_id"] in prioritarios else ""
+        linhas.append(f"{marca}{c['product_id']}  {c.get('nome','')[:60]}")
         linhas.append(f"    {c.get('permalink','')}")
 
     pendentes = Path("data") / nicho / "links_pendentes.txt"

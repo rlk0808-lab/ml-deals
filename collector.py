@@ -960,6 +960,12 @@ def main() -> int:
 
     refrescar_camada2_na_fila(d, hoje)
 
+    # product_id de tudo que JA E oferta real/falso desconto/camada2 de
+    # hoje - usado no final pra priorizar a lista de links pendentes
+    # com quem realmente esta travando a fila, nao so quem tem mais
+    # vendedores
+    prioritarios_link: set[str] = set()
+
     ofertas = detectar(hoje, hist)
     if ofertas:
         f_of.write_text(json.dumps(ofertas, ensure_ascii=False, indent=2),
@@ -990,6 +996,7 @@ def main() -> int:
             print(f"[ofertas] {repetidas} ja avisado(s) hoje no mesmo preco - nao repete")
 
         ofertas_novas = filtrar_por_avaliacao(tk, ofertas_novas, cfg, wl)
+        prioritarios_link |= {o["product_id"] for o in ofertas_novas}
 
         if ofertas_novas:
             preparar_imagens(tk, ofertas_novas[:LIMITE_FILA_CAMADA1], wl)
@@ -1011,6 +1018,7 @@ def main() -> int:
 
         if candidatos_c2:
             candidatos_c2 = candidatos_c2[:LIMITE_FILA_CAMADA2]
+            prioritarios_link |= {o["product_id"] for o in candidatos_c2}
             for o in candidatos_c2:
                 print(f"   [camada2] R${o['preco']:.2f} "
                       f"({o['n_ofertas']} vendedores) {o['nome'][:50]}")
@@ -1018,9 +1026,6 @@ def main() -> int:
             enfileirar(d, candidatos_c2, tipo="camada2", limite=LIMITE_FILA_CAMADA2)
         else:
             print("[camada2] nada novo pra postar hoje")
-
-        # fila de trabalho manual: quais produtos ainda faltam link
-        links_afiliado.gerar_pendentes(nicho, hoje)
     else:
         print(f"[camada2] pulado (roda so as {HORA_CAMADA2_UTC}h UTC "
               f"/ 6h BRT; agora sao {hora_atual}h UTC)")
@@ -1033,6 +1038,7 @@ def main() -> int:
     if restante_fd > 0:
         achados_fd = detectar_falso_desconto(hoje, hist)[:restante_fd]
         if achados_fd:
+            prioritarios_link |= {o["product_id"] for o in achados_fd}
             for o in achados_fd:
                 print(f"   [falso-desconto] loja anuncia -{o['desconto_anunciado']:.0f}% "
                       f"mas historico mostra {o['desconto_real']:+.1f}% | {o['nome'][:50]}")
@@ -1044,6 +1050,11 @@ def main() -> int:
             print("[falso-desconto] nada encontrado nesta rodada")
     else:
         print(f"[falso-desconto] limite diário ({LIMITE_FILA_FALSO_DESCONTO}) já atingido")
+
+    # fila de trabalho manual: quais produtos ainda faltam link - no
+    # final, com todos os 3 tipos (camada1, camada2, falso desconto) ja
+    # detectados, pra priorizar quem realmente esta travando a fila hoje
+    links_afiliado.gerar_pendentes(nicho, hoje, prioritarios=prioritarios_link)
 
     # imagens buscadas acima ficam em cache no wl - persiste de novo
     f_wl.write_text(json.dumps(wl, ensure_ascii=False, indent=2), encoding="utf-8")
