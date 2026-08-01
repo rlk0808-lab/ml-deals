@@ -6,60 +6,20 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 (gerado em 2026-08-01)
 
-⭐ MLB19417207  Livro Negócios: Um assunto de mulheres, de Fontes, Ana, tapa
-    https://www.mercadolivre.com.br/p/MLB19417207
-⭐ MLB26355500  Lugar Feliz: Lugar Feliz, De Henry, Emily. Editora Verus, Ca
-    https://www.mercadolivre.com.br/p/MLB26355500
-⭐ MLB54103019  Box Relacionamentos Saudáveis
-    https://www.mercadolivre.com.br/p/MLB54103019
 ⭐ MLB40283388  Box Alice - Box Com 2 Livros - Edição De Luxo Almofadada
     https://www.mercadolivre.com.br/p/MLB40283388
 ⭐ MLB37149234  Biblioteca Nietzsche - Box Com 4 Livros
     https://www.mercadolivre.com.br/p/MLB37149234
 ⭐ MLB47099395  Box Desperte
     https://www.mercadolivre.com.br/p/MLB47099395
-⭐ MLB40729504  Starsight: Veja Além Das Estrelas: Veja Além Das Estrelas, D
-    https://www.mercadolivre.com.br/p/MLB40729504
-⭐ MLB31262713  Homem Por Tras De O Codigo Da Vinci, O Uma Biografia Nao Aut
-    https://www.mercadolivre.com.br/p/MLB31262713
-⭐ MLB58763514  Box: Caxinguelê
-    https://www.mercadolivre.com.br/p/MLB58763514
-⭐ MLB30585279  O SÍMBOLO PERDIDO DE DAN BROWN, de Carmine Alex. Editora MAD
-    https://www.mercadolivre.com.br/p/MLB30585279
-⭐ MLB67071973  Viajando Com Agatha Christie
-    https://www.mercadolivre.com.br/p/MLB67071973
-⭐ MLB34253346  Kit Loucos Por Livros + Leitura De Verão: Não Aplica, De : E
-    https://www.mercadolivre.com.br/p/MLB34253346
-⭐ MLB21165642  Percy Jackson E Os Olimpianos - Maldiçao Do Tita, A - Graph
-    https://www.mercadolivre.com.br/p/MLB21165642
-⭐ MLB44907630  A Empregada + O Segredo Da Empregada, De Freida Mcfadden. Ed
-    https://www.mercadolivre.com.br/p/MLB44907630
-⭐ MLB44646972  The Well Of Ascension: Mistborn Book Two, De Brandon Sanders
-    https://www.mercadolivre.com.br/p/MLB44646972
-⭐ MLB51977450  Quarta Asa + Chama De Ferro + Tempestade De Ônix, De Rebecca
-    https://www.mercadolivre.com.br/p/MLB51977450
-⭐ MLB72083205  Kit Thrillers Colleen Hoover: Verity + Layla - Inglês
-    https://www.mercadolivre.com.br/p/MLB72083205
-⭐ MLB61150240  Kit Anjos E Demônios + O Código Da Vinci + O Símbolo Perdido
-    https://www.mercadolivre.com.br/p/MLB61150240
-⭐ MLB22101245  Protegendo O Seu Forte Livro Rebecca Brown
-    https://www.mercadolivre.com.br/p/MLB22101245
-⭐ MLB46395604  Defiant: The Fourth Skyward Novel: 4, De Brandon Sanderson. 
-    https://www.mercadolivre.com.br/p/MLB46395604
-⭐ MLB65261067  Super-hábitos
-    https://www.mercadolivre.com.br/p/MLB65261067
-⭐ MLB72048964  A Dona De Casa Perfeita Um Thriller Psicológico Sobre O La
-    https://www.mercadolivre.com.br/p/MLB72048964
-⭐ MLB46202182  Arcanum Unbounded: The Cosmere Collection, De Brandon Sander
-    https://www.mercadolivre.com.br/p/MLB46202182
-⭐ MLB44791242  Kit Colleen Hoover, De Colleen Hoover. Colleen Hoover Editor
-    https://www.mercadolivre.com.br/p/MLB44791242
-⭐ MLB21573061  O Código Da Vinci Dan Brown Livro Q Inspirou Filme Sexante
-    https://www.mercadolivre.com.br/p/MLB21573061
-⭐ MLB19305512  O Mar de Monstros - Livro 2 (Série Percy Jackson e os Olimpi
-    https://www.mercadolivre.com.br/p/MLB19305512
 MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
     https://www.mercadolivre.com.br/p/MLB36202363
+MLB19417207  Livro Negócios: Um assunto de mulheres, de Fontes, Ana, tapa
+    https://www.mercadolivre.com.br/p/MLB19417207
+MLB26355500  Lugar Feliz: Lugar Feliz, De Henry, Emily. Editora Verus, Ca
+    https://www.mercadolivre.com.br/p/MLB26355500
+MLB54103019  Box Relacionamentos Saudáveis
+    https://www.mercadolivre.com.br/p/MLB54103019
 MLB21194682  Crie Bons Hábitos: Livre - Se Dos Maus Hábitos
     https://www.mercadolivre.com.br/p/MLB21194682
 MLB19771891  Box Essencial Conquistadores (3 Livros) *
@@ -126,3 +86,43 @@ MLB19189031  Livro Negócios de família, de Ginsberg, Allen. Editorial Edi
     https://www.mercadolivre.com.br/p/MLB19189031
 MLB71604003  Livro Desencantos: Fantasia Dramática
     https://www.mercadolivre.com.br/p/MLB71604003
+MLB26473013  Livro NEGÓCIOS DE HONRA, de BOB HASSON. Editorial EDICOES E 
+    https://www.mercadolivre.com.br/p/MLB26473013
+MLB21396402  Box Livros Arséne Lupin - Clássicos - 3 Volumes
+    https://www.mercadolivre.com.br/p/MLB21396402
+MLB60720366  Livro Wuthering Heights - Emily Brontë, De Emily Brontë, Vol
+    https://www.mercadolivre.com.br/p/MLB60720366
+MLB25801919  Kit Colleen Hoover: Novembro 9, Layla, Sem Esperança, De Col
+    https://www.mercadolivre.com.br/p/MLB25801919
+MLB39933910  Biblioteca Nórdica - Box Com 3 Livros
+    https://www.mercadolivre.com.br/p/MLB39933910
+MLB26353001  De Ferias Com Voce - 1ªed.(2022), De Emily Henry. Editora Ve
+    https://www.mercadolivre.com.br/p/MLB26353001
+MLB62785929  Livro Quebra De Confiança- Harlan Coben
+    https://www.mercadolivre.com.br/p/MLB62785929
+MLB22734969  Livro Trilogia Annástria Fantasia Para Jovens E Adolescentes
+    https://www.mercadolivre.com.br/p/MLB22734969
+MLB46923461  Box Livros Elisabeth Elliot
+    https://www.mercadolivre.com.br/p/MLB46923461
+MLB68499477  Livro Desenvolvimento Local Sustentável, De Kronemberg, Deni
+    https://www.mercadolivre.com.br/p/MLB68499477
+MLB68541812  Livro Romance Com Pessoas, De Passos, José Luiz. Editora Alf
+    https://www.mercadolivre.com.br/p/MLB68541812
+MLB19314437  Livro Mistério Sob O Gelo: Uma Aventura Na Antártica De Alex
+    https://www.mercadolivre.com.br/p/MLB19314437
+MLB19337384  Livro Fantasia:, de França, Mary. Editorial Ática, en portug
+    https://www.mercadolivre.com.br/p/MLB19337384
+MLB19291662  Livro Romance Entre Rendas Edição 1 Ano 2017 Em Português Lo
+    https://www.mercadolivre.com.br/p/MLB19291662
+MLB19219273  Livro Melhores Crônicas Machado de Assis, de Joaquim Machado
+    https://www.mercadolivre.com.br/p/MLB19219273
+MLB22101664  Livro Empreendedorismo Transformando Ideias Em Negócios, 9ª 
+    https://www.mercadolivre.com.br/p/MLB22101664
+MLB68531085  Teatro De Machado De Assis, De Machado De Assis. Editora Mar
+    https://www.mercadolivre.com.br/p/MLB68531085
+MLB62822775  Livro Kit O Segredo Da Empregada, De Freida Mcfadden. Editor
+    https://www.mercadolivre.com.br/p/MLB62822775
+MLB68196715  Livro Sherlock Holmes: Um Estudo Em Arthur Conan Doyle
+    https://www.mercadolivre.com.br/p/MLB68196715
+MLB54223613  Diário Oficial De Quarta Asa: Você É Uma Coisinha Bem Violen
+    https://www.mercadolivre.com.br/p/MLB54223613
