@@ -37,6 +37,30 @@ INSTAGRAM_LINK = "https://www.instagram.com/caiudeverdade/"
 THREADS_LINK = "https://www.threads.com/@caiudeverdade"
 X_LINK = "https://x.com/CaiudeVerdade"
 
+# icones das redes desenhados na mao (SVG, sem depender de biblioteca
+# externa) - "currentColor" pra herdar a cor do link e trocar sozinho
+# no hover, igual ao resto do estilo do rodape
+ICONE_FACEBOOK = (
+    '<svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true">'
+    '<path d="M22 12.06C22 6.51 17.52 2 12 2S2 6.51 2 12.06c0 5 3.66 9.15 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85'
+    'c0-2.51 1.49-3.9 3.77-3.9 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.78-1.63 1.57v1.88h2.78l-.44 2.91h-2.34V22'
+    'c4.78-.79 8.44-4.94 8.44-9.94Z"/></svg>')
+ICONE_INSTAGRAM = (
+    '<svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" '
+    'stroke-width="1.7" aria-hidden="true">'
+    '<rect x="3" y="3" width="18" height="18" rx="5.5"/>'
+    '<circle cx="12" cy="12" r="4.1"/>'
+    '<circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg>')
+ICONE_THREADS = (
+    '<svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" '
+    'stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+    '<path d="M12 3.2c-4.6 0-7.7 3-7.7 8.1v1.4c0 5.1 3.1 8.1 7.7 8.1 3.8 0 6.2-1.9 6.2-4.6 0-2.1-1.4-3.4-3.7-3.7'
+    '-1.6-.2-3 .1-3.7.9-.6.7-.4 1.7.5 2.1 1 .5 2.3.3 3-.4"/></svg>')
+ICONE_X = (
+    '<svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true">'
+    '<path d="M18.24 3h3.1l-6.77 7.74L22.5 21h-6.24l-4.89-6.39L5.7 21H2.6l7.24-8.28L2 3h6.4l4.42 5.84Zm-1.09 16.17'
+    'h1.72L7.02 4.73H5.17Z"/></svg>')
+
 # chave publica do Web3Forms (nao e segredo - e so o identificador de
 # pra onde o formulario entrega, o mesmo esquema de uma action de form
 # HTML comum). Gerada em web3forms.com com o e-mail caiudeverdade@gmail.com.
@@ -433,10 +457,10 @@ def base_page(titulo: str, descricao: str, corpo: str, raiz: str,
   <a class="cta-whatsapp" href="{WHATSAPP_LINK}" target="_blank" rel="noopener">📲 Entrar na Comunidade do WhatsApp</a>
   <div class="redes-sociais">
     <span>Siga a gente:</span>
-    <a href="{FACEBOOK_LINK}" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook">f</a>
-    <a href="{INSTAGRAM_LINK}" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">ig</a>
-    <a href="{THREADS_LINK}" target="_blank" rel="noopener" aria-label="Threads" title="Threads">@</a>
-    <a href="{X_LINK}" target="_blank" rel="noopener" aria-label="X" title="X">x</a>
+    <a href="{FACEBOOK_LINK}" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook">{ICONE_FACEBOOK}</a>
+    <a href="{INSTAGRAM_LINK}" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">{ICONE_INSTAGRAM}</a>
+    <a href="{THREADS_LINK}" target="_blank" rel="noopener" aria-label="Threads" title="Threads">{ICONE_THREADS}</a>
+    <a href="{X_LINK}" target="_blank" rel="noopener" aria-label="X" title="X">{ICONE_X}</a>
   </div>
   <p>Todo preço aqui vem de coleta automática comparada com o histórico real do produto.
   Nunca com o "de/por" da loja. <a href="{raiz}/index.html">Como funciona</a>.
