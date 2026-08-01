@@ -6,3 +6,4 @@
 # Exemplo:
 #   casa | CASA15OFF | 15% off em Casa e Decoracao, minimo R$150, ate 01/08
 # O coletor importa sozinho na proxima rodada e limpa o arquivo.
+moda | FASHIONML | 18% off em Moda, minimo R$19, desconto maximo R$60, valido ate 04/08 | https://bit.ly/44THFvz
