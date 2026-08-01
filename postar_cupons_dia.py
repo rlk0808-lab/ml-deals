@@ -23,6 +23,8 @@ TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "").strip()
 
 TEXTO = """🎟️ CUPONS MERCADO LIVRE DE HOJE
 
+AGORAVAI — 10% OFF, até R$ 100 de desconto (mín. R$ 79) — https://bit.ly/4hbLZO9 — só hoje
+
 DESCONTODOML — 20% OFF (mín. R$ 79) — https://bit.ly/4pGnXwJ — até 02/08
 
 CUPOMNOML — 22% OFF (mín. R$ 29) — https://bit.ly/4fq6uoQ — até 02/08
@@ -33,7 +35,15 @@ MELIACHA — 22% OFF (mín. R$ 29) — https://bit.ly/3THEuVf — até 02/08
 
 QUEROPROMO — 25% OFF (mín. R$ 29) — https://bit.ly/4fnMxz1 — até 02/08
 
-USAESSAPROMO — 25% OFF (mín. R$ 19) — https://bit.ly/4bfg23F — até hoje (31/07)
+QUEROPROMOML — 20% OFF, até R$ 150 de desconto (mín. R$ 19) — categoria Comércio e Indústria — até 07/08
+
+CUPOMDOMELI — 20% OFF, até R$ 150 de desconto (mín. R$ 19) — categoria Acessórios para veículos — até 07/08
+
+ECONOMIZE — 20% OFF, até R$ 150 de desconto (mín. R$ 19) — categoria Entretenimento — até 07/08
+
+MIMOPARAVOCE — 20% OFF, até R$ 150 de desconto (mín. R$ 19) — categoria Esportes — até 07/08
+
+CORREAQUI — 20% OFF, até R$ 150 de desconto (mín. R$ 19) — categoria Saúde — até 07/08
 
 São cupons gerais da plataforma, em produtos selecionados - nem tudo aceita. \
 A gente testou aqui: não pegou num livro, pegou certinho num copo. Vale a \
