@@ -145,6 +145,13 @@ footer.rodape p{margin:14px 0 0; max-width:60ch}
 .cta-whatsapp:hover{background:#25D366; color:#fff}
 .link-sugerir{font-weight:600}
 
+.redes-sociais{margin-top:18px; display:flex; align-items:center; gap:14px; flex-wrap:wrap}
+.redes-sociais span{font-size:13px}
+.redes-sociais a{display:inline-flex; align-items:center; justify-content:center; width:34px; height:34px;
+  border-radius:50%; background:var(--bg-alto); border:1px solid var(--linha); color:var(--tinta);
+  text-decoration:none; font-size:15px}
+.redes-sociais a:hover{background:var(--acao); border-color:var(--acao); color:#fff}
+
 .form-sugestao{display:flex; flex-direction:column; gap:18px; max-width:520px; margin:28px 0}
 .form-sugestao label{display:flex; flex-direction:column; gap:7px; font-size:14px; font-weight:600}
 .form-sugestao input, .form-sugestao select{padding:13px 16px; border-radius:16px; border:1px solid var(--linha);
