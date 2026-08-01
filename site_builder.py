@@ -52,10 +52,12 @@ ICONE_INSTAGRAM = (
     '<circle cx="12" cy="12" r="4.1"/>'
     '<circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg>')
 ICONE_THREADS = (
-    '<svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" '
-    'stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
-    '<path d="M12 3.2c-4.6 0-7.7 3-7.7 8.1v1.4c0 5.1 3.1 8.1 7.7 8.1 3.8 0 6.2-1.9 6.2-4.6 0-2.1-1.4-3.4-3.7-3.7'
-    '-1.6-.2-3 .1-3.7.9-.6.7-.4 1.7.5 2.1 1 .5 2.3.3 3-.4"/></svg>')
+    # o traco desenhado a mao do "no" do logo do Threads saiu tosco -
+    # um "@" em negrito e um jeito mais simples e confiavel de
+    # sinalizar a rede (e como o handle dela funciona mesmo)
+    '<svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true">'
+    '<text x="12" y="17.5" font-size="16" font-weight="700" text-anchor="middle" '
+    'fill="currentColor" font-family="Arial, Helvetica, sans-serif">@</text></svg>')
 ICONE_X = (
     '<svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true">'
     '<path d="M18.24 3h3.1l-6.77 7.74L22.5 21h-6.24l-4.89-6.39L5.7 21H2.6l7.24-8.28L2 3h6.4l4.42 5.84Zm-1.09 16.17'
