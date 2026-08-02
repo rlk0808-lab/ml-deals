@@ -1,0 +1,29 @@
+name: Prototipo de video curto
+
+on:
+  # Disparo manual - gera 1 video de teste (Reels/Shorts/TikTok) a partir
+  # da melhor oferta real de hoje e manda pro Telegram pessoal do Robson
+  # pra avaliacao. Nao publica em lugar nenhum sozinho.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  prototipo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r requirements.txt
+
+      - name: Gerar e mandar prototipo
+        env:
+          TELEGRAM_TOKEN:        ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ROBSON:  ${{ secrets.TELEGRAM_CHAT_ROBSON }}
+          SITE_URL:              "https://rlk0808-lab.github.io/ml-deals"
+        run: python -u enviar_prototipo_video.py
