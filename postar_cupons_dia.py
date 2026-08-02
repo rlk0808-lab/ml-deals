@@ -23,7 +23,7 @@ TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "").strip()
 
 TEXTO = """🎟️ CUPONS MERCADO LIVRE DE HOJE
 
-AGORAVAI — 10% OFF, até R$ 100 de desconto (mín. R$ 79) — https://bit.ly/4hbLZO9 — só hoje
+CORREAQUIHJ — 10% OFF, até R$ 1000 de desconto (mín. R$ 79) — https://bit.ly/4wsj3Gh — só hoje
 
 DESCONTODOML — 20% OFF (mín. R$ 79) — https://bit.ly/4pGnXwJ — até 02/08
 
