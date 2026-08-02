@@ -27,6 +27,7 @@ from urllib.parse import quote
 from PIL import Image
 
 import links_afiliado
+import recordes
 
 SAIDA = Path("docs")
 LOGO = Path("assets") / "logo" / "icone.png"
@@ -716,7 +717,7 @@ def pagina_nicho(cfg: dict, produtos: list[dict], raiz_url: str) -> str:
 
 
 def pagina_produto(p: dict, cfg: dict, pontos: list[tuple[str, float]],
-                   raiz_url: str) -> str:
+                   raiz_url: str, recorde_info: dict | None = None) -> str:
     if p["verificado"]:
         selo_html = svg_selo("MENOR PREÇO" if p["recorde"] else "QUEDA REAL")
         status_html = (f'<div class="preco-comparacao">{p["desconto"]:.0f}% abaixo do '
@@ -726,9 +727,21 @@ def pagina_produto(p: dict, cfg: dict, pontos: list[tuple[str, float]],
         status_html = f'<div class="status-pendente">{p["status_txt"]}</div>'
 
     grafico_html = svg_grafico(pontos)
-    dias = len(pontos)
-    menor = min((v for _, v in pontos), default=p["preco"])
-    data_menor = next((d for d, v in pontos if v == menor), "")
+    # dias/menor preco vem de recordes.json quando disponivel (nao do
+    # `pontos` que esta pagina desenha) - recordes.json guarda o
+    # historico COMPLETO (desde o primeiro dia), enquanto `pontos` pode
+    # um dia vir a ser so uma janela recente do historico.csv. Sem essa
+    # separacao, limitar historico.csv quebraria "menor preço já
+    # registrado" e "dias monitorados" pra produtos rastreados ha muito
+    # tempo. Sem recorde_info (compatibilidade), cai pro calculo antigo.
+    if recorde_info:
+        dias = recorde_info["dias_total"]
+        menor = recorde_info["menor_preco"]
+        data_menor = recorde_info["data_menor"]
+    else:
+        dias = len(pontos)
+        menor = min((v for _, v in pontos), default=p["preco"])
+        data_menor = next((d for d, v in pontos if v == menor), "")
 
     estatisticas = f'''<div class="estatisticas">
       <div class="estatistica"><div class="valor mono">{fmt_brl(menor)}</div>
@@ -884,6 +897,7 @@ def main() -> int:
 
         wl = carregar_json(f_wl, {})
         ofertas_hoje = {o["product_id"]: o for o in carregar_json(f_of, [])}
+        recordes_nicho = recordes.carregar(d)
 
         historico_por_produto: dict[str, list[dict]] = {}
         with f_hist.open(encoding="utf-8") as fh:
@@ -902,7 +916,8 @@ def main() -> int:
             if not pontos:
                 continue
             preco_hoje = pontos[-1][1]
-            dias = len(pontos)
+            recorde_info = recordes_nicho.get(pid)
+            dias = recorde_info["dias_total"] if recorde_info else len(pontos)
 
             p = montar_produto(pid, meta["nome"], meta["permalink"],
                                meta.get("imagem") or None, preco_hoje,
@@ -910,7 +925,7 @@ def main() -> int:
             p["arquivo"] = f"{pid}.html"
             produtos_pagina.append(p)
 
-            html_produto = pagina_produto(p, cfg, pontos, raiz_url)
+            html_produto = pagina_produto(p, cfg, pontos, raiz_url, recorde_info)
             (pasta_nicho / f"{pid}.html").write_text(html_produto, encoding="utf-8")
             todas_urls.append(f"{raiz_url}/{slug}/{pid}.html")
 

@@ -32,6 +32,7 @@ import links_afiliado
 import cupons
 import produtos_manuais
 import notificacoes
+import recordes
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
@@ -496,7 +497,17 @@ def preco_por_dia(regs: list[dict]) -> dict[str, float]:
     return por_dia
 
 
-def detectar(hoje: list[dict], hist: dict[str, list[dict]]) -> list[dict]:
+def detectar(hoje: list[dict], hist: dict[str, list[dict]],
+            recordes: dict | None = None) -> list[dict]:
+    """
+    `recordes` (opcional) e o dict de recordes.py (menor_preco por
+    product_id) - quando fornecido, o "recorde" (menor preco JA
+    registrado) vem de la em vez de `min(precos)` do historico bruto.
+    Isso desacopla o selo de recorde do tamanho do historico.csv - sem
+    isso, um dia limitarmos historico.csv a uma janela recente faria o
+    selo "esquecer" precos minimos antigos. Sem `recordes`, cai pro
+    calculo antigo (compatibilidade com quem ainda nao passa isso).
+    """
     ofertas = []
     for item in hoje:
         regs = hist.get(item["product_id"], [])
@@ -508,7 +519,11 @@ def detectar(hoje: list[dict], hist: dict[str, list[dict]]) -> list[dict]:
             continue
 
         mediana = statistics.median(precos)
-        minimo = min(precos)
+        if recordes is not None:
+            info_recorde = recordes.get(item["product_id"])
+            minimo = info_recorde["menor_preco"] if info_recorde else min(precos)
+        else:
+            minimo = min(precos)
         atual = item["preco"]
         if mediana <= 0 or atual > mediana * LIMIAR_QUEDA:
             continue
@@ -941,6 +956,7 @@ def main() -> int:
     f_wl.write_text(json.dumps(wl, ensure_ascii=False, indent=2), encoding="utf-8")
     podar_estado_camada2(d, wl)
     podar_estado_camada1(d, wl)
+    recordes.podar(d, wl)
 
     if not hoje:
         print("[!] nada coletado")
@@ -954,6 +970,8 @@ def main() -> int:
         w.writerows(hoje)
     print(f"[hist] +{len(hoje)} linhas")
 
+    recordes_atuais = recordes.atualizar(d, hoje)
+
     dias = len({r["data"] for rs in hist.values() for r in rs})
     print(f"[hist] {dias} dia(s) acumulados (precisa de {MIN_DIAS_HIST})")
 
@@ -965,7 +983,7 @@ def main() -> int:
     # vendedores
     prioritarios_link: set[str] = set()
 
-    ofertas = detectar(hoje, hist)
+    ofertas = detectar(hoje, hist, recordes=recordes_atuais)
     if ofertas:
         f_of.write_text(json.dumps(ofertas, ensure_ascii=False, indent=2),
                         encoding="utf-8")
