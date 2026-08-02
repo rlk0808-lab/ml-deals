@@ -81,19 +81,25 @@ def main() -> int:
 
     if not escolhidos:
         print("[fila-x] nenhum candidato disponivel hoje", flush=True)
+        try:
+            requests.post(
+                f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
+                json={"chat_id": TELEGRAM_CHAT_ROBSON,
+                      "text": "\U0001F4CB Fila do X de hoje: nenhum achado disponível ainda."},
+                timeout=20)
+        except requests.RequestException as e:
+            print(f"[fila-x] erro de rede ao avisar fila vazia: {e}", flush=True)
+        return 0
+
+    try:
         requests.post(
             f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
             json={"chat_id": TELEGRAM_CHAT_ROBSON,
-                  "text": "\U0001F4CB Fila do X de hoje: nenhum achado disponível ainda."},
+                  "text": f"\U0001F4CB Fila do X de hoje ({len(escolhidos)} posts prontos "
+                          f"pra copiar - texto já pronto na legenda de cada imagem):"},
             timeout=20)
-        return 0
-
-    requests.post(
-        f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
-        json={"chat_id": TELEGRAM_CHAT_ROBSON,
-              "text": f"\U0001F4CB Fila do X de hoje ({len(escolhidos)} posts prontos "
-                      f"pra copiar - texto já pronto na legenda de cada imagem):"},
-        timeout=20)
+    except requests.RequestException as e:
+        print(f"[fila-x] erro de rede ao mandar cabecalho: {e}", flush=True)
 
     for nicho, cfg, o in escolhidos:
         texto = _montar_texto_x(o, cfg)

@@ -24,6 +24,7 @@ import csv
 import json
 import re
 import time
+import traceback
 import statistics
 import unicodedata
 
@@ -69,6 +70,7 @@ CAMPOS = ["data", "product_id", "nome", "preco", "preco_original", "n_ofertas",
 
 sess = requests.Session()
 _dump_feito = False       # imprime o schema real de 1 anuncio, uma vez
+DEBUG_SCHEMA = os.environ.get("DEBUG_SCHEMA", "").strip() == "1"
 
 
 # ----------------------------------------------------------------------
@@ -394,8 +396,9 @@ def melhor_oferta(tk: str, pid: str, cfg: dict) -> dict | None:
 
     results = data.get("results", [])
 
-    # imprime o schema real de um anuncio, uma unica vez, para conferencia
-    if results and not _dump_feito:
+    # imprime o schema real de um anuncio, uma unica vez, para conferencia -
+    # so com DEBUG_SCHEMA=1 (fica ligado por padrao seria ruido em producao)
+    if results and not _dump_feito and DEBUG_SCHEMA:
         _dump_feito = True
         print("\n[schema] estrutura real de um anuncio:")
         print(json.dumps(results[0], ensure_ascii=False, indent=2)[:1800])
@@ -969,9 +972,17 @@ def main() -> int:
         for o in ofertas[:10]:
             print(f"   R${o['preco']:.2f} (-{o['desconto']:.0f}%) {o['nome'][:50]}")
 
-        avisados = notificacoes.enviar_notificacoes(ofertas, cfg)
-        if avisados:
-            print(f"[pedidos] {avisados} e-mail(s) de aviso enviado(s)")
+        # um problema no Gmail (timeout, auth) nao pode derrubar o resto
+        # da rodada - Camada 2, falso desconto e a lista de links
+        # pendentes vem DEPOIS disso e precisam rodar de qualquer jeito
+        try:
+            avisados = notificacoes.enviar_notificacoes(ofertas, cfg)
+            if avisados:
+                print(f"[pedidos] {avisados} e-mail(s) de aviso enviado(s)")
+        except Exception:
+            print("[pedidos] erro ao enviar notificacoes - pulando, resto da rodada continua",
+                  flush=True)
+            traceback.print_exc()
 
         # nao repete o MESMO produto no MESMO DIA - sem isso, um produto
         # que caiu e ESTACIONOU no preco baixo vira post toda rodada

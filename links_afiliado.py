@@ -129,8 +129,8 @@ def importar_novos() -> int:
         # o link rastreado e o que NAO e a url comum do produto
         links = [u.rstrip(".,;|") for u in _RE_LINK.findall(linha)]
         rastreado = next(
-            (u for u in links if "/p/MLB" not in u and "/social/" not in u
-             or "meli.la" in u), None)
+            (u for u in links
+             if ("/p/MLB" not in u and "/social/" not in u) or "meli.la" in u), None)
 
         if not (pid and rastreado):
             ignoradas.append(linha[:70])

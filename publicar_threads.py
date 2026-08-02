@@ -29,41 +29,45 @@ def _truncar(texto: str) -> str:
 
 
 def _criar_e_publicar(dados_media: dict, rotulo: str) -> bool:
-    dados_media = {**dados_media, "access_token": THREADS_ACCESS_TOKEN}
-    r = requests.post(f"{GRAPH_API}/{THREADS_USER_ID}/threads", data=dados_media, timeout=30)
-    if r.status_code != 200:
-        print(f"[threads] falha ao criar container ({rotulo}): "
-              f"{r.status_code} {r.text[:300]}", flush=True)
-        return False
-    creation_id = r.json().get("id")
-    if not creation_id:
-        print(f"[threads] resposta sem id ({rotulo}): {r.text[:300]}", flush=True)
-        return False
-
-    for _ in range(10):
-        time.sleep(2)
-        status_r = requests.get(
-            f"{GRAPH_API}/{creation_id}",
-            params={"fields": "status", "access_token": THREADS_ACCESS_TOKEN},
-            timeout=20)
-        status = status_r.json().get("status")
-        if status == "FINISHED":
-            break
-        if status == "ERROR":
-            print(f"[threads] container deu erro ({rotulo}): {status_r.text[:300]}", flush=True)
+    try:
+        dados_media = {**dados_media, "access_token": THREADS_ACCESS_TOKEN}
+        r = requests.post(f"{GRAPH_API}/{THREADS_USER_ID}/threads", data=dados_media, timeout=30)
+        if r.status_code != 200:
+            print(f"[threads] falha ao criar container ({rotulo}): "
+                  f"{r.status_code} {r.text[:300]}", flush=True)
             return False
-    else:
-        print(f"[threads] container nao terminou de processar a tempo ({rotulo})", flush=True)
-        return False
+        creation_id = r.json().get("id")
+        if not creation_id:
+            print(f"[threads] resposta sem id ({rotulo}): {r.text[:300]}", flush=True)
+            return False
 
-    pub_r = requests.post(
-        f"{GRAPH_API}/{THREADS_USER_ID}/threads_publish",
-        data={"creation_id": creation_id, "access_token": THREADS_ACCESS_TOKEN},
-        timeout=30)
-    ok = pub_r.status_code == 200
-    print(f"[threads] {rotulo}: {'publicado' if ok else 'FALHOU'} "
-          f"({pub_r.status_code}) {pub_r.text[:300]}", flush=True)
-    return ok
+        for _ in range(10):
+            time.sleep(2)
+            status_r = requests.get(
+                f"{GRAPH_API}/{creation_id}",
+                params={"fields": "status", "access_token": THREADS_ACCESS_TOKEN},
+                timeout=20)
+            status = status_r.json().get("status")
+            if status == "FINISHED":
+                break
+            if status == "ERROR":
+                print(f"[threads] container deu erro ({rotulo}): {status_r.text[:300]}", flush=True)
+                return False
+        else:
+            print(f"[threads] container nao terminou de processar a tempo ({rotulo})", flush=True)
+            return False
+
+        pub_r = requests.post(
+            f"{GRAPH_API}/{THREADS_USER_ID}/threads_publish",
+            data={"creation_id": creation_id, "access_token": THREADS_ACCESS_TOKEN},
+            timeout=30)
+        ok = pub_r.status_code == 200
+        print(f"[threads] {rotulo}: {'publicado' if ok else 'FALHOU'} "
+              f"({pub_r.status_code}) {pub_r.text[:300]}", flush=True)
+        return ok
+    except requests.RequestException as e:
+        print(f"[threads] erro de rede ao publicar ({rotulo}): {e}", flush=True)
+        return False
 
 
 def publicar_texto(texto: str) -> bool:

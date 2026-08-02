@@ -37,16 +37,36 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Gerar páginas do site
+      - name: Gerar e publicar docs/
         env:
           SITE_URL: "https://rlk0808-lab.github.io/ml-deals"
-        run: python site_builder.py
-
-      - name: Publicar docs/
         run: |
           git config user.name  "site-bot"
           git config user.email "site-bot@users.noreply.github.com"
-          git add docs/
-          git commit -m "site: atualizar paginas $(date -u +%Y-%m-%d\ %H:%M)" || echo "nada novo"
-          git pull --rebase origin main
-          git push
+
+          # mesmo padrao de retry do coletor/publicador - se o push
+          # perder a corrida pra outro commit em main, descarta e gera
+          # tudo de novo em cima do main mais recente, em vez de so
+          # tentar re-commitar docs/ velho por cima de um main que mudou
+          tentativas=3
+          for i in $(seq 1 $tentativas); do
+            echo "=== tentativa $i/$tentativas ==="
+            git fetch origin main
+            git reset --hard origin/main
+
+            python site_builder.py
+
+            git add docs/
+            git commit -m "site: atualizar paginas $(date -u +%Y-%m-%d\ %H:%M)" || echo "nada novo"
+
+            if git push origin main; then
+              echo "=== site publicado com sucesso ==="
+              exit 0
+            fi
+
+            echo "=== push rejeitado (alguem chegou primeiro), tentando de novo ==="
+            sleep $((i * 5))
+          done
+
+          echo "::error::Nao foi possivel salvar apos $tentativas tentativas"
+          exit 1

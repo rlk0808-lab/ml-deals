@@ -187,20 +187,26 @@ def enviar_notificacoes(ofertas: list[dict], cfg: dict) -> int:
                 continue
 
             if servidor is None:
-                servidor = smtplib.SMTP_SSL("smtp.gmail.com", 465)
+                servidor = smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=30)
                 servidor.login(GMAIL_USER, GMAIL_APP_PASSWORD)
 
             msg = _montar_email(oferta, cfg)
+            algum_enviado = False
             for pedido in pedidos_produto:
                 msg["To"] = pedido["email"]
                 try:
                     servidor.sendmail(GMAIL_USER, [pedido["email"]], msg.as_string())
                     print(f"[pedidos] avisado {pedido['email']} sobre {pid}")
                     enviados += 1
+                    algum_enviado = True
                 except Exception as e:
                     print(f"[pedidos] falha ao avisar {pedido['email']}: {e}")
 
-            del registro[pid]  # aviso unico - some do registro depois de mandar
+            # aviso unico - so sai do registro se pelo menos 1 envio deu
+            # certo. Se todos falharem, o pedido continua na fila pra
+            # tentar de novo na proxima rodada, em vez de se perder.
+            if algum_enviado:
+                del registro[pid]
     finally:
         if servidor:
             servidor.quit()
