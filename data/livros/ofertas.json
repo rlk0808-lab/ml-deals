@@ -1,23 +1,6 @@
 [
   {
     "data": "2026-08-02",
-    "product_id": "MLB19910452",
-    "nome": "Livro P. S. Eu Te Amo - Cecilia Ahern- Romance Best Seller",
-    "preco": 21.09,
-    "preco_original": null,
-    "n_ofertas": 20,
-    "item_id": "MLB7272120228",
-    "seller_id": 166879128,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB19910452",
-    "mediana": 48.52,
-    "minimo_hist": 21.09,
-    "desconto": 56.5,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-02",
     "product_id": "MLB19305128",
     "nome": "Creepshow - o terror de stephen king em quadrinhos, de King, Stephen. Editora Darkside Books - Graphic Novel (2017)",
     "preco": 58.9,
@@ -137,23 +120,6 @@
   },
   {
     "data": "2026-08-02",
-    "product_id": "MLB67071973",
-    "nome": "Viajando Com Agatha Christie",
-    "preco": 56.33,
-    "preco_original": 79.0,
-    "n_ofertas": 6,
-    "item_id": "MLB7285328538",
-    "seller_id": 480263032,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB67071973",
-    "mediana": 69.83,
-    "minimo_hist": 59.3,
-    "desconto": 19.3,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-02",
     "product_id": "MLB44914745",
     "nome": "Box Livros E Quebra-cabeça Mickey E Seus Amigos",
     "preco": 47.29,
@@ -201,6 +167,23 @@
     "mediana": 46.9,
     "minimo_hist": 38.45,
     "desconto": 18.0,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-02",
+    "product_id": "MLB67071973",
+    "nome": "Viajando Com Agatha Christie",
+    "preco": 56.33,
+    "preco_original": 79.0,
+    "n_ofertas": 6,
+    "item_id": "MLB7285328538",
+    "seller_id": 480263032,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB67071973",
+    "mediana": 67.9,
+    "minimo_hist": 56.33,
+    "desconto": 17.0,
     "recorde": true
   }
 ]
