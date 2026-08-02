@@ -22,6 +22,7 @@ import json
 import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import quote
 
 from PIL import Image
 
@@ -379,6 +380,11 @@ nav.migalha a{color:var(--tinta-fraca)}
   text-decoration:none; padding:15px 28px; border-radius:999px; margin:12px 0 8px; font-size:15.5px;
   box-shadow:0 8px 20px rgba(255,90,54,.28); transition:transform .14s ease, box-shadow .14s ease}
 .cta:hover{transform:translateY(-2px); box-shadow:0 12px 26px rgba(255,90,54,.36)}
+.cta-linha{display:flex; align-items:center; gap:12px; flex-wrap:wrap}
+.cta-compartilhar{display:inline-flex; align-items:center; gap:7px; background:#E7F8EE; color:#1FA855;
+  font-weight:600; text-decoration:none; padding:13px 22px; border-radius:999px; font-size:14.5px;
+  border:1px solid transparent; transition:background .14s ease, color .14s ease}
+.cta-compartilhar:hover{background:#25D366; color:#fff}
 .rodape-nota{color:var(--tinta-fraca); font-size:12.5px; border-top:1px solid var(--linha);
   margin-top:34px; padding-top:18px}
 
@@ -711,6 +717,11 @@ def pagina_produto(p: dict, cfg: dict, pontos: list[tuple[str, float]],
     link_ml = link_afiliado(p.get("product_id", ""), p["permalink"])
     agora = datetime.now(timezone.utc).strftime("%d/%m/%Y às %H:%M UTC")
 
+    link_pagina = f"{raiz_url}/{cfg['slug']}/{p.get('product_id','')}.html"
+    texto_share = (f"Olha esse achado no Caiu de Verdade: {p['nome']} por "
+                   f"{fmt_brl(p['preco'])} 👀\n{link_pagina}")
+    link_whatsapp_share = f"https://wa.me/?text={quote(texto_share)}"
+
     json_ld = f'''<script type="application/ld+json">
 {json.dumps({
         "@context": "https://schema.org/",
@@ -745,7 +756,10 @@ def pagina_produto(p: dict, cfg: dict, pontos: list[tuple[str, float]],
     <p class="grafico-dica">Toque ou passe o mouse em qualquer ponto pra ver a data e o preço daquele dia.</p>
   </div>
   {estatisticas}
-  <a class="cta" href="{link_ml}" rel="nofollow sponsored" target="_blank">Ver no Mercado Livre →</a>
+  <div class="cta-linha">
+    <a class="cta" href="{link_ml}" rel="nofollow sponsored" target="_blank">Ver no Mercado Livre →</a>
+    <a class="cta-compartilhar" href="{link_whatsapp_share}" target="_blank" rel="noopener">📤 Compartilhar</a>
+  </div>
   <p class="rodape-nota">Preço coletado automaticamente em {agora}, comparado com o histórico
   real do produto (não com o preço "de" anunciado pela loja).</p>
 </div>
