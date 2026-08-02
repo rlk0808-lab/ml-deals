@@ -216,7 +216,17 @@
       "sanduicheira grill eletrica"
     ],
     "min_ofertas": 2,
-    "slug": "casa"
+    "slug": "casa",
+    "exigir_avaliacao_minima": {
+      "dominios": [
+        "MLB-AIR_FRYERS",
+        "MLB-BLENDERS",
+        "MLB-ELECTRIC_SANDWICH_MAKERS",
+        "MLB-ELECTRIC_COFFEE_MAKERS"
+      ],
+      "nota_minima": 4.0,
+      "avaliacoes_minimas": 5
+    }
   },
   "moda": {
     "nome": "Moda e Vestuário",
@@ -384,7 +394,18 @@
       "cinto feminino"
     ],
     "min_ofertas": 2,
-    "slug": "moda"
+    "slug": "moda",
+    "exigir_avaliacao_minima": {
+      "dominios": [
+        "MLB-SNEAKERS",
+        "MLB-HANDBAGS",
+        "MLB-WRISTWATCHES",
+        "MLB-BACKPACKS",
+        "MLB-BELTS"
+      ],
+      "nota_minima": 4.0,
+      "avaliacoes_minimas": 5
+    }
   },
   "beleza": {
     "nome": "Beleza",
