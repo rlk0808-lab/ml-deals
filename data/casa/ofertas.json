@@ -1,19 +1,19 @@
 [
   {
     "data": "2026-08-02",
-    "product_id": "MLB45393532",
-    "nome": "Jogo Copos Vidro Caipirinha Ilhabela Rocks 420 Ml Nadir 12un",
-    "preco": 144.99,
+    "product_id": "MLB39242772",
+    "nome": "Jogo Copos Vidro Pasabahçe Timeless 180ml 4 Peças Para Coquetel",
+    "preco": 78.99,
     "preco_original": null,
     "n_ofertas": 2,
-    "item_id": "MLB3949420323",
-    "seller_id": 662314150,
+    "item_id": "MLB4112248099",
+    "seller_id": 731207975,
     "frete_gratis": true,
     "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB45393532",
-    "mediana": 263.34,
-    "minimo_hist": 144.99,
-    "desconto": 44.9,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB39242772",
+    "mediana": 172.96,
+    "minimo_hist": 78.99,
+    "desconto": 54.3,
     "recorde": true
   },
   {
@@ -31,6 +31,23 @@
     "mediana": 72.7,
     "minimo_hist": 51.01,
     "desconto": 29.8,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-02",
+    "product_id": "MLB45393532",
+    "nome": "Jogo Copos Vidro Caipirinha Ilhabela Rocks 420 Ml Nadir 12un",
+    "preco": 144.99,
+    "preco_original": null,
+    "n_ofertas": 2,
+    "item_id": "MLB3949420323",
+    "seller_id": 662314150,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB45393532",
+    "mediana": 204.16,
+    "minimo_hist": 144.99,
+    "desconto": 29.0,
     "recorde": true
   },
   {
