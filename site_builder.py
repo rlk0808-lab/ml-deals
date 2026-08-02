@@ -385,6 +385,11 @@ nav.migalha a{color:var(--tinta-fraca)}
   font-weight:600; text-decoration:none; padding:13px 22px; border-radius:999px; font-size:14.5px;
   border:1px solid transparent; transition:background .14s ease, color .14s ease}
 .cta-compartilhar:hover{background:#25D366; color:#fff}
+.cta-alerta{display:inline-flex; align-items:center; gap:7px; background:var(--pendente-fundo);
+  color:var(--pendente); font-weight:600; text-decoration:none; padding:13px 22px;
+  border-radius:999px; font-size:14.5px; transition:background .14s ease, color .14s ease}
+.cta-alerta:hover{background:var(--pendente); color:#fff}
+.nota-alerta{color:var(--tinta-fraca); font-size:13px; margin:10px 0 0; max-width:52ch}
 .rodape-nota{color:var(--tinta-fraca); font-size:12.5px; border-top:1px solid var(--linha);
   margin-top:34px; padding-top:18px}
 
@@ -501,11 +506,11 @@ def pagina_sugerir(raiz_url: str, nichos_cfg: dict) -> str:
     <input type="hidden" name="subject" value="Nova sugestão de produto - Caiu de Verdade">
     <input type="hidden" name="from_name" value="Formulário do site">
     <label>Link ou nome do produto
-      <input type="text" name="produto" required
+      <input type="text" name="produto" id="campo-produto" required
              placeholder="Cole o link do Mercado Livre ou descreva o produto">
     </label>
     <label>Categoria
-      <select name="nicho" required>
+      <select name="nicho" id="campo-nicho" required>
         {"".join(f'<option value="{slug}">{cfg["emoji"]} {cfg["nome"]}</option>'
                  for slug, cfg in nichos_cfg.items())}
       </select>
@@ -517,13 +522,31 @@ def pagina_sugerir(raiz_url: str, nichos_cfg: dict) -> str:
   </form>
 
   <div class="nota-lgpd">
+    <strong>Quanto tempo demora?</strong> Se você chegou aqui pelo botão "Avise-me" na
+    página de um produto que a gente já rastreia, o aviso pode sair assim que ele cair
+    de verdade, sem espera - esse produto já tem histórico suficiente. Se for um produto
+    novo, que ainda não rastreamos, precisamos de até 14 dias coletando o preço dele
+    antes de conseguir confirmar que uma queda é real - nenhum aviso sai antes disso,
+    mesmo que o preço mude nesse meio tempo.
+  </div>
+
+  <div class="nota-lgpd">
     <strong>Sobre seus dados:</strong> se você deixar seu e-mail, ele é usado só pra te
     avisar sobre ESTE produto específico, uma única vez - depois do aviso, o pedido é
     apagado do nosso registro automaticamente. Não vendemos, não repassamos pra
     terceiros e não vira lista de newsletter escondida. Se quiser que a gente apague
     seu pedido antes disso, é só mandar um e-mail pra caiudeverdade@gmail.com.
   </div>
-</div>'''
+</div>
+<script>
+(function(){{
+  var params = new URLSearchParams(window.location.search);
+  var produto = params.get('produto');
+  var nicho = params.get('nicho');
+  if (produto) document.getElementById('campo-produto').value = produto;
+  if (nicho) document.getElementById('campo-nicho').value = nicho;
+}})();
+</script>'''
     return base_page("Sugerir produto — Caiu de Verdade",
                      "Peça pra gente rastrear o histórico de preço de um produto e seja "
                      "avisado quando ele cair de verdade.",
@@ -722,6 +745,17 @@ def pagina_produto(p: dict, cfg: dict, pontos: list[tuple[str, float]],
                    f"{fmt_brl(p['preco'])} 👀\n{link_pagina}")
     link_whatsapp_share = f"https://wa.me/?text={quote(texto_share)}"
 
+    # produto ja tem historico suficiente pra queda real (>=14 dias) ->
+    # pedir aviso nele NAO passa pela espera de 14 dias que um produto
+    # novo exigiria - por isso o link pra sugerir.html leva esses dados
+    # junto, pra pagina do formulario saber que e esse o caso
+    link_alerta = (f"../sugerir.html?produto={quote(p.get('permalink') or p.get('product_id',''))}"
+                   f"&nicho={quote(cfg['slug'])}")
+    nota_alerta = (f"Esse produto já tem {dias} dias de histórico - se cair de verdade, "
+                   "o aviso pode sair sem espera." if dias >= 14 else
+                   f"Esse produto ainda está formando histórico ({dias}/14 dias) - "
+                   "o aviso só é possível depois de completar o mínimo pra confirmar queda real.")
+
     json_ld = f'''<script type="application/ld+json">
 {json.dumps({
         "@context": "https://schema.org/",
@@ -759,7 +793,9 @@ def pagina_produto(p: dict, cfg: dict, pontos: list[tuple[str, float]],
   <div class="cta-linha">
     <a class="cta" href="{link_ml}" rel="nofollow sponsored" target="_blank">Ver no Mercado Livre →</a>
     <a class="cta-compartilhar" href="{link_whatsapp_share}" target="_blank" rel="noopener">📤 Compartilhar</a>
+    <a class="cta-alerta" href="{link_alerta}">🔔 Avise-me quando cair de verdade</a>
   </div>
+  <p class="nota-alerta">{nota_alerta}</p>
   <p class="rodape-nota">Preço coletado automaticamente em {agora}, comparado com o histórico
   real do produto (não com o preço "de" anunciado pela loja).</p>
 </div>
