@@ -1,0 +1,34 @@
+name: Top da semana
+
+on:
+  schedule:
+    # domingo 21h BRT (00h UTC segunda) - fecha a semana e sai pronto
+    # pra quem abre o Telegram na segunda de manha
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  postar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r requirements.txt
+
+      - name: Postar top da semana
+        env:
+          TELEGRAM_TOKEN:        ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_LIVROS:  ${{ secrets.TELEGRAM_CHAT_LIVROS }}
+          TELEGRAM_CHAT_BEBES:   ${{ secrets.TELEGRAM_CHAT_BEBES }}
+          TELEGRAM_CHAT_CASA:    ${{ secrets.TELEGRAM_CHAT_CASA }}
+          TELEGRAM_CHAT_MODA:    ${{ secrets.TELEGRAM_CHAT_MODA }}
+          TELEGRAM_CHAT_BELEZA:  ${{ secrets.TELEGRAM_CHAT_BELEZA }}
+          SITE_URL:              "https://rlk0808-lab.github.io/ml-deals"
+        run: python -u postar_top_semana.py
