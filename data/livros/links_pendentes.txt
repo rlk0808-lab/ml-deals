@@ -14,8 +14,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB47099395
 MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
     https://www.mercadolivre.com.br/p/MLB36202363
-MLB19417207  Livro Negócios: Um assunto de mulheres, de Fontes, Ana, tapa
-    https://www.mercadolivre.com.br/p/MLB19417207
 MLB26355500  Lugar Feliz: Lugar Feliz, De Henry, Emily. Editora Verus, Ca
     https://www.mercadolivre.com.br/p/MLB26355500
 MLB54103019  Box Relacionamentos Saudáveis
@@ -66,10 +64,10 @@ MLB66305472  Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca,
     https://www.mercadolivre.com.br/p/MLB66305472
 MLB20760429  Box Lu & Bilu
     https://www.mercadolivre.com.br/p/MLB20760429
-MLB22381340  Livro Dom Casmurro - Machado De Assis
-    https://www.mercadolivre.com.br/p/MLB22381340
 MLB57098569  Livro Percy Jackson e os Olimpianos Crie seu destino De Disn
     https://www.mercadolivre.com.br/p/MLB57098569
+MLB22381340  Livro Dom Casmurro - Machado De Assis
+    https://www.mercadolivre.com.br/p/MLB22381340
 MLB19379986  Livro Contos de Machado de Assis, de Assis, Machado de. Edit
     https://www.mercadolivre.com.br/p/MLB19379986
 MLB22154835  Box Essencial Quantico
@@ -126,3 +124,5 @@ MLB68196715  Livro Sherlock Holmes: Um Estudo Em Arthur Conan Doyle
     https://www.mercadolivre.com.br/p/MLB68196715
 MLB54223613  Diário Oficial De Quarta Asa: Você É Uma Coisinha Bem Violen
     https://www.mercadolivre.com.br/p/MLB54223613
+MLB39914845  Box Biblioteca Allan Kardec - Box Com 2 Livros
+    https://www.mercadolivre.com.br/p/MLB39914845
