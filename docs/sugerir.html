@@ -35,11 +35,11 @@
     <input type="hidden" name="subject" value="Nova sugestão de produto - Caiu de Verdade">
     <input type="hidden" name="from_name" value="Formulário do site">
     <label>Link ou nome do produto
-      <input type="text" name="produto" required
+      <input type="text" name="produto" id="campo-produto" required
              placeholder="Cole o link do Mercado Livre ou descreva o produto">
     </label>
     <label>Categoria
-      <select name="nicho" required>
+      <select name="nicho" id="campo-nicho" required>
         <option value="livros">📚 Livros</option><option value="bebes">👶 Bebês e Maternidade</option><option value="casa">🏠 Casa e Cozinha</option><option value="moda">👕 Moda e Vestuário</option><option value="beleza">💄 Beleza</option>
       </select>
     </label>
@@ -50,6 +50,15 @@
   </form>
 
   <div class="nota-lgpd">
+    <strong>Quanto tempo demora?</strong> Se você chegou aqui pelo botão "Avise-me" na
+    página de um produto que a gente já rastreia, o aviso pode sair assim que ele cair
+    de verdade, sem espera - esse produto já tem histórico suficiente. Se for um produto
+    novo, que ainda não rastreamos, precisamos de até 14 dias coletando o preço dele
+    antes de conseguir confirmar que uma queda é real - nenhum aviso sai antes disso,
+    mesmo que o preço mude nesse meio tempo.
+  </div>
+
+  <div class="nota-lgpd">
     <strong>Sobre seus dados:</strong> se você deixar seu e-mail, ele é usado só pra te
     avisar sobre ESTE produto específico, uma única vez - depois do aviso, o pedido é
     apagado do nosso registro automaticamente. Não vendemos, não repassamos pra
@@ -57,6 +66,15 @@
     seu pedido antes disso, é só mandar um e-mail pra caiudeverdade@gmail.com.
   </div>
 </div>
+<script>
+(function(){
+  var params = new URLSearchParams(window.location.search);
+  var produto = params.get('produto');
+  var nicho = params.get('nicho');
+  if (produto) document.getElementById('campo-produto').value = produto;
+  if (nicho) document.getElementById('campo-nicho').value = nicho;
+})();
+</script>
 <footer class="rodape"><div class="wrap">
   <a class="cta-telegram" href="https://t.me/addlist/2TD1Un1OO5Y3MGI5" target="_blank" rel="noopener">📬 Seguir todos os canais no Telegram</a>
   <a class="cta-whatsapp" href="https://chat.whatsapp.com/JGvCrkWCfBmKS9KW4m1HD2" target="_blank" rel="noopener">📲 Entrar na Comunidade do WhatsApp</a>
