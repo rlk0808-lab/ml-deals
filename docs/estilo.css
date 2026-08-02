@@ -131,6 +131,11 @@ nav.migalha a{color:var(--tinta-fraca)}
   text-decoration:none; padding:15px 28px; border-radius:999px; margin:12px 0 8px; font-size:15.5px;
   box-shadow:0 8px 20px rgba(255,90,54,.28); transition:transform .14s ease, box-shadow .14s ease}
 .cta:hover{transform:translateY(-2px); box-shadow:0 12px 26px rgba(255,90,54,.36)}
+.cta-linha{display:flex; align-items:center; gap:12px; flex-wrap:wrap}
+.cta-compartilhar{display:inline-flex; align-items:center; gap:7px; background:#E7F8EE; color:#1FA855;
+  font-weight:600; text-decoration:none; padding:13px 22px; border-radius:999px; font-size:14.5px;
+  border:1px solid transparent; transition:background .14s ease, color .14s ease}
+.cta-compartilhar:hover{background:#25D366; color:#fff}
 .rodape-nota{color:var(--tinta-fraca); font-size:12.5px; border-top:1px solid var(--linha);
   margin-top:34px; padding-top:18px}
 
