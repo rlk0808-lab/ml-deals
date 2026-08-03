@@ -42,7 +42,7 @@ NICHOS_VALIDOS = set(
 GMAIL_USER = "caiudeverdade@gmail.com"
 GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "").strip()
 
-SITE_URL = "https://rlk0808-lab.github.io/ml-deals"
+SITE_URL = "https://caiudeverdade.com.br"
 
 _RE_MLB = re.compile(r"MLB-?(\d{8,})")
 _RE_EMAIL = re.compile(r"[^\s|]+@[^\s|]+\.[^\s|]+")

@@ -33,7 +33,7 @@ TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "").strip()
 # coleta (ex: ficou sem estoque) e nunca mais ser atualizado.
 VALIDADE_CAMADA2_HORAS = 10
 
-SITE_URL = "https://rlk0808-lab.github.io/ml-deals"
+SITE_URL = "https://caiudeverdade.com.br"
 
 # So pro Facebook/Instagram - o Telegram ja tem os proprios grupos
 # fixados no topo do canal, um convite pro WhatsApp/Telegram DENTRO do

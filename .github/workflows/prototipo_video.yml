@@ -25,5 +25,5 @@ jobs:
         env:
           TELEGRAM_TOKEN:        ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ROBSON:  ${{ secrets.TELEGRAM_CHAT_ROBSON }}
-          SITE_URL:              "https://rlk0808-lab.github.io/ml-deals"
+          SITE_URL:              "https://caiudeverdade.com.br"
         run: python -u enviar_prototipo_video.py

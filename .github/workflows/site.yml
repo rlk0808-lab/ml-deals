@@ -39,7 +39,7 @@ jobs:
 
       - name: Gerar e publicar docs/
         env:
-          SITE_URL: "https://rlk0808-lab.github.io/ml-deals"
+          SITE_URL: "https://caiudeverdade.com.br"
         run: |
           git config user.name  "site-bot"
           git config user.email "site-bot@users.noreply.github.com"
