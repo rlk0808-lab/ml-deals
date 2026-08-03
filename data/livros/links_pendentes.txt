@@ -4,50 +4,38 @@ Como usar: abra o link, clique em Compartilhar na barra preta de
 afiliados, copie o link gerado (meli.la/...) e cole em
 data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
-(gerado em 2026-08-02)
+(gerado em 2026-08-03)
 
-⭐ MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
-    https://www.mercadolivre.com.br/p/MLB36202363
-⭐ MLB26355500  Lugar Feliz: Lugar Feliz, De Henry, Emily. Editora Verus, Ca
-    https://www.mercadolivre.com.br/p/MLB26355500
-⭐ MLB19417207  Livro Negócios: Um assunto de mulheres, de Fontes, Ana, tapa
-    https://www.mercadolivre.com.br/p/MLB19417207
-⭐ MLB54103019  Box Relacionamentos Saudáveis
-    https://www.mercadolivre.com.br/p/MLB54103019
-⭐ MLB21194682  Crie Bons Hábitos: Livre - Se Dos Maus Hábitos
-    https://www.mercadolivre.com.br/p/MLB21194682
-⭐ MLB19430983  Livro-streampunks- Editora Best Seller
-    https://www.mercadolivre.com.br/p/MLB19430983
-⭐ MLB30188985  Dark One, de Sanderson, Brandon. Editora Poseidon, capa dura
-    https://www.mercadolivre.com.br/p/MLB30188985
-⭐ MLB23661891  Livro-verdade?- Editora Best Seller
-    https://www.mercadolivre.com.br/p/MLB23661891
-⭐ MLB25775586  Livro-recarregue-se!- Editora Best Seller
-    https://www.mercadolivre.com.br/p/MLB25775586
-⭐ MLB40957770  A Ciência De Ficar Rico: O Livro Clássico Do Sucesso Finance
-    https://www.mercadolivre.com.br/p/MLB40957770
 ⭐ MLB40283388  Box Alice - Box Com 2 Livros - Edição De Luxo Almofadada
     https://www.mercadolivre.com.br/p/MLB40283388
 ⭐ MLB37149234  Biblioteca Nietzsche - Box Com 4 Livros
     https://www.mercadolivre.com.br/p/MLB37149234
-⭐ MLB21580803  Livro: Pai Contra Mãe - Machado De Assis
-    https://www.mercadolivre.com.br/p/MLB21580803
-⭐ MLB22156338  Maldições Não Quebradas Livro Rebecca Brown, de Rebecca Brow
-    https://www.mercadolivre.com.br/p/MLB22156338
-⭐ MLB21397020  Hábitos Escravizadores - Livro Edward T. Welch
-    https://www.mercadolivre.com.br/p/MLB21397020
-⭐ MLB25801919  Kit Colleen Hoover: Novembro 9, Layla, Sem Esperança, De Col
-    https://www.mercadolivre.com.br/p/MLB25801919
-⭐ MLB26353001  De Ferias Com Voce - 1ªed.(2022), De Emily Henry. Editora Ve
-    https://www.mercadolivre.com.br/p/MLB26353001
 ⭐ MLB67071973  Viajando Com Agatha Christie
     https://www.mercadolivre.com.br/p/MLB67071973
+MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
+    https://www.mercadolivre.com.br/p/MLB36202363
+MLB26355500  Lugar Feliz: Lugar Feliz, De Henry, Emily. Editora Verus, Ca
+    https://www.mercadolivre.com.br/p/MLB26355500
+MLB19417207  Livro Negócios: Um assunto de mulheres, de Fontes, Ana, tapa
+    https://www.mercadolivre.com.br/p/MLB19417207
+MLB54103019  Box Relacionamentos Saudáveis
+    https://www.mercadolivre.com.br/p/MLB54103019
+MLB21194682  Crie Bons Hábitos: Livre - Se Dos Maus Hábitos
+    https://www.mercadolivre.com.br/p/MLB21194682
 MLB19771891  Box Essencial Conquistadores (3 Livros) *
     https://www.mercadolivre.com.br/p/MLB19771891
+MLB19430983  Livro-streampunks- Editora Best Seller
+    https://www.mercadolivre.com.br/p/MLB19430983
+MLB30188985  Dark One, de Sanderson, Brandon. Editora Poseidon, capa dura
+    https://www.mercadolivre.com.br/p/MLB30188985
 MLB35365698  Livro Um caso improvável, de Yarros, Rebecca. Editorial Veru
     https://www.mercadolivre.com.br/p/MLB35365698
 MLB21687753  Livro Negócios Recodificados, de Fisk, Peter. Editorial DVS 
     https://www.mercadolivre.com.br/p/MLB21687753
+MLB23661891  Livro-verdade?- Editora Best Seller
+    https://www.mercadolivre.com.br/p/MLB23661891
+MLB25775586  Livro-recarregue-se!- Editora Best Seller
+    https://www.mercadolivre.com.br/p/MLB25775586
 MLB53759056  Box Sandel
     https://www.mercadolivre.com.br/p/MLB53759056
 MLB19820634  Livro O Morro Dos Ventos Uivantes - Emily Brontë
@@ -56,6 +44,8 @@ MLB19295746  Livro Tormenta de Fogo, de Sanderson, Brandon, vol. 2. Edito
     https://www.mercadolivre.com.br/p/MLB19295746
 MLB19301929  Livro Coração de Aço, de Sanderson, Brandon, vol. 1. Editori
     https://www.mercadolivre.com.br/p/MLB19301929
+MLB40957770  A Ciência De Ficar Rico: O Livro Clássico Do Sucesso Finance
+    https://www.mercadolivre.com.br/p/MLB40957770
 MLB19744860  Box Coleção Patrícia
     https://www.mercadolivre.com.br/p/MLB19744860
 MLB54102040  Box Stanislavski
@@ -72,6 +62,8 @@ MLB22820495  Livro Quincas Borba - Machado De Assis
     https://www.mercadolivre.com.br/p/MLB22820495
 MLB66305472  Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, 
     https://www.mercadolivre.com.br/p/MLB66305472
+MLB21580803  Livro: Pai Contra Mãe - Machado De Assis
+    https://www.mercadolivre.com.br/p/MLB21580803
 MLB20760429  Box Lu & Bilu
     https://www.mercadolivre.com.br/p/MLB20760429
 MLB57098569  Livro Percy Jackson e os Olimpianos Crie seu destino De Disn
@@ -84,8 +76,12 @@ MLB22154835  Box Essencial Quantico
     https://www.mercadolivre.com.br/p/MLB22154835
 MLB70945977  Livro Hábitos Das Pessoas Eficientes E Felizes
     https://www.mercadolivre.com.br/p/MLB70945977
+MLB22156338  Maldições Não Quebradas Livro Rebecca Brown, de Rebecca Brow
+    https://www.mercadolivre.com.br/p/MLB22156338
 MLB71715115  Livro A Poesia Da Literatura Brasileira: Do Barroco Ao Moder
     https://www.mercadolivre.com.br/p/MLB71715115
+MLB21397020  Hábitos Escravizadores - Livro Edward T. Welch
+    https://www.mercadolivre.com.br/p/MLB21397020
 MLB19189031  Livro Negócios de família, de Ginsberg, Allen. Editorial Edi
     https://www.mercadolivre.com.br/p/MLB19189031
 MLB71604003  Livro Desencantos: Fantasia Dramática
@@ -96,10 +92,14 @@ MLB21396402  Box Livros Arséne Lupin - Clássicos - 3 Volumes
     https://www.mercadolivre.com.br/p/MLB21396402
 MLB60720366  Livro Wuthering Heights - Emily Brontë, De Emily Brontë, Vol
     https://www.mercadolivre.com.br/p/MLB60720366
+MLB25801919  Kit Colleen Hoover: Novembro 9, Layla, Sem Esperança, De Col
+    https://www.mercadolivre.com.br/p/MLB25801919
 MLB47099395  Box Desperte
     https://www.mercadolivre.com.br/p/MLB47099395
 MLB39933910  Biblioteca Nórdica - Box Com 3 Livros
     https://www.mercadolivre.com.br/p/MLB39933910
+MLB26353001  De Ferias Com Voce - 1ªed.(2022), De Emily Henry. Editora Ve
+    https://www.mercadolivre.com.br/p/MLB26353001
 MLB62785929  Livro Quebra De Confiança- Harlan Coben
     https://www.mercadolivre.com.br/p/MLB62785929
 MLB22734969  Livro Trilogia Annástria Fantasia Para Jovens E Adolescentes
