@@ -4,7 +4,7 @@ Como usar: abra o link, clique em Compartilhar na barra preta de
 afiliados, copie o link gerado (meli.la/...) e cole em
 data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
-(gerado em 2026-08-02)
+(gerado em 2026-08-03)
 
 ⭐ MLB62842938  Canguru Sling De Bebe Carregar Recem Nascido Dry Fit Furadin
     https://www.mercadolivre.com.br/p/MLB62842938
