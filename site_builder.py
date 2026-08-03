@@ -567,7 +567,7 @@ def pagina_home(nichos_resumo: list[dict], raiz_url: str,
     if destaques:
         cards_destaque = []
         for p in destaques:
-            img = (f'<img src="{p["imagem"]}" alt="{html.escape(p["nome"])}" loading="lazy">'
+            img = (f'<img src="{html.escape(p["imagem"])}" alt="{html.escape(p["nome"])}" loading="lazy">'
                   if p.get("imagem") else "")
             cards_destaque.append(f'''
     <a class="card-produto" href="{p['slug']}/{p['arquivo']}">
@@ -769,8 +769,11 @@ def pagina_produto(p: dict, cfg: dict, pontos: list[tuple[str, float]],
                    f"Esse produto ainda está formando histórico ({dias}/14 dias) - "
                    "o aviso só é possível depois de completar o mínimo pra confirmar queda real.")
 
-    json_ld = f'''<script type="application/ld+json">
-{json.dumps({
+    # substitui "</" por "<\/" - json.dumps nao escapa essa sequencia, e
+    # um nome de produto vindo da API do ML que contenha "</script>"
+    # fecharia a tag prematuramente, deixando o resto do JSON como HTML
+    # solto na pagina (a mesma pratica padrao pra JSON-LD embutido)
+    json_ld_conteudo = json.dumps({
         "@context": "https://schema.org/",
         "@type": "Product",
         "name": p["nome"],
@@ -782,7 +785,9 @@ def pagina_produto(p: dict, cfg: dict, pontos: list[tuple[str, float]],
             "url": link_ml,
             "availability": "https://schema.org/InStock",
         },
-    }, ensure_ascii=False)}
+    }, ensure_ascii=False).replace("</", "<\\/")
+    json_ld = f'''<script type="application/ld+json">
+{json_ld_conteudo}
 </script>'''
 
     corpo = f'''<div class="wrap">

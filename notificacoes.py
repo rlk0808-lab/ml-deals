@@ -29,6 +29,8 @@ import json
 import os
 import re
 import smtplib
+import subprocess
+import time
 from datetime import datetime, timezone
 from email.mime.text import MIMEText
 from pathlib import Path
@@ -162,6 +164,53 @@ def _montar_email(oferta: dict, cfg: dict) -> MIMEText:
     return msg
 
 
+def _persistir_remocao(pid: str) -> bool:
+    """
+    Sincroniza com origin/main, remove `pid` do registro lido do disco
+    NA HORA (nao da copia em memoria de enviar_notificacoes - o arquivo
+    e GLOBAL, compartilhado pelos 5 nichos rodando em paralelo na matriz
+    do coletor, cada um podendo estar mexendo nele ao mesmo tempo),
+    commita e sobe.
+
+    Chamado logo apos CADA aviso enviado com sucesso, nao batelado no
+    fim do laco - sem isso, um push perdido (fetch+reset --hard+rerun,
+    o mesmo padrao usado no workflow) descartava a remocao local e o
+    proximo collector.py do mesmo nicho reenviava o MESMO e-mail pra
+    quem ja tinha sido avisado - contradizendo o proprio texto do
+    e-mail ("nao vamos te mandar mais nada alem disso").
+    """
+    for tentativa in range(1, 4):
+        try:
+            subprocess.run(["git", "fetch", "origin", "main"],
+                           check=True, timeout=20, capture_output=True)
+            subprocess.run(["git", "reset", "--hard", "origin/main"],
+                           check=True, timeout=20, capture_output=True)
+        except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as e:
+            print(f"[pedidos] fetch/reset falhou: {e}")
+            return False
+
+        registro_atual = carregar()
+        registro_atual.pop(pid, None)
+        salvar(registro_atual)
+
+        subprocess.run(["git", "add", str(REGISTRO)], timeout=15, capture_output=True)
+        commit = subprocess.run(["git", "commit", "-m", f"pedidos: aviso enviado ({pid})"],
+                                capture_output=True, timeout=15)
+        saida = commit.stdout + commit.stderr
+        if commit.returncode != 0 and b"nothing to commit" not in saida:
+            print(f"[pedidos] commit falhou: {saida.decode(errors='replace')[:300]}")
+            return False
+
+        push = subprocess.run(["git", "push", "origin", "main"], capture_output=True, timeout=30)
+        if push.returncode == 0:
+            return True
+
+        print(f"[pedidos] push rejeitado (tentativa {tentativa}/3), tentando de novo")
+        time.sleep(tentativa * 3)
+
+    return False
+
+
 def enviar_notificacoes(ofertas: list[dict], cfg: dict) -> int:
     """
     Cruza as ofertas REAIS de hoje com o registro de pedidos. Quem
@@ -205,12 +254,14 @@ def enviar_notificacoes(ofertas: list[dict], cfg: dict) -> int:
             # aviso unico - so sai do registro se pelo menos 1 envio deu
             # certo. Se todos falharem, o pedido continua na fila pra
             # tentar de novo na proxima rodada, em vez de se perder.
+            # Persistido AQUI, item por item - ver _persistir_remocao.
             if algum_enviado:
                 del registro[pid]
+                if not _persistir_remocao(pid):
+                    print(f"[pedidos] AVISO: {pid} foi notificado mas nao consegui "
+                          f"salvar a remocao do registro - pode ser reenviado depois")
     finally:
         if servidor:
             servidor.quit()
 
-    if enviados:
-        salvar(registro)
     return enviados

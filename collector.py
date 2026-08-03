@@ -956,7 +956,6 @@ def main() -> int:
     f_wl.write_text(json.dumps(wl, ensure_ascii=False, indent=2), encoding="utf-8")
     podar_estado_camada2(d, wl)
     podar_estado_camada1(d, wl)
-    recordes.podar(d, wl)
 
     if not hoje:
         print("[!] nada coletado")

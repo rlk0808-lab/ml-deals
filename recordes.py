@@ -26,6 +26,16 @@ mantiver. Formato de data/{nicho}/recordes.json:
     "dias_total": 53
   }
 }
+
+Diferente de camada1_state.json/camada2_state.json, este arquivo NAO e
+podado quando o produto sai da watchlist. Aqueles dois sao so flags de
+dedup diario - perder e inofensivo. Aqui seria destrutivo: um produto
+pode sair da watchlist por um motivo temporario (esgotado por poucos
+dias, mudanca de filtro em config/nichos.json) e voltar depois - se
+podassemos o recorde nesse meio tempo, o preco minimo real seria
+perdido pra sempre e o selo "MENOR PREÇO" poderia sair errado depois.
+Como e 1 registro pequeno por produto (nao um historico crescendo por
+rodada), nao ha pressao de espaço que justifique podar.
 """
 
 import json
@@ -64,6 +74,7 @@ def atualizar(d: Path, hoje_rows: list[dict]) -> dict:
                 "data_menor": data_hoje,
                 "primeiro_dia": data_hoje,
                 "dias_total": 1,
+                "_ultima_data_vista": data_hoje,
             }
             continue
         if data_hoje != atual.get("_ultima_data_vista"):
@@ -75,19 +86,6 @@ def atualizar(d: Path, hoje_rows: list[dict]) -> dict:
             atual["data_menor"] = data_hoje
     salvar(d, recordes)
     return recordes
-
-
-def podar(d: Path, wl: dict) -> int:
-    """Remove recorde de produto que saiu da watchlist - mesmo padrao
-    de podar_estado_camada1/camada2 em collector.py."""
-    recordes = carregar(d)
-    antes = len(recordes)
-    recordes = {pid: v for pid, v in recordes.items() if pid in wl}
-    removidos = antes - len(recordes)
-    if removidos:
-        salvar(d, recordes)
-        print(f"[recordes] {removidos} produto(s) removido(s) (saiu da watchlist)")
-    return removidos
 
 
 def backfill_de_historico(d: Path) -> int:

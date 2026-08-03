@@ -12,6 +12,7 @@ Uso: python publish_next.py <nicho>
 
 import json
 import os
+import subprocess
 import sys
 import time
 import traceback
@@ -322,6 +323,53 @@ def enviar(item: dict, cfg: dict, chat: str) -> bool:
         return False
 
 
+def _sincronizar_e_salvar_fila(f_fila: Path, transformar, mensagem: str) -> bool:
+    """
+    Sincroniza com origin/main, aplica `transformar` na fila lida NA HORA
+    do disco (nao numa copia em memoria antiga - evita perder item que
+    outro processo tenha adicionado nesse meio tempo), commita e sobe.
+
+    Por que isso existe: o laço de retry do workflow (fetch + reset
+    --hard + rerun inteiro) e seguro pros dados que so vivem em disco,
+    mas o ENVIO pro Telegram/Threads/Meta que main() dispara e um efeito
+    colateral externo que nao pode ser desfeito. Sem reservar (remover
+    da fila) o item ANTES de enviar, e devolver (readicionar) so se o
+    envio falhar - cada um com seu proprio commit imediato - uma corrida
+    de push podia descartar a fila local ja atualizada e reenviar o
+    mesmo item numa proxima tentativa do laço externo.
+    """
+    for tentativa in range(1, 4):
+        try:
+            subprocess.run(["git", "fetch", "origin", "main"],
+                           check=True, timeout=20, capture_output=True)
+            subprocess.run(["git", "reset", "--hard", "origin/main"],
+                           check=True, timeout=20, capture_output=True)
+        except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as e:
+            print(f"[fila] fetch/reset falhou: {e}")
+            return False
+
+        fila_atual = json.loads(f_fila.read_text(encoding="utf-8")) if f_fila.exists() else []
+        fila_nova = transformar(fila_atual)
+        f_fila.write_text(json.dumps(fila_nova, ensure_ascii=False, indent=2), encoding="utf-8")
+
+        subprocess.run(["git", "add", str(f_fila)], timeout=15, capture_output=True)
+        commit = subprocess.run(["git", "commit", "-m", mensagem],
+                                capture_output=True, timeout=15)
+        saida = commit.stdout + commit.stderr
+        if commit.returncode != 0 and b"nothing to commit" not in saida:
+            print(f"[fila] commit falhou: {saida.decode(errors='replace')[:300]}")
+            return False
+
+        push = subprocess.run(["git", "push", "origin", "main"], capture_output=True, timeout=30)
+        if push.returncode == 0:
+            return True
+
+        print(f"[fila] push rejeitado (tentativa {tentativa}/3), tentando de novo")
+        time.sleep(tentativa * 3)
+
+    return False
+
+
 def main() -> int:
     if len(sys.argv) < 2:
         print("uso: python publish_next.py <nicho>")
@@ -362,6 +410,29 @@ def main() -> int:
         return 0
 
     item = fila.pop(0)  # FIFO - o mais antigo primeiro
+    pid_alvo = item.get("product_id")
+
+    def _reservar(fila_disco: list[dict]) -> list[dict]:
+        # opera sobre o que estiver NO DISCO agora (nao no `fila` lido
+        # no topo de main(), que pode ja estar desatualizado) - remove
+        # vencidos e so a PRIMEIRA ocorrencia do item alvo (por
+        # product_id, nao o dict inteiro - um preco atualizado
+        # concorrentemente por refrescar_camada2_na_fila nao pode fazer
+        # a gente "nao achar" o item e deixar de reserva-lo)
+        fila_disco = [it for it in fila_disco if not esta_vencido(it)]
+        nova, removido = [], False
+        for it in fila_disco:
+            if not removido and it.get("product_id") == pid_alvo:
+                removido = True
+                continue
+            nova.append(it)
+        return nova
+
+    if not _sincronizar_e_salvar_fila(f_fila, _reservar, "fila: reservar item pra envio"):
+        print("[fila] nao consegui reservar o item (push falhou) - "
+              "abortando SEM enviar, tenta de novo na proxima rodada")
+        return 1
+
     ok = enviar(item, cfg, chat)
 
     if ok and item.get("tipo") == "camada2":
@@ -374,12 +445,12 @@ def main() -> int:
 
     if not ok:
         # falhou o envio - devolve pro fim da fila pra tentar de novo depois
-        fila.append(item)
+        _sincronizar_e_salvar_fila(f_fila, lambda f, it=item: f + [it],
+                                   "fila: devolver item (envio falhou)")
         print("[fila] envio falhou, item devolvido ao fim da fila")
+    else:
+        print("[fila] item enviado e removido da fila")
 
-    f_fila.write_text(json.dumps(fila, ensure_ascii=False, indent=2),
-                      encoding="utf-8")
-    print(f"[fila] restam {len(fila)} item(ns)")
     return 0
 
 
