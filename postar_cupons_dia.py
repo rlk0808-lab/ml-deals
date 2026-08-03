@@ -23,27 +23,11 @@ TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "").strip()
 
 TEXTO = """🎟️ CUPONS MERCADO LIVRE DE HOJE
 
-CORREAQUIHJ — 10% OFF, até R$ 1000 de desconto (mín. R$ 79) — https://bit.ly/4wsj3Gh — só hoje
+SUPERPROMO — 20% OFF, até R$ 500 de desconto (mín. R$ 29) — https://bit.ly/4hcjH68 — até 12/08 ou 1.000 usos
 
-DESCONTODOML — 20% OFF (mín. R$ 79) — https://bit.ly/4pGnXwJ — até 02/08
+HORADOCUPOM — 18% OFF, até R$ 500 de desconto (mín. R$ 29) — https://bit.ly/4za5blU — até 12/08 ou 1.000 usos
 
-CUPOMNOML — 22% OFF (mín. R$ 29) — https://bit.ly/4fq6uoQ — até 02/08
-
-OFERTAS — 25% OFF (mín. R$ 29) — https://bit.ly/4wkj7aY — até 02/08
-
-MELIACHA — 22% OFF (mín. R$ 29) — https://bit.ly/3THEuVf — até 02/08
-
-QUEROPROMO — 25% OFF (mín. R$ 29) — https://bit.ly/4fnMxz1 — até 02/08
-
-QUEROPROMOML — 20% OFF, até R$ 150 de desconto (mín. R$ 19) — categoria Comércio e Indústria — até 07/08
-
-CUPOMDOMELI — 20% OFF, até R$ 150 de desconto (mín. R$ 19) — categoria Acessórios para veículos — até 07/08
-
-ECONOMIZE — 20% OFF, até R$ 150 de desconto (mín. R$ 19) — categoria Entretenimento — até 07/08
-
-MIMOPARAVOCE — 20% OFF, até R$ 150 de desconto (mín. R$ 19) — categoria Esportes — até 07/08
-
-CORREAQUI — 20% OFF, até R$ 150 de desconto (mín. R$ 19) — categoria Saúde — até 07/08
+DESCOTOSMELI — 25% OFF, até R$ 500 de desconto (mín. R$ 29) — https://bit.ly/4hcTlAP — até 12/08 ou 1.000 usos
 
 São cupons gerais da plataforma, em produtos selecionados - nem tudo aceita. \
 A gente testou aqui: não pegou num livro, pegou certinho num copo. Vale a \
