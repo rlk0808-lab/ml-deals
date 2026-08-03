@@ -189,8 +189,8 @@
     "_ultima_data_vista": "2026-08-03"
   },
   "MLB34821732": {
-    "menor_preco": 125.1,
-    "data_menor": "2026-07-13",
+    "menor_preco": 125.0,
+    "data_menor": "2026-08-03",
     "primeiro_dia": "2026-07-13",
     "dias_total": 22,
     "_ultima_data_vista": "2026-08-03"
@@ -1302,7 +1302,7 @@
     "_ultima_data_vista": "2026-08-03"
   },
   "MLB21967613": {
-    "menor_preco": 120.57,
+    "menor_preco": 113.53,
     "data_menor": "2026-08-03",
     "primeiro_dia": "2026-07-15",
     "dias_total": 20,
@@ -1806,8 +1806,8 @@
     "_ultima_data_vista": "2026-08-03"
   },
   "MLB25597222": {
-    "menor_preco": 56.49,
-    "data_menor": "2026-08-02",
+    "menor_preco": 53.84,
+    "data_menor": "2026-08-03",
     "primeiro_dia": "2026-07-15",
     "dias_total": 20,
     "_ultima_data_vista": "2026-08-03"
@@ -1869,8 +1869,8 @@
     "_ultima_data_vista": "2026-08-03"
   },
   "MLB75087991": {
-    "menor_preco": 46.5,
-    "data_menor": "2026-07-22",
+    "menor_preco": 40.75,
+    "data_menor": "2026-08-03",
     "primeiro_dia": "2026-07-17",
     "dias_total": 18,
     "_ultima_data_vista": "2026-08-03"
@@ -1974,8 +1974,8 @@
     "_ultima_data_vista": "2026-07-25"
   },
   "MLB74927262": {
-    "menor_preco": 20.95,
-    "data_menor": "2026-07-30",
+    "menor_preco": 20.32,
+    "data_menor": "2026-08-03",
     "primeiro_dia": "2026-07-26",
     "dias_total": 9,
     "_ultima_data_vista": "2026-08-03"
@@ -2163,8 +2163,8 @@
     "_ultima_data_vista": "2026-08-03"
   },
   "MLB61964304": {
-    "menor_preco": 59.99,
-    "data_menor": "2026-07-27",
+    "menor_preco": 54.99,
+    "data_menor": "2026-08-03",
     "primeiro_dia": "2026-07-27",
     "dias_total": 8,
     "_ultima_data_vista": "2026-08-03"
@@ -2524,6 +2524,13 @@
     "data_menor": "2026-08-01",
     "primeiro_dia": "2026-08-01",
     "dias_total": 3,
+    "_ultima_data_vista": "2026-08-03"
+  },
+  "MLB66977682": {
+    "menor_preco": 115.2,
+    "data_menor": "2026-08-03",
+    "primeiro_dia": "2026-08-03",
+    "dias_total": 1,
     "_ultima_data_vista": "2026-08-03"
   }
 }

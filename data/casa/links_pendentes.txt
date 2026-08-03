@@ -10,10 +10,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB29118990
 ⭐ MLB26615065  Cesto Roupa Suja Dobrável 3 Compartimentos Meta Parts Alumín
     https://www.mercadolivre.com.br/p/MLB26615065
+⭐ MLB60085180  Jogo Tapetes Banheiro Antiderrapante Cinza Jolitex Delicato 
+    https://www.mercadolivre.com.br/p/MLB60085180
+⭐ MLB75087991  Jogo Talheres 12 Peças Inox Fratelli Elegante Moderno Rosa C
+    https://www.mercadolivre.com.br/p/MLB75087991
 ⭐ MLB39242772  Jogo Copos Vidro Pasabahçe Timeless 180ml 4 Peças Para Coque
     https://www.mercadolivre.com.br/p/MLB39242772
-MLB60085180  Jogo Tapetes Banheiro Antiderrapante Cinza Jolitex Delicato 
-    https://www.mercadolivre.com.br/p/MLB60085180
+⭐ MLB25336204  Jogo Taças Plástico 6 Peças Plasútil Âmbar Citrino 330ml Vin
+    https://www.mercadolivre.com.br/p/MLB25336204
 MLB26532285  Organizador De Carro Encosto Banco Porta Trecos E Tablet Mul
     https://www.mercadolivre.com.br/p/MLB26532285
 MLB63252798  Kit Potes Mantimentos Tupperware Floral Hermético para Café 
@@ -54,10 +58,14 @@ MLB41984936  Sanduicheira Grill Antiaderente Preto 750W Tapioqueira
     https://www.mercadolivre.com.br/p/MLB41984936
 MLB42444927  Sanduicheira Grill Elétrica Belakaza 2 Em 1 Preto Antiaderen
     https://www.mercadolivre.com.br/p/MLB42444927
+MLB59270988  Sanduicheira Grill Elétrica Antiaderente 750w 220 V Cor Pret
+    https://www.mercadolivre.com.br/p/MLB59270988
 MLB29043753  Jogo Copos De Vidro Diamond Fio De Ouro 270ml 12 Peças Lyor
     https://www.mercadolivre.com.br/p/MLB29043753
 MLB61203755  Sanduicheira Grill Elétrica 750w Dupla Antiaderente Sa Black
     https://www.mercadolivre.com.br/p/MLB61203755
+MLB76038973  Panela Ferro Fundido Esmaltado Premium Creme P/ Fogões Creme
+    https://www.mercadolivre.com.br/p/MLB76038973
 MLB24679905  Escorredor, escorredor, louça, pia, talheres de cozinha, cor
     https://www.mercadolivre.com.br/p/MLB24679905
 MLB45302528  Porta Condimentos Temperos Especiarias Gin Organizador Cozin
@@ -96,8 +104,6 @@ MLB39997355  Kit C/ 4 Potes Herméticos Alimentos Organizador Bambu 340ml
     https://www.mercadolivre.com.br/p/MLB39997355
 MLB38279289  Armário Organizador Cozinha Balcão Microondas Jet - Cinza
     https://www.mercadolivre.com.br/p/MLB38279289
-MLB75087991  Jogo Talheres 12 Peças Inox Fratelli Elegante Moderno Rosa C
-    https://www.mercadolivre.com.br/p/MLB75087991
 MLB75662671  Jogo Panelas Antiaderente Revestimento Cerâmico 7 Peças Cor 
     https://www.mercadolivre.com.br/p/MLB75662671
 MLB74654367  2 Dispenser Profissional Filme Plástico Organizador Cozinha
@@ -120,9 +126,3 @@ MLB26702068  Kit Organizador de Guarda-Roupa e Gaveta com 10 Divisores
     https://www.mercadolivre.com.br/p/MLB26702068
 MLB49249464  Nicho Prateleira Parede Arnad Decoração 100x20 Preto/branco
     https://www.mercadolivre.com.br/p/MLB49249464
-MLB57981713  Prateleira Parede Multiuso Mdf Sala Quarto Cozinha 80cm Cor 
-    https://www.mercadolivre.com.br/p/MLB57981713
-MLB62456283  Prateleira Parede MDF Cru 18mm 120x20cm Arrigo Móveis Bege F
-    https://www.mercadolivre.com.br/p/MLB62456283
-MLB53794059  Cesto De Roupa Bambu Dobravel Organizador Forrado Banheiro G
-    https://www.mercadolivre.com.br/p/MLB53794059
