@@ -90,7 +90,7 @@
     "nome": "Coleção Agatha Christie box 8 de Christie Agatha editorial HarperCollins Brasil português 2017",
     "preco": 68.37,
     "preco_original": 129.9,
-    "n_ofertas": 82,
+    "n_ofertas": 84,
     "item_id": "MLB3962222051",
     "seller_id": 480263032,
     "frete_gratis": true,
@@ -100,6 +100,23 @@
     "minimo_hist": 45.0,
     "desconto": 22.1,
     "recorde": false
+  },
+  {
+    "data": "2026-08-03",
+    "product_id": "MLB65754557",
+    "nome": "Livro Trono De Vidro Box 8 Livros Série Completa De Sarah J. Maas Edição 1 Português 2020 Editora Galera",
+    "preco": 199.88,
+    "preco_original": 429.9,
+    "n_ofertas": 27,
+    "item_id": "MLB6438412692",
+    "seller_id": 480263032,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB65754557",
+    "mediana": 254.99,
+    "minimo_hist": 199.88,
+    "desconto": 21.6,
+    "recorde": true
   },
   {
     "data": "2026-08-03",
@@ -133,23 +150,6 @@
     "mediana": 78.99,
     "minimo_hist": 62.09,
     "desconto": 21.4,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-03",
-    "product_id": "MLB65754557",
-    "nome": "Livro Trono De Vidro Box 8 Livros Série Completa De Sarah J. Maas Edição 1 Português 2020 Editora Galera",
-    "preco": 206.82,
-    "preco_original": 429.9,
-    "n_ofertas": 27,
-    "item_id": "MLB6438412692",
-    "seller_id": 480263032,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB65754557",
-    "mediana": 254.99,
-    "minimo_hist": 206.82,
-    "desconto": 18.9,
     "recorde": true
   },
   {
