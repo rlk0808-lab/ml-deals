@@ -35,23 +35,6 @@
   },
   {
     "data": "2026-08-03",
-    "product_id": "MLB45393532",
-    "nome": "Jogo Copos Vidro Caipirinha Ilhabela Rocks 420 Ml Nadir 12un",
-    "preco": 144.99,
-    "preco_original": null,
-    "n_ofertas": 2,
-    "item_id": "MLB3949420323",
-    "seller_id": 662314150,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB45393532",
-    "mediana": 204.16,
-    "minimo_hist": 144.99,
-    "desconto": 29.0,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-03",
     "product_id": "MLB26013477",
     "nome": "Jogo Taças Água Vinho Vidro Diamante Lilás 260ml Class Home",
     "preco": 119.0,
@@ -65,6 +48,23 @@
     "mediana": 158.3,
     "minimo_hist": 119.0,
     "desconto": 24.8,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-03",
+    "product_id": "MLB32946854",
+    "nome": "Jogo Taças Vinho Tinto Cristalino 320ml Nadir Figueiredo 6 Unid",
+    "preco": 54.17,
+    "preco_original": 64.99,
+    "n_ofertas": 4,
+    "item_id": "MLB4306899055",
+    "seller_id": 230388715,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB32946854",
+    "mediana": 69.99,
+    "minimo_hist": 54.17,
+    "desconto": 22.6,
     "recorde": true
   },
   {
