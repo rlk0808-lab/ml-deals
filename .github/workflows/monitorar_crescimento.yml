@@ -1,0 +1,58 @@
+name: Monitorar crescimento
+
+on:
+  schedule:
+    # uma vez por dia, 23h BRT (02h UTC) - depois que o dia de postagens
+    # normal ja terminou
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  monitorar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r requirements.txt
+
+      - name: Registrar contagem de membros
+        env:
+          TELEGRAM_TOKEN:        ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_LIVROS:  ${{ secrets.TELEGRAM_CHAT_LIVROS }}
+          TELEGRAM_CHAT_BEBES:   ${{ secrets.TELEGRAM_CHAT_BEBES }}
+          TELEGRAM_CHAT_CASA:    ${{ secrets.TELEGRAM_CHAT_CASA }}
+          TELEGRAM_CHAT_MODA:    ${{ secrets.TELEGRAM_CHAT_MODA }}
+          TELEGRAM_CHAT_BELEZA:  ${{ secrets.TELEGRAM_CHAT_BELEZA }}
+        run: |
+          git config user.name  "crescimento-bot"
+          git config user.email "crescimento-bot@users.noreply.github.com"
+
+          tentativas=3
+          for i in $(seq 1 $tentativas); do
+            echo "=== tentativa $i/$tentativas ==="
+            git fetch origin main
+            git reset --hard origin/main
+
+            python monitorar_crescimento.py
+
+            git add data/crescimento.json
+            git commit -m "crescimento: $(date -u +%Y-%m-%d)" || echo "nada novo"
+
+            if git push origin main; then
+              echo "=== salvo com sucesso ==="
+              exit 0
+            fi
+
+            echo "=== push rejeitado, tentando de novo ==="
+            sleep $((i * 5))
+          done
+
+          echo "::error::Nao foi possivel salvar apos $tentativas tentativas"
+          exit 1
