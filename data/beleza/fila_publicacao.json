@@ -654,5 +654,10 @@
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_618452-MLA99340333100_112025-F.jpg",
     "tipo": "camada2",
     "enfileirado_em": "2026-08-03T09:26:05.025944+00:00"
+  },
+  {
+    "product_id": "MLB_TESTE_MECANICA_FILA",
+    "tipo": "teste",
+    "data": "2026-08-03"
   }
 ]
