@@ -2733,6 +2733,7 @@
     "menor_preco": 229.99,
     "data_menor": "2026-08-03",
     "primeiro_dia": "2026-08-03",
-    "dias_total": 1
+    "dias_total": 2,
+    "_ultima_data_vista": "2026-08-03"
   }
 }
