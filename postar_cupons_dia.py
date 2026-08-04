@@ -23,11 +23,13 @@ TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "").strip()
 
 TEXTO = """🎟️ CUPONS MERCADO LIVRE DE HOJE
 
-SUPERPROMO — 20% OFF, até R$ 500 de desconto (mín. R$ 29) — https://bit.ly/4hcjH68 — até 12/08 ou 1.000 usos
+AMODESCONTO — 10% OFF, até R$ 100 de desconto (mín. R$ 79) — https://bit.ly/4fCekvF — só hoje (04/08) ou 1.000 usos
 
-HORADOCUPOM — 18% OFF, até R$ 500 de desconto (mín. R$ 29) — https://bit.ly/4za5blU — até 12/08 ou 1.000 usos
+MAISPORMENOS — 22% OFF, até R$ 500 de desconto (mín. R$ 29) — https://bit.ly/4fUlI4z — até 12/08 ou 1.000 usos
 
-DESCOTOSMELI — 25% OFF, até R$ 500 de desconto (mín. R$ 29) — https://bit.ly/4hcTlAP — até 12/08 ou 1.000 usos
+MAISCUPONS — 25% OFF, até R$ 500 de desconto (mín. R$ 29) — https://bit.ly/4yQkOih — até 12/08 ou 1.000 usos
+
+MAISOFERTAS — 18% OFF, até R$ 500 de desconto (mín. R$ 29) — https://bit.ly/4xiBiho — até 12/08 ou 1.000 usos
 
 São cupons gerais da plataforma, em produtos selecionados - nem tudo aceita. \
 A gente testou aqui: não pegou num livro, pegou certinho num copo. Vale a \
