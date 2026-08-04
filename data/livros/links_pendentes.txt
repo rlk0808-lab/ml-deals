@@ -14,6 +14,16 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB19417207
 ⭐ MLB21194682  Crie Bons Hábitos: Livre - Se Dos Maus Hábitos
     https://www.mercadolivre.com.br/p/MLB21194682
+⭐ MLB54103019  Box Relacionamentos Saudáveis
+    https://www.mercadolivre.com.br/p/MLB54103019
+⭐ MLB19430983  Livro-streampunks- Editora Best Seller
+    https://www.mercadolivre.com.br/p/MLB19430983
+⭐ MLB30188985  Dark One, de Sanderson, Brandon. Editora Poseidon, capa dura
+    https://www.mercadolivre.com.br/p/MLB30188985
+⭐ MLB25775586  Livro-recarregue-se!- Editora Best Seller
+    https://www.mercadolivre.com.br/p/MLB25775586
+⭐ MLB23661891  Livro-verdade?- Editora Best Seller
+    https://www.mercadolivre.com.br/p/MLB23661891
 ⭐ MLB40283388  Box Alice - Box Com 2 Livros - Edição De Luxo Almofadada
     https://www.mercadolivre.com.br/p/MLB40283388
 ⭐ MLB37149234  Biblioteca Nietzsche - Box Com 4 Livros
@@ -22,14 +32,10 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB19243672
 ⭐ MLB54711829  Livro Coleção Colleen Hoover: É Assim Que Acaba + É Assim Qu
     https://www.mercadolivre.com.br/p/MLB54711829
-MLB54103019  Box Relacionamentos Saudáveis
-    https://www.mercadolivre.com.br/p/MLB54103019
+⭐ MLB19243665  Livro O Código Da Vinci de Dan Brown E Robert Langdon Livro 
+    https://www.mercadolivre.com.br/p/MLB19243665
 MLB19771891  Box Essencial Conquistadores (3 Livros) *
     https://www.mercadolivre.com.br/p/MLB19771891
-MLB19430983  Livro-streampunks- Editora Best Seller
-    https://www.mercadolivre.com.br/p/MLB19430983
-MLB30188985  Dark One, de Sanderson, Brandon. Editora Poseidon, capa dura
-    https://www.mercadolivre.com.br/p/MLB30188985
 MLB35365698  Livro Um caso improvável, de Yarros, Rebecca. Editorial Veru
     https://www.mercadolivre.com.br/p/MLB35365698
 MLB21687753  Livro Negócios Recodificados, de Fisk, Peter. Editorial DVS 
@@ -40,10 +46,6 @@ MLB19301929  Livro Coração de Aço, de Sanderson, Brandon, vol. 1. Editori
     https://www.mercadolivre.com.br/p/MLB19301929
 MLB19820634  Livro O Morro Dos Ventos Uivantes - Emily Brontë
     https://www.mercadolivre.com.br/p/MLB19820634
-MLB23661891  Livro-verdade?- Editora Best Seller
-    https://www.mercadolivre.com.br/p/MLB23661891
-MLB25775586  Livro-recarregue-se!- Editora Best Seller
-    https://www.mercadolivre.com.br/p/MLB25775586
 MLB53759056  Box Sandel
     https://www.mercadolivre.com.br/p/MLB53759056
 MLB21757672  Livro PAPÉIS AVULSOS - MACHADO DE ASSIS, de Assis, Machado d
@@ -120,9 +122,7 @@ MLB46923461  Box Livros Elisabeth Elliot
     https://www.mercadolivre.com.br/p/MLB46923461
 MLB68499477  Livro Desenvolvimento Local Sustentável, De Kronemberg, Deni
     https://www.mercadolivre.com.br/p/MLB68499477
-MLB22101664  Livro Empreendedorismo Transformando Ideias Em Negócios, 9ª 
-    https://www.mercadolivre.com.br/p/MLB22101664
 MLB19314437  Livro Mistério Sob O Gelo: Uma Aventura Na Antártica De Alex
     https://www.mercadolivre.com.br/p/MLB19314437
-MLB62822775  Livro Kit O Segredo Da Empregada, De Freida Mcfadden. Editor
-    https://www.mercadolivre.com.br/p/MLB62822775
+MLB22101664  Livro Empreendedorismo Transformando Ideias Em Negócios, 9ª 
+    https://www.mercadolivre.com.br/p/MLB22101664
