@@ -34,12 +34,51 @@ FPS = 25
 # antigo/desconto/CTA (segura o resto do video, e o estado final)
 ESTAGIOS = [(0, 1.3), (1, 1.1), (2, 1.1), (3, 2.5)]
 
+# efeito "pop" (mola: passa do tamanho, volta) pro preco e o desconto -
+# sao os 2 numeros que mais importam, valia destacar mais que so
+# aparecer estatico igual o resto do cartao
+POP_ESCALAS = [1.4, 1.15, 1.0]
+POP_DURACAO_FRAME = 0.08
 
-def _desenhar_story_progressivo(item: dict, estagio: int) -> Image.Image:
+
+def _colar_texto_com_escala(img: Image.Image, texto: str, fonte,
+                            pos: tuple[int, int], cor, escala: float) -> None:
+    """Desenha `texto` ampliado/reduzido por `escala`, crescendo a
+    partir da BORDA ESQUERDA fixa (nao do centro) - usado pro efeito de
+    pop. Texto nesse cartao sempre comeca perto da borda esquerda
+    (pad=64); crescer a partir do centro empurra a borda esquerda pra
+    fora do quadro (testado e confirmado - cortava a tela). Vertical
+    continua centrado, ha espaco de sobra pra cima/baixo."""
+    medidor = ImageDraw.Draw(img)
+    bbox = medidor.textbbox(pos, texto, font=fonte)
+    cy = (bbox[1] + bbox[3]) / 2
+
+    pad_patch = 12
+    largura, altura = bbox[2] - bbox[0], bbox[3] - bbox[1]
+    patch = Image.new("RGBA", (largura + 2 * pad_patch, altura + 2 * pad_patch), (0, 0, 0, 0))
+    d_patch = ImageDraw.Draw(patch)
+    d_patch.text((pad_patch - bbox[0] + pos[0], pad_patch - bbox[1] + pos[1]),
+                texto, font=fonte, fill=cor)
+
+    novo_w = max(1, round(patch.width * escala))
+    novo_h = max(1, round(patch.height * escala))
+    patch = patch.resize((novo_w, novo_h), Image.LANCZOS)
+
+    # borda esquerda do TEXTO (nao do patch, que tem margem) fixa em
+    # bbox[0] - a margem em volta do texto tambem escala junto
+    paste_x = round(bbox[0] - pad_patch * escala)
+    paste_y = round(cy - novo_h / 2)
+    img.paste(patch, (paste_x, paste_y), patch)
+
+
+def _montar_frame(item: dict, estagio: int, escala_pop: dict | None = None) -> Image.Image:
     """Mesmo cartao de image_card.gerar_story_oferta_real, mas so
     desenha os elementos ate `estagio` - o espaco de cada elemento e
     sempre reservado (y avança igual), so o desenho em si e condicional,
-    pra nada pular de posicao quando aparece."""
+    pra nada pular de posicao quando aparece. `escala_pop` (opcional,
+    ex: {"preco": 1.4}) desenha aquele elemento especifico ampliado -
+    usado pra montar os frames curtos do efeito de pop."""
+    escala_pop = escala_pop or {}
     pad = 64
     f_wordmark = image_card._fonte("Fraunces-BlackItalic.ttf", 30)
     f_selo = image_card._fonte("PlusJakartaSans-ExtraBold.ttf", 24)
@@ -94,15 +133,24 @@ def _desenhar_story_progressivo(item: dict, estagio: int) -> Image.Image:
         y += len(linhas_nome) * 50 + 20
 
     if estagio >= 2:
-        d.text((pad, y), f"R$ {item['preco']:.2f}", font=f_preco, fill=image_card.ACAO)
+        texto_preco = f"R$ {item['preco']:.2f}"
+        if "preco" in escala_pop:
+            _colar_texto_com_escala(img, texto_preco, f_preco, (pad, y),
+                                    image_card.ACAO, escala_pop["preco"])
+        else:
+            d.text((pad, y), texto_preco, font=f_preco, fill=image_card.ACAO)
     y += 110
 
     if estagio >= 3:
         d.text((pad, y), f"Preço habitual: R$ {item['mediana']:.2f}",
                font=f_preco_antigo, fill=image_card.INK_FRACA)
         y += 50
-        d.text((pad, y), f"{item['desconto']:.0f}% abaixo do normal",
-               font=f_desconto, fill=image_card.VERIFICADO)
+        texto_desconto = f"{item['desconto']:.0f}% abaixo do normal"
+        if "desconto" in escala_pop:
+            _colar_texto_com_escala(img, texto_desconto, f_desconto, (pad, y),
+                                    image_card.VERIFICADO, escala_pop["desconto"])
+        else:
+            d.text((pad, y), texto_desconto, font=f_desconto, fill=image_card.VERIFICADO)
 
         cta_texto = "GRUPOS NO WHATS E TELEGRAM — LINK NA BIO"
         cta_h = 64
@@ -119,23 +167,37 @@ def _desenhar_story_progressivo(item: dict, estagio: int) -> Image.Image:
 def gerar_video_oferta_real(item: dict) -> bytes:
     """Recebe o mesmo dict de sempre (nome, preco, mediana, desconto,
     recorde, imagem) e devolve os bytes de um MP4 vertical (1080x1920)
-    pronto pra Reels/Shorts/TikTok - revelacao progressiva por estagios."""
+    pronto pra Reels/Shorts/TikTok - revelacao progressiva por estagios,
+    com efeito de pop no preco e no desconto quando aparecem."""
     with tempfile.TemporaryDirectory() as tmp:
         tmp_path = Path(tmp)
         out_path = tmp_path / "saida.mp4"
 
-        entradas = []
-        for i, (estagio, duracao) in enumerate(ESTAGIOS):
-            frame = _desenhar_story_progressivo(item, estagio)
-            frame_path = tmp_path / f"frame{i}.png"
-            frame.save(frame_path)
-            entradas += ["-loop", "1", "-t", str(duracao), "-i", str(frame_path)]
+        entradas: list[str] = []
+        idx = 0
 
-        n = len(ESTAGIOS)
+        def _add(img: Image.Image, duracao: float) -> None:
+            nonlocal idx
+            p = tmp_path / f"f{idx}.png"
+            img.save(p)
+            entradas.extend(["-loop", "1", "-t", f"{duracao:.3f}", "-i", str(p)])
+            idx += 1
+
+        duracao_pop = len(POP_ESCALAS) * POP_DURACAO_FRAME
+
+        for estagio, duracao in ESTAGIOS:
+            chave_pop = {2: "preco", 3: "desconto"}.get(estagio)
+            if chave_pop:
+                for escala in POP_ESCALAS:
+                    _add(_montar_frame(item, estagio, {chave_pop: escala}), POP_DURACAO_FRAME)
+                _add(_montar_frame(item, estagio), max(duracao - duracao_pop, 0.3))
+            else:
+                _add(_montar_frame(item, estagio), duracao)
+
         duracao_total = sum(dur for _, dur in ESTAGIOS)
-        concat_inputs = "".join(f"[{i}:v]" for i in range(n))
+        concat_inputs = "".join(f"[{i}:v]" for i in range(idx))
         filtro_complex = (
-            f"{concat_inputs}concat=n={n}:v=1:a=0[base];"
+            f"{concat_inputs}concat=n={idx}:v=1:a=0[base];"
             f"[base]fade=t=in:st=0:d=0.3,fade=t=out:st={duracao_total - 0.5}:d=0.5[outv]"
         )
 
