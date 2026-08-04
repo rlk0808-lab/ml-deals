@@ -40,16 +40,12 @@ def gerar_video_oferta_real(item: dict) -> bytes:
         out_path = Path(tmp) / "saida.mp4"
         frame_img.save(frame_path)
 
-        n_frames = DURACAO_S * FPS
-        # y ancorado embaixo (crop cresce so por cima) - o preco e o CTA
-        # "grupos no link da bio" ficam perto da borda inferior do cartao,
-        # um zoom centrado tradicional corta esses dois com o tempo
-        filtro = (
-            "scale=2160:3840,"
-            f"zoompan=z='min(zoom+0.0015,1.15)':d={n_frames}:"
-            "x='iw/2-(iw/zoom/2)':y='ih-(ih/zoom)':s=1080x1920:fps=" + str(FPS) + ","
-            f"fade=t=in:st=0:d=0.4,fade=t=out:st={DURACAO_S - 0.5}:d=0.5"
-        )
+        # SEM zoom - testamos com zoompan (Ken Burns) e o Robson nao
+        # gostou: qualquer zoom corta pedaco da imagem/preco/CTA com o
+        # tempo, nao tem angulo que evite cortar alguma coisa importante
+        # nesse cartao especifico (foto + varios blocos de texto ate a
+        # borda). So fade de entrada/saida sobre o frame parado.
+        filtro = f"fade=t=in:st=0:d=0.4,fade=t=out:st={DURACAO_S - 0.5}:d=0.5"
         cmd = [
             imageio_ffmpeg.get_ffmpeg_exe(), "-y",
             "-loop", "1", "-i", str(frame_path),
@@ -69,12 +65,15 @@ def gerar_descricao_video(item: dict, cfg: dict, raiz_url: str,
     perto do video (TikTok em especial)."""
     link_pagina = f"{raiz_url}/{cfg['slug']}/{item.get('product_id', '')}.html"
     selo = "MENOR PREÇO JÁ REGISTRADO" if item.get("recorde") else "QUEDA REAL DE PREÇO"
+    # links logo no topo da legenda, antes de qualquer outra coisa - se
+    # ficarem so no fim de um texto longo, passam despercebido (foi o
+    # que aconteceu no primeiro protótipo)
     return (
+        f"🔗 Confira e compre: {link_pagina}\n"
+        f"🔗 Grupo no WhatsApp: {whatsapp_link}\n"
+        f"🔗 Canal no Telegram: {telegram_link}\n\n"
         f"📉 {selo}\n\n"
         f"{item['nome']}\n"
         f"R$ {item['preco']:.2f} ({item['desconto']:.0f}% abaixo do normal)\n\n"
-        f"Confira e compre: {link_pagina}\n"
-        f"Grupo no WhatsApp: {whatsapp_link}\n"
-        f"Canal no Telegram: {telegram_link}\n\n"
         f"#promocao #achadinhos #ofertas"
     )
