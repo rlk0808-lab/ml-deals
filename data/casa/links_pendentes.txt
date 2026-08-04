@@ -4,20 +4,22 @@ Como usar: abra o link, clique em Compartilhar na barra preta de
 afiliados, copie o link gerado (meli.la/...) e cole em
 data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
-(gerado em 2026-08-03)
+(gerado em 2026-08-04)
 
-⭐ MLB29118990  Jogo Toalhas Gigante 5pçs Fio Penteado Algodão Egípcio
-    https://www.mercadolivre.com.br/p/MLB29118990
-⭐ MLB26615065  Cesto Roupa Suja Dobrável 3 Compartimentos Meta Parts Alumín
-    https://www.mercadolivre.com.br/p/MLB26615065
-⭐ MLB60085180  Jogo Tapetes Banheiro Antiderrapante Cinza Jolitex Delicato 
-    https://www.mercadolivre.com.br/p/MLB60085180
 ⭐ MLB75087991  Jogo Talheres 12 Peças Inox Fratelli Elegante Moderno Rosa C
     https://www.mercadolivre.com.br/p/MLB75087991
 ⭐ MLB39242772  Jogo Copos Vidro Pasabahçe Timeless 180ml 4 Peças Para Coque
     https://www.mercadolivre.com.br/p/MLB39242772
 ⭐ MLB25336204  Jogo Taças Plástico 6 Peças Plasútil Âmbar Citrino 330ml Vin
     https://www.mercadolivre.com.br/p/MLB25336204
+MLB29118990  Jogo Toalhas Gigante 5pçs Fio Penteado Algodão Egípcio
+    https://www.mercadolivre.com.br/p/MLB29118990
+MLB76038973  Panela Ferro Fundido Esmaltado Premium Creme P/ Fogões Creme
+    https://www.mercadolivre.com.br/p/MLB76038973
+MLB26615065  Cesto Roupa Suja Dobrável 3 Compartimentos Meta Parts Alumín
+    https://www.mercadolivre.com.br/p/MLB26615065
+MLB60085180  Jogo Tapetes Banheiro Antiderrapante Cinza Jolitex Delicato 
+    https://www.mercadolivre.com.br/p/MLB60085180
 MLB26532285  Organizador De Carro Encosto Banco Porta Trecos E Tablet Mul
     https://www.mercadolivre.com.br/p/MLB26532285
 MLB63252798  Kit Potes Mantimentos Tupperware Floral Hermético para Café 
@@ -30,6 +32,8 @@ MLB56347591  Sanduicheira Grill Elétrica 750w Be Smart Cozinha Fácil Pret
     https://www.mercadolivre.com.br/p/MLB56347591
 MLB26832772  Kit Organizador de Guarda-Roupa e Gaveta com 10 Divisórias, 
     https://www.mercadolivre.com.br/p/MLB26832772
+MLB24679905  Escorredor, escorredor, louça, pia, talheres de cozinha, cor
+    https://www.mercadolivre.com.br/p/MLB24679905
 MLB54410143  Jogo Taças Vidro 340ml Line Transparente Vinho e Água
     https://www.mercadolivre.com.br/p/MLB54410143
 MLB39985114  Jogo Panelas 8 Pçs Antiaderente Com Tampa Vidro Cor Cereja
@@ -64,10 +68,6 @@ MLB29043753  Jogo Copos De Vidro Diamond Fio De Ouro 270ml 12 Peças Lyor
     https://www.mercadolivre.com.br/p/MLB29043753
 MLB61203755  Sanduicheira Grill Elétrica 750w Dupla Antiaderente Sa Black
     https://www.mercadolivre.com.br/p/MLB61203755
-MLB76038973  Panela Ferro Fundido Esmaltado Premium Creme P/ Fogões Creme
-    https://www.mercadolivre.com.br/p/MLB76038973
-MLB24679905  Escorredor, escorredor, louça, pia, talheres de cozinha, cor
-    https://www.mercadolivre.com.br/p/MLB24679905
 MLB45302528  Porta Condimentos Temperos Especiarias Gin Organizador Cozin
     https://www.mercadolivre.com.br/p/MLB45302528
 MLB22609351  Nicho Prateleira Parede Arnad 100x20 Cm Branco/branco Cor Br
