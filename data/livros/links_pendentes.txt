@@ -14,8 +14,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB19243672
 ⭐ MLB54711829  Livro Coleção Colleen Hoover: É Assim Que Acaba + É Assim Qu
     https://www.mercadolivre.com.br/p/MLB54711829
-⭐ MLB19243665  Livro O Código Da Vinci de Dan Brown E Robert Langdon Livro 
-    https://www.mercadolivre.com.br/p/MLB19243665
 MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
     https://www.mercadolivre.com.br/p/MLB36202363
 MLB26355500  Lugar Feliz: Lugar Feliz, De Henry, Emily. Editora Verus, Ca
@@ -54,10 +52,10 @@ MLB40957770  A Ciência De Ficar Rico: O Livro Clássico Do Sucesso Finance
     https://www.mercadolivre.com.br/p/MLB40957770
 MLB19744860  Box Coleção Patrícia
     https://www.mercadolivre.com.br/p/MLB19744860
-MLB20810939  Livro Romance Espírita Preto Como Leite E Branco Como O Café
-    https://www.mercadolivre.com.br/p/MLB20810939
 MLB54102040  Box Stanislavski
     https://www.mercadolivre.com.br/p/MLB54102040
+MLB20810939  Livro Romance Espírita Preto Como Leite E Branco Como O Café
+    https://www.mercadolivre.com.br/p/MLB20810939
 MLB21691796  Livro Negócios Eco-lógicos na Era do Greenwashing, de Humair
     https://www.mercadolivre.com.br/p/MLB21691796
 MLB22154240  Livro O Livro Dos 5 Anéis: O Clássico Guia De Estratégia
@@ -106,14 +104,14 @@ MLB25801919  Kit Colleen Hoover: Novembro 9, Layla, Sem Esperança, De Col
     https://www.mercadolivre.com.br/p/MLB25801919
 MLB26353001  De Ferias Com Voce - 1ªed.(2022), De Emily Henry. Editora Ve
     https://www.mercadolivre.com.br/p/MLB26353001
+MLB19337384  Livro Fantasia:, de França, Mary. Editorial Ática, en portug
+    https://www.mercadolivre.com.br/p/MLB19337384
 MLB39933910  Biblioteca Nórdica - Box Com 3 Livros
     https://www.mercadolivre.com.br/p/MLB39933910
 MLB19219273  Livro Melhores Crônicas Machado de Assis, de Joaquim Machado
     https://www.mercadolivre.com.br/p/MLB19219273
 MLB68541812  Livro Romance Com Pessoas, De Passos, José Luiz. Editora Alf
     https://www.mercadolivre.com.br/p/MLB68541812
-MLB19337384  Livro Fantasia:, de França, Mary. Editorial Ática, en portug
-    https://www.mercadolivre.com.br/p/MLB19337384
 MLB22734969  Livro Trilogia Annástria Fantasia Para Jovens E Adolescentes
     https://www.mercadolivre.com.br/p/MLB22734969
 MLB19291662  Livro Romance Entre Rendas Edição 1 Ano 2017 Em Português Lo
@@ -126,3 +124,5 @@ MLB19314437  Livro Mistério Sob O Gelo: Uma Aventura Na Antártica De Alex
     https://www.mercadolivre.com.br/p/MLB19314437
 MLB22101664  Livro Empreendedorismo Transformando Ideias Em Negócios, 9ª 
     https://www.mercadolivre.com.br/p/MLB22101664
+MLB62822775  Livro Kit O Segredo Da Empregada, De Freida Mcfadden. Editor
+    https://www.mercadolivre.com.br/p/MLB62822775
