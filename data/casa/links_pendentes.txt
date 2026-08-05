@@ -22,8 +22,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB23982193
 ⭐ MLB24679905  Escorredor, escorredor, louça, pia, talheres de cozinha, cor
     https://www.mercadolivre.com.br/p/MLB24679905
+⭐ MLB54410143  Jogo Taças Vidro 340ml Line Transparente Vinho e Água
+    https://www.mercadolivre.com.br/p/MLB54410143
 ⭐ MLB75087991  Jogo Talheres 12 Peças Inox Fratelli Elegante Moderno Rosa C
     https://www.mercadolivre.com.br/p/MLB75087991
+⭐ MLB25836001  Prateleira Parede Tripla 60x25cm Hone Dourado Vulcano
+    https://www.mercadolivre.com.br/p/MLB25836001
 ⭐ MLB39242772  Jogo Copos Vidro Pasabahçe Timeless 180ml 4 Peças Para Coque
     https://www.mercadolivre.com.br/p/MLB39242772
 ⭐ MLB25336204  Jogo Taças Plástico 6 Peças Plasútil Âmbar Citrino 330ml Vin
@@ -36,8 +40,6 @@ MLB26832772  Kit Organizador de Guarda-Roupa e Gaveta com 10 Divisórias,
     https://www.mercadolivre.com.br/p/MLB26832772
 MLB22360554  Panela Pressão Ferro 19cm Cabo Madeira Panela Mineira Preto
     https://www.mercadolivre.com.br/p/MLB22360554
-MLB54410143  Jogo Taças Vidro 340ml Line Transparente Vinho e Água
-    https://www.mercadolivre.com.br/p/MLB54410143
 MLB39985114  Jogo Panelas 8 Pçs Antiaderente Com Tampa Vidro Cor Cereja
     https://www.mercadolivre.com.br/p/MLB39985114
 MLB40231926  Jogo Panelas 8 Pçs Antiaderente Com Tampa Vidro Cor Vermelho
@@ -46,8 +48,6 @@ MLB26174851  Kit Organizador Cozinha Aço 3 Unidades Preto DiCarlo
     https://www.mercadolivre.com.br/p/MLB26174851
 MLB35940252  Kit Organizador De Gaveta Dobrável Com Divisórias - 4 Peças
     https://www.mercadolivre.com.br/p/MLB35940252
-MLB25836001  Prateleira Parede Tripla 60x25cm Hone Dourado Vulcano
-    https://www.mercadolivre.com.br/p/MLB25836001
 MLB44214708  Prateleira Parede Tripla Ferro Madeira Multiuso Cozinha Cor 
     https://www.mercadolivre.com.br/p/MLB44214708
 MLB26685318  Cesto Roupa Suja Dobrável Verde Bhela Decor 57x32x32 cm TNT
