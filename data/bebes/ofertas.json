@@ -1,6 +1,6 @@
 [
   {
-    "data": "2026-08-04",
+    "data": "2026-08-05",
     "product_id": "MLB49475250",
     "nome": "Bomba Tira Leite Elétrica Caily Kikkaboo",
     "preco": 169.0,
@@ -17,7 +17,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-04",
+    "data": "2026-08-05",
     "product_id": "MLB61976790",
     "nome": "Loção Hidratante Hidramais | Bebê 400ml",
     "preco": 21.32,
@@ -34,7 +34,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-04",
+    "data": "2026-08-05",
     "product_id": "MLB22774967",
     "nome": "Bomba Tira Leite Materno Extrator Manual Portátil",
     "preco": 69.9,
@@ -51,7 +51,24 @@
     "recorde": true
   },
   {
-    "data": "2026-08-04",
+    "data": "2026-08-05",
+    "product_id": "MLB38059954",
+    "nome": "Kit Higiene Bebê Safari 6 Peças",
+    "preco": 199.9,
+    "preco_original": 286.42,
+    "n_ofertas": 2,
+    "item_id": "MLB3785318329",
+    "seller_id": 1424694796,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB38059954",
+    "mediana": 286.42,
+    "minimo_hist": 193.9,
+    "desconto": 30.2,
+    "recorde": false
+  },
+  {
+    "data": "2026-08-05",
     "product_id": "MLB19926354",
     "nome": "Fralda Descartável Hipopó Baby Recém Nascido",
     "preco": 26.59,
@@ -68,7 +85,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-04",
+    "data": "2026-08-05",
     "product_id": "MLB18392706",
     "nome": "Fralda Descartável Infantil Pom Pom Clássica M Pacote 26 Unidades",
     "preco": 24.9,
@@ -85,7 +102,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-04",
+    "data": "2026-08-05",
     "product_id": "MLB50366249",
     "nome": "Hidratante Relaxante Mamãe E Bebê",
     "preco": 54.86,
@@ -102,7 +119,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-04",
+    "data": "2026-08-05",
     "product_id": "MLB28015866",
     "nome": "Esterilizador De Mamadeira Para Microondas - Buba Branco",
     "preco": 67.06,
