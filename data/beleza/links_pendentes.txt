@@ -18,8 +18,6 @@ MLB53469027  Kit Maquiagem Portátil Díario Rosa Minnie Mousedisney Fenzza
     https://www.mercadolivre.com.br/p/MLB53469027
 MLB20688589  Máscara capilar hidratação Intense Hydra Vitiss 500g
     https://www.mercadolivre.com.br/p/MLB20688589
-MLB20335700  Condicionador Hidratação Profunda Vitallederm 300ml
-    https://www.mercadolivre.com.br/p/MLB20335700
 MLB53114805  Óleo Capilar Keratex Ojon 60ml
     https://www.mercadolivre.com.br/p/MLB53114805
 MLB19759798  Creme Para Pentear 500ml Betobita
@@ -36,6 +34,8 @@ MLB45700521  Gel Limpeza Facial Dove Regenerative Oleosa 150ml - Unilever
     https://www.mercadolivre.com.br/p/MLB45700521
 MLB70222514  Kit 3x500ml Gel Limpeza Facial Vitalizy Pele Oleosa Acneica
     https://www.mercadolivre.com.br/p/MLB70222514
+MLB75885866  Jogo Conjunto Kit De Pincel Sombra Maquiagem 13 Peças Macio 
+    https://www.mercadolivre.com.br/p/MLB75885866
 MLB45481915  Máscara Cílios Preto Prova D'Água Febella Curvo Volume
     https://www.mercadolivre.com.br/p/MLB45481915
 MLB44149361  pó compacto Ruby Rose Glass Pó Compacto
@@ -48,6 +48,8 @@ MLB57351161  Gloss Labial Hidratação Labial Brilho Mel
     https://www.mercadolivre.com.br/p/MLB57351161
 MLB42455806  Shampoo Profissional Babosa 1,9l - Kelma
     https://www.mercadolivre.com.br/p/MLB42455806
+MLB20335700  Condicionador Hidratação Profunda Vitallederm 300ml
+    https://www.mercadolivre.com.br/p/MLB20335700
 MLB28389837  Óleo Capilar 50ml - Metal Detox
     https://www.mercadolivre.com.br/p/MLB28389837
 MLB70530506  Óleo capilar Farmax Capilar hidratação de 100mL 100g
@@ -62,12 +64,8 @@ MLB22151097  Creme Anti-idade Lucy's Rosa Mosqueta Facial FPS15
     https://www.mercadolivre.com.br/p/MLB22151097
 MLB61622688  Base Facial Maquiagem Rosto Bb Cream Missha - 23 Tom Bege na
     https://www.mercadolivre.com.br/p/MLB61622688
-MLB75885866  Jogo Conjunto Kit De Pincel Sombra Maquiagem 13 Peças Macio 
-    https://www.mercadolivre.com.br/p/MLB75885866
 MLB42341040  Mascara Cílios Soul Turbo - Eudora - Cor Preto
     https://www.mercadolivre.com.br/p/MLB42341040
-MLB74974187  NIINA SECR MASCARA CILIOS SUPER BOLD 10G
-    https://www.mercadolivre.com.br/p/MLB74974187
 MLB27058775  Mascara Cilios Vizzela No Panda Define E Alonga - Preto
     https://www.mercadolivre.com.br/p/MLB27058775
 MLB22950786  Máscara Cílios Safira Incolor Modeladora Efeito Boneca 7ml
@@ -126,3 +124,5 @@ MLB34124591  Óleo Capilar Ricino 60ml Fixed
     https://www.mercadolivre.com.br/p/MLB34124591
 MLB20817131  Softfix Mandioca Óleo Capilar 60ml
     https://www.mercadolivre.com.br/p/MLB20817131
+MLB43816854  Midori Creme Para Pentear 250ml
+    https://www.mercadolivre.com.br/p/MLB43816854
