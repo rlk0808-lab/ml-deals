@@ -8,14 +8,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 ⭐ MLB29118990  Jogo Toalhas Gigante 5pçs Fio Penteado Algodão Egípcio
     https://www.mercadolivre.com.br/p/MLB29118990
+⭐ MLB76038973  Panela Ferro Fundido Esmaltado Premium Creme P/ Fogões Creme
+    https://www.mercadolivre.com.br/p/MLB76038973
 ⭐ MLB75087991  Jogo Talheres 12 Peças Inox Fratelli Elegante Moderno Rosa C
     https://www.mercadolivre.com.br/p/MLB75087991
 ⭐ MLB39242772  Jogo Copos Vidro Pasabahçe Timeless 180ml 4 Peças Para Coque
     https://www.mercadolivre.com.br/p/MLB39242772
 ⭐ MLB25336204  Jogo Taças Plástico 6 Peças Plasútil Âmbar Citrino 330ml Vin
     https://www.mercadolivre.com.br/p/MLB25336204
-MLB76038973  Panela Ferro Fundido Esmaltado Premium Creme P/ Fogões Creme
-    https://www.mercadolivre.com.br/p/MLB76038973
 MLB26615065  Cesto Roupa Suja Dobrável 3 Compartimentos Meta Parts Alumín
     https://www.mercadolivre.com.br/p/MLB26615065
 MLB60085180  Jogo Tapetes Banheiro Antiderrapante Cinza Jolitex Delicato 
@@ -38,6 +38,8 @@ MLB24679905  Escorredor, escorredor, louça, pia, talheres de cozinha, cor
     https://www.mercadolivre.com.br/p/MLB24679905
 MLB54410143  Jogo Taças Vidro 340ml Line Transparente Vinho e Água
     https://www.mercadolivre.com.br/p/MLB54410143
+MLB22830986  Jogo Copos Vidro Shot Dose 45ml Lehavi Chicago 6 Peças
+    https://www.mercadolivre.com.br/p/MLB22830986
 MLB39985114  Jogo Panelas 8 Pçs Antiaderente Com Tampa Vidro Cor Cereja
     https://www.mercadolivre.com.br/p/MLB39985114
 MLB40231926  Jogo Panelas 8 Pçs Antiaderente Com Tampa Vidro Cor Vermelho
@@ -124,5 +126,3 @@ MLB38682917  Edredom Casal Rolinho 210x180cm Camesa - Sortido
     https://www.mercadolivre.com.br/p/MLB38682917
 MLB50498298  Jogo Toalhas Banho Atlântica Aura Azul 100% Algodão Fio Pent
     https://www.mercadolivre.com.br/p/MLB50498298
-MLB26759638  Kit Organizador De Gaveta Talheres E Facas Ou Cor Branco
-    https://www.mercadolivre.com.br/p/MLB26759638
