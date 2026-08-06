@@ -12,8 +12,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB38059954
 ⭐ MLB62842938  Canguru Sling De Bebe Carregar Recem Nascido Dry Fit Furadin
     https://www.mercadolivre.com.br/p/MLB62842938
-⭐ MLB61976790  Loção Hidratante Hidramais | Bebê 400ml
-    https://www.mercadolivre.com.br/p/MLB61976790
 MLB73392239  Cercadinho Bebê C/ Tela De Proteção Infantil Cinza S/
     https://www.mercadolivre.com.br/p/MLB73392239
 MLB25460748  Mordedor Bebe Infantil Celular Smartphone Macio Cor Preto
@@ -54,6 +52,8 @@ MLB43463096  Banheira Bebê Dobrável Portátil Buba Cor Rosa
     https://www.mercadolivre.com.br/p/MLB43463096
 MLB43486094  Banheira Bebê Dobrável Portátil Buba Cor Azul
     https://www.mercadolivre.com.br/p/MLB43486094
+MLB66383481  Banheira Bebê Galzerano Acqua Premium Perolado Dourado Liso
+    https://www.mercadolivre.com.br/p/MLB66383481
 MLB29439967  Mochila Bolsa Maternidade Jeans Cinza Lovely Baby Unik
     https://www.mercadolivre.com.br/p/MLB29439967
 MLB32385853  Mordedor Bebe Bananinha - Massageador Escovinha Cor Amarelo
@@ -82,18 +82,16 @@ MLB49767281  Colchão Berço Arkell Espuma D20 70x130 cm Branco Antialérgic
     https://www.mercadolivre.com.br/p/MLB49767281
 MLB50093886  Colchão Berço Americano Ortobom Baby Light D18 70x130cm Anti
     https://www.mercadolivre.com.br/p/MLB50093886
-MLB66383481  Banheira Bebê Galzerano Acqua Premium Perolado Dourado Liso
-    https://www.mercadolivre.com.br/p/MLB66383481
 MLB27331727  Trocador Porta Fraldas Portátil Papi Friends Panda
     https://www.mercadolivre.com.br/p/MLB27331727
 MLB61688382  Canguru Sling Bolsa Bebe Carregador Mochila Cor Rosa Confort
     https://www.mercadolivre.com.br/p/MLB61688382
 MLB42814766  Chocalho Mordedor Bebê Flexível Rosa Looney Tunes BabyGo 3m+
     https://www.mercadolivre.com.br/p/MLB42814766
-MLB25687571  Babá Eletrônica Monitor De Vídeo Vb601 2
-    https://www.mercadolivre.com.br/p/MLB25687571
 MLB27831940  Esterilizador De Mamadeira A Vapor Para Microondas Buba
     https://www.mercadolivre.com.br/p/MLB27831940
+MLB24646325  Escovas P Lavar Mamadeira Bebê E Bico Copo Garrafa Azul Buba
+    https://www.mercadolivre.com.br/p/MLB24646325
 MLB46991031  Capa Colchão Berço Impermeável Silenciosa Com Zíper Prmoção 
     https://www.mercadolivre.com.br/p/MLB46991031
 MLB51288124  Berço Cercadinho Bebê Portátil Quadrado Preto Galzerano
@@ -126,3 +124,5 @@ MLB34966407  Capa A Prova D'agua P/colchão Berço 24h
     https://www.mercadolivre.com.br/p/MLB34966407
 MLB20988254  Colchão Berço Padrão American D18 Antiácaro, Antif Antialérg
     https://www.mercadolivre.com.br/p/MLB20988254
+MLB35559026  Colchão Berço Tigus Baby 130x60x10cm Espuma Poliuretano D18
+    https://www.mercadolivre.com.br/p/MLB35559026
