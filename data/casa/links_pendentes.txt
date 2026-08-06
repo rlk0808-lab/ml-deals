@@ -6,18 +6,18 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 (gerado em 2026-08-06)
 
-⭐ MLB29118990  Jogo Toalhas Gigante 5pçs Fio Penteado Algodão Egípcio
-    https://www.mercadolivre.com.br/p/MLB29118990
 ⭐ MLB76038973  Panela Ferro Fundido Esmaltado Premium Creme P/ Fogões Creme
     https://www.mercadolivre.com.br/p/MLB76038973
+⭐ MLB29118990  Jogo Toalhas Gigante 5pçs Fio Penteado Algodão Egípcio
+    https://www.mercadolivre.com.br/p/MLB29118990
+⭐ MLB26615065  Cesto Roupa Suja Dobrável 3 Compartimentos Meta Parts Alumín
+    https://www.mercadolivre.com.br/p/MLB26615065
 ⭐ MLB75087991  Jogo Talheres 12 Peças Inox Fratelli Elegante Moderno Rosa C
     https://www.mercadolivre.com.br/p/MLB75087991
 ⭐ MLB39242772  Jogo Copos Vidro Pasabahçe Timeless 180ml 4 Peças Para Coque
     https://www.mercadolivre.com.br/p/MLB39242772
 ⭐ MLB25336204  Jogo Taças Plástico 6 Peças Plasútil Âmbar Citrino 330ml Vin
     https://www.mercadolivre.com.br/p/MLB25336204
-MLB26615065  Cesto Roupa Suja Dobrável 3 Compartimentos Meta Parts Alumín
-    https://www.mercadolivre.com.br/p/MLB26615065
 MLB60085180  Jogo Tapetes Banheiro Antiderrapante Cinza Jolitex Delicato 
     https://www.mercadolivre.com.br/p/MLB60085180
 MLB26532285  Organizador De Carro Encosto Banco Porta Trecos E Tablet Mul
@@ -26,8 +26,6 @@ MLB63252798  Kit Potes Mantimentos Tupperware Floral Hermético para Café
     https://www.mercadolivre.com.br/p/MLB63252798
 MLB74694174  Kit Potes Porta Mantimento Hermético Quadrado Cozinha 6 Pçs
     https://www.mercadolivre.com.br/p/MLB74694174
-MLB23982193  Sanduicheira Grill Best
-    https://www.mercadolivre.com.br/p/MLB23982193
 MLB56347591  Sanduicheira Grill Elétrica 750w Be Smart Cozinha Fácil Pret
     https://www.mercadolivre.com.br/p/MLB56347591
 MLB26832772  Kit Organizador de Guarda-Roupa e Gaveta com 10 Divisórias, 
@@ -42,8 +40,6 @@ MLB22830986  Jogo Copos Vidro Shot Dose 45ml Lehavi Chicago 6 Peças
     https://www.mercadolivre.com.br/p/MLB22830986
 MLB39985114  Jogo Panelas 8 Pçs Antiaderente Com Tampa Vidro Cor Cereja
     https://www.mercadolivre.com.br/p/MLB39985114
-MLB40231926  Jogo Panelas 8 Pçs Antiaderente Com Tampa Vidro Cor Vermelho
-    https://www.mercadolivre.com.br/p/MLB40231926
 MLB26174851  Kit Organizador Cozinha Aço 3 Unidades Preto DiCarlo
     https://www.mercadolivre.com.br/p/MLB26174851
 MLB35940252  Kit Organizador De Gaveta Dobrável Com Divisórias - 4 Peças
@@ -60,6 +56,8 @@ MLB61874726  Organizador Porta-Trecos de Carro Impermeável em Poliéster c
     https://www.mercadolivre.com.br/p/MLB61874726
 MLB38805103  Sanduicheira Grill Elétrica BeSmart Antiaderente Preto
     https://www.mercadolivre.com.br/p/MLB38805103
+MLB23982193  Sanduicheira Grill Best
+    https://www.mercadolivre.com.br/p/MLB23982193
 MLB38457093  Sanduicheira Grill Chapa Elétrica Preta Acabamento Inox Cor 
     https://www.mercadolivre.com.br/p/MLB38457093
 MLB41984936  Sanduicheira Grill Antiaderente Preto 750W Tapioqueira
@@ -112,6 +110,8 @@ MLB74550186  Conjunto Potes Herméticos Prata Vidro 4 Visor Organizador
     https://www.mercadolivre.com.br/p/MLB74550186
 MLB35509684  Conjunto Coza 4 Potes Herméticos Modo - Cristal
     https://www.mercadolivre.com.br/p/MLB35509684
+MLB40231926  Jogo Panelas 8 Pçs Antiaderente Com Tampa Vidro Cor Vermelho
+    https://www.mercadolivre.com.br/p/MLB40231926
 MLB39997355  Kit C/ 4 Potes Herméticos Alimentos Organizador Bambu 340ml
     https://www.mercadolivre.com.br/p/MLB39997355
 MLB38279289  Armário Organizador Cozinha Balcão Microondas Jet - Cinza
