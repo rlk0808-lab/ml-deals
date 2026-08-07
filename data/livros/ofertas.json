@@ -171,23 +171,6 @@
   },
   {
     "data": "2026-08-07",
-    "product_id": "MLB21744985",
-    "nome": "Livro Anjos e demônios (Robert Langdon), de Brown, Dan. Editorial Editora Arqueiro, tapa mole, en português (2009)",
-    "preco": 38.45,
-    "preco_original": null,
-    "n_ofertas": 5,
-    "item_id": "MLB5698051842",
-    "seller_id": 2680385104,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB21744985",
-    "mediana": 47.78,
-    "minimo_hist": 30.0,
-    "desconto": 19.5,
-    "recorde": false
-  },
-  {
-    "data": "2026-08-07",
     "product_id": "MLB19244025",
     "nome": "Alta tensão (Myron Bolitar – Livro 10), de Coben, Harlan. Editora Arqueiro Ltda., capa mole (2019)",
     "preco": 38.45,
@@ -235,23 +218,6 @@
     "mediana": 71.9,
     "minimo_hist": 59.9,
     "desconto": 16.7,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-07",
-    "product_id": "MLB54711829",
-    "nome": "Livro Coleção Colleen Hoover: É Assim Que Acaba + É Assim Que Começa (edições De Colecionador Com Pintura Trilateral), De Colleen Hoover, Vol. 1. Editora Kit De Livros, Capa Mole",
-    "preco": 179.8,
-    "preco_original": null,
-    "n_ofertas": 2,
-    "item_id": "MLB5733561606",
-    "seller_id": 299478192,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB54711829",
-    "mediana": 212.99,
-    "minimo_hist": 179.8,
-    "desconto": 15.6,
     "recorde": true
   }
 ]
