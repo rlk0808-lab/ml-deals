@@ -20,6 +20,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB50585712
 ⭐ MLB19238985  Livro Não conte a ninguém, de Coben, Harlan. Editorial Edito
     https://www.mercadolivre.com.br/p/MLB19238985
+MLB39979760  Box Collen Hoover
+    https://www.mercadolivre.com.br/p/MLB39979760
 MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
     https://www.mercadolivre.com.br/p/MLB36202363
 MLB26355500  Lugar Feliz: Lugar Feliz, De Henry, Emily. Editora Verus, Ca
@@ -40,20 +42,30 @@ MLB19771891  Box Essencial Conquistadores (3 Livros) *
     https://www.mercadolivre.com.br/p/MLB19771891
 MLB23661891  Livro-verdade?- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB23661891
+MLB52071537  Box Natureza Macabra
+    https://www.mercadolivre.com.br/p/MLB52071537
 MLB53759056  Box Sandel
     https://www.mercadolivre.com.br/p/MLB53759056
 MLB19417207  Livro Negócios: Um assunto de mulheres, de Fontes, Ana, tapa
     https://www.mercadolivre.com.br/p/MLB19417207
+MLB52687637  Box Universo Ziraldo
+    https://www.mercadolivre.com.br/p/MLB52687637
 MLB19295746  Livro Tormenta de Fogo, de Sanderson, Brandon, vol. 2. Edito
     https://www.mercadolivre.com.br/p/MLB19295746
+MLB19272750  Box Totalmente Terror
+    https://www.mercadolivre.com.br/p/MLB19272750
 MLB19820634  Livro O Morro Dos Ventos Uivantes - Emily Brontë
     https://www.mercadolivre.com.br/p/MLB19820634
-MLB19301929  Livro Coração de Aço, de Sanderson, Brandon, vol. 1. Editori
-    https://www.mercadolivre.com.br/p/MLB19301929
 MLB21757672  Livro PAPÉIS AVULSOS - MACHADO DE ASSIS, de Assis, Machado d
     https://www.mercadolivre.com.br/p/MLB21757672
+MLB19301929  Livro Coração de Aço, de Sanderson, Brandon, vol. 1. Editori
+    https://www.mercadolivre.com.br/p/MLB19301929
 MLB25775586  Livro-recarregue-se!- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB25775586
+MLB44222588  Box Ernest Hemingway
+    https://www.mercadolivre.com.br/p/MLB44222588
+MLB57817554  Box Santo Guerreiro
+    https://www.mercadolivre.com.br/p/MLB57817554
 MLB40957770  A Ciência De Ficar Rico: O Livro Clássico Do Sucesso Finance
     https://www.mercadolivre.com.br/p/MLB40957770
 MLB19744860  Box Coleção Patrícia
@@ -66,6 +78,8 @@ MLB21691796  Livro Negócios Eco-lógicos na Era do Greenwashing, de Humair
     https://www.mercadolivre.com.br/p/MLB21691796
 MLB68707420  Livro Desenvolvimento Matemático Na Criança, De Brizuela, Bá
     https://www.mercadolivre.com.br/p/MLB68707420
+MLB69137659  Box Lottie Brooks (livros 1-4)
+    https://www.mercadolivre.com.br/p/MLB69137659
 MLB66305472  Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, 
     https://www.mercadolivre.com.br/p/MLB66305472
 MLB20760429  Box Lu & Bilu
@@ -74,8 +88,12 @@ MLB22820495  Livro Quincas Borba - Machado De Assis
     https://www.mercadolivre.com.br/p/MLB22820495
 MLB21580803  Livro: Pai Contra Mãe - Machado De Assis
     https://www.mercadolivre.com.br/p/MLB21580803
+MLB19309022  O Mundo Perdido. Arthur Conan Doyle. História. Editora Princ
+    https://www.mercadolivre.com.br/p/MLB19309022
 MLB22381340  Livro Dom Casmurro - Machado De Assis
     https://www.mercadolivre.com.br/p/MLB22381340
+MLB19784246  Box 3 Livros Essencial Da Economia *
+    https://www.mercadolivre.com.br/p/MLB19784246
 MLB57098569  Livro Percy Jackson e os Olimpianos Crie seu destino De Disn
     https://www.mercadolivre.com.br/p/MLB57098569
 MLB19379986  Livro Contos de Machado de Assis, de Assis, Machado de. Edit
@@ -92,6 +110,8 @@ MLB21397020  Hábitos Escravizadores - Livro Edward T. Welch
     https://www.mercadolivre.com.br/p/MLB21397020
 MLB26473013  Livro NEGÓCIOS DE HONRA, de BOB HASSON. Editorial EDICOES E 
     https://www.mercadolivre.com.br/p/MLB26473013
+MLB43965505  Box O Capital
+    https://www.mercadolivre.com.br/p/MLB43965505
 MLB71604003  Livro Desencantos: Fantasia Dramática
     https://www.mercadolivre.com.br/p/MLB71604003
 MLB19189031  Livro Negócios de família, de Ginsberg, Allen. Editorial Edi
@@ -104,25 +124,5 @@ MLB21396402  Box Livros Arséne Lupin - Clássicos - 3 Volumes
     https://www.mercadolivre.com.br/p/MLB21396402
 MLB47099395  Box Desperte
     https://www.mercadolivre.com.br/p/MLB47099395
-MLB25801919  Kit Colleen Hoover: Novembro 9, Layla, Sem Esperança, De Col
-    https://www.mercadolivre.com.br/p/MLB25801919
-MLB60720366  Livro Wuthering Heights - Emily Brontë, De Emily Brontë, Vol
-    https://www.mercadolivre.com.br/p/MLB60720366
-MLB39933910  Biblioteca Nórdica - Box Com 3 Livros
-    https://www.mercadolivre.com.br/p/MLB39933910
-MLB19291662  Livro Romance Entre Rendas Edição 1 Ano 2017 Em Português Lo
-    https://www.mercadolivre.com.br/p/MLB19291662
-MLB19219273  Livro Melhores Crônicas Machado de Assis, de Joaquim Machado
-    https://www.mercadolivre.com.br/p/MLB19219273
-MLB26353001  De Ferias Com Voce - 1ªed.(2022), De Emily Henry. Editora Ve
-    https://www.mercadolivre.com.br/p/MLB26353001
-MLB68541812  Livro Romance Com Pessoas, De Passos, José Luiz. Editora Alf
-    https://www.mercadolivre.com.br/p/MLB68541812
-MLB19337384  Livro Fantasia:, de França, Mary. Editorial Ática, en portug
-    https://www.mercadolivre.com.br/p/MLB19337384
-MLB22734969  Livro Trilogia Annástria Fantasia Para Jovens E Adolescentes
-    https://www.mercadolivre.com.br/p/MLB22734969
-MLB46923461  Box Livros Elisabeth Elliot
-    https://www.mercadolivre.com.br/p/MLB46923461
-MLB68499477  Livro Desenvolvimento Local Sustentável, De Kronemberg, Deni
-    https://www.mercadolivre.com.br/p/MLB68499477
+MLB57315640  Livro Meu Primeiro Clássico: O Pequeno Príncipe, De Medeiros
+    https://www.mercadolivre.com.br/p/MLB57315640
