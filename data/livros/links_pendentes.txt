@@ -6,6 +6,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 (gerado em 2026-08-07)
 
+⭐ MLB39979760  Box Collen Hoover
+    https://www.mercadolivre.com.br/p/MLB39979760
+⭐ MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
+    https://www.mercadolivre.com.br/p/MLB36202363
+⭐ MLB26355500  Lugar Feliz: Lugar Feliz, De Henry, Emily. Editora Verus, Ca
+    https://www.mercadolivre.com.br/p/MLB26355500
 ⭐ MLB40283388  Box Alice - Box Com 2 Livros - Edição De Luxo Almofadada
     https://www.mercadolivre.com.br/p/MLB40283388
 ⭐ MLB37149234  Biblioteca Nietzsche - Box Com 4 Livros
@@ -18,12 +24,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB50585712
 ⭐ MLB19238985  Livro Não conte a ninguém, de Coben, Harlan. Editorial Edito
     https://www.mercadolivre.com.br/p/MLB19238985
-MLB39979760  Box Collen Hoover
-    https://www.mercadolivre.com.br/p/MLB39979760
-MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
-    https://www.mercadolivre.com.br/p/MLB36202363
-MLB26355500  Lugar Feliz: Lugar Feliz, De Henry, Emily. Editora Verus, Ca
-    https://www.mercadolivre.com.br/p/MLB26355500
 MLB54103019  Box Relacionamentos Saudáveis
     https://www.mercadolivre.com.br/p/MLB54103019
 MLB74807035  Box Trilogia Powerless
@@ -54,12 +54,12 @@ MLB19295746  Livro Tormenta de Fogo, de Sanderson, Brandon, vol. 2. Edito
     https://www.mercadolivre.com.br/p/MLB19295746
 MLB19272750  Box Totalmente Terror
     https://www.mercadolivre.com.br/p/MLB19272750
+MLB19301929  Livro Coração de Aço, de Sanderson, Brandon, vol. 1. Editori
+    https://www.mercadolivre.com.br/p/MLB19301929
 MLB19820634  Livro O Morro Dos Ventos Uivantes - Emily Brontë
     https://www.mercadolivre.com.br/p/MLB19820634
 MLB21757672  Livro PAPÉIS AVULSOS - MACHADO DE ASSIS, de Assis, Machado d
     https://www.mercadolivre.com.br/p/MLB21757672
-MLB19301929  Livro Coração de Aço, de Sanderson, Brandon, vol. 1. Editori
-    https://www.mercadolivre.com.br/p/MLB19301929
 MLB25775586  Livro-recarregue-se!- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB25775586
 MLB44222588  Box Ernest Hemingway
@@ -114,6 +114,8 @@ MLB26473013  Livro NEGÓCIOS DE HONRA, de BOB HASSON. Editorial EDICOES E
     https://www.mercadolivre.com.br/p/MLB26473013
 MLB43965505  Box O Capital
     https://www.mercadolivre.com.br/p/MLB43965505
+MLB19294761  Livro Negócios para criativos, de Loureiro, Kiko. Editorial 
+    https://www.mercadolivre.com.br/p/MLB19294761
 MLB71604003  Livro Desencantos: Fantasia Dramática
     https://www.mercadolivre.com.br/p/MLB71604003
 MLB19189031  Livro Negócios de família, de Ginsberg, Allen. Editorial Edi
@@ -124,5 +126,3 @@ MLB62785929  Livro Quebra De Confiança- Harlan Coben
     https://www.mercadolivre.com.br/p/MLB62785929
 MLB21396402  Box Livros Arséne Lupin - Clássicos - 3 Volumes
     https://www.mercadolivre.com.br/p/MLB21396402
-MLB47099395  Box Desperte
-    https://www.mercadolivre.com.br/p/MLB47099395
