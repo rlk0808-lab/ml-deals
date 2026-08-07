@@ -20,8 +20,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB29410142
 ⭐ MLB75195451  Cueca Algodão 2 Boxer Uso Prolongado Incontinência Urinária 
     https://www.mercadolivre.com.br/p/MLB75195451
-⭐ MLB39314154  Touca Gorro elástico C/ 100 Un Protdesc Cor Lilás
-    https://www.mercadolivre.com.br/p/MLB39314154
 ⭐ MLB47691991  Colete Masculino Para Futebol Kit Com 6 Pçs Verde Penalty
     https://www.mercadolivre.com.br/p/MLB47691991
 ⭐ MLB44951729  Sandália Rasteira Feminina Strass Vizzano
@@ -56,6 +54,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB73963761
 ⭐ MLB54249378  50 Zíper Metal 18cm Para Calça Jeans Azul Marinho Cor Azul-m
     https://www.mercadolivre.com.br/p/MLB54249378
+⭐ MLB66835157  Bermuda Masculina Reta Texturizada Hering Bege
+    https://www.mercadolivre.com.br/p/MLB66835157
 MLB51529176  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB51529176
 MLB45475084  Chinelo Feminino Slim Havaianas
