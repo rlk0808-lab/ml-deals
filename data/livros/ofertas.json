@@ -107,7 +107,7 @@
     "nome": "Livro A Terceira Moça - Agatha Christie",
     "preco": 25.44,
     "preco_original": null,
-    "n_ofertas": 35,
+    "n_ofertas": 34,
     "item_id": "MLB5474480576",
     "seller_id": 478650925,
     "frete_gratis": true,
@@ -184,23 +184,6 @@
     "mediana": 99.9,
     "minimo_hist": 78.99,
     "desconto": 20.9,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-08",
-    "product_id": "MLB19243679",
-    "nome": "Livro Win, de Coben, Harlan, vol. 1. Editorial Editora Arqueiro Ltda., tapa mole, en português (2021)",
-    "preco": 32.23,
-    "preco_original": null,
-    "n_ofertas": 84,
-    "item_id": "MLB2771535050",
-    "seller_id": 783089333,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB19243679",
-    "mediana": 39.61,
-    "minimo_hist": 32.23,
-    "desconto": 18.6,
     "recorde": true
   },
   {
