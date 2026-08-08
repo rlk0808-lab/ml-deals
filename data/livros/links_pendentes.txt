@@ -20,10 +20,20 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB30188985
 ⭐ MLB19430983  Livro-streampunks- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB19430983
+⭐ MLB35365698  Livro Um caso improvável, de Yarros, Rebecca. Editorial Veru
+    https://www.mercadolivre.com.br/p/MLB35365698
+⭐ MLB23661891  Livro-verdade?- Editora Best Seller
+    https://www.mercadolivre.com.br/p/MLB23661891
+⭐ MLB25775586  Livro-recarregue-se!- Editora Best Seller
+    https://www.mercadolivre.com.br/p/MLB25775586
 ⭐ MLB40283388  Box Alice - Box Com 2 Livros - Edição De Luxo Almofadada
     https://www.mercadolivre.com.br/p/MLB40283388
 ⭐ MLB37149234  Biblioteca Nietzsche - Box Com 4 Livros
     https://www.mercadolivre.com.br/p/MLB37149234
+⭐ MLB19309022  O Mundo Perdido. Arthur Conan Doyle. História. Editora Princ
+    https://www.mercadolivre.com.br/p/MLB19309022
+⭐ MLB21580803  Livro: Pai Contra Mãe - Machado De Assis
+    https://www.mercadolivre.com.br/p/MLB21580803
 ⭐ MLB19243672  Livro Fique comigo de Harlan Coben Editora Arqueiro Capa mol
     https://www.mercadolivre.com.br/p/MLB19243672
 ⭐ MLB53039196  Kit Livros A Única Coisa + Hábitos Atômicos: Kit Foco E Hábi
@@ -34,34 +44,28 @@ MLB74807035  Box Trilogia Powerless
     https://www.mercadolivre.com.br/p/MLB74807035
 MLB54103019  Box Relacionamentos Saudáveis
     https://www.mercadolivre.com.br/p/MLB54103019
-MLB35365698  Livro Um caso improvável, de Yarros, Rebecca. Editorial Veru
-    https://www.mercadolivre.com.br/p/MLB35365698
 MLB21687753  Livro Negócios Recodificados, de Fisk, Peter. Editorial DVS 
     https://www.mercadolivre.com.br/p/MLB21687753
 MLB19771891  Box Essencial Conquistadores (3 Livros) *
     https://www.mercadolivre.com.br/p/MLB19771891
-MLB23661891  Livro-verdade?- Editora Best Seller
-    https://www.mercadolivre.com.br/p/MLB23661891
 MLB52071537  Box Natureza Macabra
     https://www.mercadolivre.com.br/p/MLB52071537
 MLB53759056  Box Sandel
     https://www.mercadolivre.com.br/p/MLB53759056
+MLB19295746  Livro Tormenta de Fogo, de Sanderson, Brandon, vol. 2. Edito
+    https://www.mercadolivre.com.br/p/MLB19295746
 MLB19417207  Livro Negócios: Um assunto de mulheres, de Fontes, Ana, tapa
     https://www.mercadolivre.com.br/p/MLB19417207
 MLB19272750  Box Totalmente Terror
     https://www.mercadolivre.com.br/p/MLB19272750
 MLB52687637  Box Universo Ziraldo
     https://www.mercadolivre.com.br/p/MLB52687637
-MLB19295746  Livro Tormenta de Fogo, de Sanderson, Brandon, vol. 2. Edito
-    https://www.mercadolivre.com.br/p/MLB19295746
 MLB19301929  Livro Coração de Aço, de Sanderson, Brandon, vol. 1. Editori
     https://www.mercadolivre.com.br/p/MLB19301929
 MLB19820634  Livro O Morro Dos Ventos Uivantes - Emily Brontë
     https://www.mercadolivre.com.br/p/MLB19820634
 MLB21757672  Livro PAPÉIS AVULSOS - MACHADO DE ASSIS, de Assis, Machado d
     https://www.mercadolivre.com.br/p/MLB21757672
-MLB25775586  Livro-recarregue-se!- Editora Best Seller
-    https://www.mercadolivre.com.br/p/MLB25775586
 MLB44222588  Box Ernest Hemingway
     https://www.mercadolivre.com.br/p/MLB44222588
 MLB57817554  Box Santo Guerreiro
@@ -86,10 +90,6 @@ MLB22820495  Livro Quincas Borba - Machado De Assis
     https://www.mercadolivre.com.br/p/MLB22820495
 MLB66305472  Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, 
     https://www.mercadolivre.com.br/p/MLB66305472
-MLB19309022  O Mundo Perdido. Arthur Conan Doyle. História. Editora Princ
-    https://www.mercadolivre.com.br/p/MLB19309022
-MLB21580803  Livro: Pai Contra Mãe - Machado De Assis
-    https://www.mercadolivre.com.br/p/MLB21580803
 MLB22381340  Livro Dom Casmurro - Machado De Assis
     https://www.mercadolivre.com.br/p/MLB22381340
 MLB19784246  Box 3 Livros Essencial Da Economia *
