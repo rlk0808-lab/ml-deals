@@ -10,10 +10,10 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB45474714
 ⭐ MLB57596196  Meia Futebol Grip Penalty Cano Alto
     https://www.mercadolivre.com.br/p/MLB57596196
+⭐ MLB70635543  Necessaire Masculina Couro Sintético Premium Preta Reforçado
+    https://www.mercadolivre.com.br/p/MLB70635543
 ⭐ MLB36952189  Elástico Falcon P/ Cós Cintura Cueca Box N30 Rolo 20 Metros 
     https://www.mercadolivre.com.br/p/MLB36952189
-⭐ MLB45475084  Chinelo Feminino Slim Havaianas
-    https://www.mercadolivre.com.br/p/MLB45475084
 ⭐ MLB29410142  Escova Para Limpar Couro Banco Bota Jaqueta Detailer
     https://www.mercadolivre.com.br/p/MLB29410142
 ⭐ MLB75195451  Cueca Algodão 2 Boxer Uso Prolongado Incontinência Urinária 
@@ -36,10 +36,16 @@ MLB36951560  Elástico Listrado P/ Cós Cueca Box Calcinha Top N40 - 20 Mts
     https://www.mercadolivre.com.br/p/MLB36951560
 MLB51529176  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB51529176
+MLB45475084  Chinelo Feminino Slim Havaianas
+    https://www.mercadolivre.com.br/p/MLB45475084
+MLB45422542  Chinelo Masculino Drifter Foam Fila Liso
+    https://www.mercadolivre.com.br/p/MLB45422542
 MLB45475692  Chinelo Masculino 921 Olympikus
     https://www.mercadolivre.com.br/p/MLB45475692
 MLB45851918  Chinelo Masculino Slide Sereno Olympikus
     https://www.mercadolivre.com.br/p/MLB45851918
+MLB45422541  Chinelo Masculino Drifter Foam Fila Liso
+    https://www.mercadolivre.com.br/p/MLB45422541
 MLB46408293  Chinelo Masculino Sleek Slide Fila Liso
     https://www.mercadolivre.com.br/p/MLB46408293
 MLB73441877  Meia Umbro Esportiva Clubes 3/4 Cano Alto Bordo-branco 39-44
@@ -92,3 +98,19 @@ MLB27562912  Colmeia Organizadora Gaveta Armário Grande Calça Jeans Short
     https://www.mercadolivre.com.br/p/MLB27562912
 MLB66835157  Bermuda Masculina Reta Texturizada Hering Bege
     https://www.mercadolivre.com.br/p/MLB66835157
+MLB47536445  Chinelo Masculino Drifter Basic Fila Liso
+    https://www.mercadolivre.com.br/p/MLB47536445
+MLB47536435  Chinelo Masculino Drifter Basic Fila Liso
+    https://www.mercadolivre.com.br/p/MLB47536435
+MLB45422548  Chinelo Masculino Drifter Foam Fila Liso
+    https://www.mercadolivre.com.br/p/MLB45422548
+MLB45422551  Chinelo Masculino Drifter Foam Fila Liso
+    https://www.mercadolivre.com.br/p/MLB45422551
+MLB74692670  Kouk Authentic Touca Gorro Curto Marinheiro Touca Preto e Ve
+    https://www.mercadolivre.com.br/p/MLB74692670
+MLB73436768  Meia Umbro Esportiva Clubes 3/4 Cano Alto Cor Vermelho-Preto
+    https://www.mercadolivre.com.br/p/MLB73436768
+MLB63656101  Meia Sapatilha Para Beach Tennis Areia Cano Alto Kestal Cor 
+    https://www.mercadolivre.com.br/p/MLB63656101
+MLB63650458  Meia Sapatilha Para Beach Tennis Areia Cano Alto Kestal Cor 
+    https://www.mercadolivre.com.br/p/MLB63650458
