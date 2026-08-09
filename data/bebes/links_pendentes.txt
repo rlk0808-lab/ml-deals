@@ -6,12 +6,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 (gerado em 2026-08-09)
 
-⭐ MLB37228412  Pomada Nebacetin Baby Hypera Farma Regeneração Assadura 30g
-    https://www.mercadolivre.com.br/p/MLB37228412
 ⭐ MLB62020142  Canguru Sling De Bebe Carregar Recem Nascido Sem Amarração G
     https://www.mercadolivre.com.br/p/MLB62020142
-⭐ MLB38059954  Kit Higiene Bebê Safari 6 Peças
-    https://www.mercadolivre.com.br/p/MLB38059954
 ⭐ MLB62842938  Canguru Sling De Bebe Carregar Recem Nascido Dry Fit Furadin
     https://www.mercadolivre.com.br/p/MLB62842938
 MLB35495841  Bomba tira leite materno Elétrica G-TECH - Bivolt
@@ -80,6 +76,8 @@ MLB73440881  Aquecedor Esterilizador De Mamadeira Chupeta Papinha 3 Em 1
     https://www.mercadolivre.com.br/p/MLB73440881
 MLB18392586  Fralda Descartável Infantil Ultra Seca Mili XG Pacote 18 Uni
     https://www.mercadolivre.com.br/p/MLB18392586
+MLB37228412  Pomada Nebacetin Baby Hypera Farma Regeneração Assadura 30g
+    https://www.mercadolivre.com.br/p/MLB37228412
 MLB20071448  Kit Higiene Para Bebê Rosa - Ibimboo
     https://www.mercadolivre.com.br/p/MLB20071448
 MLB66185468  Carrinho Bebê Move Duo Passear Bebê Conforto Nina Adaptador 
@@ -92,8 +90,6 @@ MLB49767281  Colchão Berço Arkell Espuma D20 70x130 cm Branco Antialérgic
     https://www.mercadolivre.com.br/p/MLB49767281
 MLB50093886  Colchão Berço Americano Ortobom Baby Light D18 70x130cm Anti
     https://www.mercadolivre.com.br/p/MLB50093886
-MLB66383481  Banheira Bebê Galzerano Acqua Premium Perolado Dourado Liso
-    https://www.mercadolivre.com.br/p/MLB66383481
 MLB27331727  Trocador Porta Fraldas Portátil Papi Friends Panda
     https://www.mercadolivre.com.br/p/MLB27331727
 MLB32298142  Mochila Bolsa Maternidade Gestante Multifuncional Já! Cor Pr
@@ -126,3 +122,7 @@ MLB22275248  Cadeira Alimentação Portátil Burigotto Bebe Poke Branco Cor
     https://www.mercadolivre.com.br/p/MLB22275248
 MLB32111187  Móbile Berço Bebê Musical E Giratório Elefantinho Tiffany
     https://www.mercadolivre.com.br/p/MLB32111187
+MLB22612025  Móbile Berço Bebê Musical E Giratório Ovelinha Azul
+    https://www.mercadolivre.com.br/p/MLB22612025
+MLB25390749  Protetor De Colchão Berço Impermeável 60x70cm Universo Zz
+    https://www.mercadolivre.com.br/p/MLB25390749
