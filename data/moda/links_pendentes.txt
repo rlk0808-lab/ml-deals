@@ -10,10 +10,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB45474714
 ⭐ MLB57596196  Meia Futebol Grip Penalty Cano Alto
     https://www.mercadolivre.com.br/p/MLB57596196
+⭐ MLB51529178  Chinelo Feminino Slim Havaianas
+    https://www.mercadolivre.com.br/p/MLB51529178
 ⭐ MLB70635543  Necessaire Masculina Couro Sintético Premium Preta Reforçado
     https://www.mercadolivre.com.br/p/MLB70635543
 ⭐ MLB36952189  Elástico Falcon P/ Cós Cintura Cueca Box N30 Rolo 20 Metros 
     https://www.mercadolivre.com.br/p/MLB36952189
+⭐ MLB36951560  Elástico Listrado P/ Cós Cueca Box Calcinha Top N40 - 20 Mts
+    https://www.mercadolivre.com.br/p/MLB36951560
 ⭐ MLB29410142  Escova Para Limpar Couro Banco Bota Jaqueta Detailer
     https://www.mercadolivre.com.br/p/MLB29410142
 ⭐ MLB75195451  Cueca Algodão 2 Boxer Uso Prolongado Incontinência Urinária 
@@ -24,6 +28,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB44951729
 ⭐ MLB65082947  Arara De Roupas Cabideiro para vestido longo De Aço Grande L
     https://www.mercadolivre.com.br/p/MLB65082947
+⭐ MLB73441877  Meia Umbro Esportiva Clubes 3/4 Cano Alto Bordo-branco 39-44
+    https://www.mercadolivre.com.br/p/MLB73441877
 ⭐ MLB68670569  Conjunto Feminino Real Confecções G1/g2 Short Saia + Cropped
     https://www.mercadolivre.com.br/p/MLB68670569
 ⭐ MLB29813440  Bastianini Bolsa Transversal Masculina Couro Sintético Preto
@@ -48,10 +54,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB66835157
 ⭐ MLB74692670  Kouk Authentic Touca Gorro Curto Marinheiro Touca Preto e Ve
     https://www.mercadolivre.com.br/p/MLB74692670
-MLB51529178  Chinelo Feminino Slim Havaianas
-    https://www.mercadolivre.com.br/p/MLB51529178
-MLB36951560  Elástico Listrado P/ Cós Cueca Box Calcinha Top N40 - 20 Mts
-    https://www.mercadolivre.com.br/p/MLB36951560
 MLB51529176  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB51529176
 MLB45475084  Chinelo Feminino Slim Havaianas
@@ -66,8 +68,6 @@ MLB45422541  Chinelo Masculino Drifter Foam Fila Liso
     https://www.mercadolivre.com.br/p/MLB45422541
 MLB46408293  Chinelo Masculino Sleek Slide Fila Liso
     https://www.mercadolivre.com.br/p/MLB46408293
-MLB73441877  Meia Umbro Esportiva Clubes 3/4 Cano Alto Bordo-branco 39-44
-    https://www.mercadolivre.com.br/p/MLB73441877
 MLB49798341  Meia Motoqueiro X11 Preta Cano Alto Segunda Pele Conforto Té
     https://www.mercadolivre.com.br/p/MLB49798341
 MLB58240342  Colete Masculino Para Ginecomastia Macom Cor Marrom Amarelad
