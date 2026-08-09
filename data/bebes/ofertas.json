@@ -1,6 +1,23 @@
 [
   {
-    "data": "2026-08-08",
+    "data": "2026-08-09",
+    "product_id": "MLB37228412",
+    "nome": "Pomada Nebacetin Baby Hypera Farma Regeneração Assadura 30g",
+    "preco": 29.9,
+    "preco_original": null,
+    "n_ofertas": 4,
+    "item_id": "MLB6284218050",
+    "seller_id": 585881064,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB37228412",
+    "mediana": 54.6,
+    "minimo_hist": 29.9,
+    "desconto": 45.2,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-09",
     "product_id": "MLB22774967",
     "nome": "Bomba Tira Leite Materno Extrator Manual Portátil",
     "preco": 69.9,
@@ -17,7 +34,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-08",
+    "data": "2026-08-09",
     "product_id": "MLB38059954",
     "nome": "Kit Higiene Bebê Safari 6 Peças",
     "preco": 202.29,
@@ -34,7 +51,7 @@
     "recorde": false
   },
   {
-    "data": "2026-08-08",
+    "data": "2026-08-09",
     "product_id": "MLB18392706",
     "nome": "Fralda Descartável Infantil Pom Pom Clássica M Pacote 26 Unidades",
     "preco": 24.74,
@@ -51,7 +68,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-08",
+    "data": "2026-08-09",
     "product_id": "MLB54846512",
     "nome": "Naninha Paninho Prendedor De Chupeta Bebê Pimpolho Gato Cinza",
     "preco": 36.0,
