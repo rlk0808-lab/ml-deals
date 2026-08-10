@@ -11,9 +11,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB39242772",
-    "mediana": 172.96,
+    "mediana": 125.97,
     "minimo_hist": 78.99,
-    "desconto": 54.3,
+    "desconto": 37.3,
     "recorde": true
   },
   {
@@ -65,23 +65,6 @@
     "mediana": 56.5,
     "minimo_hist": 40.75,
     "desconto": 27.9,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-10",
-    "product_id": "MLB57626638",
-    "nome": "Sanduicheira Grill Elétrica Antiaderente 750w Potente Cor Vermelho",
-    "preco": 67.79,
-    "preco_original": 121.97,
-    "n_ofertas": 3,
-    "item_id": "MLB6658905428",
-    "seller_id": 1006742882,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB57626638",
-    "mediana": 93.95,
-    "minimo_hist": 67.79,
-    "desconto": 27.8,
     "recorde": true
   },
   {
