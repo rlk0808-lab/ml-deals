@@ -76,10 +76,10 @@ MLB19744860  Box Coleção Patrícia
     https://www.mercadolivre.com.br/p/MLB19744860
 MLB20810939  Livro Romance Espírita Preto Como Leite E Branco Como O Café
     https://www.mercadolivre.com.br/p/MLB20810939
-MLB54102040  Box Stanislavski
-    https://www.mercadolivre.com.br/p/MLB54102040
 MLB30476715  Box Graciliano Ramos
     https://www.mercadolivre.com.br/p/MLB30476715
+MLB54102040  Box Stanislavski
+    https://www.mercadolivre.com.br/p/MLB54102040
 MLB69137659  Box Lottie Brooks (livros 1-4)
     https://www.mercadolivre.com.br/p/MLB69137659
 MLB21691796  Livro Negócios Eco-lógicos na Era do Greenwashing, de Humair
@@ -108,14 +108,14 @@ MLB22154835  Box Essencial Quantico
     https://www.mercadolivre.com.br/p/MLB22154835
 MLB70945977  Livro Hábitos Das Pessoas Eficientes E Felizes
     https://www.mercadolivre.com.br/p/MLB70945977
-MLB22156338  Maldições Não Quebradas Livro Rebecca Brown, de Rebecca Brow
-    https://www.mercadolivre.com.br/p/MLB22156338
 MLB71715115  Livro A Poesia Da Literatura Brasileira: Do Barroco Ao Moder
     https://www.mercadolivre.com.br/p/MLB71715115
-MLB21397020  Hábitos Escravizadores - Livro Edward T. Welch
-    https://www.mercadolivre.com.br/p/MLB21397020
+MLB22156338  Maldições Não Quebradas Livro Rebecca Brown, de Rebecca Brow
+    https://www.mercadolivre.com.br/p/MLB22156338
 MLB22154240  Livro O Livro Dos 5 Anéis: O Clássico Guia De Estratégia
     https://www.mercadolivre.com.br/p/MLB22154240
+MLB21397020  Hábitos Escravizadores - Livro Edward T. Welch
+    https://www.mercadolivre.com.br/p/MLB21397020
 MLB26473013  Livro NEGÓCIOS DE HONRA, de BOB HASSON. Editorial EDICOES E 
     https://www.mercadolivre.com.br/p/MLB26473013
 MLB43965505  Box O Capital
