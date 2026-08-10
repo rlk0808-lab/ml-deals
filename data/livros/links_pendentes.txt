@@ -50,16 +50,16 @@ MLB21687753  Livro Negócios Recodificados, de Fisk, Peter. Editorial DVS
     https://www.mercadolivre.com.br/p/MLB21687753
 MLB23661891  Livro-verdade?- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB23661891
-MLB52071537  Box Natureza Macabra
-    https://www.mercadolivre.com.br/p/MLB52071537
 MLB19417207  Livro Negócios: Um assunto de mulheres, de Fontes, Ana, tapa
     https://www.mercadolivre.com.br/p/MLB19417207
+MLB52071537  Box Natureza Macabra
+    https://www.mercadolivre.com.br/p/MLB52071537
+MLB53759056  Box Sandel
+    https://www.mercadolivre.com.br/p/MLB53759056
 MLB19272750  Box Totalmente Terror
     https://www.mercadolivre.com.br/p/MLB19272750
 MLB19295746  Livro Tormenta de Fogo, de Sanderson, Brandon, vol. 2. Edito
     https://www.mercadolivre.com.br/p/MLB19295746
-MLB53759056  Box Sandel
-    https://www.mercadolivre.com.br/p/MLB53759056
 MLB25775586  Livro-recarregue-se!- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB25775586
 MLB52687637  Box Universo Ziraldo
@@ -78,10 +78,10 @@ MLB19744860  Box Coleção Patrícia
     https://www.mercadolivre.com.br/p/MLB19744860
 MLB20810939  Livro Romance Espírita Preto Como Leite E Branco Como O Café
     https://www.mercadolivre.com.br/p/MLB20810939
-MLB30476715  Box Graciliano Ramos
-    https://www.mercadolivre.com.br/p/MLB30476715
 MLB54102040  Box Stanislavski
     https://www.mercadolivre.com.br/p/MLB54102040
+MLB30476715  Box Graciliano Ramos
+    https://www.mercadolivre.com.br/p/MLB30476715
 MLB69137659  Box Lottie Brooks (livros 1-4)
     https://www.mercadolivre.com.br/p/MLB69137659
 MLB21691796  Livro Negócios Eco-lógicos na Era do Greenwashing, de Humair
@@ -124,5 +124,5 @@ MLB43965505  Box O Capital
     https://www.mercadolivre.com.br/p/MLB43965505
 MLB19294761  Livro Negócios para criativos, de Loureiro, Kiko. Editorial 
     https://www.mercadolivre.com.br/p/MLB19294761
-MLB71604003  Livro Desencantos: Fantasia Dramática
-    https://www.mercadolivre.com.br/p/MLB71604003
+MLB19189031  Livro Negócios de família, de Ginsberg, Allen. Editorial Edi
+    https://www.mercadolivre.com.br/p/MLB19189031
