@@ -8,6 +8,10 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 ⭐ MLB39979760  Box Collen Hoover
     https://www.mercadolivre.com.br/p/MLB39979760
+⭐ MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
+    https://www.mercadolivre.com.br/p/MLB36202363
+⭐ MLB26355500  Lugar Feliz: Lugar Feliz, De Henry, Emily. Editora Verus, Ca
+    https://www.mercadolivre.com.br/p/MLB26355500
 ⭐ MLB40283388  Box Alice - Box Com 2 Livros - Edição De Luxo Almofadada
     https://www.mercadolivre.com.br/p/MLB40283388
 ⭐ MLB37149234  Biblioteca Nietzsche - Box Com 4 Livros
@@ -22,20 +26,16 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB71648230
 ⭐ MLB50585712  Livro Pai Rico Pai Pobre + Hábitos Atômicos: Kit Evolução Pe
     https://www.mercadolivre.com.br/p/MLB50585712
-MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
-    https://www.mercadolivre.com.br/p/MLB36202363
-MLB26355500  Lugar Feliz: Lugar Feliz, De Henry, Emily. Editora Verus, Ca
-    https://www.mercadolivre.com.br/p/MLB26355500
 MLB74807035  Box Trilogia Powerless
     https://www.mercadolivre.com.br/p/MLB74807035
 MLB54103019  Box Relacionamentos Saudáveis
     https://www.mercadolivre.com.br/p/MLB54103019
 MLB21194682  Crie Bons Hábitos: Livre - Se Dos Maus Hábitos
     https://www.mercadolivre.com.br/p/MLB21194682
-MLB19771891  Box Essencial Conquistadores (3 Livros) *
-    https://www.mercadolivre.com.br/p/MLB19771891
 MLB40957770  A Ciência De Ficar Rico: O Livro Clássico Do Sucesso Finance
     https://www.mercadolivre.com.br/p/MLB40957770
+MLB19771891  Box Essencial Conquistadores (3 Livros) *
+    https://www.mercadolivre.com.br/p/MLB19771891
 MLB19430983  Livro-streampunks- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB19430983
 MLB30188985  Dark One, de Sanderson, Brandon. Editora Poseidon, capa dura
@@ -52,28 +52,28 @@ MLB19272750  Box Totalmente Terror
     https://www.mercadolivre.com.br/p/MLB19272750
 MLB53759056  Box Sandel
     https://www.mercadolivre.com.br/p/MLB53759056
-MLB52071537  Box Natureza Macabra
-    https://www.mercadolivre.com.br/p/MLB52071537
 MLB19820634  Livro O Morro Dos Ventos Uivantes - Emily Brontë
     https://www.mercadolivre.com.br/p/MLB19820634
+MLB52071537  Box Natureza Macabra
+    https://www.mercadolivre.com.br/p/MLB52071537
 MLB25775586  Livro-recarregue-se!- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB25775586
 MLB19295746  Livro Tormenta de Fogo, de Sanderson, Brandon, vol. 2. Edito
     https://www.mercadolivre.com.br/p/MLB19295746
-MLB52687637  Box Universo Ziraldo
-    https://www.mercadolivre.com.br/p/MLB52687637
 MLB19301929  Livro Coração de Aço, de Sanderson, Brandon, vol. 1. Editori
     https://www.mercadolivre.com.br/p/MLB19301929
+MLB52687637  Box Universo Ziraldo
+    https://www.mercadolivre.com.br/p/MLB52687637
 MLB21757672  Livro PAPÉIS AVULSOS - MACHADO DE ASSIS, de Assis, Machado d
     https://www.mercadolivre.com.br/p/MLB21757672
 MLB44222588  Box Ernest Hemingway
     https://www.mercadolivre.com.br/p/MLB44222588
 MLB57817554  Box Santo Guerreiro
     https://www.mercadolivre.com.br/p/MLB57817554
-MLB20810939  Livro Romance Espírita Preto Como Leite E Branco Como O Café
-    https://www.mercadolivre.com.br/p/MLB20810939
 MLB30476715  Box Graciliano Ramos
     https://www.mercadolivre.com.br/p/MLB30476715
+MLB20810939  Livro Romance Espírita Preto Como Leite E Branco Como O Café
+    https://www.mercadolivre.com.br/p/MLB20810939
 MLB54102040  Box Stanislavski
     https://www.mercadolivre.com.br/p/MLB54102040
 MLB69137659  Box Lottie Brooks (livros 1-4)
@@ -86,12 +86,12 @@ MLB68707420  Livro Desenvolvimento Matemático Na Criança, De Brizuela, Bá
     https://www.mercadolivre.com.br/p/MLB68707420
 MLB22820495  Livro Quincas Borba - Machado De Assis
     https://www.mercadolivre.com.br/p/MLB22820495
+MLB66305472  Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, 
+    https://www.mercadolivre.com.br/p/MLB66305472
 MLB20760429  Box Lu & Bilu
     https://www.mercadolivre.com.br/p/MLB20760429
 MLB19309022  O Mundo Perdido. Arthur Conan Doyle. História. Editora Princ
     https://www.mercadolivre.com.br/p/MLB19309022
-MLB66305472  Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, 
-    https://www.mercadolivre.com.br/p/MLB66305472
 MLB21580803  Livro: Pai Contra Mãe - Machado De Assis
     https://www.mercadolivre.com.br/p/MLB21580803
 MLB57098569  Livro Percy Jackson e os Olimpianos Crie seu destino De Disn
