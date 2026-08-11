@@ -20,18 +20,18 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB52322550
 ⭐ MLB20905076  Capicilin - Creme Para Pentear Hairpantol 300ml
     https://www.mercadolivre.com.br/p/MLB20905076
+⭐ MLB25243834  Primer Facial Efeito Lifting Phállebeauty Tom do primer Tran
+    https://www.mercadolivre.com.br/p/MLB25243834
+⭐ MLB18940033  Creme para Pentear Hidrocauterização Pantene 240ml
+    https://www.mercadolivre.com.br/p/MLB18940033
 ⭐ MLB45572007  Dacca Kit Shampoo Condicionador Hidratação Protetor Térmico
     https://www.mercadolivre.com.br/p/MLB45572007
 ⭐ MLB75885866  Jogo Conjunto Kit De Pincel Sombra Maquiagem 13 Peças Macio 
     https://www.mercadolivre.com.br/p/MLB75885866
 MLB38454411  Máscara Capilar Vult Recarga De Hidratação 250g
     https://www.mercadolivre.com.br/p/MLB38454411
-MLB25243834  Primer Facial Efeito Lifting Phállebeauty Tom do primer Tran
-    https://www.mercadolivre.com.br/p/MLB25243834
 MLB45481915  Máscara Cílios Preto Prova D'Água Febella Curvo Volume
     https://www.mercadolivre.com.br/p/MLB45481915
-MLB18940033  Creme para Pentear Hidrocauterização Pantene 240ml
-    https://www.mercadolivre.com.br/p/MLB18940033
 MLB38926902  Primer Facial - Blur Primer Océane Edition 30ml Tom do prime
     https://www.mercadolivre.com.br/p/MLB38926902
 MLB20871191  Creme Para Pentear Fortalecimento Antiqueda Reconstrutor
@@ -40,6 +40,8 @@ MLB19760888  Mascara Capilar Hidrataçao 250g Meu Cronograma
     https://www.mercadolivre.com.br/p/MLB19760888
 MLB25713591  Óleo capilr negra rosa/ óleo capilar rosa mosqueta/ blend de
     https://www.mercadolivre.com.br/p/MLB25713591
+MLB45700521  Gel Limpeza Facial Dove Regenerative Oleosa 150ml - Unilever
+    https://www.mercadolivre.com.br/p/MLB45700521
 MLB44149361  pó compacto Ruby Rose Glass Pó Compacto
     https://www.mercadolivre.com.br/p/MLB44149361
 MLB39124617  200un Anel Expositor Mostruário Cor Esmalte Unha Artificial
@@ -60,8 +62,6 @@ MLB53458449  Ampola Capilar Profios Power Reconstrução 15ml
     https://www.mercadolivre.com.br/p/MLB53458449
 MLB44072241  Truss Shock Repair - Ampola Capilar 4x17ml
     https://www.mercadolivre.com.br/p/MLB44072241
-MLB45700521  Gel Limpeza Facial Dove Regenerative Oleosa 150ml - Unilever
-    https://www.mercadolivre.com.br/p/MLB45700521
 MLB70222514  Kit 3x500ml Gel Limpeza Facial Vitalizy Pele Oleosa Acneica
     https://www.mercadolivre.com.br/p/MLB70222514
 MLB25741623  Palito Plana Silicone Belliz Company Remoção Excesso Esmalte
@@ -112,8 +112,6 @@ MLB26756952  Base de maquiagem Adversa Base Líquida Matte tom base facial
     https://www.mercadolivre.com.br/p/MLB26756952
 MLB62171058  Mascara Capilar Hidratação Aumentar Diâmetro Fios Coiffer
     https://www.mercadolivre.com.br/p/MLB62171058
-MLB29027957  Kit 2 Condicionador Hidratação Impacto 500ml Midori Original
-    https://www.mercadolivre.com.br/p/MLB29027957
 MLB32527254  Mascara Facial Argila Branca Bisnaga 140 G
     https://www.mercadolivre.com.br/p/MLB32527254
 MLB37986849  Kit Maquiagem Artística Terror Slug Drácula Zumbi Halloween
@@ -126,3 +124,5 @@ MLB52965346  Kit Shampoo+ Condicionador+ Hidratação+fluido Escova-trivitt
     https://www.mercadolivre.com.br/p/MLB52965346
 MLB34696930  Kit Lowell LisoMágico Shampoo Condicionador Hidratação Alisa
     https://www.mercadolivre.com.br/p/MLB34696930
+MLB36478561  Condicionador Hidratação Equilibrante Patauá 50ml
+    https://www.mercadolivre.com.br/p/MLB36478561
