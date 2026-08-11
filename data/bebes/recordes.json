@@ -1375,8 +1375,8 @@
     "menor_preco": 50.0,
     "data_menor": "2026-08-05",
     "primeiro_dia": "2026-07-15",
-    "dias_total": 27,
-    "_ultima_data_vista": "2026-08-10"
+    "dias_total": 28,
+    "_ultima_data_vista": "2026-08-11"
   },
   "MLB18397463": {
     "menor_preco": 33.51,
@@ -1631,8 +1631,8 @@
     "_ultima_data_vista": "2026-07-25"
   },
   "MLB54846512": {
-    "menor_preco": 36.0,
-    "data_menor": "2026-08-06",
+    "menor_preco": 34.92,
+    "data_menor": "2026-08-11",
     "primeiro_dia": "2026-07-15",
     "dias_total": 28,
     "_ultima_data_vista": "2026-08-11"
@@ -1750,8 +1750,8 @@
     "_ultima_data_vista": "2026-08-11"
   },
   "MLB22663058": {
-    "menor_preco": 71.99,
-    "data_menor": "2026-07-15",
+    "menor_preco": 59.9,
+    "data_menor": "2026-08-11",
     "primeiro_dia": "2026-07-15",
     "dias_total": 23,
     "_ultima_data_vista": "2026-08-11"
@@ -2177,8 +2177,8 @@
     "_ultima_data_vista": "2026-08-11"
   },
   "MLB26826980": {
-    "menor_preco": 176.92,
-    "data_menor": "2026-08-05",
+    "menor_preco": 176.48,
+    "data_menor": "2026-08-11",
     "primeiro_dia": "2026-07-27",
     "dias_total": 16,
     "_ultima_data_vista": "2026-08-11"
@@ -2635,8 +2635,8 @@
     "menor_preco": 26.73,
     "data_menor": "2026-08-02",
     "primeiro_dia": "2026-08-02",
-    "dias_total": 2,
-    "_ultima_data_vista": "2026-08-03"
+    "dias_total": 3,
+    "_ultima_data_vista": "2026-08-11"
   },
   "MLB45229146": {
     "menor_preco": 199.99,
@@ -2828,8 +2828,8 @@
     "_ultima_data_vista": "2026-08-11"
   },
   "MLB54524800": {
-    "menor_preco": 53.25,
-    "data_menor": "2026-08-08",
+    "menor_preco": 50.58,
+    "data_menor": "2026-08-11",
     "primeiro_dia": "2026-08-08",
     "dias_total": 4,
     "_ultima_data_vista": "2026-08-11"
@@ -2948,6 +2948,13 @@
   },
   "MLB66360152": {
     "menor_preco": 28.99,
+    "data_menor": "2026-08-11",
+    "primeiro_dia": "2026-08-11",
+    "dias_total": 1,
+    "_ultima_data_vista": "2026-08-11"
+  },
+  "MLB41727035": {
+    "menor_preco": 27.0,
     "data_menor": "2026-08-11",
     "primeiro_dia": "2026-08-11",
     "dias_total": 1,
