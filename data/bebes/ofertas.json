@@ -1,6 +1,23 @@
 [
   {
     "data": "2026-08-11",
+    "product_id": "MLB49475250",
+    "nome": "Bomba Tira Leite Elétrica Caily Kikkaboo",
+    "preco": 169.0,
+    "preco_original": 499.0,
+    "n_ofertas": 2,
+    "item_id": "MLB4284839201",
+    "seller_id": 709578849,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB49475250",
+    "mediana": 499.0,
+    "minimo_hist": 169.0,
+    "desconto": 66.1,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-11",
     "product_id": "MLB22774967",
     "nome": "Bomba Tira Leite Materno Extrator Manual Portátil",
     "preco": 69.9,
@@ -48,23 +65,6 @@
     "mediana": 29.99,
     "minimo_hist": 24.06,
     "desconto": 19.8,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-11",
-    "product_id": "MLB54846512",
-    "nome": "Naninha Paninho Prendedor De Chupeta Bebê Pimpolho Gato Cinza",
-    "preco": 34.92,
-    "preco_original": 36.0,
-    "n_ofertas": 4,
-    "item_id": "MLB4975442789",
-    "seller_id": 3439333482,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB54846512",
-    "mediana": 42.7,
-    "minimo_hist": 34.92,
-    "desconto": 18.2,
     "recorde": true
   },
   {
