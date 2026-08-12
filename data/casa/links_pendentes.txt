@@ -18,8 +18,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB29032041
 ⭐ MLB23053557  Jogo Taças Cristal Titânio 220ml Conjunto 6 Taças Champanhe 
     https://www.mercadolivre.com.br/p/MLB23053557
+⭐ MLB41899209  Kit Organizador Viagem Ricca Rosa Impermeável
+    https://www.mercadolivre.com.br/p/MLB41899209
+⭐ MLB28857262  Tulha Aramada Deslizante Cesto Roupa Suja Inox Lavanderia Ba
+    https://www.mercadolivre.com.br/p/MLB28857262
 ⭐ MLB75087991  Jogo Talheres 12 Peças Inox Fratelli Elegante Moderno Rosa C
     https://www.mercadolivre.com.br/p/MLB75087991
+⭐ MLB39216863  Jogo Taças Cristal Transparente Fio Ouro Imperial 330ml Lyor
+    https://www.mercadolivre.com.br/p/MLB39216863
 ⭐ MLB25336204  Jogo Taças Plástico 6 Peças Plasútil Âmbar Citrino 330ml Vin
     https://www.mercadolivre.com.br/p/MLB25336204
 ⭐ MLB76394357  Jogo Toalhas Banho Grossas Macias Algodão 4pç Absorventes Ta
@@ -42,10 +48,6 @@ MLB66710003  Jogo Taças Transparentes 6 Unidades Suco Agua Vidro 265ml
     https://www.mercadolivre.com.br/p/MLB66710003
 MLB53775135  Conjunto Pratos De Cerâmica 20cm Sobremesa Raso 4 Unidades
     https://www.mercadolivre.com.br/p/MLB53775135
-MLB41899209  Kit Organizador Viagem Ricca Rosa Impermeável
-    https://www.mercadolivre.com.br/p/MLB41899209
-MLB28857262  Tulha Aramada Deslizante Cesto Roupa Suja Inox Lavanderia Ba
-    https://www.mercadolivre.com.br/p/MLB28857262
 MLB29371667  Kit Potes Porta Mantimento Hermético Quadrado Cozinha 12 Uni
     https://www.mercadolivre.com.br/p/MLB29371667
 MLB37993510  Kit Cozinha 5 Potes Herméticos Para Mantimentos Cor Preto
@@ -114,15 +116,13 @@ MLB32036042  Conjunto Pratos Fundos Duralex Jasmim Nadir 6 Unidades
     https://www.mercadolivre.com.br/p/MLB32036042
 MLB37215252  Conjunto Pratos Rasos Acqua Vidro Temperado 6 Unidades 23cm
     https://www.mercadolivre.com.br/p/MLB37215252
-MLB67915598  Jogo Toalhas Felpuda Dohler 4 Banho Rosto Prisma Love Cinza
-    https://www.mercadolivre.com.br/p/MLB67915598
 MLB69096994  Jogo Toalhas Banho Karsten 4 100% Algodão Nuvia Platina Lisa
     https://www.mercadolivre.com.br/p/MLB69096994
+MLB53222426  Frigideira Antiaderente Rizzoflon 16cm Alumínio Teflon para 
+    https://www.mercadolivre.com.br/p/MLB53222426
 MLB44771733  Descansos de Panela Ferro Arabesco Preto Kit 2 Peças 14cm
     https://www.mercadolivre.com.br/p/MLB44771733
 MLB47450869  Caçarola Panela Ferro Fundido Com Tampa De Vidro 2 Alças N22
     https://www.mercadolivre.com.br/p/MLB47450869
 MLB50616946  Frigideira Antiaderente Panelas: Frigideira Antiaderente De
     https://www.mercadolivre.com.br/p/MLB50616946
-MLB69344144  Faqueiro Jogo Talheres 16 Peças Inox Garfo Faca Colher Inox
-    https://www.mercadolivre.com.br/p/MLB69344144
