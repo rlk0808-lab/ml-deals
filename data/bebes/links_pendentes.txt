@@ -38,8 +38,6 @@ MLB23582969  Mochila bolsa maternidade bebê mescla azul Hug
     https://www.mercadolivre.com.br/p/MLB23582969
 MLB68417753  Creme Pomada De Assadura Óleo Girassol A.g.e 45g Maxi Baby
     https://www.mercadolivre.com.br/p/MLB68417753
-MLB74300525  Mordedor Bebê Mãozinha E Pezinho Macio Atóxico Pezinho Rosa
-    https://www.mercadolivre.com.br/p/MLB74300525
 MLB66583684  Colchão Berço Impermeável Espuma D20 70x130x10cm Bela Branco
     https://www.mercadolivre.com.br/p/MLB66583684
 MLB29195932  Mochila Bolsa Lequeen Maternidade Executiva Multifuncional C
@@ -50,6 +48,8 @@ MLB32111187  Móbile Berço Bebê Musical E Giratório Elefantinho Tiffany
     https://www.mercadolivre.com.br/p/MLB32111187
 MLB70070912  Mordedor Bebê Macio Resfriável Agua Gelado Gengiva Bebe Buba
     https://www.mercadolivre.com.br/p/MLB70070912
+MLB74300525  Mordedor Bebê Mãozinha E Pezinho Macio Atóxico Pezinho Rosa
+    https://www.mercadolivre.com.br/p/MLB74300525
 MLB23059798  Cadeira Alimentação Bebe Cadeirão Galzerano Alta Nick Zoo
     https://www.mercadolivre.com.br/p/MLB23059798
 MLB22848080  Capa De Colchão Berço Ibitex Em Malha Gel Lisa Com Ziper
@@ -84,12 +84,12 @@ MLB18392586  Fralda Descartável Infantil Ultra Seca Mili XG Pacote 18 Uni
     https://www.mercadolivre.com.br/p/MLB18392586
 MLB22612025  Móbile Berço Bebê Musical E Giratório Ovelinha Azul
     https://www.mercadolivre.com.br/p/MLB22612025
+MLB42110938  Cercadinho Bebê Portátil Desmontável Mazzilli para Crianças 
+    https://www.mercadolivre.com.br/p/MLB42110938
 MLB36450672  Móbile Berço Bebê Musical E Giratório Animais Da Floresta
     https://www.mercadolivre.com.br/p/MLB36450672
 MLB22936110  Móbile Berço Bebê Musical E Giratório Ovelinha Rosa
     https://www.mercadolivre.com.br/p/MLB22936110
-MLB37228412  Pomada Nebacetin Baby Hypera Farma Regeneração Assadura 30g
-    https://www.mercadolivre.com.br/p/MLB37228412
 MLB20071448  Kit Higiene Para Bebê Rosa - Ibimboo
     https://www.mercadolivre.com.br/p/MLB20071448
 MLB66185468  Carrinho Bebê Move Duo Passear Bebê Conforto Nina Adaptador 
@@ -120,9 +120,9 @@ MLB25246647  Bomba Tira-leite 2 Em 1 Unitária - Mam
     https://www.mercadolivre.com.br/p/MLB25246647
 MLB29157731  Espelho Retrovisor Carro Ver Cadeirinha Bebê Conforto- Buba
     https://www.mercadolivre.com.br/p/MLB29157731
-MLB50641068  Bebê Conforto Com Base, Cadeirinha Cadeira De Carro Solare
-    https://www.mercadolivre.com.br/p/MLB50641068
 MLB75344146  Banheira Bebe + Suporte Koa Plus Perola - Galzerano - 7097pr
     https://www.mercadolivre.com.br/p/MLB75344146
 MLB65451179  Bomba Tira Leite Elétrica Solo Hands Free Medela
     https://www.mercadolivre.com.br/p/MLB65451179
+MLB22275248  Cadeira Alimentação Portátil Burigotto Bebe Poke Branco Cor 
+    https://www.mercadolivre.com.br/p/MLB22275248
