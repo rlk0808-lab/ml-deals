@@ -14,6 +14,10 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB32145497
 ⭐ MLB28556623  Potes Herméticos Empilhável Quadrado 4 Unidades - Ou
     https://www.mercadolivre.com.br/p/MLB28556623
+⭐ MLB29032041  Jogo Copos Vidro Suco Agua Aruba 465 Ml Nadir 12 Unidades
+    https://www.mercadolivre.com.br/p/MLB29032041
+⭐ MLB23053557  Jogo Taças Cristal Titânio 220ml Conjunto 6 Taças Champanhe 
+    https://www.mercadolivre.com.br/p/MLB23053557
 ⭐ MLB75087991  Jogo Talheres 12 Peças Inox Fratelli Elegante Moderno Rosa C
     https://www.mercadolivre.com.br/p/MLB75087991
 ⭐ MLB25336204  Jogo Taças Plástico 6 Peças Plasútil Âmbar Citrino 330ml Vin
@@ -26,18 +30,14 @@ MLB58984205  Jogo Panelas Indução Antiaderente Cerâmica Manhattan 5 Peças
     https://www.mercadolivre.com.br/p/MLB58984205
 MLB35716444  Jogo Panelas Antiaderente Multiflon 4 Peças Vermelho com Lei
     https://www.mercadolivre.com.br/p/MLB35716444
-MLB29362172  Jogo Toalhas Banho Algodão Egípcio Branco 5 Peças Buddemeyer
-    https://www.mercadolivre.com.br/p/MLB29362172
 MLB50295623  Jogo Panelas 17 Peças Antiaderente Preto Com Tampa Vidro
     https://www.mercadolivre.com.br/p/MLB50295623
-MLB29032041  Jogo Copos Vidro Suco Agua Aruba 465 Ml Nadir 12 Unidades
-    https://www.mercadolivre.com.br/p/MLB29032041
-MLB23053557  Jogo Taças Cristal Titânio 220ml Conjunto 6 Taças Champanhe 
-    https://www.mercadolivre.com.br/p/MLB23053557
 MLB53057773  Jogo Taças Vidro Dourado 200ml 4 Peças Haüskraft Granatta
     https://www.mercadolivre.com.br/p/MLB53057773
 MLB23258524  Jogo Taças Vidro Diamond Furta Cor 300ml C/6
     https://www.mercadolivre.com.br/p/MLB23258524
+MLB29362172  Jogo Toalhas Banho Algodão Egípcio Branco 5 Peças Buddemeyer
+    https://www.mercadolivre.com.br/p/MLB29362172
 MLB66710003  Jogo Taças Transparentes 6 Unidades Suco Agua Vidro 265ml
     https://www.mercadolivre.com.br/p/MLB66710003
 MLB53775135  Conjunto Pratos De Cerâmica 20cm Sobremesa Raso 4 Unidades
@@ -106,6 +106,8 @@ MLB45302528  Porta Condimentos Temperos Especiarias Gin Organizador Cozin
     https://www.mercadolivre.com.br/p/MLB45302528
 MLB22609351  Nicho Prateleira Parede Arnad 100x20 Cm Branco/branco Cor Br
     https://www.mercadolivre.com.br/p/MLB22609351
+MLB75505714  Jogo Panelas Tramontina Cerâmica 5 Peças Antiaderente Bege
+    https://www.mercadolivre.com.br/p/MLB75505714
 MLB45458466  Air fryer Br House Fritadeira ELETRICA AIR FRYER Air Fryer F
     https://www.mercadolivre.com.br/p/MLB45458466
 MLB29792111  Jogo Copos Vidro Capri Nadir Long Drink 410ml 6 Unidades
@@ -124,5 +126,3 @@ MLB47450869  Caçarola Panela Ferro Fundido Com Tampa De Vidro 2 Alças N22
     https://www.mercadolivre.com.br/p/MLB47450869
 MLB50616946  Frigideira Antiaderente Panelas: Frigideira Antiaderente De
     https://www.mercadolivre.com.br/p/MLB50616946
-MLB69344144  Faqueiro Jogo Talheres 16 Peças Inox Garfo Faca Colher Inox
-    https://www.mercadolivre.com.br/p/MLB69344144
