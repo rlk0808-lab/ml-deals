@@ -1,26 +1,9 @@
 [
   {
     "data": "2026-08-12",
-    "product_id": "MLB50585712",
-    "nome": "Livro Pai Rico Pai Pobre + Hábitos Atômicos: Kit Evolução Pessoal, De Kit Evolução Pessoal. Editorial Sextante/altabooks, Capa Mole Em Português",
-    "preco": 92.86,
-    "preco_original": null,
-    "n_ofertas": 2,
-    "item_id": "MLB5407566240",
-    "seller_id": 360130448,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB50585712",
-    "mediana": 297.15,
-    "minimo_hist": 92.86,
-    "desconto": 68.7,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-12",
     "product_id": "MLB53039196",
     "nome": "Kit Livros A Única Coisa + Hábitos Atômicos: Kit Foco E Hábi",
-    "preco": 97.95,
+    "preco": 106.9,
     "preco_original": null,
     "n_ofertas": 3,
     "item_id": "MLB5511571590",
@@ -30,8 +13,8 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB53039196",
     "mediana": 309.88,
     "minimo_hist": 97.95,
-    "desconto": 68.4,
-    "recorde": true
+    "desconto": 65.5,
+    "recorde": false
   },
   {
     "data": "2026-08-12",
@@ -49,6 +32,23 @@
     "minimo_hist": 38.45,
     "desconto": 63.3,
     "recorde": true
+  },
+  {
+    "data": "2026-08-12",
+    "product_id": "MLB50585712",
+    "nome": "Livro Pai Rico Pai Pobre + Hábitos Atômicos: Kit Evolução Pessoal, De Kit Evolução Pessoal. Editorial Sextante/altabooks, Capa Mole Em Português",
+    "preco": 118.05,
+    "preco_original": null,
+    "n_ofertas": 2,
+    "item_id": "MLB5407566240",
+    "seller_id": 360130448,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB50585712",
+    "mediana": 297.15,
+    "minimo_hist": 92.86,
+    "desconto": 60.3,
+    "recorde": false
   },
   {
     "data": "2026-08-12",
@@ -103,6 +103,23 @@
   },
   {
     "data": "2026-08-12",
+    "product_id": "MLB19296271",
+    "nome": "Sherlock Holmes O Vale do Medo Arthur Conan Doyle Novo Século Editora",
+    "preco": 19.71,
+    "preco_original": 20.32,
+    "n_ofertas": 35,
+    "item_id": "MLB4438712684",
+    "seller_id": 299478192,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19296271",
+    "mediana": 27.05,
+    "minimo_hist": 19.71,
+    "desconto": 27.1,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-12",
     "product_id": "MLB71609799",
     "nome": "Box Colecionável Livros Série Irmãos Arrowood , Corinne Michaels , The Gift Box",
     "preco": 298.05,
@@ -133,23 +150,6 @@
     "mediana": 386.4,
     "minimo_hist": 289.8,
     "desconto": 25.0,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-12",
-    "product_id": "MLB19296271",
-    "nome": "Sherlock Holmes O Vale do Medo Arthur Conan Doyle Novo Século Editora",
-    "preco": 20.32,
-    "preco_original": null,
-    "n_ofertas": 35,
-    "item_id": "MLB4438712684",
-    "seller_id": 299478192,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB19296271",
-    "mediana": 27.05,
-    "minimo_hist": 20.32,
-    "desconto": 24.9,
     "recorde": true
   },
   {
