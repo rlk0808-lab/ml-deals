@@ -16,10 +16,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB53039196
 ⭐ MLB21570552  Livro J.r.r. Tolkien O Senhor Da Fantasia - Limited Edition
     https://www.mercadolivre.com.br/p/MLB21570552
-⭐ MLB71609799  Box Colecionável Livros Série Irmãos Arrowood , Corinne Mich
-    https://www.mercadolivre.com.br/p/MLB71609799
-⭐ MLB71648230  Box Colecionável Livros Série A Segunda Chance , Corinne Mic
-    https://www.mercadolivre.com.br/p/MLB71648230
 ⭐ MLB50585712  Livro Pai Rico Pai Pobre + Hábitos Atômicos: Kit Evolução Pe
     https://www.mercadolivre.com.br/p/MLB50585712
 ⭐ MLB19243665  Livro O Código Da Vinci de Dan Brown E Robert Langdon Livro 
@@ -52,10 +48,10 @@ MLB21687753  Livro Negócios Recodificados, de Fisk, Peter. Editorial DVS
     https://www.mercadolivre.com.br/p/MLB21687753
 MLB35365698  Livro Um caso improvável, de Yarros, Rebecca. Editorial Veru
     https://www.mercadolivre.com.br/p/MLB35365698
-MLB21580803  Livro: Pai Contra Mãe - Machado De Assis
-    https://www.mercadolivre.com.br/p/MLB21580803
 MLB23661891  Livro-verdade?- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB23661891
+MLB21580803  Livro: Pai Contra Mãe - Machado De Assis
+    https://www.mercadolivre.com.br/p/MLB21580803
 MLB52071537  Box Natureza Macabra
     https://www.mercadolivre.com.br/p/MLB52071537
 MLB53759056  Box Sandel
@@ -66,30 +62,30 @@ MLB25775586  Livro-recarregue-se!- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB25775586
 MLB19272750  Box Totalmente Terror
     https://www.mercadolivre.com.br/p/MLB19272750
-MLB19417207  Livro Negócios: Um assunto de mulheres, de Fontes, Ana, tapa
-    https://www.mercadolivre.com.br/p/MLB19417207
 MLB52687637  Box Universo Ziraldo
     https://www.mercadolivre.com.br/p/MLB52687637
+MLB19417207  Livro Negócios: Um assunto de mulheres, de Fontes, Ana, tapa
+    https://www.mercadolivre.com.br/p/MLB19417207
 MLB19295746  Livro Tormenta de Fogo, de Sanderson, Brandon, vol. 2. Edito
     https://www.mercadolivre.com.br/p/MLB19295746
-MLB44222588  Box Ernest Hemingway
-    https://www.mercadolivre.com.br/p/MLB44222588
 MLB21757672  Livro PAPÉIS AVULSOS - MACHADO DE ASSIS, de Assis, Machado d
     https://www.mercadolivre.com.br/p/MLB21757672
+MLB44222588  Box Ernest Hemingway
+    https://www.mercadolivre.com.br/p/MLB44222588
 MLB57817554  Box Santo Guerreiro
     https://www.mercadolivre.com.br/p/MLB57817554
 MLB20810939  Livro Romance Espírita Preto Como Leite E Branco Como O Café
     https://www.mercadolivre.com.br/p/MLB20810939
-MLB54102040  Box Stanislavski
-    https://www.mercadolivre.com.br/p/MLB54102040
 MLB30476715  Box Graciliano Ramos
     https://www.mercadolivre.com.br/p/MLB30476715
-MLB19744860  Box Coleção Patrícia
-    https://www.mercadolivre.com.br/p/MLB19744860
+MLB54102040  Box Stanislavski
+    https://www.mercadolivre.com.br/p/MLB54102040
 MLB69137659  Box Lottie Brooks (livros 1-4)
     https://www.mercadolivre.com.br/p/MLB69137659
 MLB19301929  Livro Coração de Aço, de Sanderson, Brandon, vol. 1. Editori
     https://www.mercadolivre.com.br/p/MLB19301929
+MLB19744860  Box Coleção Patrícia
+    https://www.mercadolivre.com.br/p/MLB19744860
 MLB21691796  Livro Negócios Eco-lógicos na Era do Greenwashing, de Humair
     https://www.mercadolivre.com.br/p/MLB21691796
 MLB68707420  Livro Desenvolvimento Matemático Na Criança, De Brizuela, Bá
@@ -120,9 +116,13 @@ MLB22156338  Maldições Não Quebradas Livro Rebecca Brown, de Rebecca Brow
     https://www.mercadolivre.com.br/p/MLB22156338
 MLB21397020  Hábitos Escravizadores - Livro Edward T. Welch
     https://www.mercadolivre.com.br/p/MLB21397020
-MLB19189031  Livro Negócios de família, de Ginsberg, Allen. Editorial Edi
-    https://www.mercadolivre.com.br/p/MLB19189031
 MLB26473013  Livro NEGÓCIOS DE HONRA, de BOB HASSON. Editorial EDICOES E 
     https://www.mercadolivre.com.br/p/MLB26473013
 MLB19294761  Livro Negócios para criativos, de Loureiro, Kiko. Editorial 
     https://www.mercadolivre.com.br/p/MLB19294761
+MLB71604003  Livro Desencantos: Fantasia Dramática
+    https://www.mercadolivre.com.br/p/MLB71604003
+MLB19189031  Livro Negócios de família, de Ginsberg, Allen. Editorial Edi
+    https://www.mercadolivre.com.br/p/MLB19189031
+MLB43965505  Box O Capital
+    https://www.mercadolivre.com.br/p/MLB43965505
