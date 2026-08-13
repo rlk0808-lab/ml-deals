@@ -35,23 +35,6 @@
   },
   {
     "data": "2026-08-13",
-    "product_id": "MLB32946854",
-    "nome": "Jogo Taças Vinho Tinto Cristalino 320ml Nadir Figueiredo 6 Unid",
-    "preco": 49.99,
-    "preco_original": 64.99,
-    "n_ofertas": 4,
-    "item_id": "MLB4306899055",
-    "seller_id": 230388715,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB32946854",
-    "mediana": 69.99,
-    "minimo_hist": 49.99,
-    "desconto": 28.6,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-13",
     "product_id": "MLB75087991",
     "nome": "Jogo Talheres 12 Peças Inox Fratelli Elegante Moderno Rosa Cor Preto",
     "preco": 40.75,
@@ -83,6 +66,23 @@
     "minimo_hist": 109.9,
     "desconto": 25.2,
     "recorde": true
+  },
+  {
+    "data": "2026-08-13",
+    "product_id": "MLB32946854",
+    "nome": "Jogo Taças Vinho Tinto Cristalino 320ml Nadir Figueiredo 6 Unid",
+    "preco": 53.07,
+    "preco_original": 64.99,
+    "n_ofertas": 4,
+    "item_id": "MLB4306899055",
+    "seller_id": 230388715,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB32946854",
+    "mediana": 69.99,
+    "minimo_hist": 49.99,
+    "desconto": 24.2,
+    "recorde": false
   },
   {
     "data": "2026-08-13",
