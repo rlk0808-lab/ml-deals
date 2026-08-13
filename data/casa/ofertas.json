@@ -79,26 +79,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB23193469",
-    "mediana": 147.9,
+    "mediana": 146.9,
     "minimo_hist": 109.9,
-    "desconto": 25.7,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-13",
-    "product_id": "MLB32486505",
-    "nome": "Faqueiro Jogo Talheres Black Aço Inox 24 Peças Sunshine Cor Preto",
-    "preco": 58.1,
-    "preco_original": 59.9,
-    "n_ofertas": 7,
-    "item_id": "MLB5007640391",
-    "seller_id": 674964390,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB32486505",
-    "mediana": 74.92,
-    "minimo_hist": 58.1,
-    "desconto": 22.5,
+    "desconto": 25.2,
     "recorde": true
   },
   {
@@ -116,6 +99,23 @@
     "mediana": 118.34,
     "minimo_hist": 92.72,
     "desconto": 21.6,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-13",
+    "product_id": "MLB32486505",
+    "nome": "Faqueiro Jogo Talheres Black Aço Inox 24 Peças Sunshine Cor Preto",
+    "preco": 58.1,
+    "preco_original": 59.9,
+    "n_ofertas": 7,
+    "item_id": "MLB5007640391",
+    "seller_id": 674964390,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB32486505",
+    "mediana": 73.51,
+    "minimo_hist": 58.1,
+    "desconto": 21.0,
     "recorde": true
   },
   {
