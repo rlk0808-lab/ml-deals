@@ -10,10 +10,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB45474714
 ⭐ MLB57596196  Meia Futebol Grip Penalty Cano Alto
     https://www.mercadolivre.com.br/p/MLB57596196
+⭐ MLB51529178  Chinelo Feminino Slim Havaianas
+    https://www.mercadolivre.com.br/p/MLB51529178
 ⭐ MLB70635543  Necessaire Masculina Couro Sintético Premium Preta Reforçado
     https://www.mercadolivre.com.br/p/MLB70635543
 ⭐ MLB36952189  Elástico Falcon P/ Cós Cintura Cueca Box N30 Rolo 20 Metros 
     https://www.mercadolivre.com.br/p/MLB36952189
+⭐ MLB36951560  Elástico Listrado P/ Cós Cueca Box Calcinha Top N40 - 20 Mts
+    https://www.mercadolivre.com.br/p/MLB36951560
 ⭐ MLB45475084  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB45475084
 ⭐ MLB29410142  Escova Para Limpar Couro Banco Bota Jaqueta Detailer
@@ -24,6 +28,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB75195451
 ⭐ MLB44951729  Sandália Rasteira Feminina Strass Vizzano
     https://www.mercadolivre.com.br/p/MLB44951729
+⭐ MLB68987939  Meia Esportiva Penalty Cano Alto 330
+    https://www.mercadolivre.com.br/p/MLB68987939
 ⭐ MLB65082947  Arara De Roupas Cabideiro para vestido longo De Aço Grande L
     https://www.mercadolivre.com.br/p/MLB65082947
 ⭐ MLB68670569  Conjunto Feminino Real Confecções G1/g2 Short Saia + Cropped
@@ -44,16 +50,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB54249378
 ⭐ MLB27562912  Colmeia Organizadora Gaveta Armário Grande Calça Jeans Short
     https://www.mercadolivre.com.br/p/MLB27562912
-MLB51529178  Chinelo Feminino Slim Havaianas
-    https://www.mercadolivre.com.br/p/MLB51529178
-MLB36951560  Elástico Listrado P/ Cós Cueca Box Calcinha Top N40 - 20 Mts
-    https://www.mercadolivre.com.br/p/MLB36951560
+⭐ MLB65008432  Calça Jeans Azul Claro Masculina Tradicional Elastano Premiu
+    https://www.mercadolivre.com.br/p/MLB65008432
 MLB51529176  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB51529176
 MLB45422542  Chinelo Masculino Drifter Foam Fila Liso
     https://www.mercadolivre.com.br/p/MLB45422542
-MLB68987939  Meia Esportiva Penalty Cano Alto 330
-    https://www.mercadolivre.com.br/p/MLB68987939
+MLB45475692  Chinelo Masculino 921 Olympikus
+    https://www.mercadolivre.com.br/p/MLB45475692
 MLB45851918  Chinelo Masculino Slide Sereno Olympikus
     https://www.mercadolivre.com.br/p/MLB45851918
 MLB44936696  Sandália Rasteira Feminina Moleca
@@ -70,8 +74,6 @@ MLB49798341  Meia Motoqueiro X11 Preta Cano Alto Segunda Pele Conforto Té
     https://www.mercadolivre.com.br/p/MLB49798341
 MLB58240342  Colete Masculino Para Ginecomastia Macom Cor Marrom Amarelad
     https://www.mercadolivre.com.br/p/MLB58240342
-MLB45475692  Chinelo Masculino 921 Olympikus
-    https://www.mercadolivre.com.br/p/MLB45475692
 MLB56121586  Meia de Futebol Poker Cano Alto Preta para Treino (Tamanho 3
     https://www.mercadolivre.com.br/p/MLB56121586
 MLB44938764  Sandália Rasteira Feminina Moleca
@@ -100,7 +102,15 @@ MLB63656101  Meia Sapatilha Para Beach Tennis Areia Cano Alto Kestal Cor
     https://www.mercadolivre.com.br/p/MLB63656101
 MLB63650458  Meia Sapatilha Para Beach Tennis Areia Cano Alto Kestal Cor 
     https://www.mercadolivre.com.br/p/MLB63650458
+MLB76023089  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz 
+    https://www.mercadolivre.com.br/p/MLB76023089
+MLB75085390  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz 
+    https://www.mercadolivre.com.br/p/MLB75085390
+MLB74813931  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz 
+    https://www.mercadolivre.com.br/p/MLB74813931
+MLB75737119  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz 
+    https://www.mercadolivre.com.br/p/MLB75737119
 MLB66837837  Meia Soquete Masculino E Feminino Tamanhos E Cores - Poliést
     https://www.mercadolivre.com.br/p/MLB66837837
-MLB65008432  Calça Jeans Azul Claro Masculina Tradicional Elastano Premiu
-    https://www.mercadolivre.com.br/p/MLB65008432
+MLB75798851  Kit 2x Camiseta Básica Unissex Algodão 100% Peruano Básica M
+    https://www.mercadolivre.com.br/p/MLB75798851

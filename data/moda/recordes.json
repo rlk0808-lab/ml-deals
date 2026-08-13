@@ -696,8 +696,8 @@
     "menor_preco": 74.0,
     "data_menor": "2026-07-14",
     "primeiro_dia": "2026-07-14",
-    "dias_total": 12,
-    "_ultima_data_vista": "2026-07-25"
+    "dias_total": 13,
+    "_ultima_data_vista": "2026-08-13"
   },
   "MLB35931311": {
     "menor_preco": 69.9,
@@ -1162,8 +1162,8 @@
     "_ultima_data_vista": "2026-07-25"
   },
   "MLB65811479": {
-    "menor_preco": 46.6,
-    "data_menor": "2026-08-07",
+    "menor_preco": 44.99,
+    "data_menor": "2026-08-13",
     "primeiro_dia": "2026-07-18",
     "dias_total": 24,
     "_ultima_data_vista": "2026-08-13"
@@ -1200,8 +1200,8 @@
     "menor_preco": 77.9,
     "data_menor": "2026-07-25",
     "primeiro_dia": "2026-07-25",
-    "dias_total": 1,
-    "_ultima_data_vista": "2026-07-25"
+    "dias_total": 2,
+    "_ultima_data_vista": "2026-08-13"
   },
   "MLB69958458": {
     "menor_preco": 78.9,
@@ -1750,15 +1750,15 @@
     "_ultima_data_vista": "2026-08-13"
   },
   "MLB63656101": {
-    "menor_preco": 94.9,
-    "data_menor": "2026-08-10",
+    "menor_preco": 89.9,
+    "data_menor": "2026-08-13",
     "primeiro_dia": "2026-08-08",
     "dias_total": 6,
     "_ultima_data_vista": "2026-08-13"
   },
   "MLB63650458": {
-    "menor_preco": 94.89,
-    "data_menor": "2026-08-10",
+    "menor_preco": 89.9,
+    "data_menor": "2026-08-13",
     "primeiro_dia": "2026-08-08",
     "dias_total": 6,
     "_ultima_data_vista": "2026-08-13"
@@ -1768,6 +1768,27 @@
     "data_menor": "2026-08-08",
     "primeiro_dia": "2026-08-08",
     "dias_total": 6,
+    "_ultima_data_vista": "2026-08-13"
+  },
+  "MLB76023089": {
+    "menor_preco": 77.9,
+    "data_menor": "2026-08-13",
+    "primeiro_dia": "2026-08-13",
+    "dias_total": 1,
+    "_ultima_data_vista": "2026-08-13"
+  },
+  "MLB75085390": {
+    "menor_preco": 77.9,
+    "data_menor": "2026-08-13",
+    "primeiro_dia": "2026-08-13",
+    "dias_total": 1,
+    "_ultima_data_vista": "2026-08-13"
+  },
+  "MLB75798851": {
+    "menor_preco": 89.9,
+    "data_menor": "2026-08-13",
+    "primeiro_dia": "2026-08-13",
+    "dias_total": 1,
     "_ultima_data_vista": "2026-08-13"
   }
 }
