@@ -1,6 +1,23 @@
 [
   {
     "data": "2026-08-14",
+    "product_id": "MLB26540613",
+    "nome": "Caneta Lápis Sobrancelha Líquido À Prova D'água Cor Marrom-escuro nº 2",
+    "preco": 19.71,
+    "preco_original": 21.9,
+    "n_ofertas": 4,
+    "item_id": "MLB7405337014",
+    "seller_id": 296699829,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB26540613",
+    "mediana": 27.03,
+    "minimo_hist": 17.46,
+    "desconto": 27.1,
+    "recorde": false
+  },
+  {
+    "data": "2026-08-14",
     "product_id": "MLB19638952",
     "nome": "Leave In Capilar Siàge Nutri Rose Termoprotetor 100ml Eudora",
     "preco": 41.0,
@@ -28,26 +45,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB42341040",
-    "mediana": 48.39,
+    "mediana": 48.19,
     "minimo_hist": 39.16,
-    "desconto": 19.1,
+    "desconto": 18.7,
     "recorde": true
-  },
-  {
-    "data": "2026-08-14",
-    "product_id": "MLB45700521",
-    "nome": "Gel Limpeza Facial Dove Regenerative Oleosa 150ml - Unilever",
-    "preco": 32.9,
-    "preco_original": null,
-    "n_ofertas": 4,
-    "item_id": "MLB4958338653",
-    "seller_id": 684377904,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB45700521",
-    "mediana": 39.8,
-    "minimo_hist": 25.98,
-    "desconto": 17.3,
-    "recorde": false
   }
 ]
