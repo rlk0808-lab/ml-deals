@@ -1,6 +1,6 @@
 [
   {
-    "data": "2026-08-13",
+    "data": "2026-08-14",
     "product_id": "MLB19638952",
     "nome": "Leave In Capilar Siàge Nutri Rose Termoprotetor 100ml Eudora",
     "preco": 41.0,
@@ -17,7 +17,24 @@
     "recorde": true
   },
   {
-    "data": "2026-08-13",
+    "data": "2026-08-14",
+    "product_id": "MLB42341040",
+    "nome": "Mascara Cílios Soul Turbo - Eudora - Cor Preto",
+    "preco": 39.16,
+    "preco_original": null,
+    "n_ofertas": 13,
+    "item_id": "MLB4302213045",
+    "seller_id": 23211562,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB42341040",
+    "mediana": 48.39,
+    "minimo_hist": 39.16,
+    "desconto": 19.1,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-14",
     "product_id": "MLB45700521",
     "nome": "Gel Limpeza Facial Dove Regenerative Oleosa 150ml - Unilever",
     "preco": 32.9,
