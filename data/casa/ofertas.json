@@ -86,23 +86,6 @@
   },
   {
     "data": "2026-08-14",
-    "product_id": "MLB65348184",
-    "nome": "Jogo Talheres Faqueiro Dourado Aço Inox 24 Peças Com Maleta",
-    "preco": 92.72,
-    "preco_original": null,
-    "n_ofertas": 4,
-    "item_id": "MLB7317763470",
-    "seller_id": 2581600876,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB65348184",
-    "mediana": 118.34,
-    "minimo_hist": 92.72,
-    "desconto": 21.6,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-14",
     "product_id": "MLB25148726",
     "nome": "Potes Hermeticos Helsim Cor Preto",
     "preco": 29.9,
@@ -151,6 +134,23 @@
     "minimo_hist": 490.0,
     "desconto": 16.9,
     "recorde": true
+  },
+  {
+    "data": "2026-08-14",
+    "product_id": "MLB65348184",
+    "nome": "Jogo Talheres Faqueiro Dourado Aço Inox 24 Peças Com Maleta",
+    "preco": 99.72,
+    "preco_original": null,
+    "n_ofertas": 4,
+    "item_id": "MLB7317763470",
+    "seller_id": 2581600876,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB65348184",
+    "mediana": 118.34,
+    "minimo_hist": 92.72,
+    "desconto": 15.7,
+    "recorde": false
   },
   {
     "data": "2026-08-14",
