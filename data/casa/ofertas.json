@@ -62,9 +62,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB23193469",
-    "mediana": 146.9,
+    "mediana": 145.9,
     "minimo_hist": 109.9,
-    "desconto": 25.2,
+    "desconto": 24.7,
     "recorde": true
   },
   {
@@ -103,23 +103,6 @@
   },
   {
     "data": "2026-08-14",
-    "product_id": "MLB32486505",
-    "nome": "Faqueiro Jogo Talheres Black Aço Inox 24 Peças Sunshine Cor Preto",
-    "preco": 58.1,
-    "preco_original": 59.9,
-    "n_ofertas": 7,
-    "item_id": "MLB5007640391",
-    "seller_id": 674964390,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB32486505",
-    "mediana": 73.51,
-    "minimo_hist": 58.1,
-    "desconto": 21.0,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-14",
     "product_id": "MLB25148726",
     "nome": "Potes Hermeticos Helsim Cor Preto",
     "preco": 29.9,
@@ -133,6 +116,23 @@
     "mediana": 37.32,
     "minimo_hist": 29.9,
     "desconto": 19.9,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-14",
+    "product_id": "MLB32486505",
+    "nome": "Faqueiro Jogo Talheres Black Aço Inox 24 Peças Sunshine Cor Preto",
+    "preco": 58.1,
+    "preco_original": 59.9,
+    "n_ofertas": 7,
+    "item_id": "MLB5007640391",
+    "seller_id": 674964390,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB32486505",
+    "mediana": 72.1,
+    "minimo_hist": 58.1,
+    "desconto": 19.4,
     "recorde": true
   },
   {
