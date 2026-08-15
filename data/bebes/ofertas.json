@@ -39,7 +39,7 @@
     "nome": "Kit Mamadeira Bebê Avent Anticólica 125ml 260ml 330ml Cor Rosa",
     "preco": 90.0,
     "preco_original": null,
-    "n_ofertas": 7,
+    "n_ofertas": 5,
     "item_id": "MLB7084800000",
     "seller_id": 3276345085,
     "frete_gratis": true,
@@ -99,6 +99,23 @@
     "mediana": 297.97,
     "minimo_hist": 246.75,
     "desconto": 17.2,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-15",
+    "product_id": "MLB66967990",
+    "nome": "Kit C/10 Pomada Assadura Óleo Amêndoas Cia Da Natureza 45g",
+    "preco": 93.0,
+    "preco_original": 110.46,
+    "n_ofertas": 12,
+    "item_id": "MLB4640025773",
+    "seller_id": 587887694,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB66967990",
+    "mediana": 110.46,
+    "minimo_hist": 93.0,
+    "desconto": 15.8,
     "recorde": true
   }
 ]
