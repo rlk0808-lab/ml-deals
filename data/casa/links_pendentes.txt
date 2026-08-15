@@ -16,6 +16,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB29032041
 ⭐ MLB23053557  Jogo Taças Cristal Titânio 220ml Conjunto 6 Taças Champanhe 
     https://www.mercadolivre.com.br/p/MLB23053557
+⭐ MLB29371667  Kit Potes Porta Mantimento Hermético Quadrado Cozinha 12 Uni
+    https://www.mercadolivre.com.br/p/MLB29371667
 ⭐ MLB75087991  Jogo Talheres 12 Peças Inox Fratelli Elegante Moderno Rosa C
     https://www.mercadolivre.com.br/p/MLB75087991
 ⭐ MLB29285369  Jogo Copos Vidro Nadir Laguna 265ml Kit 24 Unidades Para Suc
@@ -24,8 +26,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB39216863
 ⭐ MLB25336204  Jogo Taças Plástico 6 Peças Plasútil Âmbar Citrino 330ml Vin
     https://www.mercadolivre.com.br/p/MLB25336204
-⭐ MLB76394357  Jogo Toalhas Banho Grossas Macias Algodão 4pç Absorventes Ta
-    https://www.mercadolivre.com.br/p/MLB76394357
 MLB58984205  Jogo Panelas Indução Antiaderente Cerâmica Manhattan 5 Peças
     https://www.mercadolivre.com.br/p/MLB58984205
 MLB35716444  Jogo Panelas Antiaderente Multiflon 4 Peças Vermelho com Lei
@@ -40,8 +40,6 @@ MLB53057773  Jogo Taças Vidro Dourado 200ml 4 Peças Haüskraft Granatta
     https://www.mercadolivre.com.br/p/MLB53057773
 MLB23258524  Jogo Taças Vidro Diamond Furta Cor 300ml C/6
     https://www.mercadolivre.com.br/p/MLB23258524
-MLB29371667  Kit Potes Porta Mantimento Hermético Quadrado Cozinha 12 Uni
-    https://www.mercadolivre.com.br/p/MLB29371667
 MLB66710003  Jogo Taças Transparentes 6 Unidades Suco Agua Vidro 265ml
     https://www.mercadolivre.com.br/p/MLB66710003
 MLB32036042  Conjunto Pratos Fundos Duralex Jasmim Nadir 6 Unidades
@@ -126,3 +124,5 @@ MLB53222426  Frigideira Antiaderente Rizzoflon 16cm Alumínio Teflon para
     https://www.mercadolivre.com.br/p/MLB53222426
 MLB44771733  Descansos de Panela Ferro Arabesco Preto Kit 2 Peças 14cm
     https://www.mercadolivre.com.br/p/MLB44771733
+MLB47450869  Caçarola Panela Ferro Fundido Com Tampa De Vidro 2 Alças N22
+    https://www.mercadolivre.com.br/p/MLB47450869
