@@ -1,6 +1,23 @@
 [
   {
     "data": "2026-08-15",
+    "product_id": "MLB66831597",
+    "nome": "4you Primer Facial 30ml - Océane 4you Primer Facial",
+    "preco": 46.0,
+    "preco_original": 90.73,
+    "n_ofertas": 2,
+    "item_id": "MLB4631244431",
+    "seller_id": 1051480909,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB66831597",
+    "mediana": 62.9,
+    "minimo_hist": 46.0,
+    "desconto": 26.9,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-15",
     "product_id": "MLB26540613",
     "nome": "Caneta Lápis Sobrancelha Líquido À Prova D'água Cor Marrom-escuro nº 2",
     "preco": 20.8,
@@ -31,23 +48,6 @@
     "mediana": 52.99,
     "minimo_hist": 41.0,
     "desconto": 22.6,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-15",
-    "product_id": "MLB66831597",
-    "nome": "4you Primer Facial 30ml - Océane 4you Primer Facial",
-    "preco": 49.9,
-    "preco_original": 90.73,
-    "n_ofertas": 2,
-    "item_id": "MLB4631244431",
-    "seller_id": 1051480909,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB66831597",
-    "mediana": 62.9,
-    "minimo_hist": 49.9,
-    "desconto": 20.7,
     "recorde": true
   },
   {
