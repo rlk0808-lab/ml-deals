@@ -1,22 +1,6 @@
 [
   {
     "data": "2026-08-13",
-    "product_id": "MLB32037264",
-    "nome": "Conjunto Pratos Fundos Duralex Jasmim Nadir 12 Unidades",
-    "preco": 111.06,
-    "preco_original": 119.9,
-    "n_ofertas": 7,
-    "item_id": "MLB4537481377",
-    "seller_id": 3070967307,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB32037264",
-    "imagem": "https://http2.mlstatic.com/D_NQ_NP_705899-MLA99963291183_112025-F.jpg",
-    "tipo": "camada2",
-    "enfileirado_em": "2026-08-15T00:13:46.262445+00:00"
-  },
-  {
-    "data": "2026-08-13",
     "product_id": "MLB22687877",
     "nome": "Conjunto Pratos Duralex Diamante Nadir 12 Peças",
     "preco": 65.9,
@@ -418,26 +402,6 @@
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_636157-MLA99600076978_122025-F.jpg",
     "tipo": "camada2",
     "enfileirado_em": "2026-08-15T00:13:46.262445+00:00"
-  },
-  {
-    "data": "2026-08-14",
-    "product_id": "MLB27824761",
-    "nome": "Potes Herméticos De Bambu Retangular 2,3l",
-    "preco": 52.42,
-    "preco_original": 149.9,
-    "n_ofertas": 5,
-    "item_id": "MLB6214409484",
-    "seller_id": 740446604,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB27824761",
-    "mediana": 52.42,
-    "desconto_anunciado": 65.0,
-    "desconto_real": 0.0,
-    "dias_historico": 30,
-    "imagem": "https://http2.mlstatic.com/D_NQ_NP_936106-MLA95525032786_102025-F.jpg",
-    "tipo": "falso_desconto",
-    "enfileirado_em": "2026-08-14T00:13:16.125076+00:00"
   },
   {
     "data": "2026-08-14",
