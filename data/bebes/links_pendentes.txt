@@ -8,6 +8,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 ⭐ MLB22663058  Bomba Tira Leite Coletora Manual Kuka Funcional
     https://www.mercadolivre.com.br/p/MLB22663058
+⭐ MLB63123338  Baby Monitor Vb603 Baba Eletrônica Com Monitor branco
+    https://www.mercadolivre.com.br/p/MLB63123338
 ⭐ MLB62842938  Canguru Sling De Bebe Carregar Recem Nascido Dry Fit Furadin
     https://www.mercadolivre.com.br/p/MLB62842938
 ⭐ MLB69949094  Sling,wrap Sling,canguru,malha Gel- Pano P/carregar Bebê Cor
@@ -120,8 +122,6 @@ MLB54797448  Naninha Paninho Prendedor De Chupeta Bebê Pimpolho Onça Bege
     https://www.mercadolivre.com.br/p/MLB54797448
 MLB32300839  Berloque Carrinho Bebê Azul Prata 925 com Caixa
     https://www.mercadolivre.com.br/p/MLB32300839
-MLB63123338  Baby Monitor Vb603 Baba Eletrônica Com Monitor branco
-    https://www.mercadolivre.com.br/p/MLB63123338
 MLB75344146  Banheira Bebe + Suporte Koa Plus Perola - Galzerano - 7097pr
     https://www.mercadolivre.com.br/p/MLB75344146
 MLB65451179  Bomba Tira Leite Elétrica Solo Hands Free Medela
