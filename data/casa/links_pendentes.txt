@@ -4,54 +4,44 @@ Como usar: abra o link, clique em Compartilhar na barra preta de
 afiliados, copie o link gerado (meli.la/...) e cole em
 data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
-(gerado em 2026-08-15)
+(gerado em 2026-08-16)
 
 ⭐ MLB29118990  Jogo Toalhas Gigante 5pçs Fio Penteado Algodão Egípcio
     https://www.mercadolivre.com.br/p/MLB29118990
-⭐ MLB68652440  Jogo Panelas Cerâmica Antiaderente 05 Pçs Tampa Vidro Bege
-    https://www.mercadolivre.com.br/p/MLB68652440
-⭐ MLB32145497  Conjunto Pratos De Sobremesa Duralex Jasmim Nadir 6 Unidades
-    https://www.mercadolivre.com.br/p/MLB32145497
-⭐ MLB29032041  Jogo Copos Vidro Suco Agua Aruba 465 Ml Nadir 12 Unidades
-    https://www.mercadolivre.com.br/p/MLB29032041
-⭐ MLB23053557  Jogo Taças Cristal Titânio 220ml Conjunto 6 Taças Champanhe 
-    https://www.mercadolivre.com.br/p/MLB23053557
-⭐ MLB29371667  Kit Potes Porta Mantimento Hermético Quadrado Cozinha 12 Uni
-    https://www.mercadolivre.com.br/p/MLB29371667
-⭐ MLB41899209  Kit Organizador Viagem Ricca Rosa Impermeável
-    https://www.mercadolivre.com.br/p/MLB41899209
-⭐ MLB28857262  Tulha Aramada Deslizante Cesto Roupa Suja Inox Lavanderia Ba
-    https://www.mercadolivre.com.br/p/MLB28857262
-⭐ MLB37993510  Kit Cozinha 5 Potes Herméticos Para Mantimentos Cor Preto
-    https://www.mercadolivre.com.br/p/MLB37993510
 ⭐ MLB75087991  Jogo Talheres 12 Peças Inox Fratelli Elegante Moderno Rosa C
     https://www.mercadolivre.com.br/p/MLB75087991
-⭐ MLB26615065  Cesto Roupa Suja Dobrável 3 Compartimentos Meta Parts Alumín
-    https://www.mercadolivre.com.br/p/MLB26615065
-⭐ MLB60085180  Jogo Tapetes Banheiro Antiderrapante Cinza Jolitex Delicato 
-    https://www.mercadolivre.com.br/p/MLB60085180
-⭐ MLB23982193  Sanduicheira Grill Best
-    https://www.mercadolivre.com.br/p/MLB23982193
 ⭐ MLB29285369  Jogo Copos Vidro Nadir Laguna 265ml Kit 24 Unidades Para Suc
     https://www.mercadolivre.com.br/p/MLB29285369
 ⭐ MLB39216863  Jogo Taças Cristal Transparente Fio Ouro Imperial 330ml Lyor
     https://www.mercadolivre.com.br/p/MLB39216863
 ⭐ MLB25336204  Jogo Taças Plástico 6 Peças Plasútil Âmbar Citrino 330ml Vin
     https://www.mercadolivre.com.br/p/MLB25336204
+⭐ MLB76394357  Jogo Toalhas Banho Grossas Macias Algodão 4pç Absorventes Ta
+    https://www.mercadolivre.com.br/p/MLB76394357
+MLB68652440  Jogo Panelas Cerâmica Antiaderente 05 Pçs Tampa Vidro Bege
+    https://www.mercadolivre.com.br/p/MLB68652440
 MLB58984205  Jogo Panelas Indução Antiaderente Cerâmica Manhattan 5 Peças
     https://www.mercadolivre.com.br/p/MLB58984205
 MLB35716444  Jogo Panelas Antiaderente Multiflon 4 Peças Vermelho com Lei
     https://www.mercadolivre.com.br/p/MLB35716444
 MLB29362172  Jogo Toalhas Banho Algodão Egípcio Branco 5 Peças Buddemeyer
     https://www.mercadolivre.com.br/p/MLB29362172
+MLB32145497  Conjunto Pratos De Sobremesa Duralex Jasmim Nadir 6 Unidades
+    https://www.mercadolivre.com.br/p/MLB32145497
 MLB76038973  Panela Ferro Fundido Esmaltado Premium Creme P/ Fogões Creme
     https://www.mercadolivre.com.br/p/MLB76038973
 MLB50295623  Jogo Panelas 17 Peças Antiaderente Preto Com Tampa Vidro
     https://www.mercadolivre.com.br/p/MLB50295623
+MLB29032041  Jogo Copos Vidro Suco Agua Aruba 465 Ml Nadir 12 Unidades
+    https://www.mercadolivre.com.br/p/MLB29032041
+MLB23053557  Jogo Taças Cristal Titânio 220ml Conjunto 6 Taças Champanhe 
+    https://www.mercadolivre.com.br/p/MLB23053557
 MLB53057773  Jogo Taças Vidro Dourado 200ml 4 Peças Haüskraft Granatta
     https://www.mercadolivre.com.br/p/MLB53057773
 MLB23258524  Jogo Taças Vidro Diamond Furta Cor 300ml C/6
     https://www.mercadolivre.com.br/p/MLB23258524
+MLB29371667  Kit Potes Porta Mantimento Hermético Quadrado Cozinha 12 Uni
+    https://www.mercadolivre.com.br/p/MLB29371667
 MLB66710003  Jogo Taças Transparentes 6 Unidades Suco Agua Vidro 265ml
     https://www.mercadolivre.com.br/p/MLB66710003
 MLB32036042  Conjunto Pratos Fundos Duralex Jasmim Nadir 6 Unidades
@@ -60,10 +50,22 @@ MLB53775135  Conjunto Pratos De Cerâmica 20cm Sobremesa Raso 4 Unidades
     https://www.mercadolivre.com.br/p/MLB53775135
 MLB28556623  Potes Herméticos Empilhável Quadrado 4 Unidades - Ou
     https://www.mercadolivre.com.br/p/MLB28556623
+MLB41899209  Kit Organizador Viagem Ricca Rosa Impermeável
+    https://www.mercadolivre.com.br/p/MLB41899209
+MLB28857262  Tulha Aramada Deslizante Cesto Roupa Suja Inox Lavanderia Ba
+    https://www.mercadolivre.com.br/p/MLB28857262
+MLB37993510  Kit Cozinha 5 Potes Herméticos Para Mantimentos Cor Preto
+    https://www.mercadolivre.com.br/p/MLB37993510
+MLB26615065  Cesto Roupa Suja Dobrável 3 Compartimentos Meta Parts Alumín
+    https://www.mercadolivre.com.br/p/MLB26615065
+MLB60085180  Jogo Tapetes Banheiro Antiderrapante Cinza Jolitex Delicato 
+    https://www.mercadolivre.com.br/p/MLB60085180
 MLB26532285  Organizador De Carro Encosto Banco Porta Trecos E Tablet Mul
     https://www.mercadolivre.com.br/p/MLB26532285
 MLB74694174  Kit Potes Porta Mantimento Hermético Quadrado Cozinha 6 Pçs
     https://www.mercadolivre.com.br/p/MLB74694174
+MLB23982193  Sanduicheira Grill Best
+    https://www.mercadolivre.com.br/p/MLB23982193
 MLB57626638  Sanduicheira Grill Elétrica Antiaderente 750w Potente Cor Ve
     https://www.mercadolivre.com.br/p/MLB57626638
 MLB56347591  Sanduicheira Grill Elétrica 750w Be Smart Cozinha Fácil Pret
@@ -124,5 +126,3 @@ MLB53222426  Frigideira Antiaderente Rizzoflon 16cm Alumínio Teflon para
     https://www.mercadolivre.com.br/p/MLB53222426
 MLB44771733  Descansos de Panela Ferro Arabesco Preto Kit 2 Peças 14cm
     https://www.mercadolivre.com.br/p/MLB44771733
-MLB47450869  Caçarola Panela Ferro Fundido Com Tampa De Vidro 2 Alças N22
-    https://www.mercadolivre.com.br/p/MLB47450869
