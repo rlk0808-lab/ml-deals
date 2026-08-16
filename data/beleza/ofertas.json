@@ -1,6 +1,6 @@
 [
   {
-    "data": "2026-08-15",
+    "data": "2026-08-16",
     "product_id": "MLB66831597",
     "nome": "4you Primer Facial 30ml - Océane 4you Primer Facial",
     "preco": 46.0,
@@ -17,7 +17,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-15",
+    "data": "2026-08-16",
     "product_id": "MLB26540613",
     "nome": "Caneta Lápis Sobrancelha Líquido À Prova D'água Cor Marrom-escuro nº 2",
     "preco": 20.8,
@@ -34,7 +34,7 @@
     "recorde": false
   },
   {
-    "data": "2026-08-15",
+    "data": "2026-08-16",
     "product_id": "MLB19638952",
     "nome": "Leave In Capilar Siàge Nutri Rose Termoprotetor 100ml Eudora",
     "preco": 41.0,
@@ -51,7 +51,24 @@
     "recorde": true
   },
   {
-    "data": "2026-08-15",
+    "data": "2026-08-16",
+    "product_id": "MLB19559047",
+    "nome": "Leave-in Capilar Uniq One Green 150ml Revlon Professional",
+    "preco": 74.99,
+    "preco_original": null,
+    "n_ofertas": 7,
+    "item_id": "MLB7426459382",
+    "seller_id": 85637466,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19559047",
+    "mediana": 89.9,
+    "minimo_hist": 74.99,
+    "desconto": 16.6,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-16",
     "product_id": "MLB47592231",
     "nome": "Avon Renew Ultimate Noite Creme Anti-idade 15g",
     "preco": 38.0,
