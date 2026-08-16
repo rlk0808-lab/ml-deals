@@ -69,6 +69,23 @@
   },
   {
     "data": "2026-08-16",
+    "product_id": "MLB19243682",
+    "nome": "Volta para casa (Myron Bolitar – Livro 11), de Coben, Harlan. Editora Arqueiro Ltda., capa mole (2021)",
+    "preco": 38.45,
+    "preco_original": null,
+    "n_ofertas": 69,
+    "item_id": "MLB4159020890",
+    "seller_id": 750851604,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19243682",
+    "mediana": 48.94,
+    "minimo_hist": 38.45,
+    "desconto": 21.4,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-16",
     "product_id": "MLB21570552",
     "nome": "Livro J.r.r. Tolkien O Senhor Da Fantasia - Limited Edition",
     "preco": 120.0,
@@ -150,6 +167,23 @@
     "mediana": 70.9,
     "minimo_hist": 59.9,
     "desconto": 15.5,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-16",
+    "product_id": "MLB68537965",
+    "nome": "Livro Desenvolvimento Profissional Multiplataforma Para Smar",
+    "preco": 91.1,
+    "preco_original": null,
+    "n_ofertas": 9,
+    "item_id": "MLB3217827595",
+    "seller_id": 750851604,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB68537965",
+    "mediana": 107.5,
+    "minimo_hist": 91.1,
+    "desconto": 15.3,
     "recorde": true
   }
 ]
