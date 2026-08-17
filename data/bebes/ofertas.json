@@ -83,5 +83,22 @@
     "minimo_hist": 246.75,
     "desconto": 17.2,
     "recorde": true
+  },
+  {
+    "data": "2026-08-17",
+    "product_id": "MLB18397463",
+    "nome": "Creme Pomada de Assadura Proteção Delicada 60gr - Bepantol",
+    "preco": 32.99,
+    "preco_original": null,
+    "n_ofertas": 13,
+    "item_id": "MLB5055954849",
+    "seller_id": 3339628370,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB18397463",
+    "mediana": 39.77,
+    "minimo_hist": 32.99,
+    "desconto": 17.0,
+    "recorde": true
   }
 ]
