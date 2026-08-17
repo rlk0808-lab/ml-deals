@@ -18,6 +18,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB23053557
 ⭐ MLB29371667  Kit Potes Porta Mantimento Hermético Quadrado Cozinha 12 Uni
     https://www.mercadolivre.com.br/p/MLB29371667
+⭐ MLB65564513  Kit 17 Potes Hermeticos Cozinha Mantimentos Resistentes Bran
+    https://www.mercadolivre.com.br/p/MLB65564513
 ⭐ MLB39216863  Jogo Taças Cristal Transparente Fio Ouro Imperial 330ml Lyor
     https://www.mercadolivre.com.br/p/MLB39216863
 ⭐ MLB76394357  Jogo Toalhas Banho Grossas Macias Algodão 4pç Absorventes Ta
@@ -34,8 +36,6 @@ MLB53057773  Jogo Taças Vidro Dourado 200ml 4 Peças Haüskraft Granatta
     https://www.mercadolivre.com.br/p/MLB53057773
 MLB66710003  Jogo Taças Transparentes 6 Unidades Suco Agua Vidro 265ml
     https://www.mercadolivre.com.br/p/MLB66710003
-MLB23258524  Jogo Taças Vidro Diamond Furta Cor 300ml C/6
-    https://www.mercadolivre.com.br/p/MLB23258524
 MLB32036042  Conjunto Pratos Fundos Duralex Jasmim Nadir 6 Unidades
     https://www.mercadolivre.com.br/p/MLB32036042
 MLB53775135  Conjunto Pratos De Cerâmica 20cm Sobremesa Raso 4 Unidades
@@ -72,6 +72,8 @@ MLB22360554  Panela Pressão Ferro 19cm Cabo Madeira Panela Mineira Preto
     https://www.mercadolivre.com.br/p/MLB22360554
 MLB38652633  Jogo Cama Casal 4pç Lençol 100% Algodão 138x188x35cm Dohler
     https://www.mercadolivre.com.br/p/MLB38652633
+MLB23258524  Jogo Taças Vidro Diamond Furta Cor 300ml C/6
+    https://www.mercadolivre.com.br/p/MLB23258524
 MLB37246326  Kit Potes Porta Mantimento Hermético Quadrado Cozinha 12 Uni
     https://www.mercadolivre.com.br/p/MLB37246326
 MLB22830986  Jogo Copos Vidro Shot Dose 45ml Lehavi Chicago 6 Peças
@@ -124,5 +126,3 @@ MLB44771733  Descansos de Panela Ferro Arabesco Preto Kit 2 Peças 14cm
     https://www.mercadolivre.com.br/p/MLB44771733
 MLB47450869  Caçarola Panela Ferro Fundido Com Tampa De Vidro 2 Alças N22
     https://www.mercadolivre.com.br/p/MLB47450869
-MLB50616946  Frigideira Antiaderente Panelas: Frigideira Antiaderente De
-    https://www.mercadolivre.com.br/p/MLB50616946
