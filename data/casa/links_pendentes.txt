@@ -22,6 +22,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB41899209
 ⭐ MLB28857262  Tulha Aramada Deslizante Cesto Roupa Suja Inox Lavanderia Ba
     https://www.mercadolivre.com.br/p/MLB28857262
+⭐ MLB37993510  Kit Cozinha 5 Potes Herméticos Para Mantimentos Cor Preto
+    https://www.mercadolivre.com.br/p/MLB37993510
+⭐ MLB75087991  Jogo Talheres 12 Peças Inox Fratelli Elegante Moderno Rosa C
+    https://www.mercadolivre.com.br/p/MLB75087991
+⭐ MLB26615065  Cesto Roupa Suja Dobrável 3 Compartimentos Meta Parts Alumín
+    https://www.mercadolivre.com.br/p/MLB26615065
 ⭐ MLB65564513  Kit 17 Potes Hermeticos Cozinha Mantimentos Resistentes Bran
     https://www.mercadolivre.com.br/p/MLB65564513
 ⭐ MLB39216863  Jogo Taças Cristal Transparente Fio Ouro Imperial 330ml Lyor
@@ -44,20 +50,12 @@ MLB53775135  Conjunto Pratos De Cerâmica 20cm Sobremesa Raso 4 Unidades
     https://www.mercadolivre.com.br/p/MLB53775135
 MLB28556623  Potes Herméticos Empilhável Quadrado 4 Unidades - Ou
     https://www.mercadolivre.com.br/p/MLB28556623
-MLB37993510  Kit Cozinha 5 Potes Herméticos Para Mantimentos Cor Preto
-    https://www.mercadolivre.com.br/p/MLB37993510
-MLB75087991  Jogo Talheres 12 Peças Inox Fratelli Elegante Moderno Rosa C
-    https://www.mercadolivre.com.br/p/MLB75087991
-MLB26615065  Cesto Roupa Suja Dobrável 3 Compartimentos Meta Parts Alumín
-    https://www.mercadolivre.com.br/p/MLB26615065
 MLB60085180  Jogo Tapetes Banheiro Antiderrapante Cinza Jolitex Delicato 
     https://www.mercadolivre.com.br/p/MLB60085180
 MLB26532285  Organizador De Carro Encosto Banco Porta Trecos E Tablet Mul
     https://www.mercadolivre.com.br/p/MLB26532285
 MLB74694174  Kit Potes Porta Mantimento Hermético Quadrado Cozinha 6 Pçs
     https://www.mercadolivre.com.br/p/MLB74694174
-MLB23982193  Sanduicheira Grill Best
-    https://www.mercadolivre.com.br/p/MLB23982193
 MLB38457093  Sanduicheira Grill Chapa Elétrica Preta Acabamento Inox Cor 
     https://www.mercadolivre.com.br/p/MLB38457093
 MLB57626638  Sanduicheira Grill Elétrica Antiaderente 750w Potente Cor Ve
@@ -126,3 +124,5 @@ MLB47450869  Caçarola Panela Ferro Fundido Com Tampa De Vidro 2 Alças N22
     https://www.mercadolivre.com.br/p/MLB47450869
 MLB50616946  Frigideira Antiaderente Panelas: Frigideira Antiaderente De
     https://www.mercadolivre.com.br/p/MLB50616946
+MLB69344144  Faqueiro Jogo Talheres 16 Peças Inox Garfo Faca Colher Inox
+    https://www.mercadolivre.com.br/p/MLB69344144
