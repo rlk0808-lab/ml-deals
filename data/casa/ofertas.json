@@ -45,27 +45,10 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB65348184",
-    "mediana": 118.34,
+    "mediana": 116.17,
     "minimo_hist": 89.59,
-    "desconto": 24.3,
+    "desconto": 22.9,
     "recorde": true
-  },
-  {
-    "data": "2026-08-17",
-    "product_id": "MLB59285896",
-    "nome": "Sanduicheira Grill Elétrica Antiaderente 750w Potente Cor Vermelho",
-    "preco": 96.78,
-    "preco_original": 109.99,
-    "n_ofertas": 3,
-    "item_id": "MLB7246890290",
-    "seller_id": 1987809323,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB59285896",
-    "mediana": 126.55,
-    "minimo_hist": 67.99,
-    "desconto": 23.5,
-    "recorde": false
   },
   {
     "data": "2026-08-17",
@@ -120,6 +103,23 @@
   },
   {
     "data": "2026-08-17",
+    "product_id": "MLB59285896",
+    "nome": "Sanduicheira Grill Elétrica Antiaderente 750w Potente Cor Vermelho",
+    "preco": 96.78,
+    "preco_original": 109.99,
+    "n_ofertas": 3,
+    "item_id": "MLB7246890290",
+    "seller_id": 1987809323,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB59285896",
+    "mediana": 118.27,
+    "minimo_hist": 67.99,
+    "desconto": 18.2,
+    "recorde": false
+  },
+  {
+    "data": "2026-08-17",
     "product_id": "MLB44823104",
     "nome": "Jogo Panelas Antiaderente Cerâmica Indução Cinza 5 Peças",
     "preco": 490.0,
@@ -133,23 +133,6 @@
     "mediana": 590.0,
     "minimo_hist": 490.0,
     "desconto": 16.9,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-17",
-    "product_id": "MLB29285369",
-    "nome": "Jogo Copos Vidro Nadir Laguna 265ml Kit 24 Unidades Para Sucos",
-    "preco": 97.75,
-    "preco_original": 115.0,
-    "n_ofertas": 2,
-    "item_id": "MLB6556421442",
-    "seller_id": 1174896542,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB29285369",
-    "mediana": 115.0,
-    "minimo_hist": 97.75,
-    "desconto": 15.0,
     "recorde": true
   }
 ]
