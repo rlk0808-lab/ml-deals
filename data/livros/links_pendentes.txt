@@ -30,8 +30,6 @@ MLB19453772  Verity, Colleen Hoover, Português, Galera, 2021
     https://www.mercadolivre.com.br/p/MLB19453772
 MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
     https://www.mercadolivre.com.br/p/MLB36202363
-MLB19771891  Box Essencial Conquistadores (3 Livros) *
-    https://www.mercadolivre.com.br/p/MLB19771891
 MLB74807035  Box Trilogia Powerless
     https://www.mercadolivre.com.br/p/MLB74807035
 MLB19430983  Livro-streampunks- Editora Best Seller
@@ -126,3 +124,5 @@ MLB21397020  Hábitos Escravizadores - Livro Edward T. Welch
     https://www.mercadolivre.com.br/p/MLB21397020
 MLB19189031  Livro Negócios de família, de Ginsberg, Allen. Editorial Edi
     https://www.mercadolivre.com.br/p/MLB19189031
+MLB43965505  Box O Capital
+    https://www.mercadolivre.com.br/p/MLB43965505
