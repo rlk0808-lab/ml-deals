@@ -8,6 +8,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 ⭐ MLB22663058  Bomba Tira Leite Coletora Manual Kuka Funcional
     https://www.mercadolivre.com.br/p/MLB22663058
+⭐ MLB18392685  Fralda Descartável Infantil Personal Soft & Protect M Pacote
+    https://www.mercadolivre.com.br/p/MLB18392685
 ⭐ MLB63123338  Baby Monitor Vb603 Baba Eletrônica Com Monitor branco
     https://www.mercadolivre.com.br/p/MLB63123338
 ⭐ MLB62842938  Canguru Sling De Bebe Carregar Recem Nascido Dry Fit Furadin
@@ -90,8 +92,6 @@ MLB22936110  Móbile Berço Bebê Musical E Giratório Ovelinha Rosa
     https://www.mercadolivre.com.br/p/MLB22936110
 MLB20071448  Kit Higiene Para Bebê Rosa - Ibimboo
     https://www.mercadolivre.com.br/p/MLB20071448
-MLB18392685  Fralda Descartável Infantil Personal Soft & Protect M Pacote
-    https://www.mercadolivre.com.br/p/MLB18392685
 MLB54201729  Bebê Conforto Cadeirinha Carro Infantil 0 A 13kg Ello Rosa C
     https://www.mercadolivre.com.br/p/MLB54201729
 MLB42621641  Cadeira Alimentação Bebê Ajustável Portátil Pimpolho Cor Cin
