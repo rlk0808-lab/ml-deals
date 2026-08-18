@@ -35,6 +35,23 @@
   },
   {
     "data": "2026-08-18",
+    "product_id": "MLB74974187",
+    "nome": "NIINA SECR MASCARA CILIOS SUPER BOLD 10G",
+    "preco": 43.7,
+    "preco_original": 72.99,
+    "n_ofertas": 3,
+    "item_id": "MLB7448485094",
+    "seller_id": 261173686,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB74974187",
+    "mediana": 58.9,
+    "minimo_hist": 43.7,
+    "desconto": 25.8,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-18",
     "product_id": "MLB19638952",
     "nome": "Leave In Capilar Siàge Nutri Rose Termoprotetor 100ml Eudora",
     "preco": 41.1,
@@ -65,23 +82,6 @@
     "mediana": 29.45,
     "minimo_hist": 21.59,
     "desconto": 21.9,
-    "recorde": false
-  },
-  {
-    "data": "2026-08-18",
-    "product_id": "MLB26540613",
-    "nome": "Caneta Lápis Sobrancelha Líquido À Prova D'água Cor Marrom-escuro nº 2",
-    "preco": 21.9,
-    "preco_original": null,
-    "n_ofertas": 5,
-    "item_id": "MLB7405337014",
-    "seller_id": 296699829,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB26540613",
-    "mediana": 27.03,
-    "minimo_hist": 17.46,
-    "desconto": 19.0,
     "recorde": false
   },
   {
