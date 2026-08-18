@@ -14,16 +14,20 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB70635543
 ⭐ MLB36952189  Elástico Falcon P/ Cós Cintura Cueca Box N30 Rolo 20 Metros 
     https://www.mercadolivre.com.br/p/MLB36952189
-⭐ MLB29410142  Escova Para Limpar Couro Banco Bota Jaqueta Detailer
-    https://www.mercadolivre.com.br/p/MLB29410142
+⭐ MLB51529178  Chinelo Feminino Slim Havaianas
+    https://www.mercadolivre.com.br/p/MLB51529178
 ⭐ MLB45475084  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB45475084
+⭐ MLB29410142  Escova Para Limpar Couro Banco Bota Jaqueta Detailer
+    https://www.mercadolivre.com.br/p/MLB29410142
 ⭐ MLB47691991  Colete Masculino Para Futebol Kit Com 6 Pçs Verde Penalty
     https://www.mercadolivre.com.br/p/MLB47691991
 ⭐ MLB75195451  Cueca Algodão 2 Boxer Uso Prolongado Incontinência Urinária 
     https://www.mercadolivre.com.br/p/MLB75195451
 ⭐ MLB44951729  Sandália Rasteira Feminina Strass Vizzano
     https://www.mercadolivre.com.br/p/MLB44951729
+⭐ MLB68987939  Meia Esportiva Penalty Cano Alto 330
+    https://www.mercadolivre.com.br/p/MLB68987939
 ⭐ MLB65082947  Arara De Roupas Cabideiro para vestido longo De Aço Grande L
     https://www.mercadolivre.com.br/p/MLB65082947
 ⭐ MLB46408293  Chinelo Masculino Sleek Slide Fila Liso
@@ -46,14 +50,16 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB54249378
 ⭐ MLB65008432  Calça Jeans Azul Claro Masculina Tradicional Elastano Premiu
     https://www.mercadolivre.com.br/p/MLB65008432
-MLB51529178  Chinelo Feminino Slim Havaianas
-    https://www.mercadolivre.com.br/p/MLB51529178
+⭐ MLB51450738  Kit 4 Colmeias Organizadora Calça Jeans Feminina 40x20x15 Co
+    https://www.mercadolivre.com.br/p/MLB51450738
+⭐ MLB75798851  Kit 2x Camiseta Básica Unissex Algodão 100% Peruano Básica M
+    https://www.mercadolivre.com.br/p/MLB75798851
+⭐ MLB73117469  Cinto Segura Camisa Social Invisível Prende Dentro Da Calça 
+    https://www.mercadolivre.com.br/p/MLB73117469
 MLB36951560  Elástico Listrado P/ Cós Cueca Box Calcinha Top N40 - 20 Mts
     https://www.mercadolivre.com.br/p/MLB36951560
 MLB51529176  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB51529176
-MLB68987939  Meia Esportiva Penalty Cano Alto 330
-    https://www.mercadolivre.com.br/p/MLB68987939
 MLB45851918  Chinelo Masculino Slide Sereno Olympikus
     https://www.mercadolivre.com.br/p/MLB45851918
 MLB44936696  Sandália Rasteira Feminina Moleca
@@ -104,17 +110,11 @@ MLB75737119  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz
     https://www.mercadolivre.com.br/p/MLB75737119
 MLB66837837  Meia Soquete Masculino E Feminino Tamanhos E Cores - Poliést
     https://www.mercadolivre.com.br/p/MLB66837837
-MLB51450738  Kit 4 Colmeias Organizadora Calça Jeans Feminina 40x20x15 Co
-    https://www.mercadolivre.com.br/p/MLB51450738
 MLB45509183  Chinelo Masculino Caraiva Olympikus Liso
     https://www.mercadolivre.com.br/p/MLB45509183
 MLB44938763  Sandália Rasteira Feminina Moleca
     https://www.mercadolivre.com.br/p/MLB44938763
-MLB75798851  Kit 2x Camiseta Básica Unissex Algodão 100% Peruano Básica M
-    https://www.mercadolivre.com.br/p/MLB75798851
 MLB47536436  Chinelo Masculino Drifter Basic Fila Liso
     https://www.mercadolivre.com.br/p/MLB47536436
-MLB73117469  Cinto Segura Camisa Social Invisível Prende Dentro Da Calça 
-    https://www.mercadolivre.com.br/p/MLB73117469
 MLB75798849  Kit 2x Camiseta Básica Unissex Algodão 100% Peruano Básica M
     https://www.mercadolivre.com.br/p/MLB75798849
