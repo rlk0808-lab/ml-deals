@@ -1,6 +1,6 @@
 [
   {
-    "data": "2026-08-17",
+    "data": "2026-08-18",
     "product_id": "MLB66383651",
     "nome": "Escova Progressiva Capilar Vegana Burix 1l Prohall +",
     "preco": 249.9,
@@ -17,7 +17,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-17",
+    "data": "2026-08-18",
     "product_id": "MLB66170731",
     "nome": "Pó compacto iluminador facial em ouro rosa",
     "preco": 54.9,
@@ -34,7 +34,24 @@
     "recorde": true
   },
   {
-    "data": "2026-08-17",
+    "data": "2026-08-18",
+    "product_id": "MLB29260874",
+    "nome": "Leave-in Capilar Multifuncional - 120ml - Wepink",
+    "preco": 49.99,
+    "preco_original": null,
+    "n_ofertas": 9,
+    "item_id": "MLB5082088067",
+    "seller_id": 182518103,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB29260874",
+    "mediana": 69.0,
+    "minimo_hist": 49.9,
+    "desconto": 27.6,
+    "recorde": false
+  },
+  {
+    "data": "2026-08-18",
     "product_id": "MLB66831597",
     "nome": "4you Primer Facial 30ml - Océane 4you Primer Facial",
     "preco": 46.0,
@@ -51,7 +68,24 @@
     "recorde": true
   },
   {
-    "data": "2026-08-17",
+    "data": "2026-08-18",
+    "product_id": "MLB24206229",
+    "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d4 claro - 10g",
+    "preco": 22.99,
+    "preco_original": 69.99,
+    "n_ofertas": 20,
+    "item_id": "MLB5416296690",
+    "seller_id": 2412926691,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB24206229",
+    "mediana": 30.9,
+    "minimo_hist": 21.59,
+    "desconto": 25.6,
+    "recorde": false
+  },
+  {
+    "data": "2026-08-18",
     "product_id": "MLB26540613",
     "nome": "Caneta Lápis Sobrancelha Líquido À Prova D'água Cor Marrom-escuro nº 2",
     "preco": 21.9,
@@ -68,24 +102,7 @@
     "recorde": false
   },
   {
-    "data": "2026-08-17",
-    "product_id": "MLB62171058",
-    "nome": "Mascara Capilar Hidratação Aumentar Diâmetro Fios Coiffer",
-    "preco": 37.93,
-    "preco_original": null,
-    "n_ofertas": 3,
-    "item_id": "MLB7192076300",
-    "seller_id": 150894111,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB62171058",
-    "mediana": 46.55,
-    "minimo_hist": 37.93,
-    "desconto": 18.5,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-17",
+    "data": "2026-08-18",
     "product_id": "MLB45224574",
     "nome": "Máscara Cílios Alongadora Color Trend Super Looong Preto 7ml",
     "preco": 21.49,
@@ -102,7 +119,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-17",
+    "data": "2026-08-18",
     "product_id": "MLB19559047",
     "nome": "Leave-in Capilar Uniq One Green 150ml Revlon Professional",
     "preco": 74.99,
@@ -119,7 +136,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-17",
+    "data": "2026-08-18",
     "product_id": "MLB47592231",
     "nome": "Avon Renew Ultimate Noite Creme Anti-idade 15g",
     "preco": 38.0,
