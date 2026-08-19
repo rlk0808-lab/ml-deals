@@ -49,5 +49,22 @@
     "minimo_hist": 22.54,
     "desconto": 29.1,
     "recorde": true
+  },
+  {
+    "data": "2026-08-19",
+    "product_id": "MLB57545342",
+    "nome": "Bolsa Masculina Mensageiro Couro Sintético Marrom Ajustável",
+    "preco": 32.0,
+    "preco_original": 45.32,
+    "n_ofertas": 2,
+    "item_id": "MLB5736679676",
+    "seller_id": 394874356,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB57545342",
+    "mediana": 43.05,
+    "minimo_hist": 32.0,
+    "desconto": 25.7,
+    "recorde": true
   }
 ]
