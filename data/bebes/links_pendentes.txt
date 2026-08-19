@@ -10,6 +10,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB22663058
 ⭐ MLB18392685  Fralda Descartável Infantil Personal Soft & Protect M Pacote
     https://www.mercadolivre.com.br/p/MLB18392685
+⭐ MLB63123338  Baby Monitor Vb603 Baba Eletrônica Com Monitor branco
+    https://www.mercadolivre.com.br/p/MLB63123338
 ⭐ MLB62842938  Canguru Sling De Bebe Carregar Recem Nascido Dry Fit Furadin
     https://www.mercadolivre.com.br/p/MLB62842938
 ⭐ MLB69949094  Sling,wrap Sling,canguru,malha Gel- Pano P/carregar Bebê Cor
@@ -48,8 +50,6 @@ MLB68417753  Creme Pomada De Assadura Óleo Girassol A.g.e 45g Maxi Baby
     https://www.mercadolivre.com.br/p/MLB68417753
 MLB74300525  Mordedor Bebê Mãozinha E Pezinho Macio Atóxico Pezinho Rosa
     https://www.mercadolivre.com.br/p/MLB74300525
-MLB66583684  Colchão Berço Impermeável Espuma D20 70x130x10cm Bela Branco
-    https://www.mercadolivre.com.br/p/MLB66583684
 MLB29195932  Mochila Bolsa Lequeen Maternidade Executiva Multifuncional C
     https://www.mercadolivre.com.br/p/MLB29195932
 MLB32385853  Mordedor Bebe Bananinha - Massageador Escovinha Cor Amarelo
@@ -66,6 +66,8 @@ MLB18392719  Fralda Descartável Turma da Mônica Baby XG Pacote 20 Unidade
     https://www.mercadolivre.com.br/p/MLB18392719
 MLB18392577  Fralda Descartável Infantil Pom Pom Clássica XG Pacote 20 Un
     https://www.mercadolivre.com.br/p/MLB18392577
+MLB66583684  Colchão Berço Impermeável Espuma D20 70x130x10cm Bela Branco
+    https://www.mercadolivre.com.br/p/MLB66583684
 MLB22848080  Capa De Colchão Berço Ibitex Em Malha Gel Lisa Com Ziper
     https://www.mercadolivre.com.br/p/MLB22848080
 MLB72254053  Cercadinho Bebê Rister Baby Portátil Grande + Tapete Azul
@@ -124,5 +126,3 @@ MLB24646325  Escovas P Lavar Mamadeira Bebê E Bico Copo Garrafa Azul Buba
     https://www.mercadolivre.com.br/p/MLB24646325
 MLB54797448  Naninha Paninho Prendedor De Chupeta Bebê Pimpolho Onça Bege
     https://www.mercadolivre.com.br/p/MLB54797448
-MLB32300839  Berloque Carrinho Bebê Azul Prata 925 com Caixa
-    https://www.mercadolivre.com.br/p/MLB32300839
