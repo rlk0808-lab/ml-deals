@@ -18,16 +18,26 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB19777775
 ⭐ MLB38926902  Primer Facial - Blur Primer Océane Edition 30ml Tom do prime
     https://www.mercadolivre.com.br/p/MLB38926902
+⭐ MLB53458449  Ampola Capilar Profios Power Reconstrução 15ml
+    https://www.mercadolivre.com.br/p/MLB53458449
 ⭐ MLB20905076  Capicilin - Creme Para Pentear Hairpantol 300ml
     https://www.mercadolivre.com.br/p/MLB20905076
 ⭐ MLB47388709  Hidratante Facial Moana Fenzza
     https://www.mercadolivre.com.br/p/MLB47388709
 ⭐ MLB45700521  Gel Limpeza Facial Dove Regenerative Oleosa 150ml - Unilever
     https://www.mercadolivre.com.br/p/MLB45700521
+⭐ MLB75885866  Jogo Conjunto Kit De Pincel Sombra Maquiagem 13 Peças Macio 
+    https://www.mercadolivre.com.br/p/MLB75885866
+⭐ MLB39768110  Primer Facial - Blur Primer Océane Edition 30ml
+    https://www.mercadolivre.com.br/p/MLB39768110
+⭐ MLB20335700  Condicionador Hidratação Profunda Vitallederm 300ml
+    https://www.mercadolivre.com.br/p/MLB20335700
+⭐ MLB60725179  Leave-in Capilar Bb Cream 10 Benefícios 100ml Reparador Abso
+    https://www.mercadolivre.com.br/p/MLB60725179
+⭐ MLB70222514  Kit 3x500ml Gel Limpeza Facial Vitalizy Pele Oleosa Acneica
+    https://www.mercadolivre.com.br/p/MLB70222514
 ⭐ MLB45572007  Dacca Kit Shampoo Condicionador Hidratação Protetor Térmico
     https://www.mercadolivre.com.br/p/MLB45572007
-⭐ MLB66831597  4you Primer Facial 30ml - Océane 4you Primer Facial
-    https://www.mercadolivre.com.br/p/MLB66831597
 MLB38454411  Máscara Capilar Vult Recarga De Hidratação 250g
     https://www.mercadolivre.com.br/p/MLB38454411
 MLB25243834  Primer Facial Efeito Lifting Phállebeauty Tom do primer Tran
@@ -44,22 +54,12 @@ MLB20871191  Creme Para Pentear Fortalecimento Antiqueda Reconstrutor
     https://www.mercadolivre.com.br/p/MLB20871191
 MLB26217349  Primer Facial Hd Fenzza Pr63
     https://www.mercadolivre.com.br/p/MLB26217349
-MLB75885866  Jogo Conjunto Kit De Pincel Sombra Maquiagem 13 Peças Macio 
-    https://www.mercadolivre.com.br/p/MLB75885866
 MLB59312933  Jogo Conjunto Kit De Pincel Sombra Maquiagem 13 Peças Macio 
     https://www.mercadolivre.com.br/p/MLB59312933
-MLB20335700  Condicionador Hidratação Profunda Vitallederm 300ml
-    https://www.mercadolivre.com.br/p/MLB20335700
 MLB19760888  Mascara Capilar Hidrataçao 250g Meu Cronograma
     https://www.mercadolivre.com.br/p/MLB19760888
 MLB19759798  Creme Para Pentear 500ml Betobita
     https://www.mercadolivre.com.br/p/MLB19759798
-MLB60725179  Leave-in Capilar Bb Cream 10 Benefícios 100ml Reparador Abso
-    https://www.mercadolivre.com.br/p/MLB60725179
-MLB53458449  Ampola Capilar Profios Power Reconstrução 15ml
-    https://www.mercadolivre.com.br/p/MLB53458449
-MLB70222514  Kit 3x500ml Gel Limpeza Facial Vitalizy Pele Oleosa Acneica
-    https://www.mercadolivre.com.br/p/MLB70222514
 MLB22950786  Máscara Cílios Safira Incolor Modeladora Efeito Boneca 7ml
     https://www.mercadolivre.com.br/p/MLB22950786
 MLB44149361  pó compacto Ruby Rose Glass Pó Compacto
@@ -74,8 +74,8 @@ MLB53469027  Kit Maquiagem Portátil Díario Rosa Minnie Mousedisney Fenzza
     https://www.mercadolivre.com.br/p/MLB53469027
 MLB57619995  Lápis Sobrancelha com Gel Fixador Melu By Ruby Rose
     https://www.mercadolivre.com.br/p/MLB57619995
-MLB39768110  Primer Facial - Blur Primer Océane Edition 30ml
-    https://www.mercadolivre.com.br/p/MLB39768110
+MLB49964148  Ampola Capilar Profios Power Nutrição 15ml
+    https://www.mercadolivre.com.br/p/MLB49964148
 MLB39190714  Creme para pentear Seda Boom nutrição
     https://www.mercadolivre.com.br/p/MLB39190714
 MLB21140603  Óleo Capilar Keratex Argan 60ml
@@ -114,8 +114,6 @@ MLB22225761  Natura Faces - Máscara Cílios - Mega Fantástica Preto
     https://www.mercadolivre.com.br/p/MLB22225761
 MLB26540613  Caneta Lápis Sobrancelha Líquido À Prova D'água Cor Marrom-e
     https://www.mercadolivre.com.br/p/MLB26540613
-MLB49964148  Ampola Capilar Profios Power Nutrição 15ml
-    https://www.mercadolivre.com.br/p/MLB49964148
 MLB66170731  Pó compacto iluminador facial em ouro rosa
     https://www.mercadolivre.com.br/p/MLB66170731
 MLB26756952  Base de maquiagem Adversa Base Líquida Matte tom base facial
@@ -126,3 +124,5 @@ MLB51810513  Primer Facial Hd Face Beautiful
     https://www.mercadolivre.com.br/p/MLB51810513
 MLB26821871  Eudora Kit Siàge: Shampoo + Condicionador + Leave-in Capilar
     https://www.mercadolivre.com.br/p/MLB26821871
+MLB32527254  Mascara Facial Argila Branca Bisnaga 140 G
+    https://www.mercadolivre.com.br/p/MLB32527254
