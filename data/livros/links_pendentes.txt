@@ -12,8 +12,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB37149234
 ⭐ MLB69137659  Box Lottie Brooks (livros 1-4)
     https://www.mercadolivre.com.br/p/MLB69137659
-⭐ MLB40283388  Box Alice - Box Com 2 Livros - Edição De Luxo Almofadada
-    https://www.mercadolivre.com.br/p/MLB40283388
+⭐ MLB43965505  Box O Capital
+    https://www.mercadolivre.com.br/p/MLB43965505
 ⭐ MLB19314437  Livro Mistério Sob O Gelo: Uma Aventura Na Antártica De Alex
     https://www.mercadolivre.com.br/p/MLB19314437
 ⭐ MLB54223613  Diário Oficial De Quarta Asa: Você É Uma Coisinha Bem Violen
@@ -74,16 +74,16 @@ MLB52071537  Box Natureza Macabra
     https://www.mercadolivre.com.br/p/MLB52071537
 MLB19820634  Livro O Morro Dos Ventos Uivantes - Emily Brontë
     https://www.mercadolivre.com.br/p/MLB19820634
-MLB21580803  Livro: Pai Contra Mãe - Machado De Assis
-    https://www.mercadolivre.com.br/p/MLB21580803
 MLB19417207  Livro Negócios: Um assunto de mulheres, de Fontes, Ana, tapa
     https://www.mercadolivre.com.br/p/MLB19417207
+MLB21580803  Livro: Pai Contra Mãe - Machado De Assis
+    https://www.mercadolivre.com.br/p/MLB21580803
 MLB19272750  Box Totalmente Terror
     https://www.mercadolivre.com.br/p/MLB19272750
-MLB53759056  Box Sandel
-    https://www.mercadolivre.com.br/p/MLB53759056
 MLB25775586  Livro-recarregue-se!- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB25775586
+MLB53759056  Box Sandel
+    https://www.mercadolivre.com.br/p/MLB53759056
 MLB52687637  Box Universo Ziraldo
     https://www.mercadolivre.com.br/p/MLB52687637
 MLB19295746  Livro Tormenta de Fogo, de Sanderson, Brandon, vol. 2. Edito
@@ -102,16 +102,20 @@ MLB54102040  Box Stanislavski
     https://www.mercadolivre.com.br/p/MLB54102040
 MLB30476715  Box Graciliano Ramos
     https://www.mercadolivre.com.br/p/MLB30476715
-MLB21691796  Livro Negócios Eco-lógicos na Era do Greenwashing, de Humair
-    https://www.mercadolivre.com.br/p/MLB21691796
+MLB40283388  Box Alice - Box Com 2 Livros - Edição De Luxo Almofadada
+    https://www.mercadolivre.com.br/p/MLB40283388
 MLB19301929  Livro Coração de Aço, de Sanderson, Brandon, vol. 1. Editori
     https://www.mercadolivre.com.br/p/MLB19301929
+MLB21691796  Livro Negócios Eco-lógicos na Era do Greenwashing, de Humair
+    https://www.mercadolivre.com.br/p/MLB21691796
 MLB68707420  Livro Desenvolvimento Matemático Na Criança, De Brizuela, Bá
     https://www.mercadolivre.com.br/p/MLB68707420
 MLB66305472  Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, 
     https://www.mercadolivre.com.br/p/MLB66305472
 MLB20760429  Box Lu & Bilu
     https://www.mercadolivre.com.br/p/MLB20760429
+MLB19309022  O Mundo Perdido. Arthur Conan Doyle. História. Editora Princ
+    https://www.mercadolivre.com.br/p/MLB19309022
 MLB22820495  Livro Quincas Borba - Machado De Assis
     https://www.mercadolivre.com.br/p/MLB22820495
 MLB57098569  Livro Percy Jackson e os Olimpianos Crie seu destino De Disn
@@ -120,9 +124,5 @@ MLB19784246  Box 3 Livros Essencial Da Economia *
     https://www.mercadolivre.com.br/p/MLB19784246
 MLB22381340  Livro Dom Casmurro - Machado De Assis
     https://www.mercadolivre.com.br/p/MLB22381340
-MLB19309022  O Mundo Perdido. Arthur Conan Doyle. História. Editora Princ
-    https://www.mercadolivre.com.br/p/MLB19309022
 MLB22154835  Box Essencial Quantico
     https://www.mercadolivre.com.br/p/MLB22154835
-MLB70945977  Livro Hábitos Das Pessoas Eficientes E Felizes
-    https://www.mercadolivre.com.br/p/MLB70945977
