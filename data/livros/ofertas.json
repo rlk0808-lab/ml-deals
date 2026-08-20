@@ -1,6 +1,6 @@
 [
   {
-    "data": "2026-08-19",
+    "data": "2026-08-20",
     "product_id": "MLB53039196",
     "nome": "Kit Livros A Única Coisa + Hábitos Atômicos: Kit Foco E Hábi",
     "preco": 106.9,
@@ -17,7 +17,7 @@
     "recorde": false
   },
   {
-    "data": "2026-08-19",
+    "data": "2026-08-20",
     "product_id": "MLB19305128",
     "nome": "Creepshow - o terror de stephen king em quadrinhos, de King, Stephen. Editora Darkside Books - Graphic Novel (2017)",
     "preco": 54.9,
@@ -34,7 +34,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-19",
+    "data": "2026-08-20",
     "product_id": "MLB22159910",
     "nome": "Livro Com Fantasia - Fazendo A Festa! Brincando De Cavaleiro",
     "preco": 20.43,
@@ -51,7 +51,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-19",
+    "data": "2026-08-20",
     "product_id": "MLB19314437",
     "nome": "Livro Mistério Sob O Gelo: Uma Aventura Na Antártica De Alexander Kellner Da Editora Rocco",
     "preco": 24.04,
@@ -68,7 +68,7 @@
     "recorde": false
   },
   {
-    "data": "2026-08-19",
+    "data": "2026-08-20",
     "product_id": "MLB22026277",
     "nome": "Box Império Galáctico",
     "preco": 129.9,
@@ -85,7 +85,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-19",
+    "data": "2026-08-20",
     "product_id": "MLB53664915",
     "nome": "Box Lovelight",
     "preco": 91.4,
@@ -102,7 +102,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-19",
+    "data": "2026-08-20",
     "product_id": "MLB54223613",
     "nome": "Diário Oficial De Quarta Asa: Você É Uma Coisinha Bem Violenta, Não É?, De Rebecca Yarros. Editorial Planeta Minotauro, Capa Dura, Edição 1 Em Português, 2025",
     "preco": 78.99,
@@ -119,12 +119,12 @@
     "recorde": true
   },
   {
-    "data": "2026-08-19",
+    "data": "2026-08-20",
     "product_id": "MLB19744860",
     "nome": "Box Coleção Patrícia",
     "preco": 150.0,
     "preco_original": null,
-    "n_ofertas": 43,
+    "n_ofertas": 44,
     "item_id": "MLB7432445392",
     "seller_id": 198759258,
     "frete_gratis": true,
@@ -136,14 +136,14 @@
     "recorde": true
   },
   {
-    "data": "2026-08-19",
+    "data": "2026-08-20",
     "product_id": "MLB19243809",
     "nome": "Livro Não Há Segunda Chance De Harlan Coben Da Editora Arqueiro",
     "preco": 38.45,
     "preco_original": null,
-    "n_ofertas": 53,
-    "item_id": "MLB3867180042",
-    "seller_id": 1134662049,
+    "n_ofertas": 54,
+    "item_id": "MLB3646023123",
+    "seller_id": 645036913,
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB19243809",
@@ -153,7 +153,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-19",
+    "data": "2026-08-20",
     "product_id": "MLB35759519",
     "nome": "Livro Mais Sombrio De Stephen King Edição 1 2024 Português Editora Suma",
     "preco": 60.0,
@@ -170,7 +170,7 @@
     "recorde": false
   },
   {
-    "data": "2026-08-19",
+    "data": "2026-08-20",
     "product_id": "MLB40957770",
     "nome": "A Ciência De Ficar Rico: O Livro Clássico Do Sucesso Financeiro, De Wallace D. Wattles., Vol. 1. Editorial Edipro, Capa Mole Em Português",
     "preco": 27.0,
@@ -187,7 +187,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-19",
+    "data": "2026-08-20",
     "product_id": "MLB67026463",
     "nome": "Livro Grandes Mestres Da Literatura Brasileira",
     "preco": 19.0,
@@ -204,7 +204,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-19",
+    "data": "2026-08-20",
     "product_id": "MLB21570552",
     "nome": "Livro J.r.r. Tolkien O Senhor Da Fantasia - Limited Edition",
     "preco": 120.0,
@@ -221,7 +221,24 @@
     "recorde": true
   },
   {
-    "data": "2026-08-19",
+    "data": "2026-08-20",
+    "product_id": "MLB54103102",
+    "nome": "Box Torre Negra",
+    "preco": 299.0,
+    "preco_original": null,
+    "n_ofertas": 4,
+    "item_id": "MLB5095832199",
+    "seller_id": 3220685483,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB54103102",
+    "mediana": 368.57,
+    "minimo_hist": 299.0,
+    "desconto": 18.9,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-20",
     "product_id": "MLB21571425",
     "nome": "Hq Percy Jackson & O Mar De Monstros - Rick Riordan -",
     "preco": 64.68,
@@ -238,12 +255,12 @@
     "recorde": true
   },
   {
-    "data": "2026-08-19",
+    "data": "2026-08-20",
     "product_id": "MLB56661342",
     "nome": "Livro Mistborn Box - (3 Vol. - Brochura), De Brandon Sanderson, Vol. 3. Editora Trama, Capa Mole (2025)",
     "preco": 240.0,
     "preco_original": null,
-    "n_ofertas": 34,
+    "n_ofertas": 33,
     "item_id": "MLB7419216044",
     "seller_id": 336652570,
     "frete_gratis": true,
@@ -255,7 +272,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-19",
+    "data": "2026-08-20",
     "product_id": "MLB51977450",
     "nome": "Quarta Asa + Chama De Ferro + Tempestade De Ônix, De Rebecca Yarros., Vol. 3. Editorial Planeta Minotauro, Capa Mole, Edição Regular Em Português, 2025",
     "preco": 260.0,
@@ -272,7 +289,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-19",
+    "data": "2026-08-20",
     "product_id": "MLB20806009",
     "nome": "Livro Inferno De Dan Brown Autor De O Código Da Vinci",
     "preco": 59.9,
@@ -289,7 +306,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-19",
+    "data": "2026-08-20",
     "product_id": "MLB63740683",
     "nome": "Livro: Sua Última Reverência Autor: Arthur Conan Doyle (novo, Lacrado), De Arthur Conan Doyle",
     "preco": 27.82,
@@ -306,7 +323,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-19",
+    "data": "2026-08-20",
     "product_id": "MLB19238937",
     "nome": "Coleção Agatha Christie box 8 de Christie Agatha editorial HarperCollins Brasil português 2017",
     "preco": 69.2,
@@ -323,7 +340,7 @@
     "recorde": false
   },
   {
-    "data": "2026-08-19",
+    "data": "2026-08-20",
     "product_id": "MLB19362860",
     "nome": "Livro Negócios Internacionais, de Guedes, Ana. Editorial Cengage Learning Edições Ltda., tapa mole, en português (2007)",
     "preco": 27.82,
@@ -340,7 +357,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-19",
+    "data": "2026-08-20",
     "product_id": "MLB70708977",
     "nome": "Livro: Mistério Da Página 19 Autor: Juarez Machado (novo, Lacrado)",
     "preco": 27.82,

@@ -4,40 +4,24 @@ Como usar: abra o link, clique em Compartilhar na barra preta de
 afiliados, copie o link gerado (meli.la/...) e cole em
 data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
-(gerado em 2026-08-19)
+(gerado em 2026-08-20)
 
-⭐ MLB40283255  Verity (Edição de colecionador), Colleen Hoover, Galera, Por
-    https://www.mercadolivre.com.br/p/MLB40283255
-⭐ MLB39979760  Box Collen Hoover
-    https://www.mercadolivre.com.br/p/MLB39979760
-⭐ MLB19453772  Verity, Colleen Hoover, Português, Galera, 2021
-    https://www.mercadolivre.com.br/p/MLB19453772
-⭐ MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
-    https://www.mercadolivre.com.br/p/MLB36202363
-⭐ MLB26355500  Lugar Feliz: Lugar Feliz, De Henry, Emily. Editora Verus, Ca
-    https://www.mercadolivre.com.br/p/MLB26355500
-⭐ MLB21194682  Crie Bons Hábitos: Livre - Se Dos Maus Hábitos
-    https://www.mercadolivre.com.br/p/MLB21194682
-⭐ MLB23661891  Livro-verdade?- Editora Best Seller
-    https://www.mercadolivre.com.br/p/MLB23661891
 ⭐ MLB40957770  A Ciência De Ficar Rico: O Livro Clássico Do Sucesso Finance
     https://www.mercadolivre.com.br/p/MLB40957770
-⭐ MLB30188985  Dark One, de Sanderson, Brandon. Editora Poseidon, capa dura
-    https://www.mercadolivre.com.br/p/MLB30188985
-⭐ MLB19820634  Livro O Morro Dos Ventos Uivantes - Emily Brontë
-    https://www.mercadolivre.com.br/p/MLB19820634
-⭐ MLB21580803  Livro: Pai Contra Mãe - Machado De Assis
-    https://www.mercadolivre.com.br/p/MLB21580803
 ⭐ MLB19744860  Box Coleção Patrícia
     https://www.mercadolivre.com.br/p/MLB19744860
 ⭐ MLB37149234  Biblioteca Nietzsche - Box Com 4 Livros
     https://www.mercadolivre.com.br/p/MLB37149234
+⭐ MLB40283388  Box Alice - Box Com 2 Livros - Edição De Luxo Almofadada
+    https://www.mercadolivre.com.br/p/MLB40283388
 ⭐ MLB19314437  Livro Mistério Sob O Gelo: Uma Aventura Na Antártica De Alex
     https://www.mercadolivre.com.br/p/MLB19314437
 ⭐ MLB54223613  Diário Oficial De Quarta Asa: Você É Uma Coisinha Bem Violen
     https://www.mercadolivre.com.br/p/MLB54223613
 ⭐ MLB20806009  Livro Inferno De Dan Brown Autor De O Código Da Vinci
     https://www.mercadolivre.com.br/p/MLB20806009
+⭐ MLB54103102  Box Torre Negra
+    https://www.mercadolivre.com.br/p/MLB54103102
 ⭐ MLB51977450  Quarta Asa + Chama De Ferro + Tempestade De Ônix, De Rebecca
     https://www.mercadolivre.com.br/p/MLB51977450
 ⭐ MLB63740683  Livro: Sua Última Reverência Autor: Arthur Conan Doyle (novo
@@ -56,30 +40,50 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB21571425
 ⭐ MLB67026463  Livro Grandes Mestres Da Literatura Brasileira
     https://www.mercadolivre.com.br/p/MLB67026463
+MLB40283255  Verity (Edição de colecionador), Colleen Hoover, Galera, Por
+    https://www.mercadolivre.com.br/p/MLB40283255
+MLB39979760  Box Collen Hoover
+    https://www.mercadolivre.com.br/p/MLB39979760
+MLB19453772  Verity, Colleen Hoover, Português, Galera, 2021
+    https://www.mercadolivre.com.br/p/MLB19453772
+MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
+    https://www.mercadolivre.com.br/p/MLB36202363
+MLB26355500  Lugar Feliz: Lugar Feliz, De Henry, Emily. Editora Verus, Ca
+    https://www.mercadolivre.com.br/p/MLB26355500
 MLB74807035  Box Trilogia Powerless
     https://www.mercadolivre.com.br/p/MLB74807035
 MLB19771891  Box Essencial Conquistadores (3 Livros) *
     https://www.mercadolivre.com.br/p/MLB19771891
+MLB23661891  Livro-verdade?- Editora Best Seller
+    https://www.mercadolivre.com.br/p/MLB23661891
+MLB21194682  Crie Bons Hábitos: Livre - Se Dos Maus Hábitos
+    https://www.mercadolivre.com.br/p/MLB21194682
 MLB54103019  Box Relacionamentos Saudáveis
     https://www.mercadolivre.com.br/p/MLB54103019
+MLB30188985  Dark One, de Sanderson, Brandon. Editora Poseidon, capa dura
+    https://www.mercadolivre.com.br/p/MLB30188985
 MLB21687753  Livro Negócios Recodificados, de Fisk, Peter. Editorial DVS 
     https://www.mercadolivre.com.br/p/MLB21687753
-MLB52071537  Box Natureza Macabra
-    https://www.mercadolivre.com.br/p/MLB52071537
+MLB19820634  Livro O Morro Dos Ventos Uivantes - Emily Brontë
+    https://www.mercadolivre.com.br/p/MLB19820634
 MLB19417207  Livro Negócios: Um assunto de mulheres, de Fontes, Ana, tapa
     https://www.mercadolivre.com.br/p/MLB19417207
+MLB52071537  Box Natureza Macabra
+    https://www.mercadolivre.com.br/p/MLB52071537
 MLB19272750  Box Totalmente Terror
     https://www.mercadolivre.com.br/p/MLB19272750
 MLB35365698  Livro Um caso improvável, de Yarros, Rebecca. Editorial Veru
     https://www.mercadolivre.com.br/p/MLB35365698
+MLB21580803  Livro: Pai Contra Mãe - Machado De Assis
+    https://www.mercadolivre.com.br/p/MLB21580803
 MLB19430983  Livro-streampunks- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB19430983
+MLB25775586  Livro-recarregue-se!- Editora Best Seller
+    https://www.mercadolivre.com.br/p/MLB25775586
 MLB53759056  Box Sandel
     https://www.mercadolivre.com.br/p/MLB53759056
 MLB52687637  Box Universo Ziraldo
     https://www.mercadolivre.com.br/p/MLB52687637
-MLB25775586  Livro-recarregue-se!- Editora Best Seller
-    https://www.mercadolivre.com.br/p/MLB25775586
 MLB19295746  Livro Tormenta de Fogo, de Sanderson, Brandon, vol. 2. Edito
     https://www.mercadolivre.com.br/p/MLB19295746
 MLB44222588  Box Ernest Hemingway
@@ -100,8 +104,6 @@ MLB69137659  Box Lottie Brooks (livros 1-4)
     https://www.mercadolivre.com.br/p/MLB69137659
 MLB19301929  Livro Coração de Aço, de Sanderson, Brandon, vol. 1. Editori
     https://www.mercadolivre.com.br/p/MLB19301929
-MLB40283388  Box Alice - Box Com 2 Livros - Edição De Luxo Almofadada
-    https://www.mercadolivre.com.br/p/MLB40283388
 MLB21691796  Livro Negócios Eco-lógicos na Era do Greenwashing, de Humair
     https://www.mercadolivre.com.br/p/MLB21691796
 MLB68707420  Livro Desenvolvimento Matemático Na Criança, De Brizuela, Bá
@@ -124,5 +126,3 @@ MLB19379986  Livro Contos de Machado de Assis, de Assis, Machado de. Edit
     https://www.mercadolivre.com.br/p/MLB19379986
 MLB22154835  Box Essencial Quantico
     https://www.mercadolivre.com.br/p/MLB22154835
-MLB70945977  Livro Hábitos Das Pessoas Eficientes E Felizes
-    https://www.mercadolivre.com.br/p/MLB70945977
