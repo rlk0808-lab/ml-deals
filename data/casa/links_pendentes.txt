@@ -8,6 +8,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 ⭐ MLB29118990  Jogo Toalhas Gigante 5pçs Fio Penteado Algodão Egípcio
     https://www.mercadolivre.com.br/p/MLB29118990
+⭐ MLB23258524  Jogo Taças Vidro Diamond Furta Cor 300ml C/6
+    https://www.mercadolivre.com.br/p/MLB23258524
 ⭐ MLB75284955  Jogo Tapetes Cozinha Sofisticada 3 Peças Lavável Trançado Pr
     https://www.mercadolivre.com.br/p/MLB75284955
 ⭐ MLB65564513  Kit 17 Potes Hermeticos Cozinha Mantimentos Resistentes Bran
@@ -44,8 +46,6 @@ MLB23053557  Jogo Taças Cristal Titânio 220ml Conjunto 6 Taças Champanhe
     https://www.mercadolivre.com.br/p/MLB23053557
 MLB66710003  Jogo Taças Transparentes 6 Unidades Suco Agua Vidro 265ml
     https://www.mercadolivre.com.br/p/MLB66710003
-MLB23258524  Jogo Taças Vidro Diamond Furta Cor 300ml C/6
-    https://www.mercadolivre.com.br/p/MLB23258524
 MLB32036042  Conjunto Pratos Fundos Duralex Jasmim Nadir 6 Unidades
     https://www.mercadolivre.com.br/p/MLB32036042
 MLB53775135  Conjunto Pratos De Cerâmica 20cm Sobremesa Raso 4 Unidades
