@@ -86,6 +86,23 @@
   },
   {
     "data": "2026-08-20",
+    "product_id": "MLB63123338",
+    "nome": "Baby Monitor Vb603 Baba Eletrônica Com Monitor branco",
+    "preco": 246.52,
+    "preco_original": 259.5,
+    "n_ofertas": 4,
+    "item_id": "MLB7460971844",
+    "seller_id": 152499650,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB63123338",
+    "mediana": 311.34,
+    "minimo_hist": 221.9,
+    "desconto": 20.8,
+    "recorde": false
+  },
+  {
+    "data": "2026-08-20",
     "product_id": "MLB21478413",
     "nome": "Colchão Berço Fa Baby 12x60x130 D-18 Branco",
     "preco": 246.75,
@@ -100,22 +117,5 @@
     "minimo_hist": 246.75,
     "desconto": 17.2,
     "recorde": true
-  },
-  {
-    "data": "2026-08-20",
-    "product_id": "MLB63123338",
-    "nome": "Baby Monitor Vb603 Baba Eletrônica Com Monitor branco",
-    "preco": 259.5,
-    "preco_original": null,
-    "n_ofertas": 4,
-    "item_id": "MLB7460971844",
-    "seller_id": 152499650,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB63123338",
-    "mediana": 311.34,
-    "minimo_hist": 221.9,
-    "desconto": 16.6,
-    "recorde": false
   }
 ]
