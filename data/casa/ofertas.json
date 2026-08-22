@@ -236,5 +236,22 @@
     "minimo_hist": 97.9,
     "desconto": 15.2,
     "recorde": false
+  },
+  {
+    "data": "2026-08-22",
+    "product_id": "MLB29285369",
+    "nome": "Jogo Copos Vidro Nadir Laguna 265ml Kit 24 Unidades Para Sucos",
+    "preco": 97.75,
+    "preco_original": 115.0,
+    "n_ofertas": 2,
+    "item_id": "MLB6556421442",
+    "seller_id": 1174896542,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB29285369",
+    "mediana": 115.0,
+    "minimo_hist": 97.75,
+    "desconto": 15.0,
+    "recorde": true
   }
 ]
