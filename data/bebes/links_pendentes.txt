@@ -4,7 +4,7 @@ Como usar: abra o link, clique em Compartilhar na barra preta de
 afiliados, copie o link gerado (meli.la/...) e cole em
 data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
-(gerado em 2026-08-21)
+(gerado em 2026-08-22)
 
 ⭐ MLB22663058  Bomba Tira Leite Coletora Manual Kuka Funcional
     https://www.mercadolivre.com.br/p/MLB22663058
@@ -108,8 +108,6 @@ MLB22936110  Móbile Berço Bebê Musical E Giratório Ovelinha Rosa
     https://www.mercadolivre.com.br/p/MLB22936110
 MLB54201729  Bebê Conforto Cadeirinha Carro Infantil 0 A 13kg Ello Rosa C
     https://www.mercadolivre.com.br/p/MLB54201729
-MLB42621641  Cadeira Alimentação Bebê Ajustável Portátil Pimpolho Cor Cin
-    https://www.mercadolivre.com.br/p/MLB42621641
 MLB23059798  Cadeira Alimentação Bebe Cadeirão Galzerano Alta Nick Zoo
     https://www.mercadolivre.com.br/p/MLB23059798
 MLB49767281  Colchão Berço Arkell Espuma D20 70x130 cm Branco Antialérgic
@@ -126,3 +124,5 @@ MLB42814766  Chocalho Mordedor Bebê Flexível Rosa Looney Tunes BabyGo 3m+
     https://www.mercadolivre.com.br/p/MLB42814766
 MLB25687571  Babá Eletrônica Monitor De Vídeo Vb601 2
     https://www.mercadolivre.com.br/p/MLB25687571
+MLB32300839  Berloque Carrinho Bebê Azul Prata 925 com Caixa
+    https://www.mercadolivre.com.br/p/MLB32300839
