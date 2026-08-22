@@ -100,5 +100,22 @@
     "minimo_hist": 246.75,
     "desconto": 17.2,
     "recorde": true
+  },
+  {
+    "data": "2026-08-22",
+    "product_id": "MLB68287675",
+    "nome": "Cercadinho Bebê Rister Baby Portátil Grande + Tapete Amarelo",
+    "preco": 80.0,
+    "preco_original": null,
+    "n_ofertas": 5,
+    "item_id": "MLB5114327419",
+    "seller_id": 264151452,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB68287675",
+    "mediana": 96.06,
+    "minimo_hist": 80.0,
+    "desconto": 16.7,
+    "recorde": true
   }
 ]
