@@ -40,10 +40,10 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB67026463
 MLB40283255  Verity (Edição de colecionador), Colleen Hoover, Galera, Por
     https://www.mercadolivre.com.br/p/MLB40283255
-MLB39979760  Box Collen Hoover
-    https://www.mercadolivre.com.br/p/MLB39979760
 MLB23661891  Livro-verdade?- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB23661891
+MLB39979760  Box Collen Hoover
+    https://www.mercadolivre.com.br/p/MLB39979760
 MLB19453772  Verity, Colleen Hoover, Português, Galera, 2021
     https://www.mercadolivre.com.br/p/MLB19453772
 MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
@@ -86,18 +86,18 @@ MLB19295746  Livro Tormenta de Fogo, de Sanderson, Brandon, vol. 2. Edito
     https://www.mercadolivre.com.br/p/MLB19295746
 MLB52687637  Box Universo Ziraldo
     https://www.mercadolivre.com.br/p/MLB52687637
-MLB57817554  Box Santo Guerreiro
-    https://www.mercadolivre.com.br/p/MLB57817554
 MLB44222588  Box Ernest Hemingway
     https://www.mercadolivre.com.br/p/MLB44222588
+MLB57817554  Box Santo Guerreiro
+    https://www.mercadolivre.com.br/p/MLB57817554
+MLB19309022  O Mundo Perdido. Arthur Conan Doyle. História. Editora Princ
+    https://www.mercadolivre.com.br/p/MLB19309022
 MLB23250818  Martin Claret A Relíquia – Eça de Queirós Livro Físico Capa 
     https://www.mercadolivre.com.br/p/MLB23250818
 MLB21757672  Livro PAPÉIS AVULSOS - MACHADO DE ASSIS, de Assis, Machado d
     https://www.mercadolivre.com.br/p/MLB21757672
 MLB20810939  Livro Romance Espírita Preto Como Leite E Branco Como O Café
     https://www.mercadolivre.com.br/p/MLB20810939
-MLB19309022  O Mundo Perdido. Arthur Conan Doyle. História. Editora Princ
-    https://www.mercadolivre.com.br/p/MLB19309022
 MLB22820495  Livro Quincas Borba - Machado De Assis
     https://www.mercadolivre.com.br/p/MLB22820495
 MLB54102040  Box Stanislavski
@@ -112,12 +112,12 @@ MLB21397020  Hábitos Escravizadores - Livro Edward T. Welch
     https://www.mercadolivre.com.br/p/MLB21397020
 MLB20760429  Box Lu & Bilu
     https://www.mercadolivre.com.br/p/MLB20760429
-MLB66305472  Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, 
-    https://www.mercadolivre.com.br/p/MLB66305472
 MLB57098569  Livro Percy Jackson e os Olimpianos Crie seu destino De Disn
     https://www.mercadolivre.com.br/p/MLB57098569
 MLB19784246  Box 3 Livros Essencial Da Economia *
     https://www.mercadolivre.com.br/p/MLB19784246
+MLB66305472  Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, 
+    https://www.mercadolivre.com.br/p/MLB66305472
 MLB22381340  Livro Dom Casmurro - Machado De Assis
     https://www.mercadolivre.com.br/p/MLB22381340
 MLB22156338  Maldições Não Quebradas Livro Rebecca Brown, de Rebecca Brow
