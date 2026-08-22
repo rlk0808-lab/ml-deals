@@ -11,9 +11,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB66170731",
-    "mediana": 78.78,
+    "mediana": 76.81,
     "minimo_hist": 54.9,
-    "desconto": 30.3,
+    "desconto": 28.5,
     "recorde": true
   },
   {
@@ -65,40 +65,6 @@
     "mediana": 21.9,
     "minimo_hist": 17.52,
     "desconto": 20.0,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-22",
-    "product_id": "MLB19638952",
-    "nome": "Leave In Capilar Siàge Nutri Rose Termoprotetor 100ml Eudora",
-    "preco": 41.1,
-    "preco_original": 55.99,
-    "n_ofertas": 8,
-    "item_id": "MLB7446041752",
-    "seller_id": 261173686,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB19638952",
-    "mediana": 49.71,
-    "minimo_hist": 41.0,
-    "desconto": 17.3,
-    "recorde": false
-  },
-  {
-    "data": "2026-08-22",
-    "product_id": "MLB19559047",
-    "nome": "Leave-in Capilar Uniq One Green 150ml Revlon Professional",
-    "preco": 74.95,
-    "preco_original": 78.9,
-    "n_ofertas": 7,
-    "item_id": "MLB5316406420",
-    "seller_id": 757141278,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB19559047",
-    "mediana": 89.9,
-    "minimo_hist": 74.95,
-    "desconto": 16.6,
     "recorde": true
   }
 ]
