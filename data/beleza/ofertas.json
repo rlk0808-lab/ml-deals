@@ -1,23 +1,6 @@
 [
   {
     "data": "2026-08-23",
-    "product_id": "MLB24206226",
-    "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d2 claro - 10g",
-    "preco": 20.0,
-    "preco_original": 69.99,
-    "n_ofertas": 15,
-    "item_id": "MLB5065190372",
-    "seller_id": 1930606443,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB24206226",
-    "mediana": 29.99,
-    "minimo_hist": 16.02,
-    "desconto": 33.3,
-    "recorde": false
-  },
-  {
-    "data": "2026-08-23",
     "product_id": "MLB24206231",
     "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d6 medio - 10g",
     "preco": 21.14,
@@ -31,23 +14,6 @@
     "mediana": 30.9,
     "minimo_hist": 21.14,
     "desconto": 31.6,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-23",
-    "product_id": "MLB24206229",
-    "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d4 claro - 10g",
-    "preco": 19.31,
-    "preco_original": 69.99,
-    "n_ofertas": 19,
-    "item_id": "MLB5065254762",
-    "seller_id": 1930606443,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB24206229",
-    "mediana": 27.99,
-    "minimo_hist": 19.31,
-    "desconto": 31.0,
     "recorde": true
   },
   {
