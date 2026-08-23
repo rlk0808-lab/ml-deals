@@ -1,23 +1,6 @@
 [
   {
     "data": "2026-08-23",
-    "product_id": "MLB53039196",
-    "nome": "Kit Livros A Única Coisa + Hábitos Atômicos: Kit Foco E Hábi",
-    "preco": 106.9,
-    "preco_original": null,
-    "n_ofertas": 3,
-    "item_id": "MLB5511571590",
-    "seller_id": 360130448,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB53039196",
-    "mediana": 208.39,
-    "minimo_hist": 97.95,
-    "desconto": 48.7,
-    "recorde": false
-  },
-  {
-    "data": "2026-08-23",
     "product_id": "MLB22159910",
     "nome": "Livro Com Fantasia - Fazendo A Festa! Brincando De Cavaleiro",
     "preco": 20.02,
@@ -239,23 +222,6 @@
   },
   {
     "data": "2026-08-23",
-    "product_id": "MLB19243809",
-    "nome": "Livro Não Há Segunda Chance De Harlan Coben Da Editora Arqueiro",
-    "preco": 40.51,
-    "preco_original": 69.9,
-    "n_ofertas": 71,
-    "item_id": "MLB4904549094",
-    "seller_id": 480263032,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB19243809",
-    "mediana": 48.39,
-    "minimo_hist": 38.45,
-    "desconto": 16.3,
-    "recorde": false
-  },
-  {
-    "data": "2026-08-23",
     "product_id": "MLB69137659",
     "nome": "Box Lottie Brooks (livros 1-4)",
     "preco": 159.0,
@@ -287,6 +253,23 @@
     "minimo_hist": 59.9,
     "desconto": 15.5,
     "recorde": true
+  },
+  {
+    "data": "2026-08-23",
+    "product_id": "MLB19243809",
+    "nome": "Livro Não Há Segunda Chance De Harlan Coben Da Editora Arqueiro",
+    "preco": 40.51,
+    "preco_original": 69.9,
+    "n_ofertas": 71,
+    "item_id": "MLB4904549094",
+    "seller_id": 480263032,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19243809",
+    "mediana": 47.84,
+    "minimo_hist": 38.45,
+    "desconto": 15.3,
+    "recorde": false
   },
   {
     "data": "2026-08-23",
