@@ -8,24 +8,20 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 ⭐ MLB40283255  Verity (Edição de colecionador), Colleen Hoover, Galera, Por
     https://www.mercadolivre.com.br/p/MLB40283255
+⭐ MLB39979760  Box Collen Hoover
+    https://www.mercadolivre.com.br/p/MLB39979760
 ⭐ MLB19453772  Verity, Colleen Hoover, Português, Galera, 2021
     https://www.mercadolivre.com.br/p/MLB19453772
-⭐ MLB23661891  Livro-verdade?- Editora Best Seller
-    https://www.mercadolivre.com.br/p/MLB23661891
-⭐ MLB25775586  Livro-recarregue-se!- Editora Best Seller
-    https://www.mercadolivre.com.br/p/MLB25775586
 ⭐ MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
     https://www.mercadolivre.com.br/p/MLB36202363
 ⭐ MLB26355500  Lugar Feliz: Lugar Feliz, De Henry, Emily. Editora Verus, Ca
     https://www.mercadolivre.com.br/p/MLB26355500
-⭐ MLB19272750  Box Totalmente Terror
-    https://www.mercadolivre.com.br/p/MLB19272750
-⭐ MLB37149234  Biblioteca Nietzsche - Box Com 4 Livros
-    https://www.mercadolivre.com.br/p/MLB37149234
 ⭐ MLB19744860  Box Coleção Patrícia
     https://www.mercadolivre.com.br/p/MLB19744860
 ⭐ MLB69137659  Box Lottie Brooks (livros 1-4)
     https://www.mercadolivre.com.br/p/MLB69137659
+⭐ MLB39933910  Biblioteca Nórdica - Box Com 3 Livros
+    https://www.mercadolivre.com.br/p/MLB39933910
 ⭐ MLB19314437  Livro Mistério Sob O Gelo: Uma Aventura Na Antártica De Alex
     https://www.mercadolivre.com.br/p/MLB19314437
 ⭐ MLB54223613  Diário Oficial De Quarta Asa: Você É Uma Coisinha Bem Violen
@@ -46,16 +42,20 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB21571425
 ⭐ MLB67026463  Livro Grandes Mestres Da Literatura Brasileira
     https://www.mercadolivre.com.br/p/MLB67026463
+MLB19771891  Box Essencial Conquistadores (3 Livros) *
+    https://www.mercadolivre.com.br/p/MLB19771891
+MLB23661891  Livro-verdade?- Editora Best Seller
+    https://www.mercadolivre.com.br/p/MLB23661891
 MLB74807035  Box Trilogia Powerless
     https://www.mercadolivre.com.br/p/MLB74807035
 MLB19301929  Livro Coração de Aço, de Sanderson, Brandon, vol. 1. Editori
     https://www.mercadolivre.com.br/p/MLB19301929
-MLB19417207  Livro Negócios: Um assunto de mulheres, de Fontes, Ana, tapa
-    https://www.mercadolivre.com.br/p/MLB19417207
 MLB21194682  Crie Bons Hábitos: Livre - Se Dos Maus Hábitos
     https://www.mercadolivre.com.br/p/MLB21194682
 MLB40957770  A Ciência De Ficar Rico: O Livro Clássico Do Sucesso Finance
     https://www.mercadolivre.com.br/p/MLB40957770
+MLB19417207  Livro Negócios: Um assunto de mulheres, de Fontes, Ana, tapa
+    https://www.mercadolivre.com.br/p/MLB19417207
 MLB54103019  Box Relacionamentos Saudáveis
     https://www.mercadolivre.com.br/p/MLB54103019
 MLB21687753  Livro Negócios Recodificados, de Fisk, Peter. Editorial DVS 
@@ -66,18 +66,14 @@ MLB52071537  Box Natureza Macabra
     https://www.mercadolivre.com.br/p/MLB52071537
 MLB19820634  Livro O Morro Dos Ventos Uivantes - Emily Brontë
     https://www.mercadolivre.com.br/p/MLB19820634
-MLB22820495  Livro Quincas Borba - Machado De Assis
-    https://www.mercadolivre.com.br/p/MLB22820495
-MLB19309022  O Mundo Perdido. Arthur Conan Doyle. História. Editora Princ
-    https://www.mercadolivre.com.br/p/MLB19309022
-MLB44222588  Box Ernest Hemingway
-    https://www.mercadolivre.com.br/p/MLB44222588
-MLB52687637  Box Universo Ziraldo
-    https://www.mercadolivre.com.br/p/MLB52687637
 MLB19295746  Livro Tormenta de Fogo, de Sanderson, Brandon, vol. 2. Edito
     https://www.mercadolivre.com.br/p/MLB19295746
 MLB53759056  Box Sandel
     https://www.mercadolivre.com.br/p/MLB53759056
+MLB44222588  Box Ernest Hemingway
+    https://www.mercadolivre.com.br/p/MLB44222588
+MLB52687637  Box Universo Ziraldo
+    https://www.mercadolivre.com.br/p/MLB52687637
 MLB35365698  Livro Um caso improvável, de Yarros, Rebecca. Editorial Veru
     https://www.mercadolivre.com.br/p/MLB35365698
 MLB57817554  Box Santo Guerreiro
@@ -88,12 +84,12 @@ MLB23250818  Martin Claret A Relíquia – Eça de Queirós Livro Físico Capa
     https://www.mercadolivre.com.br/p/MLB23250818
 MLB20810939  Livro Romance Espírita Preto Como Leite E Branco Como O Café
     https://www.mercadolivre.com.br/p/MLB20810939
-MLB30476715  Box Graciliano Ramos
-    https://www.mercadolivre.com.br/p/MLB30476715
-MLB54102040  Box Stanislavski
-    https://www.mercadolivre.com.br/p/MLB54102040
+MLB40283388  Box Alice - Box Com 2 Livros - Edição De Luxo Almofadada
+    https://www.mercadolivre.com.br/p/MLB40283388
 MLB21691796  Livro Negócios Eco-lógicos na Era do Greenwashing, de Humair
     https://www.mercadolivre.com.br/p/MLB21691796
+MLB54102040  Box Stanislavski
+    https://www.mercadolivre.com.br/p/MLB54102040
 MLB68707420  Livro Desenvolvimento Matemático Na Criança, De Brizuela, Bá
     https://www.mercadolivre.com.br/p/MLB68707420
 MLB21397020  Hábitos Escravizadores - Livro Edward T. Welch
@@ -120,9 +116,13 @@ MLB19379986  Livro Contos de Machado de Assis, de Assis, Machado de. Edit
     https://www.mercadolivre.com.br/p/MLB19379986
 MLB71715115  Livro A Poesia Da Literatura Brasileira: Do Barroco Ao Moder
     https://www.mercadolivre.com.br/p/MLB71715115
-MLB19444731  Livro - Revival - Stephen King
-    https://www.mercadolivre.com.br/p/MLB19444731
 MLB26473013  Livro NEGÓCIOS DE HONRA, de BOB HASSON. Editorial EDICOES E 
     https://www.mercadolivre.com.br/p/MLB26473013
+MLB19444731  Livro - Revival - Stephen King
+    https://www.mercadolivre.com.br/p/MLB19444731
 MLB71604003  Livro Desencantos: Fantasia Dramática
     https://www.mercadolivre.com.br/p/MLB71604003
+MLB19189031  Livro Negócios de família, de Ginsberg, Allen. Editorial Edi
+    https://www.mercadolivre.com.br/p/MLB19189031
+MLB43965505  Box O Capital
+    https://www.mercadolivre.com.br/p/MLB43965505
