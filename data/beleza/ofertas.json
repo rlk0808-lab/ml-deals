@@ -5,7 +5,7 @@
     "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d6 medio - 10g",
     "preco": 22.0,
     "preco_original": 69.99,
-    "n_ofertas": 18,
+    "n_ofertas": 17,
     "item_id": "MLB5024208008",
     "seller_id": 1937143481,
     "frete_gratis": true,
@@ -15,6 +15,23 @@
     "minimo_hist": 21.14,
     "desconto": 28.8,
     "recorde": false
+  },
+  {
+    "data": "2026-08-24",
+    "product_id": "MLB74974187",
+    "nome": "NIINA SECR MASCARA CILIOS SUPER BOLD 10G",
+    "preco": 42.39,
+    "preco_original": 72.99,
+    "n_ofertas": 4,
+    "item_id": "MLB7448485094",
+    "seller_id": 261173686,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB74974187",
+    "mediana": 58.8,
+    "minimo_hist": 42.39,
+    "desconto": 27.9,
+    "recorde": true
   },
   {
     "data": "2026-08-24",
@@ -35,23 +52,6 @@
   },
   {
     "data": "2026-08-24",
-    "product_id": "MLB74974187",
-    "nome": "NIINA SECR MASCARA CILIOS SUPER BOLD 10G",
-    "preco": 43.7,
-    "preco_original": 72.99,
-    "n_ofertas": 4,
-    "item_id": "MLB7448485094",
-    "seller_id": 261173686,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB74974187",
-    "mediana": 58.8,
-    "minimo_hist": 43.7,
-    "desconto": 25.7,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-24",
     "product_id": "MLB66731987",
     "nome": "Esmalte Unha Em Gel Acrigel Fibra Blindagem Real Love Light Rosa-17",
     "preco": 17.52,
@@ -66,22 +66,5 @@
     "minimo_hist": 17.52,
     "desconto": 20.0,
     "recorde": true
-  },
-  {
-    "data": "2026-08-24",
-    "product_id": "MLB24206229",
-    "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d4 claro - 10g",
-    "preco": 22.99,
-    "preco_original": 69.99,
-    "n_ofertas": 19,
-    "item_id": "MLB5416296690",
-    "seller_id": 2412926691,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB24206229",
-    "mediana": 27.99,
-    "minimo_hist": 19.31,
-    "desconto": 17.9,
-    "recorde": false
   }
 ]
