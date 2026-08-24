@@ -18,6 +18,10 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB29032041
 ⭐ MLB23053557  Jogo Taças Cristal Titânio 220ml Conjunto 6 Taças Champanhe 
     https://www.mercadolivre.com.br/p/MLB23053557
+⭐ MLB41899209  Kit Organizador Viagem Ricca Rosa Impermeável
+    https://www.mercadolivre.com.br/p/MLB41899209
+⭐ MLB28857262  Tulha Aramada Deslizante Cesto Roupa Suja Inox Lavanderia Ba
+    https://www.mercadolivre.com.br/p/MLB28857262
 ⭐ MLB75284955  Jogo Tapetes Cozinha Sofisticada 3 Peças Lavável Trançado Pr
     https://www.mercadolivre.com.br/p/MLB75284955
 ⭐ MLB65564513  Kit 17 Potes Hermeticos Cozinha Mantimentos Resistentes Bran
@@ -26,14 +30,10 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB38886057
 ⭐ MLB53222426  Frigideira Antiaderente Rizzoflon 16cm Alumínio Teflon para 
     https://www.mercadolivre.com.br/p/MLB53222426
-⭐ MLB65523019  Jogo Cama Casal Essencial Lavanda 250 Fios Branco Lyor
-    https://www.mercadolivre.com.br/p/MLB65523019
 ⭐ MLB29285369  Jogo Copos Vidro Nadir Laguna 265ml Kit 24 Unidades Para Suc
     https://www.mercadolivre.com.br/p/MLB29285369
 ⭐ MLB39216863  Jogo Taças Cristal Transparente Fio Ouro Imperial 330ml Lyor
     https://www.mercadolivre.com.br/p/MLB39216863
-⭐ MLB41978915  Jogo Tapetes Cozinha Antiderrapante 3 Peças Bemprat Azul Geo
-    https://www.mercadolivre.com.br/p/MLB41978915
 ⭐ MLB76394354  Jogo Toalhas Banho Grossas Macias Algodão 4pç Absorventes Co
     https://www.mercadolivre.com.br/p/MLB76394354
 MLB57626638  Sanduicheira Grill Elétrica Antiaderente 750w Potente Cor Ve
@@ -58,10 +58,6 @@ MLB53775135  Conjunto Pratos De Cerâmica 20cm Sobremesa Raso 4 Unidades
     https://www.mercadolivre.com.br/p/MLB53775135
 MLB28556623  Potes Herméticos Empilhável Quadrado 4 Unidades - Ou
     https://www.mercadolivre.com.br/p/MLB28556623
-MLB41899209  Kit Organizador Viagem Ricca Rosa Impermeável
-    https://www.mercadolivre.com.br/p/MLB41899209
-MLB28857262  Tulha Aramada Deslizante Cesto Roupa Suja Inox Lavanderia Ba
-    https://www.mercadolivre.com.br/p/MLB28857262
 MLB37993510  Kit Cozinha 5 Potes Herméticos Para Mantimentos Cor Preto
     https://www.mercadolivre.com.br/p/MLB37993510
 MLB75087991  Jogo Talheres 12 Peças Inox Fratelli Elegante Moderno Rosa C
@@ -126,3 +122,7 @@ MLB33314746  Jogo Talheres Dourado Aço Inox Ouro Gold 16 Pçs Premium
     https://www.mercadolivre.com.br/p/MLB33314746
 MLB61319820  Eps-160 Kit Faqueiro Dourado Luxo Jogo Talheres Inox 24pçs +
     https://www.mercadolivre.com.br/p/MLB61319820
+MLB24624927  Jogo Copos Vidro Nadir Figueredo Opera 360ml 6 Unidades
+    https://www.mercadolivre.com.br/p/MLB24624927
+MLB25683117  Jogo Copos Vidro Nadir Figueiredo Americano 24 Peças 190ml T
+    https://www.mercadolivre.com.br/p/MLB25683117
