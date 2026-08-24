@@ -8,20 +8,20 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 ⭐ MLB55889196  Óleo Capilar Nutrição 60ml Hidratei
     https://www.mercadolivre.com.br/p/MLB55889196
+⭐ MLB44152943  Progressiva Organic + Difusão Capilar + Tônico Milagroso
+    https://www.mercadolivre.com.br/p/MLB44152943
+⭐ MLB42341040  Mascara Cílios Soul Turbo - Eudora - Cor Preto
+    https://www.mercadolivre.com.br/p/MLB42341040
+⭐ MLB52322550  Dove Condicionador Hidratação + Hialuron-vit 600ml
+    https://www.mercadolivre.com.br/p/MLB52322550
+⭐ MLB19922487  Condicionador Hidratação Impacto 500ml Midori Profissional
+    https://www.mercadolivre.com.br/p/MLB19922487
 ⭐ MLB38926902  Primer Facial - Blur Primer Océane Edition 30ml Tom do prime
     https://www.mercadolivre.com.br/p/MLB38926902
 ⭐ MLB75885866  Jogo Conjunto Kit De Pincel Sombra Maquiagem 13 Peças Macio 
     https://www.mercadolivre.com.br/p/MLB75885866
-MLB44152943  Progressiva Organic + Difusão Capilar + Tônico Milagroso
-    https://www.mercadolivre.com.br/p/MLB44152943
-MLB42341040  Mascara Cílios Soul Turbo - Eudora - Cor Preto
-    https://www.mercadolivre.com.br/p/MLB42341040
 MLB38454411  Máscara Capilar Vult Recarga De Hidratação 250g
     https://www.mercadolivre.com.br/p/MLB38454411
-MLB52322550  Dove Condicionador Hidratação + Hialuron-vit 600ml
-    https://www.mercadolivre.com.br/p/MLB52322550
-MLB19922487  Condicionador Hidratação Impacto 500ml Midori Profissional
-    https://www.mercadolivre.com.br/p/MLB19922487
 MLB25243834  Primer Facial Efeito Lifting Phállebeauty Tom do primer Tran
     https://www.mercadolivre.com.br/p/MLB25243834
 MLB19777775  Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g
@@ -72,8 +72,6 @@ MLB74974187  NIINA SECR MASCARA CILIOS SUPER BOLD 10G
     https://www.mercadolivre.com.br/p/MLB74974187
 MLB22950786  Máscara Cílios Safira Incolor Modeladora Efeito Boneca 7ml
     https://www.mercadolivre.com.br/p/MLB22950786
-MLB44149361  pó compacto Ruby Rose Glass Pó Compacto
-    https://www.mercadolivre.com.br/p/MLB44149361
 MLB25741623  Palito Plana Silicone Belliz Company Remoção Excesso Esmalte
     https://www.mercadolivre.com.br/p/MLB25741623
 MLB39124617  200un Anel Expositor Mostruário Cor Esmalte Unha Artificial
@@ -104,6 +102,8 @@ MLB44072241  Truss Shock Repair - Ampola Capilar 4x17ml
     https://www.mercadolivre.com.br/p/MLB44072241
 MLB22151097  Creme Anti-idade Lucy's Rosa Mosqueta Facial FPS15
     https://www.mercadolivre.com.br/p/MLB22151097
+MLB44149361  pó compacto Ruby Rose Glass Pó Compacto
+    https://www.mercadolivre.com.br/p/MLB44149361
 MLB36811176  Kit Maquiagem Completo Profissional Sarahs Beauty
     https://www.mercadolivre.com.br/p/MLB36811176
 MLB35160300  Pó Iluminador Facial Maquiagem Com Aplicador Magic Esponja
