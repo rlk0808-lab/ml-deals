@@ -1,26 +1,6 @@
 [
   {
     "data": "2026-08-23",
-    "product_id": "MLB19395925",
-    "nome": "Livro Garota Exemplar Gillian Flynn Intrínseca",
-    "preco": 41.1,
-    "preco_original": 43.27,
-    "n_ofertas": 92,
-    "item_id": "MLB4183191773",
-    "seller_id": 738223992,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB19395925",
-    "mediana": 56.9,
-    "minimo_hist": 38.0,
-    "desconto": 27.8,
-    "recorde": false,
-    "imagem": "https://http2.mlstatic.com/D_NQ_NP_902071-MLU74224853951_012024-F.jpg",
-    "tipo": "camada1",
-    "enfileirado_em": "2026-08-23T21:09:29.911275+00:00"
-  },
-  {
-    "data": "2026-08-23",
     "product_id": "MLB22026277",
     "nome": "Box Império Galáctico",
     "preco": 129.9,
