@@ -42,14 +42,14 @@ MLB68652440  Jogo Panelas Cerâmica Antiaderente 05 Pçs Tampa Vidro Bege
     https://www.mercadolivre.com.br/p/MLB68652440
 MLB29032041  Jogo Copos Vidro Suco Agua Aruba 465 Ml Nadir 12 Unidades
     https://www.mercadolivre.com.br/p/MLB29032041
+MLB23258524  Jogo Taças Vidro Diamond Furta Cor 300ml C/6
+    https://www.mercadolivre.com.br/p/MLB23258524
 MLB23053557  Jogo Taças Cristal Titânio 220ml Conjunto 6 Taças Champanhe 
     https://www.mercadolivre.com.br/p/MLB23053557
 MLB66710003  Jogo Taças Transparentes 6 Unidades Suco Agua Vidro 265ml
     https://www.mercadolivre.com.br/p/MLB66710003
 MLB53057773  Jogo Taças Vidro Dourado 200ml 4 Peças Haüskraft Granatta
     https://www.mercadolivre.com.br/p/MLB53057773
-MLB23258524  Jogo Taças Vidro Diamond Furta Cor 300ml C/6
-    https://www.mercadolivre.com.br/p/MLB23258524
 MLB32036042  Conjunto Pratos Fundos Duralex Jasmim Nadir 6 Unidades
     https://www.mercadolivre.com.br/p/MLB32036042
 MLB53775135  Conjunto Pratos De Cerâmica 20cm Sobremesa Raso 4 Unidades
@@ -92,8 +92,6 @@ MLB25836001  Prateleira Parede Tripla 60x25cm Hone Dourado Vulcano
     https://www.mercadolivre.com.br/p/MLB25836001
 MLB44214708  Prateleira Parede Tripla Ferro Madeira Multiuso Cozinha Cor 
     https://www.mercadolivre.com.br/p/MLB44214708
-MLB26685318  Cesto Roupa Suja Dobrável Verde Bhela Decor 57x32x32 cm TNT
-    https://www.mercadolivre.com.br/p/MLB26685318
 MLB26615065  Cesto Roupa Suja Dobrável 3 Compartimentos Meta Parts Alumín
     https://www.mercadolivre.com.br/p/MLB26615065
 MLB61874726  Organizador Porta-Trecos de Carro Impermeável em Poliéster c
@@ -126,3 +124,5 @@ MLB61319820  Eps-160 Kit Faqueiro Dourado Luxo Jogo Talheres Inox 24pçs +
     https://www.mercadolivre.com.br/p/MLB61319820
 MLB24624927  Jogo Copos Vidro Nadir Figueredo Opera 360ml 6 Unidades
     https://www.mercadolivre.com.br/p/MLB24624927
+MLB25683117  Jogo Copos Vidro Nadir Figueiredo Americano 24 Peças 190ml T
+    https://www.mercadolivre.com.br/p/MLB25683117
