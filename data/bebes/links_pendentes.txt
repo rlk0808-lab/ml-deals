@@ -4,7 +4,7 @@ Como usar: abra o link, clique em Compartilhar na barra preta de
 afiliados, copie o link gerado (meli.la/...) e cole em
 data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
-(gerado em 2026-08-24)
+(gerado em 2026-08-25)
 
 ⭐ MLB22663058  Bomba Tira Leite Coletora Manual Kuka Funcional
     https://www.mercadolivre.com.br/p/MLB22663058
@@ -48,6 +48,8 @@ MLB68417753  Creme Pomada De Assadura Óleo Girassol A.g.e 45g Maxi Baby
     https://www.mercadolivre.com.br/p/MLB68417753
 MLB18392729  Fralda Descartável Infantil Pom Pom Clássica G Pacote 24 Uni
     https://www.mercadolivre.com.br/p/MLB18392729
+MLB18392719  Fralda Descartável Turma da Mônica Baby XG Pacote 20 Unidade
+    https://www.mercadolivre.com.br/p/MLB18392719
 MLB43469003  Banheira Bebê Dobrável Portátil Buba Cor Cinza
     https://www.mercadolivre.com.br/p/MLB43469003
 MLB29195932  Mochila Bolsa Lequeen Maternidade Executiva Multifuncional C
@@ -66,8 +68,6 @@ MLB70070912  Mordedor Bebê Macio Resfriável Agua Gelado Gengiva Bebe Buba
     https://www.mercadolivre.com.br/p/MLB70070912
 MLB74300525  Mordedor Bebê Mãozinha E Pezinho Macio Atóxico Pezinho Rosa
     https://www.mercadolivre.com.br/p/MLB74300525
-MLB18392719  Fralda Descartável Turma da Mônica Baby XG Pacote 20 Unidade
-    https://www.mercadolivre.com.br/p/MLB18392719
 MLB18392577  Fralda Descartável Infantil Pom Pom Clássica XG Pacote 20 Un
     https://www.mercadolivre.com.br/p/MLB18392577
 MLB66583684  Colchão Berço Impermeável Espuma D20 70x130x10cm Bela Branco
@@ -108,6 +108,8 @@ MLB36450672  Móbile Berço Bebê Musical E Giratório Animais Da Floresta
     https://www.mercadolivre.com.br/p/MLB36450672
 MLB22936110  Móbile Berço Bebê Musical E Giratório Ovelinha Rosa
     https://www.mercadolivre.com.br/p/MLB22936110
+MLB70628689  Kit Limpeza Mamadeira Bebê Portátil Escovas Suporte Secador 
+    https://www.mercadolivre.com.br/p/MLB70628689
 MLB54201729  Bebê Conforto Cadeirinha Carro Infantil 0 A 13kg Ello Rosa C
     https://www.mercadolivre.com.br/p/MLB54201729
 MLB23059798  Cadeira Alimentação Bebe Cadeirão Galzerano Alta Nick Zoo
@@ -124,5 +126,3 @@ MLB61688382  Canguru Sling Bolsa Bebe Carregador Mochila Cor Rosa Confort
     https://www.mercadolivre.com.br/p/MLB61688382
 MLB42814766  Chocalho Mordedor Bebê Flexível Rosa Looney Tunes BabyGo 3m+
     https://www.mercadolivre.com.br/p/MLB42814766
-MLB32300839  Berloque Carrinho Bebê Azul Prata 925 com Caixa
-    https://www.mercadolivre.com.br/p/MLB32300839
