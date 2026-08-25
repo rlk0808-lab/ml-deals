@@ -6,6 +6,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 (gerado em 2026-08-25)
 
+⭐ MLB40283255  Verity (Edição de colecionador), Colleen Hoover, Galera, Por
+    https://www.mercadolivre.com.br/p/MLB40283255
+⭐ MLB39979760  Box Collen Hoover
+    https://www.mercadolivre.com.br/p/MLB39979760
+⭐ MLB19453772  Verity, Colleen Hoover, Português, Galera, 2021
+    https://www.mercadolivre.com.br/p/MLB19453772
 ⭐ MLB53759056  Box Sandel
     https://www.mercadolivre.com.br/p/MLB53759056
 ⭐ MLB37149234  Biblioteca Nietzsche - Box Com 4 Livros
@@ -18,8 +24,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB19314437
 ⭐ MLB54223613  Diário Oficial De Quarta Asa: Você É Uma Coisinha Bem Violen
     https://www.mercadolivre.com.br/p/MLB54223613
-⭐ MLB20806009  Livro Inferno De Dan Brown Autor De O Código Da Vinci
-    https://www.mercadolivre.com.br/p/MLB20806009
+⭐ MLB46923461  Box Livros Elisabeth Elliot
+    https://www.mercadolivre.com.br/p/MLB46923461
+⭐ MLB20626070  Maternidade Ressurreta Livro - Emily Jensen & Laura Wifler
+    https://www.mercadolivre.com.br/p/MLB20626070
+⭐ MLB51977450  Quarta Asa + Chama De Ferro + Tempestade De Ônix, De Rebecca
+    https://www.mercadolivre.com.br/p/MLB51977450
 ⭐ MLB19362860  Livro Negócios Internacionais, de Guedes, Ana. Editorial Cen
     https://www.mercadolivre.com.br/p/MLB19362860
 ⭐ MLB63740683  Livro: Sua Última Reverência Autor: Arthur Conan Doyle (novo
@@ -34,12 +44,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB21571425
 ⭐ MLB67026463  Livro Grandes Mestres Da Literatura Brasileira
     https://www.mercadolivre.com.br/p/MLB67026463
-MLB40283255  Verity (Edição de colecionador), Colleen Hoover, Galera, Por
-    https://www.mercadolivre.com.br/p/MLB40283255
-MLB19453772  Verity, Colleen Hoover, Português, Galera, 2021
-    https://www.mercadolivre.com.br/p/MLB19453772
-MLB39979760  Box Collen Hoover
-    https://www.mercadolivre.com.br/p/MLB39979760
 MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
     https://www.mercadolivre.com.br/p/MLB36202363
 MLB26355500  Lugar Feliz: Lugar Feliz, De Henry, Emily. Editora Verus, Ca
@@ -62,12 +66,12 @@ MLB19301929  Livro Coração de Aço, de Sanderson, Brandon, vol. 1. Editori
     https://www.mercadolivre.com.br/p/MLB19301929
 MLB54103019  Box Relacionamentos Saudáveis
     https://www.mercadolivre.com.br/p/MLB54103019
-MLB19417207  Livro Negócios: Um assunto de mulheres, de Fontes, Ana, tapa
-    https://www.mercadolivre.com.br/p/MLB19417207
 MLB40957770  A Ciência De Ficar Rico: O Livro Clássico Do Sucesso Finance
     https://www.mercadolivre.com.br/p/MLB40957770
 MLB30188985  Dark One, de Sanderson, Brandon. Editora Poseidon, capa dura
     https://www.mercadolivre.com.br/p/MLB30188985
+MLB19417207  Livro Negócios: Um assunto de mulheres, de Fontes, Ana, tapa
+    https://www.mercadolivre.com.br/p/MLB19417207
 MLB21687753  Livro Negócios Recodificados, de Fisk, Peter. Editorial DVS 
     https://www.mercadolivre.com.br/p/MLB21687753
 MLB21580803  Livro: Pai Contra Mãe - Machado De Assis
@@ -82,22 +86,22 @@ MLB52687637  Box Universo Ziraldo
     https://www.mercadolivre.com.br/p/MLB52687637
 MLB44222588  Box Ernest Hemingway
     https://www.mercadolivre.com.br/p/MLB44222588
-MLB57817554  Box Santo Guerreiro
-    https://www.mercadolivre.com.br/p/MLB57817554
 MLB35365698  Livro Um caso improvável, de Yarros, Rebecca. Editorial Veru
     https://www.mercadolivre.com.br/p/MLB35365698
+MLB57817554  Box Santo Guerreiro
+    https://www.mercadolivre.com.br/p/MLB57817554
 MLB21757672  Livro PAPÉIS AVULSOS - MACHADO DE ASSIS, de Assis, Machado d
     https://www.mercadolivre.com.br/p/MLB21757672
 MLB19309022  O Mundo Perdido. Arthur Conan Doyle. História. Editora Princ
     https://www.mercadolivre.com.br/p/MLB19309022
 MLB23250818  Martin Claret A Relíquia – Eça de Queirós Livro Físico Capa 
     https://www.mercadolivre.com.br/p/MLB23250818
-MLB19744860  Box Coleção Patrícia
-    https://www.mercadolivre.com.br/p/MLB19744860
 MLB20810939  Livro Romance Espírita Preto Como Leite E Branco Como O Café
     https://www.mercadolivre.com.br/p/MLB20810939
 MLB22820495  Livro Quincas Borba - Machado De Assis
     https://www.mercadolivre.com.br/p/MLB22820495
+MLB19744860  Box Coleção Patrícia
+    https://www.mercadolivre.com.br/p/MLB19744860
 MLB30476715  Box Graciliano Ramos
     https://www.mercadolivre.com.br/p/MLB30476715
 MLB54102040  Box Stanislavski
@@ -112,17 +116,13 @@ MLB20760429  Box Lu & Bilu
     https://www.mercadolivre.com.br/p/MLB20760429
 MLB57098569  Livro Percy Jackson e os Olimpianos Crie seu destino De Disn
     https://www.mercadolivre.com.br/p/MLB57098569
-MLB22154240  Livro O Livro Dos 5 Anéis: O Clássico Guia De Estratégia
-    https://www.mercadolivre.com.br/p/MLB22154240
 MLB66305472  Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, 
     https://www.mercadolivre.com.br/p/MLB66305472
+MLB22154240  Livro O Livro Dos 5 Anéis: O Clássico Guia De Estratégia
+    https://www.mercadolivre.com.br/p/MLB22154240
+MLB22156338  Maldições Não Quebradas Livro Rebecca Brown, de Rebecca Brow
+    https://www.mercadolivre.com.br/p/MLB22156338
 MLB19784246  Box 3 Livros Essencial Da Economia *
     https://www.mercadolivre.com.br/p/MLB19784246
 MLB22381340  Livro Dom Casmurro - Machado De Assis
     https://www.mercadolivre.com.br/p/MLB22381340
-MLB22156338  Maldições Não Quebradas Livro Rebecca Brown, de Rebecca Brow
-    https://www.mercadolivre.com.br/p/MLB22156338
-MLB19379986  Livro Contos de Machado de Assis, de Assis, Machado de. Edit
-    https://www.mercadolivre.com.br/p/MLB19379986
-MLB22154835  Box Essencial Quantico
-    https://www.mercadolivre.com.br/p/MLB22154835
