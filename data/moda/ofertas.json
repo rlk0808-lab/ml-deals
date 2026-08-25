@@ -20,8 +20,8 @@
     "data": "2026-08-25",
     "product_id": "MLB68820449",
     "nome": "Conjunto Fitness Feminino Top + Short Cós Alto Com Bolso Zero Transparência Poliamida",
-    "preco": 53.19,
-    "preco_original": 55.99,
+    "preco": 55.99,
+    "preco_original": null,
     "n_ofertas": 7,
     "item_id": "MLB5075744253",
     "seller_id": 2140336061,
@@ -30,8 +30,8 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB68820449",
     "mediana": 100.0,
     "minimo_hist": 53.19,
-    "desconto": 46.8,
-    "recorde": true
+    "desconto": 44.0,
+    "recorde": false
   },
   {
     "data": "2026-08-25",
@@ -82,6 +82,23 @@
     "mediana": 43.05,
     "minimo_hist": 32.0,
     "desconto": 25.7,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-25",
+    "product_id": "MLB66837837",
+    "nome": "Meia Soquete Masculino E Feminino Tamanhos E Cores - Poliéster Algodão Elastano - Ótima Qualidade!",
+    "preco": 29.9,
+    "preco_original": null,
+    "n_ofertas": 3,
+    "item_id": "MLB5127163093",
+    "seller_id": 85963303,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB66837837",
+    "mediana": 37.5,
+    "minimo_hist": 29.9,
+    "desconto": 20.3,
     "recorde": true
   },
   {
