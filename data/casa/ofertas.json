@@ -86,23 +86,6 @@
   },
   {
     "data": "2026-08-25",
-    "product_id": "MLB34821732",
-    "nome": "Jogo Copos Vidro 400ml Âmbar 6 Unidades Wincy Athena Elegante",
-    "preco": 97.9,
-    "preco_original": 142.95,
-    "n_ofertas": 4,
-    "item_id": "MLB3772230871",
-    "seller_id": 762640393,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB34821732",
-    "mediana": 125.0,
-    "minimo_hist": 97.9,
-    "desconto": 21.7,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-25",
     "product_id": "MLB65348184",
     "nome": "Jogo Talheres Faqueiro Dourado Aço Inox 24 Peças Com Maleta",
     "preco": 89.59,
@@ -215,9 +198,9 @@
     "frete_gratis": true,
     "full": true,
     "permalink": "https://www.mercadolivre.com.br/p/MLB57626638",
-    "mediana": 67.99,
+    "mediana": 67.89,
     "minimo_hist": 55.9,
-    "desconto": 17.8,
+    "desconto": 17.7,
     "recorde": true
   },
   {
@@ -236,6 +219,23 @@
     "minimo_hist": 490.0,
     "desconto": 16.9,
     "recorde": true
+  },
+  {
+    "data": "2026-08-25",
+    "product_id": "MLB34821732",
+    "nome": "Jogo Copos Vidro 400ml Âmbar 6 Unidades Wincy Athena Elegante",
+    "preco": 106.13,
+    "preco_original": 142.95,
+    "n_ofertas": 4,
+    "item_id": "MLB3772230871",
+    "seller_id": 762640393,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB34821732",
+    "mediana": 125.0,
+    "minimo_hist": 97.9,
+    "desconto": 15.1,
+    "recorde": false
   },
   {
     "data": "2026-08-25",
