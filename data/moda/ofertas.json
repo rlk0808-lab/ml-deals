@@ -1,6 +1,6 @@
 [
   {
-    "data": "2026-08-24",
+    "data": "2026-08-25",
     "product_id": "MLB70106535",
     "nome": "Blusa Regata Fitness Feminina Ausare para Academia e Treino com Proteção UV50+",
     "preco": 50.0,
@@ -17,7 +17,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-24",
+    "data": "2026-08-25",
     "product_id": "MLB68820449",
     "nome": "Conjunto Fitness Feminino Top + Short Cós Alto Com Bolso Zero Transparência Poliamida",
     "preco": 53.19,
@@ -34,7 +34,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-24",
+    "data": "2026-08-25",
     "product_id": "MLB66992733",
     "nome": "Meia Calça Feminina Térmica Plus Size",
     "preco": 22.54,
@@ -51,7 +51,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-24",
+    "data": "2026-08-25",
     "product_id": "MLB45422545",
     "nome": "Chinelo Masculino Drifter Foam Fila Liso",
     "preco": 101.5,
@@ -68,7 +68,7 @@
     "recorde": false
   },
   {
-    "data": "2026-08-24",
+    "data": "2026-08-25",
     "product_id": "MLB57545342",
     "nome": "Bolsa Masculina Mensageiro Couro Sintético Marrom Ajustável",
     "preco": 32.0,
@@ -85,7 +85,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-24",
+    "data": "2026-08-25",
     "product_id": "MLB45422542",
     "nome": "Chinelo Masculino Drifter Foam Fila Liso",
     "preco": 107.0,
@@ -102,7 +102,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-24",
+    "data": "2026-08-25",
     "product_id": "MLB45422541",
     "nome": "Chinelo Masculino Drifter Foam Fila Liso",
     "preco": 112.16,
@@ -116,6 +116,23 @@
     "mediana": 139.5,
     "minimo_hist": 112.16,
     "desconto": 19.6,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-25",
+    "product_id": "MLB68859694",
+    "nome": "Kit 2 Varais Retrátil Roupa Multiuso Calcinha Cueca Meias Cor Ciano",
+    "preco": 49.8,
+    "preco_original": 60.0,
+    "n_ofertas": 2,
+    "item_id": "MLB7502243710",
+    "seller_id": 48387668,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB68859694",
+    "mediana": 59.9,
+    "minimo_hist": 49.8,
+    "desconto": 16.9,
     "recorde": true
   }
 ]
