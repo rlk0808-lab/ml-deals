@@ -406,8 +406,8 @@
     "_ultima_data_vista": "2026-08-25"
   },
   "MLB75202035": {
-    "menor_preco": 56.33,
-    "data_menor": "2026-08-15",
+    "menor_preco": 56.0,
+    "data_menor": "2026-08-25",
     "primeiro_dia": "2026-07-12",
     "dias_total": 45,
     "_ultima_data_vista": "2026-08-25"
@@ -2985,8 +2985,8 @@
     "menor_preco": 18.2,
     "data_menor": "2026-07-27",
     "primeiro_dia": "2026-07-27",
-    "dias_total": 29,
-    "_ultima_data_vista": "2026-08-24"
+    "dias_total": 30,
+    "_ultima_data_vista": "2026-08-25"
   },
   "MLB19430983": {
     "menor_preco": 27.47,
@@ -3566,8 +3566,8 @@
     "menor_preco": 242.05,
     "data_menor": "2026-08-07",
     "primeiro_dia": "2026-08-07",
-    "dias_total": 18,
-    "_ultima_data_vista": "2026-08-24"
+    "dias_total": 19,
+    "_ultima_data_vista": "2026-08-25"
   },
   "MLB57315640": {
     "menor_preco": 117.52,
