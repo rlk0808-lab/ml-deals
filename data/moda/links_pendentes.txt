@@ -4,14 +4,12 @@ Como usar: abra o link, clique em Compartilhar na barra preta de
 afiliados, copie o link gerado (meli.la/...) e cole em
 data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
-(gerado em 2026-08-25)
+(gerado em 2026-08-26)
 
 ⭐ MLB45474714  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB45474714
 ⭐ MLB70635543  Necessaire Masculina Couro Sintético Premium Preta Reforçado
     https://www.mercadolivre.com.br/p/MLB70635543
-⭐ MLB51529178  Chinelo Feminino Slim Havaianas
-    https://www.mercadolivre.com.br/p/MLB51529178
 ⭐ MLB57596196  Meia Futebol Grip Penalty Cano Alto
     https://www.mercadolivre.com.br/p/MLB57596196
 ⭐ MLB36952189  Elástico Falcon P/ Cós Cintura Cueca Box N30 Rolo 20 Metros 
@@ -44,30 +42,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB59992197
 ⭐ MLB23519736  Laceia Amacia Couro Sapato Jaqueta Estofados Schimandeiro
     https://www.mercadolivre.com.br/p/MLB23519736
-⭐ MLB65529087  Touca Gorro Beanie + Luva Térmica Lã Preta
-    https://www.mercadolivre.com.br/p/MLB65529087
-⭐ MLB44941550  Sandália Rasteira Feminina Dakota Liso
-    https://www.mercadolivre.com.br/p/MLB44941550
-⭐ MLB54249378  50 Zíper Metal 18cm Para Calça Jeans Azul Marinho Cor Azul-m
-    https://www.mercadolivre.com.br/p/MLB54249378
-⭐ MLB65008432  Calça Jeans Azul Claro Masculina Tradicional Elastano Premiu
-    https://www.mercadolivre.com.br/p/MLB65008432
-⭐ MLB51450738  Kit 4 Colmeias Organizadora Calça Jeans Feminina 40x20x15 Co
-    https://www.mercadolivre.com.br/p/MLB51450738
-⭐ MLB73117469  Cinto Segura Camisa Social Invisível Prende Dentro Da Calça 
-    https://www.mercadolivre.com.br/p/MLB73117469
-⭐ MLB73963761  Tinta Para Couro Shake Paint 37ml Acrilex 520 Preto Jaqueta 
-    https://www.mercadolivre.com.br/p/MLB73963761
 ⭐ MLB63525414  Kit 6 Meia Cano Alto P/ Prática De Esporte Futebol Handebol 
     https://www.mercadolivre.com.br/p/MLB63525414
 ⭐ MLB57545342  Bolsa Masculina Mensageiro Couro Sintético Marrom Ajustável
     https://www.mercadolivre.com.br/p/MLB57545342
 ⭐ MLB70106535  Blusa Regata Fitness Feminina Ausare para Academia e Treino 
     https://www.mercadolivre.com.br/p/MLB70106535
-⭐ MLB32034559  Limpa Renova Hidrata Couro De Jaqueta Spray Quick-detail
-    https://www.mercadolivre.com.br/p/MLB32034559
-⭐ MLB77848331  Mochila Mormaii Básica Masculina Reforçada Trabalho Preto
-    https://www.mercadolivre.com.br/p/MLB77848331
+MLB51529178  Chinelo Feminino Slim Havaianas
+    https://www.mercadolivre.com.br/p/MLB51529178
 MLB51529176  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB51529176
 MLB36951560  Elástico Listrado P/ Cós Cueca Box Calcinha Top N40 - 20 Mts
@@ -80,8 +62,6 @@ MLB45851918  Chinelo Masculino Slide Sereno Olympikus
     https://www.mercadolivre.com.br/p/MLB45851918
 MLB45422548  Chinelo Masculino Drifter Foam Fila Liso
     https://www.mercadolivre.com.br/p/MLB45422548
-MLB63656101  Meia Sapatilha Para Beach Tennis Areia Cano Alto Kestal Cor 
-    https://www.mercadolivre.com.br/p/MLB63656101
 MLB45475692  Chinelo Masculino 921 Olympikus
     https://www.mercadolivre.com.br/p/MLB45475692
 MLB45475688  Chinelo Masculino 921 Olympikus
@@ -98,8 +78,12 @@ MLB49798341  Meia Motoqueiro X11 Preta Cano Alto Segunda Pele Conforto Té
     https://www.mercadolivre.com.br/p/MLB49798341
 MLB58240342  Colete Masculino Para Ginecomastia Macom Cor Marrom Amarelad
     https://www.mercadolivre.com.br/p/MLB58240342
+MLB65529087  Touca Gorro Beanie + Luva Térmica Lã Preta
+    https://www.mercadolivre.com.br/p/MLB65529087
 MLB56121586  Meia de Futebol Poker Cano Alto Preta para Treino (Tamanho 3
     https://www.mercadolivre.com.br/p/MLB56121586
+MLB44941550  Sandália Rasteira Feminina Dakota Liso
+    https://www.mercadolivre.com.br/p/MLB44941550
 MLB44951729  Sandália Rasteira Feminina Strass Vizzano
     https://www.mercadolivre.com.br/p/MLB44951729
 MLB44952431  Sandália Rasteira Feminina Strass Vizzano
@@ -108,10 +92,14 @@ MLB44952437  Sandália Rasteira Feminina Strass Vizzano
     https://www.mercadolivre.com.br/p/MLB44952437
 MLB69351916  Meia Esportiva Penalty Cano Alto 330 Branco 39/44
     https://www.mercadolivre.com.br/p/MLB69351916
+MLB54249378  50 Zíper Metal 18cm Para Calça Jeans Azul Marinho Cor Azul-m
+    https://www.mercadolivre.com.br/p/MLB54249378
 MLB45422551  Chinelo Masculino Drifter Foam Fila Liso
     https://www.mercadolivre.com.br/p/MLB45422551
 MLB73436768  Meia Umbro Esportiva Clubes 3/4 Cano Alto Cor Vermelho-Preto
     https://www.mercadolivre.com.br/p/MLB73436768
+MLB63656101  Meia Sapatilha Para Beach Tennis Areia Cano Alto Kestal Cor 
+    https://www.mercadolivre.com.br/p/MLB63656101
 MLB63650458  Meia Sapatilha Para Beach Tennis Areia Cano Alto Kestal Cor 
     https://www.mercadolivre.com.br/p/MLB63650458
 MLB76023089  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz 
@@ -124,5 +112,17 @@ MLB75737119  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz
     https://www.mercadolivre.com.br/p/MLB75737119
 MLB66837837  Meia Soquete Masculino E Feminino Tamanhos E Cores - Poliést
     https://www.mercadolivre.com.br/p/MLB66837837
+MLB65008432  Calça Jeans Azul Claro Masculina Tradicional Elastano Premiu
+    https://www.mercadolivre.com.br/p/MLB65008432
+MLB51450738  Kit 4 Colmeias Organizadora Calça Jeans Feminina 40x20x15 Co
+    https://www.mercadolivre.com.br/p/MLB51450738
 MLB75798851  Kit 2x Camiseta Básica Unissex Algodão 100% Peruano Básica M
     https://www.mercadolivre.com.br/p/MLB75798851
+MLB47536436  Chinelo Masculino Drifter Basic Fila Liso
+    https://www.mercadolivre.com.br/p/MLB47536436
+MLB73117469  Cinto Segura Camisa Social Invisível Prende Dentro Da Calça 
+    https://www.mercadolivre.com.br/p/MLB73117469
+MLB75798849  Kit 2x Camiseta Básica Unissex Algodão 100% Peruano Básica M
+    https://www.mercadolivre.com.br/p/MLB75798849
+MLB73963761  Tinta Para Couro Shake Paint 37ml Acrilex 520 Preto Jaqueta 
+    https://www.mercadolivre.com.br/p/MLB73963761
