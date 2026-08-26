@@ -10,6 +10,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB37149234
 ⭐ MLB53759056  Box Sandel
     https://www.mercadolivre.com.br/p/MLB53759056
+⭐ MLB40283388  Box Alice - Box Com 2 Livros - Edição De Luxo Almofadada
+    https://www.mercadolivre.com.br/p/MLB40283388
 ⭐ MLB19314437  Livro Mistério Sob O Gelo: Uma Aventura Na Antártica De Alex
     https://www.mercadolivre.com.br/p/MLB19314437
 ⭐ MLB54223613  Diário Oficial De Quarta Asa: Você É Uma Coisinha Bem Violen
@@ -40,26 +42,30 @@ MLB19453772  Verity, Colleen Hoover, Português, Galera, 2021
     https://www.mercadolivre.com.br/p/MLB19453772
 MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
     https://www.mercadolivre.com.br/p/MLB36202363
-MLB23661891  Livro-verdade?- Editora Best Seller
-    https://www.mercadolivre.com.br/p/MLB23661891
 MLB26355500  Lugar Feliz: Lugar Feliz, De Henry, Emily. Editora Verus, Ca
     https://www.mercadolivre.com.br/p/MLB26355500
+MLB23661891  Livro-verdade?- Editora Best Seller
+    https://www.mercadolivre.com.br/p/MLB23661891
 MLB19771891  Box Essencial Conquistadores (3 Livros) *
     https://www.mercadolivre.com.br/p/MLB19771891
-MLB25775586  Livro-recarregue-se!- Editora Best Seller
-    https://www.mercadolivre.com.br/p/MLB25775586
+MLB19430983  Livro-streampunks- Editora Best Seller
+    https://www.mercadolivre.com.br/p/MLB19430983
 MLB74807035  Box Trilogia Powerless
     https://www.mercadolivre.com.br/p/MLB74807035
+MLB19272750  Box Totalmente Terror
+    https://www.mercadolivre.com.br/p/MLB19272750
+MLB25775586  Livro-recarregue-se!- Editora Best Seller
+    https://www.mercadolivre.com.br/p/MLB25775586
 MLB21194682  Crie Bons Hábitos: Livre - Se Dos Maus Hábitos
     https://www.mercadolivre.com.br/p/MLB21194682
-MLB19417207  Livro Negócios: Um assunto de mulheres, de Fontes, Ana, tapa
-    https://www.mercadolivre.com.br/p/MLB19417207
-MLB19301929  Livro Coração de Aço, de Sanderson, Brandon, vol. 1. Editori
-    https://www.mercadolivre.com.br/p/MLB19301929
 MLB40957770  A Ciência De Ficar Rico: O Livro Clássico Do Sucesso Finance
     https://www.mercadolivre.com.br/p/MLB40957770
 MLB30188985  Dark One, de Sanderson, Brandon. Editora Poseidon, capa dura
     https://www.mercadolivre.com.br/p/MLB30188985
+MLB19417207  Livro Negócios: Um assunto de mulheres, de Fontes, Ana, tapa
+    https://www.mercadolivre.com.br/p/MLB19417207
+MLB19301929  Livro Coração de Aço, de Sanderson, Brandon, vol. 1. Editori
+    https://www.mercadolivre.com.br/p/MLB19301929
 MLB54103019  Box Relacionamentos Saudáveis
     https://www.mercadolivre.com.br/p/MLB54103019
 MLB21687753  Livro Negócios Recodificados, de Fisk, Peter. Editorial DVS 
@@ -86,16 +92,24 @@ MLB23250818  Martin Claret A Relíquia – Eça de Queirós Livro Físico Capa
     https://www.mercadolivre.com.br/p/MLB23250818
 MLB20810939  Livro Romance Espírita Preto Como Leite E Branco Como O Café
     https://www.mercadolivre.com.br/p/MLB20810939
+MLB19309022  O Mundo Perdido. Arthur Conan Doyle. História. Editora Princ
+    https://www.mercadolivre.com.br/p/MLB19309022
 MLB19744860  Box Coleção Patrícia
     https://www.mercadolivre.com.br/p/MLB19744860
+MLB22820495  Livro Quincas Borba - Machado De Assis
+    https://www.mercadolivre.com.br/p/MLB22820495
 MLB69137659  Box Lottie Brooks (livros 1-4)
     https://www.mercadolivre.com.br/p/MLB69137659
 MLB54102040  Box Stanislavski
     https://www.mercadolivre.com.br/p/MLB54102040
+MLB30476715  Box Graciliano Ramos
+    https://www.mercadolivre.com.br/p/MLB30476715
 MLB21691796  Livro Negócios Eco-lógicos na Era do Greenwashing, de Humair
     https://www.mercadolivre.com.br/p/MLB21691796
 MLB68707420  Livro Desenvolvimento Matemático Na Criança, De Brizuela, Bá
     https://www.mercadolivre.com.br/p/MLB68707420
+MLB21397020  Hábitos Escravizadores - Livro Edward T. Welch
+    https://www.mercadolivre.com.br/p/MLB21397020
 MLB20760429  Box Lu & Bilu
     https://www.mercadolivre.com.br/p/MLB20760429
 MLB57098569  Livro Percy Jackson e os Olimpianos Crie seu destino De Disn
@@ -112,17 +126,3 @@ MLB22154240  Livro O Livro Dos 5 Anéis: O Clássico Guia De Estratégia
     https://www.mercadolivre.com.br/p/MLB22154240
 MLB19379986  Livro Contos de Machado de Assis, de Assis, Machado de. Edit
     https://www.mercadolivre.com.br/p/MLB19379986
-MLB70945977  Livro Hábitos Das Pessoas Eficientes E Felizes
-    https://www.mercadolivre.com.br/p/MLB70945977
-MLB22154835  Box Essencial Quantico
-    https://www.mercadolivre.com.br/p/MLB22154835
-MLB71715115  Livro A Poesia Da Literatura Brasileira: Do Barroco Ao Moder
-    https://www.mercadolivre.com.br/p/MLB71715115
-MLB19444731  Livro - Revival - Stephen King
-    https://www.mercadolivre.com.br/p/MLB19444731
-MLB71604003  Livro Desencantos: Fantasia Dramática
-    https://www.mercadolivre.com.br/p/MLB71604003
-MLB26473013  Livro NEGÓCIOS DE HONRA, de BOB HASSON. Editorial EDICOES E 
-    https://www.mercadolivre.com.br/p/MLB26473013
-MLB19189031  Livro Negócios de família, de Ginsberg, Allen. Editorial Edi
-    https://www.mercadolivre.com.br/p/MLB19189031
