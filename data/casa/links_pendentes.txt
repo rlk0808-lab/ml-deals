@@ -6,6 +6,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 (gerado em 2026-08-26)
 
+⭐ MLB57626638  Sanduicheira Grill Elétrica Antiaderente 750w Potente Cor Ve
+    https://www.mercadolivre.com.br/p/MLB57626638
 ⭐ MLB29118990  Jogo Toalhas Gigante 5pçs Fio Penteado Algodão Egípcio
     https://www.mercadolivre.com.br/p/MLB29118990
 ⭐ MLB58984205  Jogo Panelas Indução Antiaderente Cerâmica Manhattan 5 Peças
@@ -24,6 +26,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB28857262
 ⭐ MLB37993510  Kit Cozinha 5 Potes Herméticos Para Mantimentos Cor Preto
     https://www.mercadolivre.com.br/p/MLB37993510
+⭐ MLB75087991  Jogo Talheres 12 Peças Inox Fratelli Elegante Moderno Rosa C
+    https://www.mercadolivre.com.br/p/MLB75087991
 ⭐ MLB75284955  Jogo Tapetes Cozinha Sofisticada 3 Peças Lavável Trançado Pr
     https://www.mercadolivre.com.br/p/MLB75284955
 ⭐ MLB61874726  Organizador Porta-Trecos de Carro Impermeável em Poliéster c
@@ -42,8 +46,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB41978915
 ⭐ MLB40897301  Jogo Tapetes Cozinha Antiderrapante Geométrico 3 Peças Preto
     https://www.mercadolivre.com.br/p/MLB40897301
-MLB57626638  Sanduicheira Grill Elétrica Antiaderente 750w Potente Cor Ve
-    https://www.mercadolivre.com.br/p/MLB57626638
 MLB29362172  Jogo Toalhas Banho Algodão Egípcio Branco 5 Peças Buddemeyer
     https://www.mercadolivre.com.br/p/MLB29362172
 MLB35716444  Jogo Panelas Antiaderente Multiflon 4 Peças Vermelho com Lei
@@ -66,8 +68,6 @@ MLB53775135  Conjunto Pratos De Cerâmica 20cm Sobremesa Raso 4 Unidades
     https://www.mercadolivre.com.br/p/MLB53775135
 MLB28556623  Potes Herméticos Empilhável Quadrado 4 Unidades - Ou
     https://www.mercadolivre.com.br/p/MLB28556623
-MLB75087991  Jogo Talheres 12 Peças Inox Fratelli Elegante Moderno Rosa C
-    https://www.mercadolivre.com.br/p/MLB75087991
 MLB60085180  Jogo Tapetes Banheiro Antiderrapante Cinza Jolitex Delicato 
     https://www.mercadolivre.com.br/p/MLB60085180
 MLB26532285  Organizador De Carro Encosto Banco Porta Trecos E Tablet Mul
@@ -100,6 +100,8 @@ MLB26615065  Cesto Roupa Suja Dobrável 3 Compartimentos Meta Parts Alumín
     https://www.mercadolivre.com.br/p/MLB26615065
 MLB63252798  Kit Potes Mantimentos Tupperware Floral Hermético para Café 
     https://www.mercadolivre.com.br/p/MLB63252798
+MLB38805103  Sanduicheira Grill Elétrica BeSmart Antiaderente Preto
+    https://www.mercadolivre.com.br/p/MLB38805103
 MLB45302528  Porta Condimentos Temperos Especiarias Gin Organizador Cozin
     https://www.mercadolivre.com.br/p/MLB45302528
 MLB22609351  Nicho Prateleira Parede Arnad 100x20 Cm Branco/branco Cor Br
@@ -114,6 +116,8 @@ MLB38886057  Jogo Talheres 24 Peças Wellmix Aço Inox Branco Cozinha Gavet
     https://www.mercadolivre.com.br/p/MLB38886057
 MLB65276727  Inox Faqueiro Tramontina Jogo Talheres 72 Peças Churrasco Pr
     https://www.mercadolivre.com.br/p/MLB65276727
+MLB61203755  Sanduicheira Grill Elétrica 750w Dupla Antiaderente Sa Black
+    https://www.mercadolivre.com.br/p/MLB61203755
 MLB44771733  Descansos de Panela Ferro Arabesco Preto Kit 2 Peças 14cm
     https://www.mercadolivre.com.br/p/MLB44771733
 MLB50616946  Frigideira Antiaderente Panelas: Frigideira Antiaderente De
@@ -122,7 +126,3 @@ MLB69344144  Faqueiro Jogo Talheres 16 Peças Inox Garfo Faca Colher Inox
     https://www.mercadolivre.com.br/p/MLB69344144
 MLB33314746  Jogo Talheres Dourado Aço Inox Ouro Gold 16 Pçs Premium
     https://www.mercadolivre.com.br/p/MLB33314746
-MLB61319820  Eps-160 Kit Faqueiro Dourado Luxo Jogo Talheres Inox 24pçs +
-    https://www.mercadolivre.com.br/p/MLB61319820
-MLB24624927  Jogo Copos Vidro Nadir Figueredo Opera 360ml 6 Unidades
-    https://www.mercadolivre.com.br/p/MLB24624927
