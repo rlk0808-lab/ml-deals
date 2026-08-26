@@ -1,6 +1,6 @@
 [
   {
-    "data": "2026-08-25",
+    "data": "2026-08-26",
     "product_id": "MLB54222344",
     "nome": "Profundezas, De Rebecca Yarros. Editorial Verus, Capa Mole, Edição 1 Em Português, 2025",
     "preco": 30.0,
@@ -17,7 +17,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-25",
+    "data": "2026-08-26",
     "product_id": "MLB51977450",
     "nome": "Quarta Asa + Chama De Ferro + Tempestade De Ônix, De Rebecca Yarros., Vol. 3. Editorial Planeta Minotauro, Capa Mole, Edição Regular Em Português, 2025",
     "preco": 190.0,
@@ -34,12 +34,12 @@
     "recorde": true
   },
   {
-    "data": "2026-08-25",
+    "data": "2026-08-26",
     "product_id": "MLB19395925",
     "nome": "Livro Garota Exemplar Gillian Flynn Intrínseca",
     "preco": 41.1,
     "preco_original": 43.27,
-    "n_ofertas": 90,
+    "n_ofertas": 89,
     "item_id": "MLB4183191773",
     "seller_id": 738223992,
     "frete_gratis": true,
@@ -51,7 +51,7 @@
     "recorde": false
   },
   {
-    "data": "2026-08-25",
+    "data": "2026-08-26",
     "product_id": "MLB46923461",
     "nome": "Box Livros Elisabeth Elliot",
     "preco": 89.5,
@@ -68,7 +68,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-25",
+    "data": "2026-08-26",
     "product_id": "MLB54223613",
     "nome": "Diário Oficial De Quarta Asa: Você É Uma Coisinha Bem Violenta, Não É?, De Rebecca Yarros. Editorial Planeta Minotauro, Capa Dura, Edição 1 Em Português, 2025",
     "preco": 78.99,
@@ -85,24 +85,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-25",
-    "product_id": "MLB20626070",
-    "nome": "Maternidade Ressurreta Livro - Emily Jensen & Laura Wifler",
-    "preco": 37.5,
-    "preco_original": 75.0,
-    "n_ofertas": 7,
-    "item_id": "MLB6409788974",
-    "seller_id": 774129004,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB20626070",
-    "mediana": 47.9,
-    "minimo_hist": 37.5,
-    "desconto": 21.7,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-25",
+    "data": "2026-08-26",
     "product_id": "MLB19314437",
     "nome": "Livro Mistério Sob O Gelo: Uma Aventura Na Antártica De Alexander Kellner Da Editora Rocco",
     "preco": 22.67,
@@ -119,7 +102,24 @@
     "recorde": false
   },
   {
-    "data": "2026-08-25",
+    "data": "2026-08-26",
+    "product_id": "MLB20626070",
+    "nome": "Maternidade Ressurreta Livro - Emily Jensen & Laura Wifler",
+    "preco": 37.5,
+    "preco_original": 75.0,
+    "n_ofertas": 7,
+    "item_id": "MLB6409788974",
+    "seller_id": 774129004,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB20626070",
+    "mediana": 47.36,
+    "minimo_hist": 37.5,
+    "desconto": 20.8,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-26",
     "product_id": "MLB67026463",
     "nome": "Livro Grandes Mestres Da Literatura Brasileira",
     "preco": 19.0,
@@ -136,7 +136,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-25",
+    "data": "2026-08-26",
     "product_id": "MLB22159910",
     "nome": "Livro Com Fantasia - Fazendo A Festa! Brincando De Cavaleiro",
     "preco": 20.02,
@@ -153,7 +153,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-25",
+    "data": "2026-08-26",
     "product_id": "MLB21570552",
     "nome": "Livro J.r.r. Tolkien O Senhor Da Fantasia - Limited Edition",
     "preco": 120.0,
@@ -170,7 +170,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-25",
+    "data": "2026-08-26",
     "product_id": "MLB53759056",
     "nome": "Box Sandel",
     "preco": 151.93,
@@ -187,7 +187,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-25",
+    "data": "2026-08-26",
     "product_id": "MLB21571425",
     "nome": "Hq Percy Jackson & O Mar De Monstros - Rick Riordan -",
     "preco": 64.68,
@@ -204,7 +204,24 @@
     "recorde": true
   },
   {
-    "data": "2026-08-25",
+    "data": "2026-08-26",
+    "product_id": "MLB19238271",
+    "nome": "Livro Sherlock Holmes Sir Arthur Conan Doyle Edição 1 Português 2013 Melhoramentos",
+    "preco": 25.41,
+    "preco_original": 52.0,
+    "n_ofertas": 43,
+    "item_id": "MLB3966348455",
+    "seller_id": 480263032,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19238271",
+    "mediana": 30.22,
+    "minimo_hist": 15.7,
+    "desconto": 15.9,
+    "recorde": false
+  },
+  {
+    "data": "2026-08-26",
     "product_id": "MLB69137659",
     "nome": "Box Lottie Brooks (livros 1-4)",
     "preco": 159.0,
@@ -221,7 +238,7 @@
     "recorde": false
   },
   {
-    "data": "2026-08-25",
+    "data": "2026-08-26",
     "product_id": "MLB19243809",
     "nome": "Livro Não Há Segunda Chance De Harlan Coben Da Editora Arqueiro",
     "preco": 40.51,
@@ -238,7 +255,7 @@
     "recorde": false
   },
   {
-    "data": "2026-08-25",
+    "data": "2026-08-26",
     "product_id": "MLB63740683",
     "nome": "Livro: Sua Última Reverência Autor: Arthur Conan Doyle (novo, Lacrado), De Arthur Conan Doyle",
     "preco": 27.82,
@@ -255,7 +272,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-25",
+    "data": "2026-08-26",
     "product_id": "MLB19362860",
     "nome": "Livro Negócios Internacionais, de Guedes, Ana. Editorial Cengage Learning Edições Ltda., tapa mole, en português (2007)",
     "preco": 27.82,
@@ -272,7 +289,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-25",
+    "data": "2026-08-26",
     "product_id": "MLB70708977",
     "nome": "Livro: Mistério Da Página 19 Autor: Juarez Machado (novo, Lacrado)",
     "preco": 27.82,
