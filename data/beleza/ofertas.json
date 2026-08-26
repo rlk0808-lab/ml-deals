@@ -5,7 +5,7 @@
     "nome": "Eudora Siage Cica Therapy Leave In Capilar 100ml",
     "preco": 28.5,
     "preco_original": null,
-    "n_ofertas": 67,
+    "n_ofertas": 66,
     "item_id": "MLB7513097652",
     "seller_id": 77869064,
     "frete_gratis": true,
@@ -32,5 +32,39 @@
     "minimo_hist": 17.52,
     "desconto": 20.0,
     "recorde": true
+  },
+  {
+    "data": "2026-08-26",
+    "product_id": "MLB24206231",
+    "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d6 medio - 10g",
+    "preco": 24.9,
+    "preco_original": 69.99,
+    "n_ofertas": 17,
+    "item_id": "MLB5416121378",
+    "seller_id": 2412926691,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB24206231",
+    "mediana": 30.4,
+    "minimo_hist": 21.14,
+    "desconto": 18.1,
+    "recorde": false
+  },
+  {
+    "data": "2026-08-26",
+    "product_id": "MLB24206229",
+    "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d4 claro - 10g",
+    "preco": 22.99,
+    "preco_original": 69.99,
+    "n_ofertas": 18,
+    "item_id": "MLB5416296690",
+    "seller_id": 2412926691,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB24206229",
+    "mediana": 27.99,
+    "minimo_hist": 19.31,
+    "desconto": 17.9,
+    "recorde": false
   }
 ]
