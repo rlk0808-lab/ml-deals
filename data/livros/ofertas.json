@@ -1,6 +1,23 @@
 [
   {
     "data": "2026-08-27",
+    "product_id": "MLB19218126",
+    "nome": "Livro Quatro Estações Stephen King Edição 1 Português 2013 Editora Suma",
+    "preco": 66.45,
+    "preco_original": null,
+    "n_ofertas": 54,
+    "item_id": "MLB5698144934",
+    "seller_id": 2680385104,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19218126",
+    "mediana": 111.68,
+    "minimo_hist": 66.45,
+    "desconto": 40.5,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-27",
     "product_id": "MLB19395937",
     "nome": "Livro Sharp Objects Objetos Cortantes Gillian Flynn",
     "preco": 79.9,
@@ -39,7 +56,7 @@
     "nome": "Box Totalmente Terror",
     "preco": 43.42,
     "preco_original": null,
-    "n_ofertas": 70,
+    "n_ofertas": 69,
     "item_id": "MLB2881261169",
     "seller_id": 231300703,
     "frete_gratis": true,
@@ -73,7 +90,7 @@
     "nome": "Livro Mistério Sob O Gelo: Uma Aventura Na Antártica De Alexander Kellner Da Editora Rocco",
     "preco": 22.67,
     "preco_original": 39.9,
-    "n_ofertas": 14,
+    "n_ofertas": 13,
     "item_id": "MLB3888018327",
     "seller_id": 480263032,
     "frete_gratis": true,
@@ -154,6 +171,23 @@
   },
   {
     "data": "2026-08-27",
+    "product_id": "MLB19395753",
+    "nome": "Livro Ascensão Stephen King 1ª Edição Capa Dura 2019 Português Editora Suma",
+    "preco": 43.45,
+    "preco_original": null,
+    "n_ofertas": 92,
+    "item_id": "MLB5698117940",
+    "seller_id": 2680385104,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19395753",
+    "mediana": 51.94,
+    "minimo_hist": 43.45,
+    "desconto": 16.3,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-27",
     "product_id": "MLB19238271",
     "nome": "Livro Sherlock Holmes Sir Arthur Conan Doyle Edição 1 Português 2013 Melhoramentos",
     "preco": 25.41,
@@ -167,6 +201,23 @@
     "mediana": 30.22,
     "minimo_hist": 15.7,
     "desconto": 15.9,
+    "recorde": false
+  },
+  {
+    "data": "2026-08-27",
+    "product_id": "MLB35759519",
+    "nome": "Livro Mais Sombrio De Stephen King Edição 1 2024 Português Editora Suma",
+    "preco": 63.95,
+    "preco_original": null,
+    "n_ofertas": 98,
+    "item_id": "MLB5788494220",
+    "seller_id": 2680385104,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB35759519",
+    "mediana": 75.94,
+    "minimo_hist": 57.05,
+    "desconto": 15.8,
     "recorde": false
   },
   {
@@ -236,5 +287,22 @@
     "minimo_hist": 27.82,
     "desconto": 15.3,
     "recorde": true
+  },
+  {
+    "data": "2026-08-27",
+    "product_id": "MLB19404453",
+    "nome": "Corte de chamas prateadas Sarah J. Maas Editorial Galera Capa Mole",
+    "preco": 41.13,
+    "preco_original": 55.99,
+    "n_ofertas": 84,
+    "item_id": "MLB4696010327",
+    "seller_id": 139412929,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19404453",
+    "mediana": 48.46,
+    "minimo_hist": 40.88,
+    "desconto": 15.1,
+    "recorde": false
   }
 ]
