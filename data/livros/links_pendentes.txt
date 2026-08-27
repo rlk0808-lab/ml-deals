@@ -6,6 +6,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 (gerado em 2026-08-27)
 
+⭐ MLB37149234  Biblioteca Nietzsche - Box Com 4 Livros
+    https://www.mercadolivre.com.br/p/MLB37149234
 ⭐ MLB53759056  Box Sandel
     https://www.mercadolivre.com.br/p/MLB53759056
 ⭐ MLB19314437  Livro Mistério Sob O Gelo: Uma Aventura Na Antártica De Alex
@@ -26,12 +28,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB19362860
 ⭐ MLB63740683  Livro: Sua Última Reverência Autor: Arthur Conan Doyle (novo
     https://www.mercadolivre.com.br/p/MLB63740683
-⭐ MLB21570552  Livro J.r.r. Tolkien O Senhor Da Fantasia - Limited Edition
-    https://www.mercadolivre.com.br/p/MLB21570552
 ⭐ MLB70708977  Livro: Mistério Da Página 19 Autor: Juarez Machado (novo, La
     https://www.mercadolivre.com.br/p/MLB70708977
-⭐ MLB21571425  Hq Percy Jackson & O Mar De Monstros - Rick Riordan -
-    https://www.mercadolivre.com.br/p/MLB21571425
 ⭐ MLB67026463  Livro Grandes Mestres Da Literatura Brasileira
     https://www.mercadolivre.com.br/p/MLB67026463
 MLB39979760  Box Collen Hoover
@@ -90,20 +88,18 @@ MLB52687637  Box Universo Ziraldo
     https://www.mercadolivre.com.br/p/MLB52687637
 MLB23250818  Martin Claret A Relíquia – Eça de Queirós Livro Físico Capa 
     https://www.mercadolivre.com.br/p/MLB23250818
-MLB37149234  Biblioteca Nietzsche - Box Com 4 Livros
-    https://www.mercadolivre.com.br/p/MLB37149234
 MLB44222588  Box Ernest Hemingway
     https://www.mercadolivre.com.br/p/MLB44222588
 MLB57817554  Box Santo Guerreiro
     https://www.mercadolivre.com.br/p/MLB57817554
-MLB35365698  Livro Um caso improvável, de Yarros, Rebecca. Editorial Veru
-    https://www.mercadolivre.com.br/p/MLB35365698
 MLB21757672  Livro PAPÉIS AVULSOS - MACHADO DE ASSIS, de Assis, Machado d
     https://www.mercadolivre.com.br/p/MLB21757672
-MLB19309022  O Mundo Perdido. Arthur Conan Doyle. História. Editora Princ
-    https://www.mercadolivre.com.br/p/MLB19309022
+MLB35365698  Livro Um caso improvável, de Yarros, Rebecca. Editorial Veru
+    https://www.mercadolivre.com.br/p/MLB35365698
 MLB20810939  Livro Romance Espírita Preto Como Leite E Branco Como O Café
     https://www.mercadolivre.com.br/p/MLB20810939
+MLB19309022  O Mundo Perdido. Arthur Conan Doyle. História. Editora Princ
+    https://www.mercadolivre.com.br/p/MLB19309022
 MLB22820495  Livro Quincas Borba - Machado De Assis
     https://www.mercadolivre.com.br/p/MLB22820495
 MLB19744860  Box Coleção Patrícia
@@ -124,5 +120,9 @@ MLB21397020  Hábitos Escravizadores - Livro Edward T. Welch
     https://www.mercadolivre.com.br/p/MLB21397020
 MLB20760429  Box Lu & Bilu
     https://www.mercadolivre.com.br/p/MLB20760429
+MLB66305472  Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, 
+    https://www.mercadolivre.com.br/p/MLB66305472
 MLB57098569  Livro Percy Jackson e os Olimpianos Crie seu destino De Disn
     https://www.mercadolivre.com.br/p/MLB57098569
+MLB22156338  Maldições Não Quebradas Livro Rebecca Brown, de Rebecca Brow
+    https://www.mercadolivre.com.br/p/MLB22156338
