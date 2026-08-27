@@ -5,7 +5,7 @@
     "nome": "Eudora Siage Cica Therapy Leave In Capilar 100ml",
     "preco": 28.5,
     "preco_original": null,
-    "n_ofertas": 64,
+    "n_ofertas": 67,
     "item_id": "MLB7513097652",
     "seller_id": 77869064,
     "frete_gratis": true,
@@ -14,23 +14,6 @@
     "mediana": 39.36,
     "minimo_hist": 28.5,
     "desconto": 27.6,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-27",
-    "product_id": "MLB19638952",
-    "nome": "Leave In Capilar Siàge Nutri Rose Termoprotetor 100ml Eudora",
-    "preco": 39.87,
-    "preco_original": 55.99,
-    "n_ofertas": 8,
-    "item_id": "MLB7446041752",
-    "seller_id": 261173686,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB19638952",
-    "mediana": 52.99,
-    "minimo_hist": 39.87,
-    "desconto": 24.8,
     "recorde": true
   },
   {
@@ -65,6 +48,23 @@
     "mediana": 21.9,
     "minimo_hist": 17.52,
     "desconto": 20.0,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-27",
+    "product_id": "MLB19638952",
+    "nome": "Leave In Capilar Siàge Nutri Rose Termoprotetor 100ml Eudora",
+    "preco": 39.87,
+    "preco_original": 55.99,
+    "n_ofertas": 8,
+    "item_id": "MLB7446041752",
+    "seller_id": 261173686,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19638952",
+    "mediana": 49.71,
+    "minimo_hist": 39.87,
+    "desconto": 19.8,
     "recorde": true
   }
 ]
