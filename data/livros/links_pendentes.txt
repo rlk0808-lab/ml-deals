@@ -6,12 +6,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 (gerado em 2026-08-27)
 
-⭐ MLB19272750  Box Totalmente Terror
-    https://www.mercadolivre.com.br/p/MLB19272750
 ⭐ MLB37149234  Biblioteca Nietzsche - Box Com 4 Livros
     https://www.mercadolivre.com.br/p/MLB37149234
 ⭐ MLB53759056  Box Sandel
     https://www.mercadolivre.com.br/p/MLB53759056
+⭐ MLB40283388  Box Alice - Box Com 2 Livros - Edição De Luxo Almofadada
+    https://www.mercadolivre.com.br/p/MLB40283388
 ⭐ MLB54223613  Diário Oficial De Quarta Asa: Você É Uma Coisinha Bem Violen
     https://www.mercadolivre.com.br/p/MLB54223613
 ⭐ MLB19314437  Livro Mistério Sob O Gelo: Uma Aventura Na Antártica De Alex
@@ -36,36 +36,50 @@ MLB39979760  Box Collen Hoover
     https://www.mercadolivre.com.br/p/MLB39979760
 MLB40283255  Verity (Edição de colecionador), Colleen Hoover, Galera, Por
     https://www.mercadolivre.com.br/p/MLB40283255
+MLB42934246  Sacramentadora - Sanderson, Brandon - Trama - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB42934246
+MLB19244003  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
+    https://www.mercadolivre.com.br/p/MLB19244003
 MLB19262185  A irmã desaparecida (As Sete Irmãs – Livro 7) - Riley, Lucin
     https://www.mercadolivre.com.br/p/MLB19262185
+MLB63908049  Ponto de impacto - Brown, Dan - Editora Arqueiro - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB63908049
 MLB19262567  As sete irmãs (As Sete Irmãs – Livro 1) - Riley, Lucinda - E
     https://www.mercadolivre.com.br/p/MLB19262567
+MLB63501442  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
+    https://www.mercadolivre.com.br/p/MLB63501442
 MLB19453772  Verity, Colleen Hoover, Português, Galera, 2021
     https://www.mercadolivre.com.br/p/MLB19453772
-MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
-    https://www.mercadolivre.com.br/p/MLB36202363
+MLB48971628  O símbolo perdido (Robert Langdon - Livro 3) - Brown, Dan - 
+    https://www.mercadolivre.com.br/p/MLB48971628
+MLB49114261  O Código Da Vinci (Robert Langdon – Livro 2) - Brown, Dan - 
+    https://www.mercadolivre.com.br/p/MLB49114261
 MLB23661891  Livro-verdade?- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB23661891
+MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
+    https://www.mercadolivre.com.br/p/MLB36202363
 MLB32404954  Psicologia - Butler, Gillian - Editora Unesp - Capa Mole
     https://www.mercadolivre.com.br/p/MLB32404954
 MLB26355500  Lugar Feliz: Lugar Feliz, De Henry, Emily. Editora Verus, Ca
     https://www.mercadolivre.com.br/p/MLB26355500
 MLB19771891  Box Essencial Conquistadores (3 Livros) *
     https://www.mercadolivre.com.br/p/MLB19771891
+MLB48385751  A casa da escuridão eterna - novo suspense do autor de o mas
+    https://www.mercadolivre.com.br/p/MLB48385751
 MLB74807035  Box Trilogia Powerless
     https://www.mercadolivre.com.br/p/MLB74807035
-MLB19430983  Livro-streampunks- Editora Best Seller
-    https://www.mercadolivre.com.br/p/MLB19430983
 MLB25775586  Livro-recarregue-se!- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB25775586
+MLB19430983  Livro-streampunks- Editora Best Seller
+    https://www.mercadolivre.com.br/p/MLB19430983
 MLB21194682  Crie Bons Hábitos: Livre - Se Dos Maus Hábitos
     https://www.mercadolivre.com.br/p/MLB21194682
-MLB54103019  Box Relacionamentos Saudáveis
-    https://www.mercadolivre.com.br/p/MLB54103019
 MLB40957770  A Ciência De Ficar Rico: O Livro Clássico Do Sucesso Finance
     https://www.mercadolivre.com.br/p/MLB40957770
 MLB50105619  Mistborn: O Império Final - Sanderson, Brandon - Trama - Cap
     https://www.mercadolivre.com.br/p/MLB50105619
+MLB54103019  Box Relacionamentos Saudáveis
+    https://www.mercadolivre.com.br/p/MLB54103019
 MLB30188985  Dark One, de Sanderson, Brandon. Editora Poseidon, capa dura
     https://www.mercadolivre.com.br/p/MLB30188985
 MLB19301929  Livro Coração de Aço, de Sanderson, Brandon, vol. 1. Editori
@@ -90,10 +104,10 @@ MLB57817554  Box Santo Guerreiro
     https://www.mercadolivre.com.br/p/MLB57817554
 MLB23250818  Martin Claret A Relíquia – Eça de Queirós Livro Físico Capa 
     https://www.mercadolivre.com.br/p/MLB23250818
-MLB35365698  Livro Um caso improvável, de Yarros, Rebecca. Editorial Veru
-    https://www.mercadolivre.com.br/p/MLB35365698
 MLB21757672  Livro PAPÉIS AVULSOS - MACHADO DE ASSIS, de Assis, Machado d
     https://www.mercadolivre.com.br/p/MLB21757672
+MLB35365698  Livro Um caso improvável, de Yarros, Rebecca. Editorial Veru
+    https://www.mercadolivre.com.br/p/MLB35365698
 MLB19309022  O Mundo Perdido. Arthur Conan Doyle. História. Editora Princ
     https://www.mercadolivre.com.br/p/MLB19309022
 MLB20810939  Livro Romance Espírita Preto Como Leite E Branco Como O Café
@@ -104,8 +118,6 @@ MLB19744860  Box Coleção Patrícia
     https://www.mercadolivre.com.br/p/MLB19744860
 MLB69137659  Box Lottie Brooks (livros 1-4)
     https://www.mercadolivre.com.br/p/MLB69137659
-MLB40283388  Box Alice - Box Com 2 Livros - Edição De Luxo Almofadada
-    https://www.mercadolivre.com.br/p/MLB40283388
 MLB30476715  Box Graciliano Ramos
     https://www.mercadolivre.com.br/p/MLB30476715
 MLB54102040  Box Stanislavski
@@ -114,15 +126,3 @@ MLB21691796  Livro Negócios Eco-lógicos na Era do Greenwashing, de Humair
     https://www.mercadolivre.com.br/p/MLB21691796
 MLB68707420  Livro Desenvolvimento Matemático Na Criança, De Brizuela, Bá
     https://www.mercadolivre.com.br/p/MLB68707420
-MLB21397020  Hábitos Escravizadores - Livro Edward T. Welch
-    https://www.mercadolivre.com.br/p/MLB21397020
-MLB20760429  Box Lu & Bilu
-    https://www.mercadolivre.com.br/p/MLB20760429
-MLB66305472  Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, 
-    https://www.mercadolivre.com.br/p/MLB66305472
-MLB57098569  Livro Percy Jackson e os Olimpianos Crie seu destino De Disn
-    https://www.mercadolivre.com.br/p/MLB57098569
-MLB22156338  Maldições Não Quebradas Livro Rebecca Brown, de Rebecca Brow
-    https://www.mercadolivre.com.br/p/MLB22156338
-MLB19784246  Box 3 Livros Essencial Da Economia *
-    https://www.mercadolivre.com.br/p/MLB19784246
