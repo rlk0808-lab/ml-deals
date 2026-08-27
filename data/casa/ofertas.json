@@ -18,6 +18,23 @@
   },
   {
     "data": "2026-08-27",
+    "product_id": "MLB37993510",
+    "nome": "Kit Cozinha 5 Potes Herméticos Para Mantimentos Cor Preto",
+    "preco": 79.02,
+    "preco_original": null,
+    "n_ofertas": 6,
+    "item_id": "MLB4589784087",
+    "seller_id": 3215776247,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB37993510",
+    "mediana": 144.0,
+    "minimo_hist": 79.02,
+    "desconto": 45.1,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-27",
     "product_id": "MLB53222426",
     "nome": "Frigideira Antiaderente Rizzoflon 16cm Alumínio Teflon para Ovo",
     "preco": 34.16,
@@ -28,9 +45,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB53222426",
-    "mediana": 49.75,
+    "mediana": 49.5,
     "minimo_hist": 33.68,
-    "desconto": 31.3,
+    "desconto": 31.0,
     "recorde": false
   },
   {
@@ -65,23 +82,6 @@
     "mediana": 129.61,
     "minimo_hist": 97.24,
     "desconto": 25.0,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-27",
-    "product_id": "MLB65348184",
-    "nome": "Jogo Talheres Faqueiro Dourado Aço Inox 24 Peças Com Maleta",
-    "preco": 89.59,
-    "preco_original": null,
-    "n_ofertas": 4,
-    "item_id": "MLB7317763470",
-    "seller_id": 2581600876,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB65348184",
-    "mediana": 114.0,
-    "minimo_hist": 89.59,
-    "desconto": 21.4,
     "recorde": true
   },
   {
@@ -222,6 +222,23 @@
   },
   {
     "data": "2026-08-27",
+    "product_id": "MLB65348184",
+    "nome": "Jogo Talheres Faqueiro Dourado Aço Inox 24 Peças Com Maleta",
+    "preco": 89.59,
+    "preco_original": null,
+    "n_ofertas": 4,
+    "item_id": "MLB7317763470",
+    "seller_id": 2581600876,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB65348184",
+    "mediana": 106.86,
+    "minimo_hist": 89.59,
+    "desconto": 16.2,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-27",
     "product_id": "MLB34821732",
     "nome": "Jogo Copos Vidro 400ml Âmbar 6 Unidades Wincy Athena Elegante",
     "preco": 106.13,
@@ -236,22 +253,5 @@
     "minimo_hist": 97.9,
     "desconto": 15.1,
     "recorde": false
-  },
-  {
-    "data": "2026-08-27",
-    "product_id": "MLB29285369",
-    "nome": "Jogo Copos Vidro Nadir Laguna 265ml Kit 24 Unidades Para Sucos",
-    "preco": 97.75,
-    "preco_original": 115.0,
-    "n_ofertas": 2,
-    "item_id": "MLB6556421442",
-    "seller_id": 1174896542,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB29285369",
-    "mediana": 115.0,
-    "minimo_hist": 97.75,
-    "desconto": 15.0,
-    "recorde": true
   }
 ]
