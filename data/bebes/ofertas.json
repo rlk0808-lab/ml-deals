@@ -35,6 +35,23 @@
   },
   {
     "data": "2026-08-28",
+    "product_id": "MLB65371684",
+    "nome": "Bomba Tira Leite Elétrica Rosa Branca",
+    "preco": 44.89,
+    "preco_original": null,
+    "n_ofertas": 4,
+    "item_id": "MLB6989145160",
+    "seller_id": 2534165982,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB65371684",
+    "mediana": 58.99,
+    "minimo_hist": 44.89,
+    "desconto": 23.9,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-28",
     "product_id": "MLB53590313",
     "nome": "Fralda Descartável Geriátrica Confort Master Tamanho M",
     "preco": 73.09,
@@ -48,6 +65,23 @@
     "mediana": 95.93,
     "minimo_hist": 73.09,
     "desconto": 23.8,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-28",
+    "product_id": "MLB25539164",
+    "nome": "Kit mamadeira Bebê Avent Anticólica 125ml 260ml 330ml cor azul",
+    "preco": 97.9,
+    "preco_original": null,
+    "n_ofertas": 10,
+    "item_id": "MLB7045357256",
+    "seller_id": 3276345085,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB25539164",
+    "mediana": 126.0,
+    "minimo_hist": 97.9,
+    "desconto": 22.3,
     "recorde": true
   },
   {
