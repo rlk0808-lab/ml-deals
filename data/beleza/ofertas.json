@@ -1,11 +1,28 @@
 [
   {
     "data": "2026-08-28",
+    "product_id": "MLB24206231",
+    "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d6 medio - 10g",
+    "preco": 21.32,
+    "preco_original": 69.99,
+    "n_ofertas": 18,
+    "item_id": "MLB5024208008",
+    "seller_id": 1937143481,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB24206231",
+    "mediana": 29.9,
+    "minimo_hist": 21.14,
+    "desconto": 28.7,
+    "recorde": false
+  },
+  {
+    "data": "2026-08-28",
     "product_id": "MLB19515339",
     "nome": "Eudora Siage Cica Therapy Leave In Capilar 100ml",
     "preco": 28.5,
     "preco_original": null,
-    "n_ofertas": 70,
+    "n_ofertas": 69,
     "item_id": "MLB7513097652",
     "seller_id": 77869064,
     "frete_gratis": true,
@@ -15,23 +32,6 @@
     "minimo_hist": 28.5,
     "desconto": 27.6,
     "recorde": true
-  },
-  {
-    "data": "2026-08-28",
-    "product_id": "MLB24206231",
-    "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d6 medio - 10g",
-    "preco": 22.0,
-    "preco_original": 69.99,
-    "n_ofertas": 18,
-    "item_id": "MLB4978881596",
-    "seller_id": 116755388,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB24206231",
-    "mediana": 29.9,
-    "minimo_hist": 21.14,
-    "desconto": 26.4,
-    "recorde": false
   },
   {
     "data": "2026-08-28",
@@ -49,6 +49,23 @@
     "minimo_hist": 19.31,
     "desconto": 25.0,
     "recorde": false
+  },
+  {
+    "data": "2026-08-28",
+    "product_id": "MLB68726370",
+    "nome": "Progressiva Capilar Vegana 500ml S/ Formol Agilcap Belletonn",
+    "preco": 126.0,
+    "preco_original": null,
+    "n_ofertas": 4,
+    "item_id": "MLB5151611373",
+    "seller_id": 3202395228,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB68726370",
+    "mediana": 167.9,
+    "minimo_hist": 126.0,
+    "desconto": 25.0,
+    "recorde": true
   },
   {
     "data": "2026-08-28",
