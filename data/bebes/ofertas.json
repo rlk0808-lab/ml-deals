@@ -18,23 +18,6 @@
   },
   {
     "data": "2026-08-28",
-    "product_id": "MLB53590313",
-    "nome": "Fralda Descartável Geriátrica Confort Master Tamanho M",
-    "preco": 73.09,
-    "preco_original": null,
-    "n_ofertas": 2,
-    "item_id": "MLB7087074372",
-    "seller_id": 269401578,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB53590313",
-    "mediana": 118.76,
-    "minimo_hist": 73.09,
-    "desconto": 38.5,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-28",
     "product_id": "MLB22663058",
     "nome": "Bomba Tira Leite Coletora Manual Kuka Funcional",
     "preco": 47.43,
@@ -48,6 +31,23 @@
     "mediana": 71.99,
     "minimo_hist": 47.43,
     "desconto": 34.1,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-28",
+    "product_id": "MLB53590313",
+    "nome": "Fralda Descartável Geriátrica Confort Master Tamanho M",
+    "preco": 73.09,
+    "preco_original": null,
+    "n_ofertas": 2,
+    "item_id": "MLB7087074372",
+    "seller_id": 269401578,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB53590313",
+    "mediana": 95.93,
+    "minimo_hist": 73.09,
+    "desconto": 23.8,
     "recorde": true
   },
   {
@@ -66,39 +66,5 @@
     "minimo_hist": 69.43,
     "desconto": 18.2,
     "recorde": false
-  },
-  {
-    "data": "2026-08-28",
-    "product_id": "MLB21478413",
-    "nome": "Colchão Berço Fa Baby 12x60x130 D-18 Branco",
-    "preco": 246.75,
-    "preco_original": 329.0,
-    "n_ofertas": 2,
-    "item_id": "MLB6908598118",
-    "seller_id": 3024048335,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB21478413",
-    "mediana": 297.97,
-    "minimo_hist": 246.75,
-    "desconto": 17.2,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-28",
-    "product_id": "MLB45837774",
-    "nome": "Kit 5 Pomada de Assadura Bebe Bepantol Baby 60g",
-    "preco": 180.0,
-    "preco_original": null,
-    "n_ofertas": 2,
-    "item_id": "MLB5086707539",
-    "seller_id": 217787769,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB45837774",
-    "mediana": 213.0,
-    "minimo_hist": 180.0,
-    "desconto": 15.5,
-    "recorde": true
   }
 ]
