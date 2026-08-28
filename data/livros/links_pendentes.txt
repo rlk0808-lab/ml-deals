@@ -32,8 +32,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB70708977
 ⭐ MLB67026463  Livro Grandes Mestres Da Literatura Brasileira
     https://www.mercadolivre.com.br/p/MLB67026463
+⭐ MLB19238843  Alta tensão (myron bolitar – livro 10) - Coben, Harlan - Edi
+    https://www.mercadolivre.com.br/p/MLB19238843
 MLB39979760  Box Collen Hoover
     https://www.mercadolivre.com.br/p/MLB39979760
+MLB46039067  Tempestade de Ônix - Yarros, Rebecca - Planeta Minotauro - C
+    https://www.mercadolivre.com.br/p/MLB46039067
 MLB19220755  Trono de Vidro: Reino de Cinzas (Vol. 6) - Maas, Sarah J. - 
     https://www.mercadolivre.com.br/p/MLB19220755
 MLB56693037  De férias com você (Edição especial) - Henry, Emily - Verus 
@@ -70,30 +74,34 @@ MLB63501442  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
     https://www.mercadolivre.com.br/p/MLB63501442
 MLB40647349  A contadora - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB40647349
-MLB19453772  Verity, Colleen Hoover, Português, Galera, 2021
-    https://www.mercadolivre.com.br/p/MLB19453772
 MLB58978641  A Intrusa - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB58978641
 MLB49559264  O acidente - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB49559264
+MLB19453772  Verity, Colleen Hoover, Português, Galera, 2021
+    https://www.mercadolivre.com.br/p/MLB19453772
 MLB48971628  O símbolo perdido (Robert Langdon - Livro 3) - Brown, Dan - 
     https://www.mercadolivre.com.br/p/MLB48971628
 MLB23833503  De férias com você - Henry, Emily - Verus - Capa Mole
     https://www.mercadolivre.com.br/p/MLB23833503
+MLB51031691  Pense duas vezes (Myron Bolitar – Livro 12) - Coben, Harlan 
+    https://www.mercadolivre.com.br/p/MLB51031691
 MLB23661891  Livro-verdade?- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB23661891
 MLB19243995  Inferno (Robert Langdon - Livro 4) - Brown, Dan - Editora Ar
     https://www.mercadolivre.com.br/p/MLB19243995
+MLB64349875  Sem chance de adeus - Coben, Harlan - Editora Arqueiro - Cap
+    https://www.mercadolivre.com.br/p/MLB64349875
 MLB49114261  O Código Da Vinci (Robert Langdon – Livro 2) - Brown, Dan - 
     https://www.mercadolivre.com.br/p/MLB49114261
 MLB32404954  Psicologia - Butler, Gillian - Editora Unesp - Capa Mole
     https://www.mercadolivre.com.br/p/MLB32404954
 MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
     https://www.mercadolivre.com.br/p/MLB36202363
-MLB26355500  Lugar Feliz: Lugar Feliz, De Henry, Emily. Editora Verus, Ca
-    https://www.mercadolivre.com.br/p/MLB26355500
 MLB19771891  Box Essencial Conquistadores (3 Livros) *
     https://www.mercadolivre.com.br/p/MLB19771891
+MLB26355500  Lugar Feliz: Lugar Feliz, De Henry, Emily. Editora Verus, Ca
+    https://www.mercadolivre.com.br/p/MLB26355500
 MLB74807035  Box Trilogia Powerless
     https://www.mercadolivre.com.br/p/MLB74807035
 MLB48385751  A casa da escuridão eterna - novo suspense do autor de o mas
@@ -106,23 +114,15 @@ MLB30894729  Kit Cidade da Lua Crescente - Maas, Sarah J. - Galera - Capa
     https://www.mercadolivre.com.br/p/MLB30894729
 MLB25775586  Livro-recarregue-se!- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB25775586
+MLB19243661  O símbolo perdido (Robert Langdon – Livro 3) - Brown, Dan - 
+    https://www.mercadolivre.com.br/p/MLB19243661
 MLB21194682  Crie Bons Hábitos: Livre - Se Dos Maus Hábitos
     https://www.mercadolivre.com.br/p/MLB21194682
+MLB19244005  Não fale com estranhos - Coben, Harlan - Editora Arqueiro - 
+    https://www.mercadolivre.com.br/p/MLB19244005
+MLB19193143  Livro diário rebelde - Stevens, Gillian - Ciranda Cultural -
+    https://www.mercadolivre.com.br/p/MLB19193143
+MLB58576058  Quarta Asa - Yarros, Rebecca - Planeta Minotauro - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB58576058
 MLB40957770  A Ciência De Ficar Rico: O Livro Clássico Do Sucesso Finance
     https://www.mercadolivre.com.br/p/MLB40957770
-MLB50105619  Mistborn: O Império Final - Sanderson, Brandon - Trama - Cap
-    https://www.mercadolivre.com.br/p/MLB50105619
-MLB50953139  Box Cidade da Lua Crescente - Maas, Sarah J. - Galera - Capa
-    https://www.mercadolivre.com.br/p/MLB50953139
-MLB30188985  Dark One, de Sanderson, Brandon. Editora Poseidon, capa dura
-    https://www.mercadolivre.com.br/p/MLB30188985
-MLB54103019  Box Relacionamentos Saudáveis
-    https://www.mercadolivre.com.br/p/MLB54103019
-MLB19301929  Livro Coração de Aço, de Sanderson, Brandon, vol. 1. Editori
-    https://www.mercadolivre.com.br/p/MLB19301929
-MLB21687753  Livro Negócios Recodificados, de Fisk, Peter. Editorial DVS 
-    https://www.mercadolivre.com.br/p/MLB21687753
-MLB19416643  Sherlock Holmes - O Cão dos Baskerville - Doyle, Arthur Cona
-    https://www.mercadolivre.com.br/p/MLB19416643
-MLB19417207  Livro Negócios: Um assunto de mulheres, de Fontes, Ana, tapa
-    https://www.mercadolivre.com.br/p/MLB19417207

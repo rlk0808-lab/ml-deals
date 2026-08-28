@@ -1,6 +1,23 @@
 [
   {
     "data": "2026-08-28",
+    "product_id": "MLB19238843",
+    "nome": "Alta tensão (myron bolitar – livro 10) - Coben, Harlan - Editora Arqueiro - Capa Mole",
+    "preco": 32.9,
+    "preco_original": null,
+    "n_ofertas": 2,
+    "item_id": "MLB7534682272",
+    "seller_id": 2357196592,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19238843",
+    "mediana": 69.0,
+    "minimo_hist": 32.9,
+    "desconto": 52.3,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-28",
     "product_id": "MLB20685650",
     "nome": "Box De Luxo 6 Livros Sherlock Holmes - Arthur Conan Doyle - Capa Dura",
     "preco": 49.98,
@@ -141,7 +158,7 @@
     "nome": "O Manual Do Mago Frugal Para Sobrevivência Na Inglaterra Medieval: Projeto Secreto #2, De Brandon Sanderson. Editorial Trama, Tapa Dura, Edición 1 En Português, 2024",
     "preco": 89.99,
     "preco_original": null,
-    "n_ofertas": 76,
+    "n_ofertas": 77,
     "item_id": "MLB5147304421",
     "seller_id": 64642586,
     "frete_gratis": true,
