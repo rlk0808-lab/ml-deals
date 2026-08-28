@@ -58,8 +58,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB63525414
 ⭐ MLB70106535  Blusa Regata Fitness Feminina Ausare para Academia e Treino 
     https://www.mercadolivre.com.br/p/MLB70106535
-⭐ MLB65008440  Calça Jeans Masculina Tradicional Elastano Premium Skinny Me
-    https://www.mercadolivre.com.br/p/MLB65008440
 MLB51529178  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB51529178
 MLB51529176  Chinelo Feminino Slim Havaianas
@@ -126,3 +124,5 @@ MLB66837837  Meia Soquete Masculino E Feminino Tamanhos E Cores - Poliést
     https://www.mercadolivre.com.br/p/MLB66837837
 MLB75798851  Kit 2x Camiseta Básica Unissex Algodão 100% Peruano Básica M
     https://www.mercadolivre.com.br/p/MLB75798851
+MLB47536436  Chinelo Masculino Drifter Basic Fila Liso
+    https://www.mercadolivre.com.br/p/MLB47536436
