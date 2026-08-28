@@ -8,10 +8,10 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 ⭐ MLB45474714  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB45474714
-⭐ MLB57596196  Meia Futebol Grip Penalty Cano Alto
-    https://www.mercadolivre.com.br/p/MLB57596196
 ⭐ MLB70635543  Necessaire Masculina Couro Sintético Premium Preta Reforçado
     https://www.mercadolivre.com.br/p/MLB70635543
+⭐ MLB57596196  Meia Futebol Grip Penalty Cano Alto
+    https://www.mercadolivre.com.br/p/MLB57596196
 ⭐ MLB36952189  Elástico Falcon P/ Cós Cintura Cueca Box N30 Rolo 20 Metros 
     https://www.mercadolivre.com.br/p/MLB36952189
 ⭐ MLB29410142  Escova Para Limpar Couro Banco Bota Jaqueta Detailer
@@ -48,6 +48,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB54249378
 ⭐ MLB47536435  Chinelo Masculino Drifter Basic Fila Liso
     https://www.mercadolivre.com.br/p/MLB47536435
+⭐ MLB65008432  Calça Jeans Azul Claro Masculina Tradicional Elastano Premiu
+    https://www.mercadolivre.com.br/p/MLB65008432
+⭐ MLB51450738  Kit 4 Colmeias Organizadora Calça Jeans Feminina 40x20x15 Co
+    https://www.mercadolivre.com.br/p/MLB51450738
+⭐ MLB73117469  Cinto Segura Camisa Social Invisível Prende Dentro Da Calça 
+    https://www.mercadolivre.com.br/p/MLB73117469
 ⭐ MLB63525414  Kit 6 Meia Cano Alto P/ Prática De Esporte Futebol Handebol 
     https://www.mercadolivre.com.br/p/MLB63525414
 ⭐ MLB70106535  Blusa Regata Fitness Feminina Ausare para Academia e Treino 
@@ -118,11 +124,5 @@ MLB75737119  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz
     https://www.mercadolivre.com.br/p/MLB75737119
 MLB66837837  Meia Soquete Masculino E Feminino Tamanhos E Cores - Poliést
     https://www.mercadolivre.com.br/p/MLB66837837
-MLB65008432  Calça Jeans Azul Claro Masculina Tradicional Elastano Premiu
-    https://www.mercadolivre.com.br/p/MLB65008432
-MLB51450738  Kit 4 Colmeias Organizadora Calça Jeans Feminina 40x20x15 Co
-    https://www.mercadolivre.com.br/p/MLB51450738
 MLB75798851  Kit 2x Camiseta Básica Unissex Algodão 100% Peruano Básica M
     https://www.mercadolivre.com.br/p/MLB75798851
-MLB47536436  Chinelo Masculino Drifter Basic Fila Liso
-    https://www.mercadolivre.com.br/p/MLB47536436
