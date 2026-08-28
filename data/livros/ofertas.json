@@ -1,6 +1,6 @@
 [
   {
-    "data": "2026-08-27",
+    "data": "2026-08-28",
     "product_id": "MLB20685650",
     "nome": "Box De Luxo 6 Livros Sherlock Holmes - Arthur Conan Doyle - Capa Dura",
     "preco": 49.98,
@@ -17,7 +17,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-27",
+    "data": "2026-08-28",
     "product_id": "MLB19395937",
     "nome": "Livro Sharp Objects Objetos Cortantes Gillian Flynn",
     "preco": 79.9,
@@ -34,12 +34,12 @@
     "recorde": false
   },
   {
-    "data": "2026-08-27",
+    "data": "2026-08-28",
     "product_id": "MLB19272750",
     "nome": "Box Totalmente Terror",
     "preco": 43.42,
     "preco_original": null,
-    "n_ofertas": 71,
+    "n_ofertas": 69,
     "item_id": "MLB2881261169",
     "seller_id": 231300703,
     "frete_gratis": true,
@@ -51,7 +51,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-27",
+    "data": "2026-08-28",
     "product_id": "MLB54223613",
     "nome": "Diário Oficial De Quarta Asa: Você É Uma Coisinha Bem Violenta, Não É?, De Rebecca Yarros. Editorial Planeta Minotauro, Capa Dura, Edição 1 Em Português, 2025",
     "preco": 78.99,
@@ -68,7 +68,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-27",
+    "data": "2026-08-28",
     "product_id": "MLB19314437",
     "nome": "Livro Mistério Sob O Gelo: Uma Aventura Na Antártica De Alexander Kellner Da Editora Rocco",
     "preco": 22.67,
@@ -85,7 +85,7 @@
     "recorde": false
   },
   {
-    "data": "2026-08-27",
+    "data": "2026-08-28",
     "product_id": "MLB67026463",
     "nome": "Livro Grandes Mestres Da Literatura Brasileira",
     "preco": 19.0,
@@ -102,7 +102,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-27",
+    "data": "2026-08-28",
     "product_id": "MLB51977450",
     "nome": "Quarta Asa + Chama De Ferro + Tempestade De Ônix, De Rebecca Yarros., Vol. 3. Editorial Planeta Minotauro, Capa Mole, Edição Regular Em Português, 2025",
     "preco": 250.0,
@@ -119,7 +119,7 @@
     "recorde": false
   },
   {
-    "data": "2026-08-27",
+    "data": "2026-08-28",
     "product_id": "MLB53759056",
     "nome": "Box Sandel",
     "preco": 151.93,
@@ -136,12 +136,29 @@
     "recorde": true
   },
   {
-    "data": "2026-08-27",
+    "data": "2026-08-28",
+    "product_id": "MLB37310228",
+    "nome": "O Manual Do Mago Frugal Para Sobrevivência Na Inglaterra Medieval: Projeto Secreto #2, De Brandon Sanderson. Editorial Trama, Tapa Dura, Edición 1 En Português, 2024",
+    "preco": 89.99,
+    "preco_original": null,
+    "n_ofertas": 76,
+    "item_id": "MLB5147304421",
+    "seller_id": 64642586,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB37310228",
+    "mediana": 109.98,
+    "minimo_hist": 89.99,
+    "desconto": 18.2,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-28",
     "product_id": "MLB19395753",
     "nome": "Livro Ascensão Stephen King 1ª Edição Capa Dura 2019 Português Editora Suma",
     "preco": 43.45,
     "preco_original": null,
-    "n_ofertas": 94,
+    "n_ofertas": 92,
     "item_id": "MLB5698117940",
     "seller_id": 2680385104,
     "frete_gratis": true,
@@ -153,12 +170,12 @@
     "recorde": true
   },
   {
-    "data": "2026-08-27",
+    "data": "2026-08-28",
     "product_id": "MLB19238271",
     "nome": "Livro Sherlock Holmes Sir Arthur Conan Doyle Edição 1 Português 2013 Melhoramentos",
     "preco": 25.41,
     "preco_original": 52.0,
-    "n_ofertas": 48,
+    "n_ofertas": 47,
     "item_id": "MLB3966348455",
     "seller_id": 480263032,
     "frete_gratis": true,
@@ -170,29 +187,12 @@
     "recorde": false
   },
   {
-    "data": "2026-08-27",
-    "product_id": "MLB19243935",
-    "nome": "Livro Billy Summers Stephen King 1a Edição Capa Mole 2021 Português Editora Suma",
-    "preco": 66.69,
-    "preco_original": 117.9,
-    "n_ofertas": 97,
-    "item_id": "MLB3993329519",
-    "seller_id": 480263032,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB19243935",
-    "mediana": 79.1,
-    "minimo_hist": 66.0,
-    "desconto": 15.7,
-    "recorde": false
-  },
-  {
-    "data": "2026-08-27",
+    "data": "2026-08-28",
     "product_id": "MLB19243809",
     "nome": "Livro Não Há Segunda Chance De Harlan Coben Da Editora Arqueiro",
     "preco": 40.51,
     "preco_original": 69.9,
-    "n_ofertas": 66,
+    "n_ofertas": 65,
     "item_id": "MLB4904549094",
     "seller_id": 480263032,
     "frete_gratis": true,
@@ -204,7 +204,7 @@
     "recorde": false
   },
   {
-    "data": "2026-08-27",
+    "data": "2026-08-28",
     "product_id": "MLB63740683",
     "nome": "Livro: Sua Última Reverência Autor: Arthur Conan Doyle (novo, Lacrado), De Arthur Conan Doyle",
     "preco": 27.82,
@@ -221,7 +221,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-27",
+    "data": "2026-08-28",
     "product_id": "MLB19362860",
     "nome": "Livro Negócios Internacionais, de Guedes, Ana. Editorial Cengage Learning Edições Ltda., tapa mole, en português (2007)",
     "preco": 27.82,
@@ -238,7 +238,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-27",
+    "data": "2026-08-28",
     "product_id": "MLB70708977",
     "nome": "Livro: Mistério Da Página 19 Autor: Juarez Machado (novo, Lacrado)",
     "preco": 27.82,
@@ -252,23 +252,6 @@
     "mediana": 32.85,
     "minimo_hist": 27.82,
     "desconto": 15.3,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-27",
-    "product_id": "MLB19404620",
-    "nome": "Livro Corte De Névoa E Furia Sarah J Maas Volume 2 Edição 35 Português 2016 Editora Galera",
-    "preco": 41.25,
-    "preco_original": 73.0,
-    "n_ofertas": 83,
-    "item_id": "MLB4696003861",
-    "seller_id": 139412929,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB19404620",
-    "mediana": 48.59,
-    "minimo_hist": 41.25,
-    "desconto": 15.1,
     "recorde": true
   }
 ]
