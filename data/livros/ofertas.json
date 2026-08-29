@@ -18,6 +18,23 @@
   },
   {
     "data": "2026-08-29",
+    "product_id": "MLB54223613",
+    "nome": "Diário Oficial De Quarta Asa: Você É Uma Coisinha Bem Violenta, Não É?, De Rebecca Yarros. Editorial Planeta Minotauro, Capa Dura, Edição 1 Em Português, 2025",
+    "preco": 59.9,
+    "preco_original": null,
+    "n_ofertas": 14,
+    "item_id": "MLB5781196440",
+    "seller_id": 620799712,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB54223613",
+    "mediana": 102.82,
+    "minimo_hist": 59.9,
+    "desconto": 41.7,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-29",
     "product_id": "MLB20685650",
     "nome": "Box De Luxo 6 Livros Sherlock Holmes - Arthur Conan Doyle - Capa Dura",
     "preco": 49.98,
@@ -49,23 +66,6 @@
     "minimo_hist": 32.0,
     "desconto": 30.5,
     "recorde": false
-  },
-  {
-    "data": "2026-08-29",
-    "product_id": "MLB54223613",
-    "nome": "Diário Oficial De Quarta Asa: Você É Uma Coisinha Bem Violenta, Não É?, De Rebecca Yarros. Editorial Planeta Minotauro, Capa Dura, Edição 1 Em Português, 2025",
-    "preco": 78.99,
-    "preco_original": null,
-    "n_ofertas": 13,
-    "item_id": "MLB5747956176",
-    "seller_id": 1040976814,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB54223613",
-    "mediana": 102.82,
-    "minimo_hist": 78.99,
-    "desconto": 23.2,
-    "recorde": true
   },
   {
     "data": "2026-08-29",
@@ -184,6 +184,23 @@
     "mediana": 51.94,
     "minimo_hist": 43.45,
     "desconto": 16.3,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-29",
+    "product_id": "MLB19447440",
+    "nome": "Livro Mistério em Verdejantes, de Rodrigues, Severino. Cortez Editora e Livraria LTDA, capa mole (2017)",
+    "preco": 47.9,
+    "preco_original": 64.0,
+    "n_ofertas": 7,
+    "item_id": "MLB4969399043",
+    "seller_id": 480263032,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19447440",
+    "mediana": 57.12,
+    "minimo_hist": 47.9,
+    "desconto": 16.1,
     "recorde": true
   },
   {
