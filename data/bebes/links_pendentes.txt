@@ -14,8 +14,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB69868490
 ⭐ MLB62842938  Canguru Sling De Bebe Carregar Recem Nascido Dry Fit Furadin
     https://www.mercadolivre.com.br/p/MLB62842938
-⭐ MLB53590313  Fralda Descartável Geriátrica Confort Master Tamanho M
-    https://www.mercadolivre.com.br/p/MLB53590313
 ⭐ MLB63183742  Sling Bebê Canguru Bebe Sling Para Recem Nascido Premium - M
     https://www.mercadolivre.com.br/p/MLB63183742
 MLB35495841  Bomba tira leite materno Elétrica G-TECH - Bivolt
@@ -62,8 +60,6 @@ MLB29195932  Mochila Bolsa Lequeen Maternidade Executiva Multifuncional C
     https://www.mercadolivre.com.br/p/MLB29195932
 MLB32385853  Mordedor Bebe Bananinha - Massageador Escovinha Cor Amarelo
     https://www.mercadolivre.com.br/p/MLB32385853
-MLB32330033  Chocalho Mordedor Bebê Corinthians Kids Gol Silicone
-    https://www.mercadolivre.com.br/p/MLB32330033
 MLB25541567  Bola Chocalho Mordedor Bebe Unissex Pimpolho Cor Vermelho
     https://www.mercadolivre.com.br/p/MLB25541567
 MLB23888076  KaBaby Bomba tira leite Elétrica Vestível Transparente
@@ -86,6 +82,8 @@ MLB43486094  Banheira Bebê Dobrável Portátil Buba Cor Azul
     https://www.mercadolivre.com.br/p/MLB43486094
 MLB29439967  Mochila Bolsa Maternidade Jeans Cinza Lovely Baby Unik
     https://www.mercadolivre.com.br/p/MLB29439967
+MLB32330033  Chocalho Mordedor Bebê Corinthians Kids Gol Silicone
+    https://www.mercadolivre.com.br/p/MLB32330033
 MLB25903037  Luva Mordedor Bebê Bambino Bebe Silicone Azul Sem BPA 4 Mese
     https://www.mercadolivre.com.br/p/MLB25903037
 MLB24670405  Alicate Pregar Aplicar Botão Metal 35 Body Roupa Bebê Tictac
@@ -126,3 +124,5 @@ MLB49767281  Colchão Berço Arkell Espuma D20 70x130 cm Branco Antialérgic
     https://www.mercadolivre.com.br/p/MLB49767281
 MLB22848080  Capa De Colchão Berço Ibitex Em Malha Gel Lisa Com Ziper
     https://www.mercadolivre.com.br/p/MLB22848080
+MLB51307528  Cercadinho Bebê Grande Chiqueirinho Infantil Cercado 180x150
+    https://www.mercadolivre.com.br/p/MLB51307528
