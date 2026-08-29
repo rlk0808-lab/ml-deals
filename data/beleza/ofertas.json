@@ -1,20 +1,37 @@
 [
   {
     "data": "2026-08-29",
-    "product_id": "MLB24206231",
-    "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d6 medio - 10g",
-    "preco": 21.32,
+    "product_id": "MLB24206229",
+    "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d4 claro - 10g",
+    "preco": 18.41,
     "preco_original": 69.99,
     "n_ofertas": 18,
-    "item_id": "MLB5024208008",
+    "item_id": "MLB3829113165",
+    "seller_id": 1937143481,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB24206229",
+    "mediana": 27.99,
+    "minimo_hist": 18.41,
+    "desconto": 34.2,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-29",
+    "product_id": "MLB24206231",
+    "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d6 medio - 10g",
+    "preco": 20.45,
+    "preco_original": 69.99,
+    "n_ofertas": 19,
+    "item_id": "MLB5059221356",
     "seller_id": 1937143481,
     "frete_gratis": true,
     "full": true,
     "permalink": "https://www.mercadolivre.com.br/p/MLB24206231",
     "mediana": 29.9,
-    "minimo_hist": 21.14,
-    "desconto": 28.7,
-    "recorde": false
+    "minimo_hist": 20.45,
+    "desconto": 31.6,
+    "recorde": true
   },
   {
     "data": "2026-08-29",
@@ -49,23 +66,6 @@
     "minimo_hist": 28.5,
     "desconto": 27.6,
     "recorde": true
-  },
-  {
-    "data": "2026-08-29",
-    "product_id": "MLB24206229",
-    "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d4 claro - 10g",
-    "preco": 21.0,
-    "preco_original": 69.99,
-    "n_ofertas": 18,
-    "item_id": "MLB4980206442",
-    "seller_id": 1326080521,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB24206229",
-    "mediana": 27.99,
-    "minimo_hist": 19.31,
-    "desconto": 25.0,
-    "recorde": false
   },
   {
     "data": "2026-08-29",
