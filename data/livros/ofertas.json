@@ -209,7 +209,7 @@
     "nome": "Livro Sherlock Holmes Sir Arthur Conan Doyle Edição 1 Português 2013 Melhoramentos",
     "preco": 25.41,
     "preco_original": 52.0,
-    "n_ofertas": 48,
+    "n_ofertas": 49,
     "item_id": "MLB3966348455",
     "seller_id": 480263032,
     "frete_gratis": true,
@@ -286,6 +286,23 @@
     "mediana": 32.85,
     "minimo_hist": 27.82,
     "desconto": 15.3,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-29",
+    "product_id": "MLB75202035",
+    "nome": "Livro A Figura, Por Natalia Frecco - Terror e Suspense | Editorial Maquinaria, 2026",
+    "preco": 53.9,
+    "preco_original": null,
+    "n_ofertas": 53,
+    "item_id": "MLB7544179520",
+    "seller_id": 247707669,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB75202035",
+    "mediana": 63.5,
+    "minimo_hist": 53.9,
+    "desconto": 15.1,
     "recorde": true
   }
 ]
