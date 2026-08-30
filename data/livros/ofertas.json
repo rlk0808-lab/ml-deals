@@ -1,23 +1,6 @@
 [
   {
     "data": "2026-08-30",
-    "product_id": "MLB19238843",
-    "nome": "Alta tensão (myron bolitar – livro 10) - Coben, Harlan - Editora Arqueiro - Capa Mole",
-    "preco": 32.9,
-    "preco_original": null,
-    "n_ofertas": 2,
-    "item_id": "MLB7534682272",
-    "seller_id": 2357196592,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB19238843",
-    "mediana": 69.0,
-    "minimo_hist": 32.9,
-    "desconto": 52.3,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-30",
     "product_id": "MLB54223613",
     "nome": "Diário Oficial De Quarta Asa: Você É Uma Coisinha Bem Violenta, Não É?, De Rebecca Yarros. Editorial Planeta Minotauro, Capa Dura, Edição 1 Em Português, 2025",
     "preco": 59.9,
@@ -141,7 +124,7 @@
     "nome": "O Manual Do Mago Frugal Para Sobrevivência Na Inglaterra Medieval: Projeto Secreto #2, De Brandon Sanderson. Editorial Trama, Tapa Dura, Edición 1 En Português, 2024",
     "preco": 89.99,
     "preco_original": null,
-    "n_ofertas": 81,
+    "n_ofertas": 80,
     "item_id": "MLB5147304421",
     "seller_id": 64642586,
     "frete_gratis": true,
@@ -286,23 +269,6 @@
     "mediana": 32.85,
     "minimo_hist": 27.82,
     "desconto": 15.3,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-30",
-    "product_id": "MLB75202035",
-    "nome": "Livro A Figura, Por Natalia Frecco - Terror e Suspense | Editorial Maquinaria, 2026",
-    "preco": 53.9,
-    "preco_original": null,
-    "n_ofertas": 54,
-    "item_id": "MLB7544179520",
-    "seller_id": 247707669,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB75202035",
-    "mediana": 63.5,
-    "minimo_hist": 53.9,
-    "desconto": 15.1,
     "recorde": true
   }
 ]
