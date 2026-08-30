@@ -76,8 +76,6 @@ MLB19220773  Trono de Vidro: Herdeira do fogo (Vol. 3) - Maas, Sarah J. -
     https://www.mercadolivre.com.br/p/MLB19220773
 MLB65917466  Sem volta - Henry, Emily - Verus - Capa Mole
     https://www.mercadolivre.com.br/p/MLB65917466
-MLB19262567  As sete irmãs (As Sete Irmãs – Livro 1) - Riley, Lucinda - E
-    https://www.mercadolivre.com.br/p/MLB19262567
 MLB53665702  O namorado - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB53665702
 MLB69618968  Jantar sinistro - McFadden, Freida - Record - Capa Mole
@@ -86,12 +84,16 @@ MLB75861265  Ala D - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB75861265
 MLB47100376  Cidade em ruínas – Thriller de máfia e a conclusão eletrizan
     https://www.mercadolivre.com.br/p/MLB47100376
-MLB19238733  Coleção Agatha Christie - Box 6 - Christie, Agatha - HarperC
-    https://www.mercadolivre.com.br/p/MLB19238733
+MLB19262567  As sete irmãs (As Sete Irmãs – Livro 1) - Riley, Lucinda - E
+    https://www.mercadolivre.com.br/p/MLB19262567
 MLB58978641  A Intrusa - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB58978641
 MLB19405210  Corte de espinhos e rosas (Vol. 1) - Maas, Sarah J. - Galera
     https://www.mercadolivre.com.br/p/MLB19405210
+MLB19238733  Coleção Agatha Christie - Box 6 - Christie, Agatha - HarperC
+    https://www.mercadolivre.com.br/p/MLB19238733
+MLB24095614  Corte de chamas prateadas (Vol. 5 – Edição especial) - Maas,
+    https://www.mercadolivre.com.br/p/MLB24095614
 MLB19453772  Verity, Colleen Hoover, Português, Galera, 2021
     https://www.mercadolivre.com.br/p/MLB19453772
 MLB63501442  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
@@ -104,8 +106,6 @@ MLB74445340  Não se deixe enganar - Coben, Harlan - Editora Arqueiro - Ca
     https://www.mercadolivre.com.br/p/MLB74445340
 MLB41390492  A professora - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB41390492
-MLB24095614  Corte de chamas prateadas (Vol. 5 – Edição especial) - Maas,
-    https://www.mercadolivre.com.br/p/MLB24095614
 MLB48971628  O símbolo perdido (Robert Langdon - Livro 3) - Brown, Dan - 
     https://www.mercadolivre.com.br/p/MLB48971628
 MLB23833503  De férias com você - Henry, Emily - Verus - Capa Mole
@@ -116,8 +116,6 @@ MLB23661891  Livro-verdade?- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB23661891
 MLB43965638  O detento - McFadden, Freida - Editora Arqueiro - Capa Mole
     https://www.mercadolivre.com.br/p/MLB43965638
-MLB30891471  Cidade dos sonhos – Thriller de máfia sobre os perigos de Ho
-    https://www.mercadolivre.com.br/p/MLB30891471
 MLB19243995  Inferno (Robert Langdon - Livro 4) - Brown, Dan - Editora Ar
     https://www.mercadolivre.com.br/p/MLB19243995
 MLB66963300  A ex - McFadden, Freida - Editora Arqueiro - Capa Mole
@@ -126,3 +124,5 @@ MLB63076501  Ecos da floresta – Livro vencedor do prêmio Goodreads e elei
     https://www.mercadolivre.com.br/p/MLB63076501
 MLB49114261  O Código Da Vinci (Robert Langdon – Livro 2) - Brown, Dan - 
     https://www.mercadolivre.com.br/p/MLB49114261
+MLB64349875  Sem chance de adeus - Coben, Harlan - Editora Arqueiro - Cap
+    https://www.mercadolivre.com.br/p/MLB64349875
