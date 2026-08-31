@@ -1349,5 +1349,12 @@
     "primeiro_dia": "2026-08-30",
     "dias_total": 2,
     "_ultima_data_vista": "2026-08-31"
+  },
+  "MLB78433271": {
+    "menor_preco": 35.92,
+    "data_menor": "2026-08-31",
+    "primeiro_dia": "2026-08-31",
+    "dias_total": 1,
+    "_ultima_data_vista": "2026-08-31"
   }
 }
