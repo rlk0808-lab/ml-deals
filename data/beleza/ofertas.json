@@ -1,6 +1,23 @@
 [
   {
     "data": "2026-08-31",
+    "product_id": "MLB19777775",
+    "nome": "Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g",
+    "preco": 162.06,
+    "preco_original": null,
+    "n_ofertas": 8,
+    "item_id": "MLB4945098371",
+    "seller_id": 3206280754,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19777775",
+    "mediana": 259.0,
+    "minimo_hist": 162.06,
+    "desconto": 37.4,
+    "recorde": true
+  },
+  {
+    "data": "2026-08-31",
     "product_id": "MLB24206231",
     "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d6 medio - 10g",
     "preco": 21.32,
@@ -66,6 +83,23 @@
     "minimo_hist": 126.0,
     "desconto": 25.0,
     "recorde": true
+  },
+  {
+    "data": "2026-08-31",
+    "product_id": "MLB26540613",
+    "nome": "Caneta Lápis Sobrancelha Líquido À Prova D'água Cor Marrom-escuro nº 2",
+    "preco": 20.8,
+    "preco_original": 21.9,
+    "n_ofertas": 2,
+    "item_id": "MLB7405337014",
+    "seller_id": 296699829,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB26540613",
+    "mediana": 26.57,
+    "minimo_hist": 17.46,
+    "desconto": 21.7,
+    "recorde": false
   },
   {
     "data": "2026-08-31",
