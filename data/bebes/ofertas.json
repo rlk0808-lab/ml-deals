@@ -83,5 +83,22 @@
     "minimo_hist": 69.43,
     "desconto": 18.3,
     "recorde": false
+  },
+  {
+    "data": "2026-08-31",
+    "product_id": "MLB18392616",
+    "nome": "Fralda Descartável Turma da Mônica Baby G Pacote 24 Unidades",
+    "preco": 23.66,
+    "preco_original": 43.01,
+    "n_ofertas": 9,
+    "item_id": "MLB4075350648",
+    "seller_id": 179105330,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB18392616",
+    "mediana": 28.44,
+    "minimo_hist": 23.66,
+    "desconto": 16.8,
+    "recorde": true
   }
 ]
