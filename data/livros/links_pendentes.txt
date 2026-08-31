@@ -8,8 +8,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 ⭐ MLB19272750  Box Totalmente Terror
     https://www.mercadolivre.com.br/p/MLB19272750
-⭐ MLB50105619  Mistborn: O Império Final - Sanderson, Brandon - Trama - Cap
-    https://www.mercadolivre.com.br/p/MLB50105619
+⭐ MLB37149234  Biblioteca Nietzsche - Box Com 4 Livros
+    https://www.mercadolivre.com.br/p/MLB37149234
 ⭐ MLB53759056  Box Sandel
     https://www.mercadolivre.com.br/p/MLB53759056
 ⭐ MLB40283388  Box Alice - Box Com 2 Livros - Edição De Luxo Almofadada
@@ -58,6 +58,8 @@ MLB19220733  Trono de Vidro: Império de Tempestades (Vol. 5) - Maas, Sara
     https://www.mercadolivre.com.br/p/MLB19220733
 MLB19244003  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
     https://www.mercadolivre.com.br/p/MLB19244003
+MLB21082455  Cidade em chamas – Thriller de máfia com uma narrativa envol
+    https://www.mercadolivre.com.br/p/MLB21082455
 MLB63908049  Ponto de impacto - Brown, Dan - Editora Arqueiro - Capa Mole
     https://www.mercadolivre.com.br/p/MLB63908049
 MLB47627533  Dele e Dela - Livro que inspirou o thriller de sucesso da Ne
@@ -76,22 +78,22 @@ MLB19262185  A irmã desaparecida (As Sete Irmãs – Livro 7) - Riley, Lucin
     https://www.mercadolivre.com.br/p/MLB19262185
 MLB69618968  Jantar sinistro - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB69618968
+MLB63501442  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
+    https://www.mercadolivre.com.br/p/MLB63501442
 MLB53665702  O namorado - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB53665702
 MLB75861265  Ala D - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB75861265
+MLB19262567  As sete irmãs (As Sete Irmãs – Livro 1) - Riley, Lucinda - E
+    https://www.mercadolivre.com.br/p/MLB19262567
 MLB19405210  Corte de espinhos e rosas (Vol. 1) - Maas, Sarah J. - Galera
     https://www.mercadolivre.com.br/p/MLB19405210
 MLB19238733  Coleção Agatha Christie - Box 6 - Christie, Agatha - HarperC
     https://www.mercadolivre.com.br/p/MLB19238733
 MLB19453772  Verity, Colleen Hoover, Português, Galera, 2021
     https://www.mercadolivre.com.br/p/MLB19453772
-MLB19262567  As sete irmãs (As Sete Irmãs – Livro 1) - Riley, Lucinda - E
-    https://www.mercadolivre.com.br/p/MLB19262567
 MLB48971628  O símbolo perdido (Robert Langdon - Livro 3) - Brown, Dan - 
     https://www.mercadolivre.com.br/p/MLB48971628
-MLB63501442  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
-    https://www.mercadolivre.com.br/p/MLB63501442
 MLB40647349  A contadora - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB40647349
 MLB58978641  A Intrusa - McFadden, Freida - Record - Capa Mole
@@ -106,23 +108,21 @@ MLB51031691  Pense duas vezes (Myron Bolitar – Livro 12) - Coben, Harlan
     https://www.mercadolivre.com.br/p/MLB51031691
 MLB41390492  A professora - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB41390492
+MLB47100376  Cidade em ruínas – Thriller de máfia e a conclusão eletrizan
+    https://www.mercadolivre.com.br/p/MLB47100376
 MLB24095614  Corte de chamas prateadas (Vol. 5 – Edição especial) - Maas,
     https://www.mercadolivre.com.br/p/MLB24095614
-MLB23661891  Livro-verdade?- Editora Best Seller
-    https://www.mercadolivre.com.br/p/MLB23661891
 MLB43965638  O detento - McFadden, Freida - Editora Arqueiro - Capa Mole
     https://www.mercadolivre.com.br/p/MLB43965638
 MLB63076501  Ecos da floresta – Livro vencedor do prêmio Goodreads e elei
     https://www.mercadolivre.com.br/p/MLB63076501
+MLB23661891  Livro-verdade?- Editora Best Seller
+    https://www.mercadolivre.com.br/p/MLB23661891
 MLB64349875  Sem chance de adeus - Coben, Harlan - Editora Arqueiro - Cap
     https://www.mercadolivre.com.br/p/MLB64349875
 MLB66963300  A ex - McFadden, Freida - Editora Arqueiro - Capa Mole
     https://www.mercadolivre.com.br/p/MLB66963300
+MLB19238731  Coleção Agatha Christie - Box 5 - Christie, Agatha - HarperC
+    https://www.mercadolivre.com.br/p/MLB19238731
 MLB47075033  Uma vida e tanto - Henry, Emily - Verus - Capa Mole
     https://www.mercadolivre.com.br/p/MLB47075033
-MLB19771891  Box Essencial Conquistadores (3 Livros) *
-    https://www.mercadolivre.com.br/p/MLB19771891
-MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
-    https://www.mercadolivre.com.br/p/MLB36202363
-MLB49114261  O Código Da Vinci (Robert Langdon – Livro 2) - Brown, Dan - 
-    https://www.mercadolivre.com.br/p/MLB49114261
