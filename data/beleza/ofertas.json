@@ -1,40 +1,6 @@
 [
   {
     "data": "2026-08-31",
-    "product_id": "MLB19777775",
-    "nome": "Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g",
-    "preco": 162.06,
-    "preco_original": null,
-    "n_ofertas": 8,
-    "item_id": "MLB4945098371",
-    "seller_id": 3206280754,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB19777775",
-    "mediana": 259.0,
-    "minimo_hist": 162.06,
-    "desconto": 37.4,
-    "recorde": true
-  },
-  {
-    "data": "2026-08-31",
-    "product_id": "MLB24206231",
-    "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d6 medio - 10g",
-    "preco": 21.32,
-    "preco_original": 69.99,
-    "n_ofertas": 19,
-    "item_id": "MLB5024208008",
-    "seller_id": 1937143481,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB24206231",
-    "mediana": 29.9,
-    "minimo_hist": 20.45,
-    "desconto": 28.7,
-    "recorde": false
-  },
-  {
-    "data": "2026-08-31",
     "product_id": "MLB19515339",
     "nome": "Eudora Siage Cica Therapy Leave In Capilar 100ml",
     "preco": 28.5,
@@ -49,6 +15,23 @@
     "minimo_hist": 28.5,
     "desconto": 27.6,
     "recorde": true
+  },
+  {
+    "data": "2026-08-31",
+    "product_id": "MLB24206231",
+    "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d6 medio - 10g",
+    "preco": 21.69,
+    "preco_original": 69.99,
+    "n_ofertas": 19,
+    "item_id": "MLB5065471618",
+    "seller_id": 1930606443,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB24206231",
+    "mediana": 29.9,
+    "minimo_hist": 20.45,
+    "desconto": 27.5,
+    "recorde": false
   },
   {
     "data": "2026-08-31",
@@ -100,23 +83,6 @@
     "minimo_hist": 17.52,
     "desconto": 20.0,
     "recorde": true
-  },
-  {
-    "data": "2026-08-31",
-    "product_id": "MLB24206229",
-    "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d4 claro - 10g",
-    "preco": 23.25,
-    "preco_original": 69.99,
-    "n_ofertas": 18,
-    "item_id": "MLB5059279610",
-    "seller_id": 1937143481,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB24206229",
-    "mediana": 27.99,
-    "minimo_hist": 18.41,
-    "desconto": 16.9,
-    "recorde": false
   },
   {
     "data": "2026-08-31",
