@@ -26,20 +26,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB19395937
 ⭐ MLB19447440  Livro Mistério em Verdejantes, de Rodrigues, Severino. Corte
     https://www.mercadolivre.com.br/p/MLB19447440
-⭐ MLB20806009  Livro Inferno De Dan Brown Autor De O Código Da Vinci
-    https://www.mercadolivre.com.br/p/MLB20806009
 ⭐ MLB30178527  Livro - Sherlock Holmes Vol.3 - Arthur Conan - Capa Dura: Nã
     https://www.mercadolivre.com.br/p/MLB30178527
 ⭐ MLB19362860  Livro Negócios Internacionais, de Guedes, Ana. Editorial Cen
     https://www.mercadolivre.com.br/p/MLB19362860
 ⭐ MLB63740683  Livro: Sua Última Reverência Autor: Arthur Conan Doyle (novo
     https://www.mercadolivre.com.br/p/MLB63740683
-⭐ MLB22889433  Livro - Um Corpo Na Biblioteca - Agatha Christie - Capa Dura
-    https://www.mercadolivre.com.br/p/MLB22889433
-⭐ MLB70708977  Livro: Mistério Da Página 19 Autor: Juarez Machado (novo, La
-    https://www.mercadolivre.com.br/p/MLB70708977
-⭐ MLB67026463  Livro Grandes Mestres Da Literatura Brasileira
-    https://www.mercadolivre.com.br/p/MLB67026463
 MLB39979760  Box Collen Hoover
     https://www.mercadolivre.com.br/p/MLB39979760
 MLB46039067  Tempestade de Ônix - Yarros, Rebecca - Planeta Minotauro - C
@@ -80,28 +72,28 @@ MLB19220773  Trono de Vidro: Herdeira do fogo (Vol. 3) - Maas, Sarah J. -
     https://www.mercadolivre.com.br/p/MLB19220773
 MLB68307771  As coisas belas e preciosas - Yarros, Rebecca - Editora Arqu
     https://www.mercadolivre.com.br/p/MLB68307771
-MLB65917466  Sem volta - Henry, Emily - Verus - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB65917466
 MLB53665702  O namorado - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB53665702
 MLB52875268  A última carta - Yarros, Rebecca - Editora Arqueiro - Capa M
     https://www.mercadolivre.com.br/p/MLB52875268
-MLB69618968  Jantar sinistro - McFadden, Freida - Record - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB69618968
+MLB65917466  Sem volta - Henry, Emily - Verus - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB65917466
 MLB19243995  Inferno (Robert Langdon - Livro 4) - Brown, Dan - Editora Ar
     https://www.mercadolivre.com.br/p/MLB19243995
 MLB63501442  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
     https://www.mercadolivre.com.br/p/MLB63501442
+MLB58978641  A Intrusa - McFadden, Freida - Record - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB58978641
 MLB19405210  Corte de espinhos e rosas (Vol. 1) - Maas, Sarah J. - Galera
     https://www.mercadolivre.com.br/p/MLB19405210
+MLB69618968  Jantar sinistro - McFadden, Freida - Record - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB69618968
 MLB19262567  As sete irmãs (As Sete Irmãs – Livro 1) - Riley, Lucinda - E
     https://www.mercadolivre.com.br/p/MLB19262567
 MLB48971628  O símbolo perdido (Robert Langdon - Livro 3) - Brown, Dan - 
     https://www.mercadolivre.com.br/p/MLB48971628
 MLB40647349  A contadora - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB40647349
-MLB58978641  A Intrusa - McFadden, Freida - Record - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB58978641
 MLB74445340  Não se deixe enganar - Coben, Harlan - Editora Arqueiro - Ca
     https://www.mercadolivre.com.br/p/MLB74445340
 MLB75861265  Ala D - McFadden, Freida - Record - Capa Mole
@@ -126,3 +118,11 @@ MLB19453772  Verity, Colleen Hoover, Português, Galera, 2021
     https://www.mercadolivre.com.br/p/MLB19453772
 MLB51031691  Pense duas vezes (Myron Bolitar – Livro 12) - Coben, Harlan 
     https://www.mercadolivre.com.br/p/MLB51031691
+MLB64349875  Sem chance de adeus - Coben, Harlan - Editora Arqueiro - Cap
+    https://www.mercadolivre.com.br/p/MLB64349875
+MLB47075033  Uma vida e tanto - Henry, Emily - Verus - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB47075033
+MLB63076501  Ecos da floresta – Livro vencedor do prêmio Goodreads e elei
+    https://www.mercadolivre.com.br/p/MLB63076501
+MLB19771891  Box Essencial Conquistadores (3 Livros) *
+    https://www.mercadolivre.com.br/p/MLB19771891
