@@ -1,6 +1,6 @@
 [
   {
-    "data": "2026-08-31",
+    "data": "2026-09-01",
     "product_id": "MLB24206231",
     "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d6 medio - 10g",
     "preco": 21.69,
@@ -17,7 +17,7 @@
     "recorde": false
   },
   {
-    "data": "2026-08-31",
+    "data": "2026-09-01",
     "product_id": "MLB68726370",
     "nome": "Progressiva Capilar Vegana 500ml S/ Formol Agilcap Belletonn",
     "preco": 126.0,
@@ -34,7 +34,24 @@
     "recorde": true
   },
   {
-    "data": "2026-08-31",
+    "data": "2026-09-01",
+    "product_id": "MLB19777775",
+    "nome": "Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g",
+    "preco": 195.29,
+    "preco_original": null,
+    "n_ofertas": 10,
+    "item_id": "MLB7568557938",
+    "seller_id": 524763293,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19777775",
+    "mediana": 259.0,
+    "minimo_hist": 162.06,
+    "desconto": 24.6,
+    "recorde": false
+  },
+  {
+    "data": "2026-09-01",
     "product_id": "MLB26540613",
     "nome": "Caneta Lápis Sobrancelha Líquido À Prova D'água Cor Marrom-escuro nº 2",
     "preco": 20.8,
@@ -51,7 +68,7 @@
     "recorde": false
   },
   {
-    "data": "2026-08-31",
+    "data": "2026-09-01",
     "product_id": "MLB66731987",
     "nome": "Esmalte Unha Em Gel Acrigel Fibra Blindagem Real Love Light Rosa-17",
     "preco": 17.52,
@@ -68,7 +85,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-31",
+    "data": "2026-09-01",
     "product_id": "MLB24206229",
     "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d4 claro - 10g",
     "preco": 22.99,
@@ -85,7 +102,7 @@
     "recorde": false
   },
   {
-    "data": "2026-08-31",
+    "data": "2026-09-01",
     "product_id": "MLB22373275",
     "nome": "TRESemmé Condicionador Hidratação Profunda 400ml",
     "preco": 23.27,
