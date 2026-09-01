@@ -22,6 +22,18 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB40283255
 ⭐ MLB68282862  O homem iluminado - Sanderson, Brandon - Trama - Capa Dura
     https://www.mercadolivre.com.br/p/MLB68282862
+⭐ MLB42934246  Sacramentadora - Sanderson, Brandon - Trama - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB42934246
+⭐ MLB68307771  As coisas belas e preciosas - Yarros, Rebecca - Editora Arqu
+    https://www.mercadolivre.com.br/p/MLB68307771
+⭐ MLB19244003  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
+    https://www.mercadolivre.com.br/p/MLB19244003
+⭐ MLB63908049  Ponto de impacto - Brown, Dan - Editora Arqueiro - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB63908049
+⭐ MLB21082455  Cidade em chamas – Thriller de máfia com uma narrativa envol
+    https://www.mercadolivre.com.br/p/MLB21082455
+⭐ MLB23661891  Livro-verdade?- Editora Best Seller
+    https://www.mercadolivre.com.br/p/MLB23661891
 ⭐ MLB19272750  Box Totalmente Terror
     https://www.mercadolivre.com.br/p/MLB19272750
 ⭐ MLB37149234  Biblioteca Nietzsche - Box Com 4 Livros
@@ -42,8 +54,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB19395937
 ⭐ MLB19447440  Livro Mistério em Verdejantes, de Rodrigues, Severino. Corte
     https://www.mercadolivre.com.br/p/MLB19447440
+⭐ MLB51977450  Quarta Asa + Chama De Ferro + Tempestade De Ônix, De Rebecca
+    https://www.mercadolivre.com.br/p/MLB51977450
 ⭐ MLB30178527  Livro - Sherlock Holmes Vol.3 - Arthur Conan - Capa Dura: Nã
     https://www.mercadolivre.com.br/p/MLB30178527
+⭐ MLB54103102  Box Torre Negra
+    https://www.mercadolivre.com.br/p/MLB54103102
 ⭐ MLB19362860  Livro Negócios Internacionais, de Guedes, Ana. Editorial Cen
     https://www.mercadolivre.com.br/p/MLB19362860
 ⭐ MLB63740683  Livro: Sua Última Reverência Autor: Arthur Conan Doyle (novo
@@ -52,20 +68,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB65261067
 MLB50105638  Mistborn: O Poço da Ascensão - Sanderson, Brandon - Trama - 
     https://www.mercadolivre.com.br/p/MLB50105638
-MLB42934246  Sacramentadora - Sanderson, Brandon - Trama - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB42934246
 MLB19220733  Trono de Vidro: Império de Tempestades (Vol. 5) - Maas, Sara
     https://www.mercadolivre.com.br/p/MLB19220733
-MLB68307771  As coisas belas e preciosas - Yarros, Rebecca - Editora Arqu
-    https://www.mercadolivre.com.br/p/MLB68307771
-MLB19244003  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
-    https://www.mercadolivre.com.br/p/MLB19244003
-MLB63908049  Ponto de impacto - Brown, Dan - Editora Arqueiro - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB63908049
-MLB21082455  Cidade em chamas – Thriller de máfia com uma narrativa envol
-    https://www.mercadolivre.com.br/p/MLB21082455
-MLB23661891  Livro-verdade?- Editora Best Seller
-    https://www.mercadolivre.com.br/p/MLB23661891
 MLB47627533  Dele e Dela - Livro que inspirou o thriller de sucesso da Ne
     https://www.mercadolivre.com.br/p/MLB47627533
 MLB47100376  Cidade em ruínas – Thriller de máfia e a conclusão eletrizan
@@ -104,6 +108,8 @@ MLB41390492  A professora - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB41390492
 MLB19238943  Box Sherlock Holmes – Obra completa (Capa dura) - Doyle, Art
     https://www.mercadolivre.com.br/p/MLB19238943
+MLB19771891  Box Essencial Conquistadores (3 Livros) *
+    https://www.mercadolivre.com.br/p/MLB19771891
 MLB32404954  Psicologia - Butler, Gillian - Editora Unesp - Capa Mole
     https://www.mercadolivre.com.br/p/MLB32404954
 MLB49559264  O acidente - McFadden, Freida - Record - Capa Mole
@@ -114,15 +120,9 @@ MLB43965638  O detento - McFadden, Freida - Editora Arqueiro - Capa Mole
     https://www.mercadolivre.com.br/p/MLB43965638
 MLB19238733  Coleção Agatha Christie - Box 6 - Christie, Agatha - HarperC
     https://www.mercadolivre.com.br/p/MLB19238733
-MLB19771891  Box Essencial Conquistadores (3 Livros) *
-    https://www.mercadolivre.com.br/p/MLB19771891
 MLB19430983  Livro-streampunks- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB19430983
 MLB19453772  Verity, Colleen Hoover, Português, Galera, 2021
     https://www.mercadolivre.com.br/p/MLB19453772
 MLB51031691  Pense duas vezes (Myron Bolitar – Livro 12) - Coben, Harlan 
     https://www.mercadolivre.com.br/p/MLB51031691
-MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
-    https://www.mercadolivre.com.br/p/MLB36202363
-MLB64349875  Sem chance de adeus - Coben, Harlan - Editora Arqueiro - Cap
-    https://www.mercadolivre.com.br/p/MLB64349875
