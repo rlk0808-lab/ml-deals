@@ -137,23 +137,6 @@
   },
   {
     "data": "2026-09-01",
-    "product_id": "MLB65344843",
-    "nome": "Jogo Panelas 9 Peças Revestimento Cerâmico Antiaderente Azul",
-    "preco": 306.9,
-    "preco_original": 341.0,
-    "n_ofertas": 100,
-    "item_id": "MLB5040567715",
-    "seller_id": 3326853403,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB65344843",
-    "mediana": 379.05,
-    "minimo_hist": 306.9,
-    "desconto": 19.0,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-01",
     "product_id": "MLB25576563",
     "nome": "Panela Ferro Fundido, Pan/molho, 26 Cm, T/vidro, Cor Preta Preto",
     "preco": 220.53,
@@ -167,6 +150,23 @@
     "mediana": 270.0,
     "minimo_hist": 220.53,
     "desconto": 18.3,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-01",
+    "product_id": "MLB65344843",
+    "nome": "Jogo Panelas 9 Peças Revestimento Cerâmico Antiaderente Azul",
+    "preco": 306.9,
+    "preco_original": 341.0,
+    "n_ofertas": 100,
+    "item_id": "MLB5040567715",
+    "seller_id": 3326853403,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB65344843",
+    "mediana": 375.25,
+    "minimo_hist": 306.9,
+    "desconto": 18.2,
     "recorde": true
   },
   {
