@@ -12,14 +12,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB44152943
 ⭐ MLB55889196  Óleo Capilar Nutrição 60ml Hidratei
     https://www.mercadolivre.com.br/p/MLB55889196
-⭐ MLB52322550  Dove Condicionador Hidratação + Hialuron-vit 600ml
-    https://www.mercadolivre.com.br/p/MLB52322550
+⭐ MLB26217349  Primer Facial Hd Fenzza Pr63
+    https://www.mercadolivre.com.br/p/MLB26217349
 ⭐ MLB19777775  Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g
     https://www.mercadolivre.com.br/p/MLB19777775
+⭐ MLB52322550  Dove Condicionador Hidratação + Hialuron-vit 600ml
+    https://www.mercadolivre.com.br/p/MLB52322550
 ⭐ MLB37986849  Kit Maquiagem Artística Terror Slug Drácula Zumbi Halloween
     https://www.mercadolivre.com.br/p/MLB37986849
-⭐ MLB25243834  Primer Facial Efeito Lifting Phállebeauty Tom do primer Tran
-    https://www.mercadolivre.com.br/p/MLB25243834
 ⭐ MLB20905076  Capicilin - Creme Para Pentear Hairpantol 300ml
     https://www.mercadolivre.com.br/p/MLB20905076
 ⭐ MLB19922487  Condicionador Hidratação Impacto 500ml Midori Profissional
@@ -48,6 +48,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB36735934
 ⭐ MLB57351161  Gloss Labial Hidratação Labial Brilho Mel
     https://www.mercadolivre.com.br/p/MLB57351161
+⭐ MLB20187397  Shampoo Profissional Lavatório 2500 Ml Limpeza Profunda
+    https://www.mercadolivre.com.br/p/MLB20187397
+⭐ MLB23187100  Tyrrel Professional Hair Protector Leave-in Capilar Renova
+    https://www.mercadolivre.com.br/p/MLB23187100
+⭐ MLB64552854  Novex Leave-in Capilar Noturno Ritual Dorama Tsubaki 120 Ml
+    https://www.mercadolivre.com.br/p/MLB64552854
+⭐ MLB44072241  Truss Shock Repair - Ampola Capilar 4x17ml
+    https://www.mercadolivre.com.br/p/MLB44072241
 ⭐ MLB68726370  Progressiva Capilar Vegana 500ml S/ Formol Agilcap Belletonn
     https://www.mercadolivre.com.br/p/MLB68726370
 ⭐ MLB26540613  Caneta Lápis Sobrancelha Líquido À Prova D'água Cor Marrom-e
@@ -56,8 +64,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB66383651
 MLB38454411  Máscara Capilar Vult Recarga De Hidratação 250g
     https://www.mercadolivre.com.br/p/MLB38454411
-MLB26217349  Primer Facial Hd Fenzza Pr63
-    https://www.mercadolivre.com.br/p/MLB26217349
+MLB25243834  Primer Facial Efeito Lifting Phállebeauty Tom do primer Tran
+    https://www.mercadolivre.com.br/p/MLB25243834
 MLB18940033  Creme para Pentear Hidrocauterização Pantene 240ml
     https://www.mercadolivre.com.br/p/MLB18940033
 MLB25713591  Óleo capilr negra rosa/ óleo capilar rosa mosqueta/ blend de
@@ -96,18 +104,10 @@ MLB39190714  Creme para pentear Seda Boom nutrição
     https://www.mercadolivre.com.br/p/MLB39190714
 MLB45431279  Mascara Facial De Argila Verde-180g
     https://www.mercadolivre.com.br/p/MLB45431279
-MLB20187397  Shampoo Profissional Lavatório 2500 Ml Limpeza Profunda
-    https://www.mercadolivre.com.br/p/MLB20187397
 MLB28389837  Óleo Capilar 50ml - Metal Detox
     https://www.mercadolivre.com.br/p/MLB28389837
 MLB70530506  Óleo capilar Farmax Capilar hidratação de 100mL 100g
     https://www.mercadolivre.com.br/p/MLB70530506
-MLB23187100  Tyrrel Professional Hair Protector Leave-in Capilar Renova
-    https://www.mercadolivre.com.br/p/MLB23187100
-MLB64552854  Novex Leave-in Capilar Noturno Ritual Dorama Tsubaki 120 Ml
-    https://www.mercadolivre.com.br/p/MLB64552854
-MLB44072241  Truss Shock Repair - Ampola Capilar 4x17ml
-    https://www.mercadolivre.com.br/p/MLB44072241
 MLB22151097  Creme Anti-idade Lucy's Rosa Mosqueta Facial FPS15
     https://www.mercadolivre.com.br/p/MLB22151097
 MLB59312933  Jogo Conjunto Kit De Pincel Sombra Maquiagem 13 Peças Macio 
