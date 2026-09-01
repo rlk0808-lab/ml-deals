@@ -35,6 +35,23 @@
   },
   {
     "data": "2026-09-01",
+    "product_id": "MLB25294888",
+    "nome": "Cadeira Alimentação Portátil Burigotto Bebe Poke Branco Cor Branca",
+    "preco": 280.0,
+    "preco_original": null,
+    "n_ofertas": 3,
+    "item_id": "MLB5173986035",
+    "seller_id": 2629927832,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB25294888",
+    "mediana": 475.2,
+    "minimo_hist": 280.0,
+    "desconto": 41.1,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-01",
     "product_id": "MLB22663058",
     "nome": "Bomba Tira Leite Coletora Manual Kuka Funcional",
     "preco": 47.43,
@@ -66,23 +83,6 @@
     "minimo_hist": 29.99,
     "desconto": 24.2,
     "recorde": true
-  },
-  {
-    "data": "2026-09-01",
-    "product_id": "MLB25294888",
-    "nome": "Cadeira Alimentação Portátil Burigotto Bebe Poke Branco Cor Branca",
-    "preco": 379.9,
-    "preco_original": 480.0,
-    "n_ofertas": 2,
-    "item_id": "MLB4648759871",
-    "seller_id": 1176428011,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB25294888",
-    "mediana": 475.2,
-    "minimo_hist": 298.9,
-    "desconto": 20.1,
-    "recorde": false
   },
   {
     "data": "2026-09-01",
