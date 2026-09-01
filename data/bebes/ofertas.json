@@ -5,7 +5,7 @@
     "nome": "Banheira Bebe Plastibaby 22l Banheira De Bebê Cor Rosa + Lisa",
     "preco": 43.65,
     "preco_original": 45.99,
-    "n_ofertas": 2,
+    "n_ofertas": 3,
     "item_id": "MLB4919182669",
     "seller_id": 29478586,
     "frete_gratis": true,
@@ -45,9 +45,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB22663058",
-    "mediana": 71.99,
+    "mediana": 65.94,
     "minimo_hist": 47.43,
-    "desconto": 34.1,
+    "desconto": 28.1,
     "recorde": true
   },
   {
@@ -117,5 +117,22 @@
     "minimo_hist": 69.43,
     "desconto": 18.3,
     "recorde": false
+  },
+  {
+    "data": "2026-09-01",
+    "product_id": "MLB18392719",
+    "nome": "Fralda Descartável Turma da Mônica Baby XG Pacote 20 Unidades",
+    "preco": 25.81,
+    "preco_original": 43.01,
+    "n_ofertas": 7,
+    "item_id": "MLB4075338374",
+    "seller_id": 179105330,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB18392719",
+    "mediana": 30.96,
+    "minimo_hist": 25.81,
+    "desconto": 16.6,
+    "recorde": true
   }
 ]
