@@ -1,6 +1,6 @@
 [
   {
-    "data": "2026-08-31",
+    "data": "2026-09-01",
     "product_id": "MLB54223613",
     "nome": "Diário Oficial De Quarta Asa: Você É Uma Coisinha Bem Violenta, Não É?, De Rebecca Yarros. Editorial Planeta Minotauro, Capa Dura, Edição 1 Em Português, 2025",
     "preco": 59.9,
@@ -17,7 +17,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-31",
+    "data": "2026-09-01",
     "product_id": "MLB54222344",
     "nome": "Profundezas, De Rebecca Yarros. Editorial Verus, Capa Mole, Edição 1 Em Português, 2025",
     "preco": 30.0,
@@ -34,7 +34,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-31",
+    "data": "2026-09-01",
     "product_id": "MLB20685650",
     "nome": "Box De Luxo 6 Livros Sherlock Holmes - Arthur Conan Doyle - Capa Dura",
     "preco": 49.98,
@@ -51,7 +51,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-31",
+    "data": "2026-09-01",
     "product_id": "MLB19395937",
     "nome": "Livro Sharp Objects Objetos Cortantes Gillian Flynn",
     "preco": 79.9,
@@ -68,7 +68,7 @@
     "recorde": false
   },
   {
-    "data": "2026-08-31",
+    "data": "2026-09-01",
     "product_id": "MLB19314437",
     "nome": "Livro Mistério Sob O Gelo: Uma Aventura Na Antártica De Alexander Kellner Da Editora Rocco",
     "preco": 22.67,
@@ -85,7 +85,7 @@
     "recorde": false
   },
   {
-    "data": "2026-08-31",
+    "data": "2026-09-01",
     "product_id": "MLB67026463",
     "nome": "Livro Grandes Mestres Da Literatura Brasileira",
     "preco": 19.0,
@@ -102,7 +102,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-31",
+    "data": "2026-09-01",
     "product_id": "MLB53759056",
     "nome": "Box Sandel",
     "preco": 151.93,
@@ -119,12 +119,12 @@
     "recorde": true
   },
   {
-    "data": "2026-08-31",
+    "data": "2026-09-01",
     "product_id": "MLB19272750",
     "nome": "Box Totalmente Terror",
     "preco": 46.9,
     "preco_original": null,
-    "n_ofertas": 74,
+    "n_ofertas": 75,
     "item_id": "MLB2881261169",
     "seller_id": 231300703,
     "frete_gratis": true,
@@ -136,7 +136,7 @@
     "recorde": false
   },
   {
-    "data": "2026-08-31",
+    "data": "2026-09-01",
     "product_id": "MLB37310228",
     "nome": "O Manual Do Mago Frugal Para Sobrevivência Na Inglaterra Medieval: Projeto Secreto #2, De Brandon Sanderson. Editorial Trama, Tapa Dura, Edición 1 En Português, 2024",
     "preco": 89.99,
@@ -153,7 +153,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-31",
+    "data": "2026-09-01",
     "product_id": "MLB22889433",
     "nome": "Livro - Um Corpo Na Biblioteca - Agatha Christie - Capa Dura",
     "preco": 36.9,
@@ -170,7 +170,7 @@
     "recorde": false
   },
   {
-    "data": "2026-08-31",
+    "data": "2026-09-01",
     "product_id": "MLB30178527",
     "nome": "Livro - Sherlock Holmes Vol.3 - Arthur Conan - Capa Dura: Não Se Aplica, De Arthur Conan Doyle. Série Sherlock Holmes, Vol. 1. Editora Haper Collins, Capa Dura, Edição 1 Em Portugu",
     "preco": 40.0,
@@ -187,7 +187,41 @@
     "recorde": true
   },
   {
-    "data": "2026-08-31",
+    "data": "2026-09-01",
+    "product_id": "MLB60720366",
+    "nome": "Livro Wuthering Heights - Emily Brontë, De Emily Brontë, Vol. 1. Editora Nort Parade Publishing, Capa Dura, Em Inglês (2024)",
+    "preco": 33.45,
+    "preco_original": null,
+    "n_ofertas": 11,
+    "item_id": "MLB7568058368",
+    "seller_id": 645036913,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB60720366",
+    "mediana": 39.9,
+    "minimo_hist": 33.45,
+    "desconto": 16.2,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-01",
+    "product_id": "MLB19447440",
+    "nome": "Livro Mistério em Verdejantes, de Rodrigues, Severino. Cortez Editora e Livraria LTDA, capa mole (2017)",
+    "preco": 47.9,
+    "preco_original": 64.0,
+    "n_ofertas": 7,
+    "item_id": "MLB4969399043",
+    "seller_id": 480263032,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19447440",
+    "mediana": 57.12,
+    "minimo_hist": 47.9,
+    "desconto": 16.1,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-01",
     "product_id": "MLB19238271",
     "nome": "Livro Sherlock Holmes Sir Arthur Conan Doyle Edição 1 Português 2013 Melhoramentos",
     "preco": 25.41,
@@ -204,7 +238,7 @@
     "recorde": false
   },
   {
-    "data": "2026-08-31",
+    "data": "2026-09-01",
     "product_id": "MLB20806009",
     "nome": "Livro Inferno De Dan Brown Autor De O Código Da Vinci",
     "preco": 59.9,
@@ -221,7 +255,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-31",
+    "data": "2026-09-01",
     "product_id": "MLB19243809",
     "nome": "Livro Não Há Segunda Chance De Harlan Coben Da Editora Arqueiro",
     "preco": 40.51,
@@ -238,7 +272,7 @@
     "recorde": false
   },
   {
-    "data": "2026-08-31",
+    "data": "2026-09-01",
     "product_id": "MLB63740683",
     "nome": "Livro: Sua Última Reverência Autor: Arthur Conan Doyle (novo, Lacrado), De Arthur Conan Doyle",
     "preco": 27.82,
@@ -255,7 +289,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-31",
+    "data": "2026-09-01",
     "product_id": "MLB19362860",
     "nome": "Livro Negócios Internacionais, de Guedes, Ana. Editorial Cengage Learning Edições Ltda., tapa mole, en português (2007)",
     "preco": 27.82,
@@ -272,7 +306,7 @@
     "recorde": true
   },
   {
-    "data": "2026-08-31",
+    "data": "2026-09-01",
     "product_id": "MLB70708977",
     "nome": "Livro: Mistério Da Página 19 Autor: Juarez Machado (novo, Lacrado)",
     "preco": 27.82,
