@@ -8,6 +8,10 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 ⭐ MLB57626638  Sanduicheira Grill Elétrica Antiaderente 750w Potente Cor Ve
     https://www.mercadolivre.com.br/p/MLB57626638
+⭐ MLB20719323  Eirilar Panela Pressão Teflon Panela de Pressão Antiaderente
+    https://www.mercadolivre.com.br/p/MLB20719323
+⭐ MLB29118990  Jogo Toalhas Gigante 5pçs Fio Penteado Algodão Egípcio
+    https://www.mercadolivre.com.br/p/MLB29118990
 ⭐ MLB37993510  Kit Cozinha 5 Potes Herméticos Para Mantimentos Cor Preto
     https://www.mercadolivre.com.br/p/MLB37993510
 ⭐ MLB22360554  Panela Pressão Ferro 19cm Cabo Madeira Panela Mineira Preto
@@ -20,10 +24,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB39216863
 ⭐ MLB46223824  Kit Potes Herméticos Retangulares Com Tampa Preta para Manti
     https://www.mercadolivre.com.br/p/MLB46223824
-MLB20719323  Eirilar Panela Pressão Teflon Panela de Pressão Antiaderente
-    https://www.mercadolivre.com.br/p/MLB20719323
-MLB29118990  Jogo Toalhas Gigante 5pçs Fio Penteado Algodão Egípcio
-    https://www.mercadolivre.com.br/p/MLB29118990
 MLB29279084  Cortina Blackout Cortina Bloquedora De Claridade Cortina De 
     https://www.mercadolivre.com.br/p/MLB29279084
 MLB58984205  Jogo Panelas Indução Antiaderente Cerâmica Manhattan 5 Peças
@@ -114,8 +114,6 @@ MLB65523019  Jogo Cama Casal Essencial Lavanda 250 Fios Branco Lyor
     https://www.mercadolivre.com.br/p/MLB65523019
 MLB76065812  Sanduicheira Grill Britânia Bgr27b 1000w Preto
     https://www.mercadolivre.com.br/p/MLB76065812
-MLB65276727  Inox Faqueiro Tramontina Jogo Talheres 72 Peças Churrasco Pr
-    https://www.mercadolivre.com.br/p/MLB65276727
 MLB61203755  Sanduicheira Grill Elétrica 750w Dupla Antiaderente Sa Black
     https://www.mercadolivre.com.br/p/MLB61203755
 MLB77191048  Jogo Talheres Faqueiro 12 Peças Completo Aço Inox Vermelho P
@@ -126,3 +124,5 @@ MLB74848676  Kit 15 Potes Herméticos Retangulares Mantimentos Organizador
     https://www.mercadolivre.com.br/p/MLB74848676
 MLB23798058  Tábua Corte Bambu Alça Alta Resistencia Churrasco Cozinha
     https://www.mercadolivre.com.br/p/MLB23798058
+MLB73881785  Jogo Panelas Cerâmica Indução 5 Peças Antiaderente Yafo Verd
+    https://www.mercadolivre.com.br/p/MLB73881785
