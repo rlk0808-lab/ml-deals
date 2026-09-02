@@ -18,8 +18,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB51529178
 ⭐ MLB24668187  Camiseta Fluminense Braziline Stencil Masculina Adulto
     https://www.mercadolivre.com.br/p/MLB24668187
-⭐ MLB36951560  Elástico Listrado P/ Cós Cueca Box Calcinha Top N40 - 20 Mts
-    https://www.mercadolivre.com.br/p/MLB36951560
 ⭐ MLB74239341  Meia Divertida Cr7 Cristiano Ronaldo Copa Adulto Cano Alto V
     https://www.mercadolivre.com.br/p/MLB74239341
 ⭐ MLB29410142  Escova Para Limpar Couro Banco Bota Jaqueta Detailer
@@ -72,8 +70,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB62695160
 MLB51529176  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB51529176
+MLB36951560  Elástico Listrado P/ Cós Cueca Box Calcinha Top N40 - 20 Mts
+    https://www.mercadolivre.com.br/p/MLB36951560
 MLB45422542  Chinelo Masculino Drifter Foam Fila Liso
     https://www.mercadolivre.com.br/p/MLB45422542
+MLB44919830  Chinelo Masculino Drifter Foam Fila Liso
+    https://www.mercadolivre.com.br/p/MLB44919830
 MLB44952431  Sandália Rasteira Feminina Strass Vizzano
     https://www.mercadolivre.com.br/p/MLB44952431
 MLB44952437  Sandália Rasteira Feminina Strass Vizzano
@@ -84,6 +86,8 @@ MLB45851918  Chinelo Masculino Slide Sereno Olympikus
     https://www.mercadolivre.com.br/p/MLB45851918
 MLB45422541  Chinelo Masculino Drifter Foam Fila Liso
     https://www.mercadolivre.com.br/p/MLB45422541
+MLB45422551  Chinelo Masculino Drifter Foam Fila Liso
+    https://www.mercadolivre.com.br/p/MLB45422551
 MLB47536436  Chinelo Masculino Drifter Basic Fila Liso
     https://www.mercadolivre.com.br/p/MLB47536436
 MLB45475692  Chinelo Masculino 921 Olympikus
@@ -92,8 +96,10 @@ MLB45475688  Chinelo Masculino 921 Olympikus
     https://www.mercadolivre.com.br/p/MLB45475688
 MLB45475689  Chinelo Masculino 921 Olympikus
     https://www.mercadolivre.com.br/p/MLB45475689
-MLB44919830  Chinelo Masculino Drifter Foam Fila Liso
-    https://www.mercadolivre.com.br/p/MLB44919830
+MLB74068078  Kit Meia Multi Esportes E Meião Cortado Vistho Preto Tamanho
+    https://www.mercadolivre.com.br/p/MLB74068078
+MLB70014762  Kit Meia Multi Esportes E Meião Cortado Vistho Preto Tamanho
+    https://www.mercadolivre.com.br/p/MLB70014762
 MLB46408293  Chinelo Masculino Sleek Slide Fila Liso
     https://www.mercadolivre.com.br/p/MLB46408293
 MLB73441877  Meia Umbro Esportiva Clubes 3/4 Cano Alto Bordo-branco 39-44
@@ -110,8 +116,6 @@ MLB69351916  Meia Esportiva Penalty Cano Alto 330 Branco 39/44
     https://www.mercadolivre.com.br/p/MLB69351916
 MLB45422548  Chinelo Masculino Drifter Foam Fila Liso
     https://www.mercadolivre.com.br/p/MLB45422548
-MLB45422551  Chinelo Masculino Drifter Foam Fila Liso
-    https://www.mercadolivre.com.br/p/MLB45422551
 MLB73436768  Meia Umbro Esportiva Clubes 3/4 Cano Alto Cor Vermelho-Preto
     https://www.mercadolivre.com.br/p/MLB73436768
 MLB63656101  Meia Sapatilha Para Beach Tennis Areia Cano Alto Kestal Cor 
@@ -122,7 +126,3 @@ MLB76023089  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz
     https://www.mercadolivre.com.br/p/MLB76023089
 MLB75085390  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz 
     https://www.mercadolivre.com.br/p/MLB75085390
-MLB74813931  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz 
-    https://www.mercadolivre.com.br/p/MLB74813931
-MLB75737119  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz 
-    https://www.mercadolivre.com.br/p/MLB75737119
