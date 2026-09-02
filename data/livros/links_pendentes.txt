@@ -14,8 +14,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB37149234
 ⭐ MLB53759056  Box Sandel
     https://www.mercadolivre.com.br/p/MLB53759056
-⭐ MLB40283388  Box Alice - Box Com 2 Livros - Edição De Luxo Almofadada
-    https://www.mercadolivre.com.br/p/MLB40283388
+⭐ MLB23250818  Martin Claret A Relíquia – Eça de Queirós Livro Físico Capa 
+    https://www.mercadolivre.com.br/p/MLB23250818
 ⭐ MLB54223613  Diário Oficial De Quarta Asa: Você É Uma Coisinha Bem Violen
     https://www.mercadolivre.com.br/p/MLB54223613
 ⭐ MLB19314437  Livro Mistério Sob O Gelo: Uma Aventura Na Antártica De Alex
@@ -54,10 +54,10 @@ MLB56693037  De férias com você (Edição especial) - Henry, Emily - Verus
     https://www.mercadolivre.com.br/p/MLB56693037
 MLB40283255  Verity (Edição de colecionador), Colleen Hoover, Galera, Por
     https://www.mercadolivre.com.br/p/MLB40283255
-MLB68282862  O homem iluminado - Sanderson, Brandon - Trama - Capa Dura
-    https://www.mercadolivre.com.br/p/MLB68282862
 MLB50105638  Mistborn: O Poço da Ascensão - Sanderson, Brandon - Trama - 
     https://www.mercadolivre.com.br/p/MLB50105638
+MLB68282862  O homem iluminado - Sanderson, Brandon - Trama - Capa Dura
+    https://www.mercadolivre.com.br/p/MLB68282862
 MLB42934246  Sacramentadora - Sanderson, Brandon - Trama - Capa Mole
     https://www.mercadolivre.com.br/p/MLB42934246
 MLB19220733  Trono de Vidro: Império de Tempestades (Vol. 5) - Maas, Sara
@@ -104,16 +104,12 @@ MLB53665702  O namorado - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB53665702
 MLB19238943  Box Sherlock Holmes – Obra completa (Capa dura) - Doyle, Art
     https://www.mercadolivre.com.br/p/MLB19238943
-MLB63501442  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
-    https://www.mercadolivre.com.br/p/MLB63501442
 MLB74445340  Não se deixe enganar - Coben, Harlan - Editora Arqueiro - Ca
     https://www.mercadolivre.com.br/p/MLB74445340
 MLB41390492  A professora - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB41390492
 MLB19771891  Box Essencial Conquistadores (3 Livros) *
     https://www.mercadolivre.com.br/p/MLB19771891
-MLB32404954  Psicologia - Butler, Gillian - Editora Unesp - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB32404954
 MLB49559264  O acidente - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB49559264
 MLB23833503  De férias com você - Henry, Emily - Verus - Capa Mole
@@ -124,5 +120,9 @@ MLB19238733  Coleção Agatha Christie - Box 6 - Christie, Agatha - HarperC
     https://www.mercadolivre.com.br/p/MLB19238733
 MLB19430983  Livro-streampunks- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB19430983
+MLB32404954  Psicologia - Butler, Gillian - Editora Unesp - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB32404954
+MLB63501442  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
+    https://www.mercadolivre.com.br/p/MLB63501442
 MLB51031691  Pense duas vezes (Myron Bolitar – Livro 12) - Coben, Harlan 
     https://www.mercadolivre.com.br/p/MLB51031691
