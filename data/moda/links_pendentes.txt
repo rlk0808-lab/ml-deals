@@ -14,12 +14,16 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB57596196
 ⭐ MLB36952189  Elástico Falcon P/ Cós Cintura Cueca Box N30 Rolo 20 Metros 
     https://www.mercadolivre.com.br/p/MLB36952189
+⭐ MLB51529178  Chinelo Feminino Slim Havaianas
+    https://www.mercadolivre.com.br/p/MLB51529178
 ⭐ MLB24668187  Camiseta Fluminense Braziline Stencil Masculina Adulto
     https://www.mercadolivre.com.br/p/MLB24668187
 ⭐ MLB29410142  Escova Para Limpar Couro Banco Bota Jaqueta Detailer
     https://www.mercadolivre.com.br/p/MLB29410142
 ⭐ MLB45475084  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB45475084
+⭐ MLB74922862  Bolsa Transversal Masculina Porta Celular Couro Sintético Ma
+    https://www.mercadolivre.com.br/p/MLB74922862
 ⭐ MLB47691991  Colete Masculino Para Futebol Kit Com 6 Pçs Verde Penalty
     https://www.mercadolivre.com.br/p/MLB47691991
 ⭐ MLB75195451  Cueca Algodão 2 Boxer Uso Prolongado Incontinência Urinária 
@@ -28,8 +32,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB44951729
 ⭐ MLB65082947  Arara De Roupas Cabideiro para vestido longo De Aço Grande L
     https://www.mercadolivre.com.br/p/MLB65082947
-⭐ MLB74922862  Bolsa Transversal Masculina Porta Celular Couro Sintético Ma
-    https://www.mercadolivre.com.br/p/MLB74922862
 ⭐ MLB32034559  Limpa Renova Hidrata Couro De Jaqueta Spray Quick-detail
     https://www.mercadolivre.com.br/p/MLB32034559
 ⭐ MLB68670569  Conjunto Feminino Real Confecções G1/g2 Short Saia + Cropped
@@ -60,8 +62,10 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB57545342
 ⭐ MLB70106535  Blusa Regata Fitness Feminina Ausare para Academia e Treino 
     https://www.mercadolivre.com.br/p/MLB70106535
-MLB51529178  Chinelo Feminino Slim Havaianas
-    https://www.mercadolivre.com.br/p/MLB51529178
+⭐ MLB77848331  Mochila Mormaii Básica Masculina Reforçada Trabalho Preto
+    https://www.mercadolivre.com.br/p/MLB77848331
+⭐ MLB62695160  Kouk Authentic Touca Gorro Curto Marinheiro - Gorro Lenhador
+    https://www.mercadolivre.com.br/p/MLB62695160
 MLB51529176  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB51529176
 MLB36951560  Elástico Listrado P/ Cós Cueca Box Calcinha Top N40 - 20 Mts
@@ -122,7 +126,3 @@ MLB74813931  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz
     https://www.mercadolivre.com.br/p/MLB74813931
 MLB75737119  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz 
     https://www.mercadolivre.com.br/p/MLB75737119
-MLB66837837  Meia Soquete Masculino E Feminino Tamanhos E Cores - Poliést
-    https://www.mercadolivre.com.br/p/MLB66837837
-MLB75798851  Kit 2x Camiseta Básica Unissex Algodão 100% Peruano Básica M
-    https://www.mercadolivre.com.br/p/MLB75798851
