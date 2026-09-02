@@ -40,6 +40,10 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB37124812
 ⭐ MLB56222076  Calcinha Fio Dental Lupo De Compressão 41010-001 - Orignal C
     https://www.mercadolivre.com.br/p/MLB56222076
+⭐ MLB59992197  Kit Hupi Corrida Com Meia Cano Médio 36-42 e Testeira Run Pr
+    https://www.mercadolivre.com.br/p/MLB59992197
+⭐ MLB65529087  Touca Gorro Beanie + Luva Térmica Lã Preta
+    https://www.mercadolivre.com.br/p/MLB65529087
 ⭐ MLB47536435  Chinelo Masculino Drifter Basic Fila Liso
     https://www.mercadolivre.com.br/p/MLB47536435
 ⭐ MLB63525414  Kit 6 Meia Cano Alto P/ Prática De Esporte Futebol Handebol 
@@ -86,10 +90,6 @@ MLB49798341  Meia Motoqueiro X11 Preta Cano Alto Segunda Pele Conforto Té
     https://www.mercadolivre.com.br/p/MLB49798341
 MLB58240342  Colete Masculino Para Ginecomastia Macom Cor Marrom Amarelad
     https://www.mercadolivre.com.br/p/MLB58240342
-MLB59992197  Kit Hupi Corrida Com Meia Cano Médio 36-42 e Testeira Run Pr
-    https://www.mercadolivre.com.br/p/MLB59992197
-MLB65529087  Touca Gorro Beanie + Luva Térmica Lã Preta
-    https://www.mercadolivre.com.br/p/MLB65529087
 MLB56121586  Meia de Futebol Poker Cano Alto Preta para Treino (Tamanho 3
     https://www.mercadolivre.com.br/p/MLB56121586
 MLB44941550  Sandália Rasteira Feminina Dakota Liso
