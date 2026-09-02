@@ -14,12 +14,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB44152943
 ⭐ MLB26217349  Primer Facial Hd Fenzza Pr63
     https://www.mercadolivre.com.br/p/MLB26217349
-⭐ MLB19777775  Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g
-    https://www.mercadolivre.com.br/p/MLB19777775
 ⭐ MLB52322550  Dove Condicionador Hidratação + Hialuron-vit 600ml
     https://www.mercadolivre.com.br/p/MLB52322550
 ⭐ MLB37986849  Kit Maquiagem Artística Terror Slug Drácula Zumbi Halloween
     https://www.mercadolivre.com.br/p/MLB37986849
+⭐ MLB19777775  Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g
+    https://www.mercadolivre.com.br/p/MLB19777775
 ⭐ MLB20905076  Capicilin - Creme Para Pentear Hairpantol 300ml
     https://www.mercadolivre.com.br/p/MLB20905076
 ⭐ MLB19922487  Condicionador Hidratação Impacto 500ml Midori Profissional
@@ -30,8 +30,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB68726370
 ⭐ MLB61744963  Óleo Capilar Oil Reflections 30ml
     https://www.mercadolivre.com.br/p/MLB61744963
-⭐ MLB26540613  Caneta Lápis Sobrancelha Líquido À Prova D'água Cor Marrom-e
-    https://www.mercadolivre.com.br/p/MLB26540613
 ⭐ MLB66383651  Escova Progressiva Capilar Vegana Burix 1l Prohall +
     https://www.mercadolivre.com.br/p/MLB66383651
 MLB38454411  Máscara Capilar Vult Recarga De Hidratação 250g
@@ -126,3 +124,5 @@ MLB51810513  Primer Facial Hd Face Beautiful
     https://www.mercadolivre.com.br/p/MLB51810513
 MLB21140603  Óleo Capilar Keratex Argan 60ml
     https://www.mercadolivre.com.br/p/MLB21140603
+MLB26821871  Eudora Kit Siàge: Shampoo + Condicionador + Leave-in Capilar
+    https://www.mercadolivre.com.br/p/MLB26821871
