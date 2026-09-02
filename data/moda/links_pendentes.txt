@@ -18,6 +18,10 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB51529178
 ⭐ MLB24668187  Camiseta Fluminense Braziline Stencil Masculina Adulto
     https://www.mercadolivre.com.br/p/MLB24668187
+⭐ MLB36951560  Elástico Listrado P/ Cós Cueca Box Calcinha Top N40 - 20 Mts
+    https://www.mercadolivre.com.br/p/MLB36951560
+⭐ MLB74239341  Meia Divertida Cr7 Cristiano Ronaldo Copa Adulto Cano Alto V
+    https://www.mercadolivre.com.br/p/MLB74239341
 ⭐ MLB29410142  Escova Para Limpar Couro Banco Bota Jaqueta Detailer
     https://www.mercadolivre.com.br/p/MLB29410142
 ⭐ MLB45475084  Chinelo Feminino Slim Havaianas
@@ -68,10 +72,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB62695160
 MLB51529176  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB51529176
-MLB36951560  Elástico Listrado P/ Cós Cueca Box Calcinha Top N40 - 20 Mts
-    https://www.mercadolivre.com.br/p/MLB36951560
-MLB74239341  Meia Divertida Cr7 Cristiano Ronaldo Copa Adulto Cano Alto V
-    https://www.mercadolivre.com.br/p/MLB74239341
 MLB45422542  Chinelo Masculino Drifter Foam Fila Liso
     https://www.mercadolivre.com.br/p/MLB45422542
 MLB44952431  Sandália Rasteira Feminina Strass Vizzano
