@@ -16,6 +16,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB43469003
 ⭐ MLB70149896  Cadeira De Alimentação Bebe Portatil 6 Em 1 Cinto Segurança 
     https://www.mercadolivre.com.br/p/MLB70149896
+⭐ MLB25294888  Cadeira Alimentação Portátil Burigotto Bebe Poke Branco Cor 
+    https://www.mercadolivre.com.br/p/MLB25294888
 ⭐ MLB69868490  Banheira Bebe Plastibaby 22l Banheira De Bebê Cor Rosa + Lis
     https://www.mercadolivre.com.br/p/MLB69868490
 ⭐ MLB62842938  Canguru Sling De Bebe Carregar Recem Nascido Dry Fit Furadin
@@ -26,8 +28,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB47606215
 ⭐ MLB63183742  Sling Bebê Canguru Bebe Sling Para Recem Nascido Premium - M
     https://www.mercadolivre.com.br/p/MLB63183742
-⭐ MLB25294888  Cadeira Alimentação Portátil Burigotto Bebe Poke Branco Cor 
-    https://www.mercadolivre.com.br/p/MLB25294888
 MLB35495841  Bomba tira leite materno Elétrica G-TECH - Bivolt
     https://www.mercadolivre.com.br/p/MLB35495841
 MLB73392239  Cercadinho Bebê C/ Tela De Proteção Infantil Cinza S/
@@ -98,6 +98,8 @@ MLB30173092  Chaveiro Branco Sapatinho De Médico White All Star Keychain
     https://www.mercadolivre.com.br/p/MLB30173092
 MLB46991031  Capa Colchão Berço Impermeável Silenciosa Com Zíper Prmoção 
     https://www.mercadolivre.com.br/p/MLB46991031
+MLB63123338  Baby Monitor Vb603 Baba Eletrônica Com Monitor branco
+    https://www.mercadolivre.com.br/p/MLB63123338
 MLB27170986  Banheira Bebê Classic Dino - Galzerano
     https://www.mercadolivre.com.br/p/MLB27170986
 MLB75344146  Banheira Bebe + Suporte Koa Plus Perola - Galzerano - 7097pr
@@ -124,5 +126,3 @@ MLB40215751  Banheira Bebê Dobrável Infantil Portátil Buba Cor Cinza Banh
     https://www.mercadolivre.com.br/p/MLB40215751
 MLB61688382  Canguru Sling Bolsa Bebe Carregador Mochila Cor Rosa Confort
     https://www.mercadolivre.com.br/p/MLB61688382
-MLB42814766  Chocalho Mordedor Bebê Flexível Rosa Looney Tunes BabyGo 3m+
-    https://www.mercadolivre.com.br/p/MLB42814766

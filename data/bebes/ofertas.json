@@ -35,6 +35,23 @@
   },
   {
     "data": "2026-09-02",
+    "product_id": "MLB25294888",
+    "nome": "Cadeira Alimentação Portátil Burigotto Bebe Poke Branco Cor Branca",
+    "preco": 242.0,
+    "preco_original": null,
+    "n_ofertas": 3,
+    "item_id": "MLB7580347010",
+    "seller_id": 264881845,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB25294888",
+    "mediana": 427.55,
+    "minimo_hist": 242.0,
+    "desconto": 43.4,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-02",
     "product_id": "MLB62020136",
     "nome": "Canguru Sling De Bebe Carregar Recem Nascido Cinza G - Marca DE CORAZÓN",
     "preco": 45.9,
@@ -83,23 +100,6 @@
     "minimo_hist": 29.99,
     "desconto": 24.2,
     "recorde": true
-  },
-  {
-    "data": "2026-09-02",
-    "product_id": "MLB25294888",
-    "nome": "Cadeira Alimentação Portátil Burigotto Bebe Poke Branco Cor Branca",
-    "preco": 330.48,
-    "preco_original": 475.2,
-    "n_ofertas": 2,
-    "item_id": "MLB6500727274",
-    "seller_id": 1176428011,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB25294888",
-    "mediana": 427.55,
-    "minimo_hist": 280.0,
-    "desconto": 22.7,
-    "recorde": false
   },
   {
     "data": "2026-09-02",
@@ -158,7 +158,7 @@
     "nome": "Fralda Descartável Turma da Mônica Baby XG Pacote 20 Unidades",
     "preco": 25.81,
     "preco_original": 43.01,
-    "n_ofertas": 8,
+    "n_ofertas": 9,
     "item_id": "MLB4075338374",
     "seller_id": 179105330,
     "frete_gratis": true,
@@ -168,5 +168,22 @@
     "minimo_hist": 25.81,
     "desconto": 16.6,
     "recorde": true
+  },
+  {
+    "data": "2026-09-02",
+    "product_id": "MLB50366249",
+    "nome": "Hidratante Relaxante Mamãe E Bebê",
+    "preco": 54.9,
+    "preco_original": null,
+    "n_ofertas": 3,
+    "item_id": "MLB7580500992",
+    "seller_id": 204780036,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB50366249",
+    "mediana": 64.9,
+    "minimo_hist": 54.86,
+    "desconto": 15.4,
+    "recorde": false
   }
 ]
