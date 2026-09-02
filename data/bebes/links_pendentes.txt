@@ -4,7 +4,7 @@ Como usar: abra o link, clique em Compartilhar na barra preta de
 afiliados, copie o link gerado (meli.la/...) e cole em
 data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
-(gerado em 2026-09-01)
+(gerado em 2026-09-02)
 
 ⭐ MLB22663058  Bomba Tira Leite Coletora Manual Kuka Funcional
     https://www.mercadolivre.com.br/p/MLB22663058
@@ -78,6 +78,8 @@ MLB74300525  Mordedor Bebê Mãozinha E Pezinho Macio Atóxico Pezinho Rosa
     https://www.mercadolivre.com.br/p/MLB74300525
 MLB18392577  Fralda Descartável Infantil Pom Pom Clássica XG Pacote 20 Un
     https://www.mercadolivre.com.br/p/MLB18392577
+MLB50093886  Colchão Berço Americano Ortobom Baby Light D18 70x130cm Anti
+    https://www.mercadolivre.com.br/p/MLB50093886
 MLB22848080  Capa De Colchão Berço Ibitex Em Malha Gel Lisa Com Ziper
     https://www.mercadolivre.com.br/p/MLB22848080
 MLB72254053  Cercadinho Bebê Rister Baby Portátil Grande + Tapete Azul
@@ -114,8 +116,6 @@ MLB55628809  Kit Higiene Bebê Moderno De Crochê Cor Bege
     https://www.mercadolivre.com.br/p/MLB55628809
 MLB49767281  Colchão Berço Arkell Espuma D20 70x130 cm Branco Antialérgic
     https://www.mercadolivre.com.br/p/MLB49767281
-MLB50093886  Colchão Berço Americano Ortobom Baby Light D18 70x130cm Anti
-    https://www.mercadolivre.com.br/p/MLB50093886
 MLB51307528  Cercadinho Bebê Grande Chiqueirinho Infantil Cercado 180x150
     https://www.mercadolivre.com.br/p/MLB51307528
 MLB40215751  Banheira Bebê Dobrável Infantil Portátil Buba Cor Cinza Banh
