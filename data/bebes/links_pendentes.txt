@@ -10,6 +10,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB22663058
 ⭐ MLB43469003  Banheira Bebê Dobrável Portátil Buba Cor Cinza
     https://www.mercadolivre.com.br/p/MLB43469003
+⭐ MLB32330033  Chocalho Mordedor Bebê Corinthians Kids Gol Silicone
+    https://www.mercadolivre.com.br/p/MLB32330033
 ⭐ MLB18392685  Fralda Descartável Infantil Personal Soft & Protect M Pacote
     https://www.mercadolivre.com.br/p/MLB18392685
 ⭐ MLB70149896  Cadeira De Alimentação Bebe Portatil 6 Em 1 Cinto Segurança 
@@ -26,6 +28,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB47606215
 ⭐ MLB63183742  Sling Bebê Canguru Bebe Sling Para Recem Nascido Premium - M
     https://www.mercadolivre.com.br/p/MLB63183742
+⭐ MLB68262033  Kit Loção Hidratante Bebê Hidramais 2x400ml Diário E Noturno
+    https://www.mercadolivre.com.br/p/MLB68262033
 MLB35495841  Bomba tira leite materno Elétrica G-TECH - Bivolt
     https://www.mercadolivre.com.br/p/MLB35495841
 MLB37238466  Brinquedo Atividades Buba Atomic Soft Ball Mordedor Bebê
@@ -70,18 +74,20 @@ MLB29195932  Mochila Bolsa Lequeen Maternidade Executiva Multifuncional C
     https://www.mercadolivre.com.br/p/MLB29195932
 MLB32385853  Mordedor Bebe Bananinha - Massageador Escovinha Cor Amarelo
     https://www.mercadolivre.com.br/p/MLB32385853
-MLB32330033  Chocalho Mordedor Bebê Corinthians Kids Gol Silicone
-    https://www.mercadolivre.com.br/p/MLB32330033
 MLB25541567  Bola Chocalho Mordedor Bebe Unissex Pimpolho Cor Vermelho
     https://www.mercadolivre.com.br/p/MLB25541567
 MLB63123338  Baby Monitor Vb603 Baba Eletrônica Com Monitor branco
     https://www.mercadolivre.com.br/p/MLB63123338
+MLB65451179  Bomba Tira Leite Elétrica Solo Hands Free Medela
+    https://www.mercadolivre.com.br/p/MLB65451179
 MLB32111187  Móbile Berço Bebê Musical E Giratório Elefantinho Tiffany
     https://www.mercadolivre.com.br/p/MLB32111187
 MLB74300525  Mordedor Bebê Mãozinha E Pezinho Macio Atóxico Pezinho Rosa
     https://www.mercadolivre.com.br/p/MLB74300525
 MLB18392577  Fralda Descartável Infantil Pom Pom Clássica XG Pacote 20 Un
     https://www.mercadolivre.com.br/p/MLB18392577
+MLB66185468  Carrinho Bebê Move Duo Passear Bebê Conforto Nina Adaptador 
+    https://www.mercadolivre.com.br/p/MLB66185468
 MLB50093886  Colchão Berço Americano Ortobom Baby Light D18 70x130cm Anti
     https://www.mercadolivre.com.br/p/MLB50093886
 MLB22848080  Capa De Colchão Berço Ibitex Em Malha Gel Lisa Com Ziper
@@ -104,8 +110,6 @@ MLB27170986  Banheira Bebê Classic Dino - Galzerano
     https://www.mercadolivre.com.br/p/MLB27170986
 MLB75344146  Banheira Bebe + Suporte Koa Plus Perola - Galzerano - 7097pr
     https://www.mercadolivre.com.br/p/MLB75344146
-MLB65451179  Bomba Tira Leite Elétrica Solo Hands Free Medela
-    https://www.mercadolivre.com.br/p/MLB65451179
 MLB22612025  Móbile Berço Bebê Musical E Giratório Ovelinha Azul
     https://www.mercadolivre.com.br/p/MLB22612025
 MLB42110938  Cercadinho Bebê Portátil Desmontável Mazzilli para Crianças 
@@ -122,7 +126,3 @@ MLB49767281  Colchão Berço Arkell Espuma D20 70x130 cm Branco Antialérgic
     https://www.mercadolivre.com.br/p/MLB49767281
 MLB51307528  Cercadinho Bebê Grande Chiqueirinho Infantil Cercado 180x150
     https://www.mercadolivre.com.br/p/MLB51307528
-MLB40215751  Banheira Bebê Dobrável Infantil Portátil Buba Cor Cinza Banh
-    https://www.mercadolivre.com.br/p/MLB40215751
-MLB61688382  Canguru Sling Bolsa Bebe Carregador Mochila Cor Rosa Confort
-    https://www.mercadolivre.com.br/p/MLB61688382

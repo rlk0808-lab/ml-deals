@@ -69,6 +69,23 @@
   },
   {
     "data": "2026-09-03",
+    "product_id": "MLB68262033",
+    "nome": "Kit Loção Hidratante Bebê Hidramais 2x400ml Diário E Noturno",
+    "preco": 39.8,
+    "preco_original": 47.76,
+    "n_ofertas": 2,
+    "item_id": "MLB5182930669",
+    "seller_id": 2253896905,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB68262033",
+    "mediana": 54.99,
+    "minimo_hist": 39.8,
+    "desconto": 27.6,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-03",
     "product_id": "MLB47606215",
     "nome": "Shampoo + Condicionador Natura Mamãe Bebê",
     "preco": 72.99,
@@ -150,6 +167,23 @@
     "mediana": 122.12,
     "minimo_hist": 69.43,
     "desconto": 18.3,
+    "recorde": false
+  },
+  {
+    "data": "2026-09-03",
+    "product_id": "MLB32330033",
+    "nome": "Chocalho Mordedor Bebê Corinthians Kids Gol Silicone",
+    "preco": 25.9,
+    "preco_original": null,
+    "n_ofertas": 5,
+    "item_id": "MLB6857870510",
+    "seller_id": 336971382,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB32330033",
+    "mediana": 31.56,
+    "minimo_hist": 25.24,
+    "desconto": 17.9,
     "recorde": false
   },
   {
