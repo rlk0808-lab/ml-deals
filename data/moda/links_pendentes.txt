@@ -14,6 +14,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB57596196
 ⭐ MLB36952189  Elástico Falcon P/ Cós Cintura Cueca Box N30 Rolo 20 Metros 
     https://www.mercadolivre.com.br/p/MLB36952189
+⭐ MLB51529178  Chinelo Feminino Slim Havaianas
+    https://www.mercadolivre.com.br/p/MLB51529178
 ⭐ MLB24668187  Camiseta Fluminense Braziline Stencil Masculina Adulto
     https://www.mercadolivre.com.br/p/MLB24668187
 ⭐ MLB29410142  Escova Para Limpar Couro Banco Bota Jaqueta Detailer
@@ -22,12 +24,10 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB45475084
 ⭐ MLB47691991  Colete Masculino Para Futebol Kit Com 6 Pçs Verde Penalty
     https://www.mercadolivre.com.br/p/MLB47691991
-⭐ MLB75195451  Cueca Algodão 2 Boxer Uso Prolongado Incontinência Urinária 
-    https://www.mercadolivre.com.br/p/MLB75195451
+⭐ MLB74922862  Bolsa Transversal Masculina Porta Celular Couro Sintético Ma
+    https://www.mercadolivre.com.br/p/MLB74922862
 ⭐ MLB44951729  Sandália Rasteira Feminina Strass Vizzano
     https://www.mercadolivre.com.br/p/MLB44951729
-⭐ MLB32034559  Limpa Renova Hidrata Couro De Jaqueta Spray Quick-detail
-    https://www.mercadolivre.com.br/p/MLB32034559
 ⭐ MLB68670569  Conjunto Feminino Real Confecções G1/g2 Short Saia + Cropped
     https://www.mercadolivre.com.br/p/MLB68670569
 ⭐ MLB29813440  Bastianini Bolsa Transversal Masculina Couro Sintético Preto
@@ -38,8 +38,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB56222076
 ⭐ MLB59992197  Kit Hupi Corrida Com Meia Cano Médio 36-42 e Testeira Run Pr
     https://www.mercadolivre.com.br/p/MLB59992197
-⭐ MLB65529087  Touca Gorro Beanie + Luva Térmica Lã Preta
-    https://www.mercadolivre.com.br/p/MLB65529087
 ⭐ MLB65082947  Arara De Roupas Cabideiro para vestido longo De Aço Grande L
     https://www.mercadolivre.com.br/p/MLB65082947
 ⭐ MLB54249378  50 Zíper Metal 18cm Para Calça Jeans Azul Marinho Cor Azul-m
@@ -58,12 +56,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB57545342
 ⭐ MLB70106535  Blusa Regata Fitness Feminina Ausare para Academia e Treino 
     https://www.mercadolivre.com.br/p/MLB70106535
+⭐ MLB32034559  Limpa Renova Hidrata Couro De Jaqueta Spray Quick-detail
+    https://www.mercadolivre.com.br/p/MLB32034559
 ⭐ MLB77848331  Mochila Mormaii Básica Masculina Reforçada Trabalho Preto
     https://www.mercadolivre.com.br/p/MLB77848331
 ⭐ MLB62695160  Kouk Authentic Touca Gorro Curto Marinheiro - Gorro Lenhador
     https://www.mercadolivre.com.br/p/MLB62695160
-MLB51529178  Chinelo Feminino Slim Havaianas
-    https://www.mercadolivre.com.br/p/MLB51529178
 MLB51529176  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB51529176
 MLB36951560  Elástico Listrado P/ Cós Cueca Box Calcinha Top N40 - 20 Mts
@@ -120,9 +118,11 @@ MLB63656101  Meia Sapatilha Para Beach Tennis Areia Cano Alto Kestal Cor
     https://www.mercadolivre.com.br/p/MLB63656101
 MLB63650458  Meia Sapatilha Para Beach Tennis Areia Cano Alto Kestal Cor 
     https://www.mercadolivre.com.br/p/MLB63650458
-MLB76023089  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz 
-    https://www.mercadolivre.com.br/p/MLB76023089
-MLB75085390  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz 
-    https://www.mercadolivre.com.br/p/MLB75085390
-MLB74813931  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz 
-    https://www.mercadolivre.com.br/p/MLB74813931
+MLB66837837  Meia Soquete Masculino E Feminino Tamanhos E Cores - Poliést
+    https://www.mercadolivre.com.br/p/MLB66837837
+MLB75798851  Kit 2x Camiseta Básica Unissex Algodão 100% Peruano Básica M
+    https://www.mercadolivre.com.br/p/MLB75798851
+MLB77970240  Colete Masculino Para Futebol Kit Com 5 Peças Penalty Cores 
+    https://www.mercadolivre.com.br/p/MLB77970240
+MLB20674693  Limpa Tênis Sapato Bolsa Instantâneo Magic Wipes Prático pro
+    https://www.mercadolivre.com.br/p/MLB20674693
