@@ -69,6 +69,23 @@
   },
   {
     "data": "2026-09-03",
+    "product_id": "MLB23760008",
+    "nome": "Livro Trono de vidro: Rainha das sombras (Vol. 4), de Maas, Sarah J.. Editorial GALERA RECORD, tapa mole, en português",
+    "preco": 39.9,
+    "preco_original": 66.38,
+    "n_ofertas": 91,
+    "item_id": "MLB7567691292",
+    "seller_id": 54795867,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB23760008",
+    "mediana": 51.38,
+    "minimo_hist": 39.9,
+    "desconto": 22.3,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-03",
     "product_id": "MLB19314437",
     "nome": "Livro Mistério Sob O Gelo: Uma Aventura Na Antártica De Alexander Kellner Da Editora Rocco",
     "preco": 22.67,
@@ -235,6 +252,23 @@
     "mediana": 47.75,
     "minimo_hist": 40.0,
     "desconto": 16.2,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-03",
+    "product_id": "MLB19447440",
+    "nome": "Livro Mistério em Verdejantes, de Rodrigues, Severino. Cortez Editora e Livraria LTDA, capa mole (2017)",
+    "preco": 47.9,
+    "preco_original": 64.0,
+    "n_ofertas": 8,
+    "item_id": "MLB4969399043",
+    "seller_id": 480263032,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19447440",
+    "mediana": 57.12,
+    "minimo_hist": 47.9,
+    "desconto": 16.1,
     "recorde": true
   },
   {
