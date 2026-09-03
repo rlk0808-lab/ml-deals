@@ -12,8 +12,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB20719323
 ⭐ MLB37993510  Kit Cozinha 5 Potes Herméticos Para Mantimentos Cor Preto
     https://www.mercadolivre.com.br/p/MLB37993510
-⭐ MLB22360554  Panela Pressão Ferro 19cm Cabo Madeira Panela Mineira Preto
-    https://www.mercadolivre.com.br/p/MLB22360554
 ⭐ MLB61874726  Organizador Porta-Trecos de Carro Impermeável em Poliéster c
     https://www.mercadolivre.com.br/p/MLB61874726
 ⭐ MLB65564513  Kit 17 Potes Hermeticos Cozinha Mantimentos Resistentes Bran
@@ -80,6 +78,8 @@ MLB56347591  Sanduicheira Grill Elétrica 750w Be Smart Cozinha Fácil Pret
     https://www.mercadolivre.com.br/p/MLB56347591
 MLB26832772  Kit Organizador de Guarda-Roupa e Gaveta com 10 Divisórias, 
     https://www.mercadolivre.com.br/p/MLB26832772
+MLB22360554  Panela Pressão Ferro 19cm Cabo Madeira Panela Mineira Preto
+    https://www.mercadolivre.com.br/p/MLB22360554
 MLB23053557  Jogo Taças Cristal Titânio 220ml Conjunto 6 Taças Champanhe 
     https://www.mercadolivre.com.br/p/MLB23053557
 MLB53775135  Conjunto Pratos De Cerâmica 20cm Sobremesa Raso 4 Unidades
