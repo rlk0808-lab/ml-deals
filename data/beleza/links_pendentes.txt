@@ -18,8 +18,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB37986849
 ⭐ MLB18940033  Creme para Pentear Hidrocauterização Pantene 240ml
     https://www.mercadolivre.com.br/p/MLB18940033
-⭐ MLB52322550  Dove Condicionador Hidratação + Hialuron-vit 600ml
-    https://www.mercadolivre.com.br/p/MLB52322550
+⭐ MLB20905076  Capicilin - Creme Para Pentear Hairpantol 300ml
+    https://www.mercadolivre.com.br/p/MLB20905076
 ⭐ MLB39768110  Primer Facial - Blur Primer Océane Edition 30ml
     https://www.mercadolivre.com.br/p/MLB39768110
 ⭐ MLB68726370  Progressiva Capilar Vegana 500ml S/ Formol Agilcap Belletonn
@@ -32,8 +32,6 @@ MLB38454411  Máscara Capilar Vult Recarga De Hidratação 250g
     https://www.mercadolivre.com.br/p/MLB38454411
 MLB38926902  Primer Facial - Blur Primer Océane Edition 30ml Tom do prime
     https://www.mercadolivre.com.br/p/MLB38926902
-MLB20905076  Capicilin - Creme Para Pentear Hairpantol 300ml
-    https://www.mercadolivre.com.br/p/MLB20905076
 MLB25243834  Primer Facial Efeito Lifting Phállebeauty Tom do primer Tran
     https://www.mercadolivre.com.br/p/MLB25243834
 MLB19777775  Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g
@@ -46,6 +44,8 @@ MLB46480470  Eudora Siàge Cauterização Dos Lisos Leave-in Capilar 100ml
     https://www.mercadolivre.com.br/p/MLB46480470
 MLB22950786  Máscara Cílios Safira Incolor Modeladora Efeito Boneca 7ml
     https://www.mercadolivre.com.br/p/MLB22950786
+MLB52322550  Dove Condicionador Hidratação + Hialuron-vit 600ml
+    https://www.mercadolivre.com.br/p/MLB52322550
 MLB20871191  Creme Para Pentear Fortalecimento Antiqueda Reconstrutor
     https://www.mercadolivre.com.br/p/MLB20871191
 MLB61954655  Rímel Vivai Máscara Cílios Preto 4D Prova D'Água 2 Steps
@@ -62,8 +62,6 @@ MLB49964148  Ampola Capilar Profios Power Nutrição 15ml
     https://www.mercadolivre.com.br/p/MLB49964148
 MLB67954595  Protetor solar Sunless Toque Seco Protetor Solar Facial 99FP
     https://www.mercadolivre.com.br/p/MLB67954595
-MLB32446140  Mascara Facial Argila Preta Bisnaga 140 G
-    https://www.mercadolivre.com.br/p/MLB32446140
 MLB20335700  Condicionador Hidratação Profunda Vitallederm 300ml
     https://www.mercadolivre.com.br/p/MLB20335700
 MLB53114805  Óleo Capilar Keratex Ojon 60ml
@@ -90,6 +88,8 @@ MLB57351161  Gloss Labial Hidratação Labial Brilho Mel
     https://www.mercadolivre.com.br/p/MLB57351161
 MLB39190714  Creme para pentear Seda Boom nutrição
     https://www.mercadolivre.com.br/p/MLB39190714
+MLB32446140  Mascara Facial Argila Preta Bisnaga 140 G
+    https://www.mercadolivre.com.br/p/MLB32446140
 MLB45431279  Mascara Facial De Argila Verde-180g
     https://www.mercadolivre.com.br/p/MLB45431279
 MLB45788065  Kit 03 Leave-In Capilar Kannep Embaixador 200ml | Antifrizz,
