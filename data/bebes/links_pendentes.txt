@@ -16,6 +16,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB43469003
 ⭐ MLB70149896  Cadeira De Alimentação Bebe Portatil 6 Em 1 Cinto Segurança 
     https://www.mercadolivre.com.br/p/MLB70149896
+⭐ MLB65189752  Colchão Berço Americano Prorelax Bela Impermeável 10cm Branc
+    https://www.mercadolivre.com.br/p/MLB65189752
 ⭐ MLB69868490  Banheira Bebe Plastibaby 22l Banheira De Bebê Cor Rosa + Lis
     https://www.mercadolivre.com.br/p/MLB69868490
 ⭐ MLB62842938  Canguru Sling De Bebe Carregar Recem Nascido Dry Fit Furadin
@@ -24,8 +26,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB45837774
 ⭐ MLB63183742  Sling Bebê Canguru Bebe Sling Para Recem Nascido Premium - M
     https://www.mercadolivre.com.br/p/MLB63183742
-⭐ MLB25294888  Cadeira Alimentação Portátil Burigotto Bebe Poke Branco Cor 
-    https://www.mercadolivre.com.br/p/MLB25294888
 MLB35495841  Bomba tira leite materno Elétrica G-TECH - Bivolt
     https://www.mercadolivre.com.br/p/MLB35495841
 MLB37238466  Brinquedo Atividades Buba Atomic Soft Ball Mordedor Bebê
