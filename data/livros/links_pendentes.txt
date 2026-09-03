@@ -6,6 +6,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 (gerado em 2026-09-03)
 
+⭐ MLB39979760  Box Collen Hoover
+    https://www.mercadolivre.com.br/p/MLB39979760
+⭐ MLB19220755  Trono de Vidro: Reino de Cinzas (Vol. 6) - Maas, Sarah J. - 
+    https://www.mercadolivre.com.br/p/MLB19220755
+⭐ MLB46039067  Tempestade de Ônix - Yarros, Rebecca - Planeta Minotauro - C
+    https://www.mercadolivre.com.br/p/MLB46039067
+⭐ MLB50105423  Mistborn: O Herói das Eras - Sanderson, Brandon - Trama - Ca
+    https://www.mercadolivre.com.br/p/MLB50105423
 ⭐ MLB74807035  Box Trilogia Powerless
     https://www.mercadolivre.com.br/p/MLB74807035
 ⭐ MLB19272750  Box Totalmente Terror
@@ -34,20 +42,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB63740683
 ⭐ MLB65261067  Super-hábitos
     https://www.mercadolivre.com.br/p/MLB65261067
-MLB39979760  Box Collen Hoover
-    https://www.mercadolivre.com.br/p/MLB39979760
-MLB46039067  Tempestade de Ônix - Yarros, Rebecca - Planeta Minotauro - C
-    https://www.mercadolivre.com.br/p/MLB46039067
-MLB50105423  Mistborn: O Herói das Eras - Sanderson, Brandon - Trama - Ca
-    https://www.mercadolivre.com.br/p/MLB50105423
-MLB19220755  Trono de Vidro: Reino de Cinzas (Vol. 6) - Maas, Sarah J. - 
-    https://www.mercadolivre.com.br/p/MLB19220755
+MLB19238939  Coleção Agatha Christie - Box 1 - Christie, Agatha - HarperC
+    https://www.mercadolivre.com.br/p/MLB19238939
 MLB42934246  Sacramentadora - Sanderson, Brandon - Trama - Capa Mole
     https://www.mercadolivre.com.br/p/MLB42934246
 MLB56693037  De férias com você (Edição especial) - Henry, Emily - Verus 
     https://www.mercadolivre.com.br/p/MLB56693037
-MLB19238939  Coleção Agatha Christie - Box 1 - Christie, Agatha - HarperC
-    https://www.mercadolivre.com.br/p/MLB19238939
 MLB50105638  Mistborn: O Poço da Ascensão - Sanderson, Brandon - Trama - 
     https://www.mercadolivre.com.br/p/MLB50105638
 MLB40283255  Verity (Edição de colecionador), Colleen Hoover, Galera, Por
@@ -92,6 +92,8 @@ MLB19405210  Corte de espinhos e rosas (Vol. 1) - Maas, Sarah J. - Galera
     https://www.mercadolivre.com.br/p/MLB19405210
 MLB75861265  Ala D - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB75861265
+MLB19238733  Coleção Agatha Christie - Box 6 - Christie, Agatha - HarperC
+    https://www.mercadolivre.com.br/p/MLB19238733
 MLB19262567  As sete irmãs (As Sete Irmãs – Livro 1) - Riley, Lucinda - E
     https://www.mercadolivre.com.br/p/MLB19262567
 MLB53665702  O namorado - McFadden, Freida - Record - Capa Mole
@@ -108,8 +110,6 @@ MLB49559264  O acidente - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB49559264
 MLB43965638  O detento - McFadden, Freida - Editora Arqueiro - Capa Mole
     https://www.mercadolivre.com.br/p/MLB43965638
-MLB19238733  Coleção Agatha Christie - Box 6 - Christie, Agatha - HarperC
-    https://www.mercadolivre.com.br/p/MLB19238733
 MLB19430983  Livro-streampunks- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB19430983
 MLB51031691  Pense duas vezes (Myron Bolitar – Livro 12) - Coben, Harlan 
