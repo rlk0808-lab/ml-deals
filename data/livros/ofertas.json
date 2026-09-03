@@ -1,6 +1,6 @@
 [
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB54222344",
     "nome": "Profundezas, De Rebecca Yarros. Editorial Verus, Capa Mole, Edição 1 Em Português, 2025",
     "preco": 30.0,
@@ -17,7 +17,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB20685650",
     "nome": "Box De Luxo 6 Livros Sherlock Holmes - Arthur Conan Doyle - Capa Dura",
     "preco": 49.98,
@@ -34,7 +34,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB19395937",
     "nome": "Livro Sharp Objects Objetos Cortantes Gillian Flynn",
     "preco": 74.8,
@@ -51,12 +51,12 @@
     "recorde": false
   },
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB23760008",
     "nome": "Livro Trono de vidro: Rainha das sombras (Vol. 4), de Maas, Sarah J.. Editorial GALERA RECORD, tapa mole, en português",
     "preco": 39.9,
     "preco_original": 66.38,
-    "n_ofertas": 91,
+    "n_ofertas": 92,
     "item_id": "MLB7567691292",
     "seller_id": 54795867,
     "frete_gratis": true,
@@ -68,7 +68,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB54223613",
     "nome": "Diário Oficial De Quarta Asa: Você É Uma Coisinha Bem Violenta, Não É?, De Rebecca Yarros. Editorial Planeta Minotauro, Capa Dura, Edição 1 Em Português, 2025",
     "preco": 78.99,
@@ -85,24 +85,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-02",
-    "product_id": "MLB74807035",
-    "nome": "Box Trilogia Powerless",
-    "preco": 171.0,
-    "preco_original": 249.9,
-    "n_ofertas": 81,
-    "item_id": "MLB7083943968",
-    "seller_id": 480263032,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB74807035",
-    "mediana": 219.0,
-    "minimo_hist": 171.0,
-    "desconto": 21.9,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB19314437",
     "nome": "Livro Mistério Sob O Gelo: Uma Aventura Na Antártica De Alexander Kellner Da Editora Rocco",
     "preco": 22.67,
@@ -119,7 +102,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB60720366",
     "nome": "Livro Wuthering Heights - Emily Brontë, De Emily Brontë, Vol. 1. Editora Nort Parade Publishing, Capa Dura, Em Inglês (2024)",
     "preco": 31.79,
@@ -136,12 +119,12 @@
     "recorde": true
   },
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB57813856",
     "nome": "Kit Thrillers Colleen Hoover: Verity + Layla",
     "preco": 57.89,
     "preco_original": 99.9,
-    "n_ofertas": 58,
+    "n_ofertas": 59,
     "item_id": "MLB4353179215",
     "seller_id": 480263032,
     "frete_gratis": true,
@@ -153,12 +136,12 @@
     "recorde": true
   },
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB19272750",
     "nome": "Box Totalmente Terror",
     "preco": 46.41,
     "preco_original": 99.8,
-    "n_ofertas": 75,
+    "n_ofertas": 77,
     "item_id": "MLB5660904592",
     "seller_id": 480263032,
     "frete_gratis": true,
@@ -170,7 +153,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB57817554",
     "nome": "Box Santo Guerreiro",
     "preco": 129.0,
@@ -187,7 +170,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB23250818",
     "nome": "Martin Claret A Relíquia – Eça de Queirós Livro Físico Capa Dura Edição 2022 Clássico da Literatura Portuguesa",
     "preco": 36.44,
@@ -204,12 +187,12 @@
     "recorde": true
   },
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB37310228",
     "nome": "O Manual Do Mago Frugal Para Sobrevivência Na Inglaterra Medieval: Projeto Secreto #2, De Brandon Sanderson. Editorial Trama, Tapa Dura, Edición 1 En Português, 2024",
     "preco": 89.99,
     "preco_original": null,
-    "n_ofertas": 83,
+    "n_ofertas": 82,
     "item_id": "MLB5147304421",
     "seller_id": 64642586,
     "frete_gratis": true,
@@ -221,7 +204,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB53759056",
     "nome": "Box Sandel",
     "preco": 151.93,
@@ -238,7 +221,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB65261067",
     "nome": "Super-hábitos",
     "preco": 42.71,
@@ -255,7 +238,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB30178527",
     "nome": "Livro - Sherlock Holmes Vol.3 - Arthur Conan - Capa Dura: Não Se Aplica, De Arthur Conan Doyle. Série Sherlock Holmes, Vol. 1. Editora Haper Collins, Capa Dura, Edição 1 Em Portugu",
     "preco": 40.0,
@@ -272,7 +255,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB19447440",
     "nome": "Livro Mistério em Verdejantes, de Rodrigues, Severino. Cortez Editora e Livraria LTDA, capa mole (2017)",
     "preco": 47.9,
@@ -289,12 +272,29 @@
     "recorde": true
   },
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
+    "product_id": "MLB74807035",
+    "nome": "Box Trilogia Powerless",
+    "preco": 184.0,
+    "preco_original": 249.9,
+    "n_ofertas": 81,
+    "item_id": "MLB7083943968",
+    "seller_id": 480263032,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB74807035",
+    "mediana": 219.0,
+    "minimo_hist": 171.0,
+    "desconto": 16.0,
+    "recorde": false
+  },
+  {
+    "data": "2026-09-03",
     "product_id": "MLB19238271",
     "nome": "Livro Sherlock Holmes Sir Arthur Conan Doyle Edição 1 Português 2013 Melhoramentos",
     "preco": 25.41,
     "preco_original": 52.0,
-    "n_ofertas": 49,
+    "n_ofertas": 47,
     "item_id": "MLB3966348455",
     "seller_id": 480263032,
     "frete_gratis": true,
@@ -306,7 +306,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB19243935",
     "nome": "Livro Billy Summers Stephen King 1a Edição Capa Mole 2021 Português Editora Suma",
     "preco": 66.72,
@@ -323,7 +323,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB19243809",
     "nome": "Livro Não Há Segunda Chance De Harlan Coben Da Editora Arqueiro",
     "preco": 40.51,
@@ -340,7 +340,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB63740683",
     "nome": "Livro: Sua Última Reverência Autor: Arthur Conan Doyle (novo, Lacrado), De Arthur Conan Doyle",
     "preco": 27.82,
@@ -357,7 +357,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB19362860",
     "nome": "Livro Negócios Internacionais, de Guedes, Ana. Editorial Cengage Learning Edições Ltda., tapa mole, en português (2007)",
     "preco": 27.82,
