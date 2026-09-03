@@ -28,8 +28,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB60720366
 ⭐ MLB20685650  Box De Luxo 6 Livros Sherlock Holmes - Arthur Conan Doyle - 
     https://www.mercadolivre.com.br/p/MLB20685650
-⭐ MLB19447440  Livro Mistério em Verdejantes, de Rodrigues, Severino. Corte
-    https://www.mercadolivre.com.br/p/MLB19447440
 ⭐ MLB30178527  Livro - Sherlock Holmes Vol.3 - Arthur Conan - Capa Dura: Nã
     https://www.mercadolivre.com.br/p/MLB30178527
 ⭐ MLB63740683  Livro: Sua Última Reverência Autor: Arthur Conan Doyle (novo
@@ -126,3 +124,5 @@ MLB24095614  Corte de chamas prateadas (Vol. 5 – Edição especial) - Maas,
     https://www.mercadolivre.com.br/p/MLB24095614
 MLB63076501  Ecos da floresta – Livro vencedor do prêmio Goodreads e elei
     https://www.mercadolivre.com.br/p/MLB63076501
+MLB19771891  Box Essencial Conquistadores (3 Livros) *
+    https://www.mercadolivre.com.br/p/MLB19771891
