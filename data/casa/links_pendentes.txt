@@ -8,6 +8,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 ⭐ MLB57626638  Sanduicheira Grill Elétrica Antiaderente 750w Potente Cor Ve
     https://www.mercadolivre.com.br/p/MLB57626638
+⭐ MLB20719323  Eirilar Panela Pressão Teflon Panela de Pressão Antiaderente
+    https://www.mercadolivre.com.br/p/MLB20719323
 ⭐ MLB37993510  Kit Cozinha 5 Potes Herméticos Para Mantimentos Cor Preto
     https://www.mercadolivre.com.br/p/MLB37993510
 ⭐ MLB22360554  Panela Pressão Ferro 19cm Cabo Madeira Panela Mineira Preto
@@ -18,10 +20,10 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB65564513
 ⭐ MLB39216863  Jogo Taças Cristal Transparente Fio Ouro Imperial 330ml Lyor
     https://www.mercadolivre.com.br/p/MLB39216863
+⭐ MLB61964304  Jogo Tapetes Banheiro Antiderrapante Multiart Super Soft Cin
+    https://www.mercadolivre.com.br/p/MLB61964304
 ⭐ MLB46223824  Kit Potes Herméticos Retangulares Com Tampa Preta para Manti
     https://www.mercadolivre.com.br/p/MLB46223824
-MLB20719323  Eirilar Panela Pressão Teflon Panela de Pressão Antiaderente
-    https://www.mercadolivre.com.br/p/MLB20719323
 MLB74301911  Sanduicheira Grill Elétrica
     https://www.mercadolivre.com.br/p/MLB74301911
 MLB29118990  Jogo Toalhas Gigante 5pçs Fio Penteado Algodão Egípcio
@@ -58,6 +60,8 @@ MLB28857262  Tulha Aramada Deslizante Cesto Roupa Suja Inox Lavanderia Ba
     https://www.mercadolivre.com.br/p/MLB28857262
 MLB37246326  Kit Potes Porta Mantimento Hermético Quadrado Cozinha 12 Uni
     https://www.mercadolivre.com.br/p/MLB37246326
+MLB75087991  Jogo Talheres 12 Peças Inox Fratelli Elegante Moderno Rosa C
+    https://www.mercadolivre.com.br/p/MLB75087991
 MLB25836001  Prateleira Parede Tripla 60x25cm Hone Dourado Vulcano
     https://www.mercadolivre.com.br/p/MLB25836001
 MLB60085180  Jogo Tapetes Banheiro Antiderrapante Cinza Jolitex Delicato 
@@ -84,8 +88,6 @@ MLB47450869  Caçarola Panela Ferro Fundido Com Tampa De Vidro 2 Alças N22
     https://www.mercadolivre.com.br/p/MLB47450869
 MLB22830986  Jogo Copos Vidro Shot Dose 45ml Lehavi Chicago 6 Peças
     https://www.mercadolivre.com.br/p/MLB22830986
-MLB75087991  Jogo Talheres 12 Peças Inox Fratelli Elegante Moderno Rosa C
-    https://www.mercadolivre.com.br/p/MLB75087991
 MLB26174851  Kit Organizador Cozinha Aço 3 Unidades Preto DiCarlo
     https://www.mercadolivre.com.br/p/MLB26174851
 MLB35940252  Kit Organizador De Gaveta Dobrável Com Divisórias - 4 Peças
@@ -124,5 +126,3 @@ MLB75921690  Sanduicheira Grill Elétrica Antiaderente Lanche Rápido 800w
     https://www.mercadolivre.com.br/p/MLB75921690
 MLB74848676  Kit 15 Potes Herméticos Retangulares Mantimentos Organizador
     https://www.mercadolivre.com.br/p/MLB74848676
-MLB23798058  Tábua Corte Bambu Alça Alta Resistencia Churrasco Cozinha
-    https://www.mercadolivre.com.br/p/MLB23798058

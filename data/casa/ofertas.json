@@ -11,9 +11,26 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB65564513",
-    "mediana": 78.0,
+    "mediana": 77.99,
     "minimo_hist": 37.9,
     "desconto": 51.4,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-03",
+    "product_id": "MLB61964304",
+    "nome": "Jogo Tapetes Banheiro Antiderrapante Multiart Super Soft Cinza 3",
+    "preco": 38.49,
+    "preco_original": 85.76,
+    "n_ofertas": 2,
+    "item_id": "MLB4405225447",
+    "seller_id": 2255503206,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB61964304",
+    "mediana": 59.99,
+    "minimo_hist": 38.49,
+    "desconto": 35.8,
     "recorde": true
   },
   {
