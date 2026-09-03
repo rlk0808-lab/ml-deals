@@ -20,8 +20,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB29410142
 ⭐ MLB45475084  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB45475084
-⭐ MLB74922862  Bolsa Transversal Masculina Porta Celular Couro Sintético Ma
-    https://www.mercadolivre.com.br/p/MLB74922862
 ⭐ MLB47691991  Colete Masculino Para Futebol Kit Com 6 Pçs Verde Penalty
     https://www.mercadolivre.com.br/p/MLB47691991
 ⭐ MLB75195451  Cueca Algodão 2 Boxer Uso Prolongado Incontinência Urinária 
@@ -50,12 +48,20 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB47536435
 ⭐ MLB65008432  Calça Jeans Azul Claro Masculina Tradicional Elastano Premiu
     https://www.mercadolivre.com.br/p/MLB65008432
+⭐ MLB51450738  Kit 4 Colmeias Organizadora Calça Jeans Feminina 40x20x15 Co
+    https://www.mercadolivre.com.br/p/MLB51450738
+⭐ MLB73963761  Tinta Para Couro Shake Paint 37ml Acrilex 520 Preto Jaqueta 
+    https://www.mercadolivre.com.br/p/MLB73963761
 ⭐ MLB63525414  Kit 6 Meia Cano Alto P/ Prática De Esporte Futebol Handebol 
     https://www.mercadolivre.com.br/p/MLB63525414
 ⭐ MLB57545342  Bolsa Masculina Mensageiro Couro Sintético Marrom Ajustável
     https://www.mercadolivre.com.br/p/MLB57545342
 ⭐ MLB70106535  Blusa Regata Fitness Feminina Ausare para Academia e Treino 
     https://www.mercadolivre.com.br/p/MLB70106535
+⭐ MLB77848331  Mochila Mormaii Básica Masculina Reforçada Trabalho Preto
+    https://www.mercadolivre.com.br/p/MLB77848331
+⭐ MLB62695160  Kouk Authentic Touca Gorro Curto Marinheiro - Gorro Lenhador
+    https://www.mercadolivre.com.br/p/MLB62695160
 MLB51529178  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB51529178
 MLB51529176  Chinelo Feminino Slim Havaianas
@@ -120,9 +126,3 @@ MLB75085390  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz
     https://www.mercadolivre.com.br/p/MLB75085390
 MLB74813931  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz 
     https://www.mercadolivre.com.br/p/MLB74813931
-MLB75737119  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz 
-    https://www.mercadolivre.com.br/p/MLB75737119
-MLB66837837  Meia Soquete Masculino E Feminino Tamanhos E Cores - Poliést
-    https://www.mercadolivre.com.br/p/MLB66837837
-MLB51450738  Kit 4 Colmeias Organizadora Calça Jeans Feminina 40x20x15 Co
-    https://www.mercadolivre.com.br/p/MLB51450738
