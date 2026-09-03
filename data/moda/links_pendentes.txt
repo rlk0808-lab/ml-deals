@@ -18,8 +18,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB51529178
 ⭐ MLB24668187  Camiseta Fluminense Braziline Stencil Masculina Adulto
     https://www.mercadolivre.com.br/p/MLB24668187
+⭐ MLB36951560  Elástico Listrado P/ Cós Cueca Box Calcinha Top N40 - 20 Mts
+    https://www.mercadolivre.com.br/p/MLB36951560
 ⭐ MLB62695160  Kouk Authentic Touca Gorro Curto Marinheiro - Gorro Lenhador
     https://www.mercadolivre.com.br/p/MLB62695160
+⭐ MLB74239341  Meia Divertida Cr7 Cristiano Ronaldo Copa Adulto Cano Alto V
+    https://www.mercadolivre.com.br/p/MLB74239341
 ⭐ MLB29410142  Escova Para Limpar Couro Banco Bota Jaqueta Detailer
     https://www.mercadolivre.com.br/p/MLB29410142
 ⭐ MLB45475084  Chinelo Feminino Slim Havaianas
@@ -36,6 +40,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB29813440
 ⭐ MLB37124812  Amycron preta 90ml tinta para couro sapato,bota,bolsa,jaquet
     https://www.mercadolivre.com.br/p/MLB37124812
+⭐ MLB58240342  Colete Masculino Para Ginecomastia Macom Cor Marrom Amarelad
+    https://www.mercadolivre.com.br/p/MLB58240342
 ⭐ MLB56222076  Calcinha Fio Dental Lupo De Compressão 41010-001 - Orignal C
     https://www.mercadolivre.com.br/p/MLB56222076
 ⭐ MLB59992197  Kit Hupi Corrida Com Meia Cano Médio 36-42 e Testeira Run Pr
@@ -64,10 +70,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB77848331
 MLB51529176  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB51529176
-MLB36951560  Elástico Listrado P/ Cós Cueca Box Calcinha Top N40 - 20 Mts
-    https://www.mercadolivre.com.br/p/MLB36951560
-MLB74239341  Meia Divertida Cr7 Cristiano Ronaldo Copa Adulto Cano Alto V
-    https://www.mercadolivre.com.br/p/MLB74239341
 MLB45422542  Chinelo Masculino Drifter Foam Fila Liso
     https://www.mercadolivre.com.br/p/MLB45422542
 MLB44919830  Chinelo Masculino Drifter Foam Fila Liso
@@ -102,8 +104,6 @@ MLB73441877  Meia Umbro Esportiva Clubes 3/4 Cano Alto Bordo-branco 39-44
     https://www.mercadolivre.com.br/p/MLB73441877
 MLB49798341  Meia Motoqueiro X11 Preta Cano Alto Segunda Pele Conforto Té
     https://www.mercadolivre.com.br/p/MLB49798341
-MLB58240342  Colete Masculino Para Ginecomastia Macom Cor Marrom Amarelad
-    https://www.mercadolivre.com.br/p/MLB58240342
 MLB56121586  Meia de Futebol Poker Cano Alto Preta para Treino (Tamanho 3
     https://www.mercadolivre.com.br/p/MLB56121586
 MLB44941550  Sandália Rasteira Feminina Dakota Liso
