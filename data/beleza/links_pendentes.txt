@@ -16,8 +16,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB26217349
 ⭐ MLB37986849  Kit Maquiagem Artística Terror Slug Drácula Zumbi Halloween
     https://www.mercadolivre.com.br/p/MLB37986849
-⭐ MLB18940033  Creme para Pentear Hidrocauterização Pantene 240ml
-    https://www.mercadolivre.com.br/p/MLB18940033
+⭐ MLB19777775  Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g
+    https://www.mercadolivre.com.br/p/MLB19777775
 ⭐ MLB20905076  Capicilin - Creme Para Pentear Hairpantol 300ml
     https://www.mercadolivre.com.br/p/MLB20905076
 ⭐ MLB19922487  Condicionador Hidratação Impacto 500ml Midori Profissional
@@ -30,24 +30,32 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB67954595
 ⭐ MLB61954655  Rímel Vivai Máscara Cílios Preto 4D Prova D'Água 2 Steps
     https://www.mercadolivre.com.br/p/MLB61954655
+⭐ MLB39124617  200un Anel Expositor Mostruário Cor Esmalte Unha Artificial
+    https://www.mercadolivre.com.br/p/MLB39124617
 ⭐ MLB39768110  Primer Facial - Blur Primer Océane Edition 30ml
     https://www.mercadolivre.com.br/p/MLB39768110
+⭐ MLB22225761  Natura Faces - Máscara Cílios - Mega Fantástica Preto
+    https://www.mercadolivre.com.br/p/MLB22225761
+⭐ MLB49964148  Ampola Capilar Profios Power Nutrição 15ml
+    https://www.mercadolivre.com.br/p/MLB49964148
+⭐ MLB45700521  Gel Limpeza Facial Dove Regenerative Oleosa 150ml - Unilever
+    https://www.mercadolivre.com.br/p/MLB45700521
 ⭐ MLB68726370  Progressiva Capilar Vegana 500ml S/ Formol Agilcap Belletonn
     https://www.mercadolivre.com.br/p/MLB68726370
 ⭐ MLB28456268  Progressiva Capilar 0% Formol Orgânica 250ml Cabelos Lisos
     https://www.mercadolivre.com.br/p/MLB28456268
 ⭐ MLB63938040  Creme Para Pentear Hipoalergico
     https://www.mercadolivre.com.br/p/MLB63938040
-⭐ MLB61744963  Óleo Capilar Oil Reflections 30ml
-    https://www.mercadolivre.com.br/p/MLB61744963
+⭐ MLB26540613  Caneta Lápis Sobrancelha Líquido À Prova D'água Cor Marrom-e
+    https://www.mercadolivre.com.br/p/MLB26540613
 MLB38454411  Máscara Capilar Vult Recarga De Hidratação 250g
     https://www.mercadolivre.com.br/p/MLB38454411
 MLB38926902  Primer Facial - Blur Primer Océane Edition 30ml Tom do prime
     https://www.mercadolivre.com.br/p/MLB38926902
+MLB18940033  Creme para Pentear Hidrocauterização Pantene 240ml
+    https://www.mercadolivre.com.br/p/MLB18940033
 MLB25243834  Primer Facial Efeito Lifting Phállebeauty Tom do primer Tran
     https://www.mercadolivre.com.br/p/MLB25243834
-MLB19777775  Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g
-    https://www.mercadolivre.com.br/p/MLB19777775
 MLB25713591  Óleo capilr negra rosa/ óleo capilar rosa mosqueta/ blend de
     https://www.mercadolivre.com.br/p/MLB25713591
 MLB22950786  Máscara Cílios Safira Incolor Modeladora Efeito Boneca 7ml
@@ -56,14 +64,8 @@ MLB20871191  Creme Para Pentear Fortalecimento Antiqueda Reconstrutor
     https://www.mercadolivre.com.br/p/MLB20871191
 MLB45481915  Máscara Cílios Preto Prova D'Água Febella Curvo Volume
     https://www.mercadolivre.com.br/p/MLB45481915
-MLB39124617  200un Anel Expositor Mostruário Cor Esmalte Unha Artificial
-    https://www.mercadolivre.com.br/p/MLB39124617
 MLB39318055  Kit Maquiagem Terror Halloween Zumbi Carnaval Cosplay Slug M
     https://www.mercadolivre.com.br/p/MLB39318055
-MLB22225761  Natura Faces - Máscara Cílios - Mega Fantástica Preto
-    https://www.mercadolivre.com.br/p/MLB22225761
-MLB49964148  Ampola Capilar Profios Power Nutrição 15ml
-    https://www.mercadolivre.com.br/p/MLB49964148
 MLB53114805  Óleo Capilar Keratex Ojon 60ml
     https://www.mercadolivre.com.br/p/MLB53114805
 MLB19759798  Creme Para Pentear 500ml Betobita
@@ -72,8 +74,6 @@ MLB60725179  Leave-in Capilar Bb Cream 10 Benefícios 100ml Reparador Abso
     https://www.mercadolivre.com.br/p/MLB60725179
 MLB53458449  Ampola Capilar Profios Power Reconstrução 15ml
     https://www.mercadolivre.com.br/p/MLB53458449
-MLB45700521  Gel Limpeza Facial Dove Regenerative Oleosa 150ml - Unilever
-    https://www.mercadolivre.com.br/p/MLB45700521
 MLB70222514  Kit 3x500ml Gel Limpeza Facial Vitalizy Pele Oleosa Acneica
     https://www.mercadolivre.com.br/p/MLB70222514
 MLB74974187  NIINA SECR MASCARA CILIOS SUPER BOLD 10G
