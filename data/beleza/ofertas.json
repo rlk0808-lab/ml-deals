@@ -1,6 +1,6 @@
 [
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB63938040",
     "nome": "Creme Para Pentear Hipoalergico",
     "preco": 45.0,
@@ -17,24 +17,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-02",
-    "product_id": "MLB19777775",
-    "nome": "Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g",
-    "preco": 195.29,
-    "preco_original": null,
-    "n_ofertas": 8,
-    "item_id": "MLB7568557938",
-    "seller_id": 524763293,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB19777775",
-    "mediana": 259.0,
-    "minimo_hist": 162.06,
-    "desconto": 24.6,
-    "recorde": false
-  },
-  {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB68726370",
     "nome": "Progressiva Capilar Vegana 500ml S/ Formol Agilcap Belletonn",
     "preco": 126.0,
@@ -51,7 +34,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB66731987",
     "nome": "Esmalte Unha Em Gel Acrigel Fibra Blindagem Real Love Light Rosa-17",
     "preco": 17.52,
@@ -68,7 +51,24 @@
     "recorde": true
   },
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
+    "product_id": "MLB39768110",
+    "nome": "Primer Facial - Blur Primer Océane Edition 30ml",
+    "preco": 72.9,
+    "preco_original": null,
+    "n_ofertas": 5,
+    "item_id": "MLB5099800901",
+    "seller_id": 3117850124,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB39768110",
+    "mediana": 89.9,
+    "minimo_hist": 72.9,
+    "desconto": 18.9,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-03",
     "product_id": "MLB22373275",
     "nome": "TRESemmé Condicionador Hidratação Profunda 400ml",
     "preco": 23.27,
