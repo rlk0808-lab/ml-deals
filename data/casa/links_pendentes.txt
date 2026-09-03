@@ -10,6 +10,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB57626638
 ⭐ MLB20719323  Eirilar Panela Pressão Teflon Panela de Pressão Antiaderente
     https://www.mercadolivre.com.br/p/MLB20719323
+⭐ MLB29118990  Jogo Toalhas Gigante 5pçs Fio Penteado Algodão Egípcio
+    https://www.mercadolivre.com.br/p/MLB29118990
 ⭐ MLB37993510  Kit Cozinha 5 Potes Herméticos Para Mantimentos Cor Preto
     https://www.mercadolivre.com.br/p/MLB37993510
 ⭐ MLB61874726  Organizador Porta-Trecos de Carro Impermeável em Poliéster c
@@ -24,8 +26,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB46223824
 MLB74301911  Sanduicheira Grill Elétrica
     https://www.mercadolivre.com.br/p/MLB74301911
-MLB29118990  Jogo Toalhas Gigante 5pçs Fio Penteado Algodão Egípcio
-    https://www.mercadolivre.com.br/p/MLB29118990
 MLB29279084  Cortina Blackout Cortina Bloquedora De Claridade Cortina De 
     https://www.mercadolivre.com.br/p/MLB29279084
 MLB58984205  Jogo Panelas Indução Antiaderente Cerâmica Manhattan 5 Peças
