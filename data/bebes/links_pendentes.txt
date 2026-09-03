@@ -4,7 +4,7 @@ Como usar: abra o link, clique em Compartilhar na barra preta de
 afiliados, copie o link gerado (meli.la/...) e cole em
 data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
-(gerado em 2026-09-02)
+(gerado em 2026-09-03)
 
 ⭐ MLB22663058  Bomba Tira Leite Coletora Manual Kuka Funcional
     https://www.mercadolivre.com.br/p/MLB22663058
@@ -16,24 +16,22 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB43469003
 ⭐ MLB70149896  Cadeira De Alimentação Bebe Portatil 6 Em 1 Cinto Segurança 
     https://www.mercadolivre.com.br/p/MLB70149896
-⭐ MLB25294888  Cadeira Alimentação Portátil Burigotto Bebe Poke Branco Cor 
-    https://www.mercadolivre.com.br/p/MLB25294888
 ⭐ MLB69868490  Banheira Bebe Plastibaby 22l Banheira De Bebê Cor Rosa + Lis
     https://www.mercadolivre.com.br/p/MLB69868490
 ⭐ MLB62842938  Canguru Sling De Bebe Carregar Recem Nascido Dry Fit Furadin
     https://www.mercadolivre.com.br/p/MLB62842938
 ⭐ MLB45837774  Kit 5 Pomada de Assadura Bebe Bepantol Baby 60g
     https://www.mercadolivre.com.br/p/MLB45837774
-⭐ MLB47606215  Shampoo + Condicionador Natura Mamãe Bebê
-    https://www.mercadolivre.com.br/p/MLB47606215
 ⭐ MLB63183742  Sling Bebê Canguru Bebe Sling Para Recem Nascido Premium - M
     https://www.mercadolivre.com.br/p/MLB63183742
+⭐ MLB25294888  Cadeira Alimentação Portátil Burigotto Bebe Poke Branco Cor 
+    https://www.mercadolivre.com.br/p/MLB25294888
 MLB35495841  Bomba tira leite materno Elétrica G-TECH - Bivolt
     https://www.mercadolivre.com.br/p/MLB35495841
-MLB73392239  Cercadinho Bebê C/ Tela De Proteção Infantil Cinza S/
-    https://www.mercadolivre.com.br/p/MLB73392239
 MLB37238466  Brinquedo Atividades Buba Atomic Soft Ball Mordedor Bebê
     https://www.mercadolivre.com.br/p/MLB37238466
+MLB73392239  Cercadinho Bebê C/ Tela De Proteção Infantil Cinza S/
+    https://www.mercadolivre.com.br/p/MLB73392239
 MLB26120807  Mordedor Bebe Mãozinha Rosa Macio Dentição Stress Gengiva
     https://www.mercadolivre.com.br/p/MLB26120807
 MLB25460748  Mordedor Bebe Infantil Celular Smartphone Macio Cor Preto
@@ -126,3 +124,5 @@ MLB40215751  Banheira Bebê Dobrável Infantil Portátil Buba Cor Cinza Banh
     https://www.mercadolivre.com.br/p/MLB40215751
 MLB61688382  Canguru Sling Bolsa Bebe Carregador Mochila Cor Rosa Confort
     https://www.mercadolivre.com.br/p/MLB61688382
+MLB42814766  Chocalho Mordedor Bebê Flexível Rosa Looney Tunes BabyGo 3m+
+    https://www.mercadolivre.com.br/p/MLB42814766

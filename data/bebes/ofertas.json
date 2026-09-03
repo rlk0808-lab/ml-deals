@@ -1,6 +1,23 @@
 [
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
+    "product_id": "MLB62020136",
+    "nome": "Canguru Sling De Bebe Carregar Recem Nascido Cinza G - Marca DE CORAZÓN",
+    "preco": 32.9,
+    "preco_original": null,
+    "n_ofertas": 3,
+    "item_id": "MLB5179060665",
+    "seller_id": 1872576540,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB62020136",
+    "mediana": 76.53,
+    "minimo_hist": 32.9,
+    "desconto": 57.0,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-03",
     "product_id": "MLB69868490",
     "nome": "Banheira Bebe Plastibaby 22l Banheira De Bebê Cor Rosa + Lisa",
     "preco": 43.65,
@@ -17,7 +34,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB43469003",
     "nome": "Banheira Bebê Dobrável Portátil Buba Cor Cinza",
     "preco": 176.77,
@@ -34,58 +51,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-02",
-    "product_id": "MLB25294888",
-    "nome": "Cadeira Alimentação Portátil Burigotto Bebe Poke Branco Cor Branca",
-    "preco": 242.0,
-    "preco_original": null,
-    "n_ofertas": 3,
-    "item_id": "MLB7580347010",
-    "seller_id": 264881845,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB25294888",
-    "mediana": 427.55,
-    "minimo_hist": 242.0,
-    "desconto": 43.4,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-02",
-    "product_id": "MLB62020136",
-    "nome": "Canguru Sling De Bebe Carregar Recem Nascido Cinza G - Marca DE CORAZÓN",
-    "preco": 45.9,
-    "preco_original": null,
-    "n_ofertas": 3,
-    "item_id": "MLB5179060665",
-    "seller_id": 1872576540,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB62020136",
-    "mediana": 76.53,
-    "minimo_hist": 45.9,
-    "desconto": 40.0,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-02",
-    "product_id": "MLB47606215",
-    "nome": "Shampoo + Condicionador Natura Mamãe Bebê",
-    "preco": 72.99,
-    "preco_original": null,
-    "n_ofertas": 2,
-    "item_id": "MLB5175567823",
-    "seller_id": 699968235,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB47606215",
-    "mediana": 99.0,
-    "minimo_hist": 72.99,
-    "desconto": 26.3,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB37273119",
     "nome": "Kit 3 Pomada De Assadura Baby Baruel 45g",
     "preco": 29.99,
@@ -102,7 +68,41 @@
     "recorde": true
   },
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
+    "product_id": "MLB25294888",
+    "nome": "Cadeira Alimentação Portátil Burigotto Bebe Poke Branco Cor Branca",
+    "preco": 330.48,
+    "preco_original": 475.2,
+    "n_ofertas": 2,
+    "item_id": "MLB6500727274",
+    "seller_id": 1176428011,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB25294888",
+    "mediana": 427.55,
+    "minimo_hist": 242.0,
+    "desconto": 22.7,
+    "recorde": false
+  },
+  {
+    "data": "2026-09-03",
+    "product_id": "MLB25539164",
+    "nome": "Kit mamadeira Bebê Avent Anticólica 125ml 260ml 330ml cor azul",
+    "preco": 97.9,
+    "preco_original": null,
+    "n_ofertas": 11,
+    "item_id": "MLB7580751958",
+    "seller_id": 29388915,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB25539164",
+    "mediana": 125.99,
+    "minimo_hist": 97.9,
+    "desconto": 22.3,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-03",
     "product_id": "MLB22663058",
     "nome": "Bomba Tira Leite Coletora Manual Kuka Funcional",
     "preco": 47.43,
@@ -119,7 +119,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB45837774",
     "nome": "Kit 5 Pomada de Assadura Bebe Bepantol Baby 60g",
     "preco": 171.0,
@@ -136,7 +136,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB18392685",
     "nome": "Fralda Descartável Infantil Personal Soft & Protect M Pacote 90 Unidades",
     "preco": 99.77,
@@ -153,7 +153,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-02",
+    "data": "2026-09-03",
     "product_id": "MLB18392719",
     "nome": "Fralda Descartável Turma da Mônica Baby XG Pacote 20 Unidades",
     "preco": 25.81,
@@ -168,22 +168,5 @@
     "minimo_hist": 25.81,
     "desconto": 16.6,
     "recorde": true
-  },
-  {
-    "data": "2026-09-02",
-    "product_id": "MLB50366249",
-    "nome": "Hidratante Relaxante Mamãe E Bebê",
-    "preco": 54.9,
-    "preco_original": null,
-    "n_ofertas": 3,
-    "item_id": "MLB7580500992",
-    "seller_id": 204780036,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB50366249",
-    "mediana": 64.9,
-    "minimo_hist": 54.86,
-    "desconto": 15.4,
-    "recorde": false
   }
 ]
