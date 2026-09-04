@@ -18,14 +18,10 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB70149896
 ⭐ MLB68262033  Kit Loção Hidratante Bebê Hidramais 2x400ml Diário E Noturno
     https://www.mercadolivre.com.br/p/MLB68262033
-⭐ MLB65189752  Colchão Berço Americano Prorelax Bela Impermeável 10cm Branc
-    https://www.mercadolivre.com.br/p/MLB65189752
 ⭐ MLB69868490  Banheira Bebe Plastibaby 22l Banheira De Bebê Cor Rosa + Lis
     https://www.mercadolivre.com.br/p/MLB69868490
 ⭐ MLB62842938  Canguru Sling De Bebe Carregar Recem Nascido Dry Fit Furadin
     https://www.mercadolivre.com.br/p/MLB62842938
-⭐ MLB45837774  Kit 5 Pomada de Assadura Bebe Bepantol Baby 60g
-    https://www.mercadolivre.com.br/p/MLB45837774
 ⭐ MLB47606215  Shampoo + Condicionador Natura Mamãe Bebê
     https://www.mercadolivre.com.br/p/MLB47606215
 ⭐ MLB63183742  Sling Bebê Canguru Bebe Sling Para Recem Nascido Premium - M
@@ -48,10 +44,10 @@ MLB18392719  Fralda Descartável Turma da Mônica Baby XG Pacote 20 Unidade
     https://www.mercadolivre.com.br/p/MLB18392719
 MLB28387695  Capa Colchão Berço Impermeável Vida Pratika Antiácaros com E
     https://www.mercadolivre.com.br/p/MLB28387695
-MLB73440881  Aquecedor Esterilizador De Mamadeira Chupeta Papinha 3 Em 1 
-    https://www.mercadolivre.com.br/p/MLB73440881
 MLB68485848  Creme Pomada De Assadura Óleo Girassol Age 120g Maxi Baby
     https://www.mercadolivre.com.br/p/MLB68485848
+MLB68417753  Creme Pomada De Assadura Óleo Girassol A.g.e 45g Maxi Baby
+    https://www.mercadolivre.com.br/p/MLB68417753
 MLB19904682  Bebê conforto Voyage Bebê Conforto Beta preto
     https://www.mercadolivre.com.br/p/MLB19904682
 MLB52133055  Bomba Tira-leite Materno Com Mamadeira G-tech
@@ -62,20 +58,20 @@ MLB22560306  Móbile Berço Bebê Musical E Giratório Ovelinha Bege
     https://www.mercadolivre.com.br/p/MLB22560306
 MLB23815642  Móbile Berço Bebê Musical E Giratório Ursinho Marinheiro
     https://www.mercadolivre.com.br/p/MLB23815642
+MLB73440881  Aquecedor Esterilizador De Mamadeira Chupeta Papinha 3 Em 1 
+    https://www.mercadolivre.com.br/p/MLB73440881
 MLB23582969  Mochila bolsa maternidade bebê mescla azul Hug
     https://www.mercadolivre.com.br/p/MLB23582969
-MLB68417753  Creme Pomada De Assadura Óleo Girassol A.g.e 45g Maxi Baby
-    https://www.mercadolivre.com.br/p/MLB68417753
 MLB18392729  Fralda Descartável Infantil Pom Pom Clássica G Pacote 24 Uni
     https://www.mercadolivre.com.br/p/MLB18392729
 MLB55462160  Mordedor Bebê Vila Toy Pezinho Silicone Alívio Gengiva Azul
     https://www.mercadolivre.com.br/p/MLB55462160
-MLB29195932  Mochila Bolsa Lequeen Maternidade Executiva Multifuncional C
-    https://www.mercadolivre.com.br/p/MLB29195932
 MLB32385853  Mordedor Bebe Bananinha - Massageador Escovinha Cor Amarelo
     https://www.mercadolivre.com.br/p/MLB32385853
 MLB25541567  Bola Chocalho Mordedor Bebe Unissex Pimpolho Cor Vermelho
     https://www.mercadolivre.com.br/p/MLB25541567
+MLB24670405  Alicate Pregar Aplicar Botão Metal 35 Body Roupa Bebê Tictac
+    https://www.mercadolivre.com.br/p/MLB24670405
 MLB63123338  Baby Monitor Vb603 Baba Eletrônica Com Monitor branco
     https://www.mercadolivre.com.br/p/MLB63123338
 MLB65451179  Bomba Tira Leite Elétrica Solo Hands Free Medela
@@ -126,3 +122,7 @@ MLB49767281  Colchão Berço Arkell Espuma D20 70x130 cm Branco Antialérgic
     https://www.mercadolivre.com.br/p/MLB49767281
 MLB51307528  Cercadinho Bebê Grande Chiqueirinho Infantil Cercado 180x150
     https://www.mercadolivre.com.br/p/MLB51307528
+MLB40215751  Banheira Bebê Dobrável Infantil Portátil Buba Cor Cinza Banh
+    https://www.mercadolivre.com.br/p/MLB40215751
+MLB61688382  Canguru Sling Bolsa Bebe Carregador Mochila Cor Rosa Confort
+    https://www.mercadolivre.com.br/p/MLB61688382
