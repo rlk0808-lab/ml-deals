@@ -103,23 +103,6 @@
   },
   {
     "data": "2026-09-04",
-    "product_id": "MLB25597222",
-    "nome": "Jogo Copos Long Drink Vidro 255ml Ruvolo Kit 12 Pcs Multiuso",
-    "preco": 43.0,
-    "preco_original": 69.99,
-    "n_ofertas": 7,
-    "item_id": "MLB3829719374",
-    "seller_id": 193240232,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB25597222",
-    "mediana": 53.84,
-    "minimo_hist": 28.49,
-    "desconto": 20.1,
-    "recorde": false
-  },
-  {
-    "data": "2026-09-04",
     "product_id": "MLB62052740",
     "nome": "Jogo Taças Vidro Diamond Top Útil 6 Peças 340ml Vinho Água Suco",
     "preco": 36.9,
@@ -252,6 +235,23 @@
     "mediana": 590.0,
     "minimo_hist": 490.0,
     "desconto": 16.9,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-04",
+    "product_id": "MLB68676964",
+    "nome": "Faqueiro Inox Curacao 24 Peças Tuut Yazi Jogo Talheres Casa Curaçau",
+    "preco": 124.8,
+    "preco_original": null,
+    "n_ofertas": 9,
+    "item_id": "MLB5188326541",
+    "seller_id": 3561695886,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB68676964",
+    "mediana": 147.96,
+    "minimo_hist": 124.8,
+    "desconto": 15.7,
     "recorde": true
   },
   {
