@@ -6,10 +6,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 (gerado em 2026-09-04)
 
-⭐ MLB57626638  Sanduicheira Grill Elétrica Antiaderente 750w Potente Cor Ve
-    https://www.mercadolivre.com.br/p/MLB57626638
 ⭐ MLB20719323  Eirilar Panela Pressão Teflon Panela de Pressão Antiaderente
     https://www.mercadolivre.com.br/p/MLB20719323
+⭐ MLB74301911  Sanduicheira Grill Elétrica
+    https://www.mercadolivre.com.br/p/MLB74301911
+⭐ MLB29118990  Jogo Toalhas Gigante 5pçs Fio Penteado Algodão Egípcio
+    https://www.mercadolivre.com.br/p/MLB29118990
+⭐ MLB35716444  Jogo Panelas Antiaderente Multiflon 4 Peças Vermelho com Lei
+    https://www.mercadolivre.com.br/p/MLB35716444
 ⭐ MLB29371667  Kit Potes Porta Mantimento Hermético Quadrado Cozinha 12 Uni
     https://www.mercadolivre.com.br/p/MLB29371667
 ⭐ MLB37993510  Kit Cozinha 5 Potes Herméticos Para Mantimentos Cor Preto
@@ -26,12 +30,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB61964304
 ⭐ MLB46223824  Kit Potes Herméticos Retangulares Com Tampa Preta para Manti
     https://www.mercadolivre.com.br/p/MLB46223824
-MLB74301911  Sanduicheira Grill Elétrica
-    https://www.mercadolivre.com.br/p/MLB74301911
-MLB29118990  Jogo Toalhas Gigante 5pçs Fio Penteado Algodão Egípcio
-    https://www.mercadolivre.com.br/p/MLB29118990
-MLB35716444  Jogo Panelas Antiaderente Multiflon 4 Peças Vermelho com Lei
-    https://www.mercadolivre.com.br/p/MLB35716444
+MLB57626638  Sanduicheira Grill Elétrica Antiaderente 750w Potente Cor Ve
+    https://www.mercadolivre.com.br/p/MLB57626638
 MLB29279084  Cortina Blackout Cortina Bloquedora De Claridade Cortina De 
     https://www.mercadolivre.com.br/p/MLB29279084
 MLB58984205  Jogo Panelas Indução Antiaderente Cerâmica Manhattan 5 Peças
@@ -100,6 +100,8 @@ MLB26615065  Cesto Roupa Suja Dobrável 3 Compartimentos Meta Parts Alumín
     https://www.mercadolivre.com.br/p/MLB26615065
 MLB63252798  Kit Potes Mantimentos Tupperware Floral Hermético para Café 
     https://www.mercadolivre.com.br/p/MLB63252798
+MLB38805103  Sanduicheira Grill Elétrica BeSmart Antiaderente Preto
+    https://www.mercadolivre.com.br/p/MLB38805103
 MLB47787881  Sanduicheira Grill Elétrica Antiaderente Sumay para 2 Sanduí
     https://www.mercadolivre.com.br/p/MLB47787881
 MLB45302528  Porta Condimentos Temperos Especiarias Gin Organizador Cozin
@@ -124,5 +126,3 @@ MLB75921690  Sanduicheira Grill Elétrica Antiaderente Lanche Rápido 800w
     https://www.mercadolivre.com.br/p/MLB75921690
 MLB74848676  Kit 15 Potes Herméticos Retangulares Mantimentos Organizador
     https://www.mercadolivre.com.br/p/MLB74848676
-MLB23798058  Tábua Corte Bambu Alça Alta Resistencia Churrasco Cozinha
-    https://www.mercadolivre.com.br/p/MLB23798058
