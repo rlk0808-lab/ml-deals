@@ -4,7 +4,7 @@ Como usar: abra o link, clique em Compartilhar na barra preta de
 afiliados, copie o link gerado (meli.la/...) e cole em
 data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
-(gerado em 2026-09-03)
+(gerado em 2026-09-04)
 
 ⭐ MLB45474714  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB45474714
@@ -14,16 +14,10 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB57596196
 ⭐ MLB36952189  Elástico Falcon P/ Cós Cintura Cueca Box N30 Rolo 20 Metros 
     https://www.mercadolivre.com.br/p/MLB36952189
-⭐ MLB51529178  Chinelo Feminino Slim Havaianas
-    https://www.mercadolivre.com.br/p/MLB51529178
 ⭐ MLB24668187  Camiseta Fluminense Braziline Stencil Masculina Adulto
     https://www.mercadolivre.com.br/p/MLB24668187
-⭐ MLB36951560  Elástico Listrado P/ Cós Cueca Box Calcinha Top N40 - 20 Mts
-    https://www.mercadolivre.com.br/p/MLB36951560
 ⭐ MLB62695160  Kouk Authentic Touca Gorro Curto Marinheiro - Gorro Lenhador
     https://www.mercadolivre.com.br/p/MLB62695160
-⭐ MLB74239341  Meia Divertida Cr7 Cristiano Ronaldo Copa Adulto Cano Alto V
-    https://www.mercadolivre.com.br/p/MLB74239341
 ⭐ MLB29410142  Escova Para Limpar Couro Banco Bota Jaqueta Detailer
     https://www.mercadolivre.com.br/p/MLB29410142
 ⭐ MLB45475084  Chinelo Feminino Slim Havaianas
@@ -34,16 +28,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB74922862
 ⭐ MLB44951729  Sandália Rasteira Feminina Strass Vizzano
     https://www.mercadolivre.com.br/p/MLB44951729
-⭐ MLB44952431  Sandália Rasteira Feminina Strass Vizzano
-    https://www.mercadolivre.com.br/p/MLB44952431
 ⭐ MLB68670569  Conjunto Feminino Real Confecções G1/g2 Short Saia + Cropped
     https://www.mercadolivre.com.br/p/MLB68670569
 ⭐ MLB29813440  Bastianini Bolsa Transversal Masculina Couro Sintético Preto
     https://www.mercadolivre.com.br/p/MLB29813440
 ⭐ MLB37124812  Amycron preta 90ml tinta para couro sapato,bota,bolsa,jaquet
     https://www.mercadolivre.com.br/p/MLB37124812
-⭐ MLB58240342  Colete Masculino Para Ginecomastia Macom Cor Marrom Amarelad
-    https://www.mercadolivre.com.br/p/MLB58240342
 ⭐ MLB56222076  Calcinha Fio Dental Lupo De Compressão 41010-001 - Orignal C
     https://www.mercadolivre.com.br/p/MLB56222076
 ⭐ MLB59992197  Kit Hupi Corrida Com Meia Cano Médio 36-42 e Testeira Run Pr
@@ -54,28 +44,26 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB54249378
 ⭐ MLB47536435  Chinelo Masculino Drifter Basic Fila Liso
     https://www.mercadolivre.com.br/p/MLB47536435
-⭐ MLB65008432  Calça Jeans Azul Claro Masculina Tradicional Elastano Premiu
-    https://www.mercadolivre.com.br/p/MLB65008432
-⭐ MLB51450738  Kit 4 Colmeias Organizadora Calça Jeans Feminina 40x20x15 Co
-    https://www.mercadolivre.com.br/p/MLB51450738
 ⭐ MLB63525414  Kit 6 Meia Cano Alto P/ Prática De Esporte Futebol Handebol 
     https://www.mercadolivre.com.br/p/MLB63525414
 ⭐ MLB57545342  Bolsa Masculina Mensageiro Couro Sintético Marrom Ajustável
     https://www.mercadolivre.com.br/p/MLB57545342
 ⭐ MLB70106535  Blusa Regata Fitness Feminina Ausare para Academia e Treino 
     https://www.mercadolivre.com.br/p/MLB70106535
-⭐ MLB77848331  Mochila Mormaii Básica Masculina Reforçada Trabalho Preto
-    https://www.mercadolivre.com.br/p/MLB77848331
-⭐ MLB20674693  Limpa Tênis Sapato Bolsa Instantâneo Magic Wipes Prático pro
-    https://www.mercadolivre.com.br/p/MLB20674693
-⭐ MLB56224953  Calcinha Fio Dental Lupo De Compressão 41010-001 - Orignal C
-    https://www.mercadolivre.com.br/p/MLB56224953
+MLB51529178  Chinelo Feminino Slim Havaianas
+    https://www.mercadolivre.com.br/p/MLB51529178
 MLB51529176  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB51529176
+MLB36951560  Elástico Listrado P/ Cós Cueca Box Calcinha Top N40 - 20 Mts
+    https://www.mercadolivre.com.br/p/MLB36951560
+MLB74239341  Meia Divertida Cr7 Cristiano Ronaldo Copa Adulto Cano Alto V
+    https://www.mercadolivre.com.br/p/MLB74239341
 MLB45422542  Chinelo Masculino Drifter Foam Fila Liso
     https://www.mercadolivre.com.br/p/MLB45422542
 MLB44919830  Chinelo Masculino Drifter Foam Fila Liso
     https://www.mercadolivre.com.br/p/MLB44919830
+MLB44952431  Sandália Rasteira Feminina Strass Vizzano
+    https://www.mercadolivre.com.br/p/MLB44952431
 MLB44952437  Sandália Rasteira Feminina Strass Vizzano
     https://www.mercadolivre.com.br/p/MLB44952437
 MLB68987939  Meia Esportiva Penalty Cano Alto 330
@@ -102,6 +90,8 @@ MLB73441877  Meia Umbro Esportiva Clubes 3/4 Cano Alto Bordo-branco 39-44
     https://www.mercadolivre.com.br/p/MLB73441877
 MLB49798341  Meia Motoqueiro X11 Preta Cano Alto Segunda Pele Conforto Té
     https://www.mercadolivre.com.br/p/MLB49798341
+MLB58240342  Colete Masculino Para Ginecomastia Macom Cor Marrom Amarelad
+    https://www.mercadolivre.com.br/p/MLB58240342
 MLB56121586  Meia de Futebol Poker Cano Alto Preta para Treino (Tamanho 3
     https://www.mercadolivre.com.br/p/MLB56121586
 MLB44941550  Sandália Rasteira Feminina Dakota Liso
@@ -118,11 +108,21 @@ MLB63650458  Meia Sapatilha Para Beach Tennis Areia Cano Alto Kestal Cor
     https://www.mercadolivre.com.br/p/MLB63650458
 MLB66837837  Meia Soquete Masculino E Feminino Tamanhos E Cores - Poliést
     https://www.mercadolivre.com.br/p/MLB66837837
+MLB65008432  Calça Jeans Azul Claro Masculina Tradicional Elastano Premiu
+    https://www.mercadolivre.com.br/p/MLB65008432
+MLB51450738  Kit 4 Colmeias Organizadora Calça Jeans Feminina 40x20x15 Co
+    https://www.mercadolivre.com.br/p/MLB51450738
 MLB75798851  Kit 2x Camiseta Básica Unissex Algodão 100% Peruano Básica M
     https://www.mercadolivre.com.br/p/MLB75798851
 MLB77970240  Colete Masculino Para Futebol Kit Com 5 Peças Penalty Cores 
     https://www.mercadolivre.com.br/p/MLB77970240
+MLB77848331  Mochila Mormaii Básica Masculina Reforçada Trabalho Preto
+    https://www.mercadolivre.com.br/p/MLB77848331
+MLB20674693  Limpa Tênis Sapato Bolsa Instantâneo Magic Wipes Prático pro
+    https://www.mercadolivre.com.br/p/MLB20674693
 MLB78202602  Colete Masculino Para Futebol Kit Com 5 Peças Penalty Cores 
     https://www.mercadolivre.com.br/p/MLB78202602
 MLB78230973  Colete Masculino Para Futebol Kit Com 5 Peças Penalty Cores 
     https://www.mercadolivre.com.br/p/MLB78230973
+MLB78203223  Colete Masculino Para Futebol Kit Com 5 Peças Penalty Cores 
+    https://www.mercadolivre.com.br/p/MLB78203223
