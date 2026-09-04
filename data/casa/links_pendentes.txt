@@ -8,6 +8,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 ⭐ MLB57626638  Sanduicheira Grill Elétrica Antiaderente 750w Potente Cor Ve
     https://www.mercadolivre.com.br/p/MLB57626638
+⭐ MLB20719323  Eirilar Panela Pressão Teflon Panela de Pressão Antiaderente
+    https://www.mercadolivre.com.br/p/MLB20719323
 ⭐ MLB29371667  Kit Potes Porta Mantimento Hermético Quadrado Cozinha 12 Uni
     https://www.mercadolivre.com.br/p/MLB29371667
 ⭐ MLB37993510  Kit Cozinha 5 Potes Herméticos Para Mantimentos Cor Preto
@@ -24,8 +26,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB61964304
 ⭐ MLB46223824  Kit Potes Herméticos Retangulares Com Tampa Preta para Manti
     https://www.mercadolivre.com.br/p/MLB46223824
-MLB20719323  Eirilar Panela Pressão Teflon Panela de Pressão Antiaderente
-    https://www.mercadolivre.com.br/p/MLB20719323
 MLB74301911  Sanduicheira Grill Elétrica
     https://www.mercadolivre.com.br/p/MLB74301911
 MLB29118990  Jogo Toalhas Gigante 5pçs Fio Penteado Algodão Egípcio
@@ -50,6 +50,8 @@ MLB23258524  Jogo Taças Vidro Diamond Furta Cor 300ml C/6
     https://www.mercadolivre.com.br/p/MLB23258524
 MLB65523019  Jogo Cama Casal Essencial Lavanda 250 Fios Branco Lyor
     https://www.mercadolivre.com.br/p/MLB65523019
+MLB75087991  Jogo Talheres 12 Peças Inox Fratelli Elegante Moderno Rosa C
+    https://www.mercadolivre.com.br/p/MLB75087991
 MLB68652440  Jogo Panelas Cerâmica Antiaderente 05 Pçs Tampa Vidro Bege
     https://www.mercadolivre.com.br/p/MLB68652440
 MLB66710003  Jogo Taças Transparentes 6 Unidades Suco Agua Vidro 265ml
@@ -64,8 +66,6 @@ MLB37246326  Kit Potes Porta Mantimento Hermético Quadrado Cozinha 12 Uni
     https://www.mercadolivre.com.br/p/MLB37246326
 MLB47450869  Caçarola Panela Ferro Fundido Com Tampa De Vidro 2 Alças N22
     https://www.mercadolivre.com.br/p/MLB47450869
-MLB75087991  Jogo Talheres 12 Peças Inox Fratelli Elegante Moderno Rosa C
-    https://www.mercadolivre.com.br/p/MLB75087991
 MLB25836001  Prateleira Parede Tripla 60x25cm Hone Dourado Vulcano
     https://www.mercadolivre.com.br/p/MLB25836001
 MLB60085180  Jogo Tapetes Banheiro Antiderrapante Cinza Jolitex Delicato 
@@ -100,8 +100,6 @@ MLB26615065  Cesto Roupa Suja Dobrável 3 Compartimentos Meta Parts Alumín
     https://www.mercadolivre.com.br/p/MLB26615065
 MLB63252798  Kit Potes Mantimentos Tupperware Floral Hermético para Café 
     https://www.mercadolivre.com.br/p/MLB63252798
-MLB38805103  Sanduicheira Grill Elétrica BeSmart Antiaderente Preto
-    https://www.mercadolivre.com.br/p/MLB38805103
 MLB47787881  Sanduicheira Grill Elétrica Antiaderente Sumay para 2 Sanduí
     https://www.mercadolivre.com.br/p/MLB47787881
 MLB45302528  Porta Condimentos Temperos Especiarias Gin Organizador Cozin
@@ -126,3 +124,5 @@ MLB75921690  Sanduicheira Grill Elétrica Antiaderente Lanche Rápido 800w
     https://www.mercadolivre.com.br/p/MLB75921690
 MLB74848676  Kit 15 Potes Herméticos Retangulares Mantimentos Organizador
     https://www.mercadolivre.com.br/p/MLB74848676
+MLB23798058  Tábua Corte Bambu Alça Alta Resistencia Churrasco Cozinha
+    https://www.mercadolivre.com.br/p/MLB23798058

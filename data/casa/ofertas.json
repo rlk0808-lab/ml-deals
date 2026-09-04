@@ -86,23 +86,6 @@
   },
   {
     "data": "2026-09-04",
-    "product_id": "MLB46223824",
-    "nome": "Kit Potes Herméticos Retangulares Com Tampa Preta para Mantimentos - 7 Unidades",
-    "preco": 152.71,
-    "preco_original": 218.15,
-    "n_ofertas": 2,
-    "item_id": "MLB6455825996",
-    "seller_id": 226979929,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB46223824",
-    "mediana": 218.15,
-    "minimo_hist": 152.71,
-    "desconto": 30.0,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-04",
     "product_id": "MLB21967613",
     "nome": "Jogo Copos Vidro Nadir Figueredo Bristol 520ml Caixa 12 Unidades",
     "preco": 79.99,
@@ -184,6 +167,23 @@
     "mediana": 96.9,
     "minimo_hist": 79.61,
     "desconto": 17.8,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-04",
+    "product_id": "MLB46223824",
+    "nome": "Kit Potes Herméticos Retangulares Com Tampa Preta para Mantimentos - 7 Unidades",
+    "preco": 152.71,
+    "preco_original": 218.15,
+    "n_ofertas": 2,
+    "item_id": "MLB6455825996",
+    "seller_id": 226979929,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB46223824",
+    "mediana": 185.43,
+    "minimo_hist": 152.71,
+    "desconto": 17.6,
     "recorde": true
   },
   {
