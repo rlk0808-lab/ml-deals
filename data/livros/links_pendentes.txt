@@ -74,6 +74,8 @@ MLB23661891  Livro-verdade?- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB23661891
 MLB19220773  Trono de Vidro: Herdeira do fogo (Vol. 3) - Maas, Sarah J. -
     https://www.mercadolivre.com.br/p/MLB19220773
+MLB19238943  Box Sherlock Holmes – Obra completa (Capa dura) - Doyle, Art
+    https://www.mercadolivre.com.br/p/MLB19238943
 MLB19262185  A irmã desaparecida (As Sete Irmãs – Livro 7) - Riley, Lucin
     https://www.mercadolivre.com.br/p/MLB19262185
 MLB19243995  Inferno (Robert Langdon - Livro 4) - Brown, Dan - Editora Ar
@@ -90,8 +92,8 @@ MLB58978641  A Intrusa - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB58978641
 MLB75861265  Ala D - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB75861265
-MLB19238943  Box Sherlock Holmes – Obra completa (Capa dura) - Doyle, Art
-    https://www.mercadolivre.com.br/p/MLB19238943
+MLB19238733  Coleção Agatha Christie - Box 6 - Christie, Agatha - HarperC
+    https://www.mercadolivre.com.br/p/MLB19238733
 MLB19262567  As sete irmãs (As Sete Irmãs – Livro 1) - Riley, Lucinda - E
     https://www.mercadolivre.com.br/p/MLB19262567
 MLB48971628  O símbolo perdido (Robert Langdon - Livro 3) - Brown, Dan - 
@@ -106,14 +108,14 @@ MLB19405210  Corte de espinhos e rosas (Vol. 1) - Maas, Sarah J. - Galera
     https://www.mercadolivre.com.br/p/MLB19405210
 MLB74445340  Não se deixe enganar - Coben, Harlan - Editora Arqueiro - Ca
     https://www.mercadolivre.com.br/p/MLB74445340
-MLB19238733  Coleção Agatha Christie - Box 6 - Christie, Agatha - HarperC
-    https://www.mercadolivre.com.br/p/MLB19238733
 MLB19430983  Livro-streampunks- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB19430983
 MLB49559264  O acidente - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB49559264
 MLB43965638  O detento - McFadden, Freida - Editora Arqueiro - Capa Mole
     https://www.mercadolivre.com.br/p/MLB43965638
+MLB32404954  Psicologia - Butler, Gillian - Editora Unesp - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB32404954
 MLB23833503  De férias com você - Henry, Emily - Verus - Capa Mole
     https://www.mercadolivre.com.br/p/MLB23833503
 MLB51031691  Pense duas vezes (Myron Bolitar – Livro 12) - Coben, Harlan 
@@ -124,5 +126,3 @@ MLB63076501  Ecos da floresta – Livro vencedor do prêmio Goodreads e elei
     https://www.mercadolivre.com.br/p/MLB63076501
 MLB19771891  Box Essencial Conquistadores (3 Livros) *
     https://www.mercadolivre.com.br/p/MLB19771891
-MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
-    https://www.mercadolivre.com.br/p/MLB36202363
