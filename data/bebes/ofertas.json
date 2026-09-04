@@ -35,23 +35,6 @@
   },
   {
     "data": "2026-09-04",
-    "product_id": "MLB33124579",
-    "nome": "Banheira Bebê Acqua Trio Branca Galzerano Cor Branco",
-    "preco": 209.9,
-    "preco_original": null,
-    "n_ofertas": 19,
-    "item_id": "MLB4449879229",
-    "seller_id": 257072993,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB33124579",
-    "mediana": 304.37,
-    "minimo_hist": 209.9,
-    "desconto": 31.0,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-04",
     "product_id": "MLB68262033",
     "nome": "Kit Loção Hidratante Bebê Hidramais 2x400ml Diário E Noturno",
     "preco": 39.8,
@@ -117,6 +100,23 @@
     "minimo_hist": 47.43,
     "desconto": 20.8,
     "recorde": true
+  },
+  {
+    "data": "2026-09-04",
+    "product_id": "MLB25294888",
+    "nome": "Cadeira Alimentação Portátil Burigotto Bebe Poke Branco Cor Branca",
+    "preco": 309.9,
+    "preco_original": 480.0,
+    "n_ofertas": 2,
+    "item_id": "MLB4648759871",
+    "seller_id": 1176428011,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB25294888",
+    "mediana": 379.9,
+    "minimo_hist": 242.0,
+    "desconto": 18.4,
+    "recorde": false
   },
   {
     "data": "2026-09-04",
