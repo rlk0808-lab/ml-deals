@@ -154,6 +154,23 @@
   },
   {
     "data": "2026-09-05",
+    "product_id": "MLB19272750",
+    "nome": "Box Totalmente Terror",
+    "preco": 46.41,
+    "preco_original": 99.8,
+    "n_ofertas": 75,
+    "item_id": "MLB5660904592",
+    "seller_id": 480263032,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19272750",
+    "mediana": 57.66,
+    "minimo_hist": 43.42,
+    "desconto": 19.5,
+    "recorde": false
+  },
+  {
+    "data": "2026-09-05",
     "product_id": "MLB57817554",
     "nome": "Box Santo Guerreiro",
     "preco": 129.0,
