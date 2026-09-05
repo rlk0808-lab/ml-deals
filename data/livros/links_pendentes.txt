@@ -6,12 +6,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 (gerado em 2026-09-05)
 
-⭐ MLB19272750  Box Totalmente Terror
-    https://www.mercadolivre.com.br/p/MLB19272750
 ⭐ MLB57817554  Box Santo Guerreiro
     https://www.mercadolivre.com.br/p/MLB57817554
-⭐ MLB37149234  Biblioteca Nietzsche - Box Com 4 Livros
-    https://www.mercadolivre.com.br/p/MLB37149234
 ⭐ MLB53759056  Box Sandel
     https://www.mercadolivre.com.br/p/MLB53759056
 ⭐ MLB19395937  Livro Sharp Objects Objetos Cortantes Gillian Flynn
@@ -50,42 +46,40 @@ MLB56693037  De férias com você (Edição especial) - Henry, Emily - Verus
     https://www.mercadolivre.com.br/p/MLB56693037
 MLB50105638  Mistborn: O Poço da Ascensão - Sanderson, Brandon - Trama - 
     https://www.mercadolivre.com.br/p/MLB50105638
-MLB68282862  O homem iluminado - Sanderson, Brandon - Trama - Capa Dura
-    https://www.mercadolivre.com.br/p/MLB68282862
-MLB40283255  Verity (Edição de colecionador), Colleen Hoover, Galera, Por
-    https://www.mercadolivre.com.br/p/MLB40283255
 MLB42934246  Sacramentadora - Sanderson, Brandon - Trama - Capa Mole
     https://www.mercadolivre.com.br/p/MLB42934246
+MLB68282862  O homem iluminado - Sanderson, Brandon - Trama - Capa Dura
+    https://www.mercadolivre.com.br/p/MLB68282862
 MLB19238943  Box Sherlock Holmes – Obra completa (Capa dura) - Doyle, Art
     https://www.mercadolivre.com.br/p/MLB19238943
+MLB40283255  Verity (Edição de colecionador), Colleen Hoover, Galera, Por
+    https://www.mercadolivre.com.br/p/MLB40283255
 MLB19244003  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
     https://www.mercadolivre.com.br/p/MLB19244003
 MLB19220733  Trono de Vidro: Império de Tempestades (Vol. 5) - Maas, Sara
     https://www.mercadolivre.com.br/p/MLB19220733
 MLB21082455  Cidade em chamas – Thriller de máfia com uma narrativa envol
     https://www.mercadolivre.com.br/p/MLB21082455
-MLB68307771  As coisas belas e preciosas - Yarros, Rebecca - Editora Arqu
-    https://www.mercadolivre.com.br/p/MLB68307771
 MLB47100376  Cidade em ruínas – Thriller de máfia e a conclusão eletrizan
     https://www.mercadolivre.com.br/p/MLB47100376
 MLB63908049  Ponto de impacto - Brown, Dan - Editora Arqueiro - Capa Mole
     https://www.mercadolivre.com.br/p/MLB63908049
 MLB19220773  Trono de Vidro: Herdeira do fogo (Vol. 3) - Maas, Sarah J. -
     https://www.mercadolivre.com.br/p/MLB19220773
-MLB23661891  Livro-verdade?- Editora Best Seller
-    https://www.mercadolivre.com.br/p/MLB23661891
+MLB68307771  As coisas belas e preciosas - Yarros, Rebecca - Editora Arqu
+    https://www.mercadolivre.com.br/p/MLB68307771
 MLB47627533  Dele e Dela - Livro que inspirou o thriller de sucesso da Ne
     https://www.mercadolivre.com.br/p/MLB47627533
-MLB19371524  As melhores histórias de Sherlock Holmes - Doyle, Arthur Con
-    https://www.mercadolivre.com.br/p/MLB19371524
+MLB23661891  Livro-verdade?- Editora Best Seller
+    https://www.mercadolivre.com.br/p/MLB23661891
 MLB19262185  A irmã desaparecida (As Sete Irmãs – Livro 7) - Riley, Lucin
     https://www.mercadolivre.com.br/p/MLB19262185
-MLB19243995  Inferno (Robert Langdon - Livro 4) - Brown, Dan - Editora Ar
-    https://www.mercadolivre.com.br/p/MLB19243995
 MLB52875268  A última carta - Yarros, Rebecca - Editora Arqueiro - Capa M
     https://www.mercadolivre.com.br/p/MLB52875268
 MLB65917466  Sem volta - Henry, Emily - Verus - Capa Mole
     https://www.mercadolivre.com.br/p/MLB65917466
+MLB19243995  Inferno (Robert Langdon - Livro 4) - Brown, Dan - Editora Ar
+    https://www.mercadolivre.com.br/p/MLB19243995
 MLB69618968  Jantar sinistro - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB69618968
 MLB19238733  Coleção Agatha Christie - Box 6 - Christie, Agatha - HarperC
@@ -112,12 +106,12 @@ MLB75861265  Ala D - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB75861265
 MLB19430983  Livro-streampunks- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB19430983
-MLB32404954  Psicologia - Butler, Gillian - Editora Unesp - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB32404954
-MLB43965638  O detento - McFadden, Freida - Editora Arqueiro - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB43965638
 MLB49559264  O acidente - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB49559264
+MLB43965638  O detento - McFadden, Freida - Editora Arqueiro - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB43965638
+MLB32404954  Psicologia - Butler, Gillian - Editora Unesp - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB32404954
 MLB66963300  A ex - McFadden, Freida - Editora Arqueiro - Capa Mole
     https://www.mercadolivre.com.br/p/MLB66963300
 MLB24095614  Corte de chamas prateadas (Vol. 5 – Edição especial) - Maas,
@@ -126,3 +120,9 @@ MLB19771891  Box Essencial Conquistadores (3 Livros) *
     https://www.mercadolivre.com.br/p/MLB19771891
 MLB74807035  Box Trilogia Powerless
     https://www.mercadolivre.com.br/p/MLB74807035
+MLB49114261  O Código Da Vinci (Robert Langdon – Livro 2) - Brown, Dan - 
+    https://www.mercadolivre.com.br/p/MLB49114261
+MLB23833503  De férias com você - Henry, Emily - Verus - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB23833503
+MLB51031691  Pense duas vezes (Myron Bolitar – Livro 12) - Coben, Harlan 
+    https://www.mercadolivre.com.br/p/MLB51031691
