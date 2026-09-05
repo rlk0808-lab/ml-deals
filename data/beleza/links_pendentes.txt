@@ -18,12 +18,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB19777775
 ⭐ MLB37986849  Kit Maquiagem Artística Terror Slug Drácula Zumbi Halloween
     https://www.mercadolivre.com.br/p/MLB37986849
+⭐ MLB19922487  Condicionador Hidratação Impacto 500ml Midori Profissional
+    https://www.mercadolivre.com.br/p/MLB19922487
 ⭐ MLB52322550  Dove Condicionador Hidratação + Hialuron-vit 600ml
     https://www.mercadolivre.com.br/p/MLB52322550
 ⭐ MLB20905076  Capicilin - Creme Para Pentear Hairpantol 300ml
     https://www.mercadolivre.com.br/p/MLB20905076
-⭐ MLB46480470  Eudora Siàge Cauterização Dos Lisos Leave-in Capilar 100ml
-    https://www.mercadolivre.com.br/p/MLB46480470
 ⭐ MLB68726370  Progressiva Capilar Vegana 500ml S/ Formol Agilcap Belletonn
     https://www.mercadolivre.com.br/p/MLB68726370
 ⭐ MLB28456268  Progressiva Capilar 0% Formol Orgânica 250ml Cabelos Lisos
@@ -44,14 +44,16 @@ MLB38454411  Máscara Capilar Vult Recarga De Hidratação 250g
     https://www.mercadolivre.com.br/p/MLB38454411
 MLB18940033  Creme para Pentear Hidrocauterização Pantene 240ml
     https://www.mercadolivre.com.br/p/MLB18940033
+MLB46480470  Eudora Siàge Cauterização Dos Lisos Leave-in Capilar 100ml
+    https://www.mercadolivre.com.br/p/MLB46480470
 MLB20871191  Creme Para Pentear Fortalecimento Antiqueda Reconstrutor
     https://www.mercadolivre.com.br/p/MLB20871191
 MLB67954595  Protetor solar Sunless Toque Seco Protetor Solar Facial 99FP
     https://www.mercadolivre.com.br/p/MLB67954595
-MLB19922487  Condicionador Hidratação Impacto 500ml Midori Profissional
-    https://www.mercadolivre.com.br/p/MLB19922487
 MLB61954655  Rímel Vivai Máscara Cílios Preto 4D Prova D'Água 2 Steps
     https://www.mercadolivre.com.br/p/MLB61954655
+MLB19759798  Creme Para Pentear 500ml Betobita
+    https://www.mercadolivre.com.br/p/MLB19759798
 MLB45481915  Máscara Cílios Preto Prova D'Água Febella Curvo Volume
     https://www.mercadolivre.com.br/p/MLB45481915
 MLB39318055  Kit Maquiagem Terror Halloween Zumbi Carnaval Cosplay Slug M
@@ -64,8 +66,6 @@ MLB49964148  Ampola Capilar Profios Power Nutrição 15ml
     https://www.mercadolivre.com.br/p/MLB49964148
 MLB53114805  Óleo Capilar Keratex Ojon 60ml
     https://www.mercadolivre.com.br/p/MLB53114805
-MLB19759798  Creme Para Pentear 500ml Betobita
-    https://www.mercadolivre.com.br/p/MLB19759798
 MLB60725179  Leave-in Capilar Bb Cream 10 Benefícios 100ml Reparador Abso
     https://www.mercadolivre.com.br/p/MLB60725179
 MLB53458449  Ampola Capilar Profios Power Reconstrução 15ml
@@ -100,6 +100,8 @@ MLB66831597  4you Primer Facial 30ml - Océane 4you Primer Facial
     https://www.mercadolivre.com.br/p/MLB66831597
 MLB30130397  Condicionador Hidratacao Intensiva Arvensis 1 L
     https://www.mercadolivre.com.br/p/MLB30130397
+MLB27907201  Kit 3 Condicionador Hidratação De Impacto 500ml Midori
+    https://www.mercadolivre.com.br/p/MLB27907201
 MLB46223511  Leave-In Capilar Kannep Embaixador 200ml | Antifrizz, Toque 
     https://www.mercadolivre.com.br/p/MLB46223511
 MLB20187397  Shampoo Profissional Lavatório 2500 Ml Limpeza Profunda
@@ -124,5 +126,3 @@ MLB36735934  Lápis Sobrancelha Gobrow Ultrafino Dark Brown Ruby Kisses
     https://www.mercadolivre.com.br/p/MLB36735934
 MLB66170731  Pó compacto iluminador facial em ouro rosa
     https://www.mercadolivre.com.br/p/MLB66170731
-MLB20688589  Máscara capilar hidratação Intense Hydra Vitiss 500g
-    https://www.mercadolivre.com.br/p/MLB20688589
