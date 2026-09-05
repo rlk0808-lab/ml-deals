@@ -20,6 +20,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB19922487
 ⭐ MLB42341040  Mascara Cílios Soul Turbo - Eudora - Cor Preto
     https://www.mercadolivre.com.br/p/MLB42341040
+⭐ MLB18940033  Creme para Pentear Hidrocauterização Pantene 240ml
+    https://www.mercadolivre.com.br/p/MLB18940033
 ⭐ MLB20905076  Capicilin - Creme Para Pentear Hairpantol 300ml
     https://www.mercadolivre.com.br/p/MLB20905076
 ⭐ MLB46480470  Eudora Siàge Cauterização Dos Lisos Leave-in Capilar 100ml
@@ -34,6 +36,18 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB39318055
 ⭐ MLB22225761  Natura Faces - Máscara Cílios - Mega Fantástica Preto
     https://www.mercadolivre.com.br/p/MLB22225761
+⭐ MLB49964148  Ampola Capilar Profios Power Nutrição 15ml
+    https://www.mercadolivre.com.br/p/MLB49964148
+⭐ MLB70222514  Kit 3x500ml Gel Limpeza Facial Vitalizy Pele Oleosa Acneica
+    https://www.mercadolivre.com.br/p/MLB70222514
+⭐ MLB74974187  NIINA SECR MASCARA CILIOS SUPER BOLD 10G
+    https://www.mercadolivre.com.br/p/MLB74974187
+⭐ MLB25741623  Palito Plana Silicone Belliz Company Remoção Excesso Esmalte
+    https://www.mercadolivre.com.br/p/MLB25741623
+⭐ MLB39124617  200un Anel Expositor Mostruário Cor Esmalte Unha Artificial
+    https://www.mercadolivre.com.br/p/MLB39124617
+⭐ MLB57619995  Lápis Sobrancelha com Gel Fixador Melu By Ruby Rose
+    https://www.mercadolivre.com.br/p/MLB57619995
 ⭐ MLB68726370  Progressiva Capilar Vegana 500ml S/ Formol Agilcap Belletonn
     https://www.mercadolivre.com.br/p/MLB68726370
 ⭐ MLB28456268  Progressiva Capilar 0% Formol Orgânica 250ml Cabelos Lisos
@@ -52,8 +66,6 @@ MLB25713591  Óleo capilr negra rosa/ óleo capilar rosa mosqueta/ blend de
     https://www.mercadolivre.com.br/p/MLB25713591
 MLB38454411  Máscara Capilar Vult Recarga De Hidratação 250g
     https://www.mercadolivre.com.br/p/MLB38454411
-MLB18940033  Creme para Pentear Hidrocauterização Pantene 240ml
-    https://www.mercadolivre.com.br/p/MLB18940033
 MLB20871191  Creme Para Pentear Fortalecimento Antiqueda Reconstrutor
     https://www.mercadolivre.com.br/p/MLB20871191
 MLB19759798  Creme Para Pentear 500ml Betobita
@@ -62,28 +74,14 @@ MLB45481915  Máscara Cílios Preto Prova D'Água Febella Curvo Volume
     https://www.mercadolivre.com.br/p/MLB45481915
 MLB53469027  Kit Maquiagem Portátil Díario Rosa Minnie Mousedisney Fenzza
     https://www.mercadolivre.com.br/p/MLB53469027
-MLB49964148  Ampola Capilar Profios Power Nutrição 15ml
-    https://www.mercadolivre.com.br/p/MLB49964148
 MLB53114805  Óleo Capilar Keratex Ojon 60ml
     https://www.mercadolivre.com.br/p/MLB53114805
 MLB60725179  Leave-in Capilar Bb Cream 10 Benefícios 100ml Reparador Abso
     https://www.mercadolivre.com.br/p/MLB60725179
 MLB53458449  Ampola Capilar Profios Power Reconstrução 15ml
     https://www.mercadolivre.com.br/p/MLB53458449
-MLB45700521  Gel Limpeza Facial Dove Regenerative Oleosa 150ml - Unilever
-    https://www.mercadolivre.com.br/p/MLB45700521
-MLB70222514  Kit 3x500ml Gel Limpeza Facial Vitalizy Pele Oleosa Acneica
-    https://www.mercadolivre.com.br/p/MLB70222514
-MLB74974187  NIINA SECR MASCARA CILIOS SUPER BOLD 10G
-    https://www.mercadolivre.com.br/p/MLB74974187
 MLB22950786  Máscara Cílios Safira Incolor Modeladora Efeito Boneca 7ml
     https://www.mercadolivre.com.br/p/MLB22950786
-MLB25741623  Palito Plana Silicone Belliz Company Remoção Excesso Esmalte
-    https://www.mercadolivre.com.br/p/MLB25741623
-MLB39124617  200un Anel Expositor Mostruário Cor Esmalte Unha Artificial
-    https://www.mercadolivre.com.br/p/MLB39124617
-MLB57619995  Lápis Sobrancelha com Gel Fixador Melu By Ruby Rose
-    https://www.mercadolivre.com.br/p/MLB57619995
 MLB39768110  Primer Facial - Blur Primer Océane Edition 30ml
     https://www.mercadolivre.com.br/p/MLB39768110
 MLB57351161  Gloss Labial Hidratação Labial Brilho Mel
@@ -110,14 +108,14 @@ MLB20335700  Condicionador Hidratação Profunda Vitallederm 300ml
     https://www.mercadolivre.com.br/p/MLB20335700
 MLB28389837  Óleo Capilar 50ml - Metal Detox
     https://www.mercadolivre.com.br/p/MLB28389837
-MLB70530506  Óleo capilar Farmax Capilar hidratação de 100mL 100g
-    https://www.mercadolivre.com.br/p/MLB70530506
 MLB23187100  Tyrrel Professional Hair Protector Leave-in Capilar Renova
     https://www.mercadolivre.com.br/p/MLB23187100
 MLB64552854  Novex Leave-in Capilar Noturno Ritual Dorama Tsubaki 120 Ml
     https://www.mercadolivre.com.br/p/MLB64552854
 MLB44072241  Truss Shock Repair - Ampola Capilar 4x17ml
     https://www.mercadolivre.com.br/p/MLB44072241
+MLB45700521  Gel Limpeza Facial Dove Regenerative Oleosa 150ml - Unilever
+    https://www.mercadolivre.com.br/p/MLB45700521
 MLB22151097  Creme Anti-idade Lucy's Rosa Mosqueta Facial FPS15
     https://www.mercadolivre.com.br/p/MLB22151097
 MLB44149361  pó compacto Ruby Rose Glass Pó Compacto
@@ -126,3 +124,5 @@ MLB36735934  Lápis Sobrancelha Gobrow Ultrafino Dark Brown Ruby Kisses
     https://www.mercadolivre.com.br/p/MLB36735934
 MLB66170731  Pó compacto iluminador facial em ouro rosa
     https://www.mercadolivre.com.br/p/MLB66170731
+MLB20688589  Máscara capilar hidratação Intense Hydra Vitiss 500g
+    https://www.mercadolivre.com.br/p/MLB20688589
