@@ -34,6 +34,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB37993510
 ⭐ MLB47450869  Caçarola Panela Ferro Fundido Com Tampa De Vidro 2 Alças N22
     https://www.mercadolivre.com.br/p/MLB47450869
+⭐ MLB25836001  Prateleira Parede Tripla 60x25cm Hone Dourado Vulcano
+    https://www.mercadolivre.com.br/p/MLB25836001
+⭐ MLB60085180  Jogo Tapetes Banheiro Antiderrapante Cinza Jolitex Delicato 
+    https://www.mercadolivre.com.br/p/MLB60085180
+⭐ MLB65523019  Jogo Cama Casal Essencial Lavanda 250 Fios Branco Lyor
+    https://www.mercadolivre.com.br/p/MLB65523019
 ⭐ MLB26532285  Organizador De Carro Encosto Banco Porta Trecos E Tablet Mul
     https://www.mercadolivre.com.br/p/MLB26532285
 ⭐ MLB61874726  Organizador Porta-Trecos de Carro Impermeável em Poliéster c
@@ -66,10 +72,6 @@ MLB32036042  Conjunto Pratos Fundos Duralex Jasmim Nadir 6 Unidades
     https://www.mercadolivre.com.br/p/MLB32036042
 MLB37246326  Kit Potes Porta Mantimento Hermético Quadrado Cozinha 12 Uni
     https://www.mercadolivre.com.br/p/MLB37246326
-MLB25836001  Prateleira Parede Tripla 60x25cm Hone Dourado Vulcano
-    https://www.mercadolivre.com.br/p/MLB25836001
-MLB60085180  Jogo Tapetes Banheiro Antiderrapante Cinza Jolitex Delicato 
-    https://www.mercadolivre.com.br/p/MLB60085180
 MLB75284955  Jogo Tapetes Cozinha Sofisticada 3 Peças Lavável Trançado Pr
     https://www.mercadolivre.com.br/p/MLB75284955
 MLB74694174  Kit Potes Porta Mantimento Hermético Quadrado Cozinha 6 Pçs
@@ -90,8 +92,6 @@ MLB37215252  Conjunto Pratos Rasos Acqua Vidro Temperado 6 Unidades 23cm
     https://www.mercadolivre.com.br/p/MLB37215252
 MLB53775135  Conjunto Pratos De Cerâmica 20cm Sobremesa Raso 4 Unidades
     https://www.mercadolivre.com.br/p/MLB53775135
-MLB65523019  Jogo Cama Casal Essencial Lavanda 250 Fios Branco Lyor
-    https://www.mercadolivre.com.br/p/MLB65523019
 MLB22830986  Jogo Copos Vidro Shot Dose 45ml Lehavi Chicago 6 Peças
     https://www.mercadolivre.com.br/p/MLB22830986
 MLB26174851  Kit Organizador Cozinha Aço 3 Unidades Preto DiCarlo
