@@ -86,6 +86,23 @@
   },
   {
     "data": "2026-09-05",
+    "product_id": "MLB19777775",
+    "nome": "Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g",
+    "preco": 210.0,
+    "preco_original": null,
+    "n_ofertas": 11,
+    "item_id": "MLB5192353159",
+    "seller_id": 169376633,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19777775",
+    "mediana": 259.0,
+    "minimo_hist": 162.06,
+    "desconto": 18.9,
+    "recorde": false
+  },
+  {
+    "data": "2026-09-05",
     "product_id": "MLB22373275",
     "nome": "TRESemmé Condicionador Hidratação Profunda 400ml",
     "preco": 23.27,
@@ -117,22 +134,5 @@
     "minimo_hist": 35.89,
     "desconto": 15.7,
     "recorde": true
-  },
-  {
-    "data": "2026-09-05",
-    "product_id": "MLB19777775",
-    "nome": "Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g",
-    "preco": 218.9,
-    "preco_original": null,
-    "n_ofertas": 10,
-    "item_id": "MLB5191973681",
-    "seller_id": 1362395343,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB19777775",
-    "mediana": 259.0,
-    "minimo_hist": 162.06,
-    "desconto": 15.5,
-    "recorde": false
   }
 ]
