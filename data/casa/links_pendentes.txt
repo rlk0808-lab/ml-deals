@@ -10,6 +10,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB20719323
 ⭐ MLB74301911  Sanduicheira Grill Elétrica
     https://www.mercadolivre.com.br/p/MLB74301911
+⭐ MLB29118990  Jogo Toalhas Gigante 5pçs Fio Penteado Algodão Egípcio
+    https://www.mercadolivre.com.br/p/MLB29118990
 ⭐ MLB29371667  Kit Potes Porta Mantimento Hermético Quadrado Cozinha 12 Uni
     https://www.mercadolivre.com.br/p/MLB29371667
 ⭐ MLB37993510  Kit Cozinha 5 Potes Herméticos Para Mantimentos Cor Preto
@@ -24,14 +26,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB39216863
 ⭐ MLB61964304  Jogo Tapetes Banheiro Antiderrapante Multiart Super Soft Cin
     https://www.mercadolivre.com.br/p/MLB61964304
-⭐ MLB46223824  Kit Potes Herméticos Retangulares Com Tampa Preta para Manti
-    https://www.mercadolivre.com.br/p/MLB46223824
 ⭐ MLB66977682  Necessaire Porta Trecos Fortnite - Unissex F1/- F1/21 - 9195
     https://www.mercadolivre.com.br/p/MLB66977682
+⭐ MLB72753149  Kit Organizador Gaveta Colmeia Calcinha Cueca Meia Roupa Cin
+    https://www.mercadolivre.com.br/p/MLB72753149
 MLB57626638  Sanduicheira Grill Elétrica Antiaderente 750w Potente Cor Ve
     https://www.mercadolivre.com.br/p/MLB57626638
-MLB29118990  Jogo Toalhas Gigante 5pçs Fio Penteado Algodão Egípcio
-    https://www.mercadolivre.com.br/p/MLB29118990
 MLB29279084  Cortina Blackout Cortina Bloquedora De Claridade Cortina De 
     https://www.mercadolivre.com.br/p/MLB29279084
 MLB35716444  Jogo Panelas Antiaderente Multiflon 4 Peças Vermelho com Lei
