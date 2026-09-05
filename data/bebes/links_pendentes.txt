@@ -6,8 +6,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 (gerado em 2026-09-05)
 
-⭐ MLB22663058  Bomba Tira Leite Coletora Manual Kuka Funcional
-    https://www.mercadolivre.com.br/p/MLB22663058
 ⭐ MLB43469003  Banheira Bebê Dobrável Portátil Buba Cor Cinza
     https://www.mercadolivre.com.br/p/MLB43469003
 ⭐ MLB32330033  Chocalho Mordedor Bebê Corinthians Kids Gol Silicone
@@ -40,6 +38,8 @@ MLB25460748  Mordedor Bebe Infantil Celular Smartphone Macio Cor Preto
     https://www.mercadolivre.com.br/p/MLB25460748
 MLB18397502  Creme Pomada de Assadura Lanolina e Vit B5 100g Bepantol
     https://www.mercadolivre.com.br/p/MLB18397502
+MLB22663058  Bomba Tira Leite Coletora Manual Kuka Funcional
+    https://www.mercadolivre.com.br/p/MLB22663058
 MLB24382019  Mordedor Bebê Pezinho Mãozinha Brinquedo Macio Dentição Cor 
     https://www.mercadolivre.com.br/p/MLB24382019
 MLB18392719  Fralda Descartável Turma da Mônica Baby XG Pacote 20 Unidade
