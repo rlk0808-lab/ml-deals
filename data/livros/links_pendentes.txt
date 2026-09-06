@@ -20,6 +20,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB56693037
 ⭐ MLB68282862  O homem iluminado - Sanderson, Brandon - Trama - Capa Dura
     https://www.mercadolivre.com.br/p/MLB68282862
+⭐ MLB19243995  Inferno (Robert Langdon - Livro 4) - Brown, Dan - Editora Ar
+    https://www.mercadolivre.com.br/p/MLB19243995
+⭐ MLB42934246  Sacramentadora - Sanderson, Brandon - Trama - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB42934246
+⭐ MLB40283255  Verity (Edição de colecionador), Colleen Hoover, Galera, Por
+    https://www.mercadolivre.com.br/p/MLB40283255
+⭐ MLB19244003  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
+    https://www.mercadolivre.com.br/p/MLB19244003
 ⭐ MLB19272750  Box Totalmente Terror
     https://www.mercadolivre.com.br/p/MLB19272750
 ⭐ MLB57817554  Box Santo Guerreiro
@@ -54,16 +62,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB65261067
 MLB50105638  Mistborn: O Poço da Ascensão - Sanderson, Brandon - Trama - 
     https://www.mercadolivre.com.br/p/MLB50105638
-MLB40283255  Verity (Edição de colecionador), Colleen Hoover, Galera, Por
-    https://www.mercadolivre.com.br/p/MLB40283255
-MLB19243995  Inferno (Robert Langdon - Livro 4) - Brown, Dan - Editora Ar
-    https://www.mercadolivre.com.br/p/MLB19243995
-MLB42934246  Sacramentadora - Sanderson, Brandon - Trama - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB42934246
 MLB19238943  Box Sherlock Holmes – Obra completa (Capa dura) - Doyle, Art
     https://www.mercadolivre.com.br/p/MLB19238943
-MLB19244003  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
-    https://www.mercadolivre.com.br/p/MLB19244003
 MLB19407887  Sherlock Holmes - Doyle, Sir Arthur Conan - Melhoramentos - 
     https://www.mercadolivre.com.br/p/MLB19407887
 MLB19220733  Trono de Vidro: Império de Tempestades (Vol. 5) - Maas, Sara
@@ -72,10 +72,10 @@ MLB21082455  Cidade em chamas – Thriller de máfia com uma narrativa envol
     https://www.mercadolivre.com.br/p/MLB21082455
 MLB68307771  As coisas belas e preciosas - Yarros, Rebecca - Editora Arqu
     https://www.mercadolivre.com.br/p/MLB68307771
-MLB47100376  Cidade em ruínas – Thriller de máfia e a conclusão eletrizan
-    https://www.mercadolivre.com.br/p/MLB47100376
 MLB63908049  Ponto de impacto - Brown, Dan - Editora Arqueiro - Capa Mole
     https://www.mercadolivre.com.br/p/MLB63908049
+MLB47100376  Cidade em ruínas – Thriller de máfia e a conclusão eletrizan
+    https://www.mercadolivre.com.br/p/MLB47100376
 MLB47627533  Dele e Dela - Livro que inspirou o thriller de sucesso da Ne
     https://www.mercadolivre.com.br/p/MLB47627533
 MLB19220773  Trono de Vidro: Herdeira do fogo (Vol. 3) - Maas, Sarah J. -
@@ -100,6 +100,8 @@ MLB58978641  A Intrusa - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB58978641
 MLB69618968  Jantar sinistro - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB69618968
+MLB19262567  As sete irmãs (As Sete Irmãs – Livro 1) - Riley, Lucinda - E
+    https://www.mercadolivre.com.br/p/MLB19262567
 MLB48971628  O símbolo perdido (Robert Langdon - Livro 3) - Brown, Dan - 
     https://www.mercadolivre.com.br/p/MLB48971628
 MLB40647349  A contadora - McFadden, Freida - Record - Capa Mole
@@ -112,14 +114,12 @@ MLB41390492  A professora - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB41390492
 MLB24095614  Corte de chamas prateadas (Vol. 5 – Edição especial) - Maas,
     https://www.mercadolivre.com.br/p/MLB24095614
-MLB19430983  Livro-streampunks- Editora Best Seller
-    https://www.mercadolivre.com.br/p/MLB19430983
-MLB19262567  As sete irmãs (As Sete Irmãs – Livro 1) - Riley, Lucinda - E
-    https://www.mercadolivre.com.br/p/MLB19262567
 MLB49559264  O acidente - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB49559264
 MLB19405210  Corte de espinhos e rosas (Vol. 1) - Maas, Sarah J. - Galera
     https://www.mercadolivre.com.br/p/MLB19405210
+MLB19430983  Livro-streampunks- Editora Best Seller
+    https://www.mercadolivre.com.br/p/MLB19430983
 MLB74807035  Box Trilogia Powerless
     https://www.mercadolivre.com.br/p/MLB74807035
 MLB75861265  Ala D - McFadden, Freida - Record - Capa Mole
