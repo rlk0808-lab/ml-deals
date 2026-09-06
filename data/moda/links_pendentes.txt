@@ -16,6 +16,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB36952189
 ⭐ MLB24668187  Camiseta Fluminense Braziline Stencil Masculina Adulto
     https://www.mercadolivre.com.br/p/MLB24668187
+⭐ MLB51529176  Chinelo Feminino Slim Havaianas
+    https://www.mercadolivre.com.br/p/MLB51529176
 ⭐ MLB29410142  Escova Para Limpar Couro Banco Bota Jaqueta Detailer
     https://www.mercadolivre.com.br/p/MLB29410142
 ⭐ MLB47691991  Colete Masculino Para Futebol Kit Com 6 Pçs Verde Penalty
@@ -56,8 +58,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB57545342
 ⭐ MLB70106535  Blusa Regata Fitness Feminina Ausare para Academia e Treino 
     https://www.mercadolivre.com.br/p/MLB70106535
-MLB51529176  Chinelo Feminino Slim Havaianas
-    https://www.mercadolivre.com.br/p/MLB51529176
+⭐ MLB77848331  Mochila Mormaii Básica Masculina Reforçada Trabalho Preto
+    https://www.mercadolivre.com.br/p/MLB77848331
+⭐ MLB74023124  Short Feminino Plié Efeito Up Bumbum Compressão Rendado Cor 
+    https://www.mercadolivre.com.br/p/MLB74023124
+⭐ MLB70507439  Regata Biobela Colete Masculino Pós Cirúrgica Ginecomastia C
+    https://www.mercadolivre.com.br/p/MLB70507439
 MLB36951560  Elástico Listrado P/ Cós Cueca Box Calcinha Top N40 - 20 Mts
     https://www.mercadolivre.com.br/p/MLB36951560
 MLB51529178  Chinelo Feminino Slim Havaianas
@@ -110,8 +116,6 @@ MLB75798851  Kit 2x Camiseta Básica Unissex Algodão 100% Peruano Básica M
     https://www.mercadolivre.com.br/p/MLB75798851
 MLB77970240  Colete Masculino Para Futebol Kit Com 5 Peças Penalty Cores 
     https://www.mercadolivre.com.br/p/MLB77970240
-MLB77848331  Mochila Mormaii Básica Masculina Reforçada Trabalho Preto
-    https://www.mercadolivre.com.br/p/MLB77848331
 MLB78202602  Colete Masculino Para Futebol Kit Com 5 Peças Penalty Cores 
     https://www.mercadolivre.com.br/p/MLB78202602
 MLB78230973  Colete Masculino Para Futebol Kit Com 5 Peças Penalty Cores 
@@ -122,7 +126,3 @@ MLB56224953  Calcinha Fio Dental Lupo De Compressão 41010-001 - Orignal C
     https://www.mercadolivre.com.br/p/MLB56224953
 MLB47214054  Chinelo Masculino Drifter Basic Fila Liso
     https://www.mercadolivre.com.br/p/MLB47214054
-MLB47536445  Chinelo Masculino Drifter Basic Fila Liso
-    https://www.mercadolivre.com.br/p/MLB47536445
-MLB74068078  Kit Meia Multi Esportes E Meião Cortado Vistho Preto Tamanho
-    https://www.mercadolivre.com.br/p/MLB74068078
