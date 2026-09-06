@@ -6,16 +6,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 (gerado em 2026-09-06)
 
-⭐ MLB39979760  Box Collen Hoover
-    https://www.mercadolivre.com.br/p/MLB39979760
 ⭐ MLB19272750  Box Totalmente Terror
     https://www.mercadolivre.com.br/p/MLB19272750
 ⭐ MLB57817554  Box Santo Guerreiro
     https://www.mercadolivre.com.br/p/MLB57817554
-⭐ MLB53759056  Box Sandel
-    https://www.mercadolivre.com.br/p/MLB53759056
 ⭐ MLB37149234  Biblioteca Nietzsche - Box Com 4 Livros
     https://www.mercadolivre.com.br/p/MLB37149234
+⭐ MLB53759056  Box Sandel
+    https://www.mercadolivre.com.br/p/MLB53759056
 ⭐ MLB40283388  Box Alice - Box Com 2 Livros - Edição De Luxo Almofadada
     https://www.mercadolivre.com.br/p/MLB40283388
 ⭐ MLB19395937  Livro Sharp Objects Objetos Cortantes Gillian Flynn
@@ -38,6 +36,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB63740683
 ⭐ MLB65261067  Super-hábitos
     https://www.mercadolivre.com.br/p/MLB65261067
+MLB39979760  Box Collen Hoover
+    https://www.mercadolivre.com.br/p/MLB39979760
 MLB19220755  Trono de Vidro: Reino de Cinzas (Vol. 6) - Maas, Sarah J. - 
     https://www.mercadolivre.com.br/p/MLB19220755
 MLB46039067  Tempestade de Ônix - Yarros, Rebecca - Planeta Minotauro - C
@@ -52,14 +52,14 @@ MLB68282862  O homem iluminado - Sanderson, Brandon - Trama - Capa Dura
     https://www.mercadolivre.com.br/p/MLB68282862
 MLB50105638  Mistborn: O Poço da Ascensão - Sanderson, Brandon - Trama - 
     https://www.mercadolivre.com.br/p/MLB50105638
+MLB40283255  Verity (Edição de colecionador), Colleen Hoover, Galera, Por
+    https://www.mercadolivre.com.br/p/MLB40283255
 MLB19243995  Inferno (Robert Langdon - Livro 4) - Brown, Dan - Editora Ar
     https://www.mercadolivre.com.br/p/MLB19243995
 MLB42934246  Sacramentadora - Sanderson, Brandon - Trama - Capa Mole
     https://www.mercadolivre.com.br/p/MLB42934246
 MLB19238943  Box Sherlock Holmes – Obra completa (Capa dura) - Doyle, Art
     https://www.mercadolivre.com.br/p/MLB19238943
-MLB40283255  Verity (Edição de colecionador), Colleen Hoover, Galera, Por
-    https://www.mercadolivre.com.br/p/MLB40283255
 MLB19244003  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
     https://www.mercadolivre.com.br/p/MLB19244003
 MLB19220733  Trono de Vidro: Império de Tempestades (Vol. 5) - Maas, Sara
