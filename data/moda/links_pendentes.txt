@@ -24,14 +24,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB74239341
 ⭐ MLB29410142  Escova Para Limpar Couro Banco Bota Jaqueta Detailer
     https://www.mercadolivre.com.br/p/MLB29410142
-⭐ MLB47691991  Colete Masculino Para Futebol Kit Com 6 Pçs Verde Penalty
-    https://www.mercadolivre.com.br/p/MLB47691991
 ⭐ MLB74922862  Bolsa Transversal Masculina Porta Celular Couro Sintético Ma
     https://www.mercadolivre.com.br/p/MLB74922862
 ⭐ MLB62695160  Kouk Authentic Touca Gorro Curto Marinheiro - Gorro Lenhador
     https://www.mercadolivre.com.br/p/MLB62695160
 ⭐ MLB29813440  Bastianini Bolsa Transversal Masculina Couro Sintético Preto
     https://www.mercadolivre.com.br/p/MLB29813440
+⭐ MLB47691991  Colete Masculino Para Futebol Kit Com 6 Pçs Verde Penalty
+    https://www.mercadolivre.com.br/p/MLB47691991
 ⭐ MLB44951729  Sandália Rasteira Feminina Strass Vizzano
     https://www.mercadolivre.com.br/p/MLB44951729
 ⭐ MLB44952431  Sandália Rasteira Feminina Strass Vizzano
@@ -48,8 +48,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB56222076
 ⭐ MLB59992197  Kit Hupi Corrida Com Meia Cano Médio 36-42 e Testeira Run Pr
     https://www.mercadolivre.com.br/p/MLB59992197
-⭐ MLB44941550  Sandália Rasteira Feminina Dakota Liso
-    https://www.mercadolivre.com.br/p/MLB44941550
 ⭐ MLB54249378  50 Zíper Metal 18cm Para Calça Jeans Azul Marinho Cor Azul-m
     https://www.mercadolivre.com.br/p/MLB54249378
 ⭐ MLB47536435  Chinelo Masculino Drifter Basic Fila Liso
@@ -64,14 +62,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB57545342
 ⭐ MLB70106535  Blusa Regata Fitness Feminina Ausare para Academia e Treino 
     https://www.mercadolivre.com.br/p/MLB70106535
-⭐ MLB77970240  Colete Masculino Para Futebol Kit Com 5 Peças Penalty Cores 
-    https://www.mercadolivre.com.br/p/MLB77970240
 ⭐ MLB77848331  Mochila Mormaii Básica Masculina Reforçada Trabalho Preto
     https://www.mercadolivre.com.br/p/MLB77848331
 ⭐ MLB74023124  Short Feminino Plié Efeito Up Bumbum Compressão Rendado Cor 
     https://www.mercadolivre.com.br/p/MLB74023124
 ⭐ MLB70507439  Regata Biobela Colete Masculino Pós Cirúrgica Ginecomastia C
     https://www.mercadolivre.com.br/p/MLB70507439
+⭐ MLB67529676  Conjunto Sensual Renda Com Liga Na Perna + Calcinha Fio Pret
+    https://www.mercadolivre.com.br/p/MLB67529676
 MLB51529178  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB51529178
 MLB45475084  Chinelo Feminino Slim Havaianas
@@ -90,6 +88,10 @@ MLB45422541  Chinelo Masculino Drifter Foam Fila Liso
     https://www.mercadolivre.com.br/p/MLB45422541
 MLB45422551  Chinelo Masculino Drifter Foam Fila Liso
     https://www.mercadolivre.com.br/p/MLB45422551
+MLB63656101  Meia Sapatilha Para Beach Tennis Areia Cano Alto Kestal Cor 
+    https://www.mercadolivre.com.br/p/MLB63656101
+MLB63650458  Meia Sapatilha Para Beach Tennis Areia Cano Alto Kestal Cor 
+    https://www.mercadolivre.com.br/p/MLB63650458
 MLB47536436  Chinelo Masculino Drifter Basic Fila Liso
     https://www.mercadolivre.com.br/p/MLB47536436
 MLB45475692  Chinelo Masculino 921 Olympikus
@@ -102,22 +104,20 @@ MLB73441877  Meia Umbro Esportiva Clubes 3/4 Cano Alto Bordo-branco 39-44
     https://www.mercadolivre.com.br/p/MLB73441877
 MLB49798341  Meia Motoqueiro X11 Preta Cano Alto Segunda Pele Conforto Té
     https://www.mercadolivre.com.br/p/MLB49798341
+MLB44941550  Sandália Rasteira Feminina Dakota Liso
+    https://www.mercadolivre.com.br/p/MLB44941550
 MLB69351916  Meia Esportiva Penalty Cano Alto 330 Branco 39/44
     https://www.mercadolivre.com.br/p/MLB69351916
 MLB45422548  Chinelo Masculino Drifter Foam Fila Liso
     https://www.mercadolivre.com.br/p/MLB45422548
 MLB73436768  Meia Umbro Esportiva Clubes 3/4 Cano Alto Cor Vermelho-Preto
     https://www.mercadolivre.com.br/p/MLB73436768
-MLB63656101  Meia Sapatilha Para Beach Tennis Areia Cano Alto Kestal Cor 
-    https://www.mercadolivre.com.br/p/MLB63656101
-MLB63650458  Meia Sapatilha Para Beach Tennis Areia Cano Alto Kestal Cor 
-    https://www.mercadolivre.com.br/p/MLB63650458
 MLB66837837  Meia Soquete Masculino E Feminino Tamanhos E Cores - Poliést
     https://www.mercadolivre.com.br/p/MLB66837837
 MLB75798851  Kit 2x Camiseta Básica Unissex Algodão 100% Peruano Básica M
     https://www.mercadolivre.com.br/p/MLB75798851
-MLB78202602  Colete Masculino Para Futebol Kit Com 5 Peças Penalty Cores 
-    https://www.mercadolivre.com.br/p/MLB78202602
+MLB77970240  Colete Masculino Para Futebol Kit Com 5 Peças Penalty Cores 
+    https://www.mercadolivre.com.br/p/MLB77970240
 MLB78230973  Colete Masculino Para Futebol Kit Com 5 Peças Penalty Cores 
     https://www.mercadolivre.com.br/p/MLB78230973
 MLB78203223  Colete Masculino Para Futebol Kit Com 5 Peças Penalty Cores 
