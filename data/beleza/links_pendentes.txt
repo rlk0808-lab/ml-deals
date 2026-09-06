@@ -22,6 +22,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB19922487
 ⭐ MLB18940033  Creme para Pentear Hidrocauterização Pantene 240ml
     https://www.mercadolivre.com.br/p/MLB18940033
+⭐ MLB20905076  Capicilin - Creme Para Pentear Hairpantol 300ml
+    https://www.mercadolivre.com.br/p/MLB20905076
+⭐ MLB46480470  Eudora Siàge Cauterização Dos Lisos Leave-in Capilar 100ml
+    https://www.mercadolivre.com.br/p/MLB46480470
+⭐ MLB52322550  Dove Condicionador Hidratação + Hialuron-vit 600ml
+    https://www.mercadolivre.com.br/p/MLB52322550
+⭐ MLB67954595  Protetor solar Sunless Toque Seco Protetor Solar Facial 99FP
+    https://www.mercadolivre.com.br/p/MLB67954595
 ⭐ MLB68726370  Progressiva Capilar Vegana 500ml S/ Formol Agilcap Belletonn
     https://www.mercadolivre.com.br/p/MLB68726370
 ⭐ MLB28456268  Progressiva Capilar 0% Formol Orgânica 250ml Cabelos Lisos
@@ -34,24 +42,16 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB26540613
 MLB26217349  Primer Facial Hd Fenzza Pr63
     https://www.mercadolivre.com.br/p/MLB26217349
-MLB25243834  Primer Facial Efeito Lifting Phállebeauty Tom do primer Tran
-    https://www.mercadolivre.com.br/p/MLB25243834
 MLB25713591  Óleo capilr negra rosa/ óleo capilar rosa mosqueta/ blend de
     https://www.mercadolivre.com.br/p/MLB25713591
-MLB20905076  Capicilin - Creme Para Pentear Hairpantol 300ml
-    https://www.mercadolivre.com.br/p/MLB20905076
-MLB46480470  Eudora Siàge Cauterização Dos Lisos Leave-in Capilar 100ml
-    https://www.mercadolivre.com.br/p/MLB46480470
+MLB25243834  Primer Facial Efeito Lifting Phállebeauty Tom do primer Tran
+    https://www.mercadolivre.com.br/p/MLB25243834
 MLB39318055  Kit Maquiagem Terror Halloween Zumbi Carnaval Cosplay Slug M
     https://www.mercadolivre.com.br/p/MLB39318055
 MLB38454411  Máscara Capilar Vult Recarga De Hidratação 250g
     https://www.mercadolivre.com.br/p/MLB38454411
-MLB52322550  Dove Condicionador Hidratação + Hialuron-vit 600ml
-    https://www.mercadolivre.com.br/p/MLB52322550
 MLB20871191  Creme Para Pentear Fortalecimento Antiqueda Reconstrutor
     https://www.mercadolivre.com.br/p/MLB20871191
-MLB67954595  Protetor solar Sunless Toque Seco Protetor Solar Facial 99FP
-    https://www.mercadolivre.com.br/p/MLB67954595
 MLB61954655  Rímel Vivai Máscara Cílios Preto 4D Prova D'Água 2 Steps
     https://www.mercadolivre.com.br/p/MLB61954655
 MLB19759798  Creme Para Pentear 500ml Betobita
