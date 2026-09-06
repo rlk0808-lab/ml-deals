@@ -103,6 +103,23 @@
   },
   {
     "data": "2026-09-06",
+    "product_id": "MLB29260874",
+    "nome": "Leave-in Capilar Multifuncional - 120ml - Wepink",
+    "preco": 57.0,
+    "preco_original": 99.99,
+    "n_ofertas": 11,
+    "item_id": "MLB7585940032",
+    "seller_id": 2610474685,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB29260874",
+    "mediana": 69.0,
+    "minimo_hist": 49.9,
+    "desconto": 17.4,
+    "recorde": false
+  },
+  {
+    "data": "2026-09-06",
     "product_id": "MLB22373275",
     "nome": "TRESemmé Condicionador Hidratação Profunda 400ml",
     "preco": 23.27,
@@ -115,23 +132,6 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB22373275",
     "mediana": 27.59,
     "minimo_hist": 23.27,
-    "desconto": 15.7,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-06",
-    "product_id": "MLB37986849",
-    "nome": "Kit Maquiagem Artística Terror Slug Drácula Zumbi Halloween",
-    "preco": 35.89,
-    "preco_original": 37.78,
-    "n_ofertas": 8,
-    "item_id": "MLB5151223657",
-    "seller_id": 16308979,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB37986849",
-    "mediana": 42.56,
-    "minimo_hist": 35.89,
     "desconto": 15.7,
     "recorde": true
   }
