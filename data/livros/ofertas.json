@@ -124,7 +124,7 @@
     "nome": "Box Totalmente Terror",
     "preco": 46.41,
     "preco_original": 99.8,
-    "n_ofertas": 75,
+    "n_ofertas": 73,
     "item_id": "MLB5660904592",
     "seller_id": 480263032,
     "frete_gratis": true,
@@ -235,6 +235,23 @@
     "mediana": 120.0,
     "minimo_hist": 91.4,
     "desconto": 16.7,
+    "recorde": false
+  },
+  {
+    "data": "2026-09-06",
+    "product_id": "MLB54103102",
+    "nome": "Box Torre Negra",
+    "preco": 300.0,
+    "preco_original": null,
+    "n_ofertas": 4,
+    "item_id": "MLB5194619541",
+    "seller_id": 1353053043,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB54103102",
+    "mediana": 359.41,
+    "minimo_hist": 290.0,
+    "desconto": 16.5,
     "recorde": false
   },
   {
