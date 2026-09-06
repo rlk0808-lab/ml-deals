@@ -1,23 +1,6 @@
 [
   {
     "data": "2026-09-06",
-    "product_id": "MLB65564513",
-    "nome": "Kit 17 Potes Hermeticos Cozinha Mantimentos Resistentes Branco",
-    "preco": 37.9,
-    "preco_original": 47.9,
-    "n_ofertas": 3,
-    "item_id": "MLB4476876295",
-    "seller_id": 2902820606,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB65564513",
-    "mediana": 77.99,
-    "minimo_hist": 37.9,
-    "desconto": 51.4,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-06",
     "product_id": "MLB26532285",
     "nome": "Organizador De Carro Encosto Banco Porta Trecos E Tablet Multilaser",
     "preco": 33.74,
@@ -48,6 +31,23 @@
     "mediana": 59.99,
     "minimo_hist": 38.49,
     "desconto": 35.8,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-06",
+    "product_id": "MLB65564513",
+    "nome": "Kit 17 Potes Hermeticos Cozinha Mantimentos Resistentes Branco",
+    "preco": 37.9,
+    "preco_original": 47.9,
+    "n_ofertas": 3,
+    "item_id": "MLB4476876295",
+    "seller_id": 2902820606,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB65564513",
+    "mediana": 58.94,
+    "minimo_hist": 37.9,
+    "desconto": 35.7,
     "recorde": true
   },
   {
@@ -103,6 +103,23 @@
   },
   {
     "data": "2026-09-06",
+    "product_id": "MLB62359119",
+    "nome": "Faqueiro 16 Peças Aço Inox Ópera Lyor Jogo Talheres De Luxo Inox",
+    "preco": 75.04,
+    "preco_original": 78.99,
+    "n_ofertas": 2,
+    "item_id": "MLB5188681665",
+    "seller_id": 230388715,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB62359119",
+    "mediana": 99.0,
+    "minimo_hist": 75.04,
+    "desconto": 24.2,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-06",
     "product_id": "MLB53667854",
     "nome": "Sanduicheira Grill Elétrica Inox 1000W Antiaderente",
     "preco": 89.97,
@@ -130,9 +147,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB37993510",
-    "mediana": 144.0,
+    "mediana": 143.28,
     "minimo_hist": 79.02,
-    "desconto": 22.3,
+    "desconto": 21.9,
     "recorde": false
   },
   {
@@ -235,23 +252,6 @@
     "mediana": 24.9,
     "minimo_hist": 20.61,
     "desconto": 17.2,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-06",
-    "product_id": "MLB44823104",
-    "nome": "Jogo Panelas Antiaderente Cerâmica Indução Cinza 5 Peças",
-    "preco": 490.0,
-    "preco_original": null,
-    "n_ofertas": 2,
-    "item_id": "MLB7086922234",
-    "seller_id": 731415204,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB44823104",
-    "mediana": 590.0,
-    "minimo_hist": 490.0,
-    "desconto": 16.9,
     "recorde": true
   },
   {
