@@ -18,6 +18,23 @@
   },
   {
     "data": "2026-09-07",
+    "product_id": "MLB19777775",
+    "nome": "Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g",
+    "preco": 194.0,
+    "preco_original": null,
+    "n_ofertas": 11,
+    "item_id": "MLB5199517665",
+    "seller_id": 1707401485,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19777775",
+    "mediana": 259.0,
+    "minimo_hist": 162.06,
+    "desconto": 25.1,
+    "recorde": false
+  },
+  {
+    "data": "2026-09-07",
     "product_id": "MLB28456268",
     "nome": "Progressiva Capilar 0% Formol Orgânica 250ml Cabelos Lisos",
     "preco": 59.9,
@@ -48,6 +65,23 @@
     "mediana": 161.9,
     "minimo_hist": 126.0,
     "desconto": 22.2,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-07",
+    "product_id": "MLB39006259",
+    "nome": "Máscara Capilar Siàge Hidratação Micelar 250g",
+    "preco": 49.9,
+    "preco_original": null,
+    "n_ofertas": 7,
+    "item_id": "MLB7602230532",
+    "seller_id": 751042308,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB39006259",
+    "mediana": 62.99,
+    "minimo_hist": 49.9,
+    "desconto": 20.8,
     "recorde": true
   },
   {
@@ -83,22 +117,5 @@
     "minimo_hist": 23.27,
     "desconto": 15.7,
     "recorde": true
-  },
-  {
-    "data": "2026-09-07",
-    "product_id": "MLB19777775",
-    "nome": "Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g",
-    "preco": 218.9,
-    "preco_original": null,
-    "n_ofertas": 10,
-    "item_id": "MLB5191973681",
-    "seller_id": 1362395343,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB19777775",
-    "mediana": 259.0,
-    "minimo_hist": 162.06,
-    "desconto": 15.5,
-    "recorde": false
   }
 ]
