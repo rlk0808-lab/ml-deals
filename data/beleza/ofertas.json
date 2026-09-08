@@ -1,6 +1,6 @@
 [
   {
-    "data": "2026-09-07",
+    "data": "2026-09-08",
     "product_id": "MLB63938040",
     "nome": "Creme Para Pentear Hipoalergico",
     "preco": 45.0,
@@ -17,7 +17,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-07",
+    "data": "2026-09-08",
     "product_id": "MLB19777775",
     "nome": "Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g",
     "preco": 194.0,
@@ -34,7 +34,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-07",
+    "data": "2026-09-08",
     "product_id": "MLB28456268",
     "nome": "Progressiva Capilar 0% Formol Orgânica 250ml Cabelos Lisos",
     "preco": 59.9,
@@ -51,7 +51,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-07",
+    "data": "2026-09-08",
     "product_id": "MLB68726370",
     "nome": "Progressiva Capilar Vegana 500ml S/ Formol Agilcap Belletonn",
     "preco": 126.0,
@@ -68,7 +68,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-07",
+    "data": "2026-09-08",
     "product_id": "MLB39006259",
     "nome": "Máscara Capilar Siàge Hidratação Micelar 250g",
     "preco": 49.9,
@@ -85,7 +85,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-07",
+    "data": "2026-09-08",
     "product_id": "MLB66731987",
     "nome": "Esmalte Unha Em Gel Acrigel Fibra Blindagem Real Love Light Rosa-17",
     "preco": 17.52,
@@ -102,7 +102,24 @@
     "recorde": true
   },
   {
-    "data": "2026-09-07",
+    "data": "2026-09-08",
+    "product_id": "MLB29607113",
+    "nome": "Condicionador Hidratação Equilibrante Patauá300ml Loccitane",
+    "preco": 54.23,
+    "preco_original": 64.9,
+    "n_ofertas": 5,
+    "item_id": "MLB5151697623",
+    "seller_id": 2512892233,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB29607113",
+    "mediana": 64.9,
+    "minimo_hist": 54.23,
+    "desconto": 16.4,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-08",
     "product_id": "MLB22373275",
     "nome": "TRESemmé Condicionador Hidratação Profunda 400ml",
     "preco": 23.27,
