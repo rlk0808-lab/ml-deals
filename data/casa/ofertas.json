@@ -154,6 +154,23 @@
   },
   {
     "data": "2026-09-08",
+    "product_id": "MLB76065812",
+    "nome": "Sanduicheira Grill Britânia Bgr27b 1000w Preto",
+    "preco": 152.35,
+    "preco_original": null,
+    "n_ofertas": 3,
+    "item_id": "MLB5086904127",
+    "seller_id": 294664783,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB76065812",
+    "mediana": 189.9,
+    "minimo_hist": 152.35,
+    "desconto": 19.8,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-08",
     "product_id": "MLB39216863",
     "nome": "Jogo Taças Cristal Transparente Fio Ouro Imperial 330ml Lyor",
     "preco": 42.78,
@@ -219,23 +236,6 @@
     "minimo_hist": 32.9,
     "desconto": 17.5,
     "recorde": true
-  },
-  {
-    "data": "2026-09-08",
-    "product_id": "MLB57626638",
-    "nome": "Sanduicheira Grill Elétrica Antiaderente 750w Potente Cor Vermelho",
-    "preco": 55.9,
-    "preco_original": 66.9,
-    "n_ofertas": 27,
-    "item_id": "MLB5411444244",
-    "seller_id": 1760608403,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB57626638",
-    "mediana": 67.79,
-    "minimo_hist": 47.14,
-    "desconto": 17.5,
-    "recorde": false
   },
   {
     "data": "2026-09-08",
