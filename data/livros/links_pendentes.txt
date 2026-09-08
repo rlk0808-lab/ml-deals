@@ -10,10 +10,10 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB19272750
 ⭐ MLB57817554  Box Santo Guerreiro
     https://www.mercadolivre.com.br/p/MLB57817554
-⭐ MLB53759056  Box Sandel
-    https://www.mercadolivre.com.br/p/MLB53759056
 ⭐ MLB37149234  Biblioteca Nietzsche - Box Com 4 Livros
     https://www.mercadolivre.com.br/p/MLB37149234
+⭐ MLB53759056  Box Sandel
+    https://www.mercadolivre.com.br/p/MLB53759056
 ⭐ MLB19395937  Livro Sharp Objects Objetos Cortantes Gillian Flynn
     https://www.mercadolivre.com.br/p/MLB19395937
 ⭐ MLB19219273  Livro Melhores Crônicas Machado de Assis, de Joaquim Machado
@@ -60,6 +60,8 @@ MLB19243995  Inferno (Robert Langdon - Livro 4) - Brown, Dan - Editora Ar
     https://www.mercadolivre.com.br/p/MLB19243995
 MLB19238943  Box Sherlock Holmes – Obra completa (Capa dura) - Doyle, Art
     https://www.mercadolivre.com.br/p/MLB19238943
+MLB19244003  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
+    https://www.mercadolivre.com.br/p/MLB19244003
 MLB19407887  Sherlock Holmes - Doyle, Sir Arthur Conan - Melhoramentos - 
     https://www.mercadolivre.com.br/p/MLB19407887
 MLB21082455  Cidade em chamas – Thriller de máfia com uma narrativa envol
@@ -124,5 +126,3 @@ MLB75861265  Ala D - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB75861265
 MLB66963300  A ex - McFadden, Freida - Editora Arqueiro - Capa Mole
     https://www.mercadolivre.com.br/p/MLB66963300
-MLB32404954  Psicologia - Butler, Gillian - Editora Unesp - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB32404954
