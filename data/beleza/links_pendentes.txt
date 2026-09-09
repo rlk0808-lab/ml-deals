@@ -16,8 +16,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB42341040
 ⭐ MLB37986849  Kit Maquiagem Artística Terror Slug Drácula Zumbi Halloween
     https://www.mercadolivre.com.br/p/MLB37986849
-⭐ MLB26217349  Primer Facial Hd Fenzza Pr63
-    https://www.mercadolivre.com.br/p/MLB26217349
 ⭐ MLB19777775  Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g
     https://www.mercadolivre.com.br/p/MLB19777775
 ⭐ MLB19922487  Condicionador Hidratação Impacto 500ml Midori Profissional
@@ -26,6 +24,10 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB52322550
 ⭐ MLB20905076  Capicilin - Creme Para Pentear Hairpantol 300ml
     https://www.mercadolivre.com.br/p/MLB20905076
+⭐ MLB74847576  GLOSS FRANCINY EHLKE FRANBOESA LIP GLOSS LABIAL
+    https://www.mercadolivre.com.br/p/MLB74847576
+⭐ MLB46480470  Eudora Siàge Cauterização Dos Lisos Leave-in Capilar 100ml
+    https://www.mercadolivre.com.br/p/MLB46480470
 ⭐ MLB57619995  Lápis Sobrancelha com Gel Fixador Melu By Ruby Rose
     https://www.mercadolivre.com.br/p/MLB57619995
 ⭐ MLB45572007  Dacca Kit Shampoo Condicionador Hidratação Protetor Térmico
@@ -40,16 +42,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB68726370
 MLB25243834  Primer Facial Efeito Lifting Phállebeauty Tom do primer Tran
     https://www.mercadolivre.com.br/p/MLB25243834
-MLB18940033  Creme para Pentear Hidrocauterização Pantene 240ml
-    https://www.mercadolivre.com.br/p/MLB18940033
-MLB74847576  GLOSS FRANCINY EHLKE FRANBOESA LIP GLOSS LABIAL
-    https://www.mercadolivre.com.br/p/MLB74847576
-MLB25713591  Óleo capilr negra rosa/ óleo capilar rosa mosqueta/ blend de
-    https://www.mercadolivre.com.br/p/MLB25713591
+MLB26217349  Primer Facial Hd Fenzza Pr63
+    https://www.mercadolivre.com.br/p/MLB26217349
 MLB19759798  Creme Para Pentear 500ml Betobita
     https://www.mercadolivre.com.br/p/MLB19759798
-MLB46480470  Eudora Siàge Cauterização Dos Lisos Leave-in Capilar 100ml
-    https://www.mercadolivre.com.br/p/MLB46480470
+MLB18940033  Creme para Pentear Hidrocauterização Pantene 240ml
+    https://www.mercadolivre.com.br/p/MLB18940033
+MLB25713591  Óleo capilr negra rosa/ óleo capilar rosa mosqueta/ blend de
+    https://www.mercadolivre.com.br/p/MLB25713591
 MLB39318055  Kit Maquiagem Terror Halloween Zumbi Carnaval Cosplay Slug M
     https://www.mercadolivre.com.br/p/MLB39318055
 MLB20871191  Creme Para Pentear Fortalecimento Antiqueda Reconstrutor
@@ -58,6 +58,8 @@ MLB47388709  Hidratante Facial Moana Fenzza
     https://www.mercadolivre.com.br/p/MLB47388709
 MLB61954655  Rímel Vivai Máscara Cílios Preto 4D Prova D'Água 2 Steps
     https://www.mercadolivre.com.br/p/MLB61954655
+MLB45700521  Gel Limpeza Facial Dove Regenerative Oleosa 150ml - Unilever
+    https://www.mercadolivre.com.br/p/MLB45700521
 MLB53469027  Kit Maquiagem Portátil Díario Rosa Minnie Mousedisney Fenzza
     https://www.mercadolivre.com.br/p/MLB53469027
 MLB49964148  Ampola Capilar Profios Power Nutrição 15ml
@@ -70,8 +72,6 @@ MLB60725179  Leave-in Capilar Bb Cream 10 Benefícios 100ml Reparador Abso
     https://www.mercadolivre.com.br/p/MLB60725179
 MLB53458449  Ampola Capilar Profios Power Reconstrução 15ml
     https://www.mercadolivre.com.br/p/MLB53458449
-MLB45700521  Gel Limpeza Facial Dove Regenerative Oleosa 150ml - Unilever
-    https://www.mercadolivre.com.br/p/MLB45700521
 MLB74974187  NIINA SECR MASCARA CILIOS SUPER BOLD 10G
     https://www.mercadolivre.com.br/p/MLB74974187
 MLB22950786  Máscara Cílios Safira Incolor Modeladora Efeito Boneca 7ml
@@ -88,8 +88,6 @@ MLB38454411  Máscara Capilar Vult Recarga De Hidratação 250g
     https://www.mercadolivre.com.br/p/MLB38454411
 MLB39190714  Creme para pentear Seda Boom nutrição
     https://www.mercadolivre.com.br/p/MLB39190714
-MLB45431279  Mascara Facial De Argila Verde-180g
-    https://www.mercadolivre.com.br/p/MLB45431279
 MLB45788065  Kit 03 Leave-In Capilar Kannep Embaixador 200ml | Antifrizz,
     https://www.mercadolivre.com.br/p/MLB45788065
 MLB66831597  4you Primer Facial 30ml - Océane 4you Primer Facial
@@ -126,3 +124,5 @@ MLB20688589  Máscara capilar hidratação Intense Hydra Vitiss 500g
     https://www.mercadolivre.com.br/p/MLB20688589
 MLB51810513  Primer Facial Hd Face Beautiful
     https://www.mercadolivre.com.br/p/MLB51810513
+MLB26821871  Eudora Kit Siàge: Shampoo + Condicionador + Leave-in Capilar
+    https://www.mercadolivre.com.br/p/MLB26821871

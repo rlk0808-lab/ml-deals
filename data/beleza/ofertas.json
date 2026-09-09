@@ -1,23 +1,6 @@
 [
   {
     "data": "2026-09-09",
-    "product_id": "MLB24206226",
-    "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d2 claro - 10g",
-    "preco": 20.0,
-    "preco_original": 69.99,
-    "n_ofertas": 16,
-    "item_id": "MLB5019302650",
-    "seller_id": 1447366191,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB24206226",
-    "mediana": 29.99,
-    "minimo_hist": 16.02,
-    "desconto": 33.3,
-    "recorde": false
-  },
-  {
-    "data": "2026-09-09",
     "product_id": "MLB63938040",
     "nome": "Creme Para Pentear Hipoalergico",
     "preco": 45.0,
@@ -31,23 +14,6 @@
     "mediana": 63.65,
     "minimo_hist": 44.9,
     "desconto": 29.3,
-    "recorde": false
-  },
-  {
-    "data": "2026-09-09",
-    "product_id": "MLB24206231",
-    "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d6 medio - 10g",
-    "preco": 21.21,
-    "preco_original": 69.99,
-    "n_ofertas": 16,
-    "item_id": "MLB3828668963",
-    "seller_id": 1447366191,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB24206231",
-    "mediana": 28.95,
-    "minimo_hist": 20.45,
-    "desconto": 26.7,
     "recorde": false
   },
   {
