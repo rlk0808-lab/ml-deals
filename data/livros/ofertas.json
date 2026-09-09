@@ -69,6 +69,23 @@
   },
   {
     "data": "2026-09-09",
+    "product_id": "MLB19305128",
+    "nome": "Creepshow - o terror de stephen king em quadrinhos - King, Stephen - Darkside Books - Graphic Novel - Capa Dura",
+    "preco": 54.9,
+    "preco_original": null,
+    "n_ofertas": 2,
+    "item_id": "MLB7613302882",
+    "seller_id": 1036661446,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19305128",
+    "mediana": 99.9,
+    "minimo_hist": 54.9,
+    "desconto": 45.0,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-09",
     "product_id": "MLB20685650",
     "nome": "Box De Luxo 6 Livros Sherlock Holmes - Arthur Conan Doyle - Capa Dura",
     "preco": 49.98,
@@ -273,6 +290,23 @@
   },
   {
     "data": "2026-09-09",
+    "product_id": "MLB19243919",
+    "nome": "Livro Rede De Sussurros: Um thriller feminista da era #MeToo, de Baker, Chandler. Editorial Editora Intrínseca Ltda., tapa mole, en português (2019)",
+    "preco": 38.9,
+    "preco_original": null,
+    "n_ofertas": 7,
+    "item_id": "MLB4500009669",
+    "seller_id": 259986049,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19243919",
+    "mediana": 46.29,
+    "minimo_hist": 28.45,
+    "desconto": 16.0,
+    "recorde": false
+  },
+  {
+    "data": "2026-09-09",
     "product_id": "MLB63740683",
     "nome": "Livro: Sua Última Reverência Autor: Arthur Conan Doyle (novo, Lacrado), De Arthur Conan Doyle",
     "preco": 27.82,
@@ -304,5 +338,22 @@
     "minimo_hist": 193.45,
     "desconto": 15.3,
     "recorde": true
+  },
+  {
+    "data": "2026-09-09",
+    "product_id": "MLB68697067",
+    "nome": "Livro Os Arquivos De Sherlock Holmes, De Doyle, Arthur Conan",
+    "preco": 26.7,
+    "preco_original": null,
+    "n_ofertas": 23,
+    "item_id": "MLB4125744119",
+    "seller_id": 2070101826,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB68697067",
+    "mediana": 31.43,
+    "minimo_hist": 21.17,
+    "desconto": 15.0,
+    "recorde": false
   }
 ]
