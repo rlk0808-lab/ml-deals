@@ -6,10 +6,10 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 (gerado em 2026-09-09)
 
-⭐ MLB20719323  Eirilar Panela Pressão Teflon Panela de Pressão Antiaderente
-    https://www.mercadolivre.com.br/p/MLB20719323
 ⭐ MLB57626638  Sanduicheira Grill Elétrica Antiaderente 750w Potente Cor Ve
     https://www.mercadolivre.com.br/p/MLB57626638
+⭐ MLB20719323  Eirilar Panela Pressão Teflon Panela de Pressão Antiaderente
+    https://www.mercadolivre.com.br/p/MLB20719323
 ⭐ MLB29118990  Jogo Toalhas Gigante 5pçs Fio Penteado Algodão Egípcio
     https://www.mercadolivre.com.br/p/MLB29118990
 ⭐ MLB29279084  Cortina Blackout Cortina Bloquedora De Claridade Cortina De 
@@ -66,6 +66,8 @@ MLB37246326  Kit Potes Porta Mantimento Hermético Quadrado Cozinha 12 Uni
     https://www.mercadolivre.com.br/p/MLB37246326
 MLB47450869  Caçarola Panela Ferro Fundido Com Tampa De Vidro 2 Alças N22
     https://www.mercadolivre.com.br/p/MLB47450869
+MLB35940252  Kit Organizador De Gaveta Dobrável Com Divisórias - 4 Peças
+    https://www.mercadolivre.com.br/p/MLB35940252
 MLB25836001  Prateleira Parede Tripla 60x25cm Hone Dourado Vulcano
     https://www.mercadolivre.com.br/p/MLB25836001
 MLB60085180  Jogo Tapetes Banheiro Antiderrapante Cinza Jolitex Delicato 
@@ -100,8 +102,6 @@ MLB22830986  Jogo Copos Vidro Shot Dose 45ml Lehavi Chicago 6 Peças
     https://www.mercadolivre.com.br/p/MLB22830986
 MLB26174851  Kit Organizador Cozinha Aço 3 Unidades Preto DiCarlo
     https://www.mercadolivre.com.br/p/MLB26174851
-MLB35940252  Kit Organizador De Gaveta Dobrável Com Divisórias - 4 Peças
-    https://www.mercadolivre.com.br/p/MLB35940252
 MLB44214708  Prateleira Parede Tripla Ferro Madeira Multiuso Cozinha Cor 
     https://www.mercadolivre.com.br/p/MLB44214708
 MLB26615065  Cesto Roupa Suja Dobrável 3 Compartimentos Meta Parts Alumín
