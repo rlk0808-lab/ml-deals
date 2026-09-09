@@ -83,22 +83,5 @@
     "minimo_hist": 25.24,
     "desconto": 17.9,
     "recorde": false
-  },
-  {
-    "data": "2026-09-09",
-    "product_id": "MLB26999225",
-    "nome": "Philips Avent SCF281/02 esterilizador mamadeira chupeta micro-ondas",
-    "preco": 140.0,
-    "preco_original": null,
-    "n_ofertas": 15,
-    "item_id": "MLB7231197316",
-    "seller_id": 3047681741,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB26999225",
-    "mediana": 170.0,
-    "minimo_hist": 140.0,
-    "desconto": 17.6,
-    "recorde": true
   }
 ]
