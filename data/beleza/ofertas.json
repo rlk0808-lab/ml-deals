@@ -1,6 +1,23 @@
 [
   {
-    "data": "2026-09-08",
+    "data": "2026-09-09",
+    "product_id": "MLB24206231",
+    "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d6 medio - 10g",
+    "preco": 20.99,
+    "preco_original": 69.99,
+    "n_ofertas": 15,
+    "item_id": "MLB5024208008",
+    "seller_id": 1937143481,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB24206231",
+    "mediana": 29.9,
+    "minimo_hist": 20.45,
+    "desconto": 29.8,
+    "recorde": false
+  },
+  {
+    "data": "2026-09-09",
     "product_id": "MLB63938040",
     "nome": "Creme Para Pentear Hipoalergico",
     "preco": 45.0,
@@ -17,24 +34,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-08",
-    "product_id": "MLB24206231",
-    "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d6 medio - 10g",
-    "preco": 21.69,
-    "preco_original": 69.99,
-    "n_ofertas": 15,
-    "item_id": "MLB3828668963",
-    "seller_id": 1447366191,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB24206231",
-    "mediana": 29.9,
-    "minimo_hist": 20.45,
-    "desconto": 27.5,
-    "recorde": false
-  },
-  {
-    "data": "2026-09-08",
+    "data": "2026-09-09",
     "product_id": "MLB28456268",
     "nome": "Progressiva Capilar 0% Formol Orgânica 250ml Cabelos Lisos",
     "preco": 59.9,
@@ -51,7 +51,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-08",
+    "data": "2026-09-09",
     "product_id": "MLB66731987",
     "nome": "Esmalte Unha Em Gel Acrigel Fibra Blindagem Real Love Light Rosa-17",
     "preco": 16.99,
@@ -68,7 +68,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-08",
+    "data": "2026-09-09",
     "product_id": "MLB68726370",
     "nome": "Progressiva Capilar Vegana 500ml S/ Formol Agilcap Belletonn",
     "preco": 126.0,
@@ -85,16 +85,16 @@
     "recorde": true
   },
   {
-    "data": "2026-09-08",
+    "data": "2026-09-09",
     "product_id": "MLB24206229",
     "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d4 claro - 10g",
     "preco": 22.99,
     "preco_original": 69.99,
     "n_ofertas": 19,
-    "item_id": "MLB3927218505",
-    "seller_id": 116755388,
+    "item_id": "MLB3829113165",
+    "seller_id": 1937143481,
     "frete_gratis": true,
-    "full": false,
+    "full": true,
     "permalink": "https://www.mercadolivre.com.br/p/MLB24206229",
     "mediana": 27.99,
     "minimo_hist": 18.41,
@@ -102,7 +102,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-08",
+    "data": "2026-09-09",
     "product_id": "MLB29607113",
     "nome": "Condicionador Hidratação Equilibrante Patauá300ml Loccitane",
     "preco": 54.23,
@@ -119,7 +119,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-08",
+    "data": "2026-09-09",
     "product_id": "MLB22373275",
     "nome": "TRESemmé Condicionador Hidratação Profunda 400ml",
     "preco": 23.27,
