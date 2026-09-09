@@ -46,8 +46,6 @@ MLB68485848  Creme Pomada De Assadura Óleo Girassol Age 120g Maxi Baby
     https://www.mercadolivre.com.br/p/MLB68485848
 MLB68417753  Creme Pomada De Assadura Óleo Girassol A.g.e 45g Maxi Baby
     https://www.mercadolivre.com.br/p/MLB68417753
-MLB19904682  Bebê conforto Voyage Bebê Conforto Beta preto
-    https://www.mercadolivre.com.br/p/MLB19904682
 MLB52133055  Bomba Tira-leite Materno Com Mamadeira G-tech
     https://www.mercadolivre.com.br/p/MLB52133055
 MLB22560306  Móbile Berço Bebê Musical E Giratório Ovelinha Bege
@@ -60,8 +58,6 @@ MLB55462160  Mordedor Bebê Vila Toy Pezinho Silicone Alívio Gengiva Azul
     https://www.mercadolivre.com.br/p/MLB55462160
 MLB31975924  Colchão Berço Probel Active Baby
     https://www.mercadolivre.com.br/p/MLB31975924
-MLB29195932  Mochila Bolsa Lequeen Maternidade Executiva Multifuncional C
-    https://www.mercadolivre.com.br/p/MLB29195932
 MLB32385853  Mordedor Bebe Bananinha - Massageador Escovinha Cor Amarelo
     https://www.mercadolivre.com.br/p/MLB32385853
 MLB25541567  Bola Chocalho Mordedor Bebe Unissex Pimpolho Cor Vermelho
@@ -72,12 +68,16 @@ MLB63123338  Baby Monitor Vb603 Baba Eletrônica Com Monitor branco
     https://www.mercadolivre.com.br/p/MLB63123338
 MLB65451179  Bomba Tira Leite Elétrica Solo Hands Free Medela
     https://www.mercadolivre.com.br/p/MLB65451179
+MLB19904682  Bebê conforto Voyage Bebê Conforto Beta preto
+    https://www.mercadolivre.com.br/p/MLB19904682
 MLB32111187  Móbile Berço Bebê Musical E Giratório Elefantinho Tiffany
     https://www.mercadolivre.com.br/p/MLB32111187
 MLB74300525  Mordedor Bebê Mãozinha E Pezinho Macio Atóxico Pezinho Rosa
     https://www.mercadolivre.com.br/p/MLB74300525
 MLB18392577  Fralda Descartável Infantil Pom Pom Clássica XG Pacote 20 Un
     https://www.mercadolivre.com.br/p/MLB18392577
+MLB55628809  Kit Higiene Bebê Moderno De Crochê Cor Bege
+    https://www.mercadolivre.com.br/p/MLB55628809
 MLB66185468  Carrinho Bebê Move Duo Passear Bebê Conforto Nina Adaptador 
     https://www.mercadolivre.com.br/p/MLB66185468
 MLB50093886  Colchão Berço Americano Ortobom Baby Light D18 70x130cm Anti
@@ -106,8 +106,6 @@ MLB22936110  Móbile Berço Bebê Musical E Giratório Ovelinha Rosa
     https://www.mercadolivre.com.br/p/MLB22936110
 MLB70628689  Kit Limpeza Mamadeira Bebê Portátil Escovas Suporte Secador 
     https://www.mercadolivre.com.br/p/MLB70628689
-MLB55628809  Kit Higiene Bebê Moderno De Crochê Cor Bege
-    https://www.mercadolivre.com.br/p/MLB55628809
 MLB49767281  Colchão Berço Arkell Espuma D20 70x130 cm Branco Antialérgic
     https://www.mercadolivre.com.br/p/MLB49767281
 MLB51307528  Cercadinho Bebê Grande Chiqueirinho Infantil Cercado 180x150
@@ -126,3 +124,5 @@ MLB23888076  KaBaby Bomba tira leite Elétrica Vestível Transparente
     https://www.mercadolivre.com.br/p/MLB23888076
 MLB32300839  Berloque Carrinho Bebê Azul Prata 925 com Caixa
     https://www.mercadolivre.com.br/p/MLB32300839
+MLB25246647  Bomba Tira-leite 2 Em 1 Unitária - Mam
+    https://www.mercadolivre.com.br/p/MLB25246647
