@@ -40,8 +40,6 @@ MLB22663058  Bomba Tira Leite Coletora Manual Kuka Funcional
     https://www.mercadolivre.com.br/p/MLB22663058
 MLB24382019  Mordedor Bebê Pezinho Mãozinha Brinquedo Macio Dentição Cor 
     https://www.mercadolivre.com.br/p/MLB24382019
-MLB18392719  Fralda Descartável Turma da Mônica Baby XG Pacote 20 Unidade
-    https://www.mercadolivre.com.br/p/MLB18392719
 MLB28387695  Capa Colchão Berço Impermeável Vida Pratika Antiácaros com E
     https://www.mercadolivre.com.br/p/MLB28387695
 MLB73440881  Aquecedor Esterilizador De Mamadeira Chupeta Papinha 3 Em 1 
@@ -52,14 +50,14 @@ MLB68485848  Creme Pomada De Assadura Óleo Girassol Age 120g Maxi Baby
     https://www.mercadolivre.com.br/p/MLB68485848
 MLB68417753  Creme Pomada De Assadura Óleo Girassol A.g.e 45g Maxi Baby
     https://www.mercadolivre.com.br/p/MLB68417753
+MLB18392719  Fralda Descartável Turma da Mônica Baby XG Pacote 20 Unidade
+    https://www.mercadolivre.com.br/p/MLB18392719
 MLB52133055  Bomba Tira-leite Materno Com Mamadeira G-tech
     https://www.mercadolivre.com.br/p/MLB52133055
 MLB22560306  Móbile Berço Bebê Musical E Giratório Ovelinha Bege
     https://www.mercadolivre.com.br/p/MLB22560306
 MLB23815642  Móbile Berço Bebê Musical E Giratório Ursinho Marinheiro
     https://www.mercadolivre.com.br/p/MLB23815642
-MLB18392729  Fralda Descartável Infantil Pom Pom Clássica G Pacote 24 Uni
-    https://www.mercadolivre.com.br/p/MLB18392729
 MLB55462160  Mordedor Bebê Vila Toy Pezinho Silicone Alívio Gengiva Azul
     https://www.mercadolivre.com.br/p/MLB55462160
 MLB31975924  Colchão Berço Probel Active Baby
@@ -68,8 +66,6 @@ MLB32385853  Mordedor Bebe Bananinha - Massageador Escovinha Cor Amarelo
     https://www.mercadolivre.com.br/p/MLB32385853
 MLB25541567  Bola Chocalho Mordedor Bebe Unissex Pimpolho Cor Vermelho
     https://www.mercadolivre.com.br/p/MLB25541567
-MLB24670405  Alicate Pregar Aplicar Botão Metal 35 Body Roupa Bebê Tictac
-    https://www.mercadolivre.com.br/p/MLB24670405
 MLB63123338  Baby Monitor Vb603 Baba Eletrônica Com Monitor branco
     https://www.mercadolivre.com.br/p/MLB63123338
 MLB19904682  Bebê conforto Voyage Bebê Conforto Beta preto
@@ -78,10 +74,8 @@ MLB32111187  Móbile Berço Bebê Musical E Giratório Elefantinho Tiffany
     https://www.mercadolivre.com.br/p/MLB32111187
 MLB74300525  Mordedor Bebê Mãozinha E Pezinho Macio Atóxico Pezinho Rosa
     https://www.mercadolivre.com.br/p/MLB74300525
-MLB18392577  Fralda Descartável Infantil Pom Pom Clássica XG Pacote 20 Un
-    https://www.mercadolivre.com.br/p/MLB18392577
-MLB30930788  Luva Mordedor Bebê Luvinha Silicone - Azul
-    https://www.mercadolivre.com.br/p/MLB30930788
+MLB18392729  Fralda Descartável Infantil Pom Pom Clássica G Pacote 24 Uni
+    https://www.mercadolivre.com.br/p/MLB18392729
 MLB55628809  Kit Higiene Bebê Moderno De Crochê Cor Bege
     https://www.mercadolivre.com.br/p/MLB55628809
 MLB66185468  Carrinho Bebê Move Duo Passear Bebê Conforto Nina Adaptador 
@@ -98,6 +92,8 @@ MLB43486094  Banheira Bebê Dobrável Portátil Buba Cor Azul
     https://www.mercadolivre.com.br/p/MLB43486094
 MLB29439967  Mochila Bolsa Maternidade Jeans Cinza Lovely Baby Unik
     https://www.mercadolivre.com.br/p/MLB29439967
+MLB24670405  Alicate Pregar Aplicar Botão Metal 35 Body Roupa Bebê Tictac
+    https://www.mercadolivre.com.br/p/MLB24670405
 MLB30173092  Chaveiro Branco Sapatinho De Médico White All Star Keychain
     https://www.mercadolivre.com.br/p/MLB30173092
 MLB27170986  Banheira Bebê Classic Dino - Galzerano
@@ -110,8 +106,12 @@ MLB22612025  Móbile Berço Bebê Musical E Giratório Ovelinha Azul
     https://www.mercadolivre.com.br/p/MLB22612025
 MLB42110938  Cercadinho Bebê Portátil Desmontável Mazzilli para Crianças 
     https://www.mercadolivre.com.br/p/MLB42110938
+MLB18392577  Fralda Descartável Infantil Pom Pom Clássica XG Pacote 20 Un
+    https://www.mercadolivre.com.br/p/MLB18392577
 MLB25834403  Ursinho Mordedor Bebe De Água Vermelho 5226 Buba
     https://www.mercadolivre.com.br/p/MLB25834403
+MLB30930788  Luva Mordedor Bebê Luvinha Silicone - Azul
+    https://www.mercadolivre.com.br/p/MLB30930788
 MLB22936110  Móbile Berço Bebê Musical E Giratório Ovelinha Rosa
     https://www.mercadolivre.com.br/p/MLB22936110
 MLB70628689  Kit Limpeza Mamadeira Bebê Portátil Escovas Suporte Secador 
