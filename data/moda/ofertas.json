@@ -20,8 +20,8 @@
     "data": "2026-09-10",
     "product_id": "MLB68820449",
     "nome": "Conjunto Fitness Feminino Top + Short Cós Alto Com Bolso Zero Transparência Poliamida",
-    "preco": 53.19,
-    "preco_original": 55.99,
+    "preco": 55.99,
+    "preco_original": null,
     "n_ofertas": 7,
     "item_id": "MLB5075744253",
     "seller_id": 2140336061,
@@ -30,8 +30,8 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB68820449",
     "mediana": 100.0,
     "minimo_hist": 53.19,
-    "desconto": 46.8,
-    "recorde": true
+    "desconto": 44.0,
+    "recorde": false
   },
   {
     "data": "2026-09-10",
@@ -65,23 +65,6 @@
     "mediana": 109.11,
     "minimo_hist": 82.64,
     "desconto": 24.3,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-10",
-    "product_id": "MLB68859694",
-    "nome": "Kit 2 Varais Retrátil Roupa Multiuso Calcinha Cueca Meias Cor Ciano",
-    "preco": 49.8,
-    "preco_original": 60.0,
-    "n_ofertas": 2,
-    "item_id": "MLB7502243710",
-    "seller_id": 48387668,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB68859694",
-    "mediana": 59.9,
-    "minimo_hist": 49.8,
-    "desconto": 16.9,
     "recorde": true
   }
 ]
