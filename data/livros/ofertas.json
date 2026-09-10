@@ -1,6 +1,6 @@
 [
   {
-    "data": "2026-09-09",
+    "data": "2026-09-10",
     "product_id": "MLB19436742",
     "nome": "Livro Finanças para gerentes, de Harward Business Essentials. Editorial Editora Record Ltda., tapa mole, en português (2004)",
     "preco": 36.0,
@@ -17,7 +17,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-09",
+    "data": "2026-09-10",
     "product_id": "MLB65261067",
     "nome": "Super-hábitos",
     "preco": 22.98,
@@ -34,7 +34,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-09",
+    "data": "2026-09-10",
     "product_id": "MLB19395937",
     "nome": "Livro Sharp Objects Objetos Cortantes Gillian Flynn",
     "preco": 58.45,
@@ -51,7 +51,24 @@
     "recorde": false
   },
   {
-    "data": "2026-09-09",
+    "data": "2026-09-10",
+    "product_id": "MLB19238937",
+    "nome": "Coleção Agatha Christie box 8 de Christie Agatha editorial HarperCollins Brasil português 2017",
+    "preco": 45.0,
+    "preco_original": null,
+    "n_ofertas": 73,
+    "item_id": "MLB4980897475",
+    "seller_id": 329431248,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19238937",
+    "mediana": 87.77,
+    "minimo_hist": 45.0,
+    "desconto": 48.7,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-10",
     "product_id": "MLB19305128",
     "nome": "Creepshow - o terror de stephen king em quadrinhos - King, Stephen - Darkside Books - Graphic Novel - Capa Dura",
     "preco": 54.9,
@@ -68,7 +85,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-09",
+    "data": "2026-09-10",
     "product_id": "MLB20685650",
     "nome": "Box De Luxo 6 Livros Sherlock Holmes - Arthur Conan Doyle - Capa Dura",
     "preco": 49.98,
@@ -85,7 +102,24 @@
     "recorde": true
   },
   {
-    "data": "2026-09-09",
+    "data": "2026-09-10",
+    "product_id": "MLB22101664",
+    "nome": "Livro Empreendedorismo Transformando Ideias Em Negócios, 9ª Edição 2023",
+    "preco": 99.0,
+    "preco_original": null,
+    "n_ofertas": 11,
+    "item_id": "MLB5210919883",
+    "seller_id": 35966325,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB22101664",
+    "mediana": 143.0,
+    "minimo_hist": 99.0,
+    "desconto": 30.8,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-10",
     "product_id": "MLB29947399",
     "nome": "O ladrão de raios: Série Percy Jackson e os olimpianos (novas capas), de Rick Riordan. Série Percy Jackson e os Olimpianos, vol. 1. Editora Intrínseca Ltda., capa mole, edição 1 em",
     "preco": 36.0,
@@ -102,7 +136,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-09",
+    "data": "2026-09-10",
     "product_id": "MLB54223613",
     "nome": "Diário Oficial De Quarta Asa: Você É Uma Coisinha Bem Violenta, Não É?, De Rebecca Yarros. Editorial Planeta Minotauro, Capa Dura, Edição 1 Em Português, 2025",
     "preco": 78.99,
@@ -119,7 +153,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-09",
+    "data": "2026-09-10",
     "product_id": "MLB64918756",
     "nome": "Livro Wuthering Heights, De Emily Brontë (autor), Emily Brontë (autor). Editora W. Books, Capa Mole, Em Inglês (2025)",
     "preco": 18.08,
@@ -136,7 +170,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-09",
+    "data": "2026-09-10",
     "product_id": "MLB19272750",
     "nome": "Box Totalmente Terror",
     "preco": 46.41,
@@ -153,7 +187,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-09",
+    "data": "2026-09-10",
     "product_id": "MLB57817554",
     "nome": "Box Santo Guerreiro",
     "preco": 129.0,
@@ -170,7 +204,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-09",
+    "data": "2026-09-10",
     "product_id": "MLB19219273",
     "nome": "Livro Melhores Crônicas Machado de Assis, de Joaquim Machado de Assis, tapa mole, en português (2003)",
     "preco": 40.13,
@@ -187,7 +221,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-09",
+    "data": "2026-09-10",
     "product_id": "MLB53664915",
     "nome": "Box Lovelight",
     "preco": 97.65,
@@ -204,7 +238,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-09",
+    "data": "2026-09-10",
     "product_id": "MLB53759056",
     "nome": "Box Sandel",
     "preco": 151.93,
@@ -221,7 +255,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-09",
+    "data": "2026-09-10",
     "product_id": "MLB54103102",
     "nome": "Box Torre Negra",
     "preco": 300.0,
@@ -238,7 +272,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-09",
+    "data": "2026-09-10",
     "product_id": "MLB60720366",
     "nome": "Livro Wuthering Heights - Emily Brontë, De Emily Brontë, Vol. 1. Editora Nort Parade Publishing, Capa Dura, Em Inglês (2024)",
     "preco": 33.45,
@@ -255,7 +289,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-09",
+    "data": "2026-09-10",
     "product_id": "MLB19447440",
     "nome": "Livro Mistério em Verdejantes, de Rodrigues, Severino. Cortez Editora e Livraria LTDA, capa mole (2017)",
     "preco": 47.9,
@@ -272,7 +306,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-09",
+    "data": "2026-09-10",
     "product_id": "MLB19243919",
     "nome": "Livro Rede De Sussurros: Um thriller feminista da era #MeToo, de Baker, Chandler. Editorial Editora Intrínseca Ltda., tapa mole, en português (2019)",
     "preco": 38.9,
@@ -289,7 +323,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-09",
+    "data": "2026-09-10",
     "product_id": "MLB63740683",
     "nome": "Livro: Sua Última Reverência Autor: Arthur Conan Doyle (novo, Lacrado), De Arthur Conan Doyle",
     "preco": 27.82,
@@ -306,7 +340,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-09",
+    "data": "2026-09-10",
     "product_id": "MLB70438242",
     "nome": "Novembro, Box Completo",
     "preco": 193.45,
@@ -323,7 +357,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-09",
+    "data": "2026-09-10",
     "product_id": "MLB68697067",
     "nome": "Livro Os Arquivos De Sherlock Holmes, De Doyle, Arthur Conan",
     "preco": 26.7,
