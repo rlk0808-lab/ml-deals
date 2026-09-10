@@ -10,6 +10,10 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB57626638
 ⭐ MLB20719323  Eirilar Panela Pressão Teflon Panela de Pressão Antiaderente
     https://www.mercadolivre.com.br/p/MLB20719323
+⭐ MLB29118990  Jogo Toalhas Gigante 5pçs Fio Penteado Algodão Egípcio
+    https://www.mercadolivre.com.br/p/MLB29118990
+⭐ MLB29279084  Cortina Blackout Cortina Bloquedora De Claridade Cortina De 
+    https://www.mercadolivre.com.br/p/MLB29279084
 ⭐ MLB37993510  Kit Cozinha 5 Potes Herméticos Para Mantimentos Cor Preto
     https://www.mercadolivre.com.br/p/MLB37993510
 ⭐ MLB26532285  Organizador De Carro Encosto Banco Porta Trecos E Tablet Mul
@@ -20,18 +24,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB61964304
 ⭐ MLB66977682  Necessaire Porta Trecos Fortnite - Unissex F1/- F1/21 - 9195
     https://www.mercadolivre.com.br/p/MLB66977682
-⭐ MLB72753149  Kit Organizador Gaveta Colmeia Calcinha Cueca Meia Roupa Cin
-    https://www.mercadolivre.com.br/p/MLB72753149
 ⭐ MLB26209612  Kit Potes Alumínio JHS Verde Limão Poá 5L Para Mantimentos C
     https://www.mercadolivre.com.br/p/MLB26209612
 ⭐ MLB62359119  Faqueiro 16 Peças Aço Inox Ópera Lyor Jogo Talheres De Luxo 
     https://www.mercadolivre.com.br/p/MLB62359119
+⭐ MLB70031782  Jogo Talheres Churrasco Tramontina Aço Inox Cabo Castanho 12
+    https://www.mercadolivre.com.br/p/MLB70031782
 MLB74301911  Sanduicheira Grill Elétrica
     https://www.mercadolivre.com.br/p/MLB74301911
-MLB29118990  Jogo Toalhas Gigante 5pçs Fio Penteado Algodão Egípcio
-    https://www.mercadolivre.com.br/p/MLB29118990
-MLB29279084  Cortina Blackout Cortina Bloquedora De Claridade Cortina De 
-    https://www.mercadolivre.com.br/p/MLB29279084
 MLB35716444  Jogo Panelas Antiaderente Multiflon 4 Peças Vermelho com Lei
     https://www.mercadolivre.com.br/p/MLB35716444
 MLB58984205  Jogo Panelas Indução Antiaderente Cerâmica Manhattan 5 Peças
@@ -78,6 +78,8 @@ MLB74694174  Kit Potes Porta Mantimento Hermético Quadrado Cozinha 6 Pçs
     https://www.mercadolivre.com.br/p/MLB74694174
 MLB23982193  Sanduicheira Grill Best
     https://www.mercadolivre.com.br/p/MLB23982193
+MLB38457093  Sanduicheira Grill Chapa Elétrica Preta Acabamento Inox Cor 
+    https://www.mercadolivre.com.br/p/MLB38457093
 MLB56347591  Sanduicheira Grill Elétrica 750w Be Smart Cozinha Fácil Pret
     https://www.mercadolivre.com.br/p/MLB56347591
 MLB26832772  Kit Organizador de Guarda-Roupa e Gaveta com 10 Divisórias, 
@@ -90,6 +92,8 @@ MLB53775135  Conjunto Pratos De Cerâmica 20cm Sobremesa Raso 4 Unidades
     https://www.mercadolivre.com.br/p/MLB53775135
 MLB65523019  Jogo Cama Casal Essencial Lavanda 250 Fios Branco Lyor
     https://www.mercadolivre.com.br/p/MLB65523019
+MLB74848676  Kit 15 Potes Herméticos Retangulares Mantimentos Organizador
+    https://www.mercadolivre.com.br/p/MLB74848676
 MLB26832584  Kit Organizador de Gaveta para Guarda-Roupa Preto
     https://www.mercadolivre.com.br/p/MLB26832584
 MLB26980030  Kit Organizador Cinza para Guarda-Roupa e Gaveta
@@ -110,8 +114,6 @@ MLB65564513  Kit 17 Potes Hermeticos Cozinha Mantimentos Resistentes Bran
     https://www.mercadolivre.com.br/p/MLB65564513
 MLB38805103  Sanduicheira Grill Elétrica BeSmart Antiaderente Preto
     https://www.mercadolivre.com.br/p/MLB38805103
-MLB38457093  Sanduicheira Grill Chapa Elétrica Preta Acabamento Inox Cor 
-    https://www.mercadolivre.com.br/p/MLB38457093
 MLB47787881  Sanduicheira Grill Elétrica Antiaderente Sumay para 2 Sanduí
     https://www.mercadolivre.com.br/p/MLB47787881
 MLB29043753  Jogo Copos De Vidro Diamond Fio De Ouro 270ml 12 Peças Lyor
@@ -124,5 +126,3 @@ MLB45458466  Air fryer Br House Fritadeira ELETRICA AIR FRYER Air Fryer F
     https://www.mercadolivre.com.br/p/MLB45458466
 MLB53222426  Frigideira Antiaderente Rizzoflon 16cm Alumínio Teflon para 
     https://www.mercadolivre.com.br/p/MLB53222426
-MLB76065812  Sanduicheira Grill Britânia Bgr27b 1000w Preto
-    https://www.mercadolivre.com.br/p/MLB76065812
