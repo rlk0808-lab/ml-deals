@@ -16,6 +16,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB23059798
 ⭐ MLB70149896  Cadeira De Alimentação Bebe Portatil 6 Em 1 Cinto Segurança 
     https://www.mercadolivre.com.br/p/MLB70149896
+⭐ MLB34966407  Capa A Prova D'agua P/colchão Berço 24h
+    https://www.mercadolivre.com.br/p/MLB34966407
 ⭐ MLB67403913  Kit 2 Prendedor De Chupeta Bebê Menino Infantil Antiperca
     https://www.mercadolivre.com.br/p/MLB67403913
 ⭐ MLB62842938  Canguru Sling De Bebe Carregar Recem Nascido Dry Fit Furadin
@@ -64,6 +66,8 @@ MLB55462160  Mordedor Bebê Vila Toy Pezinho Silicone Alívio Gengiva Azul
     https://www.mercadolivre.com.br/p/MLB55462160
 MLB31975924  Colchão Berço Probel Active Baby
     https://www.mercadolivre.com.br/p/MLB31975924
+MLB79138414  Hidratante Bebê Pele Sensivel Tradicional 250ml Maxi Baby
+    https://www.mercadolivre.com.br/p/MLB79138414
 MLB32385853  Mordedor Bebe Bananinha - Massageador Escovinha Cor Amarelo
     https://www.mercadolivre.com.br/p/MLB32385853
 MLB25541567  Bola Chocalho Mordedor Bebe Unissex Pimpolho Cor Vermelho
@@ -110,19 +114,15 @@ MLB22612025  Móbile Berço Bebê Musical E Giratório Ovelinha Azul
     https://www.mercadolivre.com.br/p/MLB22612025
 MLB42110938  Cercadinho Bebê Portátil Desmontável Mazzilli para Crianças 
     https://www.mercadolivre.com.br/p/MLB42110938
+MLB22826617  Bomba Tira Leite Manual Transparente Silicone Pais & Filhos
+    https://www.mercadolivre.com.br/p/MLB22826617
 MLB25834403  Ursinho Mordedor Bebe De Água Vermelho 5226 Buba
     https://www.mercadolivre.com.br/p/MLB25834403
 MLB30930788  Luva Mordedor Bebê Luvinha Silicone - Azul
     https://www.mercadolivre.com.br/p/MLB30930788
-MLB70007436  Cadeira De Alimentação Portátil Infantil Bebê Refeição 3em1 
-    https://www.mercadolivre.com.br/p/MLB70007436
 MLB22936110  Móbile Berço Bebê Musical E Giratório Ovelinha Rosa
     https://www.mercadolivre.com.br/p/MLB22936110
 MLB70628689  Kit Limpeza Mamadeira Bebê Portátil Escovas Suporte Secador 
     https://www.mercadolivre.com.br/p/MLB70628689
 MLB49767281  Colchão Berço Arkell Espuma D20 70x130 cm Branco Antialérgic
     https://www.mercadolivre.com.br/p/MLB49767281
-MLB51307528  Cercadinho Bebê Grande Chiqueirinho Infantil Cercado 180x150
-    https://www.mercadolivre.com.br/p/MLB51307528
-MLB61688382  Canguru Sling Bolsa Bebe Carregador Mochila Cor Rosa Confort
-    https://www.mercadolivre.com.br/p/MLB61688382
