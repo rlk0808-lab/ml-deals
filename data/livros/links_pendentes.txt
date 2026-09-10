@@ -14,12 +14,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB19272750
 ⭐ MLB57817554  Box Santo Guerreiro
     https://www.mercadolivre.com.br/p/MLB57817554
-⭐ MLB40283388  Box Alice - Box Com 2 Livros - Edição De Luxo Almofadada
-    https://www.mercadolivre.com.br/p/MLB40283388
 ⭐ MLB19395937  Livro Sharp Objects Objetos Cortantes Gillian Flynn
     https://www.mercadolivre.com.br/p/MLB19395937
 ⭐ MLB22101664  Livro Empreendedorismo Transformando Ideias Em Negócios, 9ª 
     https://www.mercadolivre.com.br/p/MLB22101664
+⭐ MLB20685650  Box De Luxo 6 Livros Sherlock Holmes - Arthur Conan Doyle - 
+    https://www.mercadolivre.com.br/p/MLB20685650
 ⭐ MLB60720366  Livro Wuthering Heights - Emily Brontë, De Emily Brontë, Vol
     https://www.mercadolivre.com.br/p/MLB60720366
 ⭐ MLB19243919  Livro Rede De Sussurros: Um thriller feminista da era #MeToo
@@ -74,48 +74,44 @@ MLB63908049  Ponto de impacto - Brown, Dan - Editora Arqueiro - Capa Mole
     https://www.mercadolivre.com.br/p/MLB63908049
 MLB47100376  Cidade em ruínas – Thriller de máfia e a conclusão eletrizan
     https://www.mercadolivre.com.br/p/MLB47100376
-MLB47627533  Dele e Dela - Livro que inspirou o thriller de sucesso da Ne
-    https://www.mercadolivre.com.br/p/MLB47627533
+MLB19262185  A irmã desaparecida (As Sete Irmãs – Livro 7) - Riley, Lucin
+    https://www.mercadolivre.com.br/p/MLB19262185
 MLB40647349  A contadora - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB40647349
 MLB69618968  Jantar sinistro - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB69618968
-MLB19297709  É assim que acaba, de Colleen Hoover. Editora Galera
-    https://www.mercadolivre.com.br/p/MLB19297709
-MLB58978641  A Intrusa - McFadden, Freida - Record - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB58978641
 MLB74445340  Não se deixe enganar - Coben, Harlan - Editora Arqueiro - Ca
     https://www.mercadolivre.com.br/p/MLB74445340
-MLB65917466  Sem volta - Henry, Emily - Verus - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB65917466
 MLB19381441  Sinfonia dos animais - Brown, Dan - Editora Arqueiro - Capa 
     https://www.mercadolivre.com.br/p/MLB19381441
 MLB19272293  Leitura de verão - Henry, Emily - Grupo Editorial Record - C
     https://www.mercadolivre.com.br/p/MLB19272293
+MLB19297709  É assim que acaba, de Colleen Hoover. Editora Galera
+    https://www.mercadolivre.com.br/p/MLB19297709
 MLB19262567  As sete irmãs (As Sete Irmãs – Livro 1) - Riley, Lucinda - E
     https://www.mercadolivre.com.br/p/MLB19262567
-MLB19262185  A irmã desaparecida (As Sete Irmãs – Livro 7) - Riley, Lucin
-    https://www.mercadolivre.com.br/p/MLB19262185
 MLB63501442  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
     https://www.mercadolivre.com.br/p/MLB63501442
+MLB58978641  A Intrusa - McFadden, Freida - Record - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB58978641
+MLB65917466  Sem volta - Henry, Emily - Verus - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB65917466
+MLB23661891  Livro-verdade?- Editora Best Seller
+    https://www.mercadolivre.com.br/p/MLB23661891
 MLB49559264  O acidente - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB49559264
 MLB52875268  A última carta - Yarros, Rebecca - Editora Arqueiro - Capa M
     https://www.mercadolivre.com.br/p/MLB52875268
-MLB23661891  Livro-verdade?- Editora Best Seller
-    https://www.mercadolivre.com.br/p/MLB23661891
 MLB19405210  Corte de espinhos e rosas (Vol. 1) - Maas, Sarah J. - Galera
     https://www.mercadolivre.com.br/p/MLB19405210
-MLB41390492  A professora - McFadden, Freida - Record - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB41390492
 MLB75861265  Ala D - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB75861265
 MLB43965638  O detento - McFadden, Freida - Editora Arqueiro - Capa Mole
     https://www.mercadolivre.com.br/p/MLB43965638
-MLB66963300  A ex - McFadden, Freida - Editora Arqueiro - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB66963300
 MLB24095614  Corte de chamas prateadas (Vol. 5 – Edição especial) - Maas,
     https://www.mercadolivre.com.br/p/MLB24095614
+MLB41390492  A professora - McFadden, Freida - Record - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB41390492
 MLB74807035  Box Trilogia Powerless
     https://www.mercadolivre.com.br/p/MLB74807035
 MLB48971628  O símbolo perdido (Robert Langdon - Livro 3) - Brown, Dan - 
@@ -124,5 +120,9 @@ MLB53665702  O namorado - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB53665702
 MLB64349875  Sem chance de adeus - Coben, Harlan - Editora Arqueiro - Cap
     https://www.mercadolivre.com.br/p/MLB64349875
-MLB19238731  Coleção Agatha Christie - Box 5 - Christie, Agatha - HarperC
-    https://www.mercadolivre.com.br/p/MLB19238731
+MLB66963300  A ex - McFadden, Freida - Editora Arqueiro - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB66963300
+MLB49114261  O Código Da Vinci (Robert Langdon – Livro 2) - Brown, Dan - 
+    https://www.mercadolivre.com.br/p/MLB49114261
+MLB51031691  Pense duas vezes (Myron Bolitar – Livro 12) - Coben, Harlan 
+    https://www.mercadolivre.com.br/p/MLB51031691
