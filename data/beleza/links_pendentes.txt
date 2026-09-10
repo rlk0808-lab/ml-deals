@@ -8,6 +8,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 ⭐ MLB25708443  Essential - Condicionador Hidratação e Reparação 1L
     https://www.mercadolivre.com.br/p/MLB25708443
+⭐ MLB44152943  Progressiva Organic + Difusão Capilar + Tônico Milagroso
+    https://www.mercadolivre.com.br/p/MLB44152943
+⭐ MLB38926902  Primer Facial - Blur Primer Océane Edition 30ml Tom do prime
+    https://www.mercadolivre.com.br/p/MLB38926902
+⭐ MLB55889196  Óleo Capilar Nutrição 60ml Hidratei
+    https://www.mercadolivre.com.br/p/MLB55889196
+⭐ MLB52195948  Dove Condicionador Hidratação + Hialuron-vit 370ml
+    https://www.mercadolivre.com.br/p/MLB52195948
 ⭐ MLB57619995  Lápis Sobrancelha com Gel Fixador Melu By Ruby Rose
     https://www.mercadolivre.com.br/p/MLB57619995
 ⭐ MLB45572007  Dacca Kit Shampoo Condicionador Hidratação Protetor Térmico
@@ -20,16 +28,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB61744963
 ⭐ MLB68726370  Progressiva Capilar Vegana 500ml S/ Formol Agilcap Belletonn
     https://www.mercadolivre.com.br/p/MLB68726370
-MLB44152943  Progressiva Organic + Difusão Capilar + Tônico Milagroso
-    https://www.mercadolivre.com.br/p/MLB44152943
-MLB38926902  Primer Facial - Blur Primer Océane Edition 30ml Tom do prime
-    https://www.mercadolivre.com.br/p/MLB38926902
-MLB55889196  Óleo Capilar Nutrição 60ml Hidratei
-    https://www.mercadolivre.com.br/p/MLB55889196
 MLB26217349  Primer Facial Hd Fenzza Pr63
     https://www.mercadolivre.com.br/p/MLB26217349
-MLB52195948  Dove Condicionador Hidratação + Hialuron-vit 370ml
-    https://www.mercadolivre.com.br/p/MLB52195948
 MLB52322550  Dove Condicionador Hidratação + Hialuron-vit 600ml
     https://www.mercadolivre.com.br/p/MLB52322550
 MLB37986849  Kit Maquiagem Artística Terror Slug Drácula Zumbi Halloween
@@ -70,6 +70,8 @@ MLB49964148  Ampola Capilar Profios Power Nutrição 15ml
     https://www.mercadolivre.com.br/p/MLB49964148
 MLB30130397  Condicionador Hidratacao Intensiva Arvensis 1 L
     https://www.mercadolivre.com.br/p/MLB30130397
+MLB39018253  Creme para pentear Vult - A Sua
+    https://www.mercadolivre.com.br/p/MLB39018253
 MLB60725179  Leave-in Capilar Bb Cream 10 Benefícios 100ml Reparador Abso
     https://www.mercadolivre.com.br/p/MLB60725179
 MLB53458449  Ampola Capilar Profios Power Reconstrução 15ml
@@ -98,6 +100,8 @@ MLB27907201  Kit 3 Condicionador Hidratação De Impacto 500ml Midori
     https://www.mercadolivre.com.br/p/MLB27907201
 MLB46223511  Leave-In Capilar Kannep Embaixador 200ml | Antifrizz, Toque 
     https://www.mercadolivre.com.br/p/MLB46223511
+MLB51540218  Creme Para Pentear Modelador Natura
+    https://www.mercadolivre.com.br/p/MLB51540218
 MLB20187397  Shampoo Profissional Lavatório 2500 Ml Limpeza Profunda
     https://www.mercadolivre.com.br/p/MLB20187397
 MLB20335700  Condicionador Hidratação Profunda Vitallederm 300ml
@@ -122,7 +126,3 @@ MLB44149361  pó compacto Ruby Rose Glass Pó Compacto
     https://www.mercadolivre.com.br/p/MLB44149361
 MLB36735934  Lápis Sobrancelha Gobrow Ultrafino Dark Brown Ruby Kisses
     https://www.mercadolivre.com.br/p/MLB36735934
-MLB66170731  Pó compacto iluminador facial em ouro rosa
-    https://www.mercadolivre.com.br/p/MLB66170731
-MLB20688589  Máscara capilar hidratação Intense Hydra Vitiss 500g
-    https://www.mercadolivre.com.br/p/MLB20688589
