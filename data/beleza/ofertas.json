@@ -62,7 +62,7 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB61272803",
-    "mediana": 74.9,
+    "mediana": 74.88,
     "minimo_hist": 56.19,
     "desconto": 23.6,
     "recorde": false
@@ -73,7 +73,7 @@
     "nome": "Baby Dove Condicionador Hidratação Glicerinada 200ml",
     "preco": 15.99,
     "preco_original": 19.9,
-    "n_ofertas": 3,
+    "n_ofertas": 7,
     "item_id": "MLB3689083077",
     "seller_id": 480265022,
     "frete_gratis": true,
@@ -133,6 +133,23 @@
     "mediana": 25.0,
     "minimo_hist": 20.89,
     "desconto": 16.4,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-11",
+    "product_id": "MLB55889196",
+    "nome": "Óleo Capilar Nutrição 60ml Hidratei",
+    "preco": 79.9,
+    "preco_original": 97.0,
+    "n_ofertas": 11,
+    "item_id": "MLB7356451586",
+    "seller_id": 2061445221,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB55889196",
+    "mediana": 94.94,
+    "minimo_hist": 79.9,
+    "desconto": 15.8,
     "recorde": true
   },
   {
