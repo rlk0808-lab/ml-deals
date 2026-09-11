@@ -1,6 +1,6 @@
 [
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB43469003",
     "nome": "Banheira Bebê Dobrável Portátil Buba Cor Cinza",
     "preco": 176.77,
@@ -17,7 +17,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB23059798",
     "nome": "Cadeira Alimentação Bebe Cadeirão Galzerano Alta Nick Zoo",
     "preco": 264.94,
@@ -34,7 +34,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB33124579",
     "nome": "Banheira Bebê Acqua Trio Branca Galzerano Cor Branco",
     "preco": 209.9,
@@ -51,7 +51,24 @@
     "recorde": true
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
+    "product_id": "MLB47606215",
+    "nome": "Shampoo + Condicionador Natura Mamãe Bebê",
+    "preco": 72.99,
+    "preco_original": null,
+    "n_ofertas": 2,
+    "item_id": "MLB5175567823",
+    "seller_id": 699968235,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB47606215",
+    "mediana": 99.0,
+    "minimo_hist": 72.99,
+    "desconto": 26.3,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-11",
     "product_id": "MLB68425604",
     "nome": "Protetor Adesivo Seio Peito Tapa Mamilo Silicone Invisível Tamanho Único",
     "preco": 21.0,
@@ -68,7 +85,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB37273119",
     "nome": "Kit 3 Pomada De Assadura Baby Baruel 45g",
     "preco": 29.99,
@@ -85,7 +102,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB67403913",
     "nome": "Kit 2 Prendedor De Chupeta Bebê Menino Infantil Antiperca",
     "preco": 36.89,
@@ -102,7 +119,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB32330033",
     "nome": "Chocalho Mordedor Bebê Corinthians Kids Gol Silicone",
     "preco": 25.9,
@@ -119,7 +136,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB34966407",
     "nome": "Capa A Prova D'agua P/colchão Berço 24h",
     "preco": 36.59,
@@ -136,7 +153,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB18392685",
     "nome": "Fralda Descartável Infantil Personal Soft & Protect M Pacote 90 Unidades",
     "preco": 87.77,
