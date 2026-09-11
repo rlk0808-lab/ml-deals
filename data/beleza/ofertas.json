@@ -1,6 +1,6 @@
 [
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB63938040",
     "nome": "Creme Para Pentear Hipoalergico",
     "preco": 45.0,
@@ -17,7 +17,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB28456268",
     "nome": "Progressiva Capilar 0% Formol Orgânica 250ml Cabelos Lisos",
     "preco": 59.9,
@@ -34,7 +34,24 @@
     "recorde": true
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
+    "product_id": "MLB23658677",
+    "nome": "Baby Dove Condicionador Hidratação Glicerinada 200ml",
+    "preco": 15.99,
+    "preco_original": 19.9,
+    "n_ofertas": 3,
+    "item_id": "MLB3689083077",
+    "seller_id": 480265022,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB23658677",
+    "mediana": 20.9,
+    "minimo_hist": 15.99,
+    "desconto": 23.5,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-11",
     "product_id": "MLB68726370",
     "nome": "Progressiva Capilar Vegana 500ml S/ Formol Agilcap Belletonn",
     "preco": 126.0,
@@ -51,7 +68,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB29607113",
     "nome": "Condicionador Hidratação Equilibrante Patauá300ml Loccitane",
     "preco": 54.23,
@@ -68,7 +85,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB57619995",
     "nome": "Lápis Sobrancelha com Gel Fixador Melu By Ruby Rose",
     "preco": 20.89,
@@ -85,7 +102,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB19777775",
     "nome": "Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g",
     "preco": 217.62,
@@ -102,7 +119,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB22373275",
     "nome": "TRESemmé Condicionador Hidratação Profunda 400ml",
     "preco": 23.27,
