@@ -1,6 +1,6 @@
 [
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB19436742",
     "nome": "Livro Finanças para gerentes, de Harward Business Essentials. Editorial Editora Record Ltda., tapa mole, en português (2004)",
     "preco": 36.0,
@@ -17,7 +17,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB65261067",
     "nome": "Super-hábitos",
     "preco": 22.98,
@@ -34,41 +34,58 @@
     "recorde": true
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
+    "product_id": "MLB19238733",
+    "nome": "Coleção Agatha Christie - Box 6 - Christie, Agatha - HarperCollins - Capa Mole",
+    "preco": 45.0,
+    "preco_original": null,
+    "n_ofertas": 77,
+    "item_id": "MLB4980867623",
+    "seller_id": 329431248,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19238733",
+    "mediana": 87.99,
+    "minimo_hist": 45.0,
+    "desconto": 48.9,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-11",
+    "product_id": "MLB19238937",
+    "nome": "Coleção Agatha Christie box 8 de Christie Agatha editorial HarperCollins Brasil português 2017",
+    "preco": 45.0,
+    "preco_original": null,
+    "n_ofertas": 74,
+    "item_id": "MLB4980897475",
+    "seller_id": 329431248,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19238937",
+    "mediana": 87.77,
+    "minimo_hist": 45.0,
+    "desconto": 48.7,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-11",
     "product_id": "MLB19395937",
     "nome": "Livro Sharp Objects Objetos Cortantes Gillian Flynn",
-    "preco": 51.94,
+    "preco": 67.81,
     "preco_original": null,
     "n_ofertas": 30,
-    "item_id": "MLB5211434818",
-    "seller_id": 1122068401,
+    "item_id": "MLB4540665338",
+    "seller_id": 1694844234,
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB19395937",
     "mediana": 114.9,
     "minimo_hist": 32.0,
-    "desconto": 54.8,
+    "desconto": 41.0,
     "recorde": false
   },
   {
-    "data": "2026-09-10",
-    "product_id": "MLB71604003",
-    "nome": "Livro Desencantos: Fantasia Dramática",
-    "preco": 20.0,
-    "preco_original": null,
-    "n_ofertas": 24,
-    "item_id": "MLB5215157757",
-    "seller_id": 670944888,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB71604003",
-    "mediana": 35.91,
-    "minimo_hist": 20.0,
-    "desconto": 44.3,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB20685650",
     "nome": "Box De Luxo 6 Livros Sherlock Holmes - Arthur Conan Doyle - Capa Dura",
     "preco": 49.98,
@@ -85,7 +102,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB22101664",
     "nome": "Livro Empreendedorismo Transformando Ideias Em Negócios, 9ª Edição 2023",
     "preco": 99.0,
@@ -102,12 +119,29 @@
     "recorde": true
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
+    "product_id": "MLB44758242",
+    "nome": "Warbreaker: O Sopro Dos Deuses, De Brandon Sanderson. Editorial Trama Editora, Capa Mole, Edição 1a Edição Em Português, 2024",
+    "preco": 68.43,
+    "preco_original": null,
+    "n_ofertas": 96,
+    "item_id": "MLB7152426804",
+    "seller_id": 3354235929,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB44758242",
+    "mediana": 92.75,
+    "minimo_hist": 68.43,
+    "desconto": 26.2,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-11",
     "product_id": "MLB29947399",
     "nome": "O ladrão de raios: Série Percy Jackson e os olimpianos (novas capas), de Rick Riordan. Série Percy Jackson e os Olimpianos, vol. 1. Editora Intrínseca Ltda., capa mole, edição 1 em",
     "preco": 36.0,
     "preco_original": 69.9,
-    "n_ofertas": 82,
+    "n_ofertas": 81,
     "item_id": "MLB3781111225",
     "seller_id": 480263032,
     "frete_gratis": true,
@@ -119,12 +153,12 @@
     "recorde": true
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB19238943",
     "nome": "Box Sherlock Holmes – Obra completa (Capa dura) - Doyle, Arthur Conan - HarperCollins - Capa Dura",
     "preco": 79.65,
     "preco_original": null,
-    "n_ofertas": 89,
+    "n_ofertas": 88,
     "item_id": "MLB3593469278",
     "seller_id": 179795376,
     "frete_gratis": true,
@@ -136,7 +170,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB64918756",
     "nome": "Livro Wuthering Heights, De Emily Brontë (autor), Emily Brontë (autor). Editora W. Books, Capa Mole, Em Inglês (2025)",
     "preco": 18.08,
@@ -153,12 +187,29 @@
     "recorde": true
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
+    "product_id": "MLB19218126",
+    "nome": "Livro Quatro Estações Stephen King Edição 1 Português 2013 Editora Suma",
+    "preco": 90.0,
+    "preco_original": null,
+    "n_ofertas": 17,
+    "item_id": "MLB7620708744",
+    "seller_id": 26464941,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19218126",
+    "mediana": 112.0,
+    "minimo_hist": 66.45,
+    "desconto": 19.6,
+    "recorde": false
+  },
+  {
+    "data": "2026-09-11",
     "product_id": "MLB57817554",
     "nome": "Box Santo Guerreiro",
     "preco": 129.0,
     "preco_original": null,
-    "n_ofertas": 51,
+    "n_ofertas": 50,
     "item_id": "MLB4379548827",
     "seller_id": 34466027,
     "frete_gratis": true,
@@ -170,7 +221,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB45553309",
     "nome": "Sherlock Holmes: Um Estudo Em Vermelho - Arthur Conan Doyle",
     "preco": 15.35,
@@ -187,12 +238,12 @@
     "recorde": false
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB19272750",
     "nome": "Box Totalmente Terror",
     "preco": 46.9,
     "preco_original": null,
-    "n_ofertas": 68,
+    "n_ofertas": 67,
     "item_id": "MLB2881261169",
     "seller_id": 231300703,
     "frete_gratis": true,
@@ -204,7 +255,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB53664915",
     "nome": "Box Lovelight",
     "preco": 97.65,
@@ -221,7 +272,24 @@
     "recorde": false
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
+    "product_id": "MLB21571425",
+    "nome": "Hq Percy Jackson & O Mar De Monstros - Rick Riordan -",
+    "preco": 64.68,
+    "preco_original": null,
+    "n_ofertas": 2,
+    "item_id": "MLB4510612550",
+    "seller_id": 262204969,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB21571425",
+    "mediana": 78.9,
+    "minimo_hist": 64.68,
+    "desconto": 18.0,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-11",
     "product_id": "MLB19459679",
     "nome": "Livro O Caminho Dos Reis De Brandon Sanderson Edição 1 2022 Português Editora Trama",
     "preco": 84.73,
@@ -238,7 +306,24 @@
     "recorde": true
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
+    "product_id": "MLB19220755",
+    "nome": "Trono de Vidro: Reino de Cinzas (Vol. 6) - Maas, Sarah J. - Galera - Capa Mole",
+    "preco": 52.0,
+    "preco_original": null,
+    "n_ofertas": 98,
+    "item_id": "MLB4871646545",
+    "seller_id": 2409967011,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19220755",
+    "mediana": 62.8,
+    "minimo_hist": 38.31,
+    "desconto": 17.2,
+    "recorde": false
+  },
+  {
+    "data": "2026-09-11",
     "product_id": "MLB60720366",
     "nome": "Livro Wuthering Heights - Emily Brontë, De Emily Brontë, Vol. 1. Editora Nort Parade Publishing, Capa Dura, Em Inglês (2024)",
     "preco": 33.45,
@@ -255,7 +340,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB19243919",
     "nome": "Livro Rede De Sussurros: Um thriller feminista da era #MeToo, de Baker, Chandler. Editorial Editora Intrínseca Ltda., tapa mole, en português (2019)",
     "preco": 38.9,
@@ -272,7 +357,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB63740683",
     "nome": "Livro: Sua Última Reverência Autor: Arthur Conan Doyle (novo, Lacrado), De Arthur Conan Doyle",
     "preco": 27.82,
@@ -289,7 +374,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB70438242",
     "nome": "Novembro, Box Completo",
     "preco": 193.45,
@@ -306,7 +391,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-10",
+    "data": "2026-09-11",
     "product_id": "MLB68697067",
     "nome": "Livro Os Arquivos De Sherlock Holmes, De Doyle, Arthur Conan",
     "preco": 26.7,
