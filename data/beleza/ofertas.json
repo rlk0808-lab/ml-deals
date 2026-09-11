@@ -1,6 +1,23 @@
 [
   {
     "data": "2026-09-11",
+    "product_id": "MLB20622818",
+    "nome": "Dr.botica Creme Para Pentear 150g",
+    "preco": 46.9,
+    "preco_original": null,
+    "n_ofertas": 3,
+    "item_id": "MLB4252173321",
+    "seller_id": 1638916017,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB20622818",
+    "mediana": 78.9,
+    "minimo_hist": 43.77,
+    "desconto": 40.6,
+    "recorde": false
+  },
+  {
+    "data": "2026-09-11",
     "product_id": "MLB63938040",
     "nome": "Creme Para Pentear Hipoalergico",
     "preco": 45.0,
@@ -117,23 +134,6 @@
     "minimo_hist": 20.89,
     "desconto": 16.4,
     "recorde": true
-  },
-  {
-    "data": "2026-09-11",
-    "product_id": "MLB19777775",
-    "nome": "Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g",
-    "preco": 217.62,
-    "preco_original": 279.0,
-    "n_ofertas": 8,
-    "item_id": "MLB5187444973",
-    "seller_id": 609988764,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB19777775",
-    "mediana": 259.0,
-    "minimo_hist": 162.06,
-    "desconto": 16.0,
-    "recorde": false
   },
   {
     "data": "2026-09-11",
