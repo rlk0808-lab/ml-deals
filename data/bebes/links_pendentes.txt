@@ -26,6 +26,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB63183742
 ⭐ MLB47606215  Shampoo + Condicionador Natura Mamãe Bebê
     https://www.mercadolivre.com.br/p/MLB47606215
+⭐ MLB62020142  Canguru Sling De Bebe Carregar Recem Nascido Sem Amarração G
+    https://www.mercadolivre.com.br/p/MLB62020142
 MLB35495841  Bomba tira leite materno Elétrica G-TECH - Bivolt
     https://www.mercadolivre.com.br/p/MLB35495841
 MLB37238466  Brinquedo Atividades Buba Atomic Soft Ball Mordedor Bebê
@@ -106,8 +108,6 @@ MLB29439967  Mochila Bolsa Maternidade Jeans Cinza Lovely Baby Unik
     https://www.mercadolivre.com.br/p/MLB29439967
 MLB30173092  Chaveiro Branco Sapatinho De Médico White All Star Keychain
     https://www.mercadolivre.com.br/p/MLB30173092
-MLB27170986  Banheira Bebê Classic Dino - Galzerano
-    https://www.mercadolivre.com.br/p/MLB27170986
 MLB75344146  Banheira Bebe + Suporte Koa Plus Perola - Galzerano - 7097pr
     https://www.mercadolivre.com.br/p/MLB75344146
 MLB65451179  Bomba Tira Leite Elétrica Solo Hands Free Medela
@@ -120,9 +120,9 @@ MLB22826617  Bomba Tira Leite Manual Transparente Silicone Pais & Filhos
     https://www.mercadolivre.com.br/p/MLB22826617
 MLB25834403  Ursinho Mordedor Bebe De Água Vermelho 5226 Buba
     https://www.mercadolivre.com.br/p/MLB25834403
+MLB66380179  Granado Lenço Umedecido Bebê Baby Tradicional - Kit
+    https://www.mercadolivre.com.br/p/MLB66380179
 MLB22936110  Móbile Berço Bebê Musical E Giratório Ovelinha Rosa
     https://www.mercadolivre.com.br/p/MLB22936110
 MLB70628689  Kit Limpeza Mamadeira Bebê Portátil Escovas Suporte Secador 
     https://www.mercadolivre.com.br/p/MLB70628689
-MLB49767281  Colchão Berço Arkell Espuma D20 70x130 cm Branco Antialérgic
-    https://www.mercadolivre.com.br/p/MLB49767281
