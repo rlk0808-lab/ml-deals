@@ -1,6 +1,6 @@
 [
   {
-    "data": "2026-09-11",
+    "data": "2026-09-12",
     "product_id": "MLB20622818",
     "nome": "Dr.botica Creme Para Pentear 150g",
     "preco": 46.9,
@@ -17,7 +17,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-11",
+    "data": "2026-09-12",
     "product_id": "MLB63938040",
     "nome": "Creme Para Pentear Hipoalergico",
     "preco": 45.0,
@@ -34,7 +34,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-11",
+    "data": "2026-09-12",
     "product_id": "MLB28456268",
     "nome": "Progressiva Capilar 0% Formol Orgânica 250ml Cabelos Lisos",
     "preco": 59.9,
@@ -51,7 +51,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-11",
+    "data": "2026-09-12",
     "product_id": "MLB61272803",
     "nome": "Máscara Capilar Hidratação Intensiva Arvensis 300g",
     "preco": 57.24,
@@ -68,7 +68,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-11",
+    "data": "2026-09-12",
     "product_id": "MLB23658677",
     "nome": "Baby Dove Condicionador Hidratação Glicerinada 200ml",
     "preco": 15.99,
@@ -85,7 +85,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-11",
+    "data": "2026-09-12",
     "product_id": "MLB68726370",
     "nome": "Progressiva Capilar Vegana 500ml S/ Formol Agilcap Belletonn",
     "preco": 126.0,
@@ -102,7 +102,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-11",
+    "data": "2026-09-12",
     "product_id": "MLB36162686",
     "nome": "Hidralize creme para pentear hidratação 1kg",
     "preco": 19.9,
@@ -119,7 +119,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-11",
+    "data": "2026-09-12",
     "product_id": "MLB57619995",
     "nome": "Lápis Sobrancelha com Gel Fixador Melu By Ruby Rose",
     "preco": 20.89,
@@ -136,24 +136,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-11",
-    "product_id": "MLB55889196",
-    "nome": "Óleo Capilar Nutrição 60ml Hidratei",
-    "preco": 79.9,
-    "preco_original": 97.0,
-    "n_ofertas": 11,
-    "item_id": "MLB7356451586",
-    "seller_id": 2061445221,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB55889196",
-    "mediana": 94.94,
-    "minimo_hist": 79.9,
-    "desconto": 15.8,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-11",
+    "data": "2026-09-12",
     "product_id": "MLB22373275",
     "nome": "TRESemmé Condicionador Hidratação Profunda 400ml",
     "preco": 23.27,
@@ -167,6 +150,23 @@
     "mediana": 27.59,
     "minimo_hist": 23.27,
     "desconto": 15.7,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-12",
+    "product_id": "MLB55889196",
+    "nome": "Óleo Capilar Nutrição 60ml Hidratei",
+    "preco": 79.9,
+    "preco_original": 97.0,
+    "n_ofertas": 13,
+    "item_id": "MLB7356451586",
+    "seller_id": 2061445221,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB55889196",
+    "mediana": 94.52,
+    "minimo_hist": 79.9,
+    "desconto": 15.5,
     "recorde": true
   }
 ]
