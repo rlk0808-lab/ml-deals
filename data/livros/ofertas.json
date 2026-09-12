@@ -1,23 +1,6 @@
 [
   {
     "data": "2026-09-12",
-    "product_id": "MLB19436742",
-    "nome": "Livro Finanças para gerentes, de Harward Business Essentials. Editorial Editora Record Ltda., tapa mole, en português (2004)",
-    "preco": 36.0,
-    "preco_original": null,
-    "n_ofertas": 3,
-    "item_id": "MLB4610271387",
-    "seller_id": 22487045,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB19436742",
-    "mediana": 100.0,
-    "minimo_hist": 36.0,
-    "desconto": 64.0,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-12",
     "product_id": "MLB19238733",
     "nome": "Coleção Agatha Christie - Box 6 - Christie, Agatha - HarperCollins - Capa Mole",
     "preco": 45.0,
@@ -171,6 +154,23 @@
   },
   {
     "data": "2026-09-12",
+    "product_id": "MLB45553309",
+    "nome": "Sherlock Holmes: Um Estudo Em Vermelho - Arthur Conan Doyle",
+    "preco": 15.0,
+    "preco_original": 29.9,
+    "n_ofertas": 71,
+    "item_id": "MLB5271836740",
+    "seller_id": 480263032,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB45553309",
+    "mediana": 19.0,
+    "minimo_hist": 14.95,
+    "desconto": 21.1,
+    "recorde": false
+  },
+  {
+    "data": "2026-09-12",
     "product_id": "MLB64918756",
     "nome": "Livro Wuthering Heights, De Emily Brontë (autor), Emily Brontë (autor). Editora W. Books, Capa Mole, Em Inglês (2025)",
     "preco": 18.08,
@@ -201,23 +201,6 @@
     "mediana": 159.92,
     "minimo_hist": 127.0,
     "desconto": 19.3,
-    "recorde": false
-  },
-  {
-    "data": "2026-09-12",
-    "product_id": "MLB45553309",
-    "nome": "Sherlock Holmes: Um Estudo Em Vermelho - Arthur Conan Doyle",
-    "preco": 15.35,
-    "preco_original": 29.9,
-    "n_ofertas": 71,
-    "item_id": "MLB5271836740",
-    "seller_id": 480263032,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB45553309",
-    "mediana": 19.0,
-    "minimo_hist": 14.95,
-    "desconto": 19.2,
     "recorde": false
   },
   {
