@@ -1,21 +1,5 @@
 [
   {
-    "data": "2026-09-11",
-    "product_id": "MLB57915746",
-    "nome": "Box Raphael Montes",
-    "preco": 202.25,
-    "preco_original": null,
-    "n_ofertas": 93,
-    "item_id": "MLB4461677809",
-    "seller_id": 118824879,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB57915746",
-    "imagem": "https://http2.mlstatic.com/D_NQ_NP_939075-MLA112165383068_062026-F.jpg",
-    "tipo": "camada2",
-    "enfileirado_em": "2026-09-13T06:09:06.107367+00:00"
-  },
-  {
     "data": "2026-09-12",
     "product_id": "MLB35660740",
     "nome": "Livro Box Emily Henry",
@@ -314,26 +298,6 @@
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_764027-MLU77230420434_072024-F.jpg",
     "tipo": "camada2",
     "enfileirado_em": "2026-09-13T06:09:06.107367+00:00"
-  },
-  {
-    "data": "2026-09-12",
-    "product_id": "MLB19369307",
-    "nome": "Livro Melhores contos Machado de Assis, de Joaquim Machado de Assis, tapa mole, en português (2020)",
-    "preco": 25.5,
-    "preco_original": 55.0,
-    "n_ofertas": 62,
-    "item_id": "MLB6896374212",
-    "seller_id": 480263032,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB19369307",
-    "mediana": 25.5,
-    "desconto_anunciado": 53.6,
-    "desconto_real": 0.0,
-    "dias_historico": 48,
-    "imagem": "https://http2.mlstatic.com/D_NQ_NP_605207-MLU50500031326_062022-F.jpg",
-    "tipo": "falso_desconto",
-    "enfileirado_em": "2026-09-12T12:10:04.655143+00:00"
   },
   {
     "data": "2026-09-12",
