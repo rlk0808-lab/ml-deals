@@ -69,19 +69,19 @@
   },
   {
     "data": "2026-09-15",
-    "product_id": "MLB23059798",
-    "nome": "Cadeira Alimentação Bebe Cadeirão Galzerano Alta Nick Zoo",
-    "preco": 264.94,
+    "product_id": "MLB47606215",
+    "nome": "Shampoo + Condicionador Natura Mamãe Bebê",
+    "preco": 72.99,
     "preco_original": null,
-    "n_ofertas": 3,
-    "item_id": "MLB7615405084",
-    "seller_id": 187820565,
+    "n_ofertas": 2,
+    "item_id": "MLB5175567823",
+    "seller_id": 699968235,
     "frete_gratis": true,
     "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB23059798",
-    "mediana": 350.63,
-    "minimo_hist": 264.94,
-    "desconto": 24.4,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB47606215",
+    "mediana": 99.0,
+    "minimo_hist": 72.99,
+    "desconto": 26.3,
     "recorde": true
   },
   {
@@ -134,5 +134,22 @@
     "minimo_hist": 25.24,
     "desconto": 17.9,
     "recorde": false
+  },
+  {
+    "data": "2026-09-15",
+    "product_id": "MLB23059798",
+    "nome": "Cadeira Alimentação Bebe Cadeirão Galzerano Alta Nick Zoo",
+    "preco": 264.94,
+    "preco_original": null,
+    "n_ofertas": 3,
+    "item_id": "MLB7615405084",
+    "seller_id": 187820565,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB23059798",
+    "mediana": 315.21,
+    "minimo_hist": 264.94,
+    "desconto": 15.9,
+    "recorde": true
   }
 ]
