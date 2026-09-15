@@ -18,6 +18,23 @@
   },
   {
     "data": "2026-09-15",
+    "product_id": "MLB24206231",
+    "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d6 medio - 10g",
+    "preco": 21.69,
+    "preco_original": 69.99,
+    "n_ofertas": 16,
+    "item_id": "MLB5065471618",
+    "seller_id": 1930606443,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB24206231",
+    "mediana": 29.9,
+    "minimo_hist": 20.45,
+    "desconto": 27.5,
+    "recorde": false
+  },
+  {
+    "data": "2026-09-15",
     "product_id": "MLB68245217",
     "nome": "Iluminador Corporal Iluminador Facial Pó De Fada C/aplicado",
     "preco": 21.9,
@@ -49,23 +66,6 @@
     "minimo_hist": 59.9,
     "desconto": 24.0,
     "recorde": true
-  },
-  {
-    "data": "2026-09-15",
-    "product_id": "MLB68726370",
-    "nome": "Progressiva Capilar Vegana 500ml S/ Formol Agilcap Belletonn",
-    "preco": 126.0,
-    "preco_original": null,
-    "n_ofertas": 2,
-    "item_id": "MLB7541641766",
-    "seller_id": 3202395228,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB68726370",
-    "mediana": 158.22,
-    "minimo_hist": 119.7,
-    "desconto": 20.4,
-    "recorde": false
   },
   {
     "data": "2026-09-15",
@@ -120,6 +120,23 @@
   },
   {
     "data": "2026-09-15",
+    "product_id": "MLB68726370",
+    "nome": "Progressiva Capilar Vegana 500ml S/ Formol Agilcap Belletonn",
+    "preco": 126.0,
+    "preco_original": null,
+    "n_ofertas": 2,
+    "item_id": "MLB7541641766",
+    "seller_id": 3202395228,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB68726370",
+    "mediana": 154.54,
+    "minimo_hist": 119.7,
+    "desconto": 18.5,
+    "recorde": false
+  },
+  {
+    "data": "2026-09-15",
     "product_id": "MLB29260874",
     "nome": "Leave-in Capilar Multifuncional - 120ml - Wepink",
     "preco": 57.0,
@@ -130,9 +147,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB29260874",
-    "mediana": 69.0,
+    "mediana": 68.53,
     "minimo_hist": 49.9,
-    "desconto": 17.4,
+    "desconto": 16.8,
     "recorde": false
   },
   {
