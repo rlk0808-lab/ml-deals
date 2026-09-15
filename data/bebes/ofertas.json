@@ -134,5 +134,22 @@
     "minimo_hist": 264.94,
     "desconto": 15.9,
     "recorde": true
+  },
+  {
+    "data": "2026-09-15",
+    "product_id": "MLB20988254",
+    "nome": "Colchão Berço Padrão American D18 Antiácaro, Antif Antialérg",
+    "preco": 244.0,
+    "preco_original": null,
+    "n_ofertas": 3,
+    "item_id": "MLB5238702689",
+    "seller_id": 42331463,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB20988254",
+    "mediana": 289.9,
+    "minimo_hist": 244.0,
+    "desconto": 15.8,
+    "recorde": true
   }
 ]
