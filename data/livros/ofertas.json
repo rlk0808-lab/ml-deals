@@ -124,7 +124,7 @@
     "nome": "Sherlock - As aventuras de Sherlock Holmes - Doyle, Arthur Conan - Companhia Editora Nacional - Capa Mole",
     "preco": 30.0,
     "preco_original": null,
-    "n_ofertas": 8,
+    "n_ofertas": 9,
     "item_id": "MLB7511960944",
     "seller_id": 534717892,
     "frete_gratis": true,
@@ -253,23 +253,6 @@
     "minimo_hist": 29.9,
     "desconto": 16.7,
     "recorde": true
-  },
-  {
-    "data": "2026-09-15",
-    "product_id": "MLB29947399",
-    "nome": "O ladrão de raios: Série Percy Jackson e os olimpianos (novas capas), de Rick Riordan. Série Percy Jackson e os Olimpianos, vol. 1. Editora Intrínseca Ltda., capa mole, edição 1 em",
-    "preco": 40.08,
-    "preco_original": 69.9,
-    "n_ofertas": 84,
-    "item_id": "MLB3781111225",
-    "seller_id": 480263032,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB29947399",
-    "mediana": 47.83,
-    "minimo_hist": 36.0,
-    "desconto": 16.2,
-    "recorde": false
   },
   {
     "data": "2026-09-15",
