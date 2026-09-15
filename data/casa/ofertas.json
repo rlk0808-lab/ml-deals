@@ -11,9 +11,9 @@
     "frete_gratis": true,
     "full": true,
     "permalink": "https://www.mercadolivre.com.br/p/MLB26532285",
-    "mediana": 57.0,
+    "mediana": 51.9,
     "minimo_hist": 24.23,
-    "desconto": 40.8,
+    "desconto": 35.0,
     "recorde": false
   },
   {
@@ -158,7 +158,7 @@
     "nome": "Jogo Talheres Faqueiro Búzios Aço Inox 24 Peças Tramontina",
     "preco": 49.9,
     "preco_original": null,
-    "n_ofertas": 87,
+    "n_ofertas": 86,
     "item_id": "MLB5226113837",
     "seller_id": 709643258,
     "frete_gratis": true,
