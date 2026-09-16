@@ -35,23 +35,6 @@
   },
   {
     "data": "2026-09-16",
-    "product_id": "MLB68245217",
-    "nome": "Iluminador Corporal Iluminador Facial Pó De Fada C/aplicado",
-    "preco": 21.9,
-    "preco_original": null,
-    "n_ofertas": 2,
-    "item_id": "MLB4631446395",
-    "seller_id": 764608507,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB68245217",
-    "mediana": 28.9,
-    "minimo_hist": 21.9,
-    "desconto": 24.2,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-16",
     "product_id": "MLB28456268",
     "nome": "Progressiva Capilar 0% Formol Orgânica 250ml Cabelos Lisos",
     "preco": 59.9,
@@ -65,6 +48,23 @@
     "mediana": 78.85,
     "minimo_hist": 59.9,
     "desconto": 24.0,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-16",
+    "product_id": "MLB68245217",
+    "nome": "Iluminador Corporal Iluminador Facial Pó De Fada C/aplicado",
+    "preco": 21.9,
+    "preco_original": null,
+    "n_ofertas": 2,
+    "item_id": "MLB4631446395",
+    "seller_id": 764608507,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB68245217",
+    "mediana": 28.64,
+    "minimo_hist": 21.9,
+    "desconto": 23.5,
     "recorde": true
   },
   {
@@ -147,9 +147,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB29260874",
-    "mediana": 68.53,
+    "mediana": 68.05,
     "minimo_hist": 49.9,
-    "desconto": 16.8,
+    "desconto": 16.2,
     "recorde": false
   },
   {
