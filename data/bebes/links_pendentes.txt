@@ -4,7 +4,7 @@ Como usar: abra o link, clique em Compartilhar na barra preta de
 afiliados, copie o link gerado (meli.la/...) e cole em
 data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
-(gerado em 2026-09-15)
+(gerado em 2026-09-16)
 
 ⭐ MLB43469003  Banheira Bebê Dobrável Portátil Buba Cor Cinza
     https://www.mercadolivre.com.br/p/MLB43469003
@@ -22,6 +22,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB62842938
 ⭐ MLB63183742  Sling Bebê Canguru Bebe Sling Para Recem Nascido Premium - M
     https://www.mercadolivre.com.br/p/MLB63183742
+⭐ MLB47606215  Shampoo + Condicionador Natura Mamãe Bebê
+    https://www.mercadolivre.com.br/p/MLB47606215
 ⭐ MLB62020142  Canguru Sling De Bebe Carregar Recem Nascido Sem Amarração G
     https://www.mercadolivre.com.br/p/MLB62020142
 MLB35495841  Bomba tira leite materno Elétrica G-TECH - Bivolt
@@ -48,8 +50,6 @@ MLB31975924  Colchão Berço Probel Active Baby
     https://www.mercadolivre.com.br/p/MLB31975924
 MLB23582969  Mochila bolsa maternidade bebê mescla azul Hug
     https://www.mercadolivre.com.br/p/MLB23582969
-MLB63123338  Baby Monitor Vb603 Baba Eletrônica Com Monitor branco
-    https://www.mercadolivre.com.br/p/MLB63123338
 MLB68485848  Creme Pomada De Assadura Óleo Girassol Age 120g Maxi Baby
     https://www.mercadolivre.com.br/p/MLB68485848
 MLB52133055  Bomba Tira-leite Materno Com Mamadeira G-tech
@@ -62,6 +62,8 @@ MLB23815642  Móbile Berço Bebê Musical E Giratório Ursinho Marinheiro
     https://www.mercadolivre.com.br/p/MLB23815642
 MLB73440881  Aquecedor Esterilizador De Mamadeira Chupeta Papinha 3 Em 1 
     https://www.mercadolivre.com.br/p/MLB73440881
+MLB63123338  Baby Monitor Vb603 Baba Eletrônica Com Monitor branco
+    https://www.mercadolivre.com.br/p/MLB63123338
 MLB68417753  Creme Pomada De Assadura Óleo Girassol A.g.e 45g Maxi Baby
     https://www.mercadolivre.com.br/p/MLB68417753
 MLB55462160  Mordedor Bebê Vila Toy Pezinho Silicone Alívio Gengiva Azul
@@ -124,5 +126,3 @@ MLB22936110  Móbile Berço Bebê Musical E Giratório Ovelinha Rosa
     https://www.mercadolivre.com.br/p/MLB22936110
 MLB70628689  Kit Limpeza Mamadeira Bebê Portátil Escovas Suporte Secador 
     https://www.mercadolivre.com.br/p/MLB70628689
-MLB18392685  Fralda Descartável Infantil Personal Soft & Protect M Pacote
-    https://www.mercadolivre.com.br/p/MLB18392685
