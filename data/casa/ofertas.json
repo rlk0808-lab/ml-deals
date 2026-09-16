@@ -103,6 +103,23 @@
   },
   {
     "data": "2026-09-16",
+    "product_id": "MLB76356125",
+    "nome": "Caçarola Panela Ferro Fundido Esmaltada Hamilton Beach American Iron 22cm 2,5L",
+    "preco": 449.9,
+    "preco_original": 562.38,
+    "n_ofertas": 2,
+    "item_id": "MLB7349181756",
+    "seller_id": 1674666473,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB76356125",
+    "mediana": 562.38,
+    "minimo_hist": 449.9,
+    "desconto": 20.0,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-16",
     "product_id": "MLB34821732",
     "nome": "Jogo Copos Vidro 400ml Âmbar 6 Unidades Wincy Athena Elegante",
     "preco": 102.95,
@@ -134,23 +151,6 @@
     "minimo_hist": 20.61,
     "desconto": 17.2,
     "recorde": true
-  },
-  {
-    "data": "2026-09-16",
-    "product_id": "MLB35092029",
-    "nome": "Jogo Talheres Faqueiro Búzios Aço Inox 24 Peças Tramontina",
-    "preco": 49.9,
-    "preco_original": null,
-    "n_ofertas": 86,
-    "item_id": "MLB5226113837",
-    "seller_id": 709643258,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB35092029",
-    "mediana": 59.8,
-    "minimo_hist": 40.0,
-    "desconto": 16.6,
-    "recorde": false
   },
   {
     "data": "2026-09-16",
