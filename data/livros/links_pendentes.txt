@@ -10,18 +10,22 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB50105619
 ⭐ MLB37149234  Biblioteca Nietzsche - Box Com 4 Livros
     https://www.mercadolivre.com.br/p/MLB37149234
+⭐ MLB19244126  Ponto de impacto - Brown, Dan - Editora Arqueiro - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB19244126
 ⭐ MLB66305472  Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, 
     https://www.mercadolivre.com.br/p/MLB66305472
-⭐ MLB19395937  Livro Sharp Objects Objetos Cortantes Gillian Flynn
-    https://www.mercadolivre.com.br/p/MLB19395937
 ⭐ MLB40283388  Box Alice - Box Com 2 Livros - Edição De Luxo Almofadada
     https://www.mercadolivre.com.br/p/MLB40283388
+⭐ MLB19395937  Livro Sharp Objects Objetos Cortantes Gillian Flynn
+    https://www.mercadolivre.com.br/p/MLB19395937
 ⭐ MLB71604003  Livro Desencantos: Fantasia Dramática
     https://www.mercadolivre.com.br/p/MLB71604003
 ⭐ MLB22101664  Livro Empreendedorismo Transformando Ideias Em Negócios, 9ª 
     https://www.mercadolivre.com.br/p/MLB22101664
 ⭐ MLB20685650  Box De Luxo 6 Livros Sherlock Holmes - Arthur Conan Doyle - 
     https://www.mercadolivre.com.br/p/MLB20685650
+⭐ MLB22381043  Sherlock - As aventuras de Sherlock Holmes - Doyle, Arthur C
+    https://www.mercadolivre.com.br/p/MLB22381043
 ⭐ MLB19447440  Livro Mistério em Verdejantes, de Rodrigues, Severino. Corte
     https://www.mercadolivre.com.br/p/MLB19447440
 ⭐ MLB71810455  365 Hábitos Simples E Poderosos - Livro Planner
@@ -32,10 +36,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB70438242
 ⭐ MLB19243676  Jogada mortal (Myron Bolitar – Livro 2) - Coben, Harlan - Ed
     https://www.mercadolivre.com.br/p/MLB19243676
+⭐ MLB19243672  Livro Fique comigo de Harlan Coben Editora Arqueiro Capa mol
+    https://www.mercadolivre.com.br/p/MLB19243672
 ⭐ MLB63740683  Livro: Sua Última Reverência Autor: Arthur Conan Doyle (novo
     https://www.mercadolivre.com.br/p/MLB63740683
 ⭐ MLB67040736  Livro Literatura Brasileira Em Foco
     https://www.mercadolivre.com.br/p/MLB67040736
+⭐ MLB19203247  Garota exemplar - capa filme - Flynn, Gillian - Intrínseca -
+    https://www.mercadolivre.com.br/p/MLB19203247
 MLB39979760  Box Collen Hoover
     https://www.mercadolivre.com.br/p/MLB39979760
 MLB50105638  Mistborn: O Poço da Ascensão - Sanderson, Brandon - Trama - 
@@ -72,14 +80,14 @@ MLB63908049  Ponto de impacto - Brown, Dan - Editora Arqueiro - Capa Mole
     https://www.mercadolivre.com.br/p/MLB63908049
 MLB19220773  Trono de Vidro: Herdeira do fogo (Vol. 3) - Maas, Sarah J. -
     https://www.mercadolivre.com.br/p/MLB19220773
+MLB47627533  Dele e Dela - Livro que inspirou o thriller de sucesso da Ne
+    https://www.mercadolivre.com.br/p/MLB47627533
 MLB24095614  Corte de chamas prateadas (Vol. 5 – Edição especial) - Maas,
     https://www.mercadolivre.com.br/p/MLB24095614
 MLB19262567  As sete irmãs (As Sete Irmãs – Livro 1) - Riley, Lucinda - E
     https://www.mercadolivre.com.br/p/MLB19262567
 MLB63501442  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
     https://www.mercadolivre.com.br/p/MLB63501442
-MLB47627533  Dele e Dela - Livro que inspirou o thriller de sucesso da Ne
-    https://www.mercadolivre.com.br/p/MLB47627533
 MLB40647349  A contadora - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB40647349
 MLB19405210  Corte de espinhos e rosas (Vol. 1) - Maas, Sarah J. - Galera
@@ -114,15 +122,7 @@ MLB66963300  A ex - McFadden, Freida - Editora Arqueiro - Capa Mole
     https://www.mercadolivre.com.br/p/MLB66963300
 MLB19272293  Leitura de verão - Henry, Emily - Grupo Editorial Record - C
     https://www.mercadolivre.com.br/p/MLB19272293
-MLB74807035  Box Trilogia Powerless
-    https://www.mercadolivre.com.br/p/MLB74807035
-MLB53665702  O namorado - McFadden, Freida - Record - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB53665702
-MLB19238731  Coleção Agatha Christie - Box 5 - Christie, Agatha - HarperC
-    https://www.mercadolivre.com.br/p/MLB19238731
 MLB23661891  Livro-verdade?- Editora Best Seller
     https://www.mercadolivre.com.br/p/MLB23661891
-MLB19244003  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
-    https://www.mercadolivre.com.br/p/MLB19244003
-MLB58978641  A Intrusa - McFadden, Freida - Record - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB58978641
+MLB74807035  Box Trilogia Powerless
+    https://www.mercadolivre.com.br/p/MLB74807035
