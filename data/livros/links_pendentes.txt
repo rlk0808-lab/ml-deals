@@ -10,6 +10,10 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB39979760
 ⭐ MLB50105638  Mistborn: O Poço da Ascensão - Sanderson, Brandon - Trama - 
     https://www.mercadolivre.com.br/p/MLB50105638
+⭐ MLB19220755  Trono de Vidro: Reino de Cinzas (Vol. 6) - Maas, Sarah J. - 
+    https://www.mercadolivre.com.br/p/MLB19220755
+⭐ MLB68282862  O homem iluminado - Sanderson, Brandon - Trama - Capa Dura
+    https://www.mercadolivre.com.br/p/MLB68282862
 ⭐ MLB23833503  De férias com você - Henry, Emily - Verus - Capa Mole
     https://www.mercadolivre.com.br/p/MLB23833503
 ⭐ MLB37149234  Biblioteca Nietzsche - Box Com 4 Livros
@@ -34,10 +38,10 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB19447440
 ⭐ MLB71810455  365 Hábitos Simples E Poderosos - Livro Planner
     https://www.mercadolivre.com.br/p/MLB71810455
-⭐ MLB70438242  Novembro, Box Completo
-    https://www.mercadolivre.com.br/p/MLB70438242
 ⭐ MLB19243672  Livro Fique comigo de Harlan Coben Editora Arqueiro Capa mol
     https://www.mercadolivre.com.br/p/MLB19243672
+⭐ MLB70438242  Novembro, Box Completo
+    https://www.mercadolivre.com.br/p/MLB70438242
 ⭐ MLB19243676  Jogada mortal (Myron Bolitar – Livro 2) - Coben, Harlan - Ed
     https://www.mercadolivre.com.br/p/MLB19243676
 ⭐ MLB63740683  Livro: Sua Última Reverência Autor: Arthur Conan Doyle (novo
@@ -46,10 +50,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB67040736
 ⭐ MLB19203247  Garota exemplar - capa filme - Flynn, Gillian - Intrínseca -
     https://www.mercadolivre.com.br/p/MLB19203247
-MLB19220755  Trono de Vidro: Reino de Cinzas (Vol. 6) - Maas, Sarah J. - 
-    https://www.mercadolivre.com.br/p/MLB19220755
-MLB68282862  O homem iluminado - Sanderson, Brandon - Trama - Capa Dura
-    https://www.mercadolivre.com.br/p/MLB68282862
 MLB46039067  Tempestade de Ônix - Yarros, Rebecca - Planeta Minotauro - C
     https://www.mercadolivre.com.br/p/MLB46039067
 MLB50105423  Mistborn: O Herói das Eras - Sanderson, Brandon - Trama - Ca
