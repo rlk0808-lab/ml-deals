@@ -10,6 +10,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB43469003
 ⭐ MLB25246647  Bomba Tira-leite 2 Em 1 Unitária - Mam
     https://www.mercadolivre.com.br/p/MLB25246647
+⭐ MLB72254053  Cercadinho Bebê Rister Baby Portátil Grande + Tapete Azul
+    https://www.mercadolivre.com.br/p/MLB72254053
 ⭐ MLB32330033  Chocalho Mordedor Bebê Corinthians Kids Gol Silicone
     https://www.mercadolivre.com.br/p/MLB32330033
 ⭐ MLB20988254  Colchão Berço Padrão American D18 Antiácaro, Antif Antialérg
@@ -24,8 +26,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB63183742
 ⭐ MLB47606215  Shampoo + Condicionador Natura Mamãe Bebê
     https://www.mercadolivre.com.br/p/MLB47606215
-⭐ MLB62020142  Canguru Sling De Bebe Carregar Recem Nascido Sem Amarração G
-    https://www.mercadolivre.com.br/p/MLB62020142
 ⭐ MLB68262033  Kit Loção Hidratante Bebê Hidramais 2x400ml Diário E Noturno
     https://www.mercadolivre.com.br/p/MLB68262033
 MLB35495841  Bomba tira leite materno Elétrica G-TECH - Bivolt
@@ -82,6 +82,8 @@ MLB73440881  Aquecedor Esterilizador De Mamadeira Chupeta Papinha 3 Em 1
     https://www.mercadolivre.com.br/p/MLB73440881
 MLB63123338  Baby Monitor Vb603 Baba Eletrônica Com Monitor branco
     https://www.mercadolivre.com.br/p/MLB63123338
+MLB65451179  Bomba Tira Leite Elétrica Solo Hands Free Medela
+    https://www.mercadolivre.com.br/p/MLB65451179
 MLB19904682  Bebê conforto Voyage Bebê Conforto Beta preto
     https://www.mercadolivre.com.br/p/MLB19904682
 MLB32111187  Móbile Berço Bebê Musical E Giratório Elefantinho Tiffany
@@ -96,16 +98,12 @@ MLB30930788  Luva Mordedor Bebê Luvinha Silicone - Azul
     https://www.mercadolivre.com.br/p/MLB30930788
 MLB79138414  Hidratante Bebê Pele Sensivel Tradicional 250ml Maxi Baby
     https://www.mercadolivre.com.br/p/MLB79138414
-MLB66380179  Granado Lenço Umedecido Bebê Baby Tradicional - Kit
-    https://www.mercadolivre.com.br/p/MLB66380179
 MLB55628809  Kit Higiene Bebê Moderno De Crochê Cor Bege
     https://www.mercadolivre.com.br/p/MLB55628809
 MLB66185468  Carrinho Bebê Move Duo Passear Bebê Conforto Nina Adaptador 
     https://www.mercadolivre.com.br/p/MLB66185468
 MLB50093886  Colchão Berço Americano Ortobom Baby Light D18 70x130cm Anti
     https://www.mercadolivre.com.br/p/MLB50093886
-MLB72254053  Cercadinho Bebê Rister Baby Portátil Grande + Tapete Azul
-    https://www.mercadolivre.com.br/p/MLB72254053
 MLB40215751  Banheira Bebê Dobrável Infantil Portátil Buba Cor Cinza Banh
     https://www.mercadolivre.com.br/p/MLB40215751
 MLB43463096  Banheira Bebê Dobrável Portátil Buba Cor Rosa
@@ -120,9 +118,11 @@ MLB75344146  Banheira Bebe + Suporte Koa Plus Perola - Galzerano - 7097pr
     https://www.mercadolivre.com.br/p/MLB75344146
 MLB18392586  Fralda Descartável Infantil Ultra Seca Mili XG Pacote 18 Uni
     https://www.mercadolivre.com.br/p/MLB18392586
-MLB65451179  Bomba Tira Leite Elétrica Solo Hands Free Medela
-    https://www.mercadolivre.com.br/p/MLB65451179
 MLB22612025  Móbile Berço Bebê Musical E Giratório Ovelinha Azul
     https://www.mercadolivre.com.br/p/MLB22612025
 MLB42110938  Cercadinho Bebê Portátil Desmontável Mazzilli para Crianças 
     https://www.mercadolivre.com.br/p/MLB42110938
+MLB18392577  Fralda Descartável Infantil Pom Pom Clássica XG Pacote 20 Un
+    https://www.mercadolivre.com.br/p/MLB18392577
+MLB75176163  1 Par Protetor Bico Seio Silicone Reutilizável Alto Colante 
+    https://www.mercadolivre.com.br/p/MLB75176163
