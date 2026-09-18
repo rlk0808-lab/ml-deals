@@ -168,22 +168,5 @@
     "minimo_hist": 20.61,
     "desconto": 17.2,
     "recorde": true
-  },
-  {
-    "data": "2026-09-18",
-    "product_id": "MLB70031782",
-    "nome": "Jogo Talheres Churrasco Tramontina Aço Inox Cabo Castanho 12",
-    "preco": 299.99,
-    "preco_original": null,
-    "n_ofertas": 2,
-    "item_id": "MLB5191746277",
-    "seller_id": 3457709191,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB70031782",
-    "mediana": 353.91,
-    "minimo_hist": 299.99,
-    "desconto": 15.2,
-    "recorde": true
   }
 ]
