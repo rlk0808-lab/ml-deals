@@ -52,6 +52,23 @@
   },
   {
     "data": "2026-09-18",
+    "product_id": "MLB71604003",
+    "nome": "Livro Desencantos: Fantasia Dramática",
+    "preco": 20.0,
+    "preco_original": null,
+    "n_ofertas": 24,
+    "item_id": "MLB5215157757",
+    "seller_id": 670944888,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB71604003",
+    "mediana": 35.91,
+    "minimo_hist": 20.0,
+    "desconto": 44.3,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-18",
     "product_id": "MLB19203247",
     "nome": "Garota exemplar - capa filme - Flynn, Gillian - Intrínseca - Capa Mole",
     "preco": 45.61,
@@ -171,6 +188,23 @@
   },
   {
     "data": "2026-09-18",
+    "product_id": "MLB19244023",
+    "nome": "Livro Apenas um olhar, de Coben, Harlan. Editorial Editora Arqueiro Ltda., tapa mole, en português (2019)",
+    "preco": 40.0,
+    "preco_original": null,
+    "n_ofertas": 88,
+    "item_id": "MLB4397228929",
+    "seller_id": 74079429,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19244023",
+    "mediana": 49.78,
+    "minimo_hist": 39.9,
+    "desconto": 19.6,
+    "recorde": false
+  },
+  {
+    "data": "2026-09-18",
     "product_id": "MLB67071973",
     "nome": "Viajando Com Agatha Christie",
     "preco": 56.29,
@@ -258,7 +292,7 @@
     "data": "2026-09-18",
     "product_id": "MLB19404453",
     "nome": "Corte de chamas prateadas Sarah J. Maas Editorial Galera Capa Mole",
-    "preco": 40.91,
+    "preco": 40.88,
     "preco_original": 55.99,
     "n_ofertas": 83,
     "item_id": "MLB4696010327",
@@ -269,7 +303,7 @@
     "mediana": 48.46,
     "minimo_hist": 40.88,
     "desconto": 15.6,
-    "recorde": false
+    "recorde": true
   },
   {
     "data": "2026-09-18",
