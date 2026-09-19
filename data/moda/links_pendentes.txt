@@ -48,8 +48,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB56222076
 ⭐ MLB59992197  Kit Hupi Corrida Com Meia Cano Médio 36-42 e Testeira Run Pr
     https://www.mercadolivre.com.br/p/MLB59992197
-⭐ MLB44941550  Sandália Rasteira Feminina Dakota Liso
-    https://www.mercadolivre.com.br/p/MLB44941550
 ⭐ MLB54249378  50 Zíper Metal 18cm Para Calça Jeans Azul Marinho Cor Azul-m
     https://www.mercadolivre.com.br/p/MLB54249378
 ⭐ MLB65008432  Calça Jeans Azul Claro Masculina Tradicional Elastano Premiu
@@ -64,6 +62,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB57545342
 ⭐ MLB67529676  Conjunto Sensual Renda Com Liga Na Perna + Calcinha Fio Pret
     https://www.mercadolivre.com.br/p/MLB67529676
+⭐ MLB74761482  Conjunto Feminino Camisa Manga Longa Com Short Saia Preto
+    https://www.mercadolivre.com.br/p/MLB74761482
 ⭐ MLB23519736  Laceia Amacia Couro Sapato Jaqueta Estofados Schimandeiro
     https://www.mercadolivre.com.br/p/MLB23519736
 ⭐ MLB70172635  Pulseira Masculina Sintético Couro Preto Acessórios Preto
@@ -88,12 +88,16 @@ MLB63656101  Meia Sapatilha Para Beach Tennis Areia Cano Alto Kestal Cor
     https://www.mercadolivre.com.br/p/MLB63656101
 MLB63650458  Meia Sapatilha Para Beach Tennis Areia Cano Alto Kestal Cor 
     https://www.mercadolivre.com.br/p/MLB63650458
+MLB45475689  Chinelo Masculino 921 Olympikus
+    https://www.mercadolivre.com.br/p/MLB45475689
 MLB58240342  Colete Masculino Para Ginecomastia Macom Cor Marrom Amarelad
     https://www.mercadolivre.com.br/p/MLB58240342
 MLB49798341  Meia Motoqueiro X11 Preta Cano Alto Segunda Pele Conforto Té
     https://www.mercadolivre.com.br/p/MLB49798341
 MLB56121586  Meia de Futebol Poker Cano Alto Preta para Treino (Tamanho 3
     https://www.mercadolivre.com.br/p/MLB56121586
+MLB44941550  Sandália Rasteira Feminina Dakota Liso
+    https://www.mercadolivre.com.br/p/MLB44941550
 MLB69351916  Meia Esportiva Penalty Cano Alto 330 Branco 39/44
     https://www.mercadolivre.com.br/p/MLB69351916
 MLB47536435  Chinelo Masculino Drifter Basic Fila Liso
@@ -106,8 +110,6 @@ MLB45475692  Chinelo Masculino 921 Olympikus
     https://www.mercadolivre.com.br/p/MLB45475692
 MLB74922862  Bolsa Transversal Masculina Porta Celular Couro Sintético Ma
     https://www.mercadolivre.com.br/p/MLB74922862
-MLB45475689  Chinelo Masculino 921 Olympikus
-    https://www.mercadolivre.com.br/p/MLB45475689
 MLB56224953  Calcinha Fio Dental Lupo De Compressão 41010-001 - Orignal C
     https://www.mercadolivre.com.br/p/MLB56224953
 MLB47214054  Chinelo Masculino Drifter Basic Fila Liso
@@ -124,5 +126,3 @@ MLB78504616  Cueca Boxer Avulso Absorvente Geriátrica Algodão Urina Chu P
     https://www.mercadolivre.com.br/p/MLB78504616
 MLB76023089  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz 
     https://www.mercadolivre.com.br/p/MLB76023089
-MLB74813931  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz 
-    https://www.mercadolivre.com.br/p/MLB74813931
