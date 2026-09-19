@@ -1,6 +1,6 @@
 [
   {
-    "data": "2026-09-18",
+    "data": "2026-09-19",
     "product_id": "MLB67040736",
     "nome": "Livro Literatura Brasileira Em Foco",
     "preco": 28.92,
@@ -17,7 +17,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-18",
+    "data": "2026-09-19",
     "product_id": "MLB19395937",
     "nome": "Livro Sharp Objects Objetos Cortantes Gillian Flynn",
     "preco": 58.45,
@@ -34,7 +34,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-18",
+    "data": "2026-09-19",
     "product_id": "MLB71604003",
     "nome": "Livro Desencantos: Fantasia Dramática",
     "preco": 20.0,
@@ -51,7 +51,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-18",
+    "data": "2026-09-19",
     "product_id": "MLB19203247",
     "nome": "Garota exemplar - capa filme - Flynn, Gillian - Intrínseca - Capa Mole",
     "preco": 45.61,
@@ -68,7 +68,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-18",
+    "data": "2026-09-19",
     "product_id": "MLB20685650",
     "nome": "Box De Luxo 6 Livros Sherlock Holmes - Arthur Conan Doyle - Capa Dura",
     "preco": 49.98,
@@ -85,7 +85,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-18",
+    "data": "2026-09-19",
     "product_id": "MLB19238937",
     "nome": "Coleção Agatha Christie box 8 de Christie Agatha editorial HarperCollins Brasil português 2017",
     "preco": 45.0,
@@ -102,7 +102,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-18",
+    "data": "2026-09-19",
     "product_id": "MLB66305472",
     "nome": "Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, Vol. 1. Editora Editora Planeta Do Brasil, Capa Dura (2026)",
     "preco": 52.1,
@@ -119,7 +119,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-18",
+    "data": "2026-09-19",
     "product_id": "MLB22101664",
     "nome": "Livro Empreendedorismo Transformando Ideias Em Negócios, 9ª Edição 2023",
     "preco": 99.0,
@@ -136,7 +136,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-18",
+    "data": "2026-09-19",
     "product_id": "MLB22381043",
     "nome": "Sherlock - As aventuras de Sherlock Holmes - Doyle, Arthur Conan - Companhia Editora Nacional - Capa Mole",
     "preco": 30.0,
@@ -153,12 +153,12 @@
     "recorde": true
   },
   {
-    "data": "2026-09-18",
+    "data": "2026-09-19",
     "product_id": "MLB19243672",
     "nome": "Livro Fique comigo de Harlan Coben Editora Arqueiro Capa mole em português 2021",
     "preco": 45.0,
     "preco_original": null,
-    "n_ofertas": 5,
+    "n_ofertas": 6,
     "item_id": "MLB4396997093",
     "seller_id": 74079429,
     "frete_gratis": true,
@@ -170,7 +170,24 @@
     "recorde": true
   },
   {
-    "data": "2026-09-18",
+    "data": "2026-09-19",
+    "product_id": "MLB65754557",
+    "nome": "Livro Trono De Vidro Box 8 Livros Série Completa De Sarah J. Maas Edição 1 Português 2020 Editora Galera",
+    "preco": 200.0,
+    "preco_original": null,
+    "n_ofertas": 32,
+    "item_id": "MLB7665313180",
+    "seller_id": 559181835,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB65754557",
+    "mediana": 254.99,
+    "minimo_hist": 199.88,
+    "desconto": 21.6,
+    "recorde": false
+  },
+  {
+    "data": "2026-09-19",
     "product_id": "MLB19244023",
     "nome": "Livro Apenas um olhar, de Coben, Harlan. Editorial Editora Arqueiro Ltda., tapa mole, en português (2019)",
     "preco": 40.0,
@@ -187,7 +204,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-18",
+    "data": "2026-09-19",
     "product_id": "MLB67071973",
     "nome": "Viajando Com Agatha Christie",
     "preco": 56.29,
@@ -204,7 +221,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-18",
+    "data": "2026-09-19",
     "product_id": "MLB45553309",
     "nome": "Sherlock Holmes: Um Estudo Em Vermelho - Arthur Conan Doyle",
     "preco": 15.35,
@@ -221,7 +238,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-18",
+    "data": "2026-09-19",
     "product_id": "MLB53664915",
     "nome": "Box Lovelight",
     "preco": 97.65,
@@ -238,7 +255,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-18",
+    "data": "2026-09-19",
     "product_id": "MLB71810455",
     "nome": "365 Hábitos Simples E Poderosos - Livro Planner",
     "preco": 29.9,
@@ -255,7 +272,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-18",
+    "data": "2026-09-19",
     "product_id": "MLB19447440",
     "nome": "Livro Mistério em Verdejantes, de Rodrigues, Severino. Cortez Editora e Livraria LTDA, capa mole (2017)",
     "preco": 47.9,
@@ -272,7 +289,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-18",
+    "data": "2026-09-19",
     "product_id": "MLB63740683",
     "nome": "Livro: Sua Última Reverência Autor: Arthur Conan Doyle (novo, Lacrado), De Arthur Conan Doyle",
     "preco": 27.82,
@@ -289,7 +306,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-18",
+    "data": "2026-09-19",
     "product_id": "MLB70438242",
     "nome": "Novembro, Box Completo",
     "preco": 193.45,
@@ -306,7 +323,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-18",
+    "data": "2026-09-19",
     "product_id": "MLB68697067",
     "nome": "Livro Os Arquivos De Sherlock Holmes, De Doyle, Arthur Conan",
     "preco": 26.7,
