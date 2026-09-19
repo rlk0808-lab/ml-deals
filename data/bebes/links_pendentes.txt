@@ -30,10 +30,10 @@ MLB35495841  Bomba tira leite materno Elétrica G-TECH - Bivolt
     https://www.mercadolivre.com.br/p/MLB35495841
 MLB37238466  Brinquedo Atividades Buba Atomic Soft Ball Mordedor Bebê
     https://www.mercadolivre.com.br/p/MLB37238466
-MLB19567262  Mustela Hydra creme hidratante bebê com palha orgânica
-    https://www.mercadolivre.com.br/p/MLB19567262
 MLB20602424  Creme Hidratante Natura Mamãe Bebê 200ml
     https://www.mercadolivre.com.br/p/MLB20602424
+MLB19567262  Mustela Hydra creme hidratante bebê com palha orgânica
+    https://www.mercadolivre.com.br/p/MLB19567262
 MLB73392239  Cercadinho Bebê C/ Tela De Proteção Infantil Cinza S/
     https://www.mercadolivre.com.br/p/MLB73392239
 MLB26120807  Mordedor Bebe Mãozinha Rosa Macio Dentição Stress Gengiva
@@ -68,8 +68,6 @@ MLB25541567  Bola Chocalho Mordedor Bebe Unissex Pimpolho Cor Vermelho
     https://www.mercadolivre.com.br/p/MLB25541567
 MLB23582969  Mochila bolsa maternidade bebê mescla azul Hug
     https://www.mercadolivre.com.br/p/MLB23582969
-MLB63123338  Baby Monitor Vb603 Baba Eletrônica Com Monitor branco
-    https://www.mercadolivre.com.br/p/MLB63123338
 MLB68417753  Creme Pomada De Assadura Óleo Girassol A.g.e 45g Maxi Baby
     https://www.mercadolivre.com.br/p/MLB68417753
 MLB74300525  Mordedor Bebê Mãozinha E Pezinho Macio Atóxico Pezinho Rosa
@@ -126,3 +124,5 @@ MLB18392586  Fralda Descartável Infantil Ultra Seca Mili XG Pacote 18 Uni
     https://www.mercadolivre.com.br/p/MLB18392586
 MLB22612025  Móbile Berço Bebê Musical E Giratório Ovelinha Azul
     https://www.mercadolivre.com.br/p/MLB22612025
+MLB42110938  Cercadinho Bebê Portátil Desmontável Mazzilli para Crianças 
+    https://www.mercadolivre.com.br/p/MLB42110938
