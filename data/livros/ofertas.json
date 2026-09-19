@@ -107,7 +107,7 @@
     "nome": "Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, Vol. 1. Editora Editora Planeta Do Brasil, Capa Dura (2026)",
     "preco": 52.1,
     "preco_original": 89.9,
-    "n_ofertas": 41,
+    "n_ofertas": 42,
     "item_id": "MLB6660299906",
     "seller_id": 480263032,
     "frete_gratis": true,
@@ -222,23 +222,6 @@
   },
   {
     "data": "2026-09-19",
-    "product_id": "MLB45553309",
-    "nome": "Sherlock Holmes: Um Estudo Em Vermelho - Arthur Conan Doyle",
-    "preco": 15.35,
-    "preco_original": 29.9,
-    "n_ofertas": 76,
-    "item_id": "MLB5271836740",
-    "seller_id": 480263032,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB45553309",
-    "mediana": 19.0,
-    "minimo_hist": 14.95,
-    "desconto": 19.2,
-    "recorde": false
-  },
-  {
-    "data": "2026-09-19",
     "product_id": "MLB53664915",
     "nome": "Box Lovelight",
     "preco": 97.65,
@@ -252,6 +235,23 @@
     "mediana": 120.0,
     "minimo_hist": 91.4,
     "desconto": 18.6,
+    "recorde": false
+  },
+  {
+    "data": "2026-09-19",
+    "product_id": "MLB45553309",
+    "nome": "Sherlock Holmes: Um Estudo Em Vermelho - Arthur Conan Doyle",
+    "preco": 15.35,
+    "preco_original": 29.9,
+    "n_ofertas": 76,
+    "item_id": "MLB5271836740",
+    "seller_id": 480263032,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB45553309",
+    "mediana": 18.47,
+    "minimo_hist": 14.95,
+    "desconto": 16.9,
     "recorde": false
   },
   {
@@ -317,9 +317,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB70438242",
-    "mediana": 228.5,
+    "mediana": 227.81,
     "minimo_hist": 193.45,
-    "desconto": 15.3,
+    "desconto": 15.1,
     "recorde": true
   },
   {
