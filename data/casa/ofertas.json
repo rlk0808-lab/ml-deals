@@ -192,7 +192,7 @@
     "nome": "Conjunto Jogo Talheres Faqueiro 24 Peças Sunshine Aço Inox P",
     "preco": 55.9,
     "preco_original": 59.9,
-    "n_ofertas": 30,
+    "n_ofertas": 29,
     "item_id": "MLB5254493243",
     "seller_id": 674964390,
     "frete_gratis": true,
@@ -253,22 +253,5 @@
     "minimo_hist": 20.61,
     "desconto": 17.2,
     "recorde": true
-  },
-  {
-    "data": "2026-09-19",
-    "product_id": "MLB35092029",
-    "nome": "Jogo Talheres Faqueiro Búzios Aço Inox 24 Peças Tramontina",
-    "preco": 49.9,
-    "preco_original": null,
-    "n_ofertas": 84,
-    "item_id": "MLB5226113837",
-    "seller_id": 709643258,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB35092029",
-    "mediana": 59.56,
-    "minimo_hist": 40.0,
-    "desconto": 16.2,
-    "recorde": false
   }
 ]
