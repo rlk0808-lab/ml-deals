@@ -8,10 +8,20 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 ⭐ MLB57331529  Creme Para Pentear Cachos Ostentação 1kg
     https://www.mercadolivre.com.br/p/MLB57331529
+⭐ MLB25708443  Essential - Condicionador Hidratação e Reparação 1L
+    https://www.mercadolivre.com.br/p/MLB25708443
+⭐ MLB19793280  Seda Creme Para Pentear Ceramidas 300ml
+    https://www.mercadolivre.com.br/p/MLB19793280
+⭐ MLB44152943  Progressiva Organic + Difusão Capilar + Tônico Milagroso
+    https://www.mercadolivre.com.br/p/MLB44152943
 ⭐ MLB55889196  Óleo Capilar Nutrição 60ml Hidratei
     https://www.mercadolivre.com.br/p/MLB55889196
+⭐ MLB74847576  GLOSS FRANCINY EHLKE FRANBOESA LIP GLOSS LABIAL
+    https://www.mercadolivre.com.br/p/MLB74847576
 ⭐ MLB57619995  Lápis Sobrancelha com Gel Fixador Melu By Ruby Rose
     https://www.mercadolivre.com.br/p/MLB57619995
+⭐ MLB23658677  Baby Dove Condicionador Hidratação Glicerinada 200ml
+    https://www.mercadolivre.com.br/p/MLB23658677
 ⭐ MLB51540218  Creme Para Pentear Modelador Natura
     https://www.mercadolivre.com.br/p/MLB51540218
 ⭐ MLB36162686  Hidralize creme para pentear hidratação 1kg
@@ -24,14 +34,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB68726370
 ⭐ MLB66383651  Escova Progressiva Capilar Vegana Burix 1l Prohall +
     https://www.mercadolivre.com.br/p/MLB66383651
-MLB25708443  Essential - Condicionador Hidratação e Reparação 1L
-    https://www.mercadolivre.com.br/p/MLB25708443
-MLB19793280  Seda Creme Para Pentear Ceramidas 300ml
-    https://www.mercadolivre.com.br/p/MLB19793280
-MLB44152943  Progressiva Organic + Difusão Capilar + Tônico Milagroso
-    https://www.mercadolivre.com.br/p/MLB44152943
-MLB74847576  GLOSS FRANCINY EHLKE FRANBOESA LIP GLOSS LABIAL
-    https://www.mercadolivre.com.br/p/MLB74847576
 MLB19792383  Creme Para Pentear Neutrox 300ml Clássico
     https://www.mercadolivre.com.br/p/MLB19792383
 MLB52195948  Dove Condicionador Hidratação + Hialuron-vit 370ml
@@ -68,8 +70,6 @@ MLB61954655  Rímel Vivai Máscara Cílios Preto 4D Prova D'Água 2 Steps
     https://www.mercadolivre.com.br/p/MLB61954655
 MLB45861520  Máscara Cílios Make More Up Black Plump Preto Volumizador
     https://www.mercadolivre.com.br/p/MLB45861520
-MLB19703976  Shampoo Profissional Nutrifier 300ml Loréal Professionnel
-    https://www.mercadolivre.com.br/p/MLB19703976
 MLB46480470  Eudora Siàge Cauterização Dos Lisos Leave-in Capilar 100ml
     https://www.mercadolivre.com.br/p/MLB46480470
 MLB45700521  Gel Limpeza Facial Dove Regenerative Oleosa 150ml - Unilever
@@ -90,6 +90,8 @@ MLB51343178  Creme Para Pentear Crespos Empoderados Avon
     https://www.mercadolivre.com.br/p/MLB51343178
 MLB76431107  Ampola Capilar Lilyeve Com Escova Antiqueda Tratamento Capil
     https://www.mercadolivre.com.br/p/MLB76431107
+MLB19703976  Shampoo Profissional Nutrifier 300ml Loréal Professionnel
+    https://www.mercadolivre.com.br/p/MLB19703976
 MLB23187100  Tyrrel Professional Hair Protector Leave-in Capilar Renova
     https://www.mercadolivre.com.br/p/MLB23187100
 MLB60725179  Leave-in Capilar Bb Cream 10 Benefícios 100ml Reparador Abso
@@ -112,6 +114,8 @@ MLB39768110  Primer Facial - Blur Primer Océane Edition 30ml
     https://www.mercadolivre.com.br/p/MLB39768110
 MLB57351161  Gloss Labial Hidratação Labial Brilho Mel
     https://www.mercadolivre.com.br/p/MLB57351161
+MLB49964148  Ampola Capilar Profios Power Nutrição 15ml
+    https://www.mercadolivre.com.br/p/MLB49964148
 MLB66170731  Pó compacto iluminador facial em ouro rosa
     https://www.mercadolivre.com.br/p/MLB66170731
 MLB39190714  Creme para pentear Seda Boom nutrição
@@ -122,7 +126,3 @@ MLB45788065  Kit 03 Leave-In Capilar Kannep Embaixador 200ml | Antifrizz,
     https://www.mercadolivre.com.br/p/MLB45788065
 MLB36757875  Gel Limpeza Facial Hialuronico Pele Oleosa Monange 120ml
     https://www.mercadolivre.com.br/p/MLB36757875
-MLB75872681  O Boticário Lily Sérum Leave-in Capilar 100ml
-    https://www.mercadolivre.com.br/p/MLB75872681
-MLB30130397  Condicionador Hidratacao Intensiva Arvensis 1 L
-    https://www.mercadolivre.com.br/p/MLB30130397
