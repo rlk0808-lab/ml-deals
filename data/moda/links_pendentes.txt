@@ -28,6 +28,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB62695160
 ⭐ MLB47691991  Colete Masculino Para Futebol Kit Com 6 Pçs Verde Penalty
     https://www.mercadolivre.com.br/p/MLB47691991
+⭐ MLB47536436  Chinelo Masculino Drifter Basic Fila Liso
+    https://www.mercadolivre.com.br/p/MLB47536436
 ⭐ MLB44951729  Sandália Rasteira Feminina Strass Vizzano
     https://www.mercadolivre.com.br/p/MLB44951729
 ⭐ MLB44952431  Sandália Rasteira Feminina Strass Vizzano
@@ -76,8 +78,6 @@ MLB45475084  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB45475084
 MLB45422541  Chinelo Masculino Drifter Foam Fila Liso
     https://www.mercadolivre.com.br/p/MLB45422541
-MLB47536436  Chinelo Masculino Drifter Basic Fila Liso
-    https://www.mercadolivre.com.br/p/MLB47536436
 MLB44919830  Chinelo Masculino Drifter Foam Fila Liso
     https://www.mercadolivre.com.br/p/MLB44919830
 MLB68987939  Meia Esportiva Penalty Cano Alto 330
