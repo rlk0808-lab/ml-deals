@@ -8,6 +8,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 ⭐ MLB57331529  Creme Para Pentear Cachos Ostentação 1kg
     https://www.mercadolivre.com.br/p/MLB57331529
+⭐ MLB25708443  Essential - Condicionador Hidratação e Reparação 1L
+    https://www.mercadolivre.com.br/p/MLB25708443
+⭐ MLB19793280  Seda Creme Para Pentear Ceramidas 300ml
+    https://www.mercadolivre.com.br/p/MLB19793280
+⭐ MLB74847576  GLOSS FRANCINY EHLKE FRANBOESA LIP GLOSS LABIAL
+    https://www.mercadolivre.com.br/p/MLB74847576
+⭐ MLB44152943  Progressiva Organic + Difusão Capilar + Tônico Milagroso
+    https://www.mercadolivre.com.br/p/MLB44152943
 ⭐ MLB55889196  Óleo Capilar Nutrição 60ml Hidratei
     https://www.mercadolivre.com.br/p/MLB55889196
 ⭐ MLB57619995  Lápis Sobrancelha com Gel Fixador Melu By Ruby Rose
@@ -22,14 +30,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB68726370
 ⭐ MLB66383651  Escova Progressiva Capilar Vegana Burix 1l Prohall +
     https://www.mercadolivre.com.br/p/MLB66383651
-MLB25708443  Essential - Condicionador Hidratação e Reparação 1L
-    https://www.mercadolivre.com.br/p/MLB25708443
-MLB19793280  Seda Creme Para Pentear Ceramidas 300ml
-    https://www.mercadolivre.com.br/p/MLB19793280
-MLB74847576  GLOSS FRANCINY EHLKE FRANBOESA LIP GLOSS LABIAL
-    https://www.mercadolivre.com.br/p/MLB74847576
-MLB44152943  Progressiva Organic + Difusão Capilar + Tônico Milagroso
-    https://www.mercadolivre.com.br/p/MLB44152943
 MLB19792383  Creme Para Pentear Neutrox 300ml Clássico
     https://www.mercadolivre.com.br/p/MLB19792383
 MLB52195948  Dove Condicionador Hidratação + Hialuron-vit 370ml
@@ -72,6 +72,8 @@ MLB45700521  Gel Limpeza Facial Dove Regenerative Oleosa 150ml - Unilever
     https://www.mercadolivre.com.br/p/MLB45700521
 MLB59312933  Jogo Conjunto Kit De Pincel Sombra Maquiagem 13 Peças Macio 
     https://www.mercadolivre.com.br/p/MLB59312933
+MLB45481915  Máscara Cílios Preto Prova D'Água Febella Curvo Volume
+    https://www.mercadolivre.com.br/p/MLB45481915
 MLB38454411  Máscara Capilar Vult Recarga De Hidratação 250g
     https://www.mercadolivre.com.br/p/MLB38454411
 MLB67954595  Protetor solar Sunless Toque Seco Protetor Solar Facial 99FP
@@ -96,8 +98,6 @@ MLB70222514  Kit 3x500ml Gel Limpeza Facial Vitalizy Pele Oleosa Acneica
     https://www.mercadolivre.com.br/p/MLB70222514
 MLB75885866  Jogo Conjunto Kit De Pincel Sombra Maquiagem 13 Peças Macio 
     https://www.mercadolivre.com.br/p/MLB75885866
-MLB45481915  Máscara Cílios Preto Prova D'Água Febella Curvo Volume
-    https://www.mercadolivre.com.br/p/MLB45481915
 MLB74974187  NIINA SECR MASCARA CILIOS SUPER BOLD 10G
     https://www.mercadolivre.com.br/p/MLB74974187
 MLB25741623  Palito Plana Silicone Belliz Company Remoção Excesso Esmalte
