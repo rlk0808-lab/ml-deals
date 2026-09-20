@@ -10,12 +10,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB39979760
 ⭐ MLB50105638  Mistborn: O Poço da Ascensão - Sanderson, Brandon - Trama - 
     https://www.mercadolivre.com.br/p/MLB50105638
+⭐ MLB19220755  Trono de Vidro: Reino de Cinzas (Vol. 6) - Maas, Sarah J. - 
+    https://www.mercadolivre.com.br/p/MLB19220755
 ⭐ MLB68282862  O homem iluminado - Sanderson, Brandon - Trama - Capa Dura
     https://www.mercadolivre.com.br/p/MLB68282862
 ⭐ MLB46039067  Tempestade de Ônix - Yarros, Rebecca - Planeta Minotauro - C
     https://www.mercadolivre.com.br/p/MLB46039067
-⭐ MLB19220755  Trono de Vidro: Reino de Cinzas (Vol. 6) - Maas, Sarah J. - 
-    https://www.mercadolivre.com.br/p/MLB19220755
 ⭐ MLB40283255  Verity (Edição de colecionador), Colleen Hoover, Galera, Por
     https://www.mercadolivre.com.br/p/MLB40283255
 ⭐ MLB56693037  De férias com você (Edição especial) - Henry, Emily - Verus 
@@ -26,8 +26,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB42934246
 ⭐ MLB21082455  Cidade em chamas – Thriller de máfia com uma narrativa envol
     https://www.mercadolivre.com.br/p/MLB21082455
+⭐ MLB19262353  A irmã do sol (As Sete Irmãs – Livro 6) - Riley, Lucinda - E
+    https://www.mercadolivre.com.br/p/MLB19262353
+⭐ MLB60505498  Ritmo da Guerra - Sanderson, Brandon - Ediouro - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB60505498
 ⭐ MLB19262185  A irmã desaparecida (As Sete Irmãs – Livro 7) - Riley, Lucin
     https://www.mercadolivre.com.br/p/MLB19262185
+⭐ MLB68307771  As coisas belas e preciosas - Yarros, Rebecca - Editora Arqu
+    https://www.mercadolivre.com.br/p/MLB68307771
 ⭐ MLB37149234  Biblioteca Nietzsche - Box Com 4 Livros
     https://www.mercadolivre.com.br/p/MLB37149234
 ⭐ MLB66305472  Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, 
@@ -42,12 +48,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB22381043
 ⭐ MLB20685650  Box De Luxo 6 Livros Sherlock Holmes - Arthur Conan Doyle - 
     https://www.mercadolivre.com.br/p/MLB20685650
+⭐ MLB71810455  365 Hábitos Simples E Poderosos - Livro Planner
+    https://www.mercadolivre.com.br/p/MLB71810455
 ⭐ MLB67071973  Viajando Com Agatha Christie
     https://www.mercadolivre.com.br/p/MLB67071973
 ⭐ MLB19447440  Livro Mistério em Verdejantes, de Rodrigues, Severino. Corte
     https://www.mercadolivre.com.br/p/MLB19447440
-⭐ MLB71810455  365 Hábitos Simples E Poderosos - Livro Planner
-    https://www.mercadolivre.com.br/p/MLB71810455
 ⭐ MLB19243672  Livro Fique comigo de Harlan Coben Editora Arqueiro Capa mol
     https://www.mercadolivre.com.br/p/MLB19243672
 ⭐ MLB67040736  Livro Literatura Brasileira Em Foco
@@ -58,14 +64,8 @@ MLB50105423  Mistborn: O Herói das Eras - Sanderson, Brandon - Trama - Ca
     https://www.mercadolivre.com.br/p/MLB50105423
 MLB19220733  Trono de Vidro: Império de Tempestades (Vol. 5) - Maas, Sara
     https://www.mercadolivre.com.br/p/MLB19220733
-MLB19262353  A irmã do sol (As Sete Irmãs – Livro 6) - Riley, Lucinda - E
-    https://www.mercadolivre.com.br/p/MLB19262353
 MLB19220773  Trono de Vidro: Herdeira do fogo (Vol. 3) - Maas, Sarah J. -
     https://www.mercadolivre.com.br/p/MLB19220773
-MLB60505498  Ritmo da Guerra - Sanderson, Brandon - Ediouro - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB60505498
-MLB68307771  As coisas belas e preciosas - Yarros, Rebecca - Editora Arqu
-    https://www.mercadolivre.com.br/p/MLB68307771
 MLB19381441  Sinfonia dos animais - Brown, Dan - Editora Arqueiro - Capa 
     https://www.mercadolivre.com.br/p/MLB19381441
 MLB19262567  As sete irmãs (As Sete Irmãs – Livro 1) - Riley, Lucinda - E
@@ -82,8 +82,6 @@ MLB40647349  A contadora - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB40647349
 MLB69618968  Jantar sinistro - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB69618968
-MLB74445340  Não se deixe enganar - Coben, Harlan - Editora Arqueiro - Ca
-    https://www.mercadolivre.com.br/p/MLB74445340
 MLB19371524  As melhores histórias de Sherlock Holmes - Doyle, Arthur Con
     https://www.mercadolivre.com.br/p/MLB19371524
 MLB19405261  Corte de gelo e estrelas - Maas, Sarah J. - Grupo Editorial 
@@ -92,6 +90,8 @@ MLB47627533  Dele e Dela - Livro que inspirou o thriller de sucesso da Ne
     https://www.mercadolivre.com.br/p/MLB47627533
 MLB19405210  Corte de espinhos e rosas (Vol. 1) - Maas, Sarah J. - Galera
     https://www.mercadolivre.com.br/p/MLB19405210
+MLB74445340  Não se deixe enganar - Coben, Harlan - Editora Arqueiro - Ca
+    https://www.mercadolivre.com.br/p/MLB74445340
 MLB47100376  Cidade em ruínas – Thriller de máfia e a conclusão eletrizan
     https://www.mercadolivre.com.br/p/MLB47100376
 MLB65917466  Sem volta - Henry, Emily - Verus - Capa Mole
