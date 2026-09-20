@@ -8,6 +8,10 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 ⭐ MLB57626638  Sanduicheira Grill Elétrica Antiaderente 750w Potente Cor Ve
     https://www.mercadolivre.com.br/p/MLB57626638
+⭐ MLB20719323  Eirilar Panela Pressão Teflon Panela de Pressão Antiaderente
+    https://www.mercadolivre.com.br/p/MLB20719323
+⭐ MLB24705160  Jogo Copos Vidro Dubai Long Drink Água 480ml Nadir 6 Peças
+    https://www.mercadolivre.com.br/p/MLB24705160
 ⭐ MLB39997355  Kit C/ 4 Potes Herméticos Alimentos Organizador Bambu 340ml
     https://www.mercadolivre.com.br/p/MLB39997355
 ⭐ MLB26532285  Organizador De Carro Encosto Banco Porta Trecos E Tablet Mul
@@ -18,12 +22,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB66977682
 ⭐ MLB76356125  Caçarola Panela Ferro Fundido Esmaltada Hamilton Beach Ameri
     https://www.mercadolivre.com.br/p/MLB76356125
-MLB20719323  Eirilar Panela Pressão Teflon Panela de Pressão Antiaderente
-    https://www.mercadolivre.com.br/p/MLB20719323
 MLB74301911  Sanduicheira Grill Elétrica
     https://www.mercadolivre.com.br/p/MLB74301911
-MLB24705160  Jogo Copos Vidro Dubai Long Drink Água 480ml Nadir 6 Peças
-    https://www.mercadolivre.com.br/p/MLB24705160
 MLB29118990  Jogo Toalhas Gigante 5pçs Fio Penteado Algodão Egípcio
     https://www.mercadolivre.com.br/p/MLB29118990
 MLB29279084  Cortina Blackout Cortina Bloquedora De Claridade Cortina De 
