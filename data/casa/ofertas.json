@@ -120,6 +120,23 @@
   },
   {
     "data": "2026-09-20",
+    "product_id": "MLB76028542",
+    "nome": "Potes Herméticos Kit 7 Para Organizar Mantimentos Cozinha Preto",
+    "preco": 95.9,
+    "preco_original": null,
+    "n_ofertas": 3,
+    "item_id": "MLB5265246959",
+    "seller_id": 749581503,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB76028542",
+    "mediana": 133.0,
+    "minimo_hist": 95.9,
+    "desconto": 27.9,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-20",
     "product_id": "MLB32486505",
     "nome": "Faqueiro Jogo Talheres Black Aço Inox 24 Peças Sunshine Cor Preto",
     "preco": 58.1,
@@ -252,6 +269,23 @@
     "mediana": 31.48,
     "minimo_hist": 25.0,
     "desconto": 17.4,
+    "recorde": false
+  },
+  {
+    "data": "2026-09-20",
+    "product_id": "MLB35092029",
+    "nome": "Jogo Talheres Faqueiro Búzios Aço Inox 24 Peças Tramontina",
+    "preco": 49.9,
+    "preco_original": null,
+    "n_ofertas": 84,
+    "item_id": "MLB5226113837",
+    "seller_id": 709643258,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB35092029",
+    "mediana": 59.33,
+    "minimo_hist": 40.0,
+    "desconto": 15.9,
     "recorde": false
   }
 ]
