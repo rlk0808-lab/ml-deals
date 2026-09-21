@@ -8,6 +8,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 ⭐ MLB19262185  A irmã desaparecida (As Sete Irmãs – Livro 7) - Riley, Lucin
     https://www.mercadolivre.com.br/p/MLB19262185
+⭐ MLB19416643  Sherlock Holmes - O Cão dos Baskerville - Doyle, Arthur Cona
+    https://www.mercadolivre.com.br/p/MLB19416643
 ⭐ MLB37149234  Biblioteca Nietzsche - Box Com 4 Livros
     https://www.mercadolivre.com.br/p/MLB37149234
 ⭐ MLB66305472  Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, 
@@ -26,6 +28,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB71810455
 ⭐ MLB67071973  Viajando Com Agatha Christie
     https://www.mercadolivre.com.br/p/MLB67071973
+⭐ MLB19447440  Livro Mistério em Verdejantes, de Rodrigues, Severino. Corte
+    https://www.mercadolivre.com.br/p/MLB19447440
 ⭐ MLB19243672  Livro Fique comigo de Harlan Coben Editora Arqueiro Capa mol
     https://www.mercadolivre.com.br/p/MLB19243672
 ⭐ MLB67040736  Livro Literatura Brasileira Em Foco
@@ -44,12 +48,12 @@ MLB46039067  Tempestade de Ônix - Yarros, Rebecca - Planeta Minotauro - C
     https://www.mercadolivre.com.br/p/MLB46039067
 MLB50105423  Mistborn: O Herói das Eras - Sanderson, Brandon - Trama - Ca
     https://www.mercadolivre.com.br/p/MLB50105423
+MLB42934246  Sacramentadora - Sanderson, Brandon - Trama - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB42934246
 MLB40283255  Verity (Edição de colecionador), Colleen Hoover, Galera, Por
     https://www.mercadolivre.com.br/p/MLB40283255
 MLB56693037  De férias com você (Edição especial) - Henry, Emily - Verus 
     https://www.mercadolivre.com.br/p/MLB56693037
-MLB42934246  Sacramentadora - Sanderson, Brandon - Trama - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB42934246
 MLB50586617  Leitura de verão (edição especial) - Henry, Emily - Grupo Ed
     https://www.mercadolivre.com.br/p/MLB50586617
 MLB19220733  Trono de Vidro: Império de Tempestades (Vol. 5) - Maas, Sara
@@ -110,8 +114,6 @@ MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
     https://www.mercadolivre.com.br/p/MLB36202363
 MLB48971628  O símbolo perdido (Robert Langdon - Livro 3) - Brown, Dan - 
     https://www.mercadolivre.com.br/p/MLB48971628
-MLB19244003  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
-    https://www.mercadolivre.com.br/p/MLB19244003
 MLB49559264  O acidente - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB49559264
 MLB53665702  O namorado - McFadden, Freida - Record - Capa Mole
@@ -122,7 +124,5 @@ MLB19238943  Box Sherlock Holmes – Obra completa (Capa dura) - Doyle, Art
     https://www.mercadolivre.com.br/p/MLB19238943
 MLB26355500  Lugar Feliz: Lugar Feliz, De Henry, Emily. Editora Verus, Ca
     https://www.mercadolivre.com.br/p/MLB26355500
-MLB58978641  A Intrusa - McFadden, Freida - Record - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB58978641
-MLB41390492  A professora - McFadden, Freida - Record - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB41390492
+MLB19244003  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
+    https://www.mercadolivre.com.br/p/MLB19244003
