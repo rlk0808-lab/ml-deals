@@ -28,9 +28,9 @@
     "frete_gratis": true,
     "full": true,
     "permalink": "https://www.mercadolivre.com.br/p/MLB43469003",
-    "mediana": 314.27,
+    "mediana": 308.55,
     "minimo_hist": 176.77,
-    "desconto": 43.8,
+    "desconto": 42.7,
     "recorde": true
   },
   {
@@ -69,23 +69,6 @@
   },
   {
     "data": "2026-09-21",
-    "product_id": "MLB25821346",
-    "nome": "Kit Higiene Para Bebê Azul",
-    "preco": 40.65,
-    "preco_original": null,
-    "n_ofertas": 4,
-    "item_id": "MLB7169463844",
-    "seller_id": 543278324,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB25821346",
-    "mediana": 55.42,
-    "minimo_hist": 40.65,
-    "desconto": 26.7,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-21",
     "product_id": "MLB47606215",
     "nome": "Shampoo + Condicionador Natura Mamãe Bebê",
     "preco": 72.99,
@@ -120,6 +103,23 @@
   },
   {
     "data": "2026-09-21",
+    "product_id": "MLB73668889",
+    "nome": "Kit 3 Prendedor De Chupeta Bebê Menino Marinheiro Angu Bebê",
+    "preco": 56.99,
+    "preco_original": 83.68,
+    "n_ofertas": 2,
+    "item_id": "MLB6968041042",
+    "seller_id": 193812182,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB73668889",
+    "mediana": 71.48,
+    "minimo_hist": 56.99,
+    "desconto": 20.3,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-21",
     "product_id": "MLB67134371",
     "nome": "Aquecedor 3 Em 1 Esterilizador Mamadeira Chupeta Papinha Bub",
     "preco": 209.99,
@@ -150,6 +150,23 @@
     "mediana": 289.9,
     "minimo_hist": 244.0,
     "desconto": 15.8,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-21",
+    "product_id": "MLB74292232",
+    "nome": "Mamadeira Bebê Anticólica Bico Silicone 330 Ml Antivazamento Cor Azul Nuvem",
+    "preco": 33.89,
+    "preco_original": null,
+    "n_ofertas": 4,
+    "item_id": "MLB5260819189",
+    "seller_id": 1144141898,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB74292232",
+    "mediana": 39.9,
+    "minimo_hist": 33.89,
+    "desconto": 15.1,
     "recorde": true
   }
 ]
