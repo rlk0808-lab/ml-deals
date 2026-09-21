@@ -86,23 +86,6 @@
   },
   {
     "data": "2026-09-21",
-    "product_id": "MLB66305472",
-    "nome": "Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, Vol. 1. Editora Editora Planeta Do Brasil, Capa Dura (2026)",
-    "preco": 52.1,
-    "preco_original": 89.9,
-    "n_ofertas": 45,
-    "item_id": "MLB6660299906",
-    "seller_id": 480263032,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB66305472",
-    "mediana": 77.68,
-    "minimo_hist": 52.1,
-    "desconto": 32.9,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-21",
     "product_id": "MLB22101664",
     "nome": "Livro Empreendedorismo Transformando Ideias Em Negócios, 9ª Edição 2023",
     "preco": 99.0,
@@ -117,6 +100,23 @@
     "minimo_hist": 99.0,
     "desconto": 30.8,
     "recorde": true
+  },
+  {
+    "data": "2026-09-21",
+    "product_id": "MLB66305472",
+    "nome": "Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, Vol. 1. Editora Editora Planeta Do Brasil, Capa Dura (2026)",
+    "preco": 55.91,
+    "preco_original": 89.9,
+    "n_ofertas": 45,
+    "item_id": "MLB6660299906",
+    "seller_id": 480263032,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB66305472",
+    "mediana": 77.68,
+    "minimo_hist": 52.1,
+    "desconto": 28.0,
+    "recorde": false
   },
   {
     "data": "2026-09-21",
@@ -168,23 +168,6 @@
     "minimo_hist": 199.88,
     "desconto": 21.6,
     "recorde": false
-  },
-  {
-    "data": "2026-09-21",
-    "product_id": "MLB62060063",
-    "nome": "Box Sherlock Holmes – Obra completa (Capa brochura) - Doyle, Arthur Conan - HarperCollins - Capa Mole",
-    "preco": 93.19,
-    "preco_original": 169.9,
-    "n_ofertas": 64,
-    "item_id": "MLB5998060632",
-    "seller_id": 480263032,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB62060063",
-    "mediana": 118.9,
-    "minimo_hist": 93.19,
-    "desconto": 21.6,
-    "recorde": true
   },
   {
     "data": "2026-09-21",
@@ -321,6 +304,23 @@
     "minimo_hist": 29.9,
     "desconto": 16.7,
     "recorde": true
+  },
+  {
+    "data": "2026-09-21",
+    "product_id": "MLB62060063",
+    "nome": "Box Sherlock Holmes – Obra completa (Capa brochura) - Doyle, Arthur Conan - HarperCollins - Capa Mole",
+    "preco": 100.01,
+    "preco_original": 169.9,
+    "n_ofertas": 65,
+    "item_id": "MLB5998060632",
+    "seller_id": 480263032,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB62060063",
+    "mediana": 118.9,
+    "minimo_hist": 93.19,
+    "desconto": 15.9,
+    "recorde": false
   },
   {
     "data": "2026-09-21",
