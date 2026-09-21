@@ -1445,8 +1445,8 @@
     "menor_preco": 29.99,
     "data_menor": "2026-07-27",
     "primeiro_dia": "2026-07-27",
-    "dias_total": 54,
-    "_ultima_data_vista": "2026-09-18"
+    "dias_total": 55,
+    "_ultima_data_vista": "2026-09-21"
   },
   "MLB67918187": {
     "menor_preco": 34.0,
@@ -2048,6 +2048,13 @@
     "data_menor": "2026-09-20",
     "primeiro_dia": "2026-09-20",
     "dias_total": 2,
+    "_ultima_data_vista": "2026-09-21"
+  },
+  "MLB79150003": {
+    "menor_preco": 215.43,
+    "data_menor": "2026-09-21",
+    "primeiro_dia": "2026-09-21",
+    "dias_total": 1,
     "_ultima_data_vista": "2026-09-21"
   }
 }
