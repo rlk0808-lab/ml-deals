@@ -1,23 +1,6 @@
 [
   {
     "data": "2026-09-21",
-    "product_id": "MLB23658677",
-    "nome": "Baby Dove Condicionador Hidratação Glicerinada 200ml",
-    "preco": 15.74,
-    "preco_original": 19.9,
-    "n_ofertas": 4,
-    "item_id": "MLB3689083077",
-    "seller_id": 480265022,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB23658677",
-    "mediana": 20.9,
-    "minimo_hist": 15.74,
-    "desconto": 24.7,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-21",
     "product_id": "MLB28456268",
     "nome": "Progressiva Capilar 0% Formol Orgânica 250ml Cabelos Lisos",
     "preco": 59.9,
@@ -35,6 +18,23 @@
   },
   {
     "data": "2026-09-21",
+    "product_id": "MLB23658677",
+    "nome": "Baby Dove Condicionador Hidratação Glicerinada 200ml",
+    "preco": 15.99,
+    "preco_original": 19.9,
+    "n_ofertas": 4,
+    "item_id": "MLB3689083077",
+    "seller_id": 480265022,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB23658677",
+    "mediana": 20.9,
+    "minimo_hist": 15.74,
+    "desconto": 23.5,
+    "recorde": false
+  },
+  {
+    "data": "2026-09-21",
     "product_id": "MLB66731987",
     "nome": "Esmalte Unha Em Gel Acrigel Fibra Blindagem Real Love Light Rosa-17",
     "preco": 16.99,
@@ -48,23 +48,6 @@
     "mediana": 21.9,
     "minimo_hist": 16.99,
     "desconto": 22.4,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-21",
-    "product_id": "MLB53458449",
-    "nome": "Ampola Capilar Profios Power Reconstrução 15ml",
-    "preco": 19.9,
-    "preco_original": null,
-    "n_ofertas": 5,
-    "item_id": "MLB5034084145",
-    "seller_id": 1134773772,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB53458449",
-    "mediana": 24.9,
-    "minimo_hist": 19.9,
-    "desconto": 20.1,
     "recorde": true
   },
   {
