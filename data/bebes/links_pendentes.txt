@@ -4,7 +4,7 @@ Como usar: abra o link, clique em Compartilhar na barra preta de
 afiliados, copie o link gerado (meli.la/...) e cole em
 data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
-(gerado em 2026-09-21)
+(gerado em 2026-09-22)
 
 ⭐ MLB25541567  Bola Chocalho Mordedor Bebe Unissex Pimpolho Cor Vermelho
     https://www.mercadolivre.com.br/p/MLB25541567
@@ -36,10 +36,10 @@ MLB35495841  Bomba tira leite materno Elétrica G-TECH - Bivolt
     https://www.mercadolivre.com.br/p/MLB35495841
 MLB37238466  Brinquedo Atividades Buba Atomic Soft Ball Mordedor Bebê
     https://www.mercadolivre.com.br/p/MLB37238466
-MLB20602424  Creme Hidratante Natura Mamãe Bebê 200ml
-    https://www.mercadolivre.com.br/p/MLB20602424
 MLB19567262  Mustela Hydra creme hidratante bebê com palha orgânica
     https://www.mercadolivre.com.br/p/MLB19567262
+MLB20602424  Creme Hidratante Natura Mamãe Bebê 200ml
+    https://www.mercadolivre.com.br/p/MLB20602424
 MLB73392239  Cercadinho Bebê C/ Tela De Proteção Infantil Cinza S/
     https://www.mercadolivre.com.br/p/MLB73392239
 MLB26120807  Mordedor Bebe Mãozinha Rosa Macio Dentição Stress Gengiva
