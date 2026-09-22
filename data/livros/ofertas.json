@@ -209,7 +209,7 @@
     "nome": "Livro Não Há Segunda Chance De Harlan Coben Da Editora Arqueiro",
     "preco": 38.45,
     "preco_original": null,
-    "n_ofertas": 56,
+    "n_ofertas": 55,
     "item_id": "MLB3897635332",
     "seller_id": 644005785,
     "frete_gratis": true,
@@ -219,23 +219,6 @@
     "minimo_hist": 38.45,
     "desconto": 20.2,
     "recorde": true
-  },
-  {
-    "data": "2026-09-22",
-    "product_id": "MLB19244023",
-    "nome": "Livro Apenas um olhar, de Coben, Harlan. Editorial Editora Arqueiro Ltda., tapa mole, en português (2019)",
-    "preco": 40.0,
-    "preco_original": null,
-    "n_ofertas": 88,
-    "item_id": "MLB4397228929",
-    "seller_id": 74079429,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB19244023",
-    "mediana": 49.78,
-    "minimo_hist": 39.9,
-    "desconto": 19.6,
-    "recorde": false
   },
   {
     "data": "2026-09-22",
