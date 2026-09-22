@@ -137,6 +137,23 @@
   },
   {
     "data": "2026-09-22",
+    "product_id": "MLB31049397",
+    "nome": "Jogo Cama Quadriculado Casal Toque Seda Maciez 300fios 3pçs",
+    "preco": 58.89,
+    "preco_original": 87.99,
+    "n_ofertas": 7,
+    "item_id": "MLB7685284982",
+    "seller_id": 486874549,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB31049397",
+    "mediana": 78.55,
+    "minimo_hist": 58.89,
+    "desconto": 25.0,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-22",
     "product_id": "MLB68676964",
     "nome": "Faqueiro Inox Curacao 24 Peças Tuut Yazi Jogo Talheres Casa Curaçau",
     "preco": 116.0,
@@ -252,6 +269,23 @@
     "mediana": 31.48,
     "minimo_hist": 25.0,
     "desconto": 17.4,
+    "recorde": false
+  },
+  {
+    "data": "2026-09-22",
+    "product_id": "MLB35092029",
+    "nome": "Jogo Talheres Faqueiro Búzios Aço Inox 24 Peças Tramontina",
+    "preco": 49.9,
+    "preco_original": null,
+    "n_ofertas": 84,
+    "item_id": "MLB5226113837",
+    "seller_id": 709643258,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB35092029",
+    "mediana": 59.33,
+    "minimo_hist": 40.0,
+    "desconto": 15.9,
     "recorde": false
   }
 ]
