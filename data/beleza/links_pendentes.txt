@@ -26,14 +26,20 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB42341040
 ⭐ MLB38926902  Primer Facial - Blur Primer Océane Edition 30ml Tom do prime
     https://www.mercadolivre.com.br/p/MLB38926902
+⭐ MLB37986849  Kit Maquiagem Artística Terror Slug Drácula Zumbi Halloween
+    https://www.mercadolivre.com.br/p/MLB37986849
+⭐ MLB19922487  Condicionador Hidratação Impacto 500ml Midori Profissional
+    https://www.mercadolivre.com.br/p/MLB19922487
+⭐ MLB44158912  Shampoo Profissional Jaborandi 4.8l Tricofacil
+    https://www.mercadolivre.com.br/p/MLB44158912
+⭐ MLB20905076  Capicilin - Creme Para Pentear Hairpantol 300ml
+    https://www.mercadolivre.com.br/p/MLB20905076
 ⭐ MLB53458449  Ampola Capilar Profios Power Reconstrução 15ml
     https://www.mercadolivre.com.br/p/MLB53458449
 ⭐ MLB57619995  Lápis Sobrancelha com Gel Fixador Melu By Ruby Rose
     https://www.mercadolivre.com.br/p/MLB57619995
 ⭐ MLB51540218  Creme Para Pentear Modelador Natura
     https://www.mercadolivre.com.br/p/MLB51540218
-⭐ MLB19703976  Shampoo Profissional Nutrifier 300ml Loréal Professionnel
-    https://www.mercadolivre.com.br/p/MLB19703976
 ⭐ MLB23658677  Baby Dove Condicionador Hidratação Glicerinada 200ml
     https://www.mercadolivre.com.br/p/MLB23658677
 ⭐ MLB28456268  Progressiva Capilar 0% Formol Orgânica 250ml Cabelos Lisos
@@ -50,26 +56,18 @@ MLB19759798  Creme Para Pentear 500ml Betobita
     https://www.mercadolivre.com.br/p/MLB19759798
 MLB52322550  Dove Condicionador Hidratação + Hialuron-vit 600ml
     https://www.mercadolivre.com.br/p/MLB52322550
-MLB37986849  Kit Maquiagem Artística Terror Slug Drácula Zumbi Halloween
-    https://www.mercadolivre.com.br/p/MLB37986849
 MLB25243834  Primer Facial Efeito Lifting Phállebeauty Tom do primer Tran
     https://www.mercadolivre.com.br/p/MLB25243834
 MLB19777775  Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g
     https://www.mercadolivre.com.br/p/MLB19777775
-MLB19922487  Condicionador Hidratação Impacto 500ml Midori Profissional
-    https://www.mercadolivre.com.br/p/MLB19922487
-MLB44158912  Shampoo Profissional Jaborandi 4.8l Tricofacil
-    https://www.mercadolivre.com.br/p/MLB44158912
+MLB76431107  Ampola Capilar Lilyeve Com Escova Antiqueda Tratamento Capil
+    https://www.mercadolivre.com.br/p/MLB76431107
 MLB49964148  Ampola Capilar Profios Power Nutrição 15ml
     https://www.mercadolivre.com.br/p/MLB49964148
 MLB18940033  Creme para Pentear Hidrocauterização Pantene 240ml
     https://www.mercadolivre.com.br/p/MLB18940033
 MLB20871191  Creme Para Pentear Fortalecimento Antiqueda Reconstrutor
     https://www.mercadolivre.com.br/p/MLB20871191
-MLB20905076  Capicilin - Creme Para Pentear Hairpantol 300ml
-    https://www.mercadolivre.com.br/p/MLB20905076
-MLB76431107  Ampola Capilar Lilyeve Com Escova Antiqueda Tratamento Capil
-    https://www.mercadolivre.com.br/p/MLB76431107
 MLB45700521  Gel Limpeza Facial Dove Regenerative Oleosa 150ml - Unilever
     https://www.mercadolivre.com.br/p/MLB45700521
 MLB75885866  Jogo Conjunto Kit De Pincel Sombra Maquiagem 13 Peças Macio 
@@ -96,6 +94,8 @@ MLB45861520  Máscara Cílios Make More Up Black Plump Preto Volumizador
     https://www.mercadolivre.com.br/p/MLB45861520
 MLB51343178  Creme Para Pentear Crespos Empoderados Avon
     https://www.mercadolivre.com.br/p/MLB51343178
+MLB19703976  Shampoo Profissional Nutrifier 300ml Loréal Professionnel
+    https://www.mercadolivre.com.br/p/MLB19703976
 MLB23187100  Tyrrel Professional Hair Protector Leave-in Capilar Renova
     https://www.mercadolivre.com.br/p/MLB23187100
 MLB60725179  Leave-in Capilar Bb Cream 10 Benefícios 100ml Reparador Abso
@@ -108,8 +108,6 @@ MLB45481915  Máscara Cílios Preto Prova D'Água Febella Curvo Volume
     https://www.mercadolivre.com.br/p/MLB45481915
 MLB74974187  NIINA SECR MASCARA CILIOS SUPER BOLD 10G
     https://www.mercadolivre.com.br/p/MLB74974187
-MLB25741623  Palito Plana Silicone Belliz Company Remoção Excesso Esmalte
-    https://www.mercadolivre.com.br/p/MLB25741623
 MLB53469027  Kit Maquiagem Portátil Díario Rosa Minnie Mousedisney Fenzza
     https://www.mercadolivre.com.br/p/MLB53469027
 MLB39768110  Primer Facial - Blur Primer Océane Edition 30ml
@@ -126,3 +124,5 @@ MLB75872681  O Boticário Lily Sérum Leave-in Capilar 100ml
     https://www.mercadolivre.com.br/p/MLB75872681
 MLB30130397  Condicionador Hidratacao Intensiva Arvensis 1 L
     https://www.mercadolivre.com.br/p/MLB30130397
+MLB27907201  Kit 3 Condicionador Hidratação De Impacto 500ml Midori
+    https://www.mercadolivre.com.br/p/MLB27907201
