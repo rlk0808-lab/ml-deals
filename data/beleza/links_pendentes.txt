@@ -6,6 +6,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 (gerado em 2026-09-22)
 
+⭐ MLB57331529  Creme Para Pentear Cachos Ostentação 1kg
+    https://www.mercadolivre.com.br/p/MLB57331529
+⭐ MLB25708443  Essential - Condicionador Hidratação e Reparação 1L
+    https://www.mercadolivre.com.br/p/MLB25708443
+⭐ MLB19793280  Seda Creme Para Pentear Ceramidas 300ml
+    https://www.mercadolivre.com.br/p/MLB19793280
+⭐ MLB44152943  Progressiva Organic + Difusão Capilar + Tônico Milagroso
+    https://www.mercadolivre.com.br/p/MLB44152943
 ⭐ MLB55889196  Óleo Capilar Nutrição 60ml Hidratei
     https://www.mercadolivre.com.br/p/MLB55889196
 ⭐ MLB53458449  Ampola Capilar Profios Power Reconstrução 15ml
@@ -22,14 +30,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB68726370
 ⭐ MLB26540612  Caneta Lápis Sobrancelha Microblading Fio a Fio Dailus Marro
     https://www.mercadolivre.com.br/p/MLB26540612
-MLB57331529  Creme Para Pentear Cachos Ostentação 1kg
-    https://www.mercadolivre.com.br/p/MLB57331529
-MLB25708443  Essential - Condicionador Hidratação e Reparação 1L
-    https://www.mercadolivre.com.br/p/MLB25708443
-MLB19793280  Seda Creme Para Pentear Ceramidas 300ml
-    https://www.mercadolivre.com.br/p/MLB19793280
-MLB44152943  Progressiva Organic + Difusão Capilar + Tônico Milagroso
-    https://www.mercadolivre.com.br/p/MLB44152943
 MLB74847576  GLOSS FRANCINY EHLKE FRANBOESA LIP GLOSS LABIAL
     https://www.mercadolivre.com.br/p/MLB74847576
 MLB52195948  Dove Condicionador Hidratação + Hialuron-vit 370ml
@@ -80,10 +80,10 @@ MLB38454411  Máscara Capilar Vult Recarga De Hidratação 250g
     https://www.mercadolivre.com.br/p/MLB38454411
 MLB67954595  Protetor solar Sunless Toque Seco Protetor Solar Facial 99FP
     https://www.mercadolivre.com.br/p/MLB67954595
+MLB45788065  Kit 03 Leave-In Capilar Kannep Embaixador 200ml | Antifrizz,
+    https://www.mercadolivre.com.br/p/MLB45788065
 MLB36757875  Gel Limpeza Facial Hialuronico Pele Oleosa Monange 120ml
     https://www.mercadolivre.com.br/p/MLB36757875
-MLB75872681  O Boticário Lily Sérum Leave-in Capilar 100ml
-    https://www.mercadolivre.com.br/p/MLB75872681
 MLB61954655  Rímel Vivai Máscara Cílios Preto 4D Prova D'Água 2 Steps
     https://www.mercadolivre.com.br/p/MLB61954655
 MLB21140603  Óleo Capilar Keratex Argan 60ml
@@ -120,8 +120,8 @@ MLB45431279  Mascara Facial De Argila Verde-180g
     https://www.mercadolivre.com.br/p/MLB45431279
 MLB26217349  Primer Facial Hd Fenzza Pr63
     https://www.mercadolivre.com.br/p/MLB26217349
-MLB45788065  Kit 03 Leave-In Capilar Kannep Embaixador 200ml | Antifrizz,
-    https://www.mercadolivre.com.br/p/MLB45788065
+MLB75872681  O Boticário Lily Sérum Leave-in Capilar 100ml
+    https://www.mercadolivre.com.br/p/MLB75872681
 MLB30130397  Condicionador Hidratacao Intensiva Arvensis 1 L
     https://www.mercadolivre.com.br/p/MLB30130397
 MLB27907201  Kit 3 Condicionador Hidratação De Impacto 500ml Midori
