@@ -1,6 +1,6 @@
 [
   {
-    "data": "2026-09-21",
+    "data": "2026-09-22",
     "product_id": "MLB26540612",
     "nome": "Caneta Lápis Sobrancelha Microblading Fio a Fio Dailus Marrom-claro",
     "preco": 16.99,
@@ -17,7 +17,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-21",
+    "data": "2026-09-22",
     "product_id": "MLB28456268",
     "nome": "Progressiva Capilar 0% Formol Orgânica 250ml Cabelos Lisos",
     "preco": 59.9,
@@ -34,7 +34,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-21",
+    "data": "2026-09-22",
     "product_id": "MLB23658677",
     "nome": "Baby Dove Condicionador Hidratação Glicerinada 200ml",
     "preco": 15.99,
@@ -51,7 +51,24 @@
     "recorde": false
   },
   {
-    "data": "2026-09-21",
+    "data": "2026-09-22",
+    "product_id": "MLB28359057",
+    "nome": "Iluminador Facial Perolado Em Bastão Intense 5,5g Boticario Tom do iluminador Dourado",
+    "preco": 59.99,
+    "preco_original": 85.99,
+    "n_ofertas": 3,
+    "item_id": "MLB7680355310",
+    "seller_id": 3611562615,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB28359057",
+    "mediana": 77.9,
+    "minimo_hist": 59.99,
+    "desconto": 23.0,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-22",
     "product_id": "MLB68726370",
     "nome": "Progressiva Capilar Vegana 500ml S/ Formol Agilcap Belletonn",
     "preco": 119.7,
@@ -68,7 +85,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-21",
+    "data": "2026-09-22",
     "product_id": "MLB66731987",
     "nome": "Esmalte Unha Em Gel Acrigel Fibra Blindagem Real Love Light Rosa-17",
     "preco": 16.99,
@@ -85,7 +102,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-21",
+    "data": "2026-09-22",
     "product_id": "MLB53458449",
     "nome": "Ampola Capilar Profios Power Reconstrução 15ml",
     "preco": 19.9,
@@ -102,7 +119,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-21",
+    "data": "2026-09-22",
     "product_id": "MLB51540218",
     "nome": "Creme Para Pentear Modelador Natura",
     "preco": 45.0,
@@ -119,7 +136,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-21",
+    "data": "2026-09-22",
     "product_id": "MLB57619995",
     "nome": "Lápis Sobrancelha com Gel Fixador Melu By Ruby Rose",
     "preco": 20.89,
@@ -136,12 +153,12 @@
     "recorde": true
   },
   {
-    "data": "2026-09-21",
+    "data": "2026-09-22",
     "product_id": "MLB55889196",
     "nome": "Óleo Capilar Nutrição 60ml Hidratei",
     "preco": 79.9,
     "preco_original": 97.0,
-    "n_ofertas": 14,
+    "n_ofertas": 12,
     "item_id": "MLB7356451586",
     "seller_id": 2061445221,
     "frete_gratis": true,
