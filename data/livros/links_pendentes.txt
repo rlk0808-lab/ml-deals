@@ -54,8 +54,6 @@ MLB50105423  Mistborn: O Herói das Eras - Sanderson, Brandon - Trama - Ca
     https://www.mercadolivre.com.br/p/MLB50105423
 MLB42934246  Sacramentadora - Sanderson, Brandon - Trama - Capa Mole
     https://www.mercadolivre.com.br/p/MLB42934246
-MLB19238939  Coleção Agatha Christie - Box 1 - Christie, Agatha - HarperC
-    https://www.mercadolivre.com.br/p/MLB19238939
 MLB40283255  Verity (Edição de colecionador), Colleen Hoover, Galera, Por
     https://www.mercadolivre.com.br/p/MLB40283255
 MLB56693037  De férias com você (Edição especial) - Henry, Emily - Verus 
@@ -120,6 +118,8 @@ MLB52875268  A última carta - Yarros, Rebecca - Editora Arqueiro - Capa M
     https://www.mercadolivre.com.br/p/MLB52875268
 MLB66963300  A ex - McFadden, Freida - Editora Arqueiro - Capa Mole
     https://www.mercadolivre.com.br/p/MLB66963300
+MLB19238939  Coleção Agatha Christie - Box 1 - Christie, Agatha - HarperC
+    https://www.mercadolivre.com.br/p/MLB19238939
 MLB19238943  Box Sherlock Holmes – Obra completa (Capa dura) - Doyle, Art
     https://www.mercadolivre.com.br/p/MLB19238943
 MLB19371524  As melhores histórias de Sherlock Holmes - Doyle, Arthur Con
