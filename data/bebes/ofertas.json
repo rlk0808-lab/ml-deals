@@ -86,23 +86,6 @@
   },
   {
     "data": "2026-09-23",
-    "product_id": "MLB37273119",
-    "nome": "Kit 3 Pomada De Assadura Baby Baruel 45g",
-    "preco": 27.99,
-    "preco_original": null,
-    "n_ofertas": 4,
-    "item_id": "MLB3807189257",
-    "seller_id": 1651228838,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB37273119",
-    "mediana": 37.79,
-    "minimo_hist": 27.99,
-    "desconto": 25.9,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-23",
     "product_id": "MLB47606215",
     "nome": "Shampoo + Condicionador Natura Mamãe Bebê",
     "preco": 72.99,
@@ -116,6 +99,23 @@
     "mediana": 98.0,
     "minimo_hist": 72.99,
     "desconto": 25.5,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-23",
+    "product_id": "MLB37273119",
+    "nome": "Kit 3 Pomada De Assadura Baby Baruel 45g",
+    "preco": 27.99,
+    "preco_original": null,
+    "n_ofertas": 4,
+    "item_id": "MLB3807189257",
+    "seller_id": 1651228838,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB37273119",
+    "mediana": 35.99,
+    "minimo_hist": 27.99,
+    "desconto": 22.2,
     "recorde": true
   },
   {
