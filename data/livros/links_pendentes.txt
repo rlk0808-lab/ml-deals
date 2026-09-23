@@ -56,12 +56,12 @@ MLB50105423  Mistborn: O Herói das Eras - Sanderson, Brandon - Trama - Ca
     https://www.mercadolivre.com.br/p/MLB50105423
 MLB42934246  Sacramentadora - Sanderson, Brandon - Trama - Capa Mole
     https://www.mercadolivre.com.br/p/MLB42934246
+MLB50586617  Leitura de verão (edição especial) - Henry, Emily - Grupo Ed
+    https://www.mercadolivre.com.br/p/MLB50586617
 MLB40283255  Verity (Edição de colecionador), Colleen Hoover, Galera, Por
     https://www.mercadolivre.com.br/p/MLB40283255
 MLB56693037  De férias com você (Edição especial) - Henry, Emily - Verus 
     https://www.mercadolivre.com.br/p/MLB56693037
-MLB50586617  Leitura de verão (edição especial) - Henry, Emily - Grupo Ed
-    https://www.mercadolivre.com.br/p/MLB50586617
 MLB19220733  Trono de Vidro: Império de Tempestades (Vol. 5) - Maas, Sara
     https://www.mercadolivre.com.br/p/MLB19220733
 MLB21082455  Cidade em chamas – Thriller de máfia com uma narrativa envol
@@ -112,6 +112,8 @@ MLB19238943  Box Sherlock Holmes – Obra completa (Capa dura) - Doyle, Art
     https://www.mercadolivre.com.br/p/MLB19238943
 MLB65917466  Sem volta - Henry, Emily - Verus - Capa Mole
     https://www.mercadolivre.com.br/p/MLB65917466
+MLB19272293  Leitura de verão - Henry, Emily - Grupo Editorial Record - C
+    https://www.mercadolivre.com.br/p/MLB19272293
 MLB19365403  Memórias de Sherlock Holmes - Doyle, Arthur Conan - Ciranda 
     https://www.mercadolivre.com.br/p/MLB19365403
 MLB74807035  Box Trilogia Powerless
@@ -120,8 +122,6 @@ MLB48971628  O símbolo perdido (Robert Langdon - Livro 3) - Brown, Dan -
     https://www.mercadolivre.com.br/p/MLB48971628
 MLB47100376  Cidade em ruínas – Thriller de máfia e a conclusão eletrizan
     https://www.mercadolivre.com.br/p/MLB47100376
-MLB19272293  Leitura de verão - Henry, Emily - Grupo Editorial Record - C
-    https://www.mercadolivre.com.br/p/MLB19272293
 MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
     https://www.mercadolivre.com.br/p/MLB36202363
 MLB58978641  A Intrusa - McFadden, Freida - Record - Capa Mole
