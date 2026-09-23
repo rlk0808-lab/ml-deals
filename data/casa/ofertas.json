@@ -190,7 +190,7 @@
     "data": "2026-09-23",
     "product_id": "MLB66731440",
     "nome": "Conjunto 4 Potes Herméticos Redondo Inox 450ml",
-    "preco": 24.45,
+    "preco": 23.97,
     "preco_original": 32.4,
     "n_ofertas": 48,
     "item_id": "MLB7646594014",
@@ -199,8 +199,8 @@
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB66731440",
     "mediana": 31.48,
-    "minimo_hist": 24.45,
-    "desconto": 22.3,
+    "minimo_hist": 23.97,
+    "desconto": 23.9,
     "recorde": true
   },
   {
@@ -303,23 +303,6 @@
     "mediana": 125.0,
     "minimo_hist": 97.9,
     "desconto": 17.6,
-    "recorde": false
-  },
-  {
-    "data": "2026-09-23",
-    "product_id": "MLB35092029",
-    "nome": "Jogo Talheres Faqueiro Búzios Aço Inox 24 Peças Tramontina",
-    "preco": 49.9,
-    "preco_original": null,
-    "n_ofertas": 88,
-    "item_id": "MLB5226113837",
-    "seller_id": 709643258,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB35092029",
-    "mediana": 59.3,
-    "minimo_hist": 40.0,
-    "desconto": 15.9,
     "recorde": false
   }
 ]
