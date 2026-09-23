@@ -86,6 +86,23 @@
   },
   {
     "data": "2026-09-23",
+    "product_id": "MLB68676964",
+    "nome": "Faqueiro Inox Curacao 24 Peças Tuut Yazi Jogo Talheres Casa Curaçau",
+    "preco": 104.4,
+    "preco_original": 116.0,
+    "n_ofertas": 6,
+    "item_id": "MLB7419010038",
+    "seller_id": 3326853403,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB68676964",
+    "mediana": 147.96,
+    "minimo_hist": 104.4,
+    "desconto": 29.4,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-23",
     "product_id": "MLB76409555",
     "nome": "Startools Sanduicheira Grill Elétrica - Preto",
     "preco": 54.99,
@@ -117,6 +134,23 @@
     "minimo_hist": 95.9,
     "desconto": 27.9,
     "recorde": true
+  },
+  {
+    "data": "2026-09-23",
+    "product_id": "MLB76065812",
+    "nome": "Sanduicheira Grill Britânia Bgr27b 1000w Preto",
+    "preco": 129.0,
+    "preco_original": 259.0,
+    "n_ofertas": 4,
+    "item_id": "MLB7658628750",
+    "seller_id": 1212138371,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB76065812",
+    "mediana": 175.35,
+    "minimo_hist": 109.99,
+    "desconto": 26.4,
+    "recorde": false
   },
   {
     "data": "2026-09-23",
@@ -168,23 +202,6 @@
     "minimo_hist": 23.97,
     "desconto": 23.9,
     "recorde": true
-  },
-  {
-    "data": "2026-09-23",
-    "product_id": "MLB68676964",
-    "nome": "Faqueiro Inox Curacao 24 Peças Tuut Yazi Jogo Talheres Casa Curaçau",
-    "preco": 116.0,
-    "preco_original": null,
-    "n_ofertas": 6,
-    "item_id": "MLB7419010038",
-    "seller_id": 3326853403,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB68676964",
-    "mediana": 147.96,
-    "minimo_hist": 107.0,
-    "desconto": 21.6,
-    "recorde": false
   },
   {
     "data": "2026-09-23",
@@ -269,23 +286,6 @@
     "mediana": 125.0,
     "minimo_hist": 97.9,
     "desconto": 17.6,
-    "recorde": false
-  },
-  {
-    "data": "2026-09-23",
-    "product_id": "MLB76065812",
-    "nome": "Sanduicheira Grill Britânia Bgr27b 1000w Preto",
-    "preco": 149.0,
-    "preco_original": 259.0,
-    "n_ofertas": 4,
-    "item_id": "MLB7658628750",
-    "seller_id": 1212138371,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB76065812",
-    "mediana": 175.35,
-    "minimo_hist": 109.99,
-    "desconto": 15.0,
     "recorde": false
   }
 ]
