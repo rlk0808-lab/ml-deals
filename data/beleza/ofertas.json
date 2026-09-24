@@ -1,6 +1,23 @@
 [
   {
     "data": "2026-09-24",
+    "product_id": "MLB28359057",
+    "nome": "Iluminador Facial Perolado Em Bastão Intense 5,5g Boticario Tom do iluminador Dourado",
+    "preco": 42.0,
+    "preco_original": null,
+    "n_ofertas": 3,
+    "item_id": "MLB5069682915",
+    "seller_id": 733479935,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB28359057",
+    "mediana": 77.9,
+    "minimo_hist": 42.0,
+    "desconto": 46.1,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-24",
     "product_id": "MLB26540612",
     "nome": "Caneta Lápis Sobrancelha Microblading Fio a Fio Dailus Marrom-claro",
     "preco": 16.99,
@@ -66,23 +83,6 @@
     "minimo_hist": 15.74,
     "desconto": 23.5,
     "recorde": false
-  },
-  {
-    "data": "2026-09-24",
-    "product_id": "MLB28359057",
-    "nome": "Iluminador Facial Perolado Em Bastão Intense 5,5g Boticario Tom do iluminador Dourado",
-    "preco": 59.99,
-    "preco_original": 85.99,
-    "n_ofertas": 3,
-    "item_id": "MLB7680355310",
-    "seller_id": 3611562615,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB28359057",
-    "mediana": 77.9,
-    "minimo_hist": 59.99,
-    "desconto": 23.0,
-    "recorde": true
   },
   {
     "data": "2026-09-24",
