@@ -188,23 +188,6 @@
   },
   {
     "data": "2026-09-24",
-    "product_id": "MLB66731440",
-    "nome": "Conjunto 4 Potes Herméticos Redondo Inox 450ml",
-    "preco": 23.97,
-    "preco_original": 32.4,
-    "n_ofertas": 10,
-    "item_id": "MLB7646594014",
-    "seller_id": 2406834146,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB66731440",
-    "mediana": 31.48,
-    "minimo_hist": 23.97,
-    "desconto": 23.9,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-24",
     "product_id": "MLB50450419",
     "nome": "Sanduicheira Grill Elétrica Inox Kian 750w",
     "preco": 87.9,
@@ -270,22 +253,5 @@
     "minimo_hist": 55.9,
     "desconto": 17.8,
     "recorde": true
-  },
-  {
-    "data": "2026-09-24",
-    "product_id": "MLB34821732",
-    "nome": "Jogo Copos Vidro 400ml Âmbar 6 Unidades Wincy Athena Elegante",
-    "preco": 102.95,
-    "preco_original": 142.95,
-    "n_ofertas": 4,
-    "item_id": "MLB3772230871",
-    "seller_id": 762640393,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB34821732",
-    "mediana": 125.0,
-    "minimo_hist": 97.9,
-    "desconto": 17.6,
-    "recorde": false
   }
 ]
