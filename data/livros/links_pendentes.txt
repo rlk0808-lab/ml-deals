@@ -36,24 +36,24 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB19203247
 MLB39979760  Box Collen Hoover
     https://www.mercadolivre.com.br/p/MLB39979760
+MLB50105638  Mistborn: O Poço da Ascensão - Sanderson, Brandon - Trama - 
+    https://www.mercadolivre.com.br/p/MLB50105638
 MLB19220755  Trono de Vidro: Reino de Cinzas (Vol. 6) - Maas, Sarah J. - 
     https://www.mercadolivre.com.br/p/MLB19220755
 MLB68282862  O homem iluminado - Sanderson, Brandon - Trama - Capa Dura
     https://www.mercadolivre.com.br/p/MLB68282862
 MLB46039067  Tempestade de Ônix - Yarros, Rebecca - Planeta Minotauro - C
     https://www.mercadolivre.com.br/p/MLB46039067
-MLB50105638  Mistborn: O Poço da Ascensão - Sanderson, Brandon - Trama - 
-    https://www.mercadolivre.com.br/p/MLB50105638
 MLB50105423  Mistborn: O Herói das Eras - Sanderson, Brandon - Trama - Ca
     https://www.mercadolivre.com.br/p/MLB50105423
 MLB42934246  Sacramentadora - Sanderson, Brandon - Trama - Capa Mole
     https://www.mercadolivre.com.br/p/MLB42934246
 MLB50586617  Leitura de verão (edição especial) - Henry, Emily - Grupo Ed
     https://www.mercadolivre.com.br/p/MLB50586617
-MLB40283255  Verity (Edição de colecionador), Colleen Hoover, Galera, Por
-    https://www.mercadolivre.com.br/p/MLB40283255
 MLB56693037  De férias com você (Edição especial) - Henry, Emily - Verus 
     https://www.mercadolivre.com.br/p/MLB56693037
+MLB40283255  Verity (Edição de colecionador), Colleen Hoover, Galera, Por
+    https://www.mercadolivre.com.br/p/MLB40283255
 MLB21082455  Cidade em chamas – Thriller de máfia com uma narrativa envol
     https://www.mercadolivre.com.br/p/MLB21082455
 MLB19220733  Trono de Vidro: Império de Tempestades (Vol. 5) - Maas, Sara
@@ -68,44 +68,48 @@ MLB68307771  As coisas belas e preciosas - Yarros, Rebecca - Editora Arqu
     https://www.mercadolivre.com.br/p/MLB68307771
 MLB24095614  Corte de chamas prateadas (Vol. 5 – Edição especial) - Maas,
     https://www.mercadolivre.com.br/p/MLB24095614
-MLB19453772  Verity, Colleen Hoover, Português, Galera, 2021
-    https://www.mercadolivre.com.br/p/MLB19453772
+MLB19381441  Sinfonia dos animais - Brown, Dan - Editora Arqueiro - Capa 
+    https://www.mercadolivre.com.br/p/MLB19381441
 MLB19262185  A irmã desaparecida (As Sete Irmãs – Livro 7) - Riley, Lucin
     https://www.mercadolivre.com.br/p/MLB19262185
+MLB47627533  Dele e Dela - Livro que inspirou o thriller de sucesso da Ne
+    https://www.mercadolivre.com.br/p/MLB47627533
 MLB40647349  A contadora - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB40647349
 MLB69618968  Jantar sinistro - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB69618968
 MLB74445340  Não se deixe enganar - Coben, Harlan - Editora Arqueiro - Ca
     https://www.mercadolivre.com.br/p/MLB74445340
-MLB75861265  Ala D - McFadden, Freida - Record - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB75861265
-MLB19381441  Sinfonia dos animais - Brown, Dan - Editora Arqueiro - Capa 
-    https://www.mercadolivre.com.br/p/MLB19381441
 MLB19365403  Memórias de Sherlock Holmes - Doyle, Arthur Conan - Ciranda 
     https://www.mercadolivre.com.br/p/MLB19365403
 MLB74807035  Box Trilogia Powerless
     https://www.mercadolivre.com.br/p/MLB74807035
+MLB19453772  Verity, Colleen Hoover, Português, Galera, 2021
+    https://www.mercadolivre.com.br/p/MLB19453772
 MLB19262567  As sete irmãs (As Sete Irmãs – Livro 1) - Riley, Lucinda - E
     https://www.mercadolivre.com.br/p/MLB19262567
-MLB47627533  Dele e Dela - Livro que inspirou o thriller de sucesso da Ne
-    https://www.mercadolivre.com.br/p/MLB47627533
-MLB19405261  Corte de gelo e estrelas - Maas, Sarah J. - Grupo Editorial 
-    https://www.mercadolivre.com.br/p/MLB19405261
 MLB63908049  Ponto de impacto - Brown, Dan - Editora Arqueiro - Capa Mole
     https://www.mercadolivre.com.br/p/MLB63908049
-MLB19405210  Corte de espinhos e rosas (Vol. 1) - Maas, Sarah J. - Galera
-    https://www.mercadolivre.com.br/p/MLB19405210
+MLB75861265  Ala D - McFadden, Freida - Record - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB75861265
 MLB66963300  A ex - McFadden, Freida - Editora Arqueiro - Capa Mole
     https://www.mercadolivre.com.br/p/MLB66963300
 MLB19272293  Leitura de verão - Henry, Emily - Grupo Editorial Record - C
     https://www.mercadolivre.com.br/p/MLB19272293
+MLB19405261  Corte de gelo e estrelas - Maas, Sarah J. - Grupo Editorial 
+    https://www.mercadolivre.com.br/p/MLB19405261
+MLB19405210  Corte de espinhos e rosas (Vol. 1) - Maas, Sarah J. - Galera
+    https://www.mercadolivre.com.br/p/MLB19405210
 MLB19297709  É assim que acaba, de Colleen Hoover. Editora Galera
     https://www.mercadolivre.com.br/p/MLB19297709
+MLB48971628  O símbolo perdido (Robert Langdon - Livro 3) - Brown, Dan - 
+    https://www.mercadolivre.com.br/p/MLB48971628
 MLB63501442  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
     https://www.mercadolivre.com.br/p/MLB63501442
 MLB49114261  O Código Da Vinci (Robert Langdon – Livro 2) - Brown, Dan - 
     https://www.mercadolivre.com.br/p/MLB49114261
+MLB49559264  O acidente - McFadden, Freida - Record - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB49559264
 MLB52875268  A última carta - Yarros, Rebecca - Editora Arqueiro - Capa M
     https://www.mercadolivre.com.br/p/MLB52875268
 MLB19238943  Box Sherlock Holmes – Obra completa (Capa dura) - Doyle, Art
@@ -114,15 +118,11 @@ MLB47100376  Cidade em ruínas – Thriller de máfia e a conclusão eletrizan
     https://www.mercadolivre.com.br/p/MLB47100376
 MLB65917466  Sem volta - Henry, Emily - Verus - Capa Mole
     https://www.mercadolivre.com.br/p/MLB65917466
-MLB48971628  O símbolo perdido (Robert Langdon - Livro 3) - Brown, Dan - 
-    https://www.mercadolivre.com.br/p/MLB48971628
-MLB49559264  O acidente - McFadden, Freida - Record - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB49559264
-MLB64349875  Sem chance de adeus - Coben, Harlan - Editora Arqueiro - Cap
-    https://www.mercadolivre.com.br/p/MLB64349875
 MLB74603027  Desconhecido - Sager, Riley - Intrínseca - Capa Mole
     https://www.mercadolivre.com.br/p/MLB74603027
+MLB64349875  Sem chance de adeus - Coben, Harlan - Editora Arqueiro - Cap
+    https://www.mercadolivre.com.br/p/MLB64349875
+MLB47075033  Uma vida e tanto - Henry, Emily - Verus - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB47075033
 MLB36202363  Nem te conto, de Henry Emily Editorial Verus capa mole ediçã
     https://www.mercadolivre.com.br/p/MLB36202363
-MLB19244003  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
-    https://www.mercadolivre.com.br/p/MLB19244003
