@@ -171,6 +171,23 @@
   },
   {
     "data": "2026-09-24",
+    "product_id": "MLB18392719",
+    "nome": "Fralda Descartável Turma da Mônica Baby XG Pacote 20 Unidades",
+    "preco": 24.31,
+    "preco_original": 59.9,
+    "n_ofertas": 10,
+    "item_id": "MLB6702968678",
+    "seller_id": 344498473,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB18392719",
+    "mediana": 29.16,
+    "minimo_hist": 24.31,
+    "desconto": 16.6,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-24",
     "product_id": "MLB20988254",
     "nome": "Colchão Berço Padrão American D18 Antiácaro, Antif Antialérg",
     "preco": 244.0,
@@ -185,5 +202,22 @@
     "minimo_hist": 244.0,
     "desconto": 15.8,
     "recorde": true
+  },
+  {
+    "data": "2026-09-24",
+    "product_id": "MLB50366249",
+    "nome": "Hidratante Relaxante Mamãe E Bebê",
+    "preco": 54.9,
+    "preco_original": null,
+    "n_ofertas": 3,
+    "item_id": "MLB7580500992",
+    "seller_id": 204780036,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB50366249",
+    "mediana": 64.9,
+    "minimo_hist": 54.86,
+    "desconto": 15.4,
+    "recorde": false
   }
 ]
