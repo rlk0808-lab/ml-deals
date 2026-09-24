@@ -52,12 +52,12 @@ MLB18392719  Fralda Descartável Turma da Mônica Baby XG Pacote 20 Unidade
     https://www.mercadolivre.com.br/p/MLB18392719
 MLB31975924  Colchão Berço Probel Active Baby
     https://www.mercadolivre.com.br/p/MLB31975924
-MLB28387695  Capa Colchão Berço Impermeável Vida Pratika Antiácaros com E
-    https://www.mercadolivre.com.br/p/MLB28387695
 MLB73440881  Aquecedor Esterilizador De Mamadeira Chupeta Papinha 3 Em 1 
     https://www.mercadolivre.com.br/p/MLB73440881
 MLB23582969  Mochila bolsa maternidade bebê mescla azul Hug
     https://www.mercadolivre.com.br/p/MLB23582969
+MLB28387695  Capa Colchão Berço Impermeável Vida Pratika Antiácaros com E
+    https://www.mercadolivre.com.br/p/MLB28387695
 MLB68485848  Creme Pomada De Assadura Óleo Girassol Age 120g Maxi Baby
     https://www.mercadolivre.com.br/p/MLB68485848
 MLB19904682  Bebê conforto Voyage Bebê Conforto Beta preto
@@ -112,6 +112,8 @@ MLB50093886  Colchão Berço Americano Ortobom Baby Light D18 70x130cm Anti
     https://www.mercadolivre.com.br/p/MLB50093886
 MLB22848080  Capa De Colchão Berço Ibitex Em Malha Gel Lisa Com Ziper
     https://www.mercadolivre.com.br/p/MLB22848080
+MLB72254053  Cercadinho Bebê Rister Baby Portátil Grande + Tapete Azul
+    https://www.mercadolivre.com.br/p/MLB72254053
 MLB43463096  Banheira Bebê Dobrável Portátil Buba Cor Rosa
     https://www.mercadolivre.com.br/p/MLB43463096
 MLB43486094  Banheira Bebê Dobrável Portátil Buba Cor Azul
@@ -124,5 +126,3 @@ MLB75344146  Banheira Bebe + Suporte Koa Plus Perola - Galzerano - 7097pr
     https://www.mercadolivre.com.br/p/MLB75344146
 MLB18392586  Fralda Descartável Infantil Ultra Seca Mili XG Pacote 18 Uni
     https://www.mercadolivre.com.br/p/MLB18392586
-MLB22612025  Móbile Berço Bebê Musical E Giratório Ovelinha Azul
-    https://www.mercadolivre.com.br/p/MLB22612025
