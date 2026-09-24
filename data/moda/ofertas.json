@@ -35,6 +35,40 @@
   },
   {
     "data": "2026-09-24",
+    "product_id": "MLB44952431",
+    "nome": "Sandália Rasteira Feminina Strass Vizzano",
+    "preco": 79.9,
+    "preco_original": 152.38,
+    "n_ofertas": 3,
+    "item_id": "MLB7521271848",
+    "seller_id": 734105212,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB44952431",
+    "mediana": 109.11,
+    "minimo_hist": 79.9,
+    "desconto": 26.8,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-24",
+    "product_id": "MLB44952437",
+    "nome": "Sandália Rasteira Feminina Strass Vizzano",
+    "preco": 79.9,
+    "preco_original": 152.38,
+    "n_ofertas": 3,
+    "item_id": "MLB7521334648",
+    "seller_id": 734105212,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB44952437",
+    "mediana": 109.11,
+    "minimo_hist": 79.9,
+    "desconto": 26.8,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-24",
     "product_id": "MLB68859694",
     "nome": "Kit 2 Varais Retrátil Roupa Multiuso Calcinha Cueca Meias Cor Ciano",
     "preco": 49.8,
@@ -49,5 +83,22 @@
     "minimo_hist": 49.8,
     "desconto": 16.9,
     "recorde": true
+  },
+  {
+    "data": "2026-09-24",
+    "product_id": "MLB67954522",
+    "nome": "Kit 3 Camiseta Masculina Básica Algodão Camisa Slim Fit Lisa",
+    "preco": 75.29,
+    "preco_original": null,
+    "n_ofertas": 8,
+    "item_id": "MLB5244840065",
+    "seller_id": 265716712,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB67954522",
+    "mediana": 90.0,
+    "minimo_hist": 59.7,
+    "desconto": 16.3,
+    "recorde": false
   }
 ]
