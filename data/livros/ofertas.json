@@ -137,23 +137,6 @@
   },
   {
     "data": "2026-09-24",
-    "product_id": "MLB40283388",
-    "nome": "Box Alice - Box Com 2 Livros - Edição De Luxo Almofadada",
-    "preco": 57.56,
-    "preco_original": 159.9,
-    "n_ofertas": 36,
-    "item_id": "MLB3842772303",
-    "seller_id": 480263032,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB40283388",
-    "mediana": 73.75,
-    "minimo_hist": 55.0,
-    "desconto": 22.0,
-    "recorde": false
-  },
-  {
-    "data": "2026-09-24",
     "product_id": "MLB65754557",
     "nome": "Livro Trono De Vidro Box 8 Livros Série Completa De Sarah J. Maas Edição 1 Português 2020 Editora Galera",
     "preco": 200.0,
@@ -201,6 +184,23 @@
     "mediana": 75.94,
     "minimo_hist": 57.05,
     "desconto": 21.0,
+    "recorde": false
+  },
+  {
+    "data": "2026-09-24",
+    "product_id": "MLB19243665",
+    "nome": "Livro O Código Da Vinci de Dan Brown E Robert Langdon Livro 2 Capa mole em português 2021 Editora Arqueiro",
+    "preco": 84.8,
+    "preco_original": null,
+    "n_ofertas": 2,
+    "item_id": "MLB5287428661",
+    "seller_id": 279073894,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19243665",
+    "mediana": 104.9,
+    "minimo_hist": 38.45,
+    "desconto": 19.2,
     "recorde": false
   },
   {
