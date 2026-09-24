@@ -35,23 +35,6 @@
   },
   {
     "data": "2026-09-24",
-    "product_id": "MLB71604003",
-    "nome": "Livro Desencantos: Fantasia Dramática",
-    "preco": 20.0,
-    "preco_original": null,
-    "n_ofertas": 24,
-    "item_id": "MLB5215157757",
-    "seller_id": 670944888,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB71604003",
-    "mediana": 35.91,
-    "minimo_hist": 20.0,
-    "desconto": 44.3,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-24",
     "product_id": "MLB19203247",
     "nome": "Garota exemplar - capa filme - Flynn, Gillian - Intrínseca - Capa Mole",
     "preco": 45.61,
@@ -151,6 +134,23 @@
     "minimo_hist": 45.0,
     "desconto": 24.9,
     "recorde": true
+  },
+  {
+    "data": "2026-09-24",
+    "product_id": "MLB40283388",
+    "nome": "Box Alice - Box Com 2 Livros - Edição De Luxo Almofadada",
+    "preco": 57.56,
+    "preco_original": 159.9,
+    "n_ofertas": 36,
+    "item_id": "MLB3842772303",
+    "seller_id": 480263032,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB40283388",
+    "mediana": 73.75,
+    "minimo_hist": 55.0,
+    "desconto": 22.0,
+    "recorde": false
   },
   {
     "data": "2026-09-24",
