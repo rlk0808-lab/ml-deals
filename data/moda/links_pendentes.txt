@@ -8,6 +8,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 ⭐ MLB45474714  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB45474714
+⭐ MLB51529178  Chinelo Feminino Slim Havaianas
+    https://www.mercadolivre.com.br/p/MLB51529178
 ⭐ MLB70635543  Necessaire Masculina Couro Sintético Premium Preta Reforçado
     https://www.mercadolivre.com.br/p/MLB70635543
 ⭐ MLB36952189  Elástico Falcon P/ Cós Cintura Cueca Box N30 Rolo 20 Metros 
@@ -30,6 +32,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB44952431
 ⭐ MLB44952437  Sandália Rasteira Feminina Strass Vizzano
     https://www.mercadolivre.com.br/p/MLB44952437
+⭐ MLB74068078  Kit Meia Multi Esportes E Meião Cortado Vistho Preto Tamanho
+    https://www.mercadolivre.com.br/p/MLB74068078
 ⭐ MLB75195451  Cueca Algodão 2 Boxer Uso Prolongado Incontinência Urinária 
     https://www.mercadolivre.com.br/p/MLB75195451
 ⭐ MLB75798849  Kit 2x Camiseta Básica Unissex Algodão 100% Peruano Básica M
@@ -60,8 +64,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB23519736
 ⭐ MLB70172635  Pulseira Masculina Sintético Couro Preto Acessórios Preto
     https://www.mercadolivre.com.br/p/MLB70172635
-MLB51529178  Chinelo Feminino Slim Havaianas
-    https://www.mercadolivre.com.br/p/MLB51529178
+⭐ MLB20674693  Limpa Tênis Sapato Bolsa Instantâneo Magic Wipes Prático pro
+    https://www.mercadolivre.com.br/p/MLB20674693
+⭐ MLB79150003  Conjunto Menina Body Canelado E Calça Jeans Kukiê Off White/
+    https://www.mercadolivre.com.br/p/MLB79150003
+⭐ MLB75094566  Kit 56 Velas Meia Bola Flutuante Branca Branco Meia Bola
+    https://www.mercadolivre.com.br/p/MLB75094566
+⭐ MLB63927014  Mochila Notebook Couro Ecológico Masculina Executiva Imperme
+    https://www.mercadolivre.com.br/p/MLB63927014
 MLB51529176  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB51529176
 MLB45475084  Chinelo Feminino Slim Havaianas
@@ -86,8 +96,6 @@ MLB47536436  Chinelo Masculino Drifter Basic Fila Liso
     https://www.mercadolivre.com.br/p/MLB47536436
 MLB45475689  Chinelo Masculino 921 Olympikus
     https://www.mercadolivre.com.br/p/MLB45475689
-MLB74068078  Kit Meia Multi Esportes E Meião Cortado Vistho Preto Tamanho
-    https://www.mercadolivre.com.br/p/MLB74068078
 MLB59056659  Colete Masculino Ginecomastia Macom Marrom Amarelado Tamanho
     https://www.mercadolivre.com.br/p/MLB59056659
 MLB58240342  Colete Masculino Para Ginecomastia Macom Cor Marrom Amarelad
@@ -118,11 +126,3 @@ MLB27562912  Colmeia Organizadora Gaveta Armário Grande Calça Jeans Short
     https://www.mercadolivre.com.br/p/MLB27562912
 MLB78504616  Cueca Boxer Avulso Absorvente Geriátrica Algodão Urina Chu P
     https://www.mercadolivre.com.br/p/MLB78504616
-MLB76023089  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz 
-    https://www.mercadolivre.com.br/p/MLB76023089
-MLB74813931  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz 
-    https://www.mercadolivre.com.br/p/MLB74813931
-MLB75085390  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz 
-    https://www.mercadolivre.com.br/p/MLB75085390
-MLB75737119  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz 
-    https://www.mercadolivre.com.br/p/MLB75737119
