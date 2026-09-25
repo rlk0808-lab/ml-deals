@@ -22,7 +22,7 @@
     "nome": "Livro Sharp Objects Objetos Cortantes Gillian Flynn",
     "preco": 58.45,
     "preco_original": null,
-    "n_ofertas": 47,
+    "n_ofertas": 48,
     "item_id": "MLB4559238940",
     "seller_id": 320430773,
     "frete_gratis": true,
@@ -252,6 +252,23 @@
     "mediana": 104.9,
     "minimo_hist": 38.45,
     "desconto": 19.2,
+    "recorde": false
+  },
+  {
+    "data": "2026-09-25",
+    "product_id": "MLB40283388",
+    "nome": "Box Alice - Box Com 2 Livros - Edição De Luxo Almofadada",
+    "preco": 57.56,
+    "preco_original": 159.9,
+    "n_ofertas": 37,
+    "item_id": "MLB3842772303",
+    "seller_id": 480263032,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB40283388",
+    "mediana": 70.79,
+    "minimo_hist": 55.0,
+    "desconto": 18.7,
     "recorde": false
   },
   {
