@@ -11,26 +11,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB75798849",
-    "mediana": 99.9,
+    "mediana": 89.9,
     "minimo_hist": 50.0,
-    "desconto": 49.9,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-26",
-    "product_id": "MLB32034559",
-    "nome": "Limpa Renova Hidrata Couro De Jaqueta Spray Quick-detail",
-    "preco": 35.7,
-    "preco_original": null,
-    "n_ofertas": 3,
-    "item_id": "MLB5225368673",
-    "seller_id": 1801242923,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB32034559",
-    "mediana": 50.0,
-    "minimo_hist": 35.7,
-    "desconto": 28.6,
+    "desconto": 44.4,
     "recorde": true
   },
   {
@@ -82,6 +65,23 @@
     "mediana": 109.11,
     "minimo_hist": 79.9,
     "desconto": 26.8,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-26",
+    "product_id": "MLB32034559",
+    "nome": "Limpa Renova Hidrata Couro De Jaqueta Spray Quick-detail",
+    "preco": 35.7,
+    "preco_original": null,
+    "n_ofertas": 3,
+    "item_id": "MLB5225368673",
+    "seller_id": 1801242923,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB32034559",
+    "mediana": 48.61,
+    "minimo_hist": 35.7,
+    "desconto": 26.6,
     "recorde": true
   },
   {
