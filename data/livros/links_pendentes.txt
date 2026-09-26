@@ -18,8 +18,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB19395937
 ⭐ MLB66305472  Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, 
     https://www.mercadolivre.com.br/p/MLB66305472
-⭐ MLB40283388  Box Alice - Box Com 2 Livros - Edição De Luxo Almofadada
-    https://www.mercadolivre.com.br/p/MLB40283388
 ⭐ MLB22101664  Livro Empreendedorismo Transformando Ideias Em Negócios, 9ª 
     https://www.mercadolivre.com.br/p/MLB22101664
 ⭐ MLB71810455  365 Hábitos Simples E Poderosos - Livro Planner
@@ -104,6 +102,8 @@ MLB19365403  Memórias de Sherlock Holmes - Doyle, Arthur Conan - Ciranda
     https://www.mercadolivre.com.br/p/MLB19365403
 MLB19405261  Corte de gelo e estrelas - Maas, Sarah J. - Grupo Editorial 
     https://www.mercadolivre.com.br/p/MLB19405261
+MLB19364780  O último caso de Sherlock Holmes - Doyle, Arthur Conan - Cir
+    https://www.mercadolivre.com.br/p/MLB19364780
 MLB19453772  Verity, Colleen Hoover, Português, Galera, 2021
     https://www.mercadolivre.com.br/p/MLB19453772
 MLB48971628  O símbolo perdido (Robert Langdon - Livro 3) - Brown, Dan - 
