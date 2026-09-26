@@ -10,14 +10,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB20719323
 ⭐ MLB57626638  Sanduicheira Grill Elétrica Antiaderente 750w Potente Cor Ve
     https://www.mercadolivre.com.br/p/MLB57626638
+⭐ MLB29279084  Cortina Blackout Cortina Bloquedora De Claridade Cortina De 
+    https://www.mercadolivre.com.br/p/MLB29279084
 ⭐ MLB53222426  Frigideira Antiaderente Rizzoflon 16cm Alumínio Teflon para 
     https://www.mercadolivre.com.br/p/MLB53222426
 ⭐ MLB39997355  Kit C/ 4 Potes Herméticos Alimentos Organizador Bambu 340ml
     https://www.mercadolivre.com.br/p/MLB39997355
 ⭐ MLB26532285  Organizador De Carro Encosto Banco Porta Trecos E Tablet Mul
     https://www.mercadolivre.com.br/p/MLB26532285
-⭐ MLB46223824  Kit Potes Herméticos Retangulares Com Tampa Preta para Manti
-    https://www.mercadolivre.com.br/p/MLB46223824
 ⭐ MLB68943864  Jogo Toalhas De Banho Grossa 2 Peças Fio Penteado Pádova
     https://www.mercadolivre.com.br/p/MLB68943864
 ⭐ MLB66977682  Necessaire Porta Trecos Fortnite - Unissex F1/- F1/21 - 9195
@@ -26,8 +26,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB76356125
 MLB74301911  Sanduicheira Grill Elétrica
     https://www.mercadolivre.com.br/p/MLB74301911
-MLB29279084  Cortina Blackout Cortina Bloquedora De Claridade Cortina De 
-    https://www.mercadolivre.com.br/p/MLB29279084
 MLB29118990  Jogo Toalhas Gigante 5pçs Fio Penteado Algodão Egípcio
     https://www.mercadolivre.com.br/p/MLB29118990
 MLB24705160  Jogo Copos Vidro Dubai Long Drink Água 480ml Nadir 6 Peças
@@ -106,8 +104,6 @@ MLB44977921  Jogo Taças Champanhe Timeless Pasabahce Vidro 175ml 4 Peças
     https://www.mercadolivre.com.br/p/MLB44977921
 MLB49657811  Prateleira Parede MDP Tabaco 25x60cm Prat-K Concept Com Supo
     https://www.mercadolivre.com.br/p/MLB49657811
-MLB37936525  Jogo Cama Casal 200 Fios Karsten Algodão Tom Branco
-    https://www.mercadolivre.com.br/p/MLB37936525
 MLB29204667  Conjunto Pratos Cilíndricos Porcelana Schmidt Raso Fundo Sob
     https://www.mercadolivre.com.br/p/MLB29204667
 MLB79655321  Sanduicheira Grill Elétrica 2 Em 1 750w Startools Preto
@@ -126,3 +122,7 @@ MLB45302528  Porta Condimentos Temperos Especiarias Gin Organizador Cozin
     https://www.mercadolivre.com.br/p/MLB45302528
 MLB45458466  Air fryer Br House Fritadeira ELETRICA AIR FRYER Air Fryer F
     https://www.mercadolivre.com.br/p/MLB45458466
+MLB37215252  Conjunto Pratos Rasos Acqua Vidro Temperado 6 Unidades 23cm
+    https://www.mercadolivre.com.br/p/MLB37215252
+MLB66986892  Jogo Copos Vidro Dubai Long Drink Água 480ml Nadir 12 Peças
+    https://www.mercadolivre.com.br/p/MLB66986892

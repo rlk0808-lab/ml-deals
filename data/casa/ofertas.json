@@ -154,23 +154,6 @@
   },
   {
     "data": "2026-09-26",
-    "product_id": "MLB46223824",
-    "nome": "Kit Potes Herméticos Retangulares Com Tampa Preta para Mantimentos - 7 Unidades",
-    "preco": 163.61,
-    "preco_original": 218.15,
-    "n_ofertas": 2,
-    "item_id": "MLB6455825996",
-    "seller_id": 226979929,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB46223824",
-    "mediana": 218.15,
-    "minimo_hist": 152.71,
-    "desconto": 25.0,
-    "recorde": false
-  },
-  {
-    "data": "2026-09-26",
     "product_id": "MLB68943864",
     "nome": "Jogo Toalhas De Banho Grossa 2 Peças Fio Penteado Pádova",
     "preco": 82.5,
@@ -198,9 +181,9 @@
     "frete_gratis": true,
     "full": true,
     "permalink": "https://www.mercadolivre.com.br/p/MLB42190700",
-    "mediana": 387.9,
+    "mediana": 385.45,
     "minimo_hist": 280.0,
-    "desconto": 20.9,
+    "desconto": 20.4,
     "recorde": false
   },
   {
@@ -266,7 +249,7 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB53222426",
-    "mediana": 33.12,
+    "mediana": 33.09,
     "minimo_hist": 26.95,
     "desconto": 18.6,
     "recorde": true
@@ -283,9 +266,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB66584146",
-    "mediana": 67.99,
+    "mediana": 66.5,
     "minimo_hist": 55.9,
-    "desconto": 17.8,
+    "desconto": 15.9,
     "recorde": true
   }
 ]
