@@ -1,26 +1,6 @@
 [
   {
     "data": "2026-09-25",
-    "product_id": "MLB68117109",
-    "nome": "Livro A Terceira Moça - Agatha Christie",
-    "preco": 23.27,
-    "preco_original": null,
-    "n_ofertas": 27,
-    "item_id": "MLB3611413611",
-    "seller_id": 638444213,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB68117109",
-    "mediana": 34.93,
-    "minimo_hist": 23.27,
-    "desconto": 33.4,
-    "recorde": true,
-    "imagem": "https://http2.mlstatic.com/D_NQ_NP_606396-MLA110518759897_042026-F.jpg",
-    "tipo": "camada1",
-    "enfileirado_em": "2026-09-25T00:10:12.955361+00:00"
-  },
-  {
-    "data": "2026-09-25",
     "product_id": "MLB68697067",
     "nome": "Livro Os Arquivos De Sherlock Holmes, De Doyle, Arthur Conan",
     "preco": 26.7,
