@@ -28,27 +28,10 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB26540612",
-    "mediana": 27.03,
+    "mediana": 24.01,
     "minimo_hist": 16.99,
-    "desconto": 37.1,
+    "desconto": 29.2,
     "recorde": true
-  },
-  {
-    "data": "2026-09-26",
-    "product_id": "MLB19777775",
-    "nome": "Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g",
-    "preco": 195.29,
-    "preco_original": null,
-    "n_ofertas": 8,
-    "item_id": "MLB4823338439",
-    "seller_id": 1203829661,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB19777775",
-    "mediana": 259.0,
-    "minimo_hist": 162.06,
-    "desconto": 24.6,
-    "recorde": false
   },
   {
     "data": "2026-09-26",
@@ -79,9 +62,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB61272803",
-    "mediana": 74.88,
+    "mediana": 74.85,
     "minimo_hist": 56.19,
-    "desconto": 23.6,
+    "desconto": 23.5,
     "recorde": false
   },
   {
@@ -100,6 +83,23 @@
     "minimo_hist": 16.99,
     "desconto": 22.4,
     "recorde": true
+  },
+  {
+    "data": "2026-09-26",
+    "product_id": "MLB19777775",
+    "nome": "Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g",
+    "preco": 195.29,
+    "preco_original": null,
+    "n_ofertas": 8,
+    "item_id": "MLB4823338439",
+    "seller_id": 1203829661,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19777775",
+    "mediana": 249.0,
+    "minimo_hist": 162.06,
+    "desconto": 21.6,
+    "recorde": false
   },
   {
     "data": "2026-09-26",
@@ -147,9 +147,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB55889196",
-    "mediana": 94.06,
+    "mediana": 94.04,
     "minimo_hist": 79.9,
-    "desconto": 15.1,
+    "desconto": 15.0,
     "recorde": true
   }
 ]
