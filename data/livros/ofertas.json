@@ -1,6 +1,6 @@
 [
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB67040736",
     "nome": "Livro Literatura Brasileira Em Foco",
     "preco": 28.92,
@@ -17,12 +17,12 @@
     "recorde": true
   },
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB19395937",
     "nome": "Livro Sharp Objects Objetos Cortantes Gillian Flynn",
     "preco": 58.45,
     "preco_original": null,
-    "n_ofertas": 48,
+    "n_ofertas": 49,
     "item_id": "MLB4559238940",
     "seller_id": 320430773,
     "frete_gratis": true,
@@ -34,7 +34,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB19203247",
     "nome": "Garota exemplar - capa filme - Flynn, Gillian - Intrínseca - Capa Mole",
     "preco": 45.61,
@@ -51,7 +51,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB21683440",
     "nome": "Sherlock Holmes - Um Estudo em Vermelho - Doyle, Arthur Conan - Editora Garnier - Capa Mole",
     "preco": 19.0,
@@ -68,7 +68,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB20685650",
     "nome": "Box De Luxo 6 Livros Sherlock Holmes - Arthur Conan Doyle - Capa Dura",
     "preco": 49.98,
@@ -85,12 +85,12 @@
     "recorde": true
   },
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB19238937",
     "nome": "Coleção Agatha Christie box 8 de Christie Agatha editorial HarperCollins Brasil português 2017",
     "preco": 45.0,
     "preco_original": null,
-    "n_ofertas": 75,
+    "n_ofertas": 76,
     "item_id": "MLB4980897475",
     "seller_id": 329431248,
     "frete_gratis": true,
@@ -102,7 +102,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB68117109",
     "nome": "Livro A Terceira Moça - Agatha Christie",
     "preco": 23.27,
@@ -119,7 +119,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB22101664",
     "nome": "Livro Empreendedorismo Transformando Ideias Em Negócios, 9ª Edição 2023",
     "preco": 99.0,
@@ -136,7 +136,24 @@
     "recorde": true
   },
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
+    "product_id": "MLB30054469",
+    "nome": "Gone Girl, De Gillian Flynn. Editora Random House Em Inglês",
+    "preco": 48.43,
+    "preco_original": null,
+    "n_ofertas": 2,
+    "item_id": "MLB4571005465",
+    "seller_id": 645036913,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB30054469",
+    "mediana": 67.68,
+    "minimo_hist": 48.43,
+    "desconto": 28.4,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-26",
     "product_id": "MLB66305472",
     "nome": "Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, Vol. 1. Editora Editora Planeta Do Brasil, Capa Dura (2026)",
     "preco": 55.91,
@@ -153,7 +170,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB19243672",
     "nome": "Livro Fique comigo de Harlan Coben Editora Arqueiro Capa mole em português 2021",
     "preco": 45.0,
@@ -170,29 +187,12 @@
     "recorde": true
   },
   {
-    "data": "2026-09-25",
-    "product_id": "MLB30054469",
-    "nome": "Gone Girl, De Gillian Flynn. Editora Random House Em Inglês",
-    "preco": 52.67,
-    "preco_original": null,
-    "n_ofertas": 2,
-    "item_id": "MLB4571005465",
-    "seller_id": 645036913,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB30054469",
-    "mediana": 67.68,
-    "minimo_hist": 52.67,
-    "desconto": 22.2,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB65754557",
     "nome": "Livro Trono De Vidro Box 8 Livros Série Completa De Sarah J. Maas Edição 1 Português 2020 Editora Galera",
     "preco": 200.0,
     "preco_original": null,
-    "n_ofertas": 31,
+    "n_ofertas": 30,
     "item_id": "MLB7665313180",
     "seller_id": 559181835,
     "frete_gratis": true,
@@ -204,7 +204,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB19218126",
     "nome": "Livro Quatro Estações Stephen King Edição 1 Português 2013 Editora Suma",
     "preco": 87.92,
@@ -221,7 +221,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB35759519",
     "nome": "Livro Mais Sombrio De Stephen King Edição 1 2024 Português Editora Suma",
     "preco": 60.0,
@@ -238,7 +238,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB19243665",
     "nome": "Livro O Código Da Vinci de Dan Brown E Robert Langdon Livro 2 Capa mole em português 2021 Editora Arqueiro",
     "preco": 84.8,
@@ -255,7 +255,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB40283388",
     "nome": "Box Alice - Box Com 2 Livros - Edição De Luxo Almofadada",
     "preco": 57.56,
@@ -272,7 +272,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB53664915",
     "nome": "Box Lovelight",
     "preco": 97.65,
@@ -289,7 +289,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB19447440",
     "nome": "Livro Mistério em Verdejantes, de Rodrigues, Severino. Cortez Editora e Livraria LTDA, capa mole (2017)",
     "preco": 46.72,
@@ -306,7 +306,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB67071973",
     "nome": "Viajando Com Agatha Christie",
     "preco": 56.29,
@@ -323,7 +323,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB71810455",
     "nome": "365 Hábitos Simples E Poderosos - Livro Planner",
     "preco": 29.9,
@@ -340,7 +340,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB62060063",
     "nome": "Box Sherlock Holmes – Obra completa (Capa brochura) - Doyle, Arthur Conan - HarperCollins - Capa Mole",
     "preco": 100.01,
@@ -357,7 +357,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB68697067",
     "nome": "Livro Os Arquivos De Sherlock Holmes, De Doyle, Arthur Conan",
     "preco": 26.7,
