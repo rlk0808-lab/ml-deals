@@ -1,6 +1,6 @@
 [
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB75798849",
     "nome": "Kit 2x Camiseta Básica Unissex Algodão 100% Peruano Básica Masculina Algodão Pima Blusa Premium Lisa G",
     "preco": 50.0,
@@ -17,7 +17,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB32034559",
     "nome": "Limpa Renova Hidrata Couro De Jaqueta Spray Quick-detail",
     "preco": 35.7,
@@ -34,7 +34,24 @@
     "recorde": true
   },
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
+    "product_id": "MLB45851918",
+    "nome": "Chinelo Masculino Slide Sereno Olympikus",
+    "preco": 104.99,
+    "preco_original": null,
+    "n_ofertas": 2,
+    "item_id": "MLB7703244930",
+    "seller_id": 1347730437,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB45851918",
+    "mediana": 144.33,
+    "minimo_hist": 104.99,
+    "desconto": 27.3,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-26",
     "product_id": "MLB44952431",
     "nome": "Sandália Rasteira Feminina Strass Vizzano",
     "preco": 79.9,
@@ -51,7 +68,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB44952437",
     "nome": "Sandália Rasteira Feminina Strass Vizzano",
     "preco": 79.9,
@@ -68,7 +85,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB74068078",
     "nome": "Kit Meia Multi Esportes E Meião Cortado Vistho Preto Tamanho 39/43",
     "preco": 47.08,
@@ -85,7 +102,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB62841397",
     "nome": "Tênis Feminino Casual Moleca",
     "preco": 74.3,
@@ -102,7 +119,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB62841398",
     "nome": "Tênis Feminino Casual Moleca",
     "preco": 74.3,
@@ -119,7 +136,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-25",
+    "data": "2026-09-26",
     "product_id": "MLB68859694",
     "nome": "Kit 2 Varais Retrátil Roupa Multiuso Calcinha Cueca Meias Cor Ciano",
     "preco": 49.8,
