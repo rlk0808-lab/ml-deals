@@ -52,23 +52,6 @@
   },
   {
     "data": "2026-09-27",
-    "product_id": "MLB47787881",
-    "nome": "Sanduicheira Grill Elétrica Antiaderente Sumay para 2 Sanduíches",
-    "preco": 59.9,
-    "preco_original": null,
-    "n_ofertas": 3,
-    "item_id": "MLB7283897912",
-    "seller_id": 3322374851,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB47787881",
-    "mediana": 88.0,
-    "minimo_hist": 49.49,
-    "desconto": 31.9,
-    "recorde": false
-  },
-  {
-    "data": "2026-09-27",
     "product_id": "MLB21967613",
     "nome": "Jogo Copos Vidro Nadir Figueredo Bristol 520ml Caixa 12 Unidades",
     "preco": 79.99,
@@ -236,6 +219,23 @@
     "minimo_hist": 58.1,
     "desconto": 19.4,
     "recorde": true
+  },
+  {
+    "data": "2026-09-27",
+    "product_id": "MLB47787881",
+    "nome": "Sanduicheira Grill Elétrica Antiaderente Sumay para 2 Sanduíches",
+    "preco": 71.2,
+    "preco_original": null,
+    "n_ofertas": 3,
+    "item_id": "MLB7709933842",
+    "seller_id": 3672019170,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB47787881",
+    "mediana": 88.0,
+    "minimo_hist": 49.49,
+    "desconto": 19.1,
+    "recorde": false
   },
   {
     "data": "2026-09-27",
