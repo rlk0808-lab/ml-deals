@@ -11,9 +11,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB75798849",
-    "mediana": 89.9,
+    "mediana": 79.9,
     "minimo_hist": 50.0,
-    "desconto": 44.4,
+    "desconto": 37.4,
     "recorde": true
   },
   {
@@ -62,9 +62,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB32034559",
-    "mediana": 48.61,
+    "mediana": 47.22,
     "minimo_hist": 35.7,
-    "desconto": 26.6,
+    "desconto": 24.4,
     "recorde": true
   },
   {
@@ -130,9 +130,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB68859694",
-    "mediana": 59.9,
+    "mediana": 59.05,
     "minimo_hist": 49.8,
-    "desconto": 16.9,
+    "desconto": 15.7,
     "recorde": true
   }
 ]
