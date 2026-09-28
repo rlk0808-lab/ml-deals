@@ -90,7 +90,7 @@
     "nome": "Capa A Prova D'agua P/colchão Berço 24h",
     "preco": 33.11,
     "preco_original": null,
-    "n_ofertas": 3,
+    "n_ofertas": 2,
     "item_id": "MLB4773848274",
     "seller_id": 27197548,
     "frete_gratis": true,
@@ -168,6 +168,23 @@
     "minimo_hist": 56.99,
     "desconto": 20.3,
     "recorde": true
+  },
+  {
+    "data": "2026-09-28",
+    "product_id": "MLB21478413",
+    "nome": "Colchão Berço Fa Baby 12x60x130 D-18 Branco",
+    "preco": 273.07,
+    "preco_original": 329.0,
+    "n_ofertas": 2,
+    "item_id": "MLB6908598118",
+    "seller_id": 3024048335,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB21478413",
+    "mediana": 329.0,
+    "minimo_hist": 246.75,
+    "desconto": 17.0,
+    "recorde": false
   },
   {
     "data": "2026-09-28",
