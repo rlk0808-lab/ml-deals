@@ -1,23 +1,6 @@
 [
   {
     "data": "2026-09-28",
-    "product_id": "MLB75798849",
-    "nome": "Kit 2x Camiseta Básica Unissex Algodão 100% Peruano Básica Masculina Algodão Pima Blusa Premium Lisa G",
-    "preco": 50.0,
-    "preco_original": null,
-    "n_ofertas": 3,
-    "item_id": "MLB7603033328",
-    "seller_id": 149920305,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB75798849",
-    "mediana": 79.9,
-    "minimo_hist": 50.0,
-    "desconto": 37.4,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-28",
     "product_id": "MLB44952431",
     "nome": "Sandália Rasteira Feminina Strass Vizzano",
     "preco": 79.9,
@@ -52,19 +35,19 @@
   },
   {
     "data": "2026-09-28",
-    "product_id": "MLB32034559",
-    "nome": "Limpa Renova Hidrata Couro De Jaqueta Spray Quick-detail",
-    "preco": 35.7,
+    "product_id": "MLB75798849",
+    "nome": "Kit 2x Camiseta Básica Unissex Algodão 100% Peruano Básica Masculina Algodão Pima Blusa Premium Lisa G",
+    "preco": 50.0,
     "preco_original": null,
     "n_ofertas": 3,
-    "item_id": "MLB5225368673",
-    "seller_id": 1801242923,
+    "item_id": "MLB7603033328",
+    "seller_id": 149920305,
     "frete_gratis": true,
     "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB32034559",
-    "mediana": 47.22,
-    "minimo_hist": 35.7,
-    "desconto": 24.4,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB75798849",
+    "mediana": 64.95,
+    "minimo_hist": 50.0,
+    "desconto": 23.0,
     "recorde": true
   },
   {
@@ -116,23 +99,6 @@
     "mediana": 89.79,
     "minimo_hist": 74.3,
     "desconto": 17.3,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-28",
-    "product_id": "MLB68859694",
-    "nome": "Kit 2 Varais Retrátil Roupa Multiuso Calcinha Cueca Meias Cor Ciano",
-    "preco": 49.8,
-    "preco_original": 60.0,
-    "n_ofertas": 2,
-    "item_id": "MLB7502243710",
-    "seller_id": 48387668,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB68859694",
-    "mediana": 59.05,
-    "minimo_hist": 49.8,
-    "desconto": 15.7,
     "recorde": true
   }
 ]
