@@ -86,6 +86,23 @@
   },
   {
     "data": "2026-09-28",
+    "product_id": "MLB47606215",
+    "nome": "Shampoo + Condicionador Natura Mamãe Bebê",
+    "preco": 72.99,
+    "preco_original": null,
+    "n_ofertas": 2,
+    "item_id": "MLB5175567823",
+    "seller_id": 699968235,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB47606215",
+    "mediana": 98.0,
+    "minimo_hist": 72.99,
+    "desconto": 25.5,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-28",
     "product_id": "MLB34966407",
     "nome": "Capa A Prova D'agua P/colchão Berço 24h",
     "preco": 33.11,
@@ -116,23 +133,6 @@
     "mediana": 180.0,
     "minimo_hist": 139.9,
     "desconto": 22.3,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-28",
-    "product_id": "MLB37273119",
-    "nome": "Kit 3 Pomada De Assadura Baby Baruel 45g",
-    "preco": 27.99,
-    "preco_original": null,
-    "n_ofertas": 4,
-    "item_id": "MLB3807189257",
-    "seller_id": 1651228838,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB37273119",
-    "mediana": 35.99,
-    "minimo_hist": 27.99,
-    "desconto": 22.2,
     "recorde": true
   },
   {
@@ -168,6 +168,23 @@
     "minimo_hist": 56.99,
     "desconto": 20.3,
     "recorde": true
+  },
+  {
+    "data": "2026-09-28",
+    "product_id": "MLB37273119",
+    "nome": "Kit 3 Pomada De Assadura Baby Baruel 45g",
+    "preco": 29.19,
+    "preco_original": null,
+    "n_ofertas": 3,
+    "item_id": "MLB5422241678",
+    "seller_id": 162692,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB37273119",
+    "mediana": 35.99,
+    "minimo_hist": 27.99,
+    "desconto": 18.9,
+    "recorde": false
   },
   {
     "data": "2026-09-28",
