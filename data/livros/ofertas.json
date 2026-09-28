@@ -96,9 +96,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB19238937",
-    "mediana": 68.95,
+    "mediana": 68.78,
     "minimo_hist": 45.0,
-    "desconto": 34.7,
+    "desconto": 34.6,
     "recorde": true
   },
   {
@@ -239,6 +239,23 @@
   },
   {
     "data": "2026-09-28",
+    "product_id": "MLB71810455",
+    "nome": "365 Hábitos Simples E Poderosos - Livro Planner",
+    "preco": 28.4,
+    "preco_original": 29.9,
+    "n_ofertas": 11,
+    "item_id": "MLB5264703309",
+    "seller_id": 3527257465,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB71810455",
+    "mediana": 35.91,
+    "minimo_hist": 28.4,
+    "desconto": 20.9,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-28",
     "product_id": "MLB53664915",
     "nome": "Box Lovelight",
     "preco": 97.65,
@@ -320,23 +337,6 @@
     "mediana": 59.0,
     "minimo_hist": 48.9,
     "desconto": 17.1,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-28",
-    "product_id": "MLB71810455",
-    "nome": "365 Hábitos Simples E Poderosos - Livro Planner",
-    "preco": 29.9,
-    "preco_original": null,
-    "n_ofertas": 11,
-    "item_id": "MLB5264703309",
-    "seller_id": 3527257465,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB71810455",
-    "mediana": 35.91,
-    "minimo_hist": 29.9,
-    "desconto": 16.7,
     "recorde": true
   },
   {
