@@ -22,7 +22,7 @@
     "nome": "GLOSS FRANCINY EHLKE FRANBOESA LIP GLOSS LABIAL",
     "preco": 18.2,
     "preco_original": 28.9,
-    "n_ofertas": 12,
+    "n_ofertas": 14,
     "item_id": "MLB5000975825",
     "seller_id": 417301432,
     "frete_gratis": true,
@@ -116,6 +116,23 @@
     "mediana": 30.98,
     "minimo_hist": 25.99,
     "desconto": 16.1,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-28",
+    "product_id": "MLB45224574",
+    "nome": "Máscara Cílios Alongadora Color Trend Super Looong Preto 7ml",
+    "preco": 21.16,
+    "preco_original": null,
+    "n_ofertas": 10,
+    "item_id": "MLB7613864670",
+    "seller_id": 56857795,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB45224574",
+    "mediana": 25.0,
+    "minimo_hist": 21.16,
+    "desconto": 15.4,
     "recorde": true
   },
   {
