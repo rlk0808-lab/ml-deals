@@ -18,6 +18,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB24668187
 ⭐ MLB29410142  Escova Para Limpar Couro Banco Bota Jaqueta Detailer
     https://www.mercadolivre.com.br/p/MLB29410142
+⭐ MLB53263270  Escudo Protetor Fogareiro Parede Corta Vento Aluminio Campin
+    https://www.mercadolivre.com.br/p/MLB53263270
 ⭐ MLB62695160  Kouk Authentic Touca Gorro Curto Marinheiro - Gorro Lenhador
     https://www.mercadolivre.com.br/p/MLB62695160
 ⭐ MLB47691991  Colete Masculino Para Futebol Kit Com 6 Pçs Verde Penalty
@@ -58,8 +60,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB67529676
 ⭐ MLB74761482  Conjunto Feminino Camisa Manga Longa Com Short Saia Preto
     https://www.mercadolivre.com.br/p/MLB74761482
-⭐ MLB23519736  Laceia Amacia Couro Sapato Jaqueta Estofados Schimandeiro
-    https://www.mercadolivre.com.br/p/MLB23519736
 ⭐ MLB70172635  Pulseira Masculina Sintético Couro Preto Acessórios Preto
     https://www.mercadolivre.com.br/p/MLB70172635
 ⭐ MLB79150003  Conjunto Menina Body Canelado E Calça Jeans Kukiê Off White/
@@ -98,6 +98,8 @@ MLB45851923  Chinelo Masculino Slide Sereno Olympikus
     https://www.mercadolivre.com.br/p/MLB45851923
 MLB45422542  Chinelo Masculino Drifter Foam Fila Liso
     https://www.mercadolivre.com.br/p/MLB45422542
+MLB73183649  Bolsa Mochila Meia Lua Linda Feminina Moderna Porta Garrafa 
+    https://www.mercadolivre.com.br/p/MLB73183649
 MLB49798341  Meia Motoqueiro X11 Preta Cano Alto Segunda Pele Conforto Té
     https://www.mercadolivre.com.br/p/MLB49798341
 MLB44941550  Sandália Rasteira Feminina Dakota Liso
@@ -124,5 +126,3 @@ MLB77372190  Cueca Boxer Avulso Absorvente Geriátrica Algodão Urina Chu P
     https://www.mercadolivre.com.br/p/MLB77372190
 MLB27562912  Colmeia Organizadora Gaveta Armário Grande Calça Jeans Short
     https://www.mercadolivre.com.br/p/MLB27562912
-MLB78504616  Cueca Boxer Avulso Absorvente Geriátrica Algodão Urina Chu P
-    https://www.mercadolivre.com.br/p/MLB78504616
