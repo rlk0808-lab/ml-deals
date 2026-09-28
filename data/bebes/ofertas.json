@@ -120,6 +120,23 @@
   },
   {
     "data": "2026-09-28",
+    "product_id": "MLB62020136",
+    "nome": "Canguru Sling De Bebe Carregar Recem Nascido Cinza G - Marca DE CORAZÓN",
+    "preco": 57.9,
+    "preco_original": 100.0,
+    "n_ofertas": 2,
+    "item_id": "MLB6970007440",
+    "seller_id": 655311721,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB62020136",
+    "mediana": 74.0,
+    "minimo_hist": 32.9,
+    "desconto": 21.8,
+    "recorde": false
+  },
+  {
+    "data": "2026-09-28",
     "product_id": "MLB73668889",
     "nome": "Kit 3 Prendedor De Chupeta Bebê Menino Marinheiro Angu Bebê",
     "preco": 56.99,
@@ -134,23 +151,6 @@
     "minimo_hist": 56.99,
     "desconto": 20.3,
     "recorde": true
-  },
-  {
-    "data": "2026-09-28",
-    "product_id": "MLB62020136",
-    "nome": "Canguru Sling De Bebe Carregar Recem Nascido Cinza G - Marca DE CORAZÓN",
-    "preco": 59.9,
-    "preco_original": 100.0,
-    "n_ofertas": 2,
-    "item_id": "MLB6970007440",
-    "seller_id": 655311721,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB62020136",
-    "mediana": 74.0,
-    "minimo_hist": 32.9,
-    "desconto": 19.1,
-    "recorde": false
   },
   {
     "data": "2026-09-28",
@@ -184,6 +184,23 @@
     "mediana": 289.9,
     "minimo_hist": 244.0,
     "desconto": 15.8,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-28",
+    "product_id": "MLB25083233",
+    "nome": "Bola Chocalho Mordedor Bebe Unissex Pimpolho Cor Laranja",
+    "preco": 22.21,
+    "preco_original": 26.99,
+    "n_ofertas": 6,
+    "item_id": "MLB7684158600",
+    "seller_id": 1844826105,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB25083233",
+    "mediana": 26.36,
+    "minimo_hist": 22.21,
+    "desconto": 15.7,
     "recorde": true
   }
 ]
