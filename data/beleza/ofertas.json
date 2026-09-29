@@ -11,9 +11,9 @@
     "frete_gratis": true,
     "full": true,
     "permalink": "https://www.mercadolivre.com.br/p/MLB24206231",
-    "mediana": 29.89,
+    "mediana": 28.94,
     "minimo_hist": 19.74,
-    "desconto": 27.4,
+    "desconto": 25.1,
     "recorde": false
   },
   {
@@ -22,7 +22,7 @@
     "nome": "GLOSS FRANCINY EHLKE FRANBOESA LIP GLOSS LABIAL",
     "preco": 18.2,
     "preco_original": 28.9,
-    "n_ofertas": 14,
+    "n_ofertas": 15,
     "item_id": "MLB5000975825",
     "seller_id": 417301432,
     "frete_gratis": true,
@@ -31,6 +31,23 @@
     "mediana": 22.99,
     "minimo_hist": 18.2,
     "desconto": 20.8,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-29",
+    "product_id": "MLB67204079",
+    "nome": "Ampola Capilar Macadamia Hidratação Brilho Intenso 30ml",
+    "preco": 27.93,
+    "preco_original": 39.9,
+    "n_ofertas": 2,
+    "item_id": "MLB7585113186",
+    "seller_id": 2920039345,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB67204079",
+    "mediana": 35.0,
+    "minimo_hist": 27.93,
+    "desconto": 20.2,
     "recorde": true
   },
   {
@@ -147,7 +164,7 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB55889196",
-    "mediana": 94.04,
+    "mediana": 94.02,
     "minimo_hist": 79.9,
     "desconto": 15.0,
     "recorde": true
