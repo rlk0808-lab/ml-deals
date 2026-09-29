@@ -16,6 +16,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB19220755
 ⭐ MLB68282862  O homem iluminado - Sanderson, Brandon - Trama - Capa Dura
     https://www.mercadolivre.com.br/p/MLB68282862
+⭐ MLB46039067  Tempestade de Ônix - Yarros, Rebecca - Planeta Minotauro - C
+    https://www.mercadolivre.com.br/p/MLB46039067
+⭐ MLB50586617  Leitura de verão (edição especial) - Henry, Emily - Grupo Ed
+    https://www.mercadolivre.com.br/p/MLB50586617
+⭐ MLB56693037  De férias com você (Edição especial) - Henry, Emily - Verus 
+    https://www.mercadolivre.com.br/p/MLB56693037
 ⭐ MLB19416643  Sherlock Holmes - O Cão dos Baskerville - Doyle, Arthur Cona
     https://www.mercadolivre.com.br/p/MLB19416643
 ⭐ MLB19272750  Box Totalmente Terror
@@ -26,10 +32,10 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB37149234
 ⭐ MLB19395937  Livro Sharp Objects Objetos Cortantes Gillian Flynn
     https://www.mercadolivre.com.br/p/MLB19395937
-⭐ MLB66305472  Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, 
-    https://www.mercadolivre.com.br/p/MLB66305472
 ⭐ MLB19744860  Box Coleção Patrícia
     https://www.mercadolivre.com.br/p/MLB19744860
+⭐ MLB66305472  Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, 
+    https://www.mercadolivre.com.br/p/MLB66305472
 ⭐ MLB19301929  Livro Coração de Aço, de Sanderson, Brandon, vol. 1. Editori
     https://www.mercadolivre.com.br/p/MLB19301929
 ⭐ MLB19243683  Um passo em falso (myron bolitar – livro 5) - Coben, Harlan 
@@ -58,14 +64,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB19203247
 ⭐ MLB30054469  Gone Girl, De Gillian Flynn. Editora Random House Em Inglês
     https://www.mercadolivre.com.br/p/MLB30054469
-MLB46039067  Tempestade de Ônix - Yarros, Rebecca - Planeta Minotauro - C
-    https://www.mercadolivre.com.br/p/MLB46039067
 MLB50105423  Mistborn: O Herói das Eras - Sanderson, Brandon - Trama - Ca
     https://www.mercadolivre.com.br/p/MLB50105423
-MLB50586617  Leitura de verão (edição especial) - Henry, Emily - Grupo Ed
-    https://www.mercadolivre.com.br/p/MLB50586617
-MLB56693037  De férias com você (Edição especial) - Henry, Emily - Verus 
-    https://www.mercadolivre.com.br/p/MLB56693037
 MLB19262571  A irmã da tempestade (as sete irmãs – livro 2) - Riley, Luci
     https://www.mercadolivre.com.br/p/MLB19262571
 MLB40283255  Verity (Edição de colecionador), Colleen Hoover, Galera, Por
@@ -108,12 +108,16 @@ MLB19262185  A irmã desaparecida (As Sete Irmãs – Livro 7) - Riley, Lucin
     https://www.mercadolivre.com.br/p/MLB19262185
 MLB63908049  Ponto de impacto - Brown, Dan - Editora Arqueiro - Capa Mole
     https://www.mercadolivre.com.br/p/MLB63908049
-MLB47627533  Dele e Dela - Livro que inspirou o thriller de sucesso da Ne
-    https://www.mercadolivre.com.br/p/MLB47627533
 MLB40647349  A contadora - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB40647349
+MLB19365403  Memórias de Sherlock Holmes - Doyle, Arthur Conan - Ciranda 
+    https://www.mercadolivre.com.br/p/MLB19365403
+MLB47627533  Dele e Dela - Livro que inspirou o thriller de sucesso da Ne
+    https://www.mercadolivre.com.br/p/MLB47627533
 MLB69618968  Jantar sinistro - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB69618968
+MLB74445340  Não se deixe enganar - Coben, Harlan - Editora Arqueiro - Ca
+    https://www.mercadolivre.com.br/p/MLB74445340
 MLB66963300  A ex - McFadden, Freida - Editora Arqueiro - Capa Mole
     https://www.mercadolivre.com.br/p/MLB66963300
 MLB19238939  Coleção Agatha Christie - Box 1 - Christie, Agatha - HarperC
@@ -122,7 +126,3 @@ MLB24095614  Corte de chamas prateadas (Vol. 5 – Edição especial) - Maas,
     https://www.mercadolivre.com.br/p/MLB24095614
 MLB65917466  Sem volta - Henry, Emily - Verus - Capa Mole
     https://www.mercadolivre.com.br/p/MLB65917466
-MLB74807035  Box Trilogia Powerless
-    https://www.mercadolivre.com.br/p/MLB74807035
-MLB19244003  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
-    https://www.mercadolivre.com.br/p/MLB19244003
