@@ -56,7 +56,7 @@
     "nome": "Jogo Copos Vidro Nadir Figueredo Bristol 520ml Caixa 12 Unidades",
     "preco": 79.99,
     "preco_original": null,
-    "n_ofertas": 9,
+    "n_ofertas": 10,
     "item_id": "MLB5151700451",
     "seller_id": 2379348782,
     "frete_gratis": true,
@@ -150,6 +150,23 @@
     "mediana": 77.51,
     "minimo_hist": 58.89,
     "desconto": 24.0,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-29",
+    "product_id": "MLB65348184",
+    "nome": "Jogo Talheres Faqueiro Dourado Aço Inox 24 Peças Com Maleta",
+    "preco": 75.9,
+    "preco_original": 108.0,
+    "n_ofertas": 3,
+    "item_id": "MLB4466333539",
+    "seller_id": 1361206961,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB65348184",
+    "mediana": 97.2,
+    "minimo_hist": 75.9,
+    "desconto": 21.9,
     "recorde": true
   },
   {
