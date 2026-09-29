@@ -16,18 +16,22 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB36952189
 ⭐ MLB57596196  Meia Futebol Grip Penalty Cano Alto
     https://www.mercadolivre.com.br/p/MLB57596196
+⭐ MLB36951560  Elástico Listrado P/ Cós Cueca Box Calcinha Top N40 - 20 Mts
+    https://www.mercadolivre.com.br/p/MLB36951560
 ⭐ MLB24668187  Camiseta Fluminense Braziline Stencil Masculina Adulto
     https://www.mercadolivre.com.br/p/MLB24668187
-⭐ MLB53263270  Escudo Protetor Fogareiro Parede Corta Vento Aluminio Campin
-    https://www.mercadolivre.com.br/p/MLB53263270
 ⭐ MLB29410142  Escova Para Limpar Couro Banco Bota Jaqueta Detailer
     https://www.mercadolivre.com.br/p/MLB29410142
+⭐ MLB74239341  Meia Divertida Cr7 Cristiano Ronaldo Copa Adulto Cano Alto V
+    https://www.mercadolivre.com.br/p/MLB74239341
+⭐ MLB53263270  Escudo Protetor Fogareiro Parede Corta Vento Aluminio Campin
+    https://www.mercadolivre.com.br/p/MLB53263270
 ⭐ MLB62695160  Kouk Authentic Touca Gorro Curto Marinheiro - Gorro Lenhador
     https://www.mercadolivre.com.br/p/MLB62695160
+⭐ MLB70292276  Bolsa Feminina Meia Lua Baguete Ombro Tote Casual Compacta M
+    https://www.mercadolivre.com.br/p/MLB70292276
 ⭐ MLB47691991  Colete Masculino Para Futebol Kit Com 6 Pçs Verde Penalty
     https://www.mercadolivre.com.br/p/MLB47691991
-⭐ MLB74922862  Bolsa Transversal Masculina Porta Celular Couro Sintético Ma
-    https://www.mercadolivre.com.br/p/MLB74922862
 ⭐ MLB44951729  Sandália Rasteira Feminina Strass Vizzano
     https://www.mercadolivre.com.br/p/MLB44951729
 ⭐ MLB44952431  Sandália Rasteira Feminina Strass Vizzano
@@ -68,16 +72,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB57624894
 MLB51529176  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB51529176
-MLB36951560  Elástico Listrado P/ Cós Cueca Box Calcinha Top N40 - 20 Mts
-    https://www.mercadolivre.com.br/p/MLB36951560
 MLB45475084  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB45475084
-MLB74239341  Meia Divertida Cr7 Cristiano Ronaldo Copa Adulto Cano Alto V
-    https://www.mercadolivre.com.br/p/MLB74239341
 MLB44919830  Chinelo Masculino Drifter Foam Fila Liso
     https://www.mercadolivre.com.br/p/MLB44919830
 MLB45422541  Chinelo Masculino Drifter Foam Fila Liso
     https://www.mercadolivre.com.br/p/MLB45422541
+MLB74922862  Bolsa Transversal Masculina Porta Celular Couro Sintético Ma
+    https://www.mercadolivre.com.br/p/MLB74922862
 MLB68987939  Meia Esportiva Penalty Cano Alto 330
     https://www.mercadolivre.com.br/p/MLB68987939
 MLB63656101  Meia Sapatilha Para Beach Tennis Areia Cano Alto Kestal Cor 
@@ -88,8 +90,6 @@ MLB47536436  Chinelo Masculino Drifter Basic Fila Liso
     https://www.mercadolivre.com.br/p/MLB47536436
 MLB75798849  Kit 2x Camiseta Básica Unissex Algodão 100% Peruano Básica M
     https://www.mercadolivre.com.br/p/MLB75798849
-MLB59056659  Colete Masculino Ginecomastia Macom Marrom Amarelado Tamanho
-    https://www.mercadolivre.com.br/p/MLB59056659
 MLB58240342  Colete Masculino Para Ginecomastia Macom Cor Marrom Amarelad
     https://www.mercadolivre.com.br/p/MLB58240342
 MLB45851923  Chinelo Masculino Slide Sereno Olympikus
