@@ -40,10 +40,10 @@ MLB25713591  Óleo capilr negra rosa/ óleo capilar rosa mosqueta/ blend de
     https://www.mercadolivre.com.br/p/MLB25713591
 MLB52322550  Dove Condicionador Hidratação + Hialuron-vit 600ml
     https://www.mercadolivre.com.br/p/MLB52322550
-MLB52195948  Dove Condicionador Hidratação + Hialuron-vit 370ml
-    https://www.mercadolivre.com.br/p/MLB52195948
 MLB38926902  Primer Facial - Blur Primer Océane Edition 30ml Tom do prime
     https://www.mercadolivre.com.br/p/MLB38926902
+MLB52195948  Dove Condicionador Hidratação + Hialuron-vit 370ml
+    https://www.mercadolivre.com.br/p/MLB52195948
 MLB19759798  Creme Para Pentear 500ml Betobita
     https://www.mercadolivre.com.br/p/MLB19759798
 MLB37986849  Kit Maquiagem Artística Terror Slug Drácula Zumbi Halloween
@@ -58,6 +58,8 @@ MLB39318055  Kit Maquiagem Terror Halloween Zumbi Carnaval Cosplay Slug M
     https://www.mercadolivre.com.br/p/MLB39318055
 MLB49964148  Ampola Capilar Profios Power Nutrição 15ml
     https://www.mercadolivre.com.br/p/MLB49964148
+MLB18940033  Creme para Pentear Hidrocauterização Pantene 240ml
+    https://www.mercadolivre.com.br/p/MLB18940033
 MLB20871191  Creme Para Pentear Fortalecimento Antiqueda Reconstrutor
     https://www.mercadolivre.com.br/p/MLB20871191
 MLB36757875  Gel Limpeza Facial Hialuronico Pele Oleosa Monange 120ml
@@ -76,10 +78,6 @@ MLB39124617  200un Anel Expositor Mostruário Cor Esmalte Unha Artificial
     https://www.mercadolivre.com.br/p/MLB39124617
 MLB57351161  Gloss Labial Hidratação Labial Brilho Mel
     https://www.mercadolivre.com.br/p/MLB57351161
-MLB38454411  Máscara Capilar Vult Recarga De Hidratação 250g
-    https://www.mercadolivre.com.br/p/MLB38454411
-MLB18940033  Creme para Pentear Hidrocauterização Pantene 240ml
-    https://www.mercadolivre.com.br/p/MLB18940033
 MLB20905076  Capicilin - Creme Para Pentear Hairpantol 300ml
     https://www.mercadolivre.com.br/p/MLB20905076
 MLB26217349  Primer Facial Hd Fenzza Pr63
@@ -96,6 +94,8 @@ MLB21140603  Óleo Capilar Keratex Argan 60ml
     https://www.mercadolivre.com.br/p/MLB21140603
 MLB45861520  Máscara Cílios Make More Up Black Plump Preto Volumizador
     https://www.mercadolivre.com.br/p/MLB45861520
+MLB51343178  Creme Para Pentear Crespos Empoderados Avon
+    https://www.mercadolivre.com.br/p/MLB51343178
 MLB23187100  Tyrrel Professional Hair Protector Leave-in Capilar Renova
     https://www.mercadolivre.com.br/p/MLB23187100
 MLB60725179  Leave-in Capilar Bb Cream 10 Benefícios 100ml Reparador Abso
@@ -118,11 +118,11 @@ MLB39768110  Primer Facial - Blur Primer Océane Edition 30ml
     https://www.mercadolivre.com.br/p/MLB39768110
 MLB66170731  Pó compacto iluminador facial em ouro rosa
     https://www.mercadolivre.com.br/p/MLB66170731
+MLB38454411  Máscara Capilar Vult Recarga De Hidratação 250g
+    https://www.mercadolivre.com.br/p/MLB38454411
 MLB39190714  Creme para pentear Seda Boom nutrição
     https://www.mercadolivre.com.br/p/MLB39190714
 MLB67954595  Protetor solar Sunless Toque Seco Protetor Solar Facial 99FP
     https://www.mercadolivre.com.br/p/MLB67954595
 MLB45431279  Mascara Facial De Argila Verde-180g
     https://www.mercadolivre.com.br/p/MLB45431279
-MLB75872681  O Boticário Lily Sérum Leave-in Capilar 100ml
-    https://www.mercadolivre.com.br/p/MLB75872681
