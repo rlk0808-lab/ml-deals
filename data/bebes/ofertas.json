@@ -52,6 +52,23 @@
   },
   {
     "data": "2026-09-30",
+    "product_id": "MLB45837774",
+    "nome": "Kit 5 Pomada de Assadura Bebe Bepantol Baby 60g",
+    "preco": 132.9,
+    "preco_original": 139.9,
+    "n_ofertas": 3,
+    "item_id": "MLB5289394149",
+    "seller_id": 3582719397,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB45837774",
+    "mediana": 180.0,
+    "minimo_hist": 132.9,
+    "desconto": 26.2,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-30",
     "product_id": "MLB34966407",
     "nome": "Capa A Prova D'agua P/colchão Berço 24h",
     "preco": 32.99,
@@ -86,23 +103,6 @@
   },
   {
     "data": "2026-09-30",
-    "product_id": "MLB45837774",
-    "nome": "Kit 5 Pomada de Assadura Bebe Bepantol Baby 60g",
-    "preco": 139.9,
-    "preco_original": null,
-    "n_ofertas": 3,
-    "item_id": "MLB5289394149",
-    "seller_id": 3582719397,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB45837774",
-    "mediana": 180.0,
-    "minimo_hist": 139.9,
-    "desconto": 22.3,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-30",
     "product_id": "MLB62020136",
     "nome": "Canguru Sling De Bebe Carregar Recem Nascido Cinza G - Marca DE CORAZÓN",
     "preco": 57.9,
@@ -117,6 +117,23 @@
     "minimo_hist": 32.9,
     "desconto": 21.8,
     "recorde": false
+  },
+  {
+    "data": "2026-09-30",
+    "product_id": "MLB18392562",
+    "nome": "Fralda Descartável Infantil Ultra Seca Mili M Pacote 22 Unidades",
+    "preco": 28.99,
+    "preco_original": null,
+    "n_ofertas": 3,
+    "item_id": "MLB7729176092",
+    "seller_id": 259463228,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB18392562",
+    "mediana": 36.97,
+    "minimo_hist": 28.99,
+    "desconto": 21.6,
+    "recorde": true
   },
   {
     "data": "2026-09-30",
@@ -218,6 +235,23 @@
     "mediana": 26.36,
     "minimo_hist": 22.21,
     "desconto": 15.7,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-30",
+    "product_id": "MLB74292232",
+    "nome": "Mamadeira Bebê Anticólica Bico Silicone 330 Ml Antivazamento Cor Azul Nuvem",
+    "preco": 33.89,
+    "preco_original": null,
+    "n_ofertas": 3,
+    "item_id": "MLB5260819189",
+    "seller_id": 1144141898,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB74292232",
+    "mediana": 39.9,
+    "minimo_hist": 33.89,
+    "desconto": 15.1,
     "recorde": true
   }
 ]
