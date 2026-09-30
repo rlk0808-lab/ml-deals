@@ -120,23 +120,6 @@
   },
   {
     "data": "2026-09-30",
-    "product_id": "MLB42696991",
-    "nome": "Cesto Roupa Suja Dobrável 60L Impermeável Bazar Bom Branco Listrado",
-    "preco": 29.51,
-    "preco_original": 39.9,
-    "n_ofertas": 2,
-    "item_id": "MLB4660783197",
-    "seller_id": 174265059,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB42696991",
-    "mediana": 39.9,
-    "minimo_hist": 29.51,
-    "desconto": 26.0,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-30",
     "product_id": "MLB31049397",
     "nome": "Jogo Cama Quadriculado Casal Toque Seda Maciez 300fios 3pçs",
     "preco": 58.89,
@@ -150,6 +133,23 @@
     "mediana": 77.51,
     "minimo_hist": 58.89,
     "desconto": 24.0,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-30",
+    "product_id": "MLB26013477",
+    "nome": "Jogo Taças Água Vinho Vidro Diamante Lilás 260ml Class Home",
+    "preco": 92.3,
+    "preco_original": null,
+    "n_ofertas": 4,
+    "item_id": "MLB6213934812",
+    "seller_id": 1419156569,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB26013477",
+    "mediana": 119.0,
+    "minimo_hist": 92.3,
+    "desconto": 22.4,
     "recorde": true
   },
   {
@@ -201,6 +201,23 @@
     "mediana": 562.38,
     "minimo_hist": 449.9,
     "desconto": 20.0,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-30",
+    "product_id": "MLB42696991",
+    "nome": "Cesto Roupa Suja Dobrável 60L Impermeável Bazar Bom Branco Listrado",
+    "preco": 29.51,
+    "preco_original": 39.9,
+    "n_ofertas": 2,
+    "item_id": "MLB4660783197",
+    "seller_id": 174265059,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB42696991",
+    "mediana": 36.7,
+    "minimo_hist": 29.51,
+    "desconto": 19.6,
     "recorde": true
   },
   {
