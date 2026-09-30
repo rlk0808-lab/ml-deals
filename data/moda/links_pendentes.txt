@@ -34,6 +34,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB44952437
 ⭐ MLB74068078  Kit Meia Multi Esportes E Meião Cortado Vistho Preto Tamanho
     https://www.mercadolivre.com.br/p/MLB74068078
+⭐ MLB67529676  Conjunto Sensual Renda Com Liga Na Perna + Calcinha Fio Pret
+    https://www.mercadolivre.com.br/p/MLB67529676
 ⭐ MLB75195451  Cueca Algodão 2 Boxer Uso Prolongado Incontinência Urinária 
     https://www.mercadolivre.com.br/p/MLB75195451
 ⭐ MLB68670569  Conjunto Feminino Real Confecções G1/g2 Short Saia + Cropped
@@ -50,6 +52,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB51450738
 ⭐ MLB63525414  Kit 6 Meia Cano Alto P/ Prática De Esporte Futebol Handebol 
     https://www.mercadolivre.com.br/p/MLB63525414
+⭐ MLB32034559  Limpa Renova Hidrata Couro De Jaqueta Spray Quick-detail
+    https://www.mercadolivre.com.br/p/MLB32034559
+⭐ MLB73117469  Cinto Segura Camisa Social Invisível Prende Dentro Da Calça 
+    https://www.mercadolivre.com.br/p/MLB73117469
+⭐ MLB79150003  Conjunto Menina Body Canelado E Calça Jeans Kukiê Off White/
+    https://www.mercadolivre.com.br/p/MLB79150003
+⭐ MLB75094566  Kit 56 Velas Meia Bola Flutuante Branca Branco Meia Bola
+    https://www.mercadolivre.com.br/p/MLB75094566
 MLB51529178  Chinelo Feminino Slim Havaianas
     https://www.mercadolivre.com.br/p/MLB51529178
 MLB51529176  Chinelo Feminino Slim Havaianas
@@ -106,8 +116,6 @@ MLB56224953  Calcinha Fio Dental Lupo De Compressão 41010-001 - Orignal C
     https://www.mercadolivre.com.br/p/MLB56224953
 MLB47536445  Chinelo Masculino Drifter Basic Fila Liso
     https://www.mercadolivre.com.br/p/MLB47536445
-MLB67529676  Conjunto Sensual Renda Com Liga Na Perna + Calcinha Fio Pret
-    https://www.mercadolivre.com.br/p/MLB67529676
 MLB77372190  Cueca Boxer Avulso Absorvente Geriátrica Algodão Urina Chu P
     https://www.mercadolivre.com.br/p/MLB77372190
 MLB27562912  Colmeia Organizadora Gaveta Armário Grande Calça Jeans Short
@@ -118,11 +126,3 @@ MLB76023089  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz
     https://www.mercadolivre.com.br/p/MLB76023089
 MLB74813931  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz 
     https://www.mercadolivre.com.br/p/MLB74813931
-MLB75085390  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz 
-    https://www.mercadolivre.com.br/p/MLB75085390
-MLB75737119  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz 
-    https://www.mercadolivre.com.br/p/MLB75737119
-MLB47536433  Chinelo Masculino Drifter Basic Fila Liso
-    https://www.mercadolivre.com.br/p/MLB47536433
-MLB32034559  Limpa Renova Hidrata Couro De Jaqueta Spray Quick-detail
-    https://www.mercadolivre.com.br/p/MLB32034559
