@@ -1,6 +1,6 @@
 [
   {
-    "data": "2026-09-29",
+    "data": "2026-09-30",
     "product_id": "MLB28359057",
     "nome": "Iluminador Facial Perolado Em Bastão Intense 5,5g Boticario Tom do iluminador Dourado",
     "preco": 42.0,
@@ -17,7 +17,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-29",
+    "data": "2026-09-30",
     "product_id": "MLB24206231",
     "nome": "Base de maquiagem em pó compacto Dailus Pó compacto ultrafino Pó compacto ultrafino tom d6 medio - 10g",
     "preco": 21.69,
@@ -34,7 +34,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-29",
+    "data": "2026-09-30",
     "product_id": "MLB67204079",
     "nome": "Ampola Capilar Macadamia Hidratação Brilho Intenso 30ml",
     "preco": 27.93,
@@ -51,7 +51,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-29",
+    "data": "2026-09-30",
     "product_id": "MLB41282770",
     "nome": "V.skin Sabonete Gel - Limpeza Facial - Óleo Essencial Vegano",
     "preco": 49.9,
@@ -68,7 +68,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-29",
+    "data": "2026-09-30",
     "product_id": "MLB61272803",
     "nome": "Máscara Capilar Hidratação Intensiva Arvensis 300g",
     "preco": 57.24,
@@ -85,7 +85,24 @@
     "recorde": false
   },
   {
-    "data": "2026-09-29",
+    "data": "2026-09-30",
+    "product_id": "MLB45224574",
+    "nome": "Máscara Cílios Alongadora Color Trend Super Looong Preto 7ml",
+    "preco": 20.31,
+    "preco_original": null,
+    "n_ofertas": 10,
+    "item_id": "MLB6177778770",
+    "seller_id": 686684284,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB45224574",
+    "mediana": 25.0,
+    "minimo_hist": 20.31,
+    "desconto": 18.8,
+    "recorde": true
+  },
+  {
+    "data": "2026-09-30",
     "product_id": "MLB19777775",
     "nome": "Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g",
     "preco": 195.29,
@@ -102,7 +119,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-29",
+    "data": "2026-09-30",
     "product_id": "MLB57619995",
     "nome": "Lápis Sobrancelha com Gel Fixador Melu By Ruby Rose",
     "preco": 20.89,
@@ -119,7 +136,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-29",
+    "data": "2026-09-30",
     "product_id": "MLB75086912",
     "nome": "Removedor Creme Extensão Cílios Funmix Aromatizado 5g Aromas Máscara Cílios Aroma Uva Máscara para cílios aroma uva",
     "preco": 25.99,
@@ -136,24 +153,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-29",
-    "product_id": "MLB45224574",
-    "nome": "Máscara Cílios Alongadora Color Trend Super Looong Preto 7ml",
-    "preco": 21.16,
-    "preco_original": null,
-    "n_ofertas": 10,
-    "item_id": "MLB7613864670",
-    "seller_id": 56857795,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB45224574",
-    "mediana": 25.0,
-    "minimo_hist": 21.16,
-    "desconto": 15.4,
-    "recorde": true
-  },
-  {
-    "data": "2026-09-29",
+    "data": "2026-09-30",
     "product_id": "MLB55889196",
     "nome": "Óleo Capilar Nutrição 60ml Hidratei",
     "preco": 79.9,
