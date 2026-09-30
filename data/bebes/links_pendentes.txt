@@ -30,10 +30,10 @@ MLB35495841  Bomba tira leite materno Elétrica G-TECH - Bivolt
     https://www.mercadolivre.com.br/p/MLB35495841
 MLB20602424  Creme Hidratante Natura Mamãe Bebê 200ml
     https://www.mercadolivre.com.br/p/MLB20602424
-MLB19567262  Mustela Hydra creme hidratante bebê com palha orgânica
-    https://www.mercadolivre.com.br/p/MLB19567262
 MLB37238466  Brinquedo Atividades Buba Atomic Soft Ball Mordedor Bebê
     https://www.mercadolivre.com.br/p/MLB37238466
+MLB19567262  Mustela Hydra creme hidratante bebê com palha orgânica
+    https://www.mercadolivre.com.br/p/MLB19567262
 MLB73392239  Cercadinho Bebê C/ Tela De Proteção Infantil Cinza S/
     https://www.mercadolivre.com.br/p/MLB73392239
 MLB26120807  Mordedor Bebe Mãozinha Rosa Macio Dentição Stress Gengiva
@@ -96,8 +96,6 @@ MLB30930788  Luva Mordedor Bebê Luvinha Silicone - Azul
     https://www.mercadolivre.com.br/p/MLB30930788
 MLB79138414  Hidratante Bebê Pele Sensivel Tradicional 250ml Maxi Baby
     https://www.mercadolivre.com.br/p/MLB79138414
-MLB66380179  Granado Lenço Umedecido Bebê Baby Tradicional - Kit
-    https://www.mercadolivre.com.br/p/MLB66380179
 MLB37419375  Shampoo/Condicionador Pantene Kit shampoo + condicionador pa
     https://www.mercadolivre.com.br/p/MLB37419375
 MLB22936110  Móbile Berço Bebê Musical E Giratório Ovelinha Rosa
@@ -126,3 +124,5 @@ MLB63123338  Baby Monitor Vb603 Baba Eletrônica Com Monitor branco
     https://www.mercadolivre.com.br/p/MLB63123338
 MLB27170986  Banheira Bebê Classic Dino - Galzerano
     https://www.mercadolivre.com.br/p/MLB27170986
+MLB75344146  Banheira Bebe + Suporte Koa Plus Perola - Galzerano - 7097pr
+    https://www.mercadolivre.com.br/p/MLB75344146
