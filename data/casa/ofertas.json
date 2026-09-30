@@ -270,5 +270,22 @@
     "minimo_hist": 109.99,
     "desconto": 15.3,
     "recorde": false
+  },
+  {
+    "data": "2026-09-30",
+    "product_id": "MLB22368870",
+    "nome": "Sanduicheira Grill Arno Sacs Preto Inox",
+    "preco": 185.76,
+    "preco_original": 216.0,
+    "n_ofertas": 5,
+    "item_id": "MLB5271268799",
+    "seller_id": 3567863076,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB22368870",
+    "mediana": 218.56,
+    "minimo_hist": 132.4,
+    "desconto": 15.0,
+    "recorde": false
   }
 ]
