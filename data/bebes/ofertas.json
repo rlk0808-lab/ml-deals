@@ -1,6 +1,23 @@
 [
   {
     "data": "2026-10-01",
+    "product_id": "MLB68578906",
+    "nome": "Bepantol Baby Pomada Assadura Bebe Hipoalergênica, 200g",
+    "preco": 53.07,
+    "preco_original": 99.9,
+    "n_ofertas": 2,
+    "item_id": "MLB6667071540",
+    "seller_id": 480265022,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB68578906",
+    "mediana": 97.27,
+    "minimo_hist": 53.07,
+    "desconto": 45.4,
+    "recorde": true
+  },
+  {
+    "data": "2026-10-01",
     "product_id": "MLB25246647",
     "nome": "Bomba Tira-leite 2 Em 1 Unitária - Mam",
     "preco": 699.9,
@@ -82,6 +99,23 @@
     "mediana": 44.39,
     "minimo_hist": 32.99,
     "desconto": 25.4,
+    "recorde": false
+  },
+  {
+    "data": "2026-10-01",
+    "product_id": "MLB62020136",
+    "nome": "Canguru Sling De Bebe Carregar Recem Nascido Cinza G - Marca DE CORAZÓN",
+    "preco": 57.9,
+    "preco_original": 100.0,
+    "n_ofertas": 2,
+    "item_id": "MLB6970007440",
+    "seller_id": 655311721,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB62020136",
+    "mediana": 74.0,
+    "minimo_hist": 32.9,
+    "desconto": 21.8,
     "recorde": false
   },
   {
