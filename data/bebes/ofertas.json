@@ -1,6 +1,6 @@
 [
   {
-    "data": "2026-09-30",
+    "data": "2026-10-01",
     "product_id": "MLB65371684",
     "nome": "Bomba Tira Leite Elétrica Rosa Branca",
     "preco": 39.7,
@@ -17,7 +17,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-30",
+    "data": "2026-10-01",
     "product_id": "MLB25246647",
     "nome": "Bomba Tira-leite 2 Em 1 Unitária - Mam",
     "preco": 699.9,
@@ -34,7 +34,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-30",
+    "data": "2026-10-01",
     "product_id": "MLB44882650",
     "nome": "Esterilizador De Mamadeira Para Microondas Kuka",
     "preco": 74.0,
@@ -51,7 +51,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-30",
+    "data": "2026-10-01",
     "product_id": "MLB45837774",
     "nome": "Kit 5 Pomada de Assadura Bebe Bepantol Baby 60g",
     "preco": 132.9,
@@ -68,7 +68,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-30",
+    "data": "2026-10-01",
     "product_id": "MLB34966407",
     "nome": "Capa A Prova D'agua P/colchão Berço 24h",
     "preco": 32.99,
@@ -85,7 +85,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-30",
+    "data": "2026-10-01",
     "product_id": "MLB47606215",
     "nome": "Shampoo + Condicionador Natura Mamãe Bebê",
     "preco": 72.99,
@@ -102,7 +102,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-30",
+    "data": "2026-10-01",
     "product_id": "MLB62020136",
     "nome": "Canguru Sling De Bebe Carregar Recem Nascido Cinza G - Marca DE CORAZÓN",
     "preco": 57.9,
@@ -111,7 +111,7 @@
     "item_id": "MLB6970007440",
     "seller_id": 655311721,
     "frete_gratis": true,
-    "full": true,
+    "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB62020136",
     "mediana": 74.0,
     "minimo_hist": 32.9,
@@ -119,7 +119,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-30",
+    "data": "2026-10-01",
     "product_id": "MLB18392562",
     "nome": "Fralda Descartável Infantil Ultra Seca Mili M Pacote 22 Unidades",
     "preco": 28.99,
@@ -136,7 +136,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-30",
+    "data": "2026-10-01",
     "product_id": "MLB24459116",
     "nome": "Absorvente Seios Amamentação Bellacotton 30 Unidades Conforto Gel",
     "preco": 23.98,
@@ -153,7 +153,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-30",
+    "data": "2026-10-01",
     "product_id": "MLB37273119",
     "nome": "Kit 3 Pomada De Assadura Baby Baruel 45g",
     "preco": 29.19,
@@ -170,7 +170,24 @@
     "recorde": false
   },
   {
-    "data": "2026-09-30",
+    "data": "2026-10-01",
+    "product_id": "MLB67134371",
+    "nome": "Aquecedor 3 Em 1 Esterilizador Mamadeira Chupeta Papinha Bub",
+    "preco": 209.99,
+    "preco_original": null,
+    "n_ofertas": 4,
+    "item_id": "MLB6913378104",
+    "seller_id": 2924599116,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB67134371",
+    "mediana": 258.6,
+    "minimo_hist": 209.99,
+    "desconto": 18.8,
+    "recorde": true
+  },
+  {
+    "data": "2026-10-01",
     "product_id": "MLB21478413",
     "nome": "Colchão Berço Fa Baby 12x60x130 D-18 Branco",
     "preco": 273.07,
@@ -187,7 +204,7 @@
     "recorde": false
   },
   {
-    "data": "2026-09-30",
+    "data": "2026-10-01",
     "product_id": "MLB28760774",
     "nome": "Buba, Brinquedo Educativo Phone Bilíngue - Unicórnio",
     "preco": 42.0,
@@ -204,7 +221,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-30",
+    "data": "2026-10-01",
     "product_id": "MLB20988254",
     "nome": "Colchão Berço Padrão American D18 Antiácaro, Antif Antialérg",
     "preco": 244.0,
@@ -221,7 +238,7 @@
     "recorde": true
   },
   {
-    "data": "2026-09-30",
+    "data": "2026-10-01",
     "product_id": "MLB25083233",
     "nome": "Bola Chocalho Mordedor Bebe Unissex Pimpolho Cor Laranja",
     "preco": 22.21,
@@ -238,12 +255,12 @@
     "recorde": true
   },
   {
-    "data": "2026-09-30",
+    "data": "2026-10-01",
     "product_id": "MLB74292232",
     "nome": "Mamadeira Bebê Anticólica Bico Silicone 330 Ml Antivazamento Cor Azul Nuvem",
     "preco": 33.89,
     "preco_original": null,
-    "n_ofertas": 3,
+    "n_ofertas": 4,
     "item_id": "MLB5260819189",
     "seller_id": 1144141898,
     "frete_gratis": true,
