@@ -86,23 +86,6 @@
   },
   {
     "data": "2026-10-01",
-    "product_id": "MLB62020136",
-    "nome": "Canguru Sling De Bebe Carregar Recem Nascido Cinza G - Marca DE CORAZÓN",
-    "preco": 57.9,
-    "preco_original": 100.0,
-    "n_ofertas": 2,
-    "item_id": "MLB6970007440",
-    "seller_id": 655311721,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB62020136",
-    "mediana": 74.0,
-    "minimo_hist": 32.9,
-    "desconto": 21.8,
-    "recorde": false
-  },
-  {
-    "data": "2026-10-01",
     "product_id": "MLB18392562",
     "nome": "Fralda Descartável Infantil Ultra Seca Mili M Pacote 22 Unidades",
     "preco": 28.99,
@@ -116,6 +99,23 @@
     "mediana": 36.97,
     "minimo_hist": 28.99,
     "desconto": 21.6,
+    "recorde": true
+  },
+  {
+    "data": "2026-10-01",
+    "product_id": "MLB73668889",
+    "nome": "Kit 3 Prendedor De Chupeta Bebê Menino Marinheiro Angu Bebê",
+    "preco": 56.99,
+    "preco_original": 83.68,
+    "n_ofertas": 2,
+    "item_id": "MLB6968041042",
+    "seller_id": 193812182,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB73668889",
+    "mediana": 71.48,
+    "minimo_hist": 56.99,
+    "desconto": 20.3,
     "recorde": true
   },
   {
