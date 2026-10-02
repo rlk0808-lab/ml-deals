@@ -22,20 +22,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB44152943
 ⭐ MLB42341040  Mascara Cílios Soul Turbo - Eudora - Cor Preto
     https://www.mercadolivre.com.br/p/MLB42341040
-⭐ MLB38926902  Primer Facial - Blur Primer Océane Edition 30ml Tom do prime
-    https://www.mercadolivre.com.br/p/MLB38926902
-⭐ MLB52322550  Dove Condicionador Hidratação + Hialuron-vit 600ml
-    https://www.mercadolivre.com.br/p/MLB52322550
 ⭐ MLB19777775  Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g
     https://www.mercadolivre.com.br/p/MLB19777775
-⭐ MLB37986849  Kit Maquiagem Artística Terror Slug Drácula Zumbi Halloween
-    https://www.mercadolivre.com.br/p/MLB37986849
-⭐ MLB76431107  Ampola Capilar Lilyeve Com Escova Antiqueda Tratamento Capil
-    https://www.mercadolivre.com.br/p/MLB76431107
-⭐ MLB44158912  Shampoo Profissional Jaborandi 4.8l Tricofacil
-    https://www.mercadolivre.com.br/p/MLB44158912
 ⭐ MLB57619995  Lápis Sobrancelha com Gel Fixador Melu By Ruby Rose
     https://www.mercadolivre.com.br/p/MLB57619995
+⭐ MLB45572007  Dacca Kit Shampoo Condicionador Hidratação Protetor Térmico
+    https://www.mercadolivre.com.br/p/MLB45572007
 ⭐ MLB28456268  Progressiva Capilar 0% Formol Orgânica 250ml Cabelos Lisos
     https://www.mercadolivre.com.br/p/MLB28456268
 ⭐ MLB75086912  Removedor Creme Extensão Cílios Funmix Aromatizado 5g Aromas
@@ -50,12 +42,22 @@ MLB19792383  Creme Para Pentear Neutrox 300ml Clássico
     https://www.mercadolivre.com.br/p/MLB19792383
 MLB25713591  Óleo capilr negra rosa/ óleo capilar rosa mosqueta/ blend de
     https://www.mercadolivre.com.br/p/MLB25713591
+MLB38926902  Primer Facial - Blur Primer Océane Edition 30ml Tom do prime
+    https://www.mercadolivre.com.br/p/MLB38926902
+MLB52322550  Dove Condicionador Hidratação + Hialuron-vit 600ml
+    https://www.mercadolivre.com.br/p/MLB52322550
 MLB52195948  Dove Condicionador Hidratação + Hialuron-vit 370ml
     https://www.mercadolivre.com.br/p/MLB52195948
 MLB39018253  Creme para pentear Vult - A Sua
     https://www.mercadolivre.com.br/p/MLB39018253
+MLB76431107  Ampola Capilar Lilyeve Com Escova Antiqueda Tratamento Capil
+    https://www.mercadolivre.com.br/p/MLB76431107
 MLB19759798  Creme Para Pentear 500ml Betobita
     https://www.mercadolivre.com.br/p/MLB19759798
+MLB37986849  Kit Maquiagem Artística Terror Slug Drácula Zumbi Halloween
+    https://www.mercadolivre.com.br/p/MLB37986849
+MLB44158912  Shampoo Profissional Jaborandi 4.8l Tricofacil
+    https://www.mercadolivre.com.br/p/MLB44158912
 MLB18940033  Creme para Pentear Hidrocauterização Pantene 240ml
     https://www.mercadolivre.com.br/p/MLB18940033
 MLB25243834  Primer Facial Efeito Lifting Phállebeauty Tom do primer Tran
@@ -76,6 +78,8 @@ MLB23658677  Baby Dove Condicionador Hidratação Glicerinada 200ml
     https://www.mercadolivre.com.br/p/MLB23658677
 MLB61954655  Rímel Vivai Máscara Cílios Preto 4D Prova D'Água 2 Steps
     https://www.mercadolivre.com.br/p/MLB61954655
+MLB53458449  Ampola Capilar Profios Power Reconstrução 15ml
+    https://www.mercadolivre.com.br/p/MLB53458449
 MLB45700521  Gel Limpeza Facial Dove Regenerative Oleosa 150ml - Unilever
     https://www.mercadolivre.com.br/p/MLB45700521
 MLB75885866  Jogo Conjunto Kit De Pincel Sombra Maquiagem 13 Peças Macio 
@@ -122,7 +126,3 @@ MLB38454411  Máscara Capilar Vult Recarga De Hidratação 250g
     https://www.mercadolivre.com.br/p/MLB38454411
 MLB20688589  Máscara capilar hidratação Intense Hydra Vitiss 500g
     https://www.mercadolivre.com.br/p/MLB20688589
-MLB39190714  Creme para pentear Seda Boom nutrição
-    https://www.mercadolivre.com.br/p/MLB39190714
-MLB45431279  Mascara Facial De Argila Verde-180g
-    https://www.mercadolivre.com.br/p/MLB45431279
