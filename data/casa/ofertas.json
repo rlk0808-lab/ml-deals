@@ -86,6 +86,23 @@
   },
   {
     "data": "2026-10-02",
+    "product_id": "MLB31049397",
+    "nome": "Jogo Cama Quadriculado Casal Toque Seda Maciez 300fios 3pçs",
+    "preco": 58.63,
+    "preco_original": 92.0,
+    "n_ofertas": 5,
+    "item_id": "MLB4457985579",
+    "seller_id": 207552680,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB31049397",
+    "mediana": 77.51,
+    "minimo_hist": 58.63,
+    "desconto": 24.4,
+    "recorde": true
+  },
+  {
+    "data": "2026-10-02",
     "product_id": "MLB65348184",
     "nome": "Jogo Talheres Faqueiro Dourado Aço Inox 24 Peças Com Maleta",
     "preco": 73.62,
@@ -99,23 +116,6 @@
     "mediana": 97.2,
     "minimo_hist": 73.62,
     "desconto": 24.3,
-    "recorde": true
-  },
-  {
-    "data": "2026-10-02",
-    "product_id": "MLB31049397",
-    "nome": "Jogo Cama Quadriculado Casal Toque Seda Maciez 300fios 3pçs",
-    "preco": 58.89,
-    "preco_original": 87.99,
-    "n_ofertas": 5,
-    "item_id": "MLB7685284982",
-    "seller_id": 486874549,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB31049397",
-    "mediana": 77.51,
-    "minimo_hist": 58.89,
-    "desconto": 24.0,
     "recorde": true
   },
   {
