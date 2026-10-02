@@ -1,6 +1,6 @@
 [
   {
-    "data": "2026-10-01",
+    "data": "2026-10-02",
     "product_id": "MLB28359057",
     "nome": "Iluminador Facial Perolado Em Bastão Intense 5,5g Boticario Tom do iluminador Dourado",
     "preco": 42.0,
@@ -17,7 +17,24 @@
     "recorde": true
   },
   {
-    "data": "2026-10-01",
+    "data": "2026-10-02",
+    "product_id": "MLB19777775",
+    "nome": "Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g",
+    "preco": 162.06,
+    "preco_original": null,
+    "n_ofertas": 10,
+    "item_id": "MLB4945098371",
+    "seller_id": 3206280754,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19777775",
+    "mediana": 239.0,
+    "minimo_hist": 162.06,
+    "desconto": 32.2,
+    "recorde": true
+  },
+  {
+    "data": "2026-10-02",
     "product_id": "MLB28456268",
     "nome": "Progressiva Capilar 0% Formol Orgânica 250ml Cabelos Lisos",
     "preco": 54.9,
@@ -34,7 +51,24 @@
     "recorde": true
   },
   {
-    "data": "2026-10-01",
+    "data": "2026-10-02",
+    "product_id": "MLB20622818",
+    "nome": "Dr.botica Creme Para Pentear 150g",
+    "preco": 59.9,
+    "preco_original": null,
+    "n_ofertas": 2,
+    "item_id": "MLB5321997889",
+    "seller_id": 291714408,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB20622818",
+    "mediana": 78.9,
+    "minimo_hist": 43.77,
+    "desconto": 24.1,
+    "recorde": false
+  },
+  {
+    "data": "2026-10-02",
     "product_id": "MLB57351161",
     "nome": "Gloss Labial Hidratação Labial Brilho Mel",
     "preco": 19.25,
@@ -51,7 +85,7 @@
     "recorde": true
   },
   {
-    "data": "2026-10-01",
+    "data": "2026-10-02",
     "product_id": "MLB10452505",
     "nome": "Máscara Cílios Mary Kay Lash Intensity Volumizador Preto 9g",
     "preco": 59.45,
@@ -68,7 +102,7 @@
     "recorde": true
   },
   {
-    "data": "2026-10-01",
+    "data": "2026-10-02",
     "product_id": "MLB67204079",
     "nome": "Ampola Capilar Macadamia Hidratação Brilho Intenso 30ml",
     "preco": 27.93,
@@ -85,7 +119,7 @@
     "recorde": true
   },
   {
-    "data": "2026-10-01",
+    "data": "2026-10-02",
     "product_id": "MLB41282770",
     "nome": "V.skin Sabonete Gel - Limpeza Facial - Óleo Essencial Vegano",
     "preco": 49.9,
@@ -102,7 +136,7 @@
     "recorde": true
   },
   {
-    "data": "2026-10-01",
+    "data": "2026-10-02",
     "product_id": "MLB61272803",
     "nome": "Máscara Capilar Hidratação Intensiva Arvensis 300g",
     "preco": 57.24,
@@ -119,7 +153,7 @@
     "recorde": false
   },
   {
-    "data": "2026-10-01",
+    "data": "2026-10-02",
     "product_id": "MLB45224574",
     "nome": "Máscara Cílios Alongadora Color Trend Super Looong Preto 7ml",
     "preco": 20.31,
@@ -136,24 +170,7 @@
     "recorde": true
   },
   {
-    "data": "2026-10-01",
-    "product_id": "MLB19777775",
-    "nome": "Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g",
-    "preco": 195.29,
-    "preco_original": null,
-    "n_ofertas": 9,
-    "item_id": "MLB4823338439",
-    "seller_id": 1203829661,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB19777775",
-    "mediana": 239.0,
-    "minimo_hist": 162.06,
-    "desconto": 18.3,
-    "recorde": false
-  },
-  {
-    "data": "2026-10-01",
+    "data": "2026-10-02",
     "product_id": "MLB57619995",
     "nome": "Lápis Sobrancelha com Gel Fixador Melu By Ruby Rose",
     "preco": 20.89,
@@ -170,7 +187,7 @@
     "recorde": true
   },
   {
-    "data": "2026-10-01",
+    "data": "2026-10-02",
     "product_id": "MLB75086912",
     "nome": "Removedor Creme Extensão Cílios Funmix Aromatizado 5g Aromas Máscara Cílios Aroma Uva Máscara para cílios aroma uva",
     "preco": 25.99,
