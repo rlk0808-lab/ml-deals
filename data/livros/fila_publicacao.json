@@ -1,26 +1,6 @@
 [
   {
     "data": "2026-10-02",
-    "product_id": "MLB68117109",
-    "nome": "Livro A Terceira Moça - Agatha Christie",
-    "preco": 23.83,
-    "preco_original": null,
-    "n_ofertas": 25,
-    "item_id": "MLB3611413611",
-    "seller_id": 638444213,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB68117109",
-    "mediana": 34.33,
-    "minimo_hist": 23.27,
-    "desconto": 30.6,
-    "recorde": false,
-    "imagem": "https://http2.mlstatic.com/D_NQ_NP_606396-MLA110518759897_042026-F.jpg",
-    "tipo": "camada1",
-    "enfileirado_em": "2026-10-02T03:08:01.688573+00:00"
-  },
-  {
-    "data": "2026-10-02",
     "product_id": "MLB68121802",
     "nome": "Box Sherlock Holmes - 4 Livros, De Doyle, Arthur Conan. Novo",
     "preco": 34.84,
