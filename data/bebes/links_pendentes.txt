@@ -4,12 +4,14 @@ Como usar: abra o link, clique em Compartilhar na barra preta de
 afiliados, copie o link gerado (meli.la/...) e cole em
 data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
-(gerado em 2026-10-02)
+(gerado em 2026-10-03)
 
 ⭐ MLB25246647  Bomba Tira-leite 2 Em 1 Unitária - Mam
     https://www.mercadolivre.com.br/p/MLB25246647
 ⭐ MLB74292232  Mamadeira Bebê Anticólica Bico Silicone 330 Ml Antivazamento
     https://www.mercadolivre.com.br/p/MLB74292232
+⭐ MLB72254053  Cercadinho Bebê Rister Baby Portátil Grande + Tapete Azul
+    https://www.mercadolivre.com.br/p/MLB72254053
 ⭐ MLB67134371  Aquecedor 3 Em 1 Esterilizador Mamadeira Chupeta Papinha Bub
     https://www.mercadolivre.com.br/p/MLB67134371
 ⭐ MLB34966407  Capa A Prova D'agua P/colchão Berço 24h
@@ -32,10 +34,10 @@ MLB35495841  Bomba tira leite materno Elétrica G-TECH - Bivolt
     https://www.mercadolivre.com.br/p/MLB35495841
 MLB19567262  Mustela Hydra creme hidratante bebê com palha orgânica
     https://www.mercadolivre.com.br/p/MLB19567262
-MLB20602424  Creme Hidratante Natura Mamãe Bebê 200ml
-    https://www.mercadolivre.com.br/p/MLB20602424
 MLB37238466  Brinquedo Atividades Buba Atomic Soft Ball Mordedor Bebê
     https://www.mercadolivre.com.br/p/MLB37238466
+MLB20602424  Creme Hidratante Natura Mamãe Bebê 200ml
+    https://www.mercadolivre.com.br/p/MLB20602424
 MLB73392239  Cercadinho Bebê C/ Tela De Proteção Infantil Cinza S/
     https://www.mercadolivre.com.br/p/MLB73392239
 MLB18397502  Creme Pomada de Assadura Lanolina e Vit B5 100g Bepantol
@@ -104,8 +106,6 @@ MLB55628809  Kit Higiene Bebê Moderno De Crochê Cor Bege
     https://www.mercadolivre.com.br/p/MLB55628809
 MLB66185468  Carrinho Bebê Move Duo Passear Bebê Conforto Nina Adaptador 
     https://www.mercadolivre.com.br/p/MLB66185468
-MLB72254053  Cercadinho Bebê Rister Baby Portátil Grande + Tapete Azul
-    https://www.mercadolivre.com.br/p/MLB72254053
 MLB43469003  Banheira Bebê Dobrável Portátil Buba Cor Cinza
     https://www.mercadolivre.com.br/p/MLB43469003
 MLB43463096  Banheira Bebê Dobrável Portátil Buba Cor Rosa
