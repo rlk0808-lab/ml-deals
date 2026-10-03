@@ -22,14 +22,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB19220755
 ⭐ MLB56693037  De férias com você (Edição especial) - Henry, Emily - Verus 
     https://www.mercadolivre.com.br/p/MLB56693037
-⭐ MLB40283255  Verity (Edição de colecionador), Colleen Hoover, Galera, Por
-    https://www.mercadolivre.com.br/p/MLB40283255
 ⭐ MLB19262571  A irmã da tempestade (as sete irmãs – livro 2) - Riley, Luci
     https://www.mercadolivre.com.br/p/MLB19262571
-⭐ MLB21082455  Cidade em chamas – Thriller de máfia com uma narrativa envol
-    https://www.mercadolivre.com.br/p/MLB21082455
+⭐ MLB40283255  Verity (Edição de colecionador), Colleen Hoover, Galera, Por
+    https://www.mercadolivre.com.br/p/MLB40283255
 ⭐ MLB60505498  Ritmo da Guerra - Sanderson, Brandon - Ediouro - Capa Mole
     https://www.mercadolivre.com.br/p/MLB60505498
+⭐ MLB21082455  Cidade em chamas – Thriller de máfia com uma narrativa envol
+    https://www.mercadolivre.com.br/p/MLB21082455
 ⭐ MLB23233133  Atlas: a história de pa salt (as sete irmãs – livro 8) - Ril
     https://www.mercadolivre.com.br/p/MLB23233133
 ⭐ MLB19262353  A irmã do sol (As Sete Irmãs – Livro 6) - Riley, Lucinda - E
@@ -38,26 +38,38 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB63908049
 ⭐ MLB19262567  As sete irmãs (As Sete Irmãs – Livro 1) - Riley, Lucinda - E
     https://www.mercadolivre.com.br/p/MLB19262567
-⭐ MLB19371524  As melhores histórias de Sherlock Holmes - Doyle, Arthur Con
-    https://www.mercadolivre.com.br/p/MLB19371524
 ⭐ MLB63501442  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
     https://www.mercadolivre.com.br/p/MLB63501442
+⭐ MLB19371524  As melhores histórias de Sherlock Holmes - Doyle, Arthur Con
+    https://www.mercadolivre.com.br/p/MLB19371524
 ⭐ MLB40647349  A contadora - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB40647349
 ⭐ MLB68307771  As coisas belas e preciosas - Yarros, Rebecca - Editora Arqu
     https://www.mercadolivre.com.br/p/MLB68307771
+⭐ MLB24095614  Corte de chamas prateadas (Vol. 5 – Edição especial) - Maas,
+    https://www.mercadolivre.com.br/p/MLB24095614
+⭐ MLB63076501  Ecos da floresta – Livro vencedor do prêmio Goodreads e elei
+    https://www.mercadolivre.com.br/p/MLB63076501
 ⭐ MLB74603027  Desconhecido - Sager, Riley - Intrínseca - Capa Mole
     https://www.mercadolivre.com.br/p/MLB74603027
 ⭐ MLB19416643  Sherlock Holmes - O Cão dos Baskerville - Doyle, Arthur Cona
     https://www.mercadolivre.com.br/p/MLB19416643
 ⭐ MLB74445340  Não se deixe enganar - Coben, Harlan - Editora Arqueiro - Ca
     https://www.mercadolivre.com.br/p/MLB74445340
-⭐ MLB24095614  Corte de chamas prateadas (Vol. 5 – Edição especial) - Maas,
-    https://www.mercadolivre.com.br/p/MLB24095614
-⭐ MLB63076501  Ecos da floresta – Livro vencedor do prêmio Goodreads e elei
-    https://www.mercadolivre.com.br/p/MLB63076501
+⭐ MLB19381441  Sinfonia dos animais - Brown, Dan - Editora Arqueiro - Capa 
+    https://www.mercadolivre.com.br/p/MLB19381441
 ⭐ MLB74807035  Box Trilogia Powerless
     https://www.mercadolivre.com.br/p/MLB74807035
+⭐ MLB47627533  Dele e Dela - Livro que inspirou o thriller de sucesso da Ne
+    https://www.mercadolivre.com.br/p/MLB47627533
+⭐ MLB66963300  A ex - McFadden, Freida - Editora Arqueiro - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB66963300
+⭐ MLB19365403  Memórias de Sherlock Holmes - Doyle, Arthur Conan - Ciranda 
+    https://www.mercadolivre.com.br/p/MLB19365403
+⭐ MLB19364780  O último caso de Sherlock Holmes - Doyle, Arthur Conan - Cir
+    https://www.mercadolivre.com.br/p/MLB19364780
+⭐ MLB69618968  Jantar sinistro - McFadden, Freida - Record - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB69618968
 ⭐ MLB19407887  Sherlock Holmes - Doyle, Sir Arthur Conan - Melhoramentos - 
     https://www.mercadolivre.com.br/p/MLB19407887
 ⭐ MLB19297709  É assim que acaba, de Colleen Hoover. Editora Galera
@@ -114,15 +126,3 @@ MLB50105619  Mistborn: O Império Final - Sanderson, Brandon - Trama - Cap
     https://www.mercadolivre.com.br/p/MLB50105619
 MLB47100376  Cidade em ruínas – Thriller de máfia e a conclusão eletrizan
     https://www.mercadolivre.com.br/p/MLB47100376
-MLB19220733  Trono de Vidro: Império de Tempestades (Vol. 5) - Maas, Sara
-    https://www.mercadolivre.com.br/p/MLB19220733
-MLB19262185  A irmã desaparecida (As Sete Irmãs – Livro 7) - Riley, Lucin
-    https://www.mercadolivre.com.br/p/MLB19262185
-MLB19220773  Trono de Vidro: Herdeira do fogo (Vol. 3) - Maas, Sarah J. -
-    https://www.mercadolivre.com.br/p/MLB19220773
-MLB19381441  Sinfonia dos animais - Brown, Dan - Editora Arqueiro - Capa 
-    https://www.mercadolivre.com.br/p/MLB19381441
-MLB19244003  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
-    https://www.mercadolivre.com.br/p/MLB19244003
-MLB47627533  Dele e Dela - Livro que inspirou o thriller de sucesso da Ne
-    https://www.mercadolivre.com.br/p/MLB47627533
