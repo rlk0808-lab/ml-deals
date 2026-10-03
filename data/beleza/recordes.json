@@ -1769,5 +1769,12 @@
     "primeiro_dia": "2026-10-02",
     "dias_total": 2,
     "_ultima_data_vista": "2026-10-03"
+  },
+  "MLB24584340": {
+    "menor_preco": 182.85,
+    "data_menor": "2026-10-03",
+    "primeiro_dia": "2026-10-03",
+    "dias_total": 1,
+    "_ultima_data_vista": "2026-10-03"
   }
 }
