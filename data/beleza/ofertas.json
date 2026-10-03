@@ -35,6 +35,23 @@
   },
   {
     "data": "2026-10-03",
+    "product_id": "MLB77616144",
+    "nome": "Serum Facial Vitamina C Gold Creamy",
+    "preco": 120.0,
+    "preco_original": null,
+    "n_ofertas": 2,
+    "item_id": "MLB5326381455",
+    "seller_id": 2952991307,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB77616144",
+    "mediana": 160.37,
+    "minimo_hist": 120.0,
+    "desconto": 25.2,
+    "recorde": true
+  },
+  {
+    "data": "2026-10-03",
     "product_id": "MLB20622818",
     "nome": "Dr.botica Creme Para Pentear 150g",
     "preco": 59.9,
@@ -116,23 +133,6 @@
     "mediana": 62.0,
     "minimo_hist": 49.9,
     "desconto": 19.5,
-    "recorde": true
-  },
-  {
-    "data": "2026-10-03",
-    "product_id": "MLB45224574",
-    "nome": "Máscara Cílios Alongadora Color Trend Super Looong Preto 7ml",
-    "preco": 20.31,
-    "preco_original": null,
-    "n_ofertas": 11,
-    "item_id": "MLB6177778770",
-    "seller_id": 686684284,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB45224574",
-    "mediana": 25.0,
-    "minimo_hist": 20.31,
-    "desconto": 18.8,
     "recorde": true
   },
   {

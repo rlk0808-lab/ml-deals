@@ -8,6 +8,16 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 ⭐ MLB57331529  Creme Para Pentear Cachos Ostentação 1kg
     https://www.mercadolivre.com.br/p/MLB57331529
+⭐ MLB19793280  Seda Creme Para Pentear Ceramidas 300ml
+    https://www.mercadolivre.com.br/p/MLB19793280
+⭐ MLB25708443  Essential - Condicionador Hidratação e Reparação 1L
+    https://www.mercadolivre.com.br/p/MLB25708443
+⭐ MLB55889196  Óleo Capilar Nutrição 60ml Hidratei
+    https://www.mercadolivre.com.br/p/MLB55889196
+⭐ MLB74847576  GLOSS FRANCINY EHLKE FRANBOESA LIP GLOSS LABIAL
+    https://www.mercadolivre.com.br/p/MLB74847576
+⭐ MLB25243834  Primer Facial Efeito Lifting Phállebeauty Tom do primer Tran
+    https://www.mercadolivre.com.br/p/MLB25243834
 ⭐ MLB57619995  Lápis Sobrancelha com Gel Fixador Melu By Ruby Rose
     https://www.mercadolivre.com.br/p/MLB57619995
 ⭐ MLB28456268  Progressiva Capilar 0% Formol Orgânica 250ml Cabelos Lisos
@@ -16,18 +26,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB75086912
 ⭐ MLB61744963  Óleo Capilar Oil Reflections 30ml
     https://www.mercadolivre.com.br/p/MLB61744963
+⭐ MLB77616144  Serum Facial Vitamina C Gold Creamy
+    https://www.mercadolivre.com.br/p/MLB77616144
 ⭐ MLB67204079  Ampola Capilar Macadamia Hidratação Brilho Intenso 30ml
     https://www.mercadolivre.com.br/p/MLB67204079
 ⭐ MLB41282770  V.skin Sabonete Gel - Limpeza Facial - Óleo Essencial Vegano
     https://www.mercadolivre.com.br/p/MLB41282770
-MLB19793280  Seda Creme Para Pentear Ceramidas 300ml
-    https://www.mercadolivre.com.br/p/MLB19793280
-MLB25708443  Essential - Condicionador Hidratação e Reparação 1L
-    https://www.mercadolivre.com.br/p/MLB25708443
-MLB55889196  Óleo Capilar Nutrição 60ml Hidratei
-    https://www.mercadolivre.com.br/p/MLB55889196
-MLB74847576  GLOSS FRANCINY EHLKE FRANBOESA LIP GLOSS LABIAL
-    https://www.mercadolivre.com.br/p/MLB74847576
 MLB78815971  Madagascar Centella ton iluminando Gel Limpeza espuma 125m
     https://www.mercadolivre.com.br/p/MLB78815971
 MLB19792383  Creme Para Pentear Neutrox 300ml Clássico
@@ -56,8 +60,6 @@ MLB44158912  Shampoo Profissional Jaborandi 4.8l Tricofacil
     https://www.mercadolivre.com.br/p/MLB44158912
 MLB18940033  Creme para Pentear Hidrocauterização Pantene 240ml
     https://www.mercadolivre.com.br/p/MLB18940033
-MLB25243834  Primer Facial Efeito Lifting Phállebeauty Tom do primer Tran
-    https://www.mercadolivre.com.br/p/MLB25243834
 MLB19922487  Condicionador Hidratação Impacto 500ml Midori Profissional
     https://www.mercadolivre.com.br/p/MLB19922487
 MLB39318055  Kit Maquiagem Terror Halloween Zumbi Carnaval Cosplay Slug M
@@ -124,5 +126,3 @@ MLB66170731  Pó compacto iluminador facial em ouro rosa
     https://www.mercadolivre.com.br/p/MLB66170731
 MLB38454411  Máscara Capilar Vult Recarga De Hidratação 250g
     https://www.mercadolivre.com.br/p/MLB38454411
-MLB39190714  Creme para pentear Seda Boom nutrição
-    https://www.mercadolivre.com.br/p/MLB39190714
