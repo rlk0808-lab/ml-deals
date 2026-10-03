@@ -54,17 +54,17 @@
     "data": "2026-10-03",
     "product_id": "MLB19395937",
     "nome": "Livro Sharp Objects Objetos Cortantes Gillian Flynn",
-    "preco": 69.52,
+    "preco": 63.93,
     "preco_original": null,
-    "n_ofertas": 49,
-    "item_id": "MLB5188730614",
-    "seller_id": 1638319693,
+    "n_ofertas": 50,
+    "item_id": "MLB3652679837",
+    "seller_id": 643626876,
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB19395937",
     "mediana": 114.9,
     "minimo_hist": 32.0,
-    "desconto": 39.5,
+    "desconto": 44.4,
     "recorde": false
   },
   {
@@ -266,9 +266,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB19297709",
-    "mediana": 39.9,
+    "mediana": 39.67,
     "minimo_hist": 27.94,
-    "desconto": 30.0,
+    "desconto": 29.6,
     "recorde": true
   },
   {
@@ -491,6 +491,23 @@
     "minimo_hist": 187.65,
     "desconto": 17.4,
     "recorde": true
+  },
+  {
+    "data": "2026-10-03",
+    "product_id": "MLB74807035",
+    "nome": "Box Trilogia Powerless",
+    "preco": 172.73,
+    "preco_original": 249.9,
+    "n_ofertas": 84,
+    "item_id": "MLB7083943968",
+    "seller_id": 480263032,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB74807035",
+    "mediana": 209.0,
+    "minimo_hist": 171.0,
+    "desconto": 17.4,
+    "recorde": false
   },
   {
     "data": "2026-10-03",
