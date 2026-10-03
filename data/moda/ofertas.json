@@ -1,6 +1,23 @@
 [
   {
-    "data": "2026-10-02",
+    "data": "2026-10-03",
+    "product_id": "MLB75798851",
+    "nome": "Kit 2x Camiseta Básica Unissex Algodão 100% Peruano Básica Masculina Algodão Pima Blusa Premium Lisa M",
+    "preco": 60.0,
+    "preco_original": null,
+    "n_ofertas": 3,
+    "item_id": "MLB5326204829",
+    "seller_id": 828010699,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB75798851",
+    "mediana": 89.9,
+    "minimo_hist": 60.0,
+    "desconto": 33.3,
+    "recorde": true
+  },
+  {
+    "data": "2026-10-03",
     "product_id": "MLB74068078",
     "nome": "Kit Meia Multi Esportes E Meião Cortado Vistho Preto Tamanho 39/43",
     "preco": 47.08,
@@ -17,7 +34,7 @@
     "recorde": true
   },
   {
-    "data": "2026-10-02",
+    "data": "2026-10-03",
     "product_id": "MLB62841397",
     "nome": "Tênis Feminino Casual Moleca",
     "preco": 74.3,
@@ -34,7 +51,7 @@
     "recorde": true
   },
   {
-    "data": "2026-10-02",
+    "data": "2026-10-03",
     "product_id": "MLB62841398",
     "nome": "Tênis Feminino Casual Moleca",
     "preco": 74.3,
