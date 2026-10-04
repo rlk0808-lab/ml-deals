@@ -103,23 +103,6 @@
   },
   {
     "data": "2026-10-04",
-    "product_id": "MLB62020136",
-    "nome": "Canguru Sling De Bebe Carregar Recem Nascido Cinza G - Marca DE CORAZÓN",
-    "preco": 57.9,
-    "preco_original": 100.0,
-    "n_ofertas": 2,
-    "item_id": "MLB6970007440",
-    "seller_id": 655311721,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB62020136",
-    "mediana": 74.0,
-    "minimo_hist": 32.9,
-    "desconto": 21.8,
-    "recorde": false
-  },
-  {
-    "data": "2026-10-04",
     "product_id": "MLB73668889",
     "nome": "Kit 3 Prendedor De Chupeta Bebê Menino Marinheiro Angu Bebê",
     "preco": 56.99,
@@ -201,6 +184,23 @@
     "mediana": 43.47,
     "minimo_hist": 36.0,
     "desconto": 17.2,
+    "recorde": true
+  },
+  {
+    "data": "2026-10-04",
+    "product_id": "MLB28760774",
+    "nome": "Buba, Brinquedo Educativo Phone Bilíngue - Unicórnio",
+    "preco": 42.0,
+    "preco_original": null,
+    "n_ofertas": 12,
+    "item_id": "MLB7195447582",
+    "seller_id": 749992327,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB28760774",
+    "mediana": 50.5,
+    "minimo_hist": 42.0,
+    "desconto": 16.8,
     "recorde": true
   },
   {
