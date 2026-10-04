@@ -34,38 +34,30 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB23233133
 ⭐ MLB63908049  Ponto de impacto - Brown, Dan - Editora Arqueiro - Capa Mole
     https://www.mercadolivre.com.br/p/MLB63908049
+⭐ MLB74603027  Desconhecido - Sager, Riley - Intrínseca - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB74603027
 ⭐ MLB19262567  As sete irmãs (As Sete Irmãs – Livro 1) - Riley, Lucinda - E
     https://www.mercadolivre.com.br/p/MLB19262567
 ⭐ MLB63501442  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
     https://www.mercadolivre.com.br/p/MLB63501442
-⭐ MLB74603027  Desconhecido - Sager, Riley - Intrínseca - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB74603027
 ⭐ MLB40647349  A contadora - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB40647349
 ⭐ MLB68307771  As coisas belas e preciosas - Yarros, Rebecca - Editora Arqu
     https://www.mercadolivre.com.br/p/MLB68307771
+⭐ MLB74445340  Não se deixe enganar - Coben, Harlan - Editora Arqueiro - Ca
+    https://www.mercadolivre.com.br/p/MLB74445340
 ⭐ MLB24095614  Corte de chamas prateadas (Vol. 5 – Edição especial) - Maas,
     https://www.mercadolivre.com.br/p/MLB24095614
 ⭐ MLB63076501  Ecos da floresta – Livro vencedor do prêmio Goodreads e elei
     https://www.mercadolivre.com.br/p/MLB63076501
 ⭐ MLB19416643  Sherlock Holmes - O Cão dos Baskerville - Doyle, Arthur Cona
     https://www.mercadolivre.com.br/p/MLB19416643
-⭐ MLB74445340  Não se deixe enganar - Coben, Harlan - Editora Arqueiro - Ca
-    https://www.mercadolivre.com.br/p/MLB74445340
 ⭐ MLB19371524  As melhores histórias de Sherlock Holmes - Doyle, Arthur Con
     https://www.mercadolivre.com.br/p/MLB19371524
 ⭐ MLB19381441  Sinfonia dos animais - Brown, Dan - Editora Arqueiro - Capa 
     https://www.mercadolivre.com.br/p/MLB19381441
 ⭐ MLB19365403  Memórias de Sherlock Holmes - Doyle, Arthur Conan - Ciranda 
     https://www.mercadolivre.com.br/p/MLB19365403
-⭐ MLB47627533  Dele e Dela - Livro que inspirou o thriller de sucesso da Ne
-    https://www.mercadolivre.com.br/p/MLB47627533
-⭐ MLB69618968  Jantar sinistro - McFadden, Freida - Record - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB69618968
-⭐ MLB66963300  A ex - McFadden, Freida - Editora Arqueiro - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB66963300
-⭐ MLB19364780  O último caso de Sherlock Holmes - Doyle, Arthur Conan - Cir
-    https://www.mercadolivre.com.br/p/MLB19364780
 ⭐ MLB19407887  Sherlock Holmes - Doyle, Sir Arthur Conan - Melhoramentos - 
     https://www.mercadolivre.com.br/p/MLB19407887
 ⭐ MLB62060063  Box Sherlock Holmes – Obra completa (Capa brochura) - Doyle,
@@ -78,6 +70,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB19744860
 ⭐ MLB19301929  Livro Coração de Aço, de Sanderson, Brandon, vol. 1. Editori
     https://www.mercadolivre.com.br/p/MLB19301929
+⭐ MLB71604003  Livro Desencantos: Fantasia Dramática
+    https://www.mercadolivre.com.br/p/MLB71604003
 ⭐ MLB19243683  Um passo em falso (myron bolitar – livro 5) - Coben, Harlan 
     https://www.mercadolivre.com.br/p/MLB19243683
 ⭐ MLB71810455  365 Hábitos Simples E Poderosos - Livro Planner
@@ -88,8 +82,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB19238261
 ⭐ MLB22101664  Livro Empreendedorismo Transformando Ideias Em Negócios, 9ª 
     https://www.mercadolivre.com.br/p/MLB22101664
-⭐ MLB32149809  Box - Sherlock Holmes - com 10 livros - Doyle, Arthur Conan 
-    https://www.mercadolivre.com.br/p/MLB32149809
 ⭐ MLB21683440  Sherlock Holmes - Um Estudo em Vermelho - Doyle, Arthur Cona
     https://www.mercadolivre.com.br/p/MLB21683440
 ⭐ MLB20685650  Box De Luxo 6 Livros Sherlock Holmes - Arthur Conan Doyle - 
@@ -126,3 +118,11 @@ MLB47100376  Cidade em ruínas – Thriller de máfia e a conclusão eletrizan
     https://www.mercadolivre.com.br/p/MLB47100376
 MLB19262185  A irmã desaparecida (As Sete Irmãs – Livro 7) - Riley, Lucin
     https://www.mercadolivre.com.br/p/MLB19262185
+MLB19220773  Trono de Vidro: Herdeira do fogo (Vol. 3) - Maas, Sarah J. -
+    https://www.mercadolivre.com.br/p/MLB19220773
+MLB50105619  Mistborn: O Império Final - Sanderson, Brandon - Trama - Cap
+    https://www.mercadolivre.com.br/p/MLB50105619
+MLB47627533  Dele e Dela - Livro que inspirou o thriller de sucesso da Ne
+    https://www.mercadolivre.com.br/p/MLB47627533
+MLB23833503  De férias com você - Henry, Emily - Verus - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB23833503
