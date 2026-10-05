@@ -6,6 +6,16 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 (gerado em 2026-10-05)
 
+⭐ MLB57331529  Creme Para Pentear Cachos Ostentação 1kg
+    https://www.mercadolivre.com.br/p/MLB57331529
+⭐ MLB19793280  Seda Creme Para Pentear Ceramidas 300ml
+    https://www.mercadolivre.com.br/p/MLB19793280
+⭐ MLB25708443  Essential - Condicionador Hidratação e Reparação 1L
+    https://www.mercadolivre.com.br/p/MLB25708443
+⭐ MLB55889196  Óleo Capilar Nutrição 60ml Hidratei
+    https://www.mercadolivre.com.br/p/MLB55889196
+⭐ MLB74847576  GLOSS FRANCINY EHLKE FRANBOESA LIP GLOSS LABIAL
+    https://www.mercadolivre.com.br/p/MLB74847576
 ⭐ MLB25243834  Primer Facial Efeito Lifting Phállebeauty Tom do primer Tran
     https://www.mercadolivre.com.br/p/MLB25243834
 ⭐ MLB57619995  Lápis Sobrancelha com Gel Fixador Melu By Ruby Rose
@@ -24,18 +34,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB67204079
 ⭐ MLB41282770  V.skin Sabonete Gel - Limpeza Facial - Óleo Essencial Vegano
     https://www.mercadolivre.com.br/p/MLB41282770
-MLB57331529  Creme Para Pentear Cachos Ostentação 1kg
-    https://www.mercadolivre.com.br/p/MLB57331529
-MLB19793280  Seda Creme Para Pentear Ceramidas 300ml
-    https://www.mercadolivre.com.br/p/MLB19793280
-MLB25708443  Essential - Condicionador Hidratação e Reparação 1L
-    https://www.mercadolivre.com.br/p/MLB25708443
-MLB55889196  Óleo Capilar Nutrição 60ml Hidratei
-    https://www.mercadolivre.com.br/p/MLB55889196
 MLB78815971  Madagascar Centella ton iluminando Gel Limpeza espuma 125m
     https://www.mercadolivre.com.br/p/MLB78815971
-MLB74847576  GLOSS FRANCINY EHLKE FRANBOESA LIP GLOSS LABIAL
-    https://www.mercadolivre.com.br/p/MLB74847576
 MLB19792383  Creme Para Pentear Neutrox 300ml Clássico
     https://www.mercadolivre.com.br/p/MLB19792383
 MLB44152943  Progressiva Organic + Difusão Capilar + Tônico Milagroso
@@ -76,6 +76,8 @@ MLB52322550  Dove Condicionador Hidratação + Hialuron-vit 600ml
     https://www.mercadolivre.com.br/p/MLB52322550
 MLB20871191  Creme Para Pentear Fortalecimento Antiqueda Reconstrutor
     https://www.mercadolivre.com.br/p/MLB20871191
+MLB19777775  Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g
+    https://www.mercadolivre.com.br/p/MLB19777775
 MLB66831597  4you Primer Facial 30ml - Océane 4you Primer Facial
     https://www.mercadolivre.com.br/p/MLB66831597
 MLB23658677  Baby Dove Condicionador Hidratação Glicerinada 200ml
@@ -98,12 +100,8 @@ MLB20905076  Capicilin - Creme Para Pentear Hairpantol 300ml
     https://www.mercadolivre.com.br/p/MLB20905076
 MLB26217349  Primer Facial Hd Fenzza Pr63
     https://www.mercadolivre.com.br/p/MLB26217349
-MLB19777775  Creme Anti-idade Adcos Hyalu6 Área Olhos - 15g
-    https://www.mercadolivre.com.br/p/MLB19777775
 MLB45788065  Kit 03 Leave-In Capilar Kannep Embaixador 200ml | Antifrizz,
     https://www.mercadolivre.com.br/p/MLB45788065
-MLB75872681  O Boticário Lily Sérum Leave-in Capilar 100ml
-    https://www.mercadolivre.com.br/p/MLB75872681
 MLB45861520  Máscara Cílios Make More Up Black Plump Preto Volumizador
     https://www.mercadolivre.com.br/p/MLB45861520
 MLB51343178  Creme Para Pentear Crespos Empoderados Avon
@@ -116,8 +114,6 @@ MLB60725179  Leave-in Capilar Bb Cream 10 Benefícios 100ml Reparador Abso
     https://www.mercadolivre.com.br/p/MLB60725179
 MLB70222514  Kit 3x500ml Gel Limpeza Facial Vitalizy Pele Oleosa Acneica
     https://www.mercadolivre.com.br/p/MLB70222514
-MLB59312933  Jogo Conjunto Kit De Pincel Sombra Maquiagem 13 Peças Macio 
-    https://www.mercadolivre.com.br/p/MLB59312933
 MLB74974187  NIINA SECR MASCARA CILIOS SUPER BOLD 10G
     https://www.mercadolivre.com.br/p/MLB74974187
 MLB22950786  Máscara Cílios Safira Incolor Modeladora Efeito Boneca 7ml
@@ -126,3 +122,7 @@ MLB25741623  Palito Plana Silicone Belliz Company Remoção Excesso Esmalte
     https://www.mercadolivre.com.br/p/MLB25741623
 MLB39768110  Primer Facial - Blur Primer Océane Edition 30ml
     https://www.mercadolivre.com.br/p/MLB39768110
+MLB38454411  Máscara Capilar Vult Recarga De Hidratação 250g
+    https://www.mercadolivre.com.br/p/MLB38454411
+MLB39190714  Creme para pentear Seda Boom nutrição
+    https://www.mercadolivre.com.br/p/MLB39190714
