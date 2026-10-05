@@ -6,6 +6,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 (gerado em 2026-10-05)
 
+⭐ MLB39979760  Box Collen Hoover
+    https://www.mercadolivre.com.br/p/MLB39979760
+⭐ MLB50105638  Mistborn: O Poço da Ascensão - Sanderson, Brandon - Trama - 
+    https://www.mercadolivre.com.br/p/MLB50105638
+⭐ MLB42934246  Sacramentadora - Sanderson, Brandon - Trama - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB42934246
 ⭐ MLB19416643  Sherlock Holmes - O Cão dos Baskerville - Doyle, Arthur Cona
     https://www.mercadolivre.com.br/p/MLB19416643
 ⭐ MLB19407887  Sherlock Holmes - Doyle, Sir Arthur Conan - Melhoramentos - 
@@ -50,12 +56,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB30054469
 ⭐ MLB21423113  Box Sherlock Holmes - Caixa - 4 Livros - Arthur Conan Doyle
     https://www.mercadolivre.com.br/p/MLB21423113
-MLB39979760  Box Collen Hoover
-    https://www.mercadolivre.com.br/p/MLB39979760
-MLB50105638  Mistborn: O Poço da Ascensão - Sanderson, Brandon - Trama - 
-    https://www.mercadolivre.com.br/p/MLB50105638
-MLB42934246  Sacramentadora - Sanderson, Brandon - Trama - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB42934246
 MLB68282862  O homem iluminado - Sanderson, Brandon - Trama - Capa Dura
     https://www.mercadolivre.com.br/p/MLB68282862
 MLB46039067  Tempestade de Ônix - Yarros, Rebecca - Planeta Minotauro - C
@@ -122,7 +122,7 @@ MLB69618968  Jantar sinistro - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB69618968
 MLB66963300  A ex - McFadden, Freida - Editora Arqueiro - Capa Mole
     https://www.mercadolivre.com.br/p/MLB66963300
+MLB19238939  Coleção Agatha Christie - Box 1 - Christie, Agatha - HarperC
+    https://www.mercadolivre.com.br/p/MLB19238939
 MLB19371524  As melhores histórias de Sherlock Holmes - Doyle, Arthur Con
     https://www.mercadolivre.com.br/p/MLB19371524
-MLB19365403  Memórias de Sherlock Holmes - Doyle, Arthur Conan - Ciranda 
-    https://www.mercadolivre.com.br/p/MLB19365403
