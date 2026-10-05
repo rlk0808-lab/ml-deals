@@ -256,6 +256,23 @@
   },
   {
     "data": "2026-10-05",
+    "product_id": "MLB19290444",
+    "nome": "Livro Finanças... Simples assim!, de Desai, Mihir A.. Editora Alta Books, mole, en português (2020)",
+    "preco": 78.99,
+    "preco_original": null,
+    "n_ofertas": 5,
+    "item_id": "MLB3413806563",
+    "seller_id": 726732468,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19290444",
+    "mediana": 108.06,
+    "minimo_hist": 78.99,
+    "desconto": 26.9,
+    "recorde": true
+  },
+  {
+    "data": "2026-10-05",
     "product_id": "MLB66305472",
     "nome": "Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, Vol. 1. Editora Editora Planeta Do Brasil, Capa Dura (2026)",
     "preco": 57.61,
