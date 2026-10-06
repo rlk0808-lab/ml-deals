@@ -6,8 +6,16 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
 (gerado em 2026-10-06)
 
+⭐ MLB39979760  Box Collen Hoover
+    https://www.mercadolivre.com.br/p/MLB39979760
+⭐ MLB50105638  Mistborn: O Poço da Ascensão - Sanderson, Brandon - Trama - 
+    https://www.mercadolivre.com.br/p/MLB50105638
+⭐ MLB68282862  O homem iluminado - Sanderson, Brandon - Trama - Capa Dura
+    https://www.mercadolivre.com.br/p/MLB68282862
 ⭐ MLB46039067  Tempestade de Ônix - Yarros, Rebecca - Planeta Minotauro - C
     https://www.mercadolivre.com.br/p/MLB46039067
+⭐ MLB19220755  Trono de Vidro: Reino de Cinzas (Vol. 6) - Maas, Sarah J. - 
+    https://www.mercadolivre.com.br/p/MLB19220755
 ⭐ MLB19416643  Sherlock Holmes - O Cão dos Baskerville - Doyle, Arthur Cona
     https://www.mercadolivre.com.br/p/MLB19416643
 ⭐ MLB19407887  Sherlock Holmes - Doyle, Sir Arthur Conan - Melhoramentos - 
@@ -48,20 +56,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB67040736
 ⭐ MLB30054469  Gone Girl, De Gillian Flynn. Editora Random House Em Inglês
     https://www.mercadolivre.com.br/p/MLB30054469
+⭐ MLB59401699  O Império Final | O Poço Da Ascensão | O Herói Das Eras, De 
+    https://www.mercadolivre.com.br/p/MLB59401699
 ⭐ MLB68556115  Livro - Quincas Borba - Machado De Assis
     https://www.mercadolivre.com.br/p/MLB68556115
 ⭐ MLB21423113  Box Sherlock Holmes - Caixa - 4 Livros - Arthur Conan Doyle
     https://www.mercadolivre.com.br/p/MLB21423113
-MLB39979760  Box Collen Hoover
-    https://www.mercadolivre.com.br/p/MLB39979760
-MLB50105638  Mistborn: O Poço da Ascensão - Sanderson, Brandon - Trama - 
-    https://www.mercadolivre.com.br/p/MLB50105638
-MLB68282862  O homem iluminado - Sanderson, Brandon - Trama - Capa Dura
-    https://www.mercadolivre.com.br/p/MLB68282862
 MLB50105423  Mistborn: O Herói das Eras - Sanderson, Brandon - Trama - Ca
     https://www.mercadolivre.com.br/p/MLB50105423
-MLB19220755  Trono de Vidro: Reino de Cinzas (Vol. 6) - Maas, Sarah J. - 
-    https://www.mercadolivre.com.br/p/MLB19220755
 MLB42934246  Sacramentadora - Sanderson, Brandon - Trama - Capa Mole
     https://www.mercadolivre.com.br/p/MLB42934246
 MLB50586617  Leitura de verão (edição especial) - Henry, Emily - Grupo Ed
@@ -124,5 +126,3 @@ MLB73960652  Quarta asa - Yarros, Rebecca - Planeta Minotauro - Capa Mole
     https://www.mercadolivre.com.br/p/MLB73960652
 MLB65917466  Sem volta - Henry, Emily - Verus - Capa Mole
     https://www.mercadolivre.com.br/p/MLB65917466
-MLB74603027  Desconhecido - Sager, Riley - Intrínseca - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB74603027

@@ -107,7 +107,7 @@
     "nome": "Coleção Agatha Christie box 8 de Christie Agatha editorial HarperCollins Brasil português 2017",
     "preco": 45.0,
     "preco_original": null,
-    "n_ofertas": 77,
+    "n_ofertas": 76,
     "item_id": "MLB4980897475",
     "seller_id": 329431248,
     "frete_gratis": true,
@@ -239,23 +239,6 @@
   },
   {
     "data": "2026-10-06",
-    "product_id": "MLB66305472",
-    "nome": "Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, Vol. 1. Editora Editora Planeta Do Brasil, Capa Dura (2026)",
-    "preco": 56.79,
-    "preco_original": null,
-    "n_ofertas": 47,
-    "item_id": "MLB6590663792",
-    "seller_id": 783089333,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB66305472",
-    "mediana": 77.68,
-    "minimo_hist": 52.1,
-    "desconto": 26.9,
-    "recorde": false
-  },
-  {
-    "data": "2026-10-06",
     "product_id": "MLB19243672",
     "nome": "Livro Fique comigo de Harlan Coben Editora Arqueiro Capa mole em português 2021",
     "preco": 45.0,
@@ -270,6 +253,23 @@
     "minimo_hist": 45.0,
     "desconto": 24.9,
     "recorde": true
+  },
+  {
+    "data": "2026-10-06",
+    "product_id": "MLB66305472",
+    "nome": "Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, Vol. 1. Editora Editora Planeta Do Brasil, Capa Dura (2026)",
+    "preco": 57.61,
+    "preco_original": null,
+    "n_ofertas": 47,
+    "item_id": "MLB5226111319",
+    "seller_id": 3354235929,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB66305472",
+    "mediana": 76.3,
+    "minimo_hist": 52.1,
+    "desconto": 24.5,
+    "recorde": false
   },
   {
     "data": "2026-10-06",
@@ -317,9 +317,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB19218126",
-    "mediana": 111.96,
+    "mediana": 111.82,
     "minimo_hist": 66.45,
-    "desconto": 21.5,
+    "desconto": 21.4,
     "recorde": false
   },
   {
@@ -491,6 +491,23 @@
     "minimo_hist": 101.59,
     "desconto": 16.1,
     "recorde": false
+  },
+  {
+    "data": "2026-10-06",
+    "product_id": "MLB59401699",
+    "nome": "O Império Final | O Poço Da Ascensão | O Herói Das Eras, De Brandon Sanderson, Vol. 3. Editora Trama, Capa Mole (2025)",
+    "preco": 260.0,
+    "preco_original": 312.99,
+    "n_ofertas": 3,
+    "item_id": "MLB4243968239",
+    "seller_id": 54564251,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB59401699",
+    "mediana": 307.48,
+    "minimo_hist": 260.0,
+    "desconto": 15.4,
+    "recorde": true
   },
   {
     "data": "2026-10-06",
