@@ -14,20 +14,22 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB66732775
 ⭐ MLB22360554  Panela Pressão Ferro 19cm Cabo Madeira Panela Mineira Preto
     https://www.mercadolivre.com.br/p/MLB22360554
-⭐ MLB69344144  Faqueiro Jogo Talheres 16 Peças Inox Garfo Faca Colher Inox
-    https://www.mercadolivre.com.br/p/MLB69344144
 ⭐ MLB39997355  Kit C/ 4 Potes Herméticos Alimentos Organizador Bambu 340ml
     https://www.mercadolivre.com.br/p/MLB39997355
 ⭐ MLB26532285  Organizador De Carro Encosto Banco Porta Trecos E Tablet Mul
     https://www.mercadolivre.com.br/p/MLB26532285
 ⭐ MLB76028542  Potes Herméticos Kit 7 Para Organizar Mantimentos Cozinha Pr
     https://www.mercadolivre.com.br/p/MLB76028542
+⭐ MLB69344144  Faqueiro Jogo Talheres 16 Peças Inox Garfo Faca Colher Inox
+    https://www.mercadolivre.com.br/p/MLB69344144
 ⭐ MLB68943864  Jogo Toalhas De Banho Grossa 2 Peças Fio Penteado Pádova
     https://www.mercadolivre.com.br/p/MLB68943864
 ⭐ MLB28854830  Organizador Cozinha Suspenso Andorinha Pingoo.casa Dourado D
     https://www.mercadolivre.com.br/p/MLB28854830
 ⭐ MLB53539157  Jogo Talheres Tramontina Inox + Pote Multiuso 20 Pçs Cor Cin
     https://www.mercadolivre.com.br/p/MLB53539157
+MLB74301911  Sanduicheira Grill Elétrica
+    https://www.mercadolivre.com.br/p/MLB74301911
 MLB29279084  Cortina Blackout Cortina Bloquedora De Claridade Cortina De 
     https://www.mercadolivre.com.br/p/MLB29279084
 MLB29118990  Jogo Toalhas Gigante 5pçs Fio Penteado Algodão Egípcio
@@ -44,8 +46,12 @@ MLB24705160  Jogo Copos Vidro Dubai Long Drink Água 480ml Nadir 6 Peças
     https://www.mercadolivre.com.br/p/MLB24705160
 MLB66619459  Kit Organizador para Gaveta com 4 Unidades, em TNT Bege
     https://www.mercadolivre.com.br/p/MLB66619459
+MLB29371667  Kit Potes Porta Mantimento Hermético Quadrado Cozinha 12 Uni
+    https://www.mercadolivre.com.br/p/MLB29371667
 MLB53057773  Jogo Taças Vidro Dourado 200ml 4 Peças Haüskraft Granatta
     https://www.mercadolivre.com.br/p/MLB53057773
+MLB76828753  Potes Herméticos Mantimentos Cozinha Kit 15 Tampa Trava Casa
+    https://www.mercadolivre.com.br/p/MLB76828753
 MLB76038973  Panela Ferro Fundido Esmaltado Premium Creme P/ Fogões Creme
     https://www.mercadolivre.com.br/p/MLB76038973
 MLB75087991  Jogo Talheres 12 Peças Inox Fratelli Elegante Moderno Rosa C
@@ -70,8 +76,6 @@ MLB60085180  Jogo Tapetes Banheiro Antiderrapante Cinza Jolitex Delicato
     https://www.mercadolivre.com.br/p/MLB60085180
 MLB74694174  Kit Potes Porta Mantimento Hermético Quadrado Cozinha 6 Pçs
     https://www.mercadolivre.com.br/p/MLB74694174
-MLB23982193  Sanduicheira Grill Best
-    https://www.mercadolivre.com.br/p/MLB23982193
 MLB38457093  Sanduicheira Grill Chapa Elétrica Preta Acabamento Inox Cor 
     https://www.mercadolivre.com.br/p/MLB38457093
 MLB58984205  Jogo Panelas Indução Antiaderente Cerâmica Manhattan 5 Peças
@@ -108,6 +112,8 @@ MLB54472297  Edredom Casal Altenburg Blend Elegance Coliseum
     https://www.mercadolivre.com.br/p/MLB54472297
 MLB44214708  Prateleira Parede Tripla Ferro Madeira Multiuso Cozinha Cor 
     https://www.mercadolivre.com.br/p/MLB44214708
+MLB23982193  Sanduicheira Grill Best
+    https://www.mercadolivre.com.br/p/MLB23982193
 MLB47787881  Sanduicheira Grill Elétrica Antiaderente Sumay para 2 Sanduí
     https://www.mercadolivre.com.br/p/MLB47787881
 MLB29043753  Jogo Copos De Vidro Diamond Fio De Ouro 270ml 12 Peças Lyor
@@ -120,9 +126,3 @@ MLB28857262  Tulha Aramada Deslizante Cesto Roupa Suja Inox Lavanderia Ba
     https://www.mercadolivre.com.br/p/MLB28857262
 MLB65523019  Jogo Cama Casal Essencial Lavanda 250 Fios Branco Lyor
     https://www.mercadolivre.com.br/p/MLB65523019
-MLB66986892  Jogo Copos Vidro Dubai Long Drink Água 480ml Nadir 12 Peças
-    https://www.mercadolivre.com.br/p/MLB66986892
-MLB61203755  Sanduicheira Grill Elétrica 750w Dupla Antiaderente Sa Black
-    https://www.mercadolivre.com.br/p/MLB61203755
-MLB75921690  Sanduicheira Grill Elétrica Antiaderente Lanche Rápido 800w 
-    https://www.mercadolivre.com.br/p/MLB75921690
