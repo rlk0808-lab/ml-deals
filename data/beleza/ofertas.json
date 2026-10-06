@@ -1,6 +1,23 @@
 [
   {
     "data": "2026-10-06",
+    "product_id": "MLB39018253",
+    "nome": "Creme para pentear Vult - A Sua",
+    "preco": 16.22,
+    "preco_original": 50.04,
+    "n_ofertas": 7,
+    "item_id": "MLB5144703765",
+    "seller_id": 179105330,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB39018253",
+    "mediana": 34.05,
+    "minimo_hist": 16.22,
+    "desconto": 52.4,
+    "recorde": true
+  },
+  {
+    "data": "2026-10-06",
     "product_id": "MLB28456268",
     "nome": "Progressiva Capilar 0% Formol Orgânica 250ml Cabelos Lisos",
     "preco": 54.9,
@@ -82,23 +99,6 @@
     "mediana": 62.0,
     "minimo_hist": 49.9,
     "desconto": 19.5,
-    "recorde": true
-  },
-  {
-    "data": "2026-10-06",
-    "product_id": "MLB52965346",
-    "nome": "Kit Shampoo+ Condicionador+ Hidratação+fluido Escova-trivitt",
-    "preco": 157.7,
-    "preco_original": null,
-    "n_ofertas": 3,
-    "item_id": "MLB5310641587",
-    "seller_id": 3401365425,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB52965346",
-    "mediana": 189.52,
-    "minimo_hist": 157.7,
-    "desconto": 16.8,
     "recorde": true
   },
   {
