@@ -12,6 +12,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB57626638
 ⭐ MLB66732775  Potes Herméticos Redondos de Inox com Tampa
     https://www.mercadolivre.com.br/p/MLB66732775
+⭐ MLB29279084  Cortina Blackout Cortina Bloquedora De Claridade Cortina De 
+    https://www.mercadolivre.com.br/p/MLB29279084
 ⭐ MLB22360554  Panela Pressão Ferro 19cm Cabo Madeira Panela Mineira Preto
     https://www.mercadolivre.com.br/p/MLB22360554
 ⭐ MLB39997355  Kit C/ 4 Potes Herméticos Alimentos Organizador Bambu 340ml
@@ -30,12 +32,10 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB53539157
 MLB74301911  Sanduicheira Grill Elétrica
     https://www.mercadolivre.com.br/p/MLB74301911
-MLB29279084  Cortina Blackout Cortina Bloquedora De Claridade Cortina De 
-    https://www.mercadolivre.com.br/p/MLB29279084
-MLB29118990  Jogo Toalhas Gigante 5pçs Fio Penteado Algodão Egípcio
-    https://www.mercadolivre.com.br/p/MLB29118990
 MLB68652440  Jogo Panelas Cerâmica Antiaderente 05 Pçs Tampa Vidro Bege
     https://www.mercadolivre.com.br/p/MLB68652440
+MLB29118990  Jogo Toalhas Gigante 5pçs Fio Penteado Algodão Egípcio
+    https://www.mercadolivre.com.br/p/MLB29118990
 MLB35716444  Jogo Panelas Antiaderente Multiflon 4 Peças Vermelho com Lei
     https://www.mercadolivre.com.br/p/MLB35716444
 MLB29362172  Jogo Toalhas Banho Algodão Egípcio Branco 5 Peças Buddemeyer
@@ -52,6 +52,8 @@ MLB53057773  Jogo Taças Vidro Dourado 200ml 4 Peças Haüskraft Granatta
     https://www.mercadolivre.com.br/p/MLB53057773
 MLB76828753  Potes Herméticos Mantimentos Cozinha Kit 15 Tampa Trava Casa
     https://www.mercadolivre.com.br/p/MLB76828753
+MLB37936525  Jogo Cama Casal 200 Fios Karsten Algodão Tom Branco
+    https://www.mercadolivre.com.br/p/MLB37936525
 MLB76038973  Panela Ferro Fundido Esmaltado Premium Creme P/ Fogões Creme
     https://www.mercadolivre.com.br/p/MLB76038973
 MLB75087991  Jogo Talheres 12 Peças Inox Fratelli Elegante Moderno Rosa C
@@ -76,6 +78,8 @@ MLB60085180  Jogo Tapetes Banheiro Antiderrapante Cinza Jolitex Delicato
     https://www.mercadolivre.com.br/p/MLB60085180
 MLB74694174  Kit Potes Porta Mantimento Hermético Quadrado Cozinha 6 Pçs
     https://www.mercadolivre.com.br/p/MLB74694174
+MLB23982193  Sanduicheira Grill Best
+    https://www.mercadolivre.com.br/p/MLB23982193
 MLB38457093  Sanduicheira Grill Chapa Elétrica Preta Acabamento Inox Cor 
     https://www.mercadolivre.com.br/p/MLB38457093
 MLB58984205  Jogo Panelas Indução Antiaderente Cerâmica Manhattan 5 Peças
@@ -86,8 +90,12 @@ MLB23053557  Jogo Taças Cristal Titânio 220ml Conjunto 6 Taças Champanhe
     https://www.mercadolivre.com.br/p/MLB23053557
 MLB23258524  Jogo Taças Vidro Diamond Furta Cor 300ml C/6
     https://www.mercadolivre.com.br/p/MLB23258524
+MLB32036042  Conjunto Pratos Fundos Duralex Jasmim Nadir 6 Unidades
+    https://www.mercadolivre.com.br/p/MLB32036042
 MLB53775135  Conjunto Pratos De Cerâmica 20cm Sobremesa Raso 4 Unidades
     https://www.mercadolivre.com.br/p/MLB53775135
+MLB28857262  Tulha Aramada Deslizante Cesto Roupa Suja Inox Lavanderia Ba
+    https://www.mercadolivre.com.br/p/MLB28857262
 MLB37993510  Kit Cozinha 5 Potes Herméticos Para Mantimentos Cor Preto
     https://www.mercadolivre.com.br/p/MLB37993510
 MLB53222426  Frigideira Antiaderente Rizzoflon 16cm Alumínio Teflon para 
@@ -102,8 +110,6 @@ MLB44977921  Jogo Taças Champanhe Timeless Pasabahce Vidro 175ml 4 Peças
     https://www.mercadolivre.com.br/p/MLB44977921
 MLB49657811  Prateleira Parede MDP Tabaco 25x60cm Prat-K Concept Com Supo
     https://www.mercadolivre.com.br/p/MLB49657811
-MLB37936525  Jogo Cama Casal 200 Fios Karsten Algodão Tom Branco
-    https://www.mercadolivre.com.br/p/MLB37936525
 MLB29204667  Conjunto Pratos Cilíndricos Porcelana Schmidt Raso Fundo Sob
     https://www.mercadolivre.com.br/p/MLB29204667
 MLB26174851  Kit Organizador Cozinha Aço 3 Unidades Preto DiCarlo
@@ -112,17 +118,11 @@ MLB54472297  Edredom Casal Altenburg Blend Elegance Coliseum
     https://www.mercadolivre.com.br/p/MLB54472297
 MLB44214708  Prateleira Parede Tripla Ferro Madeira Multiuso Cozinha Cor 
     https://www.mercadolivre.com.br/p/MLB44214708
-MLB23982193  Sanduicheira Grill Best
-    https://www.mercadolivre.com.br/p/MLB23982193
 MLB29043753  Jogo Copos De Vidro Diamond Fio De Ouro 270ml 12 Peças Lyor
     https://www.mercadolivre.com.br/p/MLB29043753
 MLB45302528  Porta Condimentos Temperos Especiarias Gin Organizador Cozin
     https://www.mercadolivre.com.br/p/MLB45302528
 MLB37215252  Conjunto Pratos Rasos Acqua Vidro Temperado 6 Unidades 23cm
     https://www.mercadolivre.com.br/p/MLB37215252
-MLB28857262  Tulha Aramada Deslizante Cesto Roupa Suja Inox Lavanderia Ba
-    https://www.mercadolivre.com.br/p/MLB28857262
 MLB65523019  Jogo Cama Casal Essencial Lavanda 250 Fios Branco Lyor
     https://www.mercadolivre.com.br/p/MLB65523019
-MLB66986892  Jogo Copos Vidro Dubai Long Drink Água 480ml Nadir 12 Peças
-    https://www.mercadolivre.com.br/p/MLB66986892
