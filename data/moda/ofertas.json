@@ -117,5 +117,22 @@
     "minimo_hist": 28.0,
     "desconto": 17.3,
     "recorde": true
+  },
+  {
+    "data": "2026-10-07",
+    "product_id": "MLB37124812",
+    "nome": "Amycron preta 90ml tinta para couro sapato,bota,bolsa,jaqueta cobertura e tingimento",
+    "preco": 22.99,
+    "preco_original": 27.55,
+    "n_ofertas": 2,
+    "item_id": "MLB3930973417",
+    "seller_id": 828182619,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB37124812",
+    "mediana": 27.55,
+    "minimo_hist": 20.0,
+    "desconto": 16.6,
+    "recorde": false
   }
 ]
