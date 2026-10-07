@@ -50,20 +50,20 @@ MLB26120807  Mordedor Bebe Mãozinha Rosa Macio Dentição Stress Gengiva
     https://www.mercadolivre.com.br/p/MLB26120807
 MLB22663058  Bomba Tira Leite Coletora Manual Kuka Funcional
     https://www.mercadolivre.com.br/p/MLB22663058
-MLB18392719  Fralda Descartável Turma da Mônica Baby XG Pacote 20 Unidade
-    https://www.mercadolivre.com.br/p/MLB18392719
 MLB23582969  Mochila bolsa maternidade bebê mescla azul Hug
     https://www.mercadolivre.com.br/p/MLB23582969
+MLB18392719  Fralda Descartável Turma da Mônica Baby XG Pacote 20 Unidade
+    https://www.mercadolivre.com.br/p/MLB18392719
 MLB31975924  Colchão Berço Probel Active Baby
     https://www.mercadolivre.com.br/p/MLB31975924
-MLB28387695  Capa Colchão Berço Impermeável Vida Pratika Antiácaros com E
-    https://www.mercadolivre.com.br/p/MLB28387695
 MLB19904682  Bebê conforto Voyage Bebê Conforto Beta preto
     https://www.mercadolivre.com.br/p/MLB19904682
 MLB52133055  Bomba Tira-leite Materno Com Mamadeira G-tech
     https://www.mercadolivre.com.br/p/MLB52133055
 MLB55462160  Mordedor Bebê Vila Toy Pezinho Silicone Alívio Gengiva Azul
     https://www.mercadolivre.com.br/p/MLB55462160
+MLB28387695  Capa Colchão Berço Impermeável Vida Pratika Antiácaros com E
+    https://www.mercadolivre.com.br/p/MLB28387695
 MLB22560306  Móbile Berço Bebê Musical E Giratório Ovelinha Bege
     https://www.mercadolivre.com.br/p/MLB22560306
 MLB23815642  Móbile Berço Bebê Musical E Giratório Ursinho Marinheiro
@@ -96,8 +96,6 @@ MLB25834403  Ursinho Mordedor Bebe De Água Vermelho 5226 Buba
     https://www.mercadolivre.com.br/p/MLB25834403
 MLB79138414  Hidratante Bebê Pele Sensivel Tradicional 250ml Maxi Baby
     https://www.mercadolivre.com.br/p/MLB79138414
-MLB66380179  Granado Lenço Umedecido Bebê Baby Tradicional - Kit
-    https://www.mercadolivre.com.br/p/MLB66380179
 MLB37419375  Shampoo/Condicionador Pantene Kit shampoo + condicionador pa
     https://www.mercadolivre.com.br/p/MLB37419375
 MLB22936110  Móbile Berço Bebê Musical E Giratório Ovelinha Rosa
@@ -126,3 +124,5 @@ MLB18392586  Fralda Descartável Infantil Ultra Seca Mili XG Pacote 18 Uni
     https://www.mercadolivre.com.br/p/MLB18392586
 MLB68417753  Creme Pomada De Assadura Óleo Girassol A.g.e 45g Maxi Baby
     https://www.mercadolivre.com.br/p/MLB68417753
+MLB22612025  Móbile Berço Bebê Musical E Giratório Ovelinha Azul
+    https://www.mercadolivre.com.br/p/MLB22612025
