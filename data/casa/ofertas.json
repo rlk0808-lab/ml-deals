@@ -18,6 +18,23 @@
   },
   {
     "data": "2026-10-07",
+    "product_id": "MLB68652440",
+    "nome": "Jogo Panelas Cerâmica Antiaderente 05 Pçs Tampa Vidro Bege",
+    "preco": 150.0,
+    "preco_original": null,
+    "n_ofertas": 16,
+    "item_id": "MLB7759842730",
+    "seller_id": 2999528636,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB68652440",
+    "mediana": 248.0,
+    "minimo_hist": 150.0,
+    "desconto": 39.5,
+    "recorde": true
+  },
+  {
+    "data": "2026-10-07",
     "product_id": "MLB39997355",
     "nome": "Kit C/ 4 Potes Herméticos Alimentos Organizador Bambu 340ml",
     "preco": 87.46,
@@ -235,6 +252,23 @@
     "mediana": 311.81,
     "minimo_hist": 262.0,
     "desconto": 15.5,
+    "recorde": false
+  },
+  {
+    "data": "2026-10-07",
+    "product_id": "MLB26615065",
+    "nome": "Cesto Roupa Suja Dobrável 3 Compartimentos Meta Parts Alumínio Oxford",
+    "preco": 80.5,
+    "preco_original": 99.99,
+    "n_ofertas": 4,
+    "item_id": "MLB4123622861",
+    "seller_id": 755693999,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB26615065",
+    "mediana": 94.99,
+    "minimo_hist": 66.9,
+    "desconto": 15.3,
     "recorde": false
   },
   {
