@@ -1,6 +1,6 @@
 [
   {
-    "data": "2026-10-07",
+    "data": "2026-10-08",
     "product_id": "MLB68556115",
     "nome": "Livro - Quincas Borba - Machado De Assis",
     "preco": 29.9,
@@ -17,7 +17,7 @@
     "recorde": false
   },
   {
-    "data": "2026-10-07",
+    "data": "2026-10-08",
     "product_id": "MLB67040736",
     "nome": "Livro Literatura Brasileira Em Foco",
     "preco": 28.92,
@@ -34,7 +34,24 @@
     "recorde": true
   },
   {
-    "data": "2026-10-07",
+    "data": "2026-10-08",
+    "product_id": "MLB30054469",
+    "nome": "Gone Girl, De Gillian Flynn. Editora Random House Em Inglês",
+    "preco": 37.0,
+    "preco_original": null,
+    "n_ofertas": 6,
+    "item_id": "MLB3610487359",
+    "seller_id": 768712617,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB30054469",
+    "mediana": 64.9,
+    "minimo_hist": 37.0,
+    "desconto": 43.0,
+    "recorde": true
+  },
+  {
+    "data": "2026-10-08",
     "product_id": "MLB19243919",
     "nome": "Livro Rede De Sussurros: Um thriller feminista da era #MeToo, de Baker, Chandler. Editorial Editora Intrínseca Ltda., tapa mole, en português (2019)",
     "preco": 29.01,
@@ -51,7 +68,7 @@
     "recorde": false
   },
   {
-    "data": "2026-10-07",
+    "data": "2026-10-08",
     "product_id": "MLB20685650",
     "nome": "Box De Luxo 6 Livros Sherlock Holmes - Arthur Conan Doyle - Capa Dura",
     "preco": 49.98,
@@ -68,7 +85,7 @@
     "recorde": true
   },
   {
-    "data": "2026-10-07",
+    "data": "2026-10-08",
     "product_id": "MLB19238937",
     "nome": "Coleção Agatha Christie box 8 de Christie Agatha editorial HarperCollins Brasil português 2017",
     "preco": 45.0,
@@ -85,7 +102,7 @@
     "recorde": true
   },
   {
-    "data": "2026-10-07",
+    "data": "2026-10-08",
     "product_id": "MLB68117109",
     "nome": "Livro A Terceira Moça - Agatha Christie",
     "preco": 22.7,
@@ -102,12 +119,12 @@
     "recorde": false
   },
   {
-    "data": "2026-10-07",
+    "data": "2026-10-08",
     "product_id": "MLB19301641",
     "nome": "Livro Contos de suspense e terror, de Poe, Edgar Allan. Editorial Editora Martin Claret Ltda, tapa dura, en português (2015)",
     "preco": 40.02,
     "preco_original": null,
-    "n_ofertas": 88,
+    "n_ofertas": 87,
     "item_id": "MLB2943758462",
     "seller_id": 588783490,
     "frete_gratis": true,
@@ -119,29 +136,12 @@
     "recorde": false
   },
   {
-    "data": "2026-10-07",
-    "product_id": "MLB43795185",
-    "nome": "Livro Chama De Ferro por Rebecca Yarros 2024 Português Editora Planeta Minotauro",
-    "preco": 72.65,
-    "preco_original": 109.9,
-    "n_ofertas": 98,
-    "item_id": "MLB5205487994",
-    "seller_id": 480263032,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB43795185",
-    "mediana": 108.0,
-    "minimo_hist": 72.65,
-    "desconto": 32.7,
-    "recorde": true
-  },
-  {
-    "data": "2026-10-07",
+    "data": "2026-10-08",
     "product_id": "MLB21683440",
     "nome": "Sherlock Holmes - Um Estudo em Vermelho - Doyle, Arthur Conan - Editora Garnier - Capa Mole",
     "preco": 20.02,
     "preco_original": null,
-    "n_ofertas": 9,
+    "n_ofertas": 10,
     "item_id": "MLB3780480223",
     "seller_id": 700333439,
     "frete_gratis": true,
@@ -153,7 +153,7 @@
     "recorde": false
   },
   {
-    "data": "2026-10-07",
+    "data": "2026-10-08",
     "product_id": "MLB71604003",
     "nome": "Livro Desencantos: Fantasia Dramática",
     "preco": 24.54,
@@ -170,7 +170,7 @@
     "recorde": false
   },
   {
-    "data": "2026-10-07",
+    "data": "2026-10-08",
     "product_id": "MLB19243683",
     "nome": "Um passo em falso (myron bolitar – livro 5) - Coben, Harlan - Editora Arqueiro - Capa Mole",
     "preco": 39.01,
@@ -187,12 +187,12 @@
     "recorde": true
   },
   {
-    "data": "2026-10-07",
+    "data": "2026-10-08",
     "product_id": "MLB22101664",
     "nome": "Livro Empreendedorismo Transformando Ideias Em Negócios, 9ª Edição 2023",
     "preco": 99.0,
     "preco_original": null,
-    "n_ofertas": 11,
+    "n_ofertas": 9,
     "item_id": "MLB5210919883",
     "seller_id": 35966325,
     "frete_gratis": true,
@@ -204,29 +204,12 @@
     "recorde": true
   },
   {
-    "data": "2026-10-07",
-    "product_id": "MLB30054469",
-    "nome": "Gone Girl, De Gillian Flynn. Editora Random House Em Inglês",
-    "preco": 45.24,
-    "preco_original": null,
-    "n_ofertas": 3,
-    "item_id": "MLB3624111083",
-    "seller_id": 645434586,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB30054469",
-    "mediana": 64.9,
-    "minimo_hist": 45.24,
-    "desconto": 30.3,
-    "recorde": true
-  },
-  {
-    "data": "2026-10-07",
+    "data": "2026-10-08",
     "product_id": "MLB19395937",
     "nome": "Livro Sharp Objects Objetos Cortantes Gillian Flynn",
     "preco": 69.52,
     "preco_original": null,
-    "n_ofertas": 46,
+    "n_ofertas": 47,
     "item_id": "MLB5188730614",
     "seller_id": 1638319693,
     "frete_gratis": true,
@@ -238,7 +221,7 @@
     "recorde": false
   },
   {
-    "data": "2026-10-07",
+    "data": "2026-10-08",
     "product_id": "MLB68121802",
     "nome": "Box Sherlock Holmes - 4 Livros, De Doyle, Arthur Conan. Novo",
     "preco": 34.84,
@@ -255,12 +238,29 @@
     "recorde": true
   },
   {
-    "data": "2026-10-07",
+    "data": "2026-10-08",
+    "product_id": "MLB22026277",
+    "nome": "Box Império Galáctico",
+    "preco": 120.0,
+    "preco_original": null,
+    "n_ofertas": 77,
+    "item_id": "MLB5348146017",
+    "seller_id": 213304734,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB22026277",
+    "mediana": 163.95,
+    "minimo_hist": 120.0,
+    "desconto": 26.8,
+    "recorde": true
+  },
+  {
+    "data": "2026-10-08",
     "product_id": "MLB19243672",
     "nome": "Livro Fique comigo de Harlan Coben Editora Arqueiro Capa mole em português 2021",
     "preco": 45.0,
     "preco_original": null,
-    "n_ofertas": 4,
+    "n_ofertas": 3,
     "item_id": "MLB4396997093",
     "seller_id": 74079429,
     "frete_gratis": true,
@@ -272,24 +272,7 @@
     "recorde": true
   },
   {
-    "data": "2026-10-07",
-    "product_id": "MLB47099395",
-    "nome": "Box Desperte",
-    "preco": 29.48,
-    "preco_original": 54.9,
-    "n_ofertas": 13,
-    "item_id": "MLB6272481920",
-    "seller_id": 480263032,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB47099395",
-    "mediana": 38.98,
-    "minimo_hist": 26.36,
-    "desconto": 24.4,
-    "recorde": false
-  },
-  {
-    "data": "2026-10-07",
+    "data": "2026-10-08",
     "product_id": "MLB66305472",
     "nome": "Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, Vol. 1. Editora Editora Planeta Do Brasil, Capa Dura (2026)",
     "preco": 57.61,
@@ -306,12 +289,12 @@
     "recorde": false
   },
   {
-    "data": "2026-10-07",
+    "data": "2026-10-08",
     "product_id": "MLB29947399",
     "nome": "O ladrão de raios: Série Percy Jackson e os olimpianos (novas capas), de Rick Riordan. Série Percy Jackson e os Olimpianos, vol. 1. Editora Intrínseca Ltda., capa mole, edição 1 em",
     "preco": 36.15,
     "preco_original": 69.9,
-    "n_ofertas": 83,
+    "n_ofertas": 85,
     "item_id": "MLB3781111225",
     "seller_id": 480263032,
     "frete_gratis": true,
@@ -323,24 +306,24 @@
     "recorde": false
   },
   {
-    "data": "2026-10-07",
-    "product_id": "MLB19238939",
-    "nome": "Coleção Agatha Christie - Box 1 - Christie, Agatha - HarperCollins - Capa Dura",
-    "preco": 69.9,
+    "data": "2026-10-08",
+    "product_id": "MLB19910550",
+    "nome": "Box Série A Seleção (6 Livros) *",
+    "preco": 220.0,
     "preco_original": null,
-    "n_ofertas": 78,
-    "item_id": "MLB5343231951",
-    "seller_id": 284653544,
+    "n_ofertas": 59,
+    "item_id": "MLB4850688959",
+    "seller_id": 34466027,
     "frete_gratis": true,
     "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB19238939",
-    "mediana": 90.02,
-    "minimo_hist": 69.9,
-    "desconto": 22.4,
-    "recorde": true
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19910550",
+    "mediana": 280.97,
+    "minimo_hist": 219.9,
+    "desconto": 21.7,
+    "recorde": false
   },
   {
-    "data": "2026-10-07",
+    "data": "2026-10-08",
     "product_id": "MLB65754557",
     "nome": "Livro Trono De Vidro Box 8 Livros Série Completa De Sarah J. Maas Edição 1 Português 2020 Editora Galera",
     "preco": 200.0,
@@ -357,7 +340,7 @@
     "recorde": false
   },
   {
-    "data": "2026-10-07",
+    "data": "2026-10-08",
     "product_id": "MLB19218126",
     "nome": "Livro Quatro Estações Stephen King Edição 1 Português 2013 Editora Suma",
     "preco": 87.92,
@@ -374,58 +357,7 @@
     "recorde": false
   },
   {
-    "data": "2026-10-07",
-    "product_id": "MLB71810455",
-    "nome": "365 Hábitos Simples E Poderosos - Livro Planner",
-    "preco": 28.4,
-    "preco_original": 29.9,
-    "n_ofertas": 19,
-    "item_id": "MLB5264703309",
-    "seller_id": 3527257465,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB71810455",
-    "mediana": 35.91,
-    "minimo_hist": 28.4,
-    "desconto": 20.9,
-    "recorde": true
-  },
-  {
-    "data": "2026-10-07",
-    "product_id": "MLB19243809",
-    "nome": "Livro Não Há Segunda Chance De Harlan Coben Da Editora Arqueiro",
-    "preco": 38.45,
-    "preco_original": null,
-    "n_ofertas": 57,
-    "item_id": "MLB3897635332",
-    "seller_id": 644005785,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB19243809",
-    "mediana": 48.18,
-    "minimo_hist": 38.45,
-    "desconto": 20.2,
-    "recorde": true
-  },
-  {
-    "data": "2026-10-07",
-    "product_id": "MLB21423113",
-    "nome": "Box Sherlock Holmes - Caixa - 4 Livros - Arthur Conan Doyle",
-    "preco": 120.0,
-    "preco_original": null,
-    "n_ofertas": 2,
-    "item_id": "MLB5320165799",
-    "seller_id": 55039464,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB21423113",
-    "mediana": 149.86,
-    "minimo_hist": 120.0,
-    "desconto": 19.9,
-    "recorde": true
-  },
-  {
-    "data": "2026-10-07",
+    "data": "2026-10-08",
     "product_id": "MLB19244126",
     "nome": "Ponto de impacto - Brown, Dan - Editora Arqueiro - Capa Mole",
     "preco": 49.9,
@@ -442,12 +374,29 @@
     "recorde": false
   },
   {
-    "data": "2026-10-07",
+    "data": "2026-10-08",
+    "product_id": "MLB19243809",
+    "nome": "Livro Não Há Segunda Chance De Harlan Coben Da Editora Arqueiro",
+    "preco": 39.01,
+    "preco_original": null,
+    "n_ofertas": 54,
+    "item_id": "MLB4663582216",
+    "seller_id": 739066488,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19243809",
+    "mediana": 48.18,
+    "minimo_hist": 38.45,
+    "desconto": 19.0,
+    "recorde": false
+  },
+  {
+    "data": "2026-10-08",
     "product_id": "MLB19243684",
     "nome": "Libro Detalhe final (Myron Bolitar – Livro 6), de Coben, Harlan. Editorial Editora Arqueiro Ltda., tapa mole, en português (2021)",
     "preco": 38.35,
     "preco_original": 47.2,
-    "n_ofertas": 77,
+    "n_ofertas": 74,
     "item_id": "MLB4854749156",
     "seller_id": 1346266827,
     "frete_gratis": true,
@@ -459,24 +408,7 @@
     "recorde": true
   },
   {
-    "data": "2026-10-07",
-    "product_id": "MLB53664915",
-    "nome": "Box Lovelight",
-    "preco": 97.65,
-    "preco_original": null,
-    "n_ofertas": 53,
-    "item_id": "MLB6128507364",
-    "seller_id": 34466027,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB53664915",
-    "mediana": 120.0,
-    "minimo_hist": 91.4,
-    "desconto": 18.6,
-    "recorde": false
-  },
-  {
-    "data": "2026-10-07",
+    "data": "2026-10-08",
     "product_id": "MLB19238261",
     "nome": "Sherlock Holmes - Doyle, Sir Arthur Conan - Melhoramentos - Capa Mole",
     "preco": 32.5,
@@ -493,7 +425,7 @@
     "recorde": true
   },
   {
-    "data": "2026-10-07",
+    "data": "2026-10-08",
     "product_id": "MLB70438242",
     "nome": "Novembro, Box Completo",
     "preco": 187.65,
@@ -510,12 +442,12 @@
     "recorde": true
   },
   {
-    "data": "2026-10-07",
+    "data": "2026-10-08",
     "product_id": "MLB19220751",
     "nome": "Livro Torre do alvorecer, de Maas, Sarah J.. Editora Galera, capa mole (2018)",
     "preco": 48.9,
     "preco_original": null,
-    "n_ofertas": 92,
+    "n_ofertas": 93,
     "item_id": "MLB5192685185",
     "seller_id": 166650506,
     "frete_gratis": true,
@@ -527,12 +459,29 @@
     "recorde": true
   },
   {
-    "data": "2026-10-07",
+    "data": "2026-10-08",
+    "product_id": "MLB71810455",
+    "nome": "365 Hábitos Simples E Poderosos - Livro Planner",
+    "preco": 29.9,
+    "preco_original": null,
+    "n_ofertas": 23,
+    "item_id": "MLB5075863637",
+    "seller_id": 2396897934,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB71810455",
+    "mediana": 35.91,
+    "minimo_hist": 28.4,
+    "desconto": 16.7,
+    "recorde": false
+  },
+  {
+    "data": "2026-10-08",
     "product_id": "MLB62060063",
     "nome": "Box Sherlock Holmes – Obra completa (Capa brochura) - Doyle, Arthur Conan - HarperCollins - Capa Mole",
     "preco": 100.59,
     "preco_original": 169.9,
-    "n_ofertas": 67,
+    "n_ofertas": 66,
     "item_id": "MLB5998060632",
     "seller_id": 480263032,
     "frete_gratis": true,
@@ -544,24 +493,7 @@
     "recorde": false
   },
   {
-    "data": "2026-10-07",
-    "product_id": "MLB59401699",
-    "nome": "O Império Final | O Poço Da Ascensão | O Herói Das Eras, De Brandon Sanderson, Vol. 3. Editora Trama, Capa Mole (2025)",
-    "preco": 260.0,
-    "preco_original": 312.99,
-    "n_ofertas": 3,
-    "item_id": "MLB4243968239",
-    "seller_id": 54564251,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB59401699",
-    "mediana": 307.48,
-    "minimo_hist": 260.0,
-    "desconto": 15.4,
-    "recorde": true
-  },
-  {
-    "data": "2026-10-07",
+    "data": "2026-10-08",
     "product_id": "MLB73960652",
     "nome": "Quarta asa - Yarros, Rebecca - Planeta Minotauro - Capa Mole",
     "preco": 110.0,
@@ -578,7 +510,7 @@
     "recorde": true
   },
   {
-    "data": "2026-10-07",
+    "data": "2026-10-08",
     "product_id": "MLB68697067",
     "nome": "Livro Os Arquivos De Sherlock Holmes, De Doyle, Arthur Conan",
     "preco": 26.7,
