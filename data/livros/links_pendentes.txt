@@ -38,14 +38,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB19262567
 ⭐ MLB73960652  Quarta asa - Yarros, Rebecca - Planeta Minotauro - Capa Mole
     https://www.mercadolivre.com.br/p/MLB73960652
+⭐ MLB19365403  Memórias de Sherlock Holmes - Doyle, Arthur Conan - Ciranda 
+    https://www.mercadolivre.com.br/p/MLB19365403
 ⭐ MLB63501442  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
     https://www.mercadolivre.com.br/p/MLB63501442
 ⭐ MLB68307771  As coisas belas e preciosas - Yarros, Rebecca - Editora Arqu
     https://www.mercadolivre.com.br/p/MLB68307771
 ⭐ MLB21082455  Cidade em chamas – Thriller de máfia com uma narrativa envol
     https://www.mercadolivre.com.br/p/MLB21082455
-⭐ MLB19365403  Memórias de Sherlock Holmes - Doyle, Arthur Conan - Ciranda 
-    https://www.mercadolivre.com.br/p/MLB19365403
 ⭐ MLB49114261  O Código Da Vinci (Robert Langdon – Livro 2) - Brown, Dan - 
     https://www.mercadolivre.com.br/p/MLB49114261
 ⭐ MLB63076501  Ecos da floresta – Livro vencedor do prêmio Goodreads e elei
@@ -54,14 +54,14 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB74603027
 ⭐ MLB19381441  Sinfonia dos animais - Brown, Dan - Editora Arqueiro - Capa 
     https://www.mercadolivre.com.br/p/MLB19381441
+⭐ MLB19453772  Verity, Colleen Hoover, Português, Galera, 2021
+    https://www.mercadolivre.com.br/p/MLB19453772
 ⭐ MLB53665702  O namorado - McFadden, Freida - Record - Capa Mole
     https://www.mercadolivre.com.br/p/MLB53665702
 ⭐ MLB65917466  Sem volta - Henry, Emily - Verus - Capa Mole
     https://www.mercadolivre.com.br/p/MLB65917466
 ⭐ MLB19364780  O último caso de Sherlock Holmes - Doyle, Arthur Conan - Cir
     https://www.mercadolivre.com.br/p/MLB19364780
-⭐ MLB19453772  Verity, Colleen Hoover, Português, Galera, 2021
-    https://www.mercadolivre.com.br/p/MLB19453772
 ⭐ MLB47627533  Dele e Dela - Livro que inspirou o thriller de sucesso da Ne
     https://www.mercadolivre.com.br/p/MLB47627533
 ⭐ MLB40647349  A contadora - McFadden, Freida - Record - Capa Mole
