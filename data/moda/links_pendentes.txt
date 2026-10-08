@@ -48,6 +48,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB59992197
 ⭐ MLB54249378  50 Zíper Metal 18cm Para Calça Jeans Azul Marinho Cor Azul-m
     https://www.mercadolivre.com.br/p/MLB54249378
+⭐ MLB65008432  Calça Jeans Azul Claro Masculina Tradicional Elastano Premiu
+    https://www.mercadolivre.com.br/p/MLB65008432
 ⭐ MLB51450738  Kit 4 Colmeias Organizadora Calça Jeans Feminina 40x20x15 Co
     https://www.mercadolivre.com.br/p/MLB51450738
 ⭐ MLB75798851  Kit 2x Camiseta Básica Unissex Algodão 100% Peruano Básica M
@@ -64,8 +66,6 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB63927014
 ⭐ MLB57624894  Luva Trekking Forclaz Tamanho P Corta-vento E Tátil Cinza
     https://www.mercadolivre.com.br/p/MLB57624894
-⭐ MLB74287049  Kit 2 Varais Calcinha Sutiã Meia Cueca 20 Prendedores Inox C
-    https://www.mercadolivre.com.br/p/MLB74287049
 ⭐ MLB24748191  Caneca Porcelana São Paulo Camisa Time Personalizada Nome 10
     https://www.mercadolivre.com.br/p/MLB24748191
 MLB51529178  Chinelo Feminino Slim Havaianas
