@@ -103,6 +103,23 @@
   },
   {
     "data": "2026-10-08",
+    "product_id": "MLB52322550",
+    "nome": "Dove Condicionador Hidratação + Hialuron-vit 600ml",
+    "preco": 31.49,
+    "preco_original": 42.9,
+    "n_ofertas": 6,
+    "item_id": "MLB4123489197",
+    "seller_id": 480265022,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB52322550",
+    "mediana": 39.99,
+    "minimo_hist": 29.9,
+    "desconto": 21.3,
+    "recorde": false
+  },
+  {
+    "data": "2026-10-08",
     "product_id": "MLB75940843",
     "nome": "Máscara Cílios Lash Envy Pink 21 - Alongamento, Volume",
     "preco": 17.86,
@@ -171,23 +188,6 @@
   },
   {
     "data": "2026-10-08",
-    "product_id": "MLB52322550",
-    "nome": "Dove Condicionador Hidratação + Hialuron-vit 600ml",
-    "preco": 32.99,
-    "preco_original": 42.9,
-    "n_ofertas": 6,
-    "item_id": "MLB4123489197",
-    "seller_id": 480265022,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB52322550",
-    "mediana": 39.99,
-    "minimo_hist": 29.9,
-    "desconto": 17.5,
-    "recorde": false
-  },
-  {
-    "data": "2026-10-08",
     "product_id": "MLB52965346",
     "nome": "Kit Shampoo+ Condicionador+ Hidratação+fluido Escova-trivitt",
     "preco": 157.7,
@@ -236,5 +236,22 @@
     "minimo_hist": 46.0,
     "desconto": 16.5,
     "recorde": false
+  },
+  {
+    "data": "2026-10-08",
+    "product_id": "MLB57619995",
+    "nome": "Lápis Sobrancelha com Gel Fixador Melu By Ruby Rose",
+    "preco": 20.89,
+    "preco_original": null,
+    "n_ofertas": 5,
+    "item_id": "MLB7608839058",
+    "seller_id": 300105092,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB57619995",
+    "mediana": 25.0,
+    "minimo_hist": 20.89,
+    "desconto": 16.4,
+    "recorde": true
   }
 ]
