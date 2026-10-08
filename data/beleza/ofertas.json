@@ -69,6 +69,23 @@
   },
   {
     "data": "2026-10-08",
+    "product_id": "MLB52322550",
+    "nome": "Dove Condicionador Hidratação + Hialuron-vit 600ml",
+    "preco": 29.9,
+    "preco_original": 42.9,
+    "n_ofertas": 5,
+    "item_id": "MLB4123489197",
+    "seller_id": 480265022,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB52322550",
+    "mediana": 39.99,
+    "minimo_hist": 29.9,
+    "desconto": 25.2,
+    "recorde": true
+  },
+  {
+    "data": "2026-10-08",
     "product_id": "MLB57351161",
     "nome": "Gloss Labial Hidratação Labial Brilho Mel",
     "preco": 19.25,
@@ -83,23 +100,6 @@
     "minimo_hist": 19.25,
     "desconto": 23.2,
     "recorde": true
-  },
-  {
-    "data": "2026-10-08",
-    "product_id": "MLB52322550",
-    "nome": "Dove Condicionador Hidratação + Hialuron-vit 600ml",
-    "preco": 31.49,
-    "preco_original": 42.9,
-    "n_ofertas": 6,
-    "item_id": "MLB4123489197",
-    "seller_id": 480265022,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB52322550",
-    "mediana": 39.99,
-    "minimo_hist": 29.9,
-    "desconto": 21.3,
-    "recorde": false
   },
   {
     "data": "2026-10-08",
@@ -158,7 +158,7 @@
     "nome": "Condicionador Hidratação Equilibrante Patauá300ml Loccitane",
     "preco": 49.9,
     "preco_original": 64.9,
-    "n_ofertas": 10,
+    "n_ofertas": 11,
     "item_id": "MLB6777492690",
     "seller_id": 418881680,
     "frete_gratis": true,
@@ -202,5 +202,22 @@
     "minimo_hist": 20.89,
     "desconto": 16.4,
     "recorde": true
+  },
+  {
+    "data": "2026-10-08",
+    "product_id": "MLB23658677",
+    "nome": "Baby Dove Condicionador Hidratação Glicerinada 200ml",
+    "preco": 15.99,
+    "preco_original": 19.9,
+    "n_ofertas": 5,
+    "item_id": "MLB3689083077",
+    "seller_id": 480265022,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB23658677",
+    "mediana": 18.9,
+    "minimo_hist": 15.74,
+    "desconto": 15.4,
+    "recorde": false
   }
 ]
