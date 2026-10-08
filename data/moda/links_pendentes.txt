@@ -88,6 +88,8 @@ MLB45475087  Chinelo Feminino Slim Havaianas Liso
     https://www.mercadolivre.com.br/p/MLB45475087
 MLB45475082  Chinelo Feminino Slim Havaianas Liso
     https://www.mercadolivre.com.br/p/MLB45475082
+MLB67916764  Chinelo Masculino Cartago Alabama, na Cor Bordô, Tamanho 42/
+    https://www.mercadolivre.com.br/p/MLB67916764
 MLB63656101  Meia Sapatilha Para Beach Tennis Areia Cano Alto Kestal Cor 
     https://www.mercadolivre.com.br/p/MLB63656101
 MLB68987939  Meia Esportiva Penalty Cano Alto 330
@@ -96,8 +98,6 @@ MLB45422541  Chinelo Masculino Drifter Foam Fila Liso
     https://www.mercadolivre.com.br/p/MLB45422541
 MLB63650458  Meia Sapatilha Para Beach Tennis Areia Cano Alto Kestal Cor 
     https://www.mercadolivre.com.br/p/MLB63650458
-MLB45475689  Chinelo Masculino 921 Olympikus
-    https://www.mercadolivre.com.br/p/MLB45475689
 MLB44919830  Chinelo Masculino Drifter Foam Fila Liso
     https://www.mercadolivre.com.br/p/MLB44919830
 MLB76023089  Cueca Boxer Avulso Roupa Íntima Geriátrica Algodão Urina Cz 
@@ -114,8 +114,6 @@ MLB59056659  Colete Masculino Ginecomastia Macom Marrom Amarelado Tamanho
     https://www.mercadolivre.com.br/p/MLB59056659
 MLB58240342  Colete Masculino Para Ginecomastia Macom Cor Marrom Amarelad
     https://www.mercadolivre.com.br/p/MLB58240342
-MLB45851923  Chinelo Masculino Slide Sereno Olympikus
-    https://www.mercadolivre.com.br/p/MLB45851923
 MLB73183649  Bolsa Mochila Meia Lua Linda Feminina Moderna Porta Garrafa 
     https://www.mercadolivre.com.br/p/MLB73183649
 MLB78230973  Colete Masculino Para Futebol Kit Com 5 Peças Penalty Cores 
@@ -126,3 +124,5 @@ MLB68670569  Conjunto Feminino Real Confecções G1/g2 Short Saia + Cropped
     https://www.mercadolivre.com.br/p/MLB68670569
 MLB47691991  Colete Masculino Para Futebol Kit Com 6 Pçs Verde Penalty
     https://www.mercadolivre.com.br/p/MLB47691991
+MLB44941550  Sandália Rasteira Feminina Dakota Liso
+    https://www.mercadolivre.com.br/p/MLB44941550
