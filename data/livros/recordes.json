@@ -2324,8 +2324,8 @@
     "_ultima_data_vista": "2026-09-18"
   },
   "MLB63500710": {
-    "menor_preco": 38.98,
-    "data_menor": "2026-09-09",
+    "menor_preco": 38.8,
+    "data_menor": "2026-10-09",
     "primeiro_dia": "2026-07-15",
     "dias_total": 87,
     "_ultima_data_vista": "2026-10-09"
@@ -2835,8 +2835,8 @@
     "_ultima_data_vista": "2026-10-09"
   },
   "MLB57915746": {
-    "menor_preco": 185.0,
-    "data_menor": "2026-09-11",
+    "menor_preco": 180.0,
+    "data_menor": "2026-10-09",
     "primeiro_dia": "2026-07-27",
     "dias_total": 75,
     "_ultima_data_vista": "2026-10-09"
@@ -3241,8 +3241,8 @@
     "_ultima_data_vista": "2026-10-09"
   },
   "MLB19379986": {
-    "menor_preco": 140.9,
-    "data_menor": "2026-10-01",
+    "menor_preco": 137.0,
+    "data_menor": "2026-10-09",
     "primeiro_dia": "2026-07-27",
     "dias_total": 75,
     "_ultima_data_vista": "2026-10-09"
@@ -3293,8 +3293,8 @@
     "menor_preco": 23.44,
     "data_menor": "2026-07-27",
     "primeiro_dia": "2026-07-27",
-    "dias_total": 60,
-    "_ultima_data_vista": "2026-09-27"
+    "dias_total": 61,
+    "_ultima_data_vista": "2026-10-09"
   },
   "MLB21398213": {
     "menor_preco": 109.9,
@@ -4270,8 +4270,8 @@
     "_ultima_data_vista": "2026-10-09"
   },
   "MLB21082455": {
-    "menor_preco": 50.84,
-    "data_menor": "2026-10-02",
+    "menor_preco": 49.31,
+    "data_menor": "2026-10-09",
     "primeiro_dia": "2026-08-28",
     "dias_total": 43,
     "_ultima_data_vista": "2026-10-09"
@@ -4319,7 +4319,7 @@
     "_ultima_data_vista": "2026-10-09"
   },
   "MLB38676239": {
-    "menor_preco": 105.99,
+    "menor_preco": 101.0,
     "data_menor": "2026-10-09",
     "primeiro_dia": "2026-08-28",
     "dias_total": 43,
@@ -4949,8 +4949,8 @@
     "_ultima_data_vista": "2026-10-09"
   },
   "MLB23233133": {
-    "menor_preco": 62.09,
-    "data_menor": "2026-10-07",
+    "menor_preco": 59.85,
+    "data_menor": "2026-10-09",
     "primeiro_dia": "2026-09-28",
     "dias_total": 12,
     "_ultima_data_vista": "2026-10-09"
