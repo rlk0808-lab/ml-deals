@@ -4,76 +4,14 @@ Como usar: abra o link, clique em Compartilhar na barra preta de
 afiliados, copie o link gerado (meli.la/...) e cole em
 data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
 
-(gerado em 2026-10-08)
+(gerado em 2026-10-09)
 
-⭐ MLB39979760  Box Collen Hoover
-    https://www.mercadolivre.com.br/p/MLB39979760
-⭐ MLB46039067  Tempestade de Ônix - Yarros, Rebecca - Planeta Minotauro - C
-    https://www.mercadolivre.com.br/p/MLB46039067
-⭐ MLB50105638  Mistborn: O Poço da Ascensão - Sanderson, Brandon - Trama - 
-    https://www.mercadolivre.com.br/p/MLB50105638
-⭐ MLB40283255  Verity (Edição de colecionador), Colleen Hoover, Galera, Por
-    https://www.mercadolivre.com.br/p/MLB40283255
-⭐ MLB68282862  O homem iluminado - Sanderson, Brandon - Trama - Capa Dura
-    https://www.mercadolivre.com.br/p/MLB68282862
-⭐ MLB19220755  Trono de Vidro: Reino de Cinzas (Vol. 6) - Maas, Sarah J. - 
-    https://www.mercadolivre.com.br/p/MLB19220755
-⭐ MLB56693037  De férias com você (Edição especial) - Henry, Emily - Verus 
-    https://www.mercadolivre.com.br/p/MLB56693037
-⭐ MLB50586617  Leitura de verão (edição especial) - Henry, Emily - Grupo Ed
-    https://www.mercadolivre.com.br/p/MLB50586617
-⭐ MLB19262571  A irmã da tempestade (as sete irmãs – livro 2) - Riley, Luci
-    https://www.mercadolivre.com.br/p/MLB19262571
-⭐ MLB42934246  Sacramentadora - Sanderson, Brandon - Trama - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB42934246
-⭐ MLB23233133  Atlas: a história de pa salt (as sete irmãs – livro 8) - Ril
-    https://www.mercadolivre.com.br/p/MLB23233133
-⭐ MLB60505498  Ritmo da Guerra - Sanderson, Brandon - Ediouro - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB60505498
-⭐ MLB63908049  Ponto de impacto - Brown, Dan - Editora Arqueiro - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB63908049
-⭐ MLB19416643  Sherlock Holmes - O Cão dos Baskerville - Doyle, Arthur Cona
-    https://www.mercadolivre.com.br/p/MLB19416643
-⭐ MLB19262567  As sete irmãs (As Sete Irmãs – Livro 1) - Riley, Lucinda - E
-    https://www.mercadolivre.com.br/p/MLB19262567
 ⭐ MLB73960652  Quarta asa - Yarros, Rebecca - Planeta Minotauro - Capa Mole
     https://www.mercadolivre.com.br/p/MLB73960652
-⭐ MLB19365403  Memórias de Sherlock Holmes - Doyle, Arthur Conan - Ciranda 
-    https://www.mercadolivre.com.br/p/MLB19365403
-⭐ MLB63501442  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
-    https://www.mercadolivre.com.br/p/MLB63501442
-⭐ MLB68307771  As coisas belas e preciosas - Yarros, Rebecca - Editora Arqu
-    https://www.mercadolivre.com.br/p/MLB68307771
-⭐ MLB21082455  Cidade em chamas – Thriller de máfia com uma narrativa envol
-    https://www.mercadolivre.com.br/p/MLB21082455
-⭐ MLB49114261  O Código Da Vinci (Robert Langdon – Livro 2) - Brown, Dan - 
-    https://www.mercadolivre.com.br/p/MLB49114261
-⭐ MLB63076501  Ecos da floresta – Livro vencedor do prêmio Goodreads e elei
-    https://www.mercadolivre.com.br/p/MLB63076501
-⭐ MLB74603027  Desconhecido - Sager, Riley - Intrínseca - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB74603027
-⭐ MLB19381441  Sinfonia dos animais - Brown, Dan - Editora Arqueiro - Capa 
-    https://www.mercadolivre.com.br/p/MLB19381441
-⭐ MLB19453772  Verity, Colleen Hoover, Português, Galera, 2021
-    https://www.mercadolivre.com.br/p/MLB19453772
-⭐ MLB53665702  O namorado - McFadden, Freida - Record - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB53665702
-⭐ MLB65917466  Sem volta - Henry, Emily - Verus - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB65917466
-⭐ MLB19364780  O último caso de Sherlock Holmes - Doyle, Arthur Conan - Cir
-    https://www.mercadolivre.com.br/p/MLB19364780
-⭐ MLB47627533  Dele e Dela - Livro que inspirou o thriller de sucesso da Ne
-    https://www.mercadolivre.com.br/p/MLB47627533
-⭐ MLB40647349  A contadora - McFadden, Freida - Record - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB40647349
-⭐ MLB19405210  Corte de espinhos e rosas (Vol. 1) - Maas, Sarah J. - Galera
-    https://www.mercadolivre.com.br/p/MLB19405210
 ⭐ MLB19407887  Sherlock Holmes - Doyle, Sir Arthur Conan - Melhoramentos - 
     https://www.mercadolivre.com.br/p/MLB19407887
 ⭐ MLB62060063  Box Sherlock Holmes – Obra completa (Capa brochura) - Doyle,
     https://www.mercadolivre.com.br/p/MLB62060063
-⭐ MLB19910550  Box Série A Seleção (6 Livros) *
-    https://www.mercadolivre.com.br/p/MLB19910550
 ⭐ MLB37149234  Biblioteca Nietzsche - Box Com 4 Livros
     https://www.mercadolivre.com.br/p/MLB37149234
 ⭐ MLB66305472  Livro Diário Oficial De Chama De Ferro, De Yarros, Rebecca, 
@@ -96,12 +34,12 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB19206086
 ⭐ MLB19243919  Livro Rede De Sussurros: Um thriller feminista da era #MeToo
     https://www.mercadolivre.com.br/p/MLB19243919
-⭐ MLB30054469  Gone Girl, De Gillian Flynn. Editora Random House Em Inglês
-    https://www.mercadolivre.com.br/p/MLB30054469
 ⭐ MLB68499477  Livro Desenvolvimento Local Sustentável, De Kronemberg, Deni
     https://www.mercadolivre.com.br/p/MLB68499477
 ⭐ MLB70438242  Novembro, Box Completo
     https://www.mercadolivre.com.br/p/MLB70438242
+⭐ MLB30054469  Gone Girl, De Gillian Flynn. Editora Random House Em Inglês
+    https://www.mercadolivre.com.br/p/MLB30054469
 ⭐ MLB19243672  Livro Fique comigo de Harlan Coben Editora Arqueiro Capa mol
     https://www.mercadolivre.com.br/p/MLB19243672
 ⭐ MLB67040736  Livro Literatura Brasileira Em Foco
@@ -110,19 +48,81 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB69457866
 ⭐ MLB68556115  Livro - Quincas Borba - Machado De Assis
     https://www.mercadolivre.com.br/p/MLB68556115
+MLB39979760  Box Collen Hoover
+    https://www.mercadolivre.com.br/p/MLB39979760
+MLB40283255  Verity (Edição de colecionador), Colleen Hoover, Galera, Por
+    https://www.mercadolivre.com.br/p/MLB40283255
+MLB46039067  Tempestade de Ônix - Yarros, Rebecca - Planeta Minotauro - C
+    https://www.mercadolivre.com.br/p/MLB46039067
+MLB50105638  Mistborn: O Poço da Ascensão - Sanderson, Brandon - Trama - 
+    https://www.mercadolivre.com.br/p/MLB50105638
 MLB50105423  Mistborn: O Herói das Eras - Sanderson, Brandon - Trama - Ca
     https://www.mercadolivre.com.br/p/MLB50105423
+MLB19220755  Trono de Vidro: Reino de Cinzas (Vol. 6) - Maas, Sarah J. - 
+    https://www.mercadolivre.com.br/p/MLB19220755
+MLB68282862  O homem iluminado - Sanderson, Brandon - Trama - Capa Dura
+    https://www.mercadolivre.com.br/p/MLB68282862
+MLB56693037  De férias com você (Edição especial) - Henry, Emily - Verus 
+    https://www.mercadolivre.com.br/p/MLB56693037
+MLB50586617  Leitura de verão (edição especial) - Henry, Emily - Grupo Ed
+    https://www.mercadolivre.com.br/p/MLB50586617
+MLB19262571  A irmã da tempestade (as sete irmãs – livro 2) - Riley, Luci
+    https://www.mercadolivre.com.br/p/MLB19262571
 MLB19262569  A irmã da sombra (as sete irmãs – livro 3) - Riley, Lucinda 
     https://www.mercadolivre.com.br/p/MLB19262569
-MLB19262577  A irmã da pérola (as sete irmãs – livro 4) - Riley, Lucinda 
-    https://www.mercadolivre.com.br/p/MLB19262577
+MLB42934246  Sacramentadora - Sanderson, Brandon - Trama - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB42934246
 MLB19262581  A irmã da lua (as sete irmãs – livro 5) - Riley, Lucinda - E
     https://www.mercadolivre.com.br/p/MLB19262581
+MLB19262577  A irmã da pérola (as sete irmãs – livro 4) - Riley, Lucinda 
+    https://www.mercadolivre.com.br/p/MLB19262577
 MLB19262353  A irmã do sol (As Sete Irmãs – Livro 6) - Riley, Lucinda - E
     https://www.mercadolivre.com.br/p/MLB19262353
+MLB23233133  Atlas: a história de pa salt (as sete irmãs – livro 8) - Ril
+    https://www.mercadolivre.com.br/p/MLB23233133
 MLB19220733  Trono de Vidro: Império de Tempestades (Vol. 5) - Maas, Sara
     https://www.mercadolivre.com.br/p/MLB19220733
 MLB19220773  Trono de Vidro: Herdeira do fogo (Vol. 3) - Maas, Sarah J. -
     https://www.mercadolivre.com.br/p/MLB19220773
+MLB19416643  Sherlock Holmes - O Cão dos Baskerville - Doyle, Arthur Cona
+    https://www.mercadolivre.com.br/p/MLB19416643
+MLB60505498  Ritmo da Guerra - Sanderson, Brandon - Ediouro - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB60505498
+MLB19262567  As sete irmãs (As Sete Irmãs – Livro 1) - Riley, Lucinda - E
+    https://www.mercadolivre.com.br/p/MLB19262567
+MLB63908049  Ponto de impacto - Brown, Dan - Editora Arqueiro - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB63908049
 MLB19262185  A irmã desaparecida (As Sete Irmãs – Livro 7) - Riley, Lucin
     https://www.mercadolivre.com.br/p/MLB19262185
+MLB21082455  Cidade em chamas – Thriller de máfia com uma narrativa envol
+    https://www.mercadolivre.com.br/p/MLB21082455
+MLB19368030  Sherlock Holmes - O vale do medo - Doyle, Arthur Conan - Cir
+    https://www.mercadolivre.com.br/p/MLB19368030
+MLB63501442  Fortaleza digital - Brown, Dan - Editora Arqueiro - Capa Mol
+    https://www.mercadolivre.com.br/p/MLB63501442
+MLB68307771  As coisas belas e preciosas - Yarros, Rebecca - Editora Arqu
+    https://www.mercadolivre.com.br/p/MLB68307771
+MLB63076501  Ecos da floresta – Livro vencedor do prêmio Goodreads e elei
+    https://www.mercadolivre.com.br/p/MLB63076501
+MLB19381441  Sinfonia dos animais - Brown, Dan - Editora Arqueiro - Capa 
+    https://www.mercadolivre.com.br/p/MLB19381441
+MLB49114261  O Código Da Vinci (Robert Langdon – Livro 2) - Brown, Dan - 
+    https://www.mercadolivre.com.br/p/MLB49114261
+MLB66963300  A ex - McFadden, Freida - Editora Arqueiro - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB66963300
+MLB47100376  Cidade em ruínas – Thriller de máfia e a conclusão eletrizan
+    https://www.mercadolivre.com.br/p/MLB47100376
+MLB74603027  Desconhecido - Sager, Riley - Intrínseca - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB74603027
+MLB19365403  Memórias de Sherlock Holmes - Doyle, Arthur Conan - Ciranda 
+    https://www.mercadolivre.com.br/p/MLB19365403
+MLB19364780  O último caso de Sherlock Holmes - Doyle, Arthur Conan - Cir
+    https://www.mercadolivre.com.br/p/MLB19364780
+MLB74807035  Box Trilogia Powerless
+    https://www.mercadolivre.com.br/p/MLB74807035
+MLB47627533  Dele e Dela - Livro que inspirou o thriller de sucesso da Ne
+    https://www.mercadolivre.com.br/p/MLB47627533
+MLB40647349  A contadora - McFadden, Freida - Record - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB40647349
+MLB53665702  O namorado - McFadden, Freida - Record - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB53665702
