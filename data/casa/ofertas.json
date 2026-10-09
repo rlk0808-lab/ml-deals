@@ -154,23 +154,6 @@
   },
   {
     "data": "2026-10-09",
-    "product_id": "MLB26013477",
-    "nome": "Jogo Taças Água Vinho Vidro Diamante Lilás 260ml Class Home",
-    "preco": 92.3,
-    "preco_original": null,
-    "n_ofertas": 3,
-    "item_id": "MLB6213934812",
-    "seller_id": 1419156569,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB26013477",
-    "mediana": 119.0,
-    "minimo_hist": 92.3,
-    "desconto": 22.4,
-    "recorde": true
-  },
-  {
-    "data": "2026-10-09",
     "product_id": "MLB68676964",
     "nome": "Faqueiro Inox Curacao 24 Peças Tuut Yazi Jogo Talheres Casa Curaçau",
     "preco": 111.91,
@@ -181,9 +164,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB68676964",
-    "mediana": 143.89,
+    "mediana": 142.78,
     "minimo_hist": 104.4,
-    "desconto": 22.2,
+    "desconto": 21.6,
     "recorde": false
   },
   {
@@ -201,6 +184,23 @@
     "mediana": 117.0,
     "minimo_hist": 77.63,
     "desconto": 21.5,
+    "recorde": false
+  },
+  {
+    "data": "2026-10-09",
+    "product_id": "MLB26615065",
+    "nome": "Cesto Roupa Suja Dobrável 3 Compartimentos Meta Parts Alumínio Oxford",
+    "preco": 74.99,
+    "preco_original": 99.99,
+    "n_ofertas": 4,
+    "item_id": "MLB4123622861",
+    "seller_id": 755693999,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB26615065",
+    "mediana": 94.99,
+    "minimo_hist": 66.9,
+    "desconto": 21.1,
     "recorde": false
   },
   {
@@ -283,9 +283,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB32486505",
-    "mediana": 70.5,
+    "mediana": 68.9,
     "minimo_hist": 58.1,
-    "desconto": 17.6,
+    "desconto": 15.7,
     "recorde": true
   },
   {
