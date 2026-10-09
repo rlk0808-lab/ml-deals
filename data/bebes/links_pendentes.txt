@@ -16,6 +16,8 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB34966407
 ⭐ MLB20988254  Colchão Berço Padrão American D18 Antiácaro, Antif Antialérg
     https://www.mercadolivre.com.br/p/MLB20988254
+⭐ MLB45262394  Esterilizador Mamadeira Branco e Aquecedor de Leite Bebê Aut
+    https://www.mercadolivre.com.br/p/MLB45262394
 ⭐ MLB26826980  Cadeira Alimentação Descanso Infantil Som Vibra Rosa Inmetro
     https://www.mercadolivre.com.br/p/MLB26826980
 ⭐ MLB62842938  Canguru Sling De Bebe Carregar Recem Nascido Dry Fit Furadin
@@ -32,20 +34,20 @@ MLB19567262  Mustela Hydra creme hidratante bebê com palha orgânica
     https://www.mercadolivre.com.br/p/MLB19567262
 MLB37238466  Brinquedo Atividades Buba Atomic Soft Ball Mordedor Bebê
     https://www.mercadolivre.com.br/p/MLB37238466
-MLB20602424  Creme Hidratante Natura Mamãe Bebê 200ml
-    https://www.mercadolivre.com.br/p/MLB20602424
 MLB73392239  Cercadinho Bebê C/ Tela De Proteção Infantil Cinza S/
     https://www.mercadolivre.com.br/p/MLB73392239
+MLB20602424  Creme Hidratante Natura Mamãe Bebê 200ml
+    https://www.mercadolivre.com.br/p/MLB20602424
 MLB19772396  Hidratante Suave Granado Bebê Lavanda 120ml
     https://www.mercadolivre.com.br/p/MLB19772396
 MLB18397502  Creme Pomada de Assadura Lanolina e Vit B5 100g Bepantol
     https://www.mercadolivre.com.br/p/MLB18397502
-MLB26120807  Mordedor Bebe Mãozinha Rosa Macio Dentição Stress Gengiva
-    https://www.mercadolivre.com.br/p/MLB26120807
 MLB22663058  Bomba Tira Leite Coletora Manual Kuka Funcional
     https://www.mercadolivre.com.br/p/MLB22663058
 MLB73440881  Aquecedor Esterilizador De Mamadeira Chupeta Papinha 3 Em 1 
     https://www.mercadolivre.com.br/p/MLB73440881
+MLB26120807  Mordedor Bebe Mãozinha Rosa Macio Dentição Stress Gengiva
+    https://www.mercadolivre.com.br/p/MLB26120807
 MLB18392719  Fralda Descartável Turma da Mônica Baby XG Pacote 20 Unidade
     https://www.mercadolivre.com.br/p/MLB18392719
 MLB31975924  Colchão Berço Probel Active Baby
@@ -78,8 +80,6 @@ MLB30930788  Luva Mordedor Bebê Luvinha Silicone - Azul
     https://www.mercadolivre.com.br/p/MLB30930788
 MLB41190698  Mordedor Bebe Pezinho Mãozinha Anti Stress Rosa Premium
     https://www.mercadolivre.com.br/p/MLB41190698
-MLB55628809  Kit Higiene Bebê Moderno De Crochê Cor Bege
-    https://www.mercadolivre.com.br/p/MLB55628809
 MLB61688382  Canguru Sling Bolsa Bebe Carregador Mochila Cor Rosa Confort
     https://www.mercadolivre.com.br/p/MLB61688382
 MLB32385853  Mordedor Bebe Bananinha - Massageador Escovinha Cor Amarelo
@@ -102,6 +102,8 @@ MLB37419375  Shampoo/Condicionador Pantene Kit shampoo + condicionador pa
     https://www.mercadolivre.com.br/p/MLB37419375
 MLB22936110  Móbile Berço Bebê Musical E Giratório Ovelinha Rosa
     https://www.mercadolivre.com.br/p/MLB22936110
+MLB55628809  Kit Higiene Bebê Moderno De Crochê Cor Bege
+    https://www.mercadolivre.com.br/p/MLB55628809
 MLB43469003  Banheira Bebê Dobrável Portátil Buba Cor Cinza
     https://www.mercadolivre.com.br/p/MLB43469003
 MLB43463096  Banheira Bebê Dobrável Portátil Buba Cor Rosa
@@ -124,5 +126,3 @@ MLB68417753  Creme Pomada De Assadura Óleo Girassol A.g.e 45g Maxi Baby
     https://www.mercadolivre.com.br/p/MLB68417753
 MLB65451179  Bomba Tira Leite Elétrica Solo Hands Free Medela
     https://www.mercadolivre.com.br/p/MLB65451179
-MLB22612025  Móbile Berço Bebê Musical E Giratório Ovelinha Azul
-    https://www.mercadolivre.com.br/p/MLB22612025
