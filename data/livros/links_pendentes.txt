@@ -56,6 +56,16 @@ data/links_novos.txt no formato:  MLB123456 https://meli.la/xxxx
     https://www.mercadolivre.com.br/p/MLB74603027
 ⭐ MLB19365403  Memórias de Sherlock Holmes - Doyle, Arthur Conan - Ciranda 
     https://www.mercadolivre.com.br/p/MLB19365403
+⭐ MLB19364780  O último caso de Sherlock Holmes - Doyle, Arthur Conan - Cir
+    https://www.mercadolivre.com.br/p/MLB19364780
+⭐ MLB47627533  Dele e Dela - Livro que inspirou o thriller de sucesso da Ne
+    https://www.mercadolivre.com.br/p/MLB47627533
+⭐ MLB40647349  A contadora - McFadden, Freida - Record - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB40647349
+⭐ MLB53665702  O namorado - McFadden, Freida - Record - Capa Mole
+    https://www.mercadolivre.com.br/p/MLB53665702
+⭐ MLB19405210  Corte de espinhos e rosas (Vol. 1) - Maas, Sarah J. - Galera
+    https://www.mercadolivre.com.br/p/MLB19405210
 ⭐ MLB19407887  Sherlock Holmes - Doyle, Sir Arthur Conan - Melhoramentos - 
     https://www.mercadolivre.com.br/p/MLB19407887
 ⭐ MLB62060063  Box Sherlock Holmes – Obra completa (Capa brochura) - Doyle,
@@ -114,15 +124,5 @@ MLB19368030  Sherlock Holmes - O vale do medo - Doyle, Arthur Conan - Cir
     https://www.mercadolivre.com.br/p/MLB19368030
 MLB47100376  Cidade em ruínas – Thriller de máfia e a conclusão eletrizan
     https://www.mercadolivre.com.br/p/MLB47100376
-MLB19364780  O último caso de Sherlock Holmes - Doyle, Arthur Conan - Cir
-    https://www.mercadolivre.com.br/p/MLB19364780
-MLB47627533  Dele e Dela - Livro que inspirou o thriller de sucesso da Ne
-    https://www.mercadolivre.com.br/p/MLB47627533
-MLB40647349  A contadora - McFadden, Freida - Record - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB40647349
-MLB53665702  O namorado - McFadden, Freida - Record - Capa Mole
-    https://www.mercadolivre.com.br/p/MLB53665702
 MLB23833503  De férias com você - Henry, Emily - Verus - Capa Mole
     https://www.mercadolivre.com.br/p/MLB23833503
-MLB19405210  Corte de espinhos e rosas (Vol. 1) - Maas, Sarah J. - Galera
-    https://www.mercadolivre.com.br/p/MLB19405210
