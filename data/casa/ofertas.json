@@ -28,9 +28,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB25597222",
-    "mediana": 53.84,
+    "mediana": 53.56,
     "minimo_hist": 28.49,
-    "desconto": 47.1,
+    "desconto": 46.8,
     "recorde": true
   },
   {
@@ -171,23 +171,6 @@
   },
   {
     "data": "2026-10-10",
-    "product_id": "MLB68676964",
-    "nome": "Faqueiro Inox Curacao 24 Peças Tuut Yazi Jogo Talheres Casa Curaçau",
-    "preco": 111.91,
-    "preco_original": 117.8,
-    "n_ofertas": 6,
-    "item_id": "MLB5188326541",
-    "seller_id": 3561695886,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB68676964",
-    "mediana": 142.78,
-    "minimo_hist": 104.4,
-    "desconto": 21.6,
-    "recorde": false
-  },
-  {
-    "data": "2026-10-10",
     "product_id": "MLB53667854",
     "nome": "Sanduicheira Grill Elétrica Inox 1000W Antiaderente",
     "preco": 91.9,
@@ -239,9 +222,26 @@
   },
   {
     "data": "2026-10-10",
+    "product_id": "MLB68676964",
+    "nome": "Faqueiro Inox Curacao 24 Peças Tuut Yazi Jogo Talheres Casa Curaçau",
+    "preco": 111.91,
+    "preco_original": 117.8,
+    "n_ofertas": 6,
+    "item_id": "MLB5188326541",
+    "seller_id": 3561695886,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB68676964",
+    "mediana": 137.89,
+    "minimo_hist": 104.4,
+    "desconto": 18.8,
+    "recorde": false
+  },
+  {
+    "data": "2026-10-10",
     "product_id": "MLB76065812",
     "nome": "Sanduicheira Grill Britânia Bgr27b 1000w Preto",
-    "preco": 124.62,
+    "preco": 123.96,
     "preco_original": 259.0,
     "n_ofertas": 4,
     "item_id": "MLB7658628750",
@@ -251,7 +251,7 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB76065812",
     "mediana": 152.35,
     "minimo_hist": 109.99,
-    "desconto": 18.2,
+    "desconto": 18.6,
     "recorde": false
   },
   {
