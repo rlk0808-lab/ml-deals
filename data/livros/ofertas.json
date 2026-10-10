@@ -86,23 +86,6 @@
   },
   {
     "data": "2026-10-10",
-    "product_id": "MLB19243919",
-    "nome": "Livro Rede De Sussurros: Um thriller feminista da era #MeToo, de Baker, Chandler. Editorial Editora Intrínseca Ltda., tapa mole, en português (2019)",
-    "preco": 29.01,
-    "preco_original": null,
-    "n_ofertas": 6,
-    "item_id": "MLB5042303736",
-    "seller_id": 739066488,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB19243919",
-    "mediana": 46.29,
-    "minimo_hist": 28.45,
-    "desconto": 37.3,
-    "recorde": false
-  },
-  {
-    "data": "2026-10-10",
     "product_id": "MLB21683440",
     "nome": "Sherlock Holmes - Um Estudo em Vermelho - Doyle, Arthur Conan - Editora Garnier - Capa Mole",
     "preco": 19.0,
@@ -130,10 +113,27 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB19238937",
-    "mediana": 68.6,
+    "mediana": 68.48,
     "minimo_hist": 45.0,
-    "desconto": 34.4,
+    "desconto": 34.3,
     "recorde": true
+  },
+  {
+    "data": "2026-10-10",
+    "product_id": "MLB19243919",
+    "nome": "Livro Rede De Sussurros: Um thriller feminista da era #MeToo, de Baker, Chandler. Editorial Editora Intrínseca Ltda., tapa mole, en português (2019)",
+    "preco": 29.01,
+    "preco_original": null,
+    "n_ofertas": 6,
+    "item_id": "MLB5042303736",
+    "seller_id": 739066488,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19243919",
+    "mediana": 43.61,
+    "minimo_hist": 28.45,
+    "desconto": 33.5,
+    "recorde": false
   },
   {
     "data": "2026-10-10",
@@ -258,7 +258,7 @@
     "data": "2026-10-10",
     "product_id": "MLB19243684",
     "nome": "Libro Detalhe final (Myron Bolitar – Livro 6), de Coben, Harlan. Editorial Editora Arqueiro Ltda., tapa mole, en português (2021)",
-    "preco": 34.15,
+    "preco": 34.29,
     "preco_original": 47.2,
     "n_ofertas": 77,
     "item_id": "MLB4854749156",
@@ -268,8 +268,8 @@
     "permalink": "https://www.mercadolivre.com.br/p/MLB19243684",
     "mediana": 47.2,
     "minimo_hist": 34.15,
-    "desconto": 27.6,
-    "recorde": true
+    "desconto": 27.4,
+    "recorde": false
   },
   {
     "data": "2026-10-10",
@@ -324,6 +324,23 @@
   },
   {
     "data": "2026-10-10",
+    "product_id": "MLB38676239",
+    "nome": "MITOLOGIAS - COLEÇÃO BOX 1 - BOX 4 LIVROS - Pandorga - Pandorga Editora - Capa Mole",
+    "preco": 91.53,
+    "preco_original": null,
+    "n_ofertas": 16,
+    "item_id": "MLB5353746343",
+    "seller_id": 624662167,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB38676239",
+    "mediana": 118.92,
+    "minimo_hist": 91.53,
+    "desconto": 23.0,
+    "recorde": true
+  },
+  {
+    "data": "2026-10-10",
     "product_id": "MLB29947399",
     "nome": "O ladrão de raios: Série Percy Jackson e os olimpianos (novas capas), de Rick Riordan. Série Percy Jackson e os Olimpianos, vol. 1. Editora Intrínseca Ltda., capa mole, edição 1 em",
     "preco": 36.15,
@@ -334,9 +351,9 @@
     "frete_gratis": true,
     "full": true,
     "permalink": "https://www.mercadolivre.com.br/p/MLB29947399",
-    "mediana": 46.79,
+    "mediana": 46.71,
     "minimo_hist": 36.0,
-    "desconto": 22.7,
+    "desconto": 22.6,
     "recorde": false
   },
   {
@@ -409,6 +426,23 @@
   },
   {
     "data": "2026-10-10",
+    "product_id": "MLB19395937",
+    "nome": "Livro Sharp Objects Objetos Cortantes Gillian Flynn",
+    "preco": 63.93,
+    "preco_original": null,
+    "n_ofertas": 50,
+    "item_id": "MLB3652679837",
+    "seller_id": 643626876,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB19395937",
+    "mediana": 79.9,
+    "minimo_hist": 32.0,
+    "desconto": 20.0,
+    "recorde": false
+  },
+  {
+    "data": "2026-10-10",
     "product_id": "MLB42934246",
     "nome": "Sacramentadora - Sanderson, Brandon - Trama - Capa Mole",
     "preco": 109.0,
@@ -419,9 +453,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB42934246",
-    "mediana": 135.9,
+    "mediana": 135.8,
     "minimo_hist": 109.0,
-    "desconto": 19.8,
+    "desconto": 19.7,
     "recorde": true
   },
   {
@@ -453,9 +487,9 @@
     "frete_gratis": true,
     "full": false,
     "permalink": "https://www.mercadolivre.com.br/p/MLB19243809",
-    "mediana": 48.01,
+    "mediana": 47.84,
     "minimo_hist": 38.45,
-    "desconto": 18.7,
+    "desconto": 18.5,
     "recorde": false
   },
   {
@@ -524,23 +558,6 @@
     "mediana": 59.0,
     "minimo_hist": 48.9,
     "desconto": 17.1,
-    "recorde": true
-  },
-  {
-    "data": "2026-10-10",
-    "product_id": "MLB38676239",
-    "nome": "MITOLOGIAS - COLEÇÃO BOX 1 - BOX 4 LIVROS - Pandorga - Pandorga Editora - Capa Mole",
-    "preco": 101.0,
-    "preco_original": null,
-    "n_ofertas": 16,
-    "item_id": "MLB5353746343",
-    "seller_id": 624662167,
-    "frete_gratis": true,
-    "full": false,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB38676239",
-    "mediana": 118.92,
-    "minimo_hist": 101.0,
-    "desconto": 15.1,
     "recorde": true
   },
   {
