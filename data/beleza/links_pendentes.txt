@@ -58,8 +58,6 @@ MLB19922487  Condicionador Hidratação Impacto 500ml Midori Profissional
     https://www.mercadolivre.com.br/p/MLB19922487
 MLB61954655  Rímel Vivai Máscara Cílios Preto 4D Prova D'Água 2 Steps
     https://www.mercadolivre.com.br/p/MLB61954655
-MLB19703976  Shampoo Profissional Nutrifier 300ml Loréal Professionnel
-    https://www.mercadolivre.com.br/p/MLB19703976
 MLB70222514  Kit 3x500ml Gel Limpeza Facial Vitalizy Pele Oleosa Acneica
     https://www.mercadolivre.com.br/p/MLB70222514
 MLB20871191  Creme Para Pentear Fortalecimento Antiqueda Reconstrutor
@@ -68,6 +66,8 @@ MLB20905076  Capicilin - Creme Para Pentear Hairpantol 300ml
     https://www.mercadolivre.com.br/p/MLB20905076
 MLB26217349  Primer Facial Hd Fenzza Pr63
     https://www.mercadolivre.com.br/p/MLB26217349
+MLB19703976  Shampoo Profissional Nutrifier 300ml Loréal Professionnel
+    https://www.mercadolivre.com.br/p/MLB19703976
 MLB45700521  Gel Limpeza Facial Dove Regenerative Oleosa 150ml - Unilever
     https://www.mercadolivre.com.br/p/MLB45700521
 MLB45481915  Máscara Cílios Preto Prova D'Água Febella Curvo Volume
