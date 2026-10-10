@@ -35,6 +35,23 @@
   },
   {
     "data": "2026-10-10",
+    "product_id": "MLB67134371",
+    "nome": "Aquecedor 3 Em 1 Esterilizador Mamadeira Chupeta Papinha Bub",
+    "preco": 190.08,
+    "preco_original": 275.75,
+    "n_ofertas": 4,
+    "item_id": "MLB4574640859",
+    "seller_id": 623005433,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB67134371",
+    "mediana": 258.6,
+    "minimo_hist": 190.08,
+    "desconto": 26.5,
+    "recorde": true
+  },
+  {
+    "data": "2026-10-10",
     "product_id": "MLB23789526",
     "nome": "Creme Hidratante Bebê Hipoalergênico Bioclub 150ml Pele Delicada",
     "preco": 29.23,
@@ -49,23 +66,6 @@
     "minimo_hist": 28.18,
     "desconto": 25.8,
     "recorde": false
-  },
-  {
-    "data": "2026-10-10",
-    "product_id": "MLB67134371",
-    "nome": "Aquecedor 3 Em 1 Esterilizador Mamadeira Chupeta Papinha Bub",
-    "preco": 199.82,
-    "preco_original": 206.0,
-    "n_ofertas": 4,
-    "item_id": "MLB4573770637",
-    "seller_id": 2076470088,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB67134371",
-    "mediana": 258.6,
-    "minimo_hist": 199.82,
-    "desconto": 22.7,
-    "recorde": true
   },
   {
     "data": "2026-10-10",
@@ -185,6 +185,23 @@
     "minimo_hist": 36.0,
     "desconto": 17.2,
     "recorde": true
+  },
+  {
+    "data": "2026-10-10",
+    "product_id": "MLB45837774",
+    "nome": "Kit 5 Pomada de Assadura Bebe Bepantol Baby 60g",
+    "preco": 149.9,
+    "preco_original": 175.0,
+    "n_ofertas": 3,
+    "item_id": "MLB7766410970",
+    "seller_id": 3582719397,
+    "frete_gratis": true,
+    "full": false,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB45837774",
+    "mediana": 180.0,
+    "minimo_hist": 132.9,
+    "desconto": 16.7,
+    "recorde": false
   },
   {
     "data": "2026-10-10",
