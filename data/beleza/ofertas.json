@@ -52,6 +52,23 @@
   },
   {
     "data": "2026-10-10",
+    "product_id": "MLB52322550",
+    "nome": "Dove Condicionador Hidratação + Hialuron-vit 600ml",
+    "preco": 29.9,
+    "preco_original": 42.9,
+    "n_ofertas": 9,
+    "item_id": "MLB4123489197",
+    "seller_id": 480265022,
+    "frete_gratis": true,
+    "full": true,
+    "permalink": "https://www.mercadolivre.com.br/p/MLB52322550",
+    "mediana": 39.99,
+    "minimo_hist": 29.9,
+    "desconto": 25.2,
+    "recorde": true
+  },
+  {
+    "data": "2026-10-10",
     "product_id": "MLB57351161",
     "nome": "Gloss Labial Hidratação Labial Brilho Mel",
     "preco": 19.25,
@@ -66,23 +83,6 @@
     "minimo_hist": 19.25,
     "desconto": 23.2,
     "recorde": true
-  },
-  {
-    "data": "2026-10-10",
-    "product_id": "MLB52322550",
-    "nome": "Dove Condicionador Hidratação + Hialuron-vit 600ml",
-    "preco": 31.49,
-    "preco_original": 42.9,
-    "n_ofertas": 9,
-    "item_id": "MLB4123489197",
-    "seller_id": 480265022,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB52322550",
-    "mediana": 39.99,
-    "minimo_hist": 29.9,
-    "desconto": 21.3,
-    "recorde": false
   },
   {
     "data": "2026-10-10",
@@ -185,22 +185,5 @@
     "minimo_hist": 20.89,
     "desconto": 16.4,
     "recorde": true
-  },
-  {
-    "data": "2026-10-10",
-    "product_id": "MLB59312933",
-    "nome": "Jogo Conjunto Kit De Pincel Sombra Maquiagem 13 Peças Macio Cor Bordô",
-    "preco": 16.08,
-    "preco_original": 29.9,
-    "n_ofertas": 3,
-    "item_id": "MLB4574015595",
-    "seller_id": 457687123,
-    "frete_gratis": true,
-    "full": true,
-    "permalink": "https://www.mercadolivre.com.br/p/MLB59312933",
-    "mediana": 19.0,
-    "minimo_hist": 14.99,
-    "desconto": 15.4,
-    "recorde": false
   }
 ]
