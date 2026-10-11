@@ -2252,5 +2252,12 @@
     "primeiro_dia": "2026-10-08",
     "dias_total": 4,
     "_ultima_data_vista": "2026-10-11"
+  },
+  "MLB74344657": {
+    "menor_preco": 25.0,
+    "data_menor": "2026-10-11",
+    "primeiro_dia": "2026-10-11",
+    "dias_total": 1,
+    "_ultima_data_vista": "2026-10-11"
   }
 }
